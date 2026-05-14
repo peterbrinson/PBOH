@@ -33,3 +33,7 @@
 ## [[900 - Release]]
 *Delivering the playable game and capturing to video.*
 - [[UE Tutorial 901 - Recording with OBS]]
+
+## [[1000 - AI]]
+*Tools that bring an AI tutor into your workflow — for project planning, tutorial help, and concept questions.*
+- [[UE Tutorial 1001 - Set Up the Gemini Companion]]
