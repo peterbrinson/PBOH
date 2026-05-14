@@ -1,5 +1,6 @@
 ---
 cssclasses: unreal-tutorial
+publish: true
 ---
 
 
@@ -180,7 +181,7 @@ Press Enter. The Companion greets you and asks what you're working on. You're se
 
 ## 5. Try Your First Idea
 
-*The Companion is built around three kinds of conversation: planning a project from an idea, getting unstuck on a tutorial, or answering a concept question. The most rewarding thing to do first is bring it an idea.*
+*The Companion is built around three kinds of conversation: planning a project from an idea, getting unstuck on a tutorial, or answering a concept question.*
 
 ### A. Type your idea
 
@@ -188,19 +189,17 @@ After "Start a Companion session," the Companion greets you and asks what you're
 
 > I have an idea for a small game. The player wakes up in an abandoned library at night. There are clues scattered across the desks — a torn diary, a strange map, a photo. The player has to piece together what happened to the librarian.
 
-You don't need a finished concept. A single moment you can picture is enough to plan outward from.
+You don't need a finished concept. A situation you can picture is enough to plan outward from.
 
 ### B. Let it work
 
-The Companion will quote your idea back, ask one or two clarifying questions (*"what does the player actually do, moment to moment?"*), and identify which **player role** the idea fits. In the library example, that's the **Investigator** — finding evidence, reconstructing what happened.
-
-Then it produces a plan: which tutorials get you a player walking through the library, how to place inspectable clues (Tutorial 801), how to dress the space with Materials, where atmosphere belongs, and a build order so you don't have to guess what to do first.
+The Companion will quote your idea back, ask one or two clarifying questions and identify which [Situated Player Role](https://publish.obsidian.md/brinson/The+Companion/Situated+Player+Roles/Situated+Player+Roles) the idea fits. 
 
 You can ask the Companion to save the plan to a file in the folder — handy if you want to come back to it.
 
 ### C. What works
 
-- **Describe what the player experiences, not the mechanics.** *"The player wanders through fog and hears voices"* tells the Companion more than *"I want to use the Niagara system."* The Companion's job is to map experience to mechanics for you.
+- **Describe what the player experiences; mechanics aren't essential.** *"The player wanders through fog and hears voices"* tells the Companion more than *"I want to use the Niagara system."* The Companion's job is to map experience to mechanics for you.
 - **Tutorial help is also fair game.** *"I'm stuck on Tutorial 4, section D — the light snaps instead of fading"* — name the tutorial and section, describe what you did and what's happening. Numbers help: *"the light stops at 0.0037 after 3 seconds"* is enough to diagnose.
 - **Concept questions land cleanly too.** *"What's a Blueprint Interface? When would I use one?"* — the Companion answers from the wiki and tells you where to read more.
 - **Bring half-formed ideas.** The Companion listens first and probes before prescribing. You don't have to arrive with a finished concept.
