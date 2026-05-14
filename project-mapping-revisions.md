@@ -175,4 +175,21 @@ Untested — first real use will surface what's missing.
 
 The 1-vs-2 tradeoffs question was already tracked in `companion-todo.md`; no additional move needed.
 
+### 2026-05-14 — No numbered assignments in student-facing prose
+
+**What was wrong:** First real Gemini session opened by asking the student "Assignment 1, 2, or 3?" with role and hybrid labels. Administrative framing — students think in terms of what they're making, not numbered slots. The skill's Step 1 question ("Is this for one of the named-role assignments… if they say an assignment, confirm which") combined with the table that led with `Assignment N` as its first column led the companion to enumerate by number.
+
+**Rule added** (to Tone section vocabulary): Never refer to assignments by number to students. Use role/project names — the **Investigator** project, the **Traveler** project, the **Playable Narrative** final. Numbered framing is internal shorthand only.
+
+**Changes to the skill:**
+
+1. **Step 1 table restructured.** Role/project name is now the lead column; the numbered label demoted to a third "Internal label" column with explicit "never surface to the student" guidance.
+2. **Step 1 question recast.** Now asks the student by role/project name directly: *"Is this for the Investigator project, the Traveler project, the Playable Narrative final, or something you're exploring on your own?"* Followed by an explicit prohibition on enumerating by number.
+3. **Tone section vocabulary block** gained a third bullet (alongside marginalia and worldbuilding) for the no-numbered-assignments rule.
+4. **Three good-phrasing examples** updated to swap "Assignment 2's territory" / "that's what Assignment 2 is built for" → "the **Traveler** project's territory" / "that's what the **Traveler** project is built for." Locations: Step 3 Branch A cross-role guidance, Step 5 off-role mapping rule, edge case for single-role student with cross-role idea.
+
+Agent-facing labels (branch headers like "Single-role assignment (Assignment 1 or 2)", time-aware vocab notes) deliberately retained — they're shorthand for the agent's internal reference, not student-facing prose.
+
+Memory saved: [[feedback_no_numbered_assignments_to_students]].
+
 **Source:** instructor question 2026-05-13 about the log's runtime cost vs. value. Three-step pass agreed: harvest "why" + harvest open questions → move log.
