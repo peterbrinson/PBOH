@@ -175,6 +175,56 @@ Untested — first real use will surface what's missing.
 
 The 1-vs-2 tradeoffs question was already tracked in `companion-todo.md`; no additional move needed.
 
+### 2026-05-15 — Numbered questions scoped to the first response only
+
+**What was wrong:** The earlier numbering rule (numbers continue across turns) produced an awkward `4.` label on a single conversational question in turn 3 of the Sylvia conversation, mid-flow. Instructor flagged: numbering subsequent turns reads as bureaucracy when the conversation is just flowing back-and-forth.
+
+**Rule refined:**
+
+- **Numbers** appear in the **very first companion response only** (typically the Step 1 context check + any Step 2 listening probes in that opening turn). Numbering helps the student answer the opening batch piece by piece.
+- **After the first response, conversational questions go unnumbered.** Just plain questions in conversational flow.
+- **Letters (A, B)** still apply to the two closing follow-ups in Step 7's planning template. Unchanged.
+
+**Changes:** Tone section's labeling rule rewritten with the tighter scope. Step 7 follow-ups subsection's cross-reference updated. Template `_response-template.md` updated. `response-sylvia-house.md` preamble consolidated to reflect the final form (the intermediate "numbered #4/#5" form is noted as superseded).
+
+**Source:** instructor feedback 2026-05-15 mid-conversation, after the `4.` label appeared in turn 3 of the live Sylvia walkthrough.
+
+### 2026-05-15 — Four format rules from continued Sylvia review
+
+**Source:** Continued instructor review of `response-sylvia-house.md` (same session as the instructor-doesnt-gate entry below). Four format additions.
+
+**Rules added/changed:**
+
+1. **Number questions across the whole conversation.** Added to the Tone section. When the companion asks the student a question — Step 1 context check, Step 2 listening probes, Step 7 follow-ups — number it. Numbering continues across turns: if turn 1 asked 3 questions, the next is #4. Reason: numbered questions are easy for the student to refer back to ("for #2…") without ambiguity.
+
+2. **Two follow-up questions required at the end of every response.** New sub-section in Step 7, after "The part I'm most excited about." Format: **"Tell me more about ___"** with the blank filled by a *specific aspect* of the student's idea (a moment, a mechanic, a juxtaposition). Menu of question shapes: juxtapositions/contrasts, what the player feels at a moment/mechanic, what the player learns at a moment/interaction, what the player wonders or ponders, what will surprise them, what's clear vs. ambiguous. Pick two distinct aspects so they don't overlap. The two questions extend the closing momentum into the next turn. One-response template updated to include the new lines (lettered A and B); two-response commentary updated — the two follow-ups appear *once* at the very end (after both responses), about the *idea* (which both responses share), not about which response to pick.
+
+   *Refined later 2026-05-15:* the closing pair is always **labeled A and B**, not numbered. Numbers are reserved for back-and-forth conversation questions (Step 1 context checks, Step 2 listening probes, clarifying mid-planning), which continue numbering across turns. The lettered closing pair is always A and B regardless of how many numbered questions preceded — keeps them visually distinct. Tone section's labeling rule split into two schemes (numbers vs. letters); Step 7 follow-ups subsection updated; one-response template format block updated; all three existing response files retrofitted (Sylvia A/B, workshop-walk A/B, library-after-hours A/B). Reason: in the Sylvia file the follow-ups were numbered #4 and #5 because turn 1 had 3 numbered clarifying questions, which made the labeling depend on conversation history rather than carrying a stable visual signature. A/B is stable and instantly recognizable as "the closing pair."
+
+3. **Linking — wikilink in-vault, URL out-of-vault.** Recants the prior SPR-URL-only rule (which was based on the assumption that students only read via chat). Wikilinks resolve in Obsidian *and* are processed correctly by Obsidian Publish into clickable site links. Use **wikilinks** for in-vault targets — SPR pages, Reference pages, wiki pages, tutorials. Use **URLs** only for out-of-vault targets — UE official docs, Steam pages, YouTube, external sites. The Tone section's old SPR-URL bullet (with the four full URLs listed) was replaced with the new wikilink rule plus a one-line link to the memory. Memory: [[prefer-wikilinks-in-vault]].
+
+4. **Worked-example response template.** Created `_response-template.md` in `The Companion (Instructor)/`. Skeleton structure with placeholders for all sections (preamble, idea quote, project restate, what-kind-of-experience with role bullets, build order, what-to-look-up-on-your-own, tradeoff in compressed-or-full form, reference, instructor-consult, excited-about, two-follow-ups, save-offer). Used in iterate-companion sessions instead of reading prior response files to derive format — saves both token cost and drift risk. Pointer added to `companion-todo.md` under a new "Maintainer files" section.
+
+**Source:** instructor feedback 2026-05-15.
+
+**Status:** `response-sylvia-house.md` updated to use wikilinks throughout and to include the two numbered follow-ups (#4 and #5, continuing from 3 prior clarifying questions in turn 1). Preamble updated to flag the four new rules.
+
+### 2026-05-15 — Instructor doesn't gate; "Worth bringing up" scope narrowed to theme / opportunity / affect
+
+**What was wrong:** The Sylvia-house worked example (second I+T hybrid test) noticed that the player's Investigator mechanics were absent (VO doing the I-work, no player-discoverable evidence) and turned that into an instructor question: *"Worth checking with the instructor whether (a) the design as-is satisfies the Investigator side of the assignment, or (b) you'd want to add evidence pieces…"* Instructor flagged this as wrong on multiple counts: **the instructor doesn't gate or grade students for deviating from a role's mechanical pattern**, and "does this satisfy the assignment" is exactly the kind of question that implies a gate the instructor doesn't operate. Role observations belong inline as analysis. The instructor-consult section is for a narrower scope: **theme, opportunity, and how to communicate ideas/moods to the player affectively**.
+
+**Rules added/changed:**
+
+1. **Step 7 "Worth bringing up with the instructor" section rewritten.** The four prior triggers (role ambiguity, scope ambition, meaning/intent, technical direction) collapsed and replaced with three legitimate ones — **Theme, Opportunity, Affective communication** — plus an explicit "what does NOT qualify" block calling out role-mechanical fit and engineering choices. The role-ambiguity, scope-ambition, and technical triggers are removed: those are gating-flavored or engineering, neither of which is the instructor's territory. Sensitive content (autobiography, violence, identity) folds into Theme.
+
+2. **Companion handles role-mechanical gaps as inline observation, not as instructor questions.** When a project shows a role-mechanical gap (e.g., the Investigator content is present but the player isn't mechanically finding evidence), name it as a *fact about the design* with directions left open for the student to take or not. Do not escalate. Memory: [[instructor-doesnt-gate]].
+
+3. **Sylvia-house response file updated** in line with the new rule. The Investigator bullet in "What kind of experience" absorbed the role-mechanics observation (with directions named as opportunities the student can take or not). The "Worth bringing up with the instructor" section was replaced with a theme question (where Sylvia's arc lands → what the work is about) and an affective question (how the player should feel the child-body / adult-VO gap → pacing, silence, music, ending).
+
+**Source:** instructor feedback 2026-05-15.
+
+**Possibly affects existing files:** `response-library-after-hours.md` ends its instructor-consult section with "which lands strongest in the course's worldbuilding frame" — a "lands strongest" closer that softly implies instructor adjudication of fit, plus the already-forbidden "worldbuilding frame" vocabulary. Not retro-edited; flagged here for awareness.
+
 ### 2026-05-14 — No numbered assignments in student-facing prose
 
 **What was wrong:** First real Gemini session opened by asking the student "Assignment 1, 2, or 3?" with role and hybrid labels. Administrative framing — students think in terms of what they're making, not numbered slots. The skill's Step 1 question ("Is this for one of the named-role assignments… if they say an assignment, confirm which") combined with the table that led with `Assignment N` as its first column led the companion to enumerate by number.

@@ -206,7 +206,19 @@ You can ask the Companion to save the plan to a file in the folder — handy if 
 
 ---
 
-## 6. Troubleshooting
+## 6. Next Time You Use the Companion
+
+You've installed Gemini and set up The Companion. Next time you want to work with it:
+
+1. Open your terminal (Windows: Windows Key → `PowerShell` → Enter; macOS: Cmd + Space → `Terminal` → Enter).
+2. Navigate to The Companion folder: type `cd ` (with a trailing space), drag the folder into the terminal, press Enter.  You'll see the absolute folder path filled in.  
+3. Run `gemini`.
+4. At the prompt, type **Start a Companion session.**
+
+
+---
+
+## 7. Troubleshooting
 
 ### A. Windows: "Scripts are disabled on this system"
 
