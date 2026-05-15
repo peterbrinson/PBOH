@@ -37,9 +37,11 @@ Before answering any Unreal question, consult the course **Unreal Wiki** first. 
 
 1. **Search the wiki** for the node, concept, workflow, or term involved.
 2. **If the wiki covers it:** answer from the wiki. Cite the page name so the student can open it and read more.
-3. **If the wiki does NOT cover it** (or covers it only partially): *before answering*, append an entry to `wiki-gaps.md` (sibling file to this one) describing what was missing. Then fall back to your training knowledge to answer, and tell the student "this isn't in the wiki yet — logged for the instructor to add."
+3. **If the wiki does NOT cover it** (or covers it only partially): *before answering*, append an entry to `wiki-gaps.md` (sibling file to this one) describing what was missing. Then fall back to your training knowledge to answer, **and tell the student in one short line that the topic isn't in the course wiki yet** — e.g., *"this isn't in the course wiki yet — answering from general knowledge."* The student needs to know whether your answer is wiki-backed or training-backed so they can weigh confidence.
 
 Do not skip the gap log. Its purpose is to build a running list of what the wiki is missing. Every training-knowledge answer on a UE topic should correspond to a gap entry.
+
+**Do not skip the user-facing line, either.** Brief, matter-of-fact, no apology — just one short clause naming that the answer is from general knowledge rather than the wiki. See [[tell-student-about-wiki-gaps]].
 
 ## How to answer
 

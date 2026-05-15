@@ -14,6 +14,7 @@ A structured reference for Unreal Engine 5 concepts. Generated from official doc
 - [[Actor Has Tag]] — checks if an actor's Tags array contains a specific name; lightweight filtering alternative to Cast To
 - [[Branch]] — if/else flow control; routes execution based on a boolean condition
 - [[Cast To]] — type-checks an object and gives access to its class-specific variables and functions
+- [[Delay]] — pauses execution on the wire for N seconds, then continues; latent node
 - [[DestroyActor]] — permanently removes an actor from the scene during gameplay
 - [[For Each Loop]] — iterates over each element in an array, executing logic per element
 - [[Gate]] — open/close/toggle valve for execution pulses; blocks or allows a stream of execution
@@ -117,6 +118,7 @@ A structured reference for Unreal Engine 5 concepts. Generated from official doc
 ## Input & Interaction
 
 - [[Enhanced Input]] — UE5 input system: Input Actions (what the player can do), Input Mapping Contexts (which keys trigger what), modifiers, triggers
+- [[Input Control]] — turn player input on/off (all-at-once or selective): Disable Input / Enable Input vs. Set Ignore Look/Move Input
 
 ## Recording & Output
 

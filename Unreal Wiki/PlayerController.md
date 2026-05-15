@@ -45,7 +45,7 @@ Each PlayerController typically has:
 Use **Get Player Controller** (index 0 for single-player) to retrieve it. [[Cast To]] your custom PlayerController subclass if you've added variables or functions.
 
 **Disabling input while reading ([[UE Tutorial 801 - Inspect an Object|Tutorial 801]] pattern):**
-When the player opens a note, call **Set Ignore Look Input** and **Set Ignore Move Input** (both checked) on the PlayerController to freeze the camera and movement. When the note closes, call both again with inputs unchecked to restore control. This is cleaner than disabling the entire input stack — it selectively blocks look and move while still allowing the E key to close the note.
+When the player opens a note, call **Set Ignore Look Input** and **Set Ignore Move Input** (both checked) on the PlayerController to freeze the camera and movement. When the note closes, call both again with inputs unchecked to restore control. This is cleaner than disabling the entire input stack — it selectively blocks look and move while still allowing the E key to close the note. See [[Input Control]] for the full reference (all four input-gating nodes, the counter-behavior gotcha, and the choose-between-the-pairs guide).
 
 ## Related
 

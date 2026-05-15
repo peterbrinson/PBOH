@@ -21,3 +21,10 @@ Keep entries terse. One entry per gap. If the same gap comes up again, append a 
 ## Gaps
 
 <!-- Append new entries below. Newest at bottom. -->
+
+### 2026-05-15 — Input freezing at game start *(filled)*
+- **Student asked:** How to freeze player controls for 10 seconds at the start of a game. (Sally / Gemini session)
+- **Wiki coverage at the time:** Partial — [[PlayerController]] mentioned Set Ignore Look/Move Input briefly in a Tutorial 801 pattern note. No dedicated coverage of the input-gating nodes or of `Delay`.
+- **What was missing:** Dedicated pages for `Delay`, `Disable Input`, `Enable Input`, `Set Ignore Look Input`, `Set Ignore Move Input`.
+- **Answered from:** Gemini's training knowledge.
+- **Filled by:** [[Delay]] (new) and [[Input Control]] (new — consolidates all four input-gating nodes into one page with choose-between-the-pairs guidance and the counter-behavior gotcha). [[PlayerController]]'s existing Tutorial 801 pattern note now cross-links to [[Input Control]] for the full reference. Index updated.

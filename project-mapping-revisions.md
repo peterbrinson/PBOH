@@ -175,6 +175,16 @@ Untested — first real use will surface what's missing.
 
 The 1-vs-2 tradeoffs question was already tracked in `companion-todo.md`; no additional move needed.
 
+### 2026-05-15 — Tradeoff section opener; tell-student-about-wiki-gaps reversal
+
+**Source:** Two pieces of instructor feedback after the Sally / Gemini test session and Sylvia worked-example review.
+
+**Rules added/changed:**
+
+1. **Tradeoff section always opens with a framing line.** Step 7's tradeoff sub-section now requires the response to open with the verbatim line *"Often designing tradeoffs is a compelling way to engage the player."* — for both formats. The line frames the section pedagogically (this is *why* we're naming it) before either naming a designed-in tradeoff or proposing directions for adding one. The earlier rule "don't pad with explanations of why tradeoffs matter" was changed to "don't pad beyond the opening framing line" — the line itself is now the explanation. Compressed-format template updated; full-strength rule updated; `_response-template.md` updated; all three existing response files retrofitted (Sylvia, workshop-walk, library-after-hours).
+
+2. **Wiki gaps: tell the student briefly. (Recant of "don't narrate" rule.)** Sally's Gemini session correctly logged a wiki gap when she asked about freezing player controls — but didn't tell Sally what was happening. Instructor flagged: the student *needs* the meta-information to weigh confidence (wiki-backed answer comes from curated course content; training-backed answer comes from LLM general knowledge and may drift from course conventions). The earlier `project-mapping.md` rule "do not narrate the logging to the student or frame it as a vault deficiency" is recanted. New rule: when falling back on training knowledge, the Companion **logs the gap AND tells the student in one short line** ("this isn't in the course wiki yet — answering from general knowledge"). Brief and matter-of-fact: no apology, no narration of the logging mechanism, no framing of the wiki as deficient. The charter (which already had a "tell the student" line) was tightened to emphasize the user-facing line is non-negotiable. Memory: [[tell-student-about-wiki-gaps]].
+
 ### 2026-05-15 — Numbered questions scoped to the first response only
 
 **What was wrong:** The earlier numbering rule (numbers continue across turns) produced an awkward `4.` label on a single conversational question in turn 3 of the Sylvia conversation, mid-flow. Instructor flagged: numbering subsequent turns reads as bureaucracy when the conversation is just flowing back-and-forth.
