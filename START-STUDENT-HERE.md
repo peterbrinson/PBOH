@@ -40,6 +40,7 @@ You don't have to use those exact phrasings. Just say what you're trying to do.
 | `Unreal Wiki/` | Quick-reference pages on Blueprint concepts. Start at `+ UE Wiki Index`. |
 | `Situated Player Roles/` | Four player roles — **Investigator, Traveler, Entrant, Dreamer** — that frame design decisions. |
 | `References/` | Game and film examples (Gone Home, Outer Wilds, Twin Peaks, etc.) the AI may cite. |
+| `student-only/` | **Your personal working folder.** The Companion saves your project plans, notes, references you collect, and a "where we left off" summary here. See the README inside. |
 
 You can ignore the rest until you need it. The AI will route you to specific files when relevant.
 

@@ -140,10 +140,9 @@ If you already have `git` installed, this is the better path. The Companion gets
 
 In your terminal, type `cd ` (with a trailing space) and then **drag the Companion folder** into the terminal window. The folder's path gets pasted automatically. Press Enter.
 
-Example on Windows after the drag:
-```
+Example on Windows after the drag.   This is only an example, your path will be different:
 cd "C:\Users\you\Documents\TheCompanion-main"
-```
+
 
 ### B. Start Gemini
 

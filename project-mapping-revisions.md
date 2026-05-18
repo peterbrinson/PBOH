@@ -253,3 +253,42 @@ Agent-facing labels (branch headers like "Single-role assignment (Assignment 1 o
 Memory saved: [[feedback_no_numbered_assignments_to_students]].
 
 **Source:** instructor question 2026-05-13 about the log's runtime cost vs. value. Three-step pass agreed: harvest "why" + harvest open questions → move log.
+
+### 2026-05-18 — Companion may never run git or any remote operation
+
+**What was wrong:** First in-class test of the Companion with 20 students in 128 surfaced a runtime over-reach. One student's session correctly logged a wiki gap to `wiki-gaps.md`, then tried to push to the instructor's GitHub. The push failed (no credentials), but a successful push would have leaked the student's session into the instructor's repo. The runtime inferred "log the gap" meant "commit + push the change."
+
+**Rules added:**
+
+1. **Blanket "never run git" rule** in `charter.md`'s "What not to do" section. Covers every file the Companion writes — `wiki-gaps.md`, saved project plans, anything in `student-only/`. No `git add`, `commit`, `push`, `pull`, or any remote operation. Hard rule, no exceptions.
+
+2. **Gap-log flow tightened** in `charter.md`'s "Where to look first" — new paragraph after the "do not skip the gap log" line: logging means editing the file and stopping. The student's bundle is a local copy; the instructor syncs gaps on their side.
+
+3. **Tone-section wiki-gap bullet** in `project-mapping.md` gained a pointer to the charter's blanket rule.
+
+**Source:** 2026-05-18 in-class test of the Companion with 20 students in 128.
+
+**Memory:** [[companion-no-git-or-remote]].
+
+### 2026-05-18 — Student-only files: `student-only/` for student-side memory
+
+**What was missing:** Students using the Companion had no designated home for personal memory — session continuity, notes, references they collect, project plans, questions for the instructor. Project plans were saved to "the student's project folder" (location undefined for a folder-delivered Companion); nothing else had a home.
+
+**Rules added:**
+
+1. **New `## Student-only files` section in `charter.md`** defining the `student-only/` folder structure:
+   - `where-we-left-off.md` — single-file session handoff, overwritten each time
+   - `notes/<topic>.md` — topic-specific free-form notes
+   - `references/` — student-curated Game/Film examples parallel to root `References/`
+   - `projects/project-plan-<name>.md` — saved project plans
+   - `instructor-questions.md` — running list for office hours, append-only
+
+2. **"Remember this" routing rule.** When the student says "remember this" without specifying what kind, the Companion asks one short question — *"For where you left off, as a note, as a reference, or as a question for the instructor?"* — and writes to the matching file. If context makes routing obvious, route silently.
+
+3. **`## Session start` section amended** to look for `student-only/where-we-left-off.md` before greeting; if present, open by acknowledging it and asking whether to pick up from there. Writing-the-file guidance: overwrite (don't append) at natural pauses or when the student stops.
+
+4. **Step 7 save offer rewritten** to target `student-only/projects/project-plan-<name>.md` instead of an undefined "project folder." Distinctive-filename rule unchanged.
+
+**Source:** instructor design conversation 2026-05-18, paired with the same-day "never run git" rule (both surfaced from the in-class test of the Companion with 20 students in 128).
+
+**Status:** untested in a real session. Worth exercising in the next worked example or — better — observing the next student session that uses it.
