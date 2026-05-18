@@ -9,7 +9,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, the Gemini command-line interface (CLI) is installed on your computer, connected to your Google account, and pointed at The Companion's content so you can hold a conversation with it about your Unreal project.
+**Outcome.** By the end of this tutorial, the Gemini command-line interface (CLI) is installed on your computer, connected to your Google account, and pointed at The Companion's content. You'll have typed `Start a Companion session.` and gotten the first greeting back — ready for [[UE Tutorial 1031 - Getting Started with the Companion]] to learn what to do next.
 
 **Time.** About 15 minutes if everything goes smoothly.
 
@@ -94,11 +94,11 @@ You should see a version number. If you see `not recognized` or `command not fou
 
 ---
 
-## 3. Download The Companion
+## 3. Download The Companion: Choose A or B
 
 *The Companion's content — tutorials, wiki pages, role descriptions, references — lives in a public GitHub repository. You have two ways to get it onto your machine. Either works.*
 
-### A. ZIP download (simpler, best for your first time)
+### A. (simpler, best for your first time) ZIP download 
 
 The easier path. Get a one-time snapshot.
 
@@ -112,7 +112,7 @@ The easier path. Get a one-time snapshot.
 
 <span class="hint">GitHub may cover the Download ZIP button with a "Sign in" banner. You don't need a GitHub account — dismiss the banner if it appears.</span>
 
-### B. Git clone (lets you fetch updates later)
+### B. (lets you fetch updates later) Git clone 
 
 If you already have `git` installed, this is the better path. The Companion gets updated over time; with a clone, future updates take one command (`git pull`) instead of a full re-download.
 
@@ -175,50 +175,12 @@ Once you see Gemini's prompt, type:
 Start a Companion session.
 ```
 
-Press Enter. The Companion greets you and asks what you're working on. You're set.
+Press Enter. The Companion greets you and asks what you're working on. 
+### *You're set up* — continue to [[UE Tutorial 1031 - Getting Started with the Companion]].
 
 ---
 
-## 5. Try Your First Idea
-
-*The Companion is built around three kinds of conversation: planning a project from an idea, getting unstuck on a tutorial, or answering a concept question.*
-
-### A. Type your idea
-
-After "Start a Companion session," the Companion greets you and asks what you're working on. Tell it about an idea you have. Something concrete is best — describe the **experience**, not the mechanics. For example:
-
-> I have an idea for a small game. The player wakes up in an abandoned library at night. There are clues scattered across the desks — a torn diary, a strange map, a photo. The player has to piece together what happened to the librarian.
-
-You don't need a finished concept. A situation you can picture is enough to plan outward from.
-
-### B. Let it work
-
-The Companion will quote your idea back, ask one or two clarifying questions and identify which [Situated Player Role](https://publish.obsidian.md/brinson/The+Companion/Situated+Player+Roles/Situated+Player+Roles) the idea fits. 
-
-You can ask the Companion to save the plan to a file in the folder — handy if you want to come back to it.
-
-### C. What works
-
-- **Describe what the player experiences; mechanics aren't essential.** *"The player wanders through fog and hears voices"* tells the Companion more than *"I want to use the Niagara system."* The Companion's job is to map experience to mechanics for you.
-- **Tutorial help is also fair game.** *"I'm stuck on Tutorial 4, section D — the light snaps instead of fading"* — name the tutorial and section, describe what you did and what's happening. Numbers help: *"the light stops at 0.0037 after 3 seconds"* is enough to diagnose.
-- **Concept questions land cleanly too.** *"What's a Blueprint Interface? When would I use one?"* — the Companion answers from the wiki and tells you where to read more.
-- **Bring half-formed ideas.** The Companion listens first and probes before prescribing. You don't have to arrive with a finished concept.
-
----
-
-## 6. Next Time You Use the Companion
-
-You've installed Gemini and set up The Companion. Next time you want to work with it:
-
-1. Open your terminal (Windows: Windows Key → `PowerShell` → Enter; macOS: Cmd + Space → `Terminal` → Enter).
-2. Navigate to The Companion folder: type `cd ` (with a trailing space), drag the folder into the terminal, press Enter.  You'll see the absolute folder path filled in.  
-3. Run `gemini`.
-4. At the prompt, type **Start a Companion session.**
-
-
----
-
-## 7. Troubleshooting
+## 5. Troubleshooting
 
 ### A. Windows: "Scripts are disabled on this system"
 
@@ -281,7 +243,6 @@ If it shows `gemini-api-key`, follow Troubleshooting section B above.
 
 ## What you can now do
 
-- **Plan a project with the Companion** — describe an idea, get it broken into features, mapped against the tutorials, and sequenced into a build order
-- **Get tutorial help** — ask the Companion to walk you through a tutorial step, diagnose a stuck Blueprint, or explain a concept you've hit
-- **Ask concept questions** — what is a Material, how does a Blueprint Interface work, why does this lerp look wrong
-- **Pull future updates** — if you used `git clone` in Chapter 3, run `git pull` inside the folder to receive Companion changes without re-downloading
+- **Continue to [[UE Tutorial 1031 - Getting Started with the Companion]]** — the main next step. Learn how to talk to the Companion through the three conversation types.
+- **Optional: [[UE Tutorial 1002 - Set Up Gemini in VSCode]]** — if you'd rather work in VSCode than a bare terminal, this brings the same Companion into a richer environment.
+- **Pull future updates** — if you used `git clone` in Chapter 3, run `git pull` inside the folder to receive Companion changes without re-downloading.

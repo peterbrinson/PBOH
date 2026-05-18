@@ -34,6 +34,8 @@
 *Delivering the playable game and capturing to video.*
 - [[UE Tutorial 901 - Recording with OBS]]
 
-## [[1000 - AI]]
+## [[1000 - LLM]]
 *Tools that bring an AI tutor into your workflow — for project planning, tutorial help, and concept questions.*
 - [[UE Tutorial 1001 - Set Up the Gemini Companion]]
+- [[UE Tutorial 1002 - Set Up Gemini in VSCode]]
+- [[UE Tutorial 1031 - Getting Started with the Companion]]
