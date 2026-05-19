@@ -1,3 +1,7 @@
+---
+publish: false
+---
+
 # Start Here — Unreal Tutorial Companion
 
 This folder is your AI tutor for Unreal Engine. It works with either **Claude** or **Gemini** — you pick. Setup is the same either way.

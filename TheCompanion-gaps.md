@@ -2,9 +2,9 @@
 publish: false
 ---
 
-# Wiki Gaps Log
+# Companion Gaps
 
-Running list of UE topics, nodes, or workflows the student asked about that are **not** (or only partially) covered in the course Unreal Wiki. Claude appends here whenever it has to fall back on training knowledge. The instructor reviews this list to decide what to add to the wiki next.
+Running list of gaps in the Companion's coverage — primarily UE topics not in the course wiki, but also other things the student wants flagged back to the instructor (course materials that confused, references worth adding, design observations). The Companion appends here when it falls back on training knowledge or when the student asks for something to be flagged. The instructor reviews this list to decide what to update or add next.
 
 ## Entry format
 

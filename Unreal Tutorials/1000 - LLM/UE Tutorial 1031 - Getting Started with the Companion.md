@@ -5,7 +5,7 @@ publish: true
 
 
 
-*Now that Gemini is running and the Companion has greeted you, learn the three conversation types that get the most out of it: planning a project from an idea, getting unstuck on a tutorial, or answering a concept question.*
+*Open a Companion session today — every day, the same four steps — then try the three conversation types that get the most out of it: planning a project from an idea, getting unstuck on a tutorial, or answering a concept question.*
 
 ## 0. Introduction
 
@@ -14,19 +14,36 @@ publish: true
 **Time.** About 10 minutes.
 
 **Prerequisites.**
-For Gemini -- [[UE Tutorial 1001 - Set Up the Gemini Companion]]. Gemini is installed, authenticated, and you've typed `Start a Companion session.` to get the first greeting.
+For Gemini -- [[UE Tutorial 1001 - Set Up the Gemini Companion]]. Gemini is installed and authenticated.
 
 For Claude Code -- *forthcoming*
 
 ---
 
-## 1. Try Your First Idea
+## 1. Start Your Session
+
+#### *Already have Gemini running with the Companion greeting? Skip to Section 2.*
+
+Do this every time you come back to the Companion — first time, after a break, or after you've closed your terminal. The same four steps every time:
+
+1. **Open your terminal.**
+   - Windows: Windows Key → type `PowerShell` → Enter
+   - macOS: Cmd + Space → type `Terminal` → Enter
+2. **Navigate to The Companion folder.** Type `cd ` (with a trailing space), drag the folder into the terminal, then press Enter. You'll see the absolute folder path filled in.
+3. **Run `gemini`.**
+4. **At the prompt, type:** `Start a Companion session.`
+
+The Companion will greet you and ask what you're working on.
+
+---
+
+## 2. Try Your First Idea
 
 *The Companion is built around three kinds of conversation: planning a project from an idea, getting unstuck on a tutorial, or answering a concept question.*
 
 ### A. Type your idea
 
-After "Start a Companion session," the Companion greets you and asks what you're working on. Tell it about an idea you have. Something concrete is best — describe the **experience**, not the mechanics. For example:
+Tell the Companion about an idea you have. Something concrete is best — describe the **experience**, not the mechanics. For example:
 
 > I have an idea for a small game. The player wakes up in an abandoned library at night. There are clues scattered across the desks — a torn diary, a strange map, a photo. The player has to piece together what happened to the librarian.
 
@@ -44,17 +61,6 @@ You can ask the Companion to save the plan to a file in the folder — handy if 
 - **Tutorial help is also fair game.** *"I'm stuck on Tutorial 4, section D — the light snaps instead of fading"* — name the tutorial and section, describe what you did and what's happening. Numbers help: *"the light stops at 0.0037 after 3 seconds"* is enough to diagnose.
 - **Concept questions land cleanly too.** *"What's a Blueprint Interface? When would I use one?"* — the Companion answers from the wiki and tells you where to read more.
 - **Bring half-formed ideas.** The Companion listens first and probes before prescribing. You don't have to arrive with a finished concept.
-
----
-
-## 2. Next Time You Use the Companion
-
-You've installed Gemini and set up The Companion. Next time you want to work with it:
-
-1. Open your terminal (Windows: Windows Key → `PowerShell` → Enter; macOS: Cmd + Space → `Terminal` → Enter).
-2. Navigate to The Companion folder: type `cd ` (with a trailing space), drag the folder into the terminal, press Enter. You'll see the absolute folder path filled in.
-3. Run `gemini`.
-4. At the prompt, type **Start a Companion session.**
 
 ---
 

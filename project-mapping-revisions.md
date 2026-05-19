@@ -256,11 +256,11 @@ Memory saved: [[feedback_no_numbered_assignments_to_students]].
 
 ### 2026-05-18 — Companion may never run git or any remote operation
 
-**What was wrong:** First in-class test of the Companion with 20 students in 128 surfaced a runtime over-reach. One student's session correctly logged a wiki gap to `wiki-gaps.md`, then tried to push to the instructor's GitHub. The push failed (no credentials), but a successful push would have leaked the student's session into the instructor's repo. The runtime inferred "log the gap" meant "commit + push the change."
+**What was wrong:** First in-class test of the Companion with 20 students in 128 surfaced a runtime over-reach. One student's session correctly logged a wiki gap to `TheCompanion-gaps.md`, then tried to push to the instructor's GitHub. The push failed (no credentials), but a successful push would have leaked the student's session into the instructor's repo. The runtime inferred "log the gap" meant "commit + push the change."
 
 **Rules added:**
 
-1. **Blanket "never run git" rule** in `charter.md`'s "What not to do" section. Covers every file the Companion writes — `wiki-gaps.md`, saved project plans, anything in `student-only/`. No `git add`, `commit`, `push`, `pull`, or any remote operation. Hard rule, no exceptions.
+1. **Blanket "never run git" rule** in `charter.md`'s "What not to do" section. Covers every file the Companion writes — `TheCompanion-gaps.md`, saved project plans, anything in `student-only/`. No `git add`, `commit`, `push`, `pull`, or any remote operation. Hard rule, no exceptions.
 
 2. **Gap-log flow tightened** in `charter.md`'s "Where to look first" — new paragraph after the "do not skip the gap log" line: logging means editing the file and stopping. The student's bundle is a local copy; the instructor syncs gaps on their side.
 
@@ -292,3 +292,23 @@ Memory saved: [[feedback_no_numbered_assignments_to_students]].
 **Source:** instructor design conversation 2026-05-18, paired with the same-day "never run git" rule (both surfaced from the in-class test of the Companion with 20 students in 128).
 
 **Status:** untested in a real session. Worth exercising in the next worked example or — better — observing the next student session that uses it.
+
+### 2026-05-19 — No-git rule softened: "don't offer," not "never run"
+
+**What changed:** The 2026-05-18 rule was an absolute prohibition ("never run git, never any remote operation"). On 2026-05-19 the rule was softened: the Companion *doesn't offer* to run git for the student and doesn't execute git commands, but it can explain the setup conceptually when git comes up in conversation.
+
+**Why:** The capability isn't intrinsically bad. The Companion will eventually be ready to push `TheCompanion-gaps.md` and `student-only/references/` to the student's class repo so the instructor can read and consider them — that's a desirable future feature. The 2026-05-18 absolute phrasing closed off the future direction; the softened phrasing keeps the safety property (no unsolicited execution that could leak student content) while leaving the door open.
+
+**Skill mirror updated:** The Step 5 wiki-gap tone bullet's parenthetical changed from *"Write the file only — never run git or any remote operation"* to *"Write the file only — don't offer to push or sync."* Points back to `charter.md`'s "What not to do" for the full rule.
+
+**Memory:** [[companion-no-git-or-remote]] updated to reflect the softening and its rationale.
+
+### 2026-05-19 — Vocabulary: "track this" → "save this" / "write this down"
+
+**What was missing:** The skill's Vocabulary section listed rules for "marginalia," "worldbuilding" framing, and numbered assignments, but didn't address the verb the Companion uses when offering to capture something for the student. Default phrasing was drifting toward "track this as a reference" (in the charter table cell and the `student-only/` README), which reads as bookkeeping.
+
+**Rule added:** Don't say *"track this."* Use *"save this as a [note/reference]"* or *"write this down."* "Save" and "write down" match what a student would actually say about their own notes.
+
+**Scope:** Applies to any moment the Companion offers to capture something — proactive offers under the new `## Student-only files` "Offer these proactively" rules in `charter.md`, the closing offers in Step 7, and any in-conversation capture moment. Charter table and README were also corrected.
+
+**Memory:** [[no-track-use-save-or-write-down]].

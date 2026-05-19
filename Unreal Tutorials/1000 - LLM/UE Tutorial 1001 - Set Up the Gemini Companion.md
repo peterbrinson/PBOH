@@ -98,9 +98,7 @@ You should see a version number. If you see `not recognized` or `command not fou
 
 *The Companion's content — tutorials, wiki pages, role descriptions, references — lives in a public GitHub repository. You have two ways to get it onto your machine. Either works.*
 
-### A. (simpler, best for your first time) ZIP download 
-
-The easier path. Get a one-time snapshot.
+### Option A. (your first time) ZIP download 
 
 1. Go to [github.com/peterbrinson/TheCompanion](https://github.com/peterbrinson/TheCompanion).
 2. Click the green **`<> Code`** button (top-right of the file list).
@@ -112,7 +110,7 @@ The easier path. Get a one-time snapshot.
 
 <span class="hint">GitHub may cover the Download ZIP button with a "Sign in" banner. You don't need a GitHub account — dismiss the banner if it appears.</span>
 
-### B. (lets you fetch updates later) Git clone 
+### Option B. (lets you fetch updates later) Git clone 
 
 If you already have `git` installed, this is the better path. The Companion gets updated over time; with a clone, future updates take one command (`git pull`) instead of a full re-download.
 
