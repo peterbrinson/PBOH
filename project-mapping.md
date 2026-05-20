@@ -147,7 +147,7 @@ For each feature, look it up in `ue-capability-map.md`:
 - **Adjacent — a deviation of a known pattern** — open the source tutorial's `## Example deviations you are ready for` section. If the pattern covers their feature (even if the exact feature isn't on the capability map), frame it as a deviation they're ready for. The capability map is feature-first; deviations are pattern-first. Both count as covered.
 - **Off-role on a single-role assignment** — features that fit a *different* role than the assignment get *referenced*: name the role, the project where it's central, and the relevant tutorials. **Never tell the student to save it for later or defer** — scope is the student's call. Good phrasing: *"The atmospheric particles you mentioned live more in the **Traveler** role — the **Traveler** project's territory, with tutorials 701/702 as the path."* 
 - **Beyond the assignment's scope — features leaning outside of the assignment get a brief, enthusiastic call-out.  If the assignment is explicitlly The Investigator, for instance, "The way the player has to combine these objects to unlock the next room is in **Entrant** territory — it is likely beyond this assignment's scope. Cool to notice." 
-- **Off-map (not in the bundle)** — single sentence: "[Feature] isn't in the Companion — you'd look it up in the official UE docs / a tutorial on [topic]." No more than that. Move on.
+- **Off-map (not in the bundle)** — single sentence: "[Feature] isn't in the Companion — you'd look it up in the official UE docs / a tutorial on [topic]." If a simpler in-vault approximation exists, name that as a first-pass version too (see Step 6's "first pass first" principle). Otherwise, no more than that — move on.
 
 **Sniff-test before flagging off-map.** Many features that *look* custom are actually an existing tutorial pattern with a small variation. Reach for the in-vault interpretation first; only flag off-map if the feature genuinely requires a system the vault doesn't teach. Examples across categories:
 
@@ -170,6 +170,7 @@ Sequence the features so the student starts with the highest-coverage, highest-c
 - **Import some models next — usually from Fab.** Almost every project needs geometry that isn't a default Unreal primitive: props, environments, characters, set dressing. Fab (Epic's asset marketplace) is the most common source; many quality assets are free. This isn't covered by any tutorial, but it's a near-universal step — name it explicitly in the build order, usually right after the player character is walking and before atmosphere tuning. The principle: stage with placeholder boxes first to feel the space, then drop in dressed assets.  But it is not time to stage everything, simply getting some art in now. 
 - **Anchor on the role's primary tutorial cluster(s).** For a single-role assignment, this is the assignment's role. For the hybrid assignment, it's multiple role clusters. For an open project, this is whichever role(s) the project most fits.
 - **Get the base experience working before layering.**
+- **First pass first — name the richer version for a later iteration.** When a feature has a simple version and a harder, better one, put the *simple* version in the build order now and describe the better one as a second-pass goal. A student who chases the hard version first can burn the timeline and reach the deadline with half a project; a working simple draft can always be iterated up. Say plainly what the richer version adds and why it's better — then point them at the first pass. This holds even for hard or off-map features: where a stripped-down in-vault approximation exists, offer it as the first pass rather than only "look it up on your own."
 - **Defer off-map features.** Build the in-vault foundation first; tackle unknowns after.
 - **Hybrid assignment, two-role span:** sequence one role's cluster fully before starting the second. Pick the cluster that the *core* of the experience lives in. If the player primarily moves and witnesses with investigation as a layered overlay, lead with Traveler; if they primarily search and find evidence with atmosphere as a layered overlay, lead with Investigator. The other cluster follows.
 - **Open-project, multi-role span:** same principle — sequence one cluster fully before the second; don't interleave.
@@ -198,7 +199,7 @@ Common shapes:
 
 Not every idea arrives with a tradeoff designed in yet. Many describe a world without a decision structure. When you read the idea, look: is there a *moment* where the player has to choose between two things they both want?
 
-**Always open the section with the framing line:** *"For this class's assignments, designing tradeoffs is a particularly compelling way to engage the player."* This frames the section pedagogically before naming a specific tradeoff (full-strength) or proposing directions (compressed). Use it verbatim — it's the section's anchor.
+**Always open the section with the framing line:** *"A tradeoff — where the player gains one thing only by giving up another — is a worthwhile dynamic to design for, and often worth building in from an early iteration."* This frames the section pedagogically before naming a specific tradeoff (full-strength) or proposing directions (compressed). Use it verbatim — it's the section's anchor.
 
 **Full-strength format — when a tradeoff is designed in**: open with the framing line, then name the specific tradeoff and explain how it generates play tension. One tradeoff per response — if a second is also present in the idea, pick the strongest. Keep the depth.
 
@@ -207,7 +208,7 @@ Not every idea arrives with a tradeoff designed in yet. Many describe a world wi
 ```
 ### Tradeoff the player faces
 
-Designing tradeoffs can be a compelling way to engage the player. The idea doesn't have one designed in yet — a few directions you could go:
+A tradeoff — where the player gains one thing only by giving up another — is a worthwhile dynamic to design for, and often worth building in from an early iteration. The idea doesn't have one designed in yet — a few directions you could go:
 
 - **[Direction 1.]** [One-sentence sketch.]
 - **[Direction 2.]** [One-sentence sketch.]

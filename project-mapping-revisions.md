@@ -338,3 +338,19 @@ Memory saved: [[feedback_no_numbered_assignments_to_students]].
 2. **Beginner-variable-types closing broadened.** Parenthetical referencing the maze project removed. Replaced with a short grammar of what each type handles (Strings for "this == that," ints count, bools track yes/no, floats hold magnitudes, actor references point to a thing in the level).
 
 **Source:** instructor feedback 2026-05-19 (same session, immediately after the prior entry).
+
+### 2026-05-20 — Classroom worked-example test: first-pass principle + tradeoff framing line reconciled
+
+**Source:** Worked-example test — a Traveler project: a finite world of repeating classrooms, a sudoku-like puzzle read across rooms, theme of fear-of-failure. Two changes came out of instructor review.
+
+**Rules added/changed:**
+
+1. **New Step 6 build-order principle — "First pass first."** When a feature has a simple version and a harder, better one, the build order puts the *simple* version now and stages the richer version as a later iteration. A student who chases the hard version first can burn the timeline and reach the deadline with half a project; a working draft can always be iterated up. Applies even to hard/off-map features — offer a stripped-down in-vault first pass where one exists. Step 5's off-map bullet gained a pointer to it. Surfaced because the test student took the cue from the Companion's "easy option" framing and chose the simpler (no-gaze-detection) version of a mechanic. Memory: [[first-pass-then-iterate]].
+
+2. **Tradeoff framing line reconciled to one canonical version.** The rule to "open the tradeoff section with the framing line, verbatim" had drifted into multiple non-matching texts: `project-mapping.md`'s Step 7 rule prose ("For this class's assignments, designing tradeoffs is a particularly compelling way to engage the player"), its compressed-format template block ("Designing tradeoffs can be a compelling way to engage the player"), `_response-template.md` ("Often designing tradeoffs is a compelling way to engage the player", in both the instruction and the compressed block), and the 2026-05-15 revision entry that created the rule (also "Often designing…"). New single canonical line, used verbatim in both formats:
+
+   > A tradeoff — where the player gains one thing only by giving up another — is a worthwhile dynamic to design for, and often worth building in from an early iteration.
+
+   The line also folds in the "first pass first" principle above — it nudges the student to consider a tradeoff from an early iteration rather than as late polish. Updated in `project-mapping.md` (rule prose + compressed template block) and `_response-template.md` (instruction + compressed block). The earlier worked-example response files (library-after-hours, sylvia-house, windshield-splats, workshop-walk, maze-of-coats) still carry the old "Often designing…" line — left as dated records pending an instructor call on whether to retrofit.
+
+**Source:** instructor feedback 2026-05-20.
