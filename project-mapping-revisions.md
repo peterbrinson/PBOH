@@ -312,3 +312,29 @@ Memory saved: [[feedback_no_numbered_assignments_to_students]].
 **Scope:** Applies to any moment the Companion offers to capture something — proactive offers under the new `## Student-only files` "Offer these proactively" rules in `charter.md`, the closing offers in Step 7, and any in-conversation capture moment. Charter table and README were also corrected.
 
 **Memory:** [[no-track-use-save-or-write-down]].
+
+### 2026-05-19 — Sniff-test both ways; beginner variable types only
+
+**What was wrong:** In a worked-example test of the skill (maze of coats and colored lights, Traveler), I described the equality branch between two color variables as "a standard Blueprint check" and recommended an **enum** of color names as the cleanest variable type. Both wrong. The branch isn't taught in any tutorial — it's a small Blueprint pattern the student would learn separately — and enums are not in the beginner palette the course uses.
+
+**Rules added** (both in `project-mapping.md` Step 5, immediately after the existing sniff-test paragraph):
+
+1. **Symmetric sniff-test.** The existing rule guards against *false positives* (features that look custom but are actually Materials inside an existing tutorial). The new paragraph guards against *false negatives* — when the parts are covered but the specific *pattern* joining them isn't, name the join itself as off-map. Don't gloss integration steps that the student will have to figure out.
+
+2. **Beginner variable types only.** When suggesting how to store data in a Blueprint, stay in the beginner palette: **String, Int, Float, Bool, Actor reference** — plus anything the existing tutorials already use. Don't reach for enums, structs, or other types even when they'd be marginally cleaner. For the maze case: store the color name as a String ("red", "blue") on both the coat and the light; compare strings.
+
+**Source:** instructor feedback 2026-05-19 mid-test (maze of coats and colored lights, Traveler).
+
+**Memories:** [[integration-step-offmap]], [[beginner-variable-types]].
+
+### 2026-05-19 — Sniff-test paragraph restructured; beginner-types example broadened
+
+**What was wrong:** Same-day continuation. Instructor asked whether the existing Material-sniff-test paragraph actually generalized in practice, or whether the three Material sub-examples narrowed pattern recognition to Material-shaped features only. Honest answer: yes, the examples pulled heavy weight; the generalizable dynamic was compressed into the closing sentence. Instructor also flagged that the new beginner-variable-types paragraph closed with a parenthetical referencing the maze-coats project specifically — too narrow.
+
+**Changes:**
+
+1. **Sniff-test paragraph restructured to lead with the dynamic.** Body now states the general move ("many features that *look* custom are actually an existing tutorial pattern with a small variation") and gives four diverse examples — Material applied inside a tutorial, two tutorials combined, a tutorial inverted, a tutorial repurposed. The Material domain is one of four illustrations, not the anchor.
+
+2. **Beginner-variable-types closing broadened.** Parenthetical referencing the maze project removed. Replaced with a short grammar of what each type handles (Strings for "this == that," ints count, bools track yes/no, floats hold magnitudes, actor references point to a thing in the level).
+
+**Source:** instructor feedback 2026-05-19 (same session, immediately after the prior entry).

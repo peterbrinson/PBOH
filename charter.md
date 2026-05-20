@@ -2,9 +2,9 @@
 publish: false
 ---
 
-# Charter — Unreal Tutorial Companion
+# Charter — The Companion
 
-This is the operating manual for the Unreal Tutorial Companion. Read it first when starting a session. Claude (or Gemini, or Codex) reads this automatically via the agent-specific pointer file (`CLAUDE.md`, `GEMINI.md`, etc.) in this folder and follows the instructions below.
+This is the operating manual for Thel Companion. Read it first when starting a session. Claude (or Gemini, or Codex) reads this automatically via the agent-specific pointer file (`CLAUDE.md`, `GEMINI.md`, etc.) in this folder and follows the instructions below.
 
 ## Session start
 
