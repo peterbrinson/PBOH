@@ -100,7 +100,7 @@ You should see a version number. If you see `not recognized` or `command not fou
 
 ### Option A. (your first time) ZIP download 
 
-1. Go to [github.com/peterbrinson/TheCompanion](https://github.com/peterbrinson/TheCompanion).
+1. Go to [github.com/vLabUSC/TheCompanion](https://github.com/vLabUSC/TheCompanion).
 2. Click the green **`<> Code`** button (top-right of the file list).
 3. Click **Download ZIP** at the bottom of the menu that appears.
 4. Extract the ZIP:
@@ -121,7 +121,7 @@ If you already have `git` installed, this is the better path. The Companion gets
 
 2. Clone the repo:
    ```
-   git clone https://github.com/peterbrinson/TheCompanion.git
+   git clone https://github.com/vLabUSC/TheCompanion.git
    ```
 
 3. The folder will be named `TheCompanion` (no `-main` suffix this time).
