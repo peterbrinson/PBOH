@@ -10,9 +10,10 @@ cssclasses:
 
 ## 0. Introduction
 ---
+
 > [!info]- A. Outcome
 > In this tutorial, you will build a haunted house in first-person. Each chapter constructs a different type of trigger blueprint—actors that fire logic when a player enters a space. By repeating the "overlap-and-cast" pattern across lights, doors, animations, and sound, you will master the fundamentals of level interactivity.
-> 
+>
 > Sample outcome: [Video](https://vimeo.com/1186730731/90c148438a?share=copy&fl=sv&fe=ci)
 
 > [!info]- B. Chapters
@@ -49,6 +50,7 @@ cssclasses:
 
 ## 1. Create a First Person Project
 ---
+
 > [!info]- Project Haunted House
 > Create a new project using the **First Person** template. Choose Blueprint (not C++). Setting Variant to `None` is fine. Name it `HauntedHouse`. 
 
@@ -216,9 +218,9 @@ cssclasses:
 >
 > > [!question] Why are we doing this?
 > > What good is taking this script out of the Event Graph and placing it in a function?
-> > Answer: We can now call `SetAllLights` whenever we want. Entering a trigger, leaving it, or starting the game—all can use this same code. 
+> > Answer: We can now call `SetAllLights` whenever we want. The player entering a trigger, exiting it, or starting the game—all can use this same code. 
 >
-> In the `SetAllLights` function, select the purple node. In the Details panel, add an input of type `Float`: `InTargetIntensity`. Also rename `Alpha` to `InAlpha`.
+> In the `SetAllLights` function, select the purple node. In the Details panel, add an input named `InTargetIntensity` of type `Float` . Also rename `Alpha` to `InAlpha`.
 >
 > (The `In` prefix communicates these are **Inputs** - often called **Parameters**).
 >
@@ -377,32 +379,86 @@ cssclasses:
 > Add a `Static Mesh` component and rename it `Pivot`. Add a `Cube` component and scale it like a door panel. Rename it `Panel` and move it so one edge is centered with `Pivot`.
 >
 > **Hierarchy:** `Pivot` should be the parent of `Panel`.
+> Add a doorknob (cylinder) if you like. 
 > ![[unrealTutorial_04_184.png]]
 
 > [!info]- D. Create Timeline & Lerp
-> Create a `Timeline` node named `DoorOpenTM`. Connect the `Cast` pin to `Play from Start`.
+>
+> Create a `Timeline` node by searching for `Add Timeline...` 
+> Name it `DoorOpenTM`. Connect the `Cast To BP_FirstPersonCharacter` execution pin to `Play from Start`.
 >
 > ![[unrealTutorial_04_193.png]]
 >
-> Set the `Timeline` **Length** to `3.0`. Add a float track named `Relative Rotation` (from 0.0 to 1.0).
+> Double-click `DoorOpenTM` to edit.
+>
+>
+>
+> Set the `Timeline` **Length** to `3.0`. 
+>
+> Add a float track named `Relative Rotation`.
+>
+> See the button named `Track` with the green plus icon - click to `Add Float Track`.
+>
+> Add two keyframes like you see below.  
+> The first keyframe is at time 0 and value 0.  The second is at time 3 and value 1.  
 >
 > ![[unrealTutorial_04_194.png]]
 >
-> In the Event Graph, right-click the `New Rotation` pin on a `Set Relative Rotation` node and choose **Split Struct Pin**.
+> ----
+> Back in the Event Graph, to the right of the Timeline node - drag the `Pivot` component (in the Components panel) in.  It will make a `Pivot` node. 
+>
+> Drag from `Pivot` and search for `Get Relative Rotation`.
+> Right-click the right side of that new node and choose `Split Struct Pin`.
+> (Don't worry, these are not yet to be wired to the Timeline node).
 >
 > ![[unrealTutorial_04_197.png]]
+>
+> The `Split Struct Pin` breaks the rotation values into three discrete floats.  
+>
+> Drag from `Relative Rotation Z (Yaw)` and add `Lerp` (under the `Float` category).
+>
+> ----
+>
+> On the left, find VARIABLES.  Add a `Float` named `Target Rotation`.  (We will initialize it soon).
+> Like we've done elsewhere, set to `true` for `Instance Editiable` and `Expose on Spawn`.
+> ![[unrealTutorial_04_197b.png]]
+>
+> ---
+> Now drag in `Target Rotation`; choose Get, and wire that to `Lerp` like this.
+> ![[unrealTutorial_04_198.png]]
+>
+> ---
+> Back to the Timeline node - `DoorOpenTM`.  Drag from its `Update` pin in order to add the node  `Set Relative Rotation (Pivot)`.
+> The two created nodes - move them far to the right.  See below.
+> ![[unrealTutorial_04_199.png]]
+>
+> Right-click `Set Relative Rotation`'s `New Rotation` and choose `Split Struct`.
+>
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, I'm using "Split Struct Pin" on a Rotation value. Why is it often better to split a pin into X, Y, and Z instead of just plugging in a single Rotation wire?
 >
-> Use a `Lerp` node to transition between 0 and 90 degrees, and connect the result to the **Z (Yaw)** pin of the `Set Relative Rotation` node.
->
+> Wire `Lerp`'s return value to `Set Relative Rotation`'s `New Rotation Z (Yaw)`.
+> This blueprint script is complete. 
 > ![[unrealTutorial_04_203.png]]
+>
+> ---
+> Time to try it out.
+> From the Content Browser, drag your blueprint into your level.
+>
+> Find `Target Rotation` in the Details panel.  
+> Set it to 90.  This will cause the door to rotate from 0 to 90.
+>
+> ![[unrealTutorial_04_210.png]]
+>
+> ---
+> Play and test. 
+>
 > ![[unrealTutorial_04_224.png]]
 >
 > <span class="save">Save All</span>
-
----
+>
+> ---
 
 ## 4. Animation Trigger Blueprint (NPC)
 ---

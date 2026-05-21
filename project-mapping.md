@@ -199,7 +199,7 @@ Common shapes:
 
 Not every idea arrives with a tradeoff designed in yet. Many describe a world without a decision structure. When you read the idea, look: is there a *moment* where the player has to choose between two things they both want?
 
-**Always open the section with the framing line:** *"A tradeoff — where the player gains one thing only by giving up another — is a worthwhile dynamic to design for, and often worth building in from an early iteration."* This frames the section pedagogically before naming a specific tradeoff (full-strength) or proposing directions (compressed). Use it verbatim — it's the section's anchor.
+**Always open the section with the framing line:** *"A tradeoff — where the player gains one thing only by giving up another — is a worthwhile dynamic to design for, and often practical to build into an early iteration."* This frames the section pedagogically before naming a specific tradeoff (full-strength) or proposing directions (compressed). Use it verbatim — it's the section's anchor.
 
 **Full-strength format — when a tradeoff is designed in**: open with the framing line, then name the specific tradeoff and explain how it generates play tension. One tradeoff per response — if a second is also present in the idea, pick the strongest. Keep the depth.
 
