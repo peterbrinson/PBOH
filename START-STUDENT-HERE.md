@@ -13,7 +13,7 @@ This folder is your AI tutor for Unreal Engine. It works with either **Claude** 
 Install one of these on your machine:
 
 - **Claude Code** — see [claude.com/code](https://claude.com/code)
-- **Gemini CLI** — see [[UE Tutorial 1001 - Set Up the Gemini Companion|Tutorial 1001 — Set Up the Gemini Companion]]
+- **Gemini CLI** — see [[Tutorial 1001 - Set Up Gemini CLI]]
 
 Both are command-line tools. Open a terminal in *this folder*, launch the tool, and you're ready.
 

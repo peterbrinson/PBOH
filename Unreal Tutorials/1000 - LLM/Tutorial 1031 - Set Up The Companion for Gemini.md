@@ -5,96 +5,26 @@ publish: true
 
 
 
-*Get the Gemini AI tutor running on your machine so it can help you plan projects, work through tutorials, and answer concept questions.*
+*Download The Companion's content and connect Gemini to it — sign in, point Gemini at the folder, and hold your first session.*
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, the Gemini command-line interface (CLI) is installed on your computer, connected to your Google account, and pointed at The Companion's content. You'll have typed `Start a Companion session.` and gotten the first greeting back — ready for [[UE Tutorial 1031 - Getting Started with the Companion]] to learn what to do next.
+**Outcome.** By the end of this tutorial, The Companion's content is on your machine, your LLM CLI is working and pointed at the folder, making you ready for [[Tutorial 1061 - Start Using The Companion]].
 
-**Time.** About 15 minutes if everything goes smoothly.
+
+**Prerequisites.** [[Tutorial 1001 - Set Up Gemini CLI]] complete — the Gemini CLI is installed and the `gemini` command runs.
 
 **Learning Objectives:**
-- Install Node.js (the runtime Gemini CLI needs to run)
-- Install the Gemini CLI itself
 - Download The Companion's content from GitHub
-- Launch Gemini, sign in with Google, and start your first session
+- Launch Gemini and sign in with your Google account
+- Point Gemini at the Companion folder
+- Start your first session
 
-<span style="color:#cb5d21">**Important — use a personal Google account.**</span> When you sign in during Chapter 4, you **must** use a personal `@gmail.com` account. School- and work-associated accounts (e.g., `@usc.edu`) usually have Gemini disabled by the organization, which will prevent the tool from working. Create a personal Gmail account if you don't already have one — it's free.
-
----
-
-## 1. Install Node.js
-
-*The Gemini CLI runs on top of **Node.js**, a runtime that lets command-line programs written in JavaScript work on your computer. You need Node.js installed before anything else.*
-
-### A. Open your terminal
-
-The terminal is the text-based window where you type commands. Different name on each OS, same idea.
-
-- **Windows:** Press the **Windows Key**, type `PowerShell`, and press Enter.
-- **macOS:** Press **Cmd + Space**, type `Terminal`, and press Enter.
-
-A window with a text prompt opens. This is where everything in this tutorial happens.
-
-### B. Check if you already have Node.js
-
-In the terminal, type:
-
-```
-node -v
-```
-
-Press Enter.
-
-- If a version number prints (something like `v20.12.0`), Node.js is already installed — skip to Chapter 2.
-- If you see `command not found` (macOS) or `is not recognized` (Windows), continue to section C below.
-
-### C. Install Node.js
-
-**Windows:**
-
-1. Go to [nodejs.org](https://nodejs.org/).
-2. Click the button labeled **LTS** (Long Term Support).
-3. Run the downloaded `.msi` installer. Accept the defaults.
-4. **Close your terminal window and open a fresh one.** Until you do this, the new terminal won't recognize the install.
-
-**macOS:**
-
-1. Go to [nodejs.org](https://nodejs.org/) and download the **LTS** `.pkg` installer.
-2. Run it. Accept the defaults.
-3. **Close your terminal window and open a fresh one.**
-
-Verify by running `node -v` again. You should now see a version number.
+<span style="color:#cb5d21">**Important — use a personal Google account.**</span> When you sign in during Chapter 2, you **must** use a personal `@gmail.com` account. School- and work-associated accounts (e.g., `@usc.edu`) usually have Gemini disabled by the organization, which will prevent the tool from working. Create a personal Gmail account if you don't already have one — it's free.
 
 ---
 
-## 2. Install the Gemini CLI
-
-*Node.js comes with a tool called `npm` (Node Package Manager) that downloads and installs JavaScript-based command-line programs. We'll use it to install the Gemini CLI.*
-
-### A. Run the install command
-
-In the terminal:
-
-```
-npm install -g @google/gemini-cli
-```
-
-The `-g` flag means *install globally* — available from any folder, not just where you're currently sitting.
-
-<span class="hint">macOS only: if you get a "permission denied" error, run `sudo npm install -g @google/gemini-cli` instead, and enter your Mac password when prompted.</span>
-
-### B. Verify the install
-
-```
-gemini --version
-```
-
-You should see a version number. If you see `not recognized` or `command not found`, close the terminal window, open a fresh one, and try again — sometimes the new command isn't registered until you restart the terminal.
-
----
-
-## 3. Download The Companion: Choose A or B
+## 1. Download The Companion: Choose A or B
 
 *The Companion's content — tutorials, wiki pages, role descriptions, references — lives in a public GitHub repository. You have two ways to get it onto your machine. Either works.*
 
@@ -130,7 +60,7 @@ If you already have `git` installed, this is the better path. The Companion gets
 
 ---
 
-## 4. Launch and Sign In
+## 2. Launch and Sign In
 
 *You have the runtime (Node.js), the tool (Gemini CLI), and the content (The Companion). Time to put them together.*
 
@@ -173,25 +103,13 @@ Start a Companion session.
 ```
 
 Press Enter. The Companion greets you and asks what you're working on. 
-### *You're set up* — continue to [[UE Tutorial 1031 - Getting Started with the Companion]].
+### *You're set up* — continue to [[Tutorial 1061 - Start Using The Companion]].
 
 ---
 
-## 5. Troubleshooting
+## 3. Troubleshooting
 
-### A. Windows: "Scripts are disabled on this system"
-
-If `gemini` fails with `gemini.ps1 cannot be loaded because running scripts is disabled`:
-
-1. Open PowerShell **as Administrator** (right-click PowerShell in the Start menu → **Run as administrator**).
-2. Run:
-   ```
-   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-   ```
-3. Type `Y` and press Enter.
-4. Close the Admin window. Open a regular PowerShell window and try `gemini` again.
-
-### B. Gemini says "authenticated with gemini-api-key" — I wanted Sign in with Google
+### A. Gemini says "authenticated with gemini-api-key" — I wanted Sign in with Google
 
 This means either an environment variable is forcing the API-key path, or Gemini cached a previous auth choice in its settings folder. Reset both:
 
@@ -222,11 +140,11 @@ gemini
 
 You'll be re-prompted for auth method. Pick **Sign in with Google**.
 
-### C. My organization account doesn't work for sign-in
+### B. My organization account doesn't work for sign-in
 
 `@ucla.edu`, `@usc.edu`, and many other school/workplace Google accounts have Gemini disabled by the admin. Create or use a personal `@gmail.com` account instead.
 
-### D. Hitting the daily quota almost immediately
+### C. Hitting the daily quota almost immediately
 
 Almost certainly still on the API-key path. Inside Gemini, run:
 
@@ -234,12 +152,12 @@ Almost certainly still on the API-key path. Inside Gemini, run:
 /auth
 ```
 
-If it shows `gemini-api-key`, follow Troubleshooting section B above.
+If it shows `gemini-api-key`, follow Troubleshooting section A above.
 
 ---
 
 ## What you can now do
 
-- **Continue to [[UE Tutorial 1031 - Getting Started with the Companion]]** — the main next step. Learn how to talk to the Companion through the three conversation types.
-- **Optional: [[UE Tutorial 1002 - Set Up Gemini in VSCode]]** — if you'd rather work in VSCode than a bare terminal, this brings the same Companion into a richer environment.
-- **Pull future updates** — if you used `git clone` in Chapter 3, run `git pull` inside the folder to receive Companion changes without re-downloading.
+- **Continue to [[Tutorial 1061 - Start Using The Companion]]** — learn the three conversation types and hold your first real Companion conversation.
+- **Optional: [[Tutorial 1002 - Set Up Gemini in VSCode]]** — if you'd rather work in VSCode than a bare terminal, this brings the same Companion into a richer environment.
+- **Pull future updates** — if you used `git clone` in Chapter 1, run `git pull` inside the folder to receive Companion changes without re-downloading.

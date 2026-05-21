@@ -11,18 +11,16 @@ publish: true
 
 **Outcome.** By the end of this tutorial, you've held your first real Companion conversation — described an idea, gotten back a project plan with role identification, features, and a build order — and you know how to come back to the Companion in future sessions.
 
-**Time.** About 10 minutes.
-
 **Prerequisites.**
-For Gemini -- [[UE Tutorial 1001 - Set Up the Gemini Companion]]. Gemini is installed and authenticated.
-
-For Claude Code -- *forthcoming*
+- For Gemini -- [[Tutorial 1031 - Set Up The Companion for Gemini]]. Gemini is installed, authenticated, and pointed at The Companion.
+- For Claude Code -- *forthcoming*
+- For Codex -- *forthcoming*
 
 ---
 
 ## 1. Start Your Session
 
-#### *Already have Gemini running with the Companion greeting? Skip to Section 2.*
+#### *Already have your CLI running with the Companion greeting? Skip to Section 2.*
 
 Do this every time you come back to the Companion — first time, after a break, or after you've closed your terminal. The same four steps every time:
 
@@ -30,7 +28,10 @@ Do this every time you come back to the Companion — first time, after a break,
    - Windows: Windows Key → type `PowerShell` → Enter
    - macOS: Cmd + Space → type `Terminal` → Enter
 2. **Navigate to The Companion folder.** Type `cd ` (with a trailing space), drag the folder into the terminal, then press Enter. You'll see the absolute folder path filled in.
-3. **Run `gemini`.**
+3. **Run** your CLI.  Type one of these:
+	- gemini
+	- claude
+	- codex
 4. **At the prompt, type:** `Start a Companion session.`
 
 The Companion will greet you and ask what you're working on.
