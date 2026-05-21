@@ -353,4 +353,46 @@ Memory saved: [[feedback_no_numbered_assignments_to_students]].
 
    The line also folds in the "first pass first" principle above — it nudges the student to consider a tradeoff from an early iteration rather than as late polish. Updated in `project-mapping.md` (rule prose + compressed template block) and `_response-template.md` (instruction + compressed block). The earlier worked-example response files (library-after-hours, sylvia-house, windshield-splats, workshop-walk, maze-of-coats) still carry the old "Often designing…" line — left as dated records pending an instructor call on whether to retrofit.
 
+### 2026-05-21 — Build order and "what to look up" moved to the end of the response
+
+**What changed:** The one-response section order put **Build order** and **What to look up on your own** immediately after "What kind of experience" — i.e., before the tradeoff, reference, instructor-consult, and "excited about" sections. They now move to **after "The part I'm most excited about,"** just before the two A/B follow-ups.
+
+New section flow: Your idea → Your project / What kind of experience → Tradeoff → A reference to look at → Worth bringing up with the instructor → The part I'm most excited about → **Build order → What to look up on your own** → Two follow-ups → save offer.
+
+**Why:** Leads with the design and meaning of the project (what it's about, the tradeoff, the reference, the instructor conversation, what's exciting); the practical build sequence and look-it-up pointers land last, so the response ends on concrete next steps rather than opening with logistics.
+
+**Changed:** `_response-template.md` (sections moved) and `project-mapping.md` Step 7 one-response template block (sections moved). The closing prose after the template block was rewritten — the "excited about" line is no longer the response's close; it's now the pivot from the design discussion into the practical build, with the A/B follow-ups still last.
+
+**Two-response format:** no explicit ordered block to change — the two-response commentary lists each response's components as a checklist, not a sequence, and defers to the one-response template for ordering.
+
+**Source:** instructor request 2026-05-21.
+
+**Existing worked-example files** keep the old order — left as dated records per the don't-retrofit-archives convention.
+
+### 2026-05-21 — Three coverage tiers + calibration line
+
+**What was missing:** The skill mapped each feature individually (direct match / deviation / integration / off-map) but never stepped back to weigh the *proportion* of a project across coverage levels, or told the student how their project sits overall. A student couldn't tell from the response whether their idea was mostly on taught ground or mostly look-it-up territory.
+
+**Rules added:**
+
+1. **Step 5 — "Weigh the proportion across the three coverage tiers."** After mapping every feature, the Companion sorts the project into three tiers: (1) **Straightforward** — taught directly by a tutorial; (2) **Combine or adapt** — supported via combining tutorials or adapting a known pattern (deviations, integration steps); (3) **Off-map** — look up on your own. This is the *coverage* axis, explicitly separate from the role-fit axis — a cross-role or beyond-scope feature can still be tier 1. The healthy shape: most features tier 1, some tier 2, a few tier 3.
+
+2. **Step 7 — "Calibrate the coverage."** The Companion voices the tier judgment as a one-line lead-in to the "What to look up on your own" section. Two forms: a brief positive confidence note when the shape is healthy; an honest heads-up paired with a constructive path forward (in-vault first-pass versions, leading with a subset) when tier 3 is medium or long. Framed as calibration, never gatekeeping — scope stays the student's call. Ties into Step 6's "first pass first" principle.
+
+**Templates updated:** one-response template's "What to look up on your own" line expanded to show the calibration line above the feature list; `_response-template.md` section updated to match.
+
+**Source:** instructor request 2026-05-21.
+
+### 2026-05-21 — Response section renamed: "What to look up on your own" → "Off-Map"
+
+**What changed:** The student-facing response section that lists off-map features was renamed from **"What to look up on your own"** to **"Off-Map."** The old characterization isn't lost — it moves into the section's opening sentence(s): the calibration line now also names the section as *"what you'll need to research on your own, outside the bundle."* So the heading is short and the orientation lives in the prose.
+
+This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**) and with `charter.md`/Step 5's existing "off-map" vocabulary — one term for the concept throughout.
+
+**Changed in `project-mapping.md`:** Step 7 "Calibrate the coverage" sub-section (section name + both example calibration lines now integrate "research on your own"; "Heavy tier 3" → "Heavy off-map"); one-response template block (`Off-Map:` heading); the prose after the template; the Step 7 instructor-section "Engineering paths" bullet; the two-response commentary's component checklist.
+
+**Changed elsewhere:** `_response-template.md` section heading + guidance; the same-day `response-pinewood-inquiry.md` worked example (live test artifact from this session — updated to the new heading, not treated as a settled archive).
+
+**Source:** instructor request 2026-05-21.
+
 **Source:** instructor feedback 2026-05-20.
