@@ -5,7 +5,6 @@ publish: true
 
 
 
-*Bring the Gemini Companion into VSCode so you have file navigation, markdown preview, and the agent all in one window.*
 
 ## 0. Introduction
 

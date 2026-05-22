@@ -5,7 +5,6 @@ publish: true
 
 
 
-*Install the Gemini command-line tool — the AI runtime The Companion runs on. The next tutorial connects it to The Companion's content.*
 
 ## 0. Introduction
 

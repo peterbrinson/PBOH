@@ -5,7 +5,6 @@ publish: true
 
 
 
-*Open a Companion session today — every day, the same four steps — then try the three conversation types that get the most out of it: planning a project from an idea, getting unstuck on a tutorial, or answering a concept question.*
 
 ## 0. Introduction
 

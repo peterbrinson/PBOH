@@ -5,8 +5,6 @@ publish: true
 
 
 
-*Download The Companion's content and connect Gemini to it — sign in, point Gemini at the folder, and hold your first session.*
-
 ## 0. Introduction
 
 **Outcome.** By the end of this tutorial, The Companion's content is on your machine, your LLM CLI is working and pointed at the folder, making you ready for [[Tutorial 1061 - Start Using The Companion]].
