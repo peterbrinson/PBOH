@@ -17,3 +17,7 @@ student-only/**
 !student-only/projects/.gitkeep
 !student-only/references/
 !student-only/references/.gitkeep
+
+# gaps/ is intentionally NOT ignored. Each student's gap log (gaps/<username>.md)
+# is tracked, committed to the student's own fork, and collected by the
+# instructor. student-only/ stays local; the gap log is the outbound channel.
