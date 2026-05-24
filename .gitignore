@@ -1,23 +1,23 @@
 # .gitignore for The Companion (public student bundle)
 #
-# student-only/ holds personal content the Companion writes for each student
+# student-notes-private/ holds personal content the Companion writes for each student
 # locally — project plans, notes, references they collect, session handoffs,
 # instructor questions. None of that belongs in the public repo. The folder
 # scaffolding (README + .gitkeep files) IS tracked so the structure ships
 # with the bundle.
 
-# Ignore everything inside student-only/ by default
-student-only/**
+# Ignore everything inside student-notes-private/ by default
+student-notes-private/**
 
 # Keep the scaffolding so the folder structure ships
-!student-only/README.md
-!student-only/notes/
-!student-only/notes/.gitkeep
-!student-only/projects/
-!student-only/projects/.gitkeep
-!student-only/references/
-!student-only/references/.gitkeep
+!student-notes-private/README.md
+!student-notes-private/notes/
+!student-notes-private/notes/.gitkeep
+!student-notes-private/projects/
+!student-notes-private/projects/.gitkeep
+!student-notes-private/references/
+!student-notes-private/references/.gitkeep
 
 # gaps/ is intentionally NOT ignored. Each student's gap log (gaps/<username>.md)
 # is tracked, committed to the student's own fork, and collected by the
-# instructor. student-only/ stays local; the gap log is the outbound channel.
+# instructor. student-notes-private/ stays local; the gap log is the outbound channel.

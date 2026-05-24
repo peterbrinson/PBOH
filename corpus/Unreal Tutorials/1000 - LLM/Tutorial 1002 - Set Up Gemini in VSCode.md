@@ -37,7 +37,7 @@ If you don't have it already:
 2. Navigate to the Companion folder you downloaded in [[Tutorial 1031 - Set Up The Companion for Gemini|Tutorial 1031]] (e.g., `Documents/TheCompanion-main` or `Documents/TheCompanion`).
 3. Click **Select Folder** (Windows) or **Open** (macOS).
 
-VSCode opens the folder as a workspace. The left sidebar (the **Explorer**) shows the file tree — `Unreal Tutorials/`, `Unreal Wiki/`, `Situated Player Roles/`, `References/`, and the top-level files like `charter.md` and `START-STUDENT-HERE.md`.
+VSCode opens the folder as a workspace. The left sidebar (the **Explorer**) shows the file tree — `_welcome/` (orientation docs), `agent/` (the AI's operating files), `corpus/` (the four content folders: Tutorials, Wiki, SPRs, References), `gaps/`, and `student-notes-private/`.
 
 <span class="hint">First time you open the folder, VSCode may ask "Do you trust the authors of the files in this folder?" — pick **Yes, I trust the authors**. The Companion is your downloaded content, not arbitrary code.</span>
 
@@ -89,7 +89,7 @@ When the Companion cites a wiki page or reference, click that file in the Explor
 
 ## Example deviations you are ready for
 
-- Try **Claude Code** in the same VSCode integrated terminal — the same folder works with either agent (they both read `charter.md`)
+- Try **Claude Code** in the same VSCode integrated terminal — the same folder works with either agent (they both read `agent/charter.md` via the root `CLAUDE.md` / `GEMINI.md` pointers)
 - Open the workspace from the command line by running `code .` inside the Companion folder (after installing the `code` command via VSCode's command palette → "Shell Command: Install 'code' command in PATH")
 - Install a VSCode markdown extension (such as *Markdown All in One*) for additional features — table of contents, keyboard shortcuts, math support
 - Use VSCode's built-in Git integration to pull future Companion updates if you used `git clone` in [[Tutorial 1031 - Set Up The Companion for Gemini|Tutorial 1031]] Chapter 1 — the Source Control panel handles `git pull` with one click

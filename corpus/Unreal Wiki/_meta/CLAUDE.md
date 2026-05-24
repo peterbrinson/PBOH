@@ -36,7 +36,7 @@ Unreal Wiki/
     *.md (clipped docs)
 ```
 
-Published path for students: `Unreal Wiki/Timeline.md` (no extra nesting)
+Published path for students: `corpus/Unreal Wiki/Timeline.md` (no extra nesting within the wiki itself)
 
 ## Page Format
 

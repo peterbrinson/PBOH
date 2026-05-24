@@ -100,7 +100,7 @@ That's the whole setup. These are one-time commands — you won't run them again
 ## What you can now do
 
 - **Continue to [[Tutorial 1031 - Set Up The Companion for Gemini]]** — install your CLI and point it at the folder you just cloned.
-- **Pull updates and contribute later** — see `CONTRIBUTING.md` in the folder for how to fetch course updates, send your gap log to the instructor, and contribute a reference page.
+- **Pull updates and contribute later** — see `_welcome/contributing-to-the-companion.md` in the folder for how to fetch course updates, send your gap log to the instructor, and contribute a reference page.
 
 ---
 

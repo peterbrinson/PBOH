@@ -31,7 +31,7 @@ Optionally: a short written plan saved to their project folder.
 
 - [[Situated Player Roles]] overview and the four SPR pages — central questions and player verbs for each role
 - [[ue-capability-map]] — the feature → tutorial → SPR map, including the tone guidance in its header
-- `charter.md` — Blueprint-only constraint, gap-log flow, vocabulary
+- `agent/charter.md` — Blueprint-only constraint, gap-log flow, vocabulary
 - The `## Example deviations you are ready for` sections of any tutorial you're about to recommend — these expand what's "covered" beyond exact capability-map matches
 
 ## Tone 
@@ -40,7 +40,7 @@ Optionally: a short written plan saved to their project folder.
 - **SPR fit values explain *why*.** When a feature lists SPR fits, use them to connect the mechanics to the design intent — why the tutorial serves that role. Tutorials carry meaning, not just function.
 - When a feature's Best for matches the student's role, lean in: "This tutorial is exactly built for what you're trying to do."
 - **Off-map = "here's what you'd learn separately."** Not "the vault doesn't support this." One sentence pointer, no hand-wringing.
-- Companion is missing what the student needs — log them, and tell the student briefly.** When you fall back on training knowledge for a UE topic, append a `TheCompanion-gaps.md` entry per `charter.md` *and* tell the student in one short line — e.g., *"this isn't in the The Companion yet — answering from general knowledge."* The transparency lets the student weigh confidence (wiki-backed vs. training-backed). Brief and matter-of-fact: don't apologize, don't narrate the logging mechanism, don't frame it as a vault deficiency. **Write the file only — don't offer to push or sync.** See `charter.md`'s "What not to do" for the no-git rule.
+- Companion is missing what the student needs — log them, and tell the student briefly.** When you fall back on training knowledge for a UE topic, append an entry to the student's gap file in `gaps/` per `agent/charter.md` *and* tell the student in one short line — e.g., *"this isn't in the The Companion yet — answering from general knowledge."* The transparency lets the student weigh confidence (wiki-backed vs. training-backed). Brief and matter-of-fact: don't apologize, don't narrate the logging mechanism, don't frame it as a vault deficiency. **Write the file only — don't offer to push or sync.** See `agent/charter.md`'s "What not to do" for the no-git rule.
 - **Linking — wikilink in-vault, URL out-of-vault.** When the target exists in the bundle (SPR pages, Reference pages, wiki pages, tutorials), use a **wikilink**: `[[SPR 1 - The Investigator, World as Evidence|Investigator]]` or `[[Game - Gone Home]]`. Wikilinks resolve in Obsidian and are processed correctly by Obsidian Publish into proper site links. Use a **URL** only for out-of-vault targets — UE official docs, Steam pages, YouTube videos. 
 - **Number first-response questions only; letter the closing follow-ups.** Two labeling schemes, tightly scoped:
   - **Numbers (1, 2, 3…)** appear in the **very first companion response only** — typically Step 1 context check and any Step 2 listening probes asked in that opening turn. Numbering helps the student answer them piece by piece. After the first response, conversational questions go unnumbered — numbering subsequent turns reads as awkward bureaucracy when the conversation is just flowing.
@@ -141,7 +141,7 @@ If the student's idea is too vague to decompose, return to Step 2 and probe for 
 
 ### Step 5 — Map each feature against the capability map
 
-For each feature, look it up in `ue-capability-map.md`:
+For each feature, look it up in `agent/ue-capability-map.md`:
 
 - **Direct match** — name the tutorial(s) that teach it. Note SPR fit with a one-sentence "why." If Best for matches the student's role, get enthusiastic about it.
 - **Adjacent — a deviation of a known pattern** — open the source tutorial's `## Example deviations you are ready for` section. If the pattern covers their feature (even if the exact feature isn't on the capability map), frame it as a deviation they're ready for. The capability map is feature-first; deviations are pattern-first. Both count as covered.
@@ -235,7 +235,7 @@ A tradeoff is not a warning or a "watch out for…" — it's a structural featur
 - *The Unfinished Swan* for a project that overturns its own mechanic chapter by chapter
 - *The Path* for a project about leaving the path
 
-**Prefer the in-bundle list** — If nothing in `References/` fits and a non-listed example is genuinely the right one, you can cite it, but log it instructor-side per `charter.md`'s gap-log flow so the folder grows over time.
+**Prefer the in-bundle list** — If nothing in `References/` fits and a non-listed example is genuinely the right one, you can cite it, but log it instructor-side per `agent/charter.md`'s gap-log flow so the folder grows over time.
 
 **One example is enough.** Up to two only when each illuminates a genuinely different facet (one for the mechanic, one for the tone). Skip the section entirely if nothing fits — don't reach for a forced citation.
 
@@ -331,7 +331,7 @@ The two responses likely surface different tradeoffs — Response 1's decision s
 
 **Response 2 — the reframe.** Offer the alternative angle on the same world. Same materials, different player verb. This is your strongest version of the assigned role.
 
-Offer to save the summary (whether one response or two) to `student-only/projects/project-plan-<name>.md` — see `charter.md`'s "Student-only files" section for the layout. Use a **distinctive filename** that names the project, not the generic `project-plan.md` — e.g., `project-plan-workshop.md`, `project-plan-ghost.md`, `project-plan-lighthouse.md`. Students often explore multiple ideas; distinctive filenames mean they can keep several saved plans without overwriting. Create `student-only/projects/` on demand if it doesn't exist yet. Do not save unprompted.
+Offer to save the summary (whether one response or two) to `student-notes-private/projects/project-plan-<name>.md` — see `agent/charter.md`'s "Personal student files" section for the layout. Use a **distinctive filename** that names the project, not the generic `project-plan.md` — e.g., `project-plan-workshop.md`, `project-plan-ghost.md`, `project-plan-lighthouse.md`. Students often explore multiple ideas; distinctive filenames mean they can keep several saved plans without overwriting. Create `student-notes-private/projects/` on demand if it doesn't exist yet. Do not save unprompted.
 
 ## Edge cases
 
@@ -354,7 +354,7 @@ Offer to save the summary (whether one response or two) to `student-only/project
 - [[Situated Player Roles]] — central questions, verbs, the discovery/control axis
 - [[ue-capability-map]] — feature → tutorial → role, with tone guidance in its header
 - [[+ UE Wiki Index]] — for concept-level lookups during the conversation
-- `charter.md` — Blueprint-only scope, gap-log flow, vocabulary, what-not-to-do
+- `agent/charter.md` — Blueprint-only scope, gap-log flow, vocabulary, what-not-to-do
 - Each tutorial's `## Example deviations you are ready for` section — pattern-level coverage beyond exact capability-map matches
 
 ## Revision Log

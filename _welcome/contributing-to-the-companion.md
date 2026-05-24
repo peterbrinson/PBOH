@@ -42,9 +42,9 @@ Do this whenever you like — weekly is plenty. The instructor collects gap logs
 
 ## Contribute a reference page (optional)
 
-Found a game or film worth adding to the shared `References/` library? That one *does* go back by pull request, so every student gets it:
+Found a game or film worth adding to the shared `corpus/References/` library? That one *does* go back by pull request, so every student gets it:
 
-1. Add a new file `References/Game - Your Title.md` (or `Film - …`), matching the format of the existing reference pages.
+1. Add a new file `corpus/References/Game - Your Title.md` (or `Film - …`), matching the format of the existing reference pages.
 2. Commit and push it to your fork (`git push origin main`).
 3. On GitHub, open a **pull request** from your fork to `vLabUSC/TheCompanion`.
 4. The instructor reviews it; if accepted, it merges and reaches everyone on their next `git fetch upstream`.
@@ -55,7 +55,7 @@ A brand-new file like this never causes a merge conflict — it's the cleanest k
 
 **Don't edit the bundle's own files** — the tutorials, wiki pages, charter, or skills. Those are the instructor's to maintain; editing them locally causes a merge conflict every time you pull updates. Your own work has two homes that never conflict:
 
-- Project plans, notes, your own references, session handoffs → `student-only/` (stays on your machine, never pushed).
+- Project plans, notes, your own references, session handoffs → `student-notes-private/` (stays on your machine, never pushed).
 - Gaps the wiki doesn't cover → `gaps/<your-username>.md` (pushed to your fork).
 
 Keep your writing in those two places and updates from upstream will always be smooth.
