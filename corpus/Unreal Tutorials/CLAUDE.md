@@ -28,8 +28,8 @@ Every tutorial page ends with two sections used by the project-mapping skill:
 - **`## What you can now build`** — plain-language list of project features unlocked by this tutorial. Feeds `agent/ue-capability-map.md`.
 - **`## Example deviations you are ready for`** — concrete variations on the tutorial's pattern; expands what counts as "covered" beyond exact capability-map matches.
 
-For drafting new tutorials see `The Companion (Instructor)/tutorial-drafting.md`.
+For drafting new tutorials see `The Companion (Instructor)/agent/tutorial-drafting.md`.
 
 ## Where this fits
 
-The tutorial spine is layer 1 of the Companion's three layers (tutorials, wiki, SPRs). See `The Companion (Instructor)/companion-overview.md`.
+The tutorial spine is layer 1 of the Companion's three layers (tutorials, wiki, SPRs). See `The Companion (Instructor)/team/companion-overview.md`.

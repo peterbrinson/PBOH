@@ -30,4 +30,4 @@ The wiki is the first place to look for any UE concept. If it's covered, answer 
 
 ## Where this fits
 
-Layer 2 of the Companion's three layers (tutorials, wiki, SPRs). See `The Companion (Instructor)/companion-overview.md`.
+Layer 2 of the Companion's three layers (tutorials, wiki, SPRs). See `The Companion (Instructor)/team/companion-overview.md`.
