@@ -14,7 +14,7 @@ This folder is your AI tutor for Unreal Engine. You set it up with the 1000-seri
 | `agent/` | The AI's operating files — `charter.md`, the `project-mapping.md` skill, the `ue-capability-map.md` lookup. The AI reads these; you usually don't need to. |
 | `corpus/` | The course corpus — the folders that make up the published class site and the substance the AI teaches from: |
 | &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Unreal Tutorials/` | Numbered step-by-step tutorials (1, 2, 3, 4, 201, 202, 301, 302, 401, 701, 702, 801, 821, 901). |
-| &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Tutorials - LLM/` | The 1000-series setup tutorials for the Companion. |
+| &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Tutorials - LLM/` | The 1000-series setup tutorials for the Companion. Start at [[_Tutorial Index - LLM]]. |
 | &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Unreal Wiki/` | Quick-reference pages on Blueprint concepts. Start at `+ UE Wiki Index`. |
 | &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Situated Player Roles/` | Four player roles — **Investigator, Traveler, Entrant, Dreamer** — that frame design decisions. |
 | &nbsp;&nbsp;&nbsp;&nbsp;`corpus/References/` | Game and film examples (Gone Home, Outer Wilds, Twin Peaks, etc.) the AI may cite. |
