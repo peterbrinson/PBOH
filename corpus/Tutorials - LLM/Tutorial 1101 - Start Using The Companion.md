@@ -11,7 +11,7 @@ publish: true
 **Outcome.** By the end of this tutorial, you've held your first real Companion conversation — described an idea, gotten back a project plan with role identification, features, and a build order — and you know how to come back to the Companion in future sessions.
 
 **Prerequisites.**
-- For Gemini -- [[Tutorial 1031 - Set Up The Companion for Gemini]]. Gemini is installed, authenticated, and pointed at The Companion.
+- For Gemini -- [[Tutorial 1004 - Set Up The Companion for Gemini]]. Gemini is installed, authenticated, and pointed at The Companion.
 - For Claude Code -- *forthcoming*
 - For Codex -- *forthcoming*
 

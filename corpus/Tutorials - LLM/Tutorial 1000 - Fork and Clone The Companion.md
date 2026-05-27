@@ -1,9 +1,9 @@
 ---
 cssclasses: unreal-tutorial
-publish: false
+publish: true
 ---
 
-> [!warning] Draft — `publish: false`. Listed in `1000 - LLM.md` as *(forthcoming)*. The full fork-based rollout is targeted for mid-summer / fall; until then this stays unpublished. When the rollout happens: voice-review, set `publish: true`, turn the index entry into a live link, and trim Tutorial 1031's download chapter (which this tutorial replaces).
+> [!warning] Draft —  The full fork-based rollout is targeted for mid-summer / fall. Until then, this stays as a published draft. When the rollout formally happens: voice-review this tutorial, remove this warning block, and trim Tutorial 1004's download chapter (which this tutorial replaces).
 
 ## 0. Introduction
 
@@ -93,13 +93,13 @@ You should see two names:
 
 That's the whole setup. These are one-time commands — you won't run them again.
 
-### *You're set up* — continue to [[Tutorial 1031 - Set Up The Companion for Gemini]].
+### *You're set up* — continue to [[Tutorial 1004 - Set Up The Companion for Gemini]].
 
 ---
 
 ## What you can now do
 
-- **Continue to [[Tutorial 1031 - Set Up The Companion for Gemini]]** — install your CLI and point it at the folder you just cloned.
+- **Continue to [[Tutorial 1004 - Set Up The Companion for Gemini]]** — install your CLI and point it at the folder you just cloned.
 - **Pull updates and contribute later** — see `_welcome/contributing-to-the-companion.md` in the folder for how to fetch course updates, send your gap log to the instructor, and contribute a reference page.
 
 ---

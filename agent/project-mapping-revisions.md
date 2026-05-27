@@ -396,3 +396,45 @@ This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**)
 **Source:** instructor request 2026-05-21.
 
 **Source:** instructor feedback 2026-05-20.
+
+### 2026-05-26 — Token-cost slim pass (9 cuts, ~8% shrink)
+
+**Why:** `project-mapping.md` had grown to 363 lines — the largest single file in the iterate-companion load and re-billed every turn it stays in context. Also runs at student runtime (Claude Code / Gemini CLI), so the savings compound across both maintenance and live sessions. Goal: cut redundant/meta/duplicated content without touching load-bearing rules or templates.
+
+**Cuts:**
+
+1. **"What this skill produces" section** — removed entirely. Meta-documentation about outcomes the workflow already produces. (~9 lines)
+2. **Tone bullet "Companion is missing what the student needs…"** — compressed the long restatement of the charter's gap-log + tell-student flow to one cross-reference line: *"**Training-knowledge fallback:** follow `agent/charter.md`'s gap-log + tell-student flow. No git."* (~4 lines)
+3. **Tone bullet "When a feature's Best for matches…"** — removed. The capability-map header already gives the same lean-in guidance. (~1 line)
+4. **Sniff-test examples** — trimmed from four (Material / Two tutorials combined / Inverted / Repurposed) to two (Material + Inverted), which together cover the main moves. (~3 lines)
+5. **Lead-with-verbatim-quote prose + standalone template block at Step 7 top** — removed. The rule was already encoded in both the one-response and two-response template skeletons where the LLM uses it. Made the template references self-contained (replaced `[verbatim quote, per above]` with `[paste student's idea verbatim — quote, don't summarize; stitch across messages if needed]`). (~7 lines)
+6. **Tradeoff clarifications** — folded "A tradeoff is not a warning" + "Not a designer-side cost" into one short line: *"**The player's tradeoff** — what they give up to gain something. Not the designer's choice, not a warning."* (~3 lines)
+7. **"Worth bringing up with instructor" definitions** — compressed the three full-sentence definitions of theme/opportunity/affective communication to one short line each. "What does NOT qualify" guardrails untouched. (~4 lines)
+8. **"Two follow-up questions to close" lead-in** — removed the A/B labeling restatement (already in the Tone section). Kept the menu of question shapes intact. (~4 lines)
+9. **Edge case "single-role assignment with off-role idea"** — removed; Step 3 Branch A already covers the principle. Also removed the now-dangling "see the edge cases below" pointer in Step 3. (~3 lines)
+
+**Result:** 363 → 335 lines (~8% shrink). Load-bearing content unchanged — workflow steps, role descriptions, capability-tier judgment, templates, "What does NOT qualify" guardrails, Step 6 build-order principles, beginner-variable-types constraint, never-discourage rule (kept the Tone-section statement, kept the in-step reinforcements). No worked-example responses needed updating.
+
+**Source:** instructor request 2026-05-26 (token-cost observation during iterate-companion session). Process: candidate cuts proposed with one-line justifications each, instructor approved all 9.
+
+### 2026-05-26 — Templates split into sibling file
+
+**Why:** continued token-cost work. `iterate-companion` sessions (and other maintainer reads) almost never need the response-shape *skeletons* loaded — those matter at student runtime, when the LLM is composing a project-mapping response. The three template code-blocks (compressed tradeoff, one-response, two-response) totaled ~50 lines of file footprint that maintainer sessions paid for without using.
+
+**What changed:**
+
+1. **New file:** `agent/project-mapping-templates.md` — holds the three template skeletons. Brief intro explains the split rationale and points back at `project-mapping.md` for the surrounding prose.
+2. **`project-mapping.md` Step 7:** new directive at top — *"Before composing a response, load `agent/project-mapping-templates.md`."* Each of the three template code-blocks replaced with a one-line pointer: *"Skeleton: see `agent/project-mapping-templates.md` § <name>."* Surrounding prose (when to use each format, what to put in each slot, the section's pedagogical anchors like "Always open with the framing line") stayed in `project-mapping.md` — it's load-bearing rule context, not template shape.
+3. **`(Instructor)/agent/iterate-companion.md`:** noted that the templates file is *intentionally not loaded* during maintainer iteration, with a carve-out for "if iterating on template shape specifically, load on demand."
+4. **`Obsidian/CLAUDE.md`:** added `project-mapping-templates.md` to the `agent/` file list.
+
+**Result:**
+
+- `project-mapping.md`: 335 → 284 lines (~15% additional shrink on top of the morning's slim pass — so 363 → 284 total, ~22%).
+- `project-mapping-templates.md`: 80 lines (frontmatter + intro + three template sections).
+- **Maintainer load** (`iterate-companion`): ~15% lower per session, compounding across turns.
+- **Student-runtime load:** marginally larger overall (~29 lines from frontmatter/intro/headers) but spread across two files; the templates file is read once when Step 7 begins, not when the skill is first loaded. Honest trade — the maintainer savings cost student runtime a small amount.
+
+**Architectural note:** templates file is a sibling to `project-mapping-revisions.md` in concept — both extracted to keep `project-mapping.md` focused on the runtime rules. Pattern available for future splits (e.g., the edge-cases section could go the same way if it grows).
+
+**Source:** instructor request 2026-05-26, immediately after the 9-cut slim pass. Sequence: discussed two next-step levers (split templates / move tradeoff-shapes menu); instructor picked templates split.

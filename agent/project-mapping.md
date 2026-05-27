@@ -16,17 +16,6 @@ A student says any of:
 
 Also: any time the student is describing an idea and you're tempted to start prescribing tutorials. Stop and walk the workflow below first.
 
-## What this skill produces
-
-A conversation that leaves the student with:
-- A clearer sense of which Situated Player Role(s) their idea fits
-- A breakdown of the concrete features the project needs
-- Each feature mapped against The Companion/ the vault (which tutorial teaches it, or what they'd learn separately)
-- A suggested build order — what to tackle first
-- Confidence, not anxiety
-
-Optionally: a short written plan saved to their project folder.
-
 ## Required reading before starting
 
 - [[Situated Player Roles]] overview and the four SPR pages — central questions and player verbs for each role
@@ -38,9 +27,8 @@ Optionally: a short written plan saved to their project folder.
 
 - **Never discourage.** If an idea doesn't fit the vault cleanly, that is a teaching moment, not a rejection. There is no version of "you can't do that here."
 - **SPR fit values explain *why*.** When a feature lists SPR fits, use them to connect the mechanics to the design intent — why the tutorial serves that role. Tutorials carry meaning, not just function.
-- When a feature's Best for matches the student's role, lean in: "This tutorial is exactly built for what you're trying to do."
 - **Off-map = "here's what you'd learn separately."** Not "the vault doesn't support this." One sentence pointer, no hand-wringing.
-- Companion is missing what the student needs — log them, and tell the student briefly.** When you fall back on training knowledge for a UE topic, append an entry to the student's gap file in `gaps/` per `agent/charter.md` *and* tell the student in one short line — e.g., *"this isn't in the The Companion yet — answering from general knowledge."* The transparency lets the student weigh confidence (wiki-backed vs. training-backed). Brief and matter-of-fact: don't apologize, don't narrate the logging mechanism, don't frame it as a vault deficiency. **Write the file only — don't offer to push or sync.** See `agent/charter.md`'s "What not to do" for the no-git rule.
+- **Training-knowledge fallback:** follow `agent/charter.md`'s gap-log + tell-student flow. No git.
 - **Linking — wikilink in-vault, URL out-of-vault.** When the target exists in the bundle (SPR pages, Reference pages, wiki pages, tutorials), use a **wikilink**: `[[SPR 1 - The Investigator, World as Evidence|Investigator]]` or `[[Game - Gone Home]]`. Wikilinks resolve in Obsidian and are processed correctly by Obsidian Publish into proper site links. Use a **URL** only for out-of-vault targets — UE official docs, Steam pages, YouTube videos. 
 - **Number first-response questions only; letter the closing follow-ups.** Two labeling schemes, tightly scoped:
   - **Numbers (1, 2, 3…)** appear in the **very first companion response only** — typically Step 1 context check and any Step 2 listening probes asked in that opening turn. Numbering helps the student answer them piece by piece. After the first response, conversational questions go unnumbered — numbering subsequent turns reads as awkward bureaucracy when the conversation is just flowing.
@@ -98,7 +86,7 @@ The third question is shaped by the player-role framework on purpose — but in 
 - Tie the role to the experience the student described in Step 2: "What you're describing — [their words] — is exactly what the **Investigator** role is about. The 801/821 tutorials are built for this."
 - Cite the role by name; link to the SPR page if it would help them dig in. Use the role *name* (Investigator, Traveler, etc.), never the abbreviation "SPR."
 - **If their idea leans into other roles**, name those roles and point to the relevant tutorials.  Good phrasing: *"The atmospheric landscape you mentioned lives more in the **Traveler** role — the **Traveler** project's territory, with tutorials 701/702 as the path."* 
-- **If their idea is almost entirely in a different role**, surface that the in-role angle on the same world is also available — see the edge cases below. Don't gatekeep their original vision.
+- **If their idea is almost entirely in a different role**, surface that the in-role angle on the same world is also available. Don't gatekeep their original vision.
 - Be time-aware: in Assignment 1, Traveler/Entrant/Dreamer are *future* role names — orientation, not established vocabulary. One short sentence per mention.
 
 **When to give two responses instead of one.** If the idea has enough cross-role tension that you're about to suggest a *reframe* (not just a small note about where a feature primarily lives, but a real shift in how the project would work), produce **two responses**. See Step 7 for the format — but the call is made here in Step 3, the moment you notice the reframe is warranted. *Why two:* offering only the reframe risks feeling like the student's original idea has been rejected, even when the reframe is well-intentioned. Two responses — one that honors the idea as described, one that offers the reframe — preserves the student's authorship and lets them pick.
@@ -149,12 +137,10 @@ For each feature, look it up in `agent/ue-capability-map.md`:
 - **Beyond the assignment's scope — features leaning outside of the assignment get a brief, enthusiastic call-out.  If the assignment is explicitlly The Investigator, for instance, "The way the player has to combine these objects to unlock the next room is in **Entrant** territory — it is likely beyond this assignment's scope. Cool to notice." 
 - **Off-map (not in the bundle)** — single sentence: "[Feature] isn't in the Companion — you'd look it up in the official UE docs / a tutorial on [topic]." If a simpler in-vault approximation exists, name that as a first-pass version too (see Step 6's "first pass first" principle). Otherwise, no more than that — move on.
 
-**Sniff-test before flagging off-map.** Many features that *look* custom are actually an existing tutorial pattern with a small variation. Reach for the in-vault interpretation first; only flag off-map if the feature genuinely requires a system the vault doesn't teach. Examples across categories:
+**Sniff-test before flagging off-map.** Many features that *look* custom are actually an existing tutorial pattern with a small variation. Reach for the in-vault interpretation first; only flag off-map if the feature genuinely requires a system the vault doesn't teach. Examples:
 
 - *Material applied inside a tutorial:* handwritten text on a note is a scanned-handwriting texture (Tut 401) inside the readable-note pattern (Tut 801). Glowing runes, bloodstains, weathered surfaces, painted signs — all Materials with the right parameters.
-- *Two tutorials combined:* a pickup that triggers something elsewhere in the level is Tut 2's pickup + shared state feeding Tut 1's trigger.
 - *A tutorial inverted:* lights that turn *off* when the player enters a room is Tut 4's light-on-trigger pattern with the default state flipped.
-- *A tutorial repurposed:* an NPC that "reacts to the player" is often Tut 4's proximity-triggered animation, just with a different animation choice.
 
 **Sniff-test the other way too — flag integration steps that aren't in any tutorial.** The capability map lists features; it doesn't list every Blueprint *pattern* needed to combine them. When the parts are covered but the joining isn't, the join itself is off-map and the student would learn it separately. Example: a project where the player's current color must match a light's color to pass — Tutorial 2 gives the shared variable, Tutorial 1 gives the trigger, but the equality branch between two variables is its own small Blueprint pattern not directly taught. Call it out; don't gloss it as "a standard check."
 
@@ -187,12 +173,7 @@ Sequence the features so the student starts with the highest-coverage, highest-c
 
 ### Step 7 — Summarize (one response or two?)
 
-**Lead every response with the student's original idea, verbatim.** Quote them.  If the idea came across multiple messages, stitch the relevant parts into one block; don't paraphrase.
-
-```
-Your idea:
-> [paste the student's idea verbatim — quote, don't summarize]
-```
+**Before composing a response, load `agent/project-mapping-templates.md`** for the three response-shape skeletons (compressed tradeoff, one-response, two-response). The prose below explains *when* to use which and *what to put in each slot*; the templates file holds the structural skeleton.
 
 **Look for a tradeoff worth naming.** A **tradeoff** is a player-facing decision designed into the world: to gain one thing, the player must give up another. The lightning in the gallery reveals the paintings (information) but hides the ghost (safety). The dark hides the paintings but lets the player hear the ghost. Each flash and each pause is a moment of choice — and the choice is where the tension lives.
 
@@ -211,23 +192,9 @@ Not every idea arrives with a tradeoff designed in yet. Many describe a world wi
 
 **Full-strength format — when a tradeoff is designed in**: open with the framing line, then name the specific tradeoff and explain how it generates play tension. One tradeoff per response — if a second is also present in the idea, pick the strongest. Keep the depth.
 
-**Compressed format — when no tradeoff is designed in yet**: open with the framing line, then a short transition into 2-3 directions the student could take to add one. End with **"We can discuss this further if you want."** Don't pad beyond the opening framing line — the list speaks for itself.
+**Compressed format — when no tradeoff is designed in yet**: open with the framing line, then a short transition into 2-3 directions the student could take to add one. End with **"We can discuss this further if you want."** Don't pad beyond the opening framing line — the list speaks for itself. *Skeleton: see `agent/project-mapping-templates.md` § Compressed tradeoff format.*
 
-```
-### Tradeoff the player faces
-
-A tradeoff — where the player gains one thing only by giving up another — is a worthwhile dynamic to design for, and often worth building in from an early iteration. The idea doesn't have one designed in yet — a few directions you could go:
-
-- **[Direction 1.]** [One-sentence sketch.]
-- **[Direction 2.]** [One-sentence sketch.]
-- **[Direction 3.]** [Optional third.]
-
-We can discuss this further if you want.
-```
-
-A tradeoff is not a warning or a "watch out for…" — it's a structural feature of play that you're noticing (or proposing) so the student can build with it deliberately.
-
-**Not a designer-side cost.** A tradeoff is what the *player* gives up to gain something — not what the *designer* gave up by choosing this design. 
+**The player's tradeoff** — what they give up to gain something. Not the designer's choice, not a warning.
 
 **Cite an example to look at.** When a game or film in the references folder genuinely resonates with the student's idea, point them to it — one sentence on what specifically connects. References live in `References/` (the in-bundle folder). Examples of the shape:
 
@@ -241,9 +208,9 @@ A tradeoff is not a warning or a "watch out for…" — it's a structural featur
 
 **Worth bringing up with the instructor.** Some questions belong with the instructor, not the companion. The instructor's territory is **theme, opportunity, and affective communication** — what the work is about, what it could become, and how to make the player feel what it intends. What qualifies:
 
-- **Theme** — what the project is *about*. A characters motivations, what an atmosphere serves, where a character's arc lands. Includes sensitive territory (autobiography, violence, identity) where the meaning is bigger than a craft choice. The choice is a conversation, not the companion's call.
-- **Opportunity** — a design direction the idea could lean into that the student hasn't named yet. Surfacing it as an opportunity is different from prescribing it.
-- **Affective communication** — how to make the player *feel* what the design intends. Pacing, silence, framing, music or its absence, what the ending leaves the player with. Craft questions where the instructor's experience matters.
+- **Theme** — what the project is *about*. Includes sensitive territory (autobiography, violence, identity).
+- **Opportunity** — a design direction the student hasn't named yet.
+- **Affective communication** — how to make the player *feel* what the design intends (pacing, silence, framing, music or its absence).
 
 **What does NOT qualify** (and never frame as an instructor question ]]):
 
@@ -259,44 +226,11 @@ A tradeoff is not a warning or a "watch out for…" — it's a structural featur
 
 This is calibration, not gatekeeping — never "your idea is too ambitious." Scope is the student's call; the line only makes the shape of the work visible so they can plan with it. Healthy shape → brief and encouraging. Heavy off-map → honest and immediately constructive.
 
-**One response — when the idea fits the assigned role cleanly** (or there's no role constraint and you've simply identified the fit). Format:
-
-```
-Your idea:
-> [verbatim quote, per above]
-
-Your project: [restate in their words, one sentence]
-
-What kind of experience: [role(s), described in their language]
-
-Tradeoff the player faces: [the moment where gaining X costs Y; skip if the idea doesn't have one designed in yet]
-
-A reference to look at: [Game/Film name] — [one sentence on what about it connects to their idea; skip if nothing fits]
-
-Worth bringing up with the instructor: [specific question worth a real conversation; skip if nothing real surfaces]
-
-The part I'm most excited about: [one specific thing the idea made you want to see them build]
-
-Build order:
-1. Get a first-person or third-person player character placed and walking [default template, or Tutorial 202 if MetaHuman]
-2. [Tutorial number] — [feature it adds]
-3. [Tutorial number] — [feature]
-...
-
-Off-Map:
-[opening line(s) — name the section as what the student researches on their own, outside the bundle; calibrate — healthy shape: brief, encouraging note; medium/long off-map list: honest heads-up + path forward]
-- [feature] — [brief pointer]
-- [feature] — [brief pointer]
-
-A. Tell me more about [specific aspect 1].
-B. Tell me more about [specific aspect 2 — different facet].
-```
+**One response — when the idea fits the assigned role cleanly** (or there's no role constraint and you've simply identified the fit). *Skeleton: see `agent/project-mapping-templates.md` § One-response format.*
 
 The design and meaning sections come first; the build order and the "Off-Map" section land last, so the response ends on concrete next steps. The "excited about" line is intentional — a specific thing you're excited about, placed as the pivot from the design discussion into the practical build. The two follow-up questions, last of all, extend that momentum into the next turn.
 
-**Two follow-up questions to close.** After "The part I'm most excited about," ask **two specific follow-up questions** that invite the student to deepen one aspect of their idea each. Format each one as **"Tell me more about ___."** with the blank filled by a specific aspect of *their* idea — a moment, a mechanic, a juxtaposition, a tension. Not generic prompts.
-
-**Label them A and B**, not numbers. Per the Tone-section labeling rule: numbered questions appear only in the very first companion response; the closing pair is always A and B. This keeps the closing pair visually distinct from any first-response numbered questions, and from the unnumbered conversational follow-ups in later turns.
+**Two follow-up questions to close.** After "The part I'm most excited about," ask **two specific "Tell me more about ___." questions** — blanks filled by specific aspects of *their* idea (moment, mechanic, juxtaposition, tension). Label A and B per the Tone-section rule.
 
 Pick aspects from this menu of question shapes:
 
@@ -309,17 +243,7 @@ Pick aspects from this menu of question shapes:
 
 Pick two distinct aspects so the questions don't overlap. Keep each one short — one sentence of framing after the "Tell me more about ___" prompt is enough. The "Tell me more about" framing puts the student in the driver's seat; the menu keeps you from defaulting to generic check-ins.
 
-**Two responses — when a reframe is warranted** (per the call made in Step 3). Lead with the idea, then name both options up front so the student knows what they're reading:
-
-```
-Your idea:
-> [verbatim quote, per above]
-
-Your idea has [cross-role tension / scope tension / whatever the situation is]. Here are two ways to go — both valid. Pick whichever speaks to you:
-
-1. [Response 1 title — characterizing what it is, e.g. "Embrace the idea — investigation through Traveler verbs"]
-2. [Response 2 title — characterizing what it is, e.g. "Reframe — pure Traveler witnessing"]
-```
+**Two responses — when a reframe is warranted** (per the call made in Step 3). Lead with the idea, then name both options up front so the student knows what they're reading. *Skeleton: see `agent/project-mapping-templates.md` § Two-response intro.*
 
 The idea block appears **once** at the top — not repeated inside each response. Then deliver both responses **in full** — each gets its own build order, its own feature mapping, its own "Off-Map" note, its own optional tradeoff, its own optional reference to look at, its own optional instructor question, its own "part I'm most excited about." Don't shortchange Response 1 to make Response 2 look better. The student picks fairly only if both are complete.
 
@@ -342,8 +266,6 @@ Offer to save the summary (whether one response or two) to `student-notes-privat
 **Idea that doesn't match any role cleanly.** Don't force the fit. The roles are a starting framework, not a constraint. Acknowledge that the project is exploring its own design space and plan from features alone. (Flag for the instructor by logging the case — interesting new design spaces are useful to know about.)
 
 **Project the student has already started.** Skip Step 4's decomposition if the features are already chosen. Go straight to mapping what they have against the capability map, then suggest build order for what's left.
-
-**Student on a single-role assignment with an idea mostly in a different role.** Honor the ambition. Surface that the idea-as-described lives more in the other role (which is what a different project is built for), *and* surface that there's also an in-role angle on the same world available. Then plan the one(s) the student wants to pursue — both is fair, neither is the companion's call. Example: a student on the Investigator project describes a primarily atmospheric/Traveler idea. Response: "What you're describing — moving through this misty, sound-rich place — lives more in the **Traveler** role; that's what the **Traveler** project is built for, and tutorials 701/702 are the path. There's also a beautiful **Investigator** angle on the same world if you want it: what is the player piecing together about what happened in this place? Either is a real project. Want me to plan one, the other, or both?"
 
 **Student on a a project of a role earlier than the idea (ie a Traveler assignment but Entrant idea) with an idea mostly in Entrant or Dreamer.** Same posture — honor the ambition, then surface the Investigator+Traveler angle on the same world as also available. Example: a student describes a project where the player has to figure out a sequence of ritual actions to escape (heavily Entrant). Response: "The puzzle layer here lives in **Entrant** territory — beyond this assignment's scope but a role you've been introduced to. There's also a beautiful **Investigator+Traveler** version of this same world: what does the player **find** about who came before? What do they **witness** as they move through the spaces between rituals? Either version is real. Want me to plan one, the other, or both?"
 

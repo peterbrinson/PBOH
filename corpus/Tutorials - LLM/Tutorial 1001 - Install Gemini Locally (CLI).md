@@ -8,7 +8,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, the Gemini command-line interface (CLI) is installed on your computer and verified. The next tutorial — [[Tutorial 1031 - Set Up The Companion for Gemini]] — downloads The Companion's content, signs you in, and gets you to your first session.
+**Outcome.** By the end of this tutorial, the Gemini command-line interface (CLI) is installed on your computer and verified. The next tutorial — [[Tutorial 1004 - Set Up The Companion for Gemini]] — downloads The Companion's content, signs you in, and gets you to your first session.
 
 **Time.** About 10 minutes if everything goes smoothly.
 
@@ -16,6 +16,9 @@ publish: true
 - Install Node.js (the runtime Gemini CLI needs to run)
 - Install the Gemini CLI itself
 - Verify the `gemini` command runs
+
+> [!NOTE]
+> **Not to be confused with Gemma.** Installing Gemini "locally" means installing a command-line tool that communicates with the cloud. It does not mean downloading the AI model itself to your hard drive (which is what downloading Google's "Gemma" would do). You still need an internet connection to use it.
 
 <span style="color:#cb5d21">**Important — use a personal Google account.**</span> When you sign in during Chapter 2, you **must** use a personal `@gmail.com` account. School- and work-associated accounts (e.g., `@usc.edu`) usually have Gemini disabled by the organization, which will prevent the tool from working. Create a personal Gmail account if you don't already have one — it's free.
 
@@ -90,7 +93,7 @@ gemini --version
 
 You should see a version number. If you see `not recognized` or `command not found`, close the terminal window, open a fresh one, and try again — sometimes the new command isn't registered until you restart the terminal.
 
-# *++++++++++ Gemini CLI is installed* — continue to [[Tutorial 1031 - Set Up The Companion for Gemini]].
+# *++++++++++ Gemini CLI is installed* — continue to [[Tutorial 1004 - Set Up The Companion for Gemini]].
 
 ---
 
@@ -113,4 +116,4 @@ If `gemini` fails with `gemini.ps1 cannot be loaded because running scripts is d
 ## What you can now do
 
 - **Run `gemini` from any terminal** — the CLI is installed globally and ready.
-- **Continue to [[Tutorial 1031 - Set Up The Companion for Gemini]]** — download The Companion's content, sign in to Gemini, and start your first session.
+- **Continue to [[Tutorial 1004 - Set Up The Companion for Gemini]]** — download The Companion's content, sign in to Gemini, and start your first session.

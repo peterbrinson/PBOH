@@ -12,7 +12,7 @@ publish: true
 
 **Time.** About 10 minutes.
 
-**Prerequisites.** [[Tutorial 1001 - Set Up Gemini CLI]] and [[Tutorial 1031 - Set Up The Companion for Gemini]] complete — the Gemini CLI is installed, The Companion is downloaded, and you've authenticated via Sign in with Google. This tutorial doesn't change anything about Gemini itself; it just runs it inside a nicer container.
+**Prerequisites.** [[Tutorial 1001 - Install Gemini Locally (CLI)]] and [[Tutorial 1004 - Set Up The Companion for Gemini]] complete — the Gemini CLI is installed, The Companion is downloaded, and you've authenticated via Sign in with Google. This tutorial doesn't change anything about Gemini itself; it just runs it inside a nicer container.
 
 **Why.** Running the Companion in VSCode adds three things over the bare terminal:
 - A **file tree** so you can browse tutorials, wiki pages, and references without opening a separate window
@@ -34,7 +34,7 @@ If you don't have it already:
 ## 2. Open The Companion folder
 
 1. In VSCode, choose **File → Open Folder…** (or **File → Open…** on macOS).
-2. Navigate to the Companion folder you downloaded in [[Tutorial 1031 - Set Up The Companion for Gemini|Tutorial 1031]] (e.g., `Documents/TheCompanion-main` or `Documents/TheCompanion`).
+2. Navigate to the Companion folder you downloaded in [[Tutorial 1004 - Set Up The Companion for Gemini|Tutorial 1004]] (e.g., `Documents/TheCompanion-main` or `Documents/TheCompanion`).
 3. Click **Select Folder** (Windows) or **Open** (macOS).
 
 VSCode opens the folder as a workspace. The left sidebar (the **Explorer**) shows the file tree — `_welcome/` (orientation docs), `agent/` (the AI's operating files), `corpus/` (the four content folders: Tutorials, Wiki, SPRs, References), `gaps/`, and `student-notes-private/`.
@@ -56,7 +56,7 @@ VSCode opens the folder as a workspace. The left sidebar (the **Explorer**) show
    ```
    Start a Companion session.
    ```
-   The Companion greets you and asks what you're working on, exactly as in [[Tutorial 1031 - Set Up The Companion for Gemini|Tutorial 1031]].
+   The Companion greets you and asks what you're working on, exactly as in [[Tutorial 1004 - Set Up The Companion for Gemini|Tutorial 1004]].
 
 ---
 
@@ -92,4 +92,4 @@ When the Companion cites a wiki page or reference, click that file in the Explor
 - Try **Claude Code** in the same VSCode integrated terminal — the same folder works with either agent (they both read `agent/charter.md` via the root `CLAUDE.md` / `GEMINI.md` pointers)
 - Open the workspace from the command line by running `code .` inside the Companion folder (after installing the `code` command via VSCode's command palette → "Shell Command: Install 'code' command in PATH")
 - Install a VSCode markdown extension (such as *Markdown All in One*) for additional features — table of contents, keyboard shortcuts, math support
-- Use VSCode's built-in Git integration to pull future Companion updates if you used `git clone` in [[Tutorial 1031 - Set Up The Companion for Gemini|Tutorial 1031]] Chapter 1 — the Source Control panel handles `git pull` with one click
+- Use VSCode's built-in Git integration to pull future Companion updates if you used `git clone` in [[Tutorial 1004 - Set Up The Companion for Gemini|Tutorial 1004]] Chapter 1 — the Source Control panel handles `git pull` with one click

@@ -7,10 +7,10 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, The Companion's content is on your machine, your LLM CLI is working and pointed at the folder, making you ready for [[Tutorial 1061 - Start Using The Companion]].
+**Outcome.** By the end of this tutorial, The Companion's content is on your machine, your LLM CLI is working and pointed at the folder, making you ready for [[Tutorial 1101 - Start Using The Companion]].
 
 
-**Prerequisites.** [[Tutorial 1001 - Set Up Gemini CLI]] complete — the Gemini CLI is installed and the `gemini` command runs.
+**Prerequisites.** [[Tutorial 1001 - Install Gemini Locally (CLI)]] complete — the Gemini CLI is installed and the `gemini` command runs.
 
 **Learning Objectives:**
 - Download The Companion's content from GitHub
@@ -101,7 +101,7 @@ Start a Companion session.
 ```
 
 Press Enter. The Companion greets you and asks what you're working on. 
-### *You're set up* — continue to [[Tutorial 1061 - Start Using The Companion]].
+### *You're set up* — continue to [[Tutorial 1101 - Start Using The Companion]].
 
 ---
 
@@ -156,6 +156,7 @@ If it shows `gemini-api-key`, follow Troubleshooting section A above.
 
 ## What you can now do
 
-- **Continue to [[Tutorial 1061 - Start Using The Companion]]** — learn the three conversation types and hold your first real Companion conversation.
-- **Optional: [[Tutorial 1002 - Set Up Gemini in VSCode]]** — if you'd rather work in VSCode than a bare terminal, this brings the same Companion into a richer environment.
+- **Continue to [[Tutorial 1101 - Start Using The Companion]]** — learn the three conversation types and hold your first real Companion conversation.
+- **Optional: [[Tutorial 1003 - Set Up Gemini in VSCode]]** — if you'd rather work in VSCode than a bare terminal, this brings the same Companion into a richer environment.
+- **Optional: [[Tutorial 1002 - Set Up Gemini Desktop (Antigravity)]]** — if you'd prefer to use a dedicated desktop application with a richer UI.
 - **Pull future updates** — if you used `git clone` in Chapter 1, run `git pull` inside the folder to receive Companion changes without re-downloading.
