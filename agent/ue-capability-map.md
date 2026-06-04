@@ -6,13 +6,45 @@ publish: false
 
 *For the UE Tutorial Companion. When a student describes a project, use this map to identify which features are covered by the vault, which tutorials teach them, and which SPR the idea maps to. Features not listed here are outside the current vault scope — explain what they'd need to learn separately, and flag as a wiki gap (instructor-only).*
 
-*Sourced from `## What you can now build` sections across all tutorials. Last updated 2026-05-11. Approved 2026-05-11.*
+*Sourced from `## What you can now build` sections across all tutorials. Feature tables last updated + approved 2026-05-11. **Tutorial Index + "How to use this map" lookup block added 2026-06-04 (CE Review Phase B) — additive, no feature rows changed; the index is reorganized from existing map content. Worth a quick instructor pass to confirm each one-line "Teaches" description, but nothing was newly claimed.***
 
 **Columns:**
 - **SPR fit** — every role this feature can plausibly serve. Use this to *explain* why the tutorials fit the student's chosen role(s).
 - **Best for** — the 0–2 roles this feature is *strongest* for (rarely 2). Lean into this with enthusiasm when it matches a student's project — this is what the feature is built to shine at. Note: Entrant and Dreamer are mechanically identical here; differentiation is in meaning/metaphor, not mechanics.
 
 **Tone — never discourage.** This map is a tool for expanding what students can imagine, not a gate that filters out ideas. If a student's idea doesn't fit cleanly, that's a teaching moment, not a rejection. Off-map features get an explanation of what they'd need to learn — never a "you can't do this."
+
+---
+
+## How to use this map (lookup discipline)
+
+When a student describes a feature, route it like a lookup — don't read the whole map top-to-bottom:
+
+1. **Find the feature** in the category tables below → note the tutorial number(s).
+2. **Verify in the Tutorial Index** (right below) that the tutorial actually teaches that feature. If the number you're about to cite doesn't match what the index says it teaches, you've wandered — go back to step 1.
+3. **Read lean.** During project-mapping, read only the tutorial's `## What you can now build` and `## Example deviations you are ready for` sections — not the full tutorial body. Pull the full tutorial only when the student is actively building it.
+4. **Cite by number** and connect the SPR fit to the student's idea.
+
+## Tutorial Index (reverse lookup — verify here before citing)
+
+| Tut | Title | Teaches (one line) |
+| --- | --- | --- |
+| 1 | A Floor Plate Opens A Door | Trigger zones (enter/exit), objects that slide open/closed, event dispatchers |
+| 2 | Collectables and Restart | Collectibles that disappear on touch, counters, shared game state, level restart |
+| 3 | Scoring and UI | On-screen counter / HUD driven by a gameplay event (event → state → UI chain) |
+| 4 | Haunted House Triggers and Events | Arrays of triggered objects, staggered/sequential events, spatial ambient sound, Mixamo NPC with animation |
+| 201 | Pawn Possession *(WIP)* | Switching between multiple characters at a key press; Level Blueprint behavior — **not** locomotion |
+| 202 | MetaHuman Animations | MetaHuman as player or NPC, Mixamo animation retargeted to MetaHuman, montages |
+| 301 | Landscapes, Gaea and Automaterial | Landscape terrain from a Gaea heightmap, auto-layered grass/rock/snow, atmospheric sky, overhead map |
+| 302 | Water | Lakes, oceans (island), rivers with spline-controlled current |
+| 401 | Create a Material | Custom colored materials with editable parameters, material instances, texture-mapped surfaces |
+| 701 | Post-Processing | Global color grade (mood/tone), multiple Post Process Volumes per area |
+| 702 | Niagara Particles | Looping ambient particles (smoke/fire/dust/sparks), turbulent motion, color-shift over lifetime |
+| 801 | Inspect an Object | Readable note/object — full-screen widget, player input locked while open, audio log / photo / diary; Blueprint Interface |
+| 821 | Base Interactive System *(WIP)* | E-key interaction with whatever the player looks at, sphere trace for tagged objects, reusable interactable base class |
+| 901 | Recording with OBS | Screen-recording gameplay to an H.264 video, voice narration, no debug messages |
+
+*Not in this map: the 1000-series (LLM / Gemini-CLI setup, Companion onboarding) — it teaches no gameplay features, so it never belongs in a build order. If you're tempted to cite a 1000-series tutorial for a game mechanic, that's a wander — the feature is off-map.*
 
 ---
 

@@ -129,6 +129,8 @@ If the student's idea is too vague to decompose, return to Step 2 and probe for 
 
 ### Step 5 — Map each feature against the capability map
 
+**Use the map as a lookup, not a document to skim.** Follow the "How to use this map (lookup discipline)" block at the top of `agent/ue-capability-map.md`: find the feature in the category tables → **verify the tutorial number against the Tutorial Index before citing it** (this prevents wrong-tutorial wandering — e.g. 201 is Pawn Possession, not locomotion; the 1000-series is LLM setup, not gameplay) → read only that tutorial's `## What you can now build` and `## Example deviations you are ready for` sections during mapping, not the full body. Pull the full tutorial only when the student is actively building.
+
 For each feature, look it up in `agent/ue-capability-map.md`:
 
 - **Direct match** — name the tutorial(s) that teach it. Note SPR fit with a one-sentence "why." If Best for matches the student's role, get enthusiastic about it.
