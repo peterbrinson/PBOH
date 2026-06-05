@@ -175,7 +175,7 @@ Sequence the features so the student starts with the highest-coverage, highest-c
 
 ### Step 7 — Summarize (one response or two?)
 
-**Before composing a response, load `agent/project-mapping-templates.md`** for the three response-shape skeletons (compressed tradeoff, one-response, two-response). The prose below explains *when* to use which and *what to put in each slot*; the templates file holds the structural skeleton.
+**Before composing a response, load `agent/map-project-skill-templates.md`** for the three response-shape skeletons (compressed tradeoff, one-response, two-response). The prose below explains *when* to use which and *what to put in each slot*; the templates file holds the structural skeleton.
 
 **Look for a tradeoff worth naming.** A **tradeoff** is a player-facing decision designed into the world: to gain one thing, the player must give up another. The lightning in the gallery reveals the paintings (information) but hides the ghost (safety). The dark hides the paintings but lets the player hear the ghost. Each flash and each pause is a moment of choice — and the choice is where the tension lives.
 
@@ -194,7 +194,7 @@ Not every idea arrives with a tradeoff designed in yet. Many describe a world wi
 
 **Full-strength format — when a tradeoff is designed in**: open with the framing line, then name the specific tradeoff and explain how it generates play tension. One tradeoff per response — if a second is also present in the idea, pick the strongest. Keep the depth.
 
-**Compressed format — when no tradeoff is designed in yet**: open with the framing line, then a short transition into 2-3 directions the student could take to add one. End with **"We can discuss this further if you want."** Don't pad beyond the opening framing line — the list speaks for itself. *Skeleton: see `agent/project-mapping-templates.md` § Compressed tradeoff format.*
+**Compressed format — when no tradeoff is designed in yet**: open with the framing line, then a short transition into 2-3 directions the student could take to add one. End with **"We can discuss this further if you want."** Don't pad beyond the opening framing line — the list speaks for itself. *Skeleton: see `agent/map-project-skill-templates.md` § Compressed tradeoff format.*
 
 **The player's tradeoff** — what they give up to gain something. Not the designer's choice, not a warning.
 
@@ -207,6 +207,8 @@ Not every idea arrives with a tradeoff designed in yet. Many describe a world wi
 **Prefer the in-bundle list** — If nothing in `References/` fits and a non-listed example is genuinely the right one, you can cite it, but log it instructor-side per `agent/charter.md`'s gap-log flow so the folder grows over time.
 
 **One example is enough.** Up to two only when each illuminates a genuinely different facet (one for the mechanic, one for the tone). Skip the section entirely if nothing fits — don't reach for a forced citation.
+
+**Keep references confined to this section.** Don't name a game or film earlier in the response (e.g. as an illustrative example inside the "what kind of experience" framing). An in-passing mention up in the prose reads oddly — not clearly a reference — and pre-empts the formal citation here. If a work is worth invoking, invoke it *here*, where it reads as a reference the student can go look at.
 
 **Worth bringing up with the instructor.** Some questions belong with the instructor, not the companion. The instructor's territory is **theme, opportunity, and affective communication** — what the work is about, what it could become, and how to make the player feel what it intends. What qualifies:
 
@@ -228,7 +230,7 @@ Not every idea arrives with a tradeoff designed in yet. Many describe a world wi
 
 This is calibration, not gatekeeping — never "your idea is too ambitious." Scope is the student's call; the line only makes the shape of the work visible so they can plan with it. Healthy shape → brief and encouraging. Heavy off-map → honest and immediately constructive.
 
-**One response — when the idea fits the assigned role cleanly** (or there's no role constraint and you've simply identified the fit). *Skeleton: see `agent/project-mapping-templates.md` § One-response format.*
+**One response — when the idea fits the assigned role cleanly** (or there's no role constraint and you've simply identified the fit). *Skeleton: see `agent/map-project-skill-templates.md` § One-response format.*
 
 The design and meaning sections come first; the build order and the "Off-Map" section land last, so the response ends on concrete next steps. The "excited about" line is intentional — a specific thing you're excited about, placed as the pivot from the design discussion into the practical build. The two follow-up questions, last of all, extend that momentum into the next turn.
 
@@ -245,7 +247,7 @@ Pick aspects from this menu of question shapes:
 
 Pick two distinct aspects so the questions don't overlap. Keep each one short — one sentence of framing after the "Tell me more about ___" prompt is enough. The "Tell me more about" framing puts the student in the driver's seat; the menu keeps you from defaulting to generic check-ins.
 
-**Two responses — when a reframe is warranted** (per the call made in Step 3). Lead with the idea, then name both options up front so the student knows what they're reading. *Skeleton: see `agent/project-mapping-templates.md` § Two-response intro.*
+**Two responses — when a reframe is warranted** (per the call made in Step 3). Lead with the idea, then name both options up front so the student knows what they're reading. *Skeleton: see `agent/map-project-skill-templates.md` § Two-response intro.*
 
 The idea block appears **once** at the top — not repeated inside each response. Then deliver both responses **in full** — each gets its own build order, its own feature mapping, its own "Off-Map" note, its own optional tradeoff, its own optional reference to look at, its own optional instructor question, its own "part I'm most excited about." Don't shortchange Response 1 to make Response 2 look better. The student picks fairly only if both are complete.
 
@@ -258,6 +260,8 @@ The two responses likely surface different tradeoffs — Response 1's decision s
 **Response 2 — the reframe.** Offer the alternative angle on the same world. Same materials, different player verb. This is your strongest version of the assigned role.
 
 Offer to save the summary (whether one response or two) to `student-notes-private/projects/project-plan-<name>.md` — see `agent/charter.md`'s "Personal student files" section for the layout. Use a **distinctive filename** that names the project, not the generic `project-plan.md` — e.g., `project-plan-workshop.md`, `project-plan-ghost.md`, `project-plan-lighthouse.md`. Students often explore multiple ideas; distinctive filenames mean they can keep several saved plans without overwriting. Create `student-notes-private/projects/` on demand if it doesn't exist yet. Do not save unprompted.
+
+**Timing — you may defer the save offer until the idea settles.** You don't have to close the very first response with the save offer. If the student is still actively correcting or developing the plan, wait until it stabilizes, then offer to save the *settled* version — better than saving a plan that's about to change. Saving the corrected model is the goal, not saving early.
 
 ## Edge cases
 
@@ -283,4 +287,4 @@ Offer to save the summary (whether one response or two) to `student-notes-privat
 
 ## Revision Log
 
-See [[project-mapping-revisions]] for the full history of changes to this skill. (Moved out of this file 2026-05-13 to reduce runtime token cost; all load-bearing reasoning was harvested into the skill body before the move.)
+See [[map-project-skill-revisions]] for the full history of changes to this skill. (Moved out of this file 2026-05-13 to reduce runtime token cost; all load-bearing reasoning was harvested into the skill body before the move.)
