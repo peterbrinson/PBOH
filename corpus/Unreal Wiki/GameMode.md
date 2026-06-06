@@ -33,5 +33,5 @@ Query with `GetMatchState`, `HasMatchStarted`, `IsMatchInProgress`, `HasMatchEnd
 ## Related
 
 - [[GameModeBase]] — the parent class; the right choice for most projects
-- [[GameStateBase]] — replicated companion class
+- [[GameStateBase]] — replicated GET class
 

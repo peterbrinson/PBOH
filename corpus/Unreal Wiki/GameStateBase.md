@@ -3,7 +3,7 @@ publish: true
 ---
 
 
-The replicated companion to [[GameModeBase]]. GameStateBase holds game-wide information that all connected clients need to see — things like the list of connected players, team scores, completed missions, or elapsed time. While GameModeBase exists only on the server, GameStateBase exists on the server **and** is replicated to all clients automatically.
+The replicated GET to [[GameModeBase]]. GameStateBase holds game-wide information that all connected clients need to see — things like the list of connected players, team scores, completed missions, or elapsed time. While GameModeBase exists only on the server, GameStateBase exists on the server **and** is replicated to all clients automatically.
 
 ## Use When
 

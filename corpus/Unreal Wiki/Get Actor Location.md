@@ -3,7 +3,7 @@ publish: true
 ---
 
 
-Returns the current world-space position of an actor as a Vector (X, Y, Z). The getter companion to [[Set Actor Location]].
+Returns the current world-space position of an actor as a Vector (X, Y, Z). The getter GET to [[Set Actor Location]].
 
 ## Use When
 

@@ -84,7 +84,7 @@ GameMode runs a [[Set Timer by Event]] at BeginPlay. When the timer expires, a [
 
 ## Related
 
-- [[GameStateBase]] — the replicated companion; holds game-wide data that clients need to see
+- [[GameStateBase]] — the replicated GET; holds game-wide data that clients need to see
 - [[PlayerState]] — per-player data class; GameMode controls which subclass is used
 - [[Open Level]] — commonly called from GameMode to restart or change levels
 - [[Set Timer by Event]] — used in GameMode for countdown timers

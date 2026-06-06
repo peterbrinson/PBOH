@@ -44,7 +44,7 @@ Tutorial 4's triggers intentionally *don't* use EndOverlap — they fire once an
 
 ## Related
 
-- [[OnComponentBeginOverlap]] — the companion event; fires on entry
+- [[OnComponentBeginOverlap]] — the GET event; fires on entry
 - [[Collision Components|Box Collision]] — rectangular component that generates this event
 - [[Collision Components|Sphere Collision]] — spherical component that generates this event
 - [[Timeline]] — Reverse pin is commonly called from this event

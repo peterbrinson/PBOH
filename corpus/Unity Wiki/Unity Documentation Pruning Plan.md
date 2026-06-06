@@ -1,6 +1,6 @@
 # Goal Description
 
-The objective is to drastically reduce the sheer volume of Unity documentation files in `The Companion\corpus\Unity Wiki\raw\` (`ScriptReference` and `Manual`) so that only the files relevant to the `389\4_lectures` syllabus are kept. We will use the `Unreal Wiki` / `Unreal Tutorials` paradigm as our structural reference, ensuring we end up with atomic, focused concepts rather than a sprawling web of unused engine documentation.
+The objective is to drastically reduce the sheer volume of Unity documentation files in `The-GET\corpus\Unity Wiki\raw\` (`ScriptReference` and `Manual`) so that only the files relevant to the `389\4_lectures` syllabus are kept. We will use the `Unreal Wiki` / `Unreal Tutorials` paradigm as our structural reference, ensuring we end up with atomic, focused concepts rather than a sprawling web of unused engine documentation.
 
 ## Proposed Changes
 

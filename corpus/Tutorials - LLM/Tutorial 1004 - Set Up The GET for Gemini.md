@@ -7,40 +7,40 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, The Companion's content is on your machine, your LLM CLI is working and pointed at the folder, making you ready for [[Tutorial 1101 - Start Using The Companion]].
+**Outcome.** By the end of this tutorial, The GET's content is on your machine, your LLM CLI is working and pointed at the folder, making you ready for [[Tutorial 1101 - Start Using The GET]].
 
 
 **Prerequisites.** [[Tutorial 1001 - Install Gemini Locally (CLI)]] complete — the Gemini CLI is installed and the `gemini` command runs.
 
 **Learning Objectives:**
-- Download The Companion's content from GitHub
+- Download The GET's content from GitHub
 - Launch Gemini and sign in with your Google account
-- Point Gemini at the Companion folder
+- Point Gemini at the GET folder
 - Start your first session
 
 <span style="color:#cb5d21">**Important — use a personal Google account.**</span> When you sign in during Chapter 2, you **must** use a personal `@gmail.com` account. School- and work-associated accounts (e.g., `@usc.edu`) usually have Gemini disabled by the organization, which will prevent the tool from working. Create a personal Gmail account if you don't already have one — it's free.
 
 ---
 
-## 1. Download The Companion: Choose A or B
+## 1. Download The GET: Choose A or B
 
-*The Companion's content — tutorials, wiki pages, role descriptions, references — lives in a public GitHub repository. You have two ways to get it onto your machine. Either works.*
+*The GET's content — tutorials, wiki pages, role descriptions, references — lives in a public GitHub repository. You have two ways to get it onto your machine. Either works.*
 
 ### Option A. (your first time) ZIP download 
 
-1. Go to [github.com/vLabUSC/TheCompanion](https://github.com/vLabUSC/TheCompanion).
+1. Go to [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET).
 2. Click the green **`<> Code`** button (top-right of the file list).
 3. Click **Download ZIP** at the bottom of the menu that appears.
 4. Extract the ZIP:
    - **Windows:** Right-click the downloaded file → **Extract All…**
    - **macOS:** Double-click the file in Finder.
-5. Move the resulting folder (named `TheCompanion-main`) to your `Documents` folder, or anywhere easy to find.
+5. Move the resulting folder (named `The-GET-main`) to your `Documents` folder, or anywhere easy to find.
 
 <span class="hint">GitHub may cover the Download ZIP button with a "Sign in" banner. You don't need a GitHub account — dismiss the banner if it appears.</span>
 
 ### Option B. (lets you fetch updates later) Git clone 
 
-If you already have `git` installed, this is the better path. The Companion gets updated over time; with a clone, future updates take one command (`git pull`) instead of a full re-download.
+If you already have `git` installed, this is the better path. The GET gets updated over time; with a clone, future updates take one command (`git pull`) instead of a full re-download.
 
 1. In your terminal, navigate to where you want the folder. For Documents:
    ```
@@ -49,10 +49,10 @@ If you already have `git` installed, this is the better path. The Companion gets
 
 2. Clone the repo:
    ```
-   git clone https://github.com/vLabUSC/TheCompanion.git
+   git clone https://github.com/vLabUSC/The-GET.git
    ```
 
-3. The folder will be named `TheCompanion` (no `-main` suffix this time).
+3. The folder will be named `The-GET` (no `-main` suffix this time).
 
 4. Later, to fetch updates: navigate into the folder and run `git pull`.
 
@@ -60,14 +60,14 @@ If you already have `git` installed, this is the better path. The Companion gets
 
 ## 2. Launch and Sign In
 
-*You have the runtime (Node.js), the tool (Gemini CLI), and the content (The Companion). Time to put them together.*
+*You have the runtime (Node.js), the tool (Gemini CLI), and the content (The GET). Time to put them together.*
 
 ### A. Navigate to the folder
 
-In your terminal, type `cd ` (with a trailing space) and then **drag the Companion folder** into the terminal window. The folder's path gets pasted automatically. Press Enter.
+In your terminal, type `cd ` (with a trailing space) and then **drag the GET folder** into the terminal window. The folder's path gets pasted automatically. Press Enter.
 
 Example on Windows after the drag.   This is only an example, your path will be different:
-cd "C:\Users\you\Documents\TheCompanion-main"
+cd "C:\Users\you\Documents\The-GET-main"
 
 
 ### B. Start Gemini
@@ -84,24 +84,24 @@ On first launch, if Gemini asks how you want to authenticate. Pick **Sign in wit
 
 A browser window opens. Sign in with your **personal Google account**. (Avoid school/work accounts — see the Important note in the Introduction.) Allow the access Gemini requests. The browser will redirect back and Gemini will report that you're authenticated.
 
-<span style="color:#cb5d21">**Don't miss this step:**</span> if Gemini offers **Use Gemini API key** as an option, **do not pick it** — even if you happen to have an API key from somewhere. That path uses a separate billing system with a much tighter free tier (about 25–50 requests per day, versus roughly 1,000 per day via Sign in with Google), and it does **not** apply any Google AI subscription you may have. People hit the API-key daily limit in a handful of Companion turns.
+<span style="color:#cb5d21">**Don't miss this step:**</span> if Gemini offers **Use Gemini API key** as an option, **do not pick it** — even if you happen to have an API key from somewhere. That path uses a separate billing system with a much tighter free tier (about 25–50 requests per day, versus roughly 1,000 per day via Sign in with Google), and it does **not** apply any Google AI subscription you may have. People hit the API-key daily limit in a handful of GET turns.
 
 ### D. Trust the folder
 
-Gemini next asks whether to trust the current folder or its parent. Pick **the current folder** (the one called `TheCompanion-main` or `TheCompanion`, not its parent).
+Gemini next asks whether to trust the current folder or its parent. Pick **the current folder** (the one called `The-GET-main` or `The-GET`, not its parent).
 
-Trusting the folder lets Gemini read The Companion's content. Trusting the parent would extend access to everything else in `Documents`, which Gemini doesn't need.
+Trusting the folder lets Gemini read The GET's content. Trusting the parent would extend access to everything else in `Documents`, which Gemini doesn't need.
 
 ### E. Start your first session
 
 Once you see Gemini's prompt, type:
 
 ```
-Start a Companion session.
+Start a GET session.
 ```
 
-Press Enter. The Companion greets you and asks what you're working on. 
-### *You're set up* — continue to [[Tutorial 1101 - Start Using The Companion]].
+Press Enter. The GET greets you and asks what you're working on. 
+### *You're set up* — continue to [[Tutorial 1101 - Start Using The GET]].
 
 ---
 
@@ -132,7 +132,7 @@ This **renames** the config folder rather than deleting it — your old config s
 **Step 3 — relaunch.**
 
 ```
-cd <path to The Companion folder>
+cd <path to The GET folder>
 gemini
 ```
 
@@ -156,7 +156,7 @@ If it shows `gemini-api-key`, follow Troubleshooting section A above.
 
 ## What you can now do
 
-- **Continue to [[Tutorial 1101 - Start Using The Companion]]** — learn the three conversation types and hold your first real Companion conversation.
-- **Optional: [[Tutorial 1003 - Set Up Gemini in VSCode]]** — if you'd rather work in VSCode than a bare terminal, this brings the same Companion into a richer environment.
+- **Continue to [[Tutorial 1101 - Start Using The GET]]** — learn the three conversation types and hold your first real GET conversation.
+- **Optional: [[Tutorial 1003 - Set Up Gemini in VSCode]]** — if you'd rather work in VSCode than a bare terminal, this brings the same GET into a richer environment.
 - **Optional: [[Tutorial 1002 - Set Up Gemini Desktop (Antigravity)]]** — if you'd prefer to use a dedicated desktop application with a richer UI.
-- **Pull future updates** — if you used `git clone` in Chapter 1, run `git pull` inside the folder to receive Companion changes without re-downloading.
+- **Pull future updates** — if you used `git clone` in Chapter 1, run `git pull` inside the folder to receive GET changes without re-downloading.

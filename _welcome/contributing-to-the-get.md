@@ -2,24 +2,24 @@
 publish: false
 ---
 
-# Contributing to The Companion
+# Contributing to The GET
 
-The Companion is distributed by **forking**. You work in your own fork; the class original stays read-only to you. This page covers the three things you'll do after setup: pull updates, send your gap log to the instructor, and (optionally) contribute a reference page.
+The GET is distributed by **forking**. You work in your own fork; the class original stays read-only to you. This page covers the three things you'll do after setup: pull updates, send your gap log to the instructor, and (optionally) contribute a reference page.
 
-If you haven't forked and cloned yet, do [[Tutorial 1000 - Fork and Clone The Companion]] first.
+If you haven't forked and cloned yet, do [[Tutorial 1000 - Fork and Clone The GET]] first.
 
 ## Your two remotes
 
 After Tutorial 1000 your clone has two remotes:
 
-- **`origin`** — your own fork (`github.com/<you>/TheCompanion`). You can push here freely.
-- **`upstream`** — the class original (`github.com/vLabUSC/TheCompanion`). You pull updates from here; you cannot push to it.
+- **`origin`** — your own fork (`github.com/<you>/The-GET`). You can push here freely.
+- **`upstream`** — the class original (`github.com/vLabUSC/The-GET`). You pull updates from here; you cannot push to it.
 
 Check them any time with `git remote -v`.
 
-## Get the latest Companion updates
+## Get the latest GET updates
 
-The course tutorials and wiki get updated over the semester. To pull the latest, from inside your Companion folder:
+The course tutorials and wiki get updated over the semester. To pull the latest, from inside your GET folder:
 
 ```
 git fetch upstream
@@ -30,7 +30,7 @@ As long as you haven't edited the bundle's own files (see the rule at the bottom
 
 ## Send your gap log to the instructor
 
-Your gap log lives at `gaps/<your-username>.md`. The Companion writes to it but never runs git. To get it to the instructor, commit and push it to your fork:
+Your gap log lives at `gaps/<your-username>.md`. The GET writes to it but never runs git. To get it to the instructor, commit and push it to your fork:
 
 ```
 git add gaps/
@@ -46,7 +46,7 @@ Found a game or film worth adding to the shared `corpus/References/` library? Th
 
 1. Add a new file `corpus/References/Game - Your Title.md` (or `Film - …`), matching the format of the existing reference pages.
 2. Commit and push it to your fork (`git push origin main`).
-3. On GitHub, open a **pull request** from your fork to `vLabUSC/TheCompanion`.
+3. On GitHub, open a **pull request** from your fork to `vLabUSC/The-GET`.
 4. The instructor reviews it; if accepted, it merges and reaches everyone on their next `git fetch upstream`.
 
 A brand-new file like this never causes a merge conflict — it's the cleanest kind of contribution.

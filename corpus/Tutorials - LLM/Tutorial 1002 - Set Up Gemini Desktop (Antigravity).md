@@ -5,7 +5,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, you will have the Gemini desktop app (Antigravity) installed, pointed at your Companion folder, and ready for use.
+**Outcome.** By the end of this tutorial, you will have the Gemini desktop app (Antigravity) installed, pointed at your GET folder, and ready for use.
 
 > [!NOTE]
 > **Not the Antigravity API.** Make sure you are using the standard Antigravity desktop app, and not the more advanced Antigravity API. The API involves complexities (like setting up developer keys and custom tooling) that are more advanced than we need for this course.
@@ -15,10 +15,10 @@ Download and install Antigravity for your platform.
 
 ## 2. Set Up Your Workspace
 
-The essential part of using Antigravity with this course is making sure it can see your Companion folder.
+The essential part of using Antigravity with this course is making sure it can see your GET folder.
 
 1. In the Antigravity UI, look for workspace or folder settings.
-2. Point it directly to your `The Companion` directory.
+2. Point it directly to your `The GET` directory.
 
 ## 3. Model Choice
 

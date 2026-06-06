@@ -8,7 +8,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, the Gemini command-line interface (CLI) is installed on your computer and verified. The next tutorial — [[Tutorial 1004 - Set Up The Companion for Gemini]] — downloads The Companion's content, signs you in, and gets you to your first session.
+**Outcome.** By the end of this tutorial, the Gemini command-line interface (CLI) is installed on your computer and verified. The next tutorial — [[Tutorial 1004 - Set Up The GET for Gemini]] — downloads The GET's content, signs you in, and gets you to your first session.
 
 **Time.** About 10 minutes if everything goes smoothly.
 
@@ -93,7 +93,7 @@ gemini --version
 
 You should see a version number. If you see `not recognized` or `command not found`, close the terminal window, open a fresh one, and try again — sometimes the new command isn't registered until you restart the terminal.
 
-# *++++++++++ Gemini CLI is installed* — continue to [[Tutorial 1004 - Set Up The Companion for Gemini]].
+# *++++++++++ Gemini CLI is installed* — continue to [[Tutorial 1004 - Set Up The GET for Gemini]].
 
 ---
 
@@ -116,4 +116,4 @@ If `gemini` fails with `gemini.ps1 cannot be loaded because running scripts is d
 ## What you can now do
 
 - **Run `gemini` from any terminal** — the CLI is installed globally and ready.
-- **Continue to [[Tutorial 1004 - Set Up The Companion for Gemini]]** — download The Companion's content, sign in to Gemini, and start your first session.
+- **Continue to [[Tutorial 1004 - Set Up The GET for Gemini]]** — download The GET's content, sign in to Gemini, and start your first session.

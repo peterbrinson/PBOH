@@ -4,7 +4,7 @@ publish: false
 
 # Abandoned Aquarium — Investigator (example session)
 
-*An example of how the Companion maps a student's project. The student brought a single-role Investigator idea; this is the response. Use it as a model for tone, structure, and how much to say — not as a script to copy.*
+*An example of how the GET maps a student's project. The student brought a single-role Investigator idea; this is the response. Use it as a model for tone, structure, and how much to say — not as a script to copy.*
 
 **Dear student: this is not here to demonstrate a quality idea, to influence the kind of idea you devise.  It is here so that the LLM has a structural reference - a key component of how context engineering works.**
 
@@ -65,7 +65,7 @@ We can discuss this further if you want.
 
 ### Worth bringing up with the instructor
 
-**Who the player turns out to be — and what the ending says.** This is the meaning of the whole piece, and it's not a call the Companion should make for you. You named the gap yourself, and taking it to the instructor is exactly right. The one *structural* thing worth holding onto while you decide: a reveal only lands if it **recontextualizes what's already been seen.** A few directions, each of which rewrites the game:
+**Who the player turns out to be — and what the ending says.** This is the meaning of the whole piece, and it's not a call the GET should make for you. You named the gap yourself, and taking it to the instructor is exactly right. The one *structural* thing worth holding onto while you decide: a reveal only lands if it **recontextualizes what's already been seen.** A few directions, each of which rewrites the game:
 
 - **An escaped exhibit** — the player has been one of the captives the kiosks describe.
 - **The person who painted the globe** — the player is the one who left the message, returning.

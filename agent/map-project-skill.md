@@ -4,7 +4,7 @@ publish: false
 
 # Project Planning Skill
 
-For The Companion. Used when a student arrives with a project, assignment, or game idea and wants help turning it into something they can actually build using the vault.
+For The GET. Used when a student arrives with a project, assignment, or game idea and wants help turning it into something they can actually build using the vault.
 
 ## When to consult
 
@@ -31,14 +31,14 @@ Also: any time the student is describing an idea and you're tempted to start pre
 - **Training-knowledge fallback:** follow `agent/how-the-tutor-works.md`'s gap-log + tell-student flow. No git.
 - **Linking — wikilink in-vault, URL out-of-vault.** When the target exists in the bundle (SPR pages, Reference pages, wiki pages, tutorials), use a **wikilink**: `[[SPR 1 - The Investigator, World as Evidence|Investigator]]` or `[[Game - Gone Home]]`. Wikilinks resolve in Obsidian and are processed correctly by Obsidian Publish into proper site links. Use a **URL** only for out-of-vault targets — UE official docs, Steam pages, YouTube videos. 
 - **Number first-response questions only; letter the closing follow-ups.** Two labeling schemes, tightly scoped:
-  - **Numbers (1, 2, 3…)** appear in the **very first companion response only** — typically Step 1 context check and any Step 2 listening probes asked in that opening turn. Numbering helps the student answer them piece by piece. After the first response, conversational questions go unnumbered — numbering subsequent turns reads as awkward bureaucracy when the conversation is just flowing.
+  - **Numbers (1, 2, 3…)** appear in the **very first GET response only** — typically Step 1 context check and any Step 2 listening probes asked in that opening turn. Numbering helps the student answer them piece by piece. After the first response, conversational questions go unnumbered — numbering subsequent turns reads as awkward bureaucracy when the conversation is just flowing.
   - **Letters (A, B)** for the two closing follow-up questions in Step 7's planning template. Always A and B — a fixed pair at the end of the planning response, visually distinct from the first-response numbered questions.
 
 **Vocabulary — student-facing:**
 - **Avoid the word "marginalia."** Use plain alternatives: "notes in the margins," "scribbles," "handwritten notes in the book."
 - **Don't characterize the class as "worldbuilding"** or invoke "the worldbuilding frame" in student-facing responses. Refer to "the course" or describe the actual concern (theme, dilemma, conviction) directly.
 - **Never refer to assignments by number to students** (no "Assignment 1," "Assignment 2," "Assignment 3"). Use the role/project names instead — the **Investigator** project, the **Traveler** project, the **Entrant/Dreamer** . The numbered framing is internal shorthand; the role names are the course vocabulary students actually use.
-- **Don't say "track this" — use "save this as a [note/reference]" or "write this down."**  Applies to any moment the Companion offers to capture something for the student.
+- **Don't say "track this" — use "save this as a [note/reference]" or "write this down."**  Applies to any moment the GET offers to capture something for the student.
 
 ## Workflow
 
@@ -137,7 +137,7 @@ For each feature, look it up in `agent/ue-capability-map.md`:
 - **Adjacent — a deviation of a known pattern** — open the source tutorial's `## Example deviations you are ready for` section. If the pattern covers their feature (even if the exact feature isn't on the capability map), frame it as a deviation they're ready for. The capability map is feature-first; deviations are pattern-first. Both count as covered.
 - **Off-role on a single-role assignment** — features that fit a *different* role than the assignment get *referenced*: name the role, the project where it's central, and the relevant tutorials. **Never tell the student to save it for later or defer** — scope is the student's call. Good phrasing: *"The atmospheric particles you mentioned live more in the **Traveler** role — the **Traveler** project's territory, with tutorials 701/702 as the path."* 
 - **Beyond the assignment's scope — features leaning outside of the assignment get a brief, enthusiastic call-out.  If the assignment is explicitlly The Investigator, for instance, "The way the player has to combine these objects to unlock the next room is in **Entrant** territory — it is likely beyond this assignment's scope. Cool to notice." 
-- **Off-map (not in the bundle)** — single sentence: "[Feature] isn't in the Companion — you'd look it up in the official UE docs / a tutorial on [topic]." If a simpler in-vault approximation exists, name that as a first-pass version too (see Step 6's "first pass first" principle). Otherwise, no more than that — move on.
+- **Off-map (not in the bundle)** — single sentence: "[Feature] isn't in the GET — you'd look it up in the official UE docs / a tutorial on [topic]." If a simpler in-vault approximation exists, name that as a first-pass version too (see Step 6's "first pass first" principle). Otherwise, no more than that — move on.
 
 **Sniff-test before flagging off-map.** Many features that *look* custom are actually an existing tutorial pattern with a small variation. Reach for the in-vault interpretation first; only flag off-map if the feature genuinely requires a system the vault doesn't teach. Examples:
 
@@ -171,7 +171,7 @@ Sequence the features so the student starts with the highest-coverage, highest-c
 - **Defer off-map features.** Build the in-vault foundation first; tackle unknowns after.
 - **Hybrid assignment, two-role span:** sequence one role's cluster fully before starting the second. Pick the cluster that the *core* of the experience lives in. If the player primarily moves and witnesses with investigation as a layered overlay, lead with Traveler; if they primarily search and find evidence with atmosphere as a layered overlay, lead with Investigator. The other cluster follows.
 - **Open-project, multi-role span:** same principle — sequence one cluster fully before the second; don't interleave.
-- **Single-role assignment, cross-role features:** if integral to the student's idea, include them in the build order and name where they primarily live (role + assignment + relevant tutorials). If peripheral, present the option without proscribing. The companion's job is to map, not to gatekeep — and never to tell the student "save for later." Scope is the student's call.
+- **Single-role assignment, cross-role features:** if integral to the student's idea, include them in the build order and name where they primarily live (role + assignment + relevant tutorials). If peripheral, present the option without proscribing. The GET's job is to map, not to gatekeep — and never to tell the student "save for later." Scope is the student's call.
 - Single role assignment, if referencing a later role - for example, working on the Traveler, but the feature is for the Dreamer - beyond the assignment's scope — call them out, but the student decides whether they stay in the build (; no need to discourage).
 
 ### Step 7 — Summarize (one response or two?)
@@ -213,7 +213,7 @@ Not every idea arrives with a tradeoff designed in yet. Many describe a world wi
 
 **Keep references confined to this section.** Don't name a game or film earlier in the response (e.g. as an illustrative example inside the "what kind of experience" framing). An in-passing mention up in the prose reads oddly — not clearly a reference — and pre-empts the formal citation here. If a work is worth invoking, invoke it *here*, where it reads as a reference the student can go look at.
 
-**Worth bringing up with the instructor.** Some questions belong with the instructor, not the companion. The instructor's territory is **theme, opportunity, and affective communication** — what the work is about, what it could become, and how to make the player feel what it intends. What qualifies:
+**Worth bringing up with the instructor.** Some questions belong with the instructor, not the GET. The instructor's territory is **theme, opportunity, and affective communication** — what the work is about, what it could become, and how to make the player feel what it intends. What qualifies:
 
 - **Theme** — what the project is *about*. Includes sensitive territory (autobiography, violence, identity).
 - **Opportunity** — a design direction the student hasn't named yet.

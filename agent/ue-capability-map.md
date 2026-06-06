@@ -4,7 +4,7 @@ publish: false
 
 # UE Capability Map
 
-*For the UE Tutorial Companion. When a student describes a project, use this map to identify which features are covered by the vault, which tutorials teach them, and which SPR the idea maps to. Features not listed here are outside the current vault scope — explain what they'd need to learn separately, and flag as a wiki gap (instructor-only).*
+*For the UE Tutorial GET. When a student describes a project, use this map to identify which features are covered by the vault, which tutorials teach them, and which SPR the idea maps to. Features not listed here are outside the current vault scope — explain what they'd need to learn separately, and flag as a wiki gap (instructor-only).*
 
 *Sourced from `## What you can now build` sections across all tutorials. Feature tables last updated + approved 2026-05-11. **Tutorial Index + "How to use this map" lookup block added 2026-06-04 (CE Review Phase B) — additive, no feature rows changed; the index is reorganized from existing map content. Worth a quick instructor pass to confirm each one-line "Teaches" description, but nothing was newly claimed.***
 
@@ -44,7 +44,7 @@ When a student describes a feature, route it like a lookup — don't read the wh
 | 821 | Base Interactive System *(WIP)* | E-key interaction with whatever the player looks at, sphere trace for tagged objects, reusable interactable base class |
 | 901 | Recording with OBS | Screen-recording gameplay to an H.264 video, voice narration, no debug messages |
 
-*Not in this map: the 1000-series (LLM / Gemini-CLI setup, Companion onboarding) — it teaches no gameplay features, so it never belongs in a build order. If you're tempted to cite a 1000-series tutorial for a game mechanic, that's a wander — the feature is off-map.*
+*Not in this map: the 1000-series (LLM / Gemini-CLI setup, GET onboarding) — it teaches no gameplay features, so it never belongs in a build order. If you're tempted to cite a 1000-series tutorial for a game mechanic, that's a wander — the feature is off-map.*
 
 ---
 
