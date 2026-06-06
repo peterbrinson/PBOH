@@ -89,7 +89,7 @@ When the Companion cites a wiki page or reference, click that file in the Explor
 
 ## Example deviations you are ready for
 
-- Try **Claude Code** in the same VSCode integrated terminal — the same folder works with either agent (they both read `agent/charter.md` via the root `CLAUDE.md` / `GEMINI.md` pointers)
+- Try **Claude Code** in the same VSCode integrated terminal — the same folder works with either agent (they both read `agent/how-the-tutor-works.md` via the root `CLAUDE.md` / `GEMINI.md` pointers)
 - Open the workspace from the command line by running `code .` inside the Companion folder (after installing the `code` command via VSCode's command palette → "Shell Command: Install 'code' command in PATH")
 - Install a VSCode markdown extension (such as *Markdown All in One*) for additional features — table of contents, keyboard shortcuts, math support
 - Use VSCode's built-in Git integration to pull future Companion updates if you used `git clone` in [[Tutorial 1004 - Set Up The Companion for Gemini|Tutorial 1004]] Chapter 1 — the Source Control panel handles `git pull` with one click

@@ -28,4 +28,4 @@ Notation rule: when "Entrant" appears, "Dreamer" follows it adjacently — *"Ent
 
 ## Where this fits
 
-Layer 3 of the Companion's three layers (tutorials, wiki, SPRs). The SPRs are the design lens applied throughout the system — the project-mapping skill loads the assignment's named SPR as its primary frame. See `agent/charter.md`, `agent/map-project-skill.md`, and `agent/ue-capability-map.md`'s "SPR fit" / "Best for" columns.
+Layer 3 of the Companion's three layers (tutorials, wiki, SPRs). The SPRs are the design lens applied throughout the system — the project-mapping skill loads the assignment's named SPR as its primary frame. See `agent/how-the-tutor-works.md`, `agent/map-project-skill.md`, and `agent/ue-capability-map.md`'s "SPR fit" / "Best for" columns.

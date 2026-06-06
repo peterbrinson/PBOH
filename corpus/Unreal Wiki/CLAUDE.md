@@ -26,7 +26,7 @@ Read `_meta/CLAUDE.md` — it carries the canonical rules (page format, wikilink
 
 ## If you're answering a student question
 
-The wiki is the first place to look for any UE concept. If it's covered, answer from the page and cite it; if not, log a gap in the student's `gaps/<github-username>.md` per `agent/charter.md`. Don't web-search UE topics — that bypasses the gap-log flow.
+The wiki is the first place to look for any UE concept. If it's covered, answer from the page and cite it; if not, log a gap in the student's `gaps/<github-username>.md` per `agent/how-the-tutor-works.md`. Don't web-search UE topics — that bypasses the gap-log flow.
 
 ## Where this fits
 

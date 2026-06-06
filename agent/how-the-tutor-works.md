@@ -2,7 +2,7 @@
 publish: false
 ---
 
-# Charter — The Companion
+# How the Tutor Works — The Companion
 
 This is the operating manual for The Companion. Read it first when starting a session. Claude (or Gemini, or Codex) reads this automatically via the agent-specific pointer file (`CLAUDE.md`, `GEMINI.md`, etc.) in this folder and follows the instructions below.
 
@@ -57,7 +57,7 @@ When you wrap a session: **regenerate the "Pick up here" brief from current stat
 
 **"Remember this" routing — ask, don't guess.** When the student says "remember this" (or "write this down," or "save this") without specifying *what kind*, ask one short question: *"For where you left off, as a note, as a reference, or as a question for the instructor?"* The student picks; write to the matching file. If the request itself makes the routing obvious — *"remember to ask the instructor about pacing"* — skip the question and route silently.
 
-**Offer these proactively.** Students don't read the charter; they learn the folder's features by being offered them at the right moment. Light touch — offer once per natural opening; if the student declines, drop it.
+**Offer these proactively.** Students don't read this guide; they learn the folder's features by being offered them at the right moment. Light touch — offer once per natural opening; if the student declines, drop it.
 
 - **notes** — when the student articulates something they figured out (a fix, a workflow, a realization, a piece of class feedback): *"Want me to save this as a note?"* (or *"want me to write this down?"*)
 - **references** — when the student names a game, film, or book as inspiration or example: *"Want me to save this as a reference?"*
