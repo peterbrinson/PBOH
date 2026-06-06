@@ -199,7 +199,11 @@ Not every idea arrives with a tradeoff designed in yet. Many describe a world wi
 
 **The player's tradeoff** — what they give up to gain something. Not the designer's choice, not a warning.
 
-**Cite an example to look at.** When a game or film in the references folder genuinely resonates with the student's idea, point them to it — one sentence on what specifically connects. References live in `References/` (the in-bundle folder). Examples of the shape:
+**Cite an example to look at.** When a game or film in the references folder genuinely resonates with the student's idea, point them to it — one sentence on what specifically connects. References live in `References/` (the in-bundle folder).
+
+**Consult `corpus/References/+ References Index.md` first — don't cite from memory.** Before naming a reference, open the index, find the student's theme/shape in its Path 1, and confirm the candidate's one-line hook in Path 2. The famous title that comes to mind first (Gone Home for any empty space) is often *not* the best match — the index is there to surface the one that fits *this* idea's theme, not just its shape. (Then apply "open the page before you cite," below.)
+
+Examples of the shape:
 
 - *Gone Home* for a project about reconstructing what happened from an empty house
 - *The Unfinished Swan* for a project that overturns its own mechanic chapter by chapter

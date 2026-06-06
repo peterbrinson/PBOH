@@ -452,3 +452,15 @@ This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**)
 **Why structural:** the test's interpretive misses (e.g. missing BioShock as a reference) are hard to fix in the skill and tracked as runtime drift; this one is a clean structural clarification, the kind that ports across runtimes. Candidate-tweak record in `The-GET-dev/people/peter/the-get-todo.md`; test scored as Worked example #2 in `The-GET-dev/agent/eval-rubric.md`.
 
 **Source:** instructor request 2026-06-06, after reviewing the Gemini test transcript (Peter caught the build-order/off-map Fab contradiction directly).
+
+### 2026-06-06 — References Index: reference citation becomes a lookup, not a recall
+
+**What was wrong:** Both Aquarium/Gemini runs (low *and* high reasoning) cited only **Gone Home** and missed **BioShock** — the best match for an idea built on ideological signage + a reveal-of-who-you-are. Proven to be **retrieval, not corpus** (BioShock and Tacoma are both in `References/`) and **retrieval, not reasoning** (identical miss at both reasoning levels). The model grabbed the famous recalled title instead of surveying the ~60-page References folder — the exact failure mode Phase B fixed for tutorials.
+
+**Fix (mirrors Phase B's Tutorial Index):** built `corpus/References/+ References Index.md` — a reverse lookup with two paths (Path 1: theme/shape → works; Path 2: per-work role affinity + one-line "cite it for" hook) plus a "How to use this index (lookup discipline)" block. Generated from each page's `## What It Is` text; plain markdown, no embeddings (legibility wins ties). `publish: false` for now (decision pending).
+
+**Changed:** Step 7's "Cite an example to look at" gained a directive — *"Consult `corpus/References/+ References Index.md` first — don't cite from memory… the famous title that comes to mind (Gone Home for any empty space) is often not the best match."* The existing "open the page before you cite" and "one example is enough" rules feed off it unchanged.
+
+**Acceptance test (pending):** re-run the aquarium idea even at low reasoning — success = it cites BioShock (and/or Tacoma) with a hook from the page. If a structural index makes a low-reasoning runtime retrieve BioShock, the fix ports — Phase B repeated for references.
+
+**Spec + design rationale:** `The-GET-dev/people/peter/references-index-spec.md`. **Source:** instructor greenlight 2026-06-06.
