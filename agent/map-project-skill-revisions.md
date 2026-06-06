@@ -438,3 +438,17 @@ This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**)
 **Architectural note:** templates file is a sibling to `project-mapping-revisions.md` in concept — both extracted to keep `project-mapping.md` focused on the runtime rules. Pattern available for future splits (e.g., the edge-cases section could go the same way if it grows).
 
 **Source:** instructor request 2026-05-26, immediately after the 9-cut slim pass. Sequence: discussed two next-step levers (split templates / move tradeoff-shapes menu); instructor picked templates split.
+
+### 2026-06-06 — Fab model import is a standard build step, not off-map
+
+**What was wrong:** Surfaced by the 2026-06-06 cross-runtime test (Aquarium / Investigator through Gemini CLI, scored against the `investigator-aquarium.md` baseline). Gemini both listed "import models from Fab" as build-order step #2 *and* listed "sourcing Fab models" under Off-Map — a self-contradiction. Root cause: the Step 6 Fab bullet said "This isn't covered by any tutorial," which a runtime can read as "not tutorial-covered → therefore off-map," so it double-counts the step. (Same test also showed Gemini *under*-identifying genuine off-map items like the gaze-triggered cut — the off-map calibration drifted in both directions.)
+
+**Rule added:** Importing models from Fab is a *standard build step* — not taught by a tutorial, but no more "off-map" than placing the player character. It belongs in the build order only, **never** in the Off-Map section, and the GET should recommend the specific assets *this* idea needs. Off-map means a *feature* the bundle doesn't teach (custom shader, physics buoyancy, gaze check), not a routine step of making any Unreal project.
+
+**Changed:**
+1. **Step 6 Fab bullet** — replaced "This isn't covered by any tutorial, but it's a near-universal step" with an explicit "standard build step, not an off-map feature" framing; added "recommend the specific assets this idea needs"; added "Never list Fab model-sourcing in the Off-Map section"; clarified in-engine placeholder **primitives** (boxes/planes) are distinct from Fab downloads.
+2. **Step 7 "Calibrate the coverage"** — added a "What the Off-Map section is *not* for: standard build steps" note carving out Fab import / player-character / blocking-out, with the feature-vs-routine-step distinction.
+
+**Why structural:** the test's interpretive misses (e.g. missing BioShock as a reference) are hard to fix in the skill and tracked as runtime drift; this one is a clean structural clarification, the kind that ports across runtimes. Candidate-tweak record in `The-GET-dev/people/peter/the-get-todo.md`; test scored as Worked example #2 in `The-GET-dev/agent/eval-rubric.md`.
+
+**Source:** instructor request 2026-06-06, after reviewing the Gemini test transcript (Peter caught the build-order/off-map Fab contradiction directly).
