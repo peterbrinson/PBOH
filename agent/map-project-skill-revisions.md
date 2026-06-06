@@ -461,6 +461,6 @@ This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**)
 
 **Changed:** Step 7's "Cite an example to look at" gained a directive — *"Consult `corpus/References/+ References Index.md` first — don't cite from memory… the famous title that comes to mind (Gone Home for any empty space) is often not the best match."* The existing "open the page before you cite" and "one example is enough" rules feed off it unchanged.
 
-**Acceptance test (pending):** re-run the aquarium idea even at low reasoning — success = it cites BioShock (and/or Tacoma) with a hook from the page. If a structural index makes a low-reasoning runtime retrieve BioShock, the fix ports — Phase B repeated for references.
+**Acceptance test — ✅ PASSED (2026-06-06).** Re-ran the aquarium at **Pro low** (the runtime that had missed BioShock twice): it cited **BioShock** with the index's hook ("cheerful ideological signage you're meant to swallow … a reveal that re-colors everything"). Also confirmed on **Flash high** — the index ports *down a model tier*, not just across runtimes. The only change isolating the result was the index. Phase B repeated for references; structural lookups beat reasoning bumps for retrieval, and they survive weaker models.
 
 **Spec + design rationale:** `The-GET-dev/people/peter/references-index-spec.md`. **Source:** instructor greenlight 2026-06-06.
