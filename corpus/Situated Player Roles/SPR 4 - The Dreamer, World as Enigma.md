@@ -27,7 +27,7 @@ _The Burning Giraffe_ (1937) by Salvador Dali
 
 ## Dream Logic
 
-The Dreamer engages logic — but it is *dream logic*. We see this codified in the film *Inception*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, physics bends around the architect's will. These are not the rules of waking life.
+The Dreamer engages logic — but it is *dream logic*. We see this codified in the film *[[References/Film - Inception|Inception]]*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, physics bends around the architect's will. These are not the rules of waking life.
 
 ![[spr_dreamer_05.webp]]
 In a Dreamer game, the first state of [[SPR 3 - The Entrant, World as Threshold#The Entrant's Loop: L.O.P.|L.O.P.]] — legibility — becomes central to the experience. The rules and relationships of the world are not immediately intuitive, and the player must accept them on their own terms and learn to reason within them.
@@ -43,7 +43,7 @@ The player’s search for passage unfolds across two alternating challenges: con
 
 ## Papo & Yo
 
-*[[Game - Papo and Yo|Papo & Yo]]* (2012) is the definitive Dreamer project. At a mechanical level, it plays like a standard Entrant game: a boy working through platforming puzzles.
+*[[References/Game - Papo and Yo|Papo & Yo]]* (2012) is the definitive Dreamer project. At a mechanical level, it plays like a standard Entrant game: a boy working through platforming puzzles.
 
 ![[spr_dreamer_30.jpeg]]
 
@@ -57,7 +57,7 @@ The mechanics are metaphors.  Playing the child of an alcoholic, the player mana
 
 ## Dreams and Play
 
-Satoshi Kon’s animated film, _[[Film - Paprika|Paprika]]_, offers a clear image of dreams as living enigmas. As the film progresses, dreams leak into the waking world, culminating in an absurd parade of surreal objects — dancing appliances, walking furniture, and twisting toys — march through the city.
+Satoshi Kon’s animated film, _[[References/Film - Paprika|Paprika]]_, offers a clear image of dreams as living enigmas. As the film progresses, dreams leak into the waking world, culminating in an absurd parade of surreal objects — dancing appliances, walking furniture, and twisting toys — march through the city.
 
 ![[spr_dreamer_40.webp]]
 

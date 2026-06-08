@@ -34,29 +34,29 @@ Detective fiction and film noir provide the canonical examples for this role. In
 ##### Return of the Obra Dinn
 
 ![[spr_investigator_04.png]]
-**[[Game - Return of the Obra Dinn|Return of the Obra Dinn]]** mirrors detective fiction perfectly. An insurance inspector investigates a ship mutiny by examining audio fragments and suspended moments in time to match evidence to causal chains.
+**[[References/Game - Return of the Obra Dinn|Return of the Obra Dinn]]** mirrors detective fiction perfectly. An insurance inspector investigates a ship mutiny by examining audio fragments and suspended moments in time to match evidence to causal chains.
 <br>
 ##### Gone Home
 
 ![[spr_investigator_05.jpg]]
-**[[Game - Gone Home|Gone Home]]** demonstrates that The Investigator stories are not limited to crime. The game invites the player to piece together a coming-of-age narrative embedded in a childhood home. 
-Its follow-up, **[[Game - Tacoma|Tacoma]]**, translates this to science fiction, featuring 3D recordings that reconstruct a tragedy on a space station.
+**[[References/Game - Gone Home|Gone Home]]** demonstrates that The Investigator stories are not limited to crime. The game invites the player to piece together a coming-of-age narrative embedded in a childhood home. 
+Its follow-up, **[[References/Game - Tacoma|Tacoma]]**, translates this to science fiction, featuring 3D recordings that reconstruct a tragedy on a space station.
 <br>
 ##### Her Story
 
 ![[spr_investigator_06.jpg]]
-[[Game - Her Story|Her Story]] proves this role doesn't necessarily explore physical space. It confines the player to a database, where discovery comes from searching records and noting contradictions across time.
+[[References/Game - Her Story|Her Story]] proves this role doesn't necessarily explore physical space. It confines the player to a database, where discovery comes from searching records and noting contradictions across time.
 <br>
 ##### Disco Elysium
 
 ![[spr_investigator_07.jpg]]
-**[[Game - Disco Elysium|Disco Elysium]]** simultaneously attends to the present and the past. It mixes retroactive reconstruction with a living present: the player starts by investigating past events and soon must parse competing political ideologies and social forces presently active in the town.
+**[[References/Game - Disco Elysium|Disco Elysium]]** simultaneously attends to the present and the past. It mixes retroactive reconstruction with a living present: the player starts by investigating past events and soon must parse competing political ideologies and social forces presently active in the town.
 <br>
 
 ## Multiple Roles in a Single Game
 
 ![[spr_investigator_02.png]]
-AAA games contain multiple Situated Player Roles. The Investigator — examining an interior in *Skyrim*, probing a map's lore in *[[Game - Elden Ring|Elden Ring]]*, or conversing with a character in *The Outer Worlds* — likely sits off the main line of action, but remains essential to the game's storytelling.  Alan Wake manifests all four roles; one of the protagonists in Alan Wake is Saga Anderson, an FBI agent.
+AAA games contain multiple Situated Player Roles. The Investigator — examining an interior in *Skyrim*, probing a map's lore in *[[References/Game - Elden Ring|Elden Ring]]*, or conversing with a character in *The Outer Worlds* — likely sits off the main line of action, but remains essential to the game's storytelling.  *[[References/Game - Alan Wake|Alan Wake]]* manifests all four roles; one of the protagonists in Alan Wake is Saga Anderson, an FBI agent.
 <br>
 ## Allegory
 

@@ -27,7 +27,7 @@ When we describe a video game as “difficult,” we usually mean it demands dex
 ## Disobedience
 
 ![[spr_traveler_05.jpg]]
-*The Path* (by Tale of Tales) embodies this rebellious spirit. The game gives a clear instruction — "And Stay on the Path" — but the instruction is a deceit. The meaningful experience requires disobedience. Off the path the player might:
+*[[References/Game - The Path|The Path]]* (by Tale of Tales) embodies this rebellious spirit. The game gives a clear instruction — "And Stay on the Path" — but the instruction is a deceit. The meaningful experience requires disobedience. Off the path the player might:
 
 - find a girl in a white dress standing beside a wolf at a piano
 - encounter a silent campfire deep in the woods
@@ -47,17 +47,17 @@ The continuous take emphasizes the viewer as a proximate witness, responsible fo
 Film scholar P. Adams Sitney says the avant-garde cinema protagonist "wanders through a potent environment toward a climactic scene of self-realization. The stages of his progress are often marked by what he sees along his path rather than what he does."
 
 ![[spr_traveler_07.jpg]]
-In [[Film - Twin Peaks|Twin Peaks]], Agent Cooper's path in the Red Room is not in his control. He is there to experience its confusing, shifting logic.
+In [[References/Film - Twin Peaks|Twin Peaks]], Agent Cooper's path in the Red Room is not in his control. He is there to experience its confusing, shifting logic.
 
 ## Perception is Control
 
 ![[spr_traveler_08.jpg]]
-A particularly pure interactive example appears at the opening of Giant Sparrow's *Unfinished Swan*. The world begins as blank white nothing. The player can only walk and throw black paint, gradually revealing the contours of a three-dimensional environment. The act of movement literally brings the world into perceptual existence.
+A particularly pure interactive example appears at the opening of Giant Sparrow's *[[References/Game - The Unfinished Swan|Unfinished Swan]]*. The world begins as blank white nothing. The player can only walk and throw black paint, gradually revealing the contours of a three-dimensional environment. The act of movement literally brings the world into perceptual existence.
 
 ## Free Will
 
 ![[spr_traveler_09.webp]]
-*The Stanley Parable* is the defining Traveler game. As the player navigates its office corridors, the narrator describes Stanley's actions in real time, anticipating our choices and framing them before we make them. Play consists of selecting one path after another until navigation itself becomes a question about agency. Each turn tests whether choice is freedom or performance.
+*[[References/Game - The Stanley Parable|The Stanley Parable]]* is the defining Traveler game. As the player navigates its office corridors, the narrator describes Stanley's actions in real time, anticipating our choices and framing them before we make them. Play consists of selecting one path after another until navigation itself becomes a question about agency. Each turn tests whether choice is freedom or performance.
 
 ## The Traveler Among the Other Roles
 

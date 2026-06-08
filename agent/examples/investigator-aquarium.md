@@ -39,8 +39,8 @@ We can discuss this further if you want.
 
 ### A reference to look at
 
-- **[[Game - Tacoma]]** — for the *shape.* An emptied institutional space you reconstruct from what people left behind, audio logs and all. It's the Investigator loop at building scale, and it shows how much story a route through empty rooms can carry. (Its audio logs are doing what your kiosks do.)
-- **[[Game - BioShock]]** — for the *theme and the reveal.* A whole world whose cheerful signage and slogans are the ideology you're meant to swallow — *"It pays for her cage"* is BioShock — and one of the most famous reveal-of-who-the-player-is in games. Worth studying specifically for your ending question: not to copy, but to feel how a reveal can reach back and re-color everything the player already saw.
+- **[[References/Game - Tacoma]]** — for the *shape.* An emptied institutional space you reconstruct from what people left behind, audio logs and all. It's the Investigator loop at building scale, and it shows how much story a route through empty rooms can carry. (Its audio logs are doing what your kiosks do.)
+- **[[References/Game - BioShock]]** — for the *theme and the reveal.* A whole world whose cheerful signage and slogans are the ideology you're meant to swallow — *"It pays for her cage"* is BioShock — and one of the most famous reveal-of-who-the-player-is in games. Worth studying specifically for your ending question: not to copy, but to feel how a reveal can reach back and re-color everything the player already saw.
 
 ### Worth bringing up with the instructor
 
