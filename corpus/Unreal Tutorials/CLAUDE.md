@@ -4,7 +4,7 @@ publish: false
 
 # CLAUDE.md — Unreal Tutorials
 
-Numbered, hand-built UE tutorials students follow step by step. The published human-facing index is `UE Tutorials - Table of Contents.md` — use it rather than this file when you need the list of tutorials.
+Numbered, hand-built UE tutorials students follow step by step. The published human-facing index is `index.md` (the folder landing page; formerly `UE Tutorials - Table of Contents.md`) — use it rather than this file when you need the list of tutorials.
 
 ## Structure
 

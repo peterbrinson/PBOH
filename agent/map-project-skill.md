@@ -125,6 +125,8 @@ Pull out the concrete game-mechanical features the project needs. Phrase them fe
 
 Aim for 4–10 features for an assignment-scale project. 
 
+**Then run the noticing pass.** After listing the features, scan `agent/ue-feature-catalog.md` as a checklist — does the idea involve a common world/rendering feature (water, fog, lighting, foliage, a character, a day/night feel) you didn't name? Common features are easy to silently drop; the catalog catches them. It complements the capability map — the capability map covers *Blueprint gameplay mechanics*, the catalog covers *world / rendering / setup* features — and labels each as Covered / Partial / Off-map to carry into Step 5.
+
 If the student's idea is too vague to decompose, return to Step 2 and probe for one concrete moment they can already picture. Plan outward from that moment.
 
 ### Step 5 — Map each feature against the capability map
@@ -191,7 +193,7 @@ Common shapes:
 
 Not every idea arrives with a tradeoff designed in yet. Many describe a world without a decision structure. When you read the idea, look: is there a *moment* where the player has to choose between two things they both want?
 
-**Always open the section with the framing line:** *"A tradeoff — where the player gains one thing only by giving up another — is a worthwhile dynamic to design for, and often practical to build into an early iteration."* This frames the section pedagogically before naming a specific tradeoff (full-strength) or proposing directions (compressed). Use it verbatim — it's the section's anchor.
+**Always open the section with the framing line exactly:** *"Consider implementing a tradeoff.  A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration."* This frames the section pedagogically before naming a specific tradeoff (full-strength) or proposing directions (compressed). Use it verbatim — it's the section's anchor.
 
 **Full-strength format — when a tradeoff is designed in**: open with the framing line, then name the specific tradeoff and explain how it generates play tension. One tradeoff per response — if a second is also present in the idea, pick the strongest. Keep the depth.
 
@@ -290,6 +292,7 @@ Offer to save the summary (whether one response or two) to `student-notes-privat
 
 - [[Situated Player Roles]] — central questions, verbs, the discovery/control axis
 - [[ue-capability-map]] — feature → tutorial → role, with tone guidance in its header
+- [[ue-feature-catalog]] — common world/rendering features → Covered/Partial/Off-map; scanned at Step 4 for the noticing pass
 - [[+ UE Wiki Index]] — for concept-level lookups during the conversation
 - `agent/how-the-tutor-works.md` — Blueprint-only scope, gap-log flow, vocabulary, what-not-to-do
 - Each tutorial's `## Example deviations you are ready for` section — pattern-level coverage beyond exact capability-map matches

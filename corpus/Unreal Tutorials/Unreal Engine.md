@@ -1,3 +1,7 @@
+---
+publish: false
+---
+
 Unreal Engine is a real-time 3D creation platform developed by Epic Games. It is one of the two dominant game engines in the industry, alongside Unity, and is the primary tool used in this course.
 
 ## History

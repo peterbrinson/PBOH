@@ -14,6 +14,8 @@ publish: false
 
 **Tone — never discourage.** This map is a tool for expanding what students can imagine, not a gate that filters out ideas. If a student's idea doesn't fit cleanly, that's a teaching moment, not a rejection. Off-map features get an explanation of what they'd need to learn — never a "you can't do this."
 
+**Sibling lookup — world & rendering features.** This map lists *Blueprint gameplay mechanics*. For common *world / rendering / setup* features (water, fog, lighting, foliage, cameras, physics) — labeled Covered / Partial / Off-map — see [[ue-feature-catalog]], scanned at skill Step 4 for the noticing pass.
+
 ---
 
 ## How to use this map (lookup discipline)

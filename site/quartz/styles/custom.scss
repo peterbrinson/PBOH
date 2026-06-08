@@ -1,3 +1,37 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Remove the "Explorer" header row (title emptied in quartz.layout.ts);
+// hide the now-empty toggle button so there's no stray chevron or gap.
+button.explorer-toggle {
+  display: none;
+}
+.explorer-content {
+  margin-top: 0;
+}
+
+// --- Explorer (left sidebar) legibility ---
+// Long tutorial titles wrap to 2+ lines. Without help, a wrapped entry blurs
+// into the next one. Fixes: space BETWEEN entries, tight leading WITHIN an
+// entry, and a hanging indent so continuation lines read as the same item.
+.explorer-content {
+  // Leaf entries (the actual page links)
+  & li > a {
+    display: block;
+    line-height: 1.25;          // tight within a wrapped entry
+    margin: 0.32rem 0;          // gap between entries
+    padding-left: 0.85rem;      // room for the hanging indent
+    text-indent: -0.85rem;      // pull first line back; wrap lines stay indented
+  }
+
+  // Folder rows (e.g. "300 - Environment Systems")
+  .folder-container {
+    margin: 0.4rem 0;
+
+    & div > a,
+    & div > button span {
+      line-height: 1.25;
+    }
+  }
+}

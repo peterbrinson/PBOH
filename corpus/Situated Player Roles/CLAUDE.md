@@ -21,9 +21,10 @@ Notation rule: when "Entrant" appears, "Dreamer" follows it adjacently — *"Ent
 
 ## Folder contents
 
-- The four SPR pages above + `Situated Player Roles.md` (overview)
-- `References/` — game and film examples linked from SPR pages
+- The four SPR pages above + `index.md` (overview; formerly `Situated Player Roles.md`)
 - `attachments/` — images embedded by SPR pages
+
+SPR pages link to game/film examples in the shared top-level `corpus/References/` (the local `References/` subfolder was removed 2026-06-08 — all its files were duplicates of the root copies).
 - `dreamer working.md` — draft scratch
 
 ## Where this fits

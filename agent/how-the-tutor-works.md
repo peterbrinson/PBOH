@@ -48,6 +48,8 @@ Create `student-notes-private/` and its sub-folders on demand when you first nee
 | `projects/project-plan-<name>.md` | Saved project plans. | When the student accepts the save offer at the end of `agent/map-project-skill.md` Step 7. Distinctive filename per project — never overwrite. |
 | `instructor-questions.md` | Running list of items for office hours / class. Append-only, date-stamped entries. | When the student says "remember this to bring up with the instructor." |
 
+**Confirm every save with its location.** When you finish writing any of these files, tell the student *where* it is — the path relative to the bundle, e.g. *"Saved to `student-notes-private/projects/project-plan-coatcheck.md`."* Don't just say "Saved" or name the bare filename; the student needs the location to find and open the file (the folder is local to their machine). The same applies to a gap-log append or any other file the GET writes — name the path.
+
 **`where-we-left-off.md` — two-zone format.** The file has two sections:
 
 - **Pick up here** (at the top) — short, a paragraph or two: project, last decision, next concrete step. This is what you read at session start.
