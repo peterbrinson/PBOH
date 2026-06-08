@@ -1,0 +1,52 @@
+name: Deploy The GET (Quartz) to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # allows manual runs from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: site # Quartz lives in the site/ subfolder
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # fetch full history so git-based page dates work
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build Quartz site from ../corpus
+        run: npx quartz build -d ../corpus
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/public # path is relative to the repo root
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
