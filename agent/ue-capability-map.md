@@ -29,7 +29,7 @@ When a student describes a feature, route it like a lookup — don't read the wh
 
 ## Tutorial Index (reverse lookup — verify here before citing)
 
-| Tut | Title | Teaches (one line) |
+| Tutorial | Title | Teaches (one line) |
 | --- | --- | --- |
 | 1 | A Floor Plate Opens A Door | Trigger zones (enter/exit), objects that slide open/closed, event dispatchers |
 | 2 | Collectables and Restart | Collectibles that disappear on touch, counters, shared game state, level restart |

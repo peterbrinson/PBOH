@@ -6,7 +6,6 @@ aliases:
 publish: true
 ---
 
-## Introduction
 
 ### What They Are For
 

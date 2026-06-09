@@ -15,9 +15,9 @@ Skeleton structures used by `agent/map-project-skill.md` Step 7. The skill's pro
 When no tradeoff is designed in yet — open with the framing line, list 2-3 directions, close with the "discuss further" line. (Full-strength format is freeform prose; only the compressed format has a fixed skeleton.)
 
 ```
-### Tradeoff the player faces
+### A Tradeoff To Consider
 
-A tradeoff — where the player gains one thing only by giving up another — is a worthwhile dynamic to design for, and often worth building in from an early iteration. The idea doesn't have one designed in yet — a few directions you could go:
+A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. The idea doesn't have one designed in yet — a few directions you could go:
 
 - **[Direction 1.]** [One-sentence sketch.]
 - **[Direction 2.]** [One-sentence sketch.]
@@ -33,28 +33,34 @@ We can discuss this further if you want.
 When the idea fits the assigned role cleanly (or there's no role constraint and you've simply identified the fit).
 
 ```
-Your idea:
+### Your idea
 > [paste the student's idea verbatim and in full — quote, don't summarize, no ellipses or abridgement; if it was assembled across several turns, stitch them into one faithful statement in the student's words]
 
-Your project: [restate in their words, one sentence — REQUIRED opener; don't skip straight to "What kind of experience"]
+### Your project
+[restate in their words, one sentence — REQUIRED opener; don't skip straight to the experience]
 
-What kind of experience: [role(s), described in their language]
+### What kind of experience
+[role(s), described in their language]
 
-Tradeoff the player faces: [the moment where gaining X costs Y; skip if the idea doesn't have one designed in yet]
+### A Tradeoff To Consider
+[the moment where gaining X costs Y; skip if the idea doesn't have one designed in yet]
 
-A reference to look at: [Game/Film name] — [one sentence on what about it connects to their idea; skip if nothing fits]
+### A reference to look at
+[Game/Film name in plain words — one sentence on what about it connects to their idea; skip if nothing fits]
 
-Worth bringing up with the instructor: [specific question worth a real conversation; skip if nothing real surfaces]
+### Worth bringing up with the instructor
+[specific question worth a real conversation; skip if nothing real surfaces]
 
-The part I'm most excited about: [one specific thing the idea made you want to see them build]
+### The part I'm most excited about
+[one specific thing the idea made you want to see them build]
 
-Build order:
+### Build order
 1. Get a first-person or third-person player character placed and walking [default template, or Tutorial 202 if MetaHuman]
-2. [Tutorial number] — [feature it adds]
-3. [Tutorial number] — [feature]
+2. Tutorial [number] — [feature it adds]
+3. Tutorial [number] — [feature]
 ...
 
-Off-Map:
+### Off-Map
 [opening line(s) — name the section as what the student researches on their own, outside the bundle; calibrate — healthy shape: brief, encouraging note; medium/long off-map list: honest heads-up + path forward]
 - [feature] — [brief pointer]
 - [feature] — [brief pointer]
@@ -70,7 +76,7 @@ B. Tell me more about [specific aspect 2 — different facet].
 When a reframe is warranted (per the Step 3 call). The idea block appears **once** at the top — not repeated inside each response. After the intro, deliver both Response 1 and Response 2 in full following the One-response format above.
 
 ```
-Your idea:
+### Your idea
 > [paste the student's idea verbatim and in full — quote, don't summarize, no ellipses or abridgement; if it was assembled across several turns, stitch them into one faithful statement in the student's words]
 
 Your idea has [cross-role tension / scope tension / whatever the situation is]. Here are two ways to go — both valid. Pick whichever speaks to you:

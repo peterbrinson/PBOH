@@ -29,7 +29,7 @@ At **Step 4 of `map-project-skill.md` (decompose into features)**, after you've 
 
 | Feature | Coverage | Where / note |
 |---|---|---|
-| Fog / atmospheric haze | **Covered** | 301 (part of its atmospheric sky) |
+| Fog / atmospheric haze | **Partial** | 301 introduces it as part of its *outdoor* atmospheric sky. For *interior* haze (e.g. a humid greenhouse), height/volumetric fog is **off-map · low-hanging** — or approximate the heavy-air feel with 702 particles. |
 | Sky & sun placement | **Covered** | 301 |
 | Day/night *cycle* (animated sun) | **Off-map · harder** | sun & sky *placement* are covered (301, row above); an *animated* day/night cycle isn't taught — and **don't suggest a Timeline-driven sun** (fiddly, not worth it). Leave it off-map. |
 
@@ -44,9 +44,9 @@ At **Step 4 of `map-project-skill.md` (decompose into features)**, after you've 
 
 | Feature | Coverage | Where / note |
 |---|---|---|
-| Lights — directional / point / spot | **Off-map · low-hanging** | not a tutorial; a *standard build step* — place and tune (same status as "place the player character") |
+| Lights — directional / point / spot | **Off-map · low-hanging** | The GET does not provide a tutorial for this; a *standard build step* — place and tune (same status as "place the player character") |
 | Light mobility (static / stationary / movable) | **Off-map · low-hanging** | editor setting on each light |
-| Cine Camera — lens, aperture, focal length, depth of field | **Off-map · low-hanging** | place a Cine Camera Actor and set its properties |
+| Depth of field (camera focus blur) | **Off-map · low-hanging** | The GET does not provide a tutorial for this; a focus/blur effect you add through Post Process settings |
 
 ## Landscape & Foliage
 
@@ -60,7 +60,7 @@ At **Step 4 of `map-project-skill.md` (decompose into features)**, after you've 
 
 | Feature | Coverage | Where / note |
 |---|---|---|
-| Collision / overlap detection | **Covered** | underlies Tut 1's trigger volumes |
+| Collision / overlap detection | **Covered** | underlies Tutorial 1's trigger volumes |
 | Collision presets | **Off-map · low-hanging** | a per-component editor dropdown |
 | Gravity / physics simulation (falling bodies, ragdoll, buoyancy) | **Off-map · harder** | explicitly outside vault scope; offer a Timeline-driven approximation as a first pass where one fits (e.g. a looping bob instead of buoyancy) |
 
@@ -84,10 +84,10 @@ At **Step 4 of `map-project-skill.md` (decompose into features)**, after you've 
 
 ## Confirmed (instructor pass, 2026-06-08)
 
-- **Fog** — 301 *introduces* it. Covered (beginner level).
+- **Fog** — 301 *introduces* it for **outdoor** atmospheric sky (Covered, beginner level). **Interior** haze (e.g. a humid greenhouse) is off-map · low-hanging — so the row is **Partial**. Split surfaced by the 2026-06-09 greenhouse held-out test.
 - **Foliage paint tool** — confirmed **uncovered** → off-map. 301 only does automaterial ground.
 - **Day/night cycle** — **don't suggest a Timeline-driven sun.** Left off-map · harder.
-- **Collision presets** — split confirmed (overlap covered via Tut 1; presets off-map).
+- **Collision presets** — split confirmed (overlap covered via Tutorial 1; presets off-map).
 - **Coverage = beginner level** — all "Covered" calls hold on the understanding that this catalog is scoped to early-semester, beginner use.
 
 ## Status
