@@ -34,7 +34,7 @@ When the idea fits the assigned role cleanly (or there's no role constraint and 
 
 ```
 Your idea:
-> [paste student's idea verbatim — quote, don't summarize; stitch across messages if needed]
+> [paste the student's idea verbatim and in full — quote, don't summarize, no ellipses or abridgement; if it was assembled across several turns, stitch them into one faithful statement in the student's words]
 
 Your project: [restate in their words, one sentence — REQUIRED opener; don't skip straight to "What kind of experience"]
 
@@ -71,7 +71,7 @@ When a reframe is warranted (per the Step 3 call). The idea block appears **once
 
 ```
 Your idea:
-> [paste student's idea verbatim — quote, don't summarize; stitch across messages if needed]
+> [paste the student's idea verbatim and in full — quote, don't summarize, no ellipses or abridgement; if it was assembled across several turns, stitch them into one faithful statement in the student's words]
 
 Your idea has [cross-role tension / scope tension / whatever the situation is]. Here are two ways to go — both valid. Pick whichever speaks to you:
 

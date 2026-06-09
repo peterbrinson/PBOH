@@ -1,7 +1,11 @@
-[[UE Tutorials - Table of Contents|Unreal Engine Tutorials]]
+## Design
 
-[[+ UE Wiki Index|Unreal Engine Wiki]]
+- [[_References]]
+- [[Narrative]]
+- [[Worldbuilding]]
 
-[[Situated Player Roles]]
+## Development
 
-[[_Tutorial Index - LLM|LLM Setup Tutorials]]
+- [[Tutorials - LLM]]
+- [[Tutorials - Unreal]]
+- [[Wiki - Unreal]]

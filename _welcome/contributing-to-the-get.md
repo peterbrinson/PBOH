@@ -42,9 +42,9 @@ Do this whenever you like — weekly is plenty. The instructor collects gap logs
 
 ## Contribute a reference page (optional)
 
-Found a game or film worth adding to the shared `corpus/References/` library? That one *does* go back by pull request, so every student gets it:
+Found a game or film worth adding to the shared `corpus/Design/_References/` library? That one *does* go back by pull request, so every student gets it:
 
-1. Add a new file `corpus/References/Game - Your Title.md` (or `Film - …`), matching the format of the existing reference pages.
+1. Add a new file `corpus/Design/_References/Game - Your Title.md` (or `Film - …`), matching the format of the existing reference pages.
 2. Commit and push it to your fork (`git push origin main`).
 3. On GitHub, open a **pull request** from your fork to `vLabUSC/The-GET`.
 4. The instructor reviews it; if accepted, it merges and reaches everyone on their next `git fetch upstream`.

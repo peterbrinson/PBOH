@@ -34,7 +34,7 @@ We can discuss this further if you want.
 
 ### A reference to look at
 
-- **[[References/Game - Inside]]** — wordless forward motion through a bleak world where the meaning lives entirely in the environment and in *what you're made to do*. Your coat-surrendering has that same uneasy compulsion; it's worth seeing how Inside makes the player feel something is wrong without ever stating it.
+- **[[Game - Inside]]** — wordless forward motion through a bleak world where the meaning lives entirely in the environment and in *what you're made to do*. Your coat-surrendering has that same uneasy compulsion; it's worth seeing how Inside makes the player feel something is wrong without ever stating it.
 
 ### Worth bringing up with the instructor
 

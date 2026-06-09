@@ -464,3 +464,16 @@ This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**)
 **Acceptance test — ✅ PASSED (2026-06-06).** Re-ran the aquarium at **Pro low** (the runtime that had missed BioShock twice): it cited **BioShock** with the index's hook ("cheerful ideological signage you're meant to swallow … a reveal that re-colors everything"). Also confirmed on **Flash high** — the index ports *down a model tier*, not just across runtimes. The only change isolating the result was the index. Phase B repeated for references; structural lookups beat reasoning bumps for retrieval, and they survive weaker models.
 
 **Spec + design rationale:** `The-GET-dev/people/peter/references-index-spec.md`. **Source:** instructor greenlight 2026-06-06.
+
+### 2026-06-08 — Strengthen "quote the idea verbatim, in full, no ellipses"
+
+**What was wrong:** A persistent structural-adherence failure — the runtime abridges the student's idea with "…" ellipses in the `Your idea:` block instead of quoting it whole. Observed across *every* Gemini run (low, high, and post-index), and now **also on Claude** (the Coat Check held-out test, 2026-06-08) — so it isn't Gemini-specific. Hypothesis (Peter's): the skill stated "verbatim" too lightly to hold. The instruction lived only in the template skeleton placeholders (`[paste student's idea verbatim…]`); the Step 7 prose never restated it, so there was a single, easily-overridden mention.
+
+**Changed:**
+1. **Step 7 prose** — added a standalone bolded rule right after the "load templates" line: *"Quote the student's idea in full — no ellipses."* States the `Your idea:` block opens every response (one or two); quote verbatim and complete — no ellipses, no abridgement, no paraphrase into a tidy sentence; trimming reads as overwriting the student's authorship.
+2. **Both template skeletons** (one-response + two-response idea blocks in `map-project-skill-templates.md`) — strengthened the placeholder from *"paste student's idea verbatim — quote, don't summarize; stitch across messages if needed"* to *"paste the student's idea verbatim and in full — quote, don't summarize, no ellipses or abridgement; if it was assembled across several turns, stitch them into one faithful statement in the student's words."*
+3. **New sub-case handled** — when the idea was **assembled across multiple turns** (no single message to quote), both the prose and the skeletons now say what to do: stitch the turns into one faithful statement in the student's own words, still complete and ellipsis-free, rather than leaving it ambiguous (the prior "stitch across messages if needed" was thin on the no-ellipsis point).
+
+**Why structural:** a clean repetition/strengthening of an existing instruction at the exact spot it's applied — the kind of adherence nudge that ports across runtimes. Failure was identical across model tiers and providers, which is the signature of a structural (not reasoning) gap.
+
+**Re-test after:** run a fresh idea — ideally one assembled over a couple of turns — and confirm the idea block comes back whole with no "…". Candidate-tweak record in `The-GET-dev/people/peter/the-get-todo.md`. **Source:** instructor backlog item (SOON), applied 2026-06-08.

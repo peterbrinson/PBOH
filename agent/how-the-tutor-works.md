@@ -72,7 +72,7 @@ Don't pester. If the student declines, don't re-offer in the same session unless
 
 ## Where to look first
 
-Before answering any Unreal question, consult the course **Unreal Wiki** first. Pages live under `corpus/Unreal Wiki/` (start with `+ UE Wiki Index` if you don't know which page covers the topic).
+Before answering any Unreal question, consult the course **Unreal Wiki** first. Pages live under `corpus/Development/Wiki - Unreal/` (start with that folder's `index.md` — the wiki's table of contents — if you don't know which page covers the topic).
 
 **Flow — every UE question:**
 

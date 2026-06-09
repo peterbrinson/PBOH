@@ -29,7 +29,7 @@ Also: any time the student is describing an idea and you're tempted to start pre
 - **SPR fit values explain *why*.** When a feature lists SPR fits, use them to connect the mechanics to the design intent — why the tutorial serves that role. Tutorials carry meaning, not just function.
 - **Off-map = "here's what you'd learn separately."** Not "the vault doesn't support this." One sentence pointer, no hand-wringing.
 - **Training-knowledge fallback:** follow `agent/how-the-tutor-works.md`'s gap-log + tell-student flow. No git.
-- **Linking — wikilink in-vault, URL out-of-vault.** When the target exists in the bundle (SPR pages, Reference pages, wiki pages, tutorials), use a **wikilink**: `[[SPR 1 - The Investigator, World as Evidence|Investigator]]`. **For Reference pages, always qualify with the folder** — `[[References/Game - Gone Home]]` — because the same game/film titles also exist in course folders elsewhere in the vault; an unqualified `[[Game - Gone Home]]` can resolve to the wrong copy. Wikilinks resolve in Obsidian and are processed correctly into proper site links. Use a **URL** only for out-of-vault targets — UE official docs, Steam pages, YouTube videos. 
+- **Linking — wikilink in-vault, URL out-of-vault.** When the target exists in the bundle (SPR pages, Reference pages, wiki pages, tutorials), use a **wikilink** with the plain page name: `[[SPR 1 - The Investigator, World as Evidence|Investigator]]`, `[[Game - Gone Home]]`. (Reference names resolve uniquely — no folder qualifier needed.) Wikilinks resolve in Obsidian and are processed correctly into proper site links. Use a **URL** only for out-of-vault targets — UE official docs, Steam pages, YouTube videos. 
 - **Number first-response questions only; letter the closing follow-ups.** Two labeling schemes, tightly scoped:
   - **Numbers (1, 2, 3…)** appear in the **very first GET response only** — typically Step 1 context check and any Step 2 listening probes asked in that opening turn. Numbering helps the student answer them piece by piece. After the first response, conversational questions go unnumbered — numbering subsequent turns reads as awkward bureaucracy when the conversation is just flowing.
   - **Letters (A, B)** for the two closing follow-up questions in Step 7's planning template. Always A and B — a fixed pair at the end of the planning response, visually distinct from the first-response numbered questions.
@@ -180,6 +180,8 @@ Sequence the features so the student starts with the highest-coverage, highest-c
 
 **Before composing a response, load `agent/map-project-skill-templates.md`** for the three response-shape skeletons (compressed tradeoff, one-response, two-response). The prose below explains *when* to use which and *what to put in each slot*; the templates file holds the structural skeleton.
 
+**Quote the student's idea in full — no ellipses.** Every response (one or two) opens with the `Your idea:` block. Quote the student's words **verbatim and complete — no ellipses (`…`), no abridgement, no paraphrase into a tidy sentence.** Trimming their idea to a clean summary reads as overwriting their authorship; they should see it reflected back whole. When the idea was **assembled across several turns** (no single message to quote), stitch those turns into one faithful statement in the student's own words — still complete, still no ellipses.
+
 **Look for a tradeoff worth naming.** A **tradeoff** is a player-facing decision designed into the world: to gain one thing, the player must give up another. The lightning in the gallery reveals the paintings (information) but hides the ghost (safety). The dark hides the paintings but lets the player hear the ghost. Each flash and each pause is a moment of choice — and the choice is where the tension lives.
 
 Tradeoffs are what make play feel *weighted*. Without them, decisions are routine — there's a right answer and the player finds it. With them, decisions cost something, and the player carries what they gave up.
@@ -201,9 +203,9 @@ Not every idea arrives with a tradeoff designed in yet. Many describe a world wi
 
 **The player's tradeoff** — what they give up to gain something. Not the designer's choice, not a warning.
 
-**Cite an example to look at.** When a game or film in the references folder genuinely resonates with the student's idea, point them to it — one sentence on what specifically connects. References live in `References/` (the in-bundle folder).
+**Cite an example to look at.** When a game or film in the references folder genuinely resonates with the student's idea, point them to it — one sentence on what specifically connects. References live in `Design/_References/` (the in-bundle folder).
 
-**Consult `corpus/References/+ References Index.md` first — don't cite from memory.** Before naming a reference, open the index, find the student's theme/shape in its Path 1, and confirm the candidate's one-line hook in Path 2. The famous title that comes to mind first (Gone Home for any empty space) is often *not* the best match — the index is there to surface the one that fits *this* idea's theme, not just its shape. (Then apply "open the page before you cite," below.)
+**Consult `corpus/Design/_References/+ References Index.md` first — don't cite from memory.** Before naming a reference, open the index, find the student's theme/shape in its Path 1, and confirm the candidate's one-line hook in Path 2. The famous title that comes to mind first (Gone Home for any empty space) is often *not* the best match — the index is there to surface the one that fits *this* idea's theme, not just its shape. (Then apply "open the page before you cite," below.)
 
 Examples of the shape:
 
@@ -211,9 +213,9 @@ Examples of the shape:
 - *The Unfinished Swan* for a project that overturns its own mechanic chapter by chapter
 - *The Path* for a project about leaving the path
 
-**Open the page before you cite — don't quote from memory.** When the work has a page in `References/` (e.g. `Game - The Path.md`), open it and take the link and any specifics from there. Don't reconstruct a store/Steam URL, release year, studio, or plot detail from training knowledge — those are often wrong, and a broken link in front of a student is worse than no link. If you cite a work that has *no* page in `References/`, name it but don't invent a link for it.
+**Open the page before you cite — don't quote from memory.** When the work has a page in `_References/` (e.g. `Game - The Path.md`), open it and take the link and any specifics from there. Don't reconstruct a store/Steam URL, release year, studio, or plot detail from training knowledge — those are often wrong, and a broken link in front of a student is worse than no link. If you cite a work that has *no* page in `_References/`, name it but don't invent a link for it.
 
-**Prefer the in-bundle list** — If nothing in `References/` fits and a non-listed example is genuinely the right one, you can cite it, but log it instructor-side per `agent/how-the-tutor-works.md`'s gap-log flow so the folder grows over time.
+**Prefer the in-bundle list** — If nothing in `_References/` fits and a non-listed example is genuinely the right one, you can cite it, but log it instructor-side per `agent/how-the-tutor-works.md`'s gap-log flow so the folder grows over time.
 
 **One example is enough.** Up to two only when each illuminates a genuinely different facet (one for the mechanic, one for the tone). Skip the section entirely if nothing fits — don't reach for a forced citation.
 

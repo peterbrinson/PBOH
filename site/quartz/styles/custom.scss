@@ -2,9 +2,11 @@
 
 // put your custom CSS here!
 
-// Remove the "Explorer" header row (title emptied in quartz.layout.ts);
-// hide the now-empty toggle button so there's no stray chevron or gap.
-button.explorer-toggle {
+// Remove the "Explorer" header row (title emptied in quartz.layout.ts).
+// Hide the desktop collapse-all toggle (empty title + stray chevron).
+// Higher specificity than explorer.scss's `button.desktop-explorer`
+// so it actually wins the cascade. Mobile hamburger is left intact.
+.explorer button.desktop-explorer {
   display: none;
 }
 .explorer-content {

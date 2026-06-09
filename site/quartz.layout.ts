@@ -38,7 +38,16 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer({ title: "" }),
+    Component.Explorer({
+      title: "",
+      mapFn: (node) => {
+        // Sidebar shows this folder as "Narrative" while its page keeps
+        // the title "Situated Player Roles".
+        if (node.slugSegment === "Narrative" || node.displayName === "Situated Player Roles") {
+          node.displayName = "Narrative"
+        }
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -62,7 +71,16 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer({ title: "" }),
+    Component.Explorer({
+      title: "",
+      mapFn: (node) => {
+        // Sidebar shows this folder as "Narrative" while its page keeps
+        // the title "Situated Player Roles".
+        if (node.slugSegment === "Narrative" || node.displayName === "Situated Player Roles") {
+          node.displayName = "Narrative"
+        }
+      },
+    }),
   ],
   right: [],
 }
