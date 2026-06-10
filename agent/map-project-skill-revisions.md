@@ -463,7 +463,7 @@ This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**)
 
 **Acceptance test — ✅ PASSED (2026-06-06).** Re-ran the aquarium at **Pro low** (the runtime that had missed BioShock twice): it cited **BioShock** with the index's hook ("cheerful ideological signage you're meant to swallow … a reveal that re-colors everything"). Also confirmed on **Flash high** — the index ports *down a model tier*, not just across runtimes. The only change isolating the result was the index. Phase B repeated for references; structural lookups beat reasoning bumps for retrieval, and they survive weaker models.
 
-**Spec + design rationale:** `The-GET-dev/people/peter/references-index-spec.md`. **Source:** instructor greenlight 2026-06-06.
+**Design rationale:** now self-documented in the live index's header + context-engineering lessons #15/#21/#22 (the original build spec `references-index-spec.md` was retired 2026-06-09 as superseded — built, validated, and self-documenting). **Source:** instructor greenlight 2026-06-06.
 
 ### 2026-06-08 — Strengthen "quote the idea verbatim, in full, no ellipses"
 
@@ -497,3 +497,36 @@ This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**)
 **What the test validated (kept, not changed):** clean tutorial routing (no misfires), the Fab-is-a-build-step fix held, time-aware cross-role framing, the References Index generalizing (surfaced **Annihilation** — hook "biology, identity, and physics stop working" — over the obvious Gone Home). Strong manner throughout.
 
 **Why mostly structural:** these are voice/format adherence fixes — they should port across runtimes. **Source:** instructor review of the greenhouse test, applied 2026-06-09.
+
+**Flash port follow-on (2026-06-09).** Re-ran the same greenhouse idea on **Gemini Flash** (the free-tier student runtime) from a fresh clone carrying this batch. **The whole batch ported** — foliage caught, plain reference names, `###` headers + "A Tradeoff To Consider", canonical framing line, tutorials-by-description, "Branch node" language, no "Tut", Fab as a build step — and the **multi-turn-assembly verbatim sub-case** (untested above) **passed** (Flash stitched turn-1 + the turn-2 answers into one complete, ellipsis-free block). Flash also applied the **fog → Partial** refinement textbook-correctly (interior Exponential Height Fog → Off-Map, mist via 702), and tutorial routing was clean (no Flash misfire). Three residual interpretive drifts drove three more changes:
+
+10. **Off-Map carve-out for integration/join steps** (Step 7). Flash double-listed the equality-check join in *both* the build order and Off-Map. New rule: wiring covered parts together is a build-order step, not an off-map feature — same shape as the Fab carve-out.
+11. **Compressed tradeoffs stay within the student's player verbs** (Step 7). Flash invented "whatever's lurking in the dark" on a non-combat investigation idea (the aquarium had this too). New note: build tradeoff directions from mechanics already in the idea; don't import threat/enemy/stealth/combat the student never mentioned.
+12. **801 over 821 — prefer 801, don't recommend both, never sequence 821 ahead of 801** (capability map). Both runtimes paired 801 + 821; Flash ordered 821 (the WIP base system) before 801 (the self-contained note). 801 is the stronger default and covers most readable/inspect cases; 821 is for genuine multi-object interaction systems only. Added an "801 vs 821" note after the Interaction Systems table + a pointer on the 821 Tutorial Index row.
+
+**Port lesson:** the entire batch is structural, and structural fixes survive the cheapest tier — lesson #10/#17 confirmed again, on the runtime that matters most for student access. Scored as eval-rubric Worked example #5 (Gemini Flash port).
+
+**Also closed (long-standing backlog item, 2026-06-09).** Added an explicit **full-screen black-out / end-card / fade-to-black → 801** row to the capability map's UI/HUD table + a disambiguation note (it's 801's full-screen-widget machinery, *not* Tutorial 3's HUD/counter), and extended the 801 Tutorial Index line so the verify-step confirms it. Closes the Flash misfire first seen in the 2026-06-06 aquarium run (eval-rubric Worked example #3, where Flash guessed Tutorial 3 for a full-screen black-out) — the routing is now a lookup, not a guess. Same recall→lookup pattern as the three indexes.
+
+### 2026-06-10 — Statue-spiral test (Fable): first-pass forward-pointer
+
+**Source:** the "statue spiral" Dreamer held-out test, run on **Fable 5** in a fresh clone (first Fable data point). The run was the cleanest yet — multi-turn verbatim stitch held, compressed tradeoff stayed within the student's verbs, References Index surfaced *Balance (1989)* with the real page link, Fab assets named per-idea, the Branch-equality join kept out of Off-Map, save offer correctly deferred until the idea settled. Instructor review produced one small structural change:
+
+1. **First-pass steps point forward to their upgrade** (Step 6, "first pass first"). When the simple version and the richer version appear as separate build-order steps, the first-pass step's last sentence names the coming upgrade ("an upgraded version of this comes in step N") — so the student reads the simple version as deliberate sequencing, not the destination.
+
+**Reviewed and kept as-is:** 821 cited solo for E-key pick-up (correct — 801's full-screen-note machinery doesn't cover pick-up-and-roll; the "prefer 801 *when it covers the need*" wording already permits this). "Recognizable silhouettes" → use "shapes" in the worked example, but no vocabulary rule (silhouette is legitimate game-art jargon; just not student vocabulary yet).
+
+**Queued, not changed:** whether a Timeline move is actually the easier first pass for a *rolling* object — the instructor suspects `Simulate Physics` + `Add Impulse` is simpler and that Timeline-moved objects slide without rotating. Sent to George's verification queue (2026-06-10 entry); the Dreamer worked example's build order waits on the answer.
+
+### 2026-06-10 — Entrant reframed: a learning waystation, not an assignment
+
+**What changed (instructor decision):** The course's assignments are **Investigator, Traveler, Dreamer** — the Entrant is dropped from the assignment menu. The Entrant exists *for learning*: the Dreamer asks students to carry two new loads at once (puzzle/systems mechanics they've never built, and a symbolic register they've never designed in), so the Entrant isolates the mechanical half to be learned on its own. It's the role-level twin of Step 6's "first pass first" — the curriculum scaffolds the way the build orders scaffold. The Entrant remains a real role in the SPR framework (Branch C identification, capability-map fit columns, tutorial clusters all keep it); it just isn't something a student is *assigned*.
+
+**Edits:**
+1. **Step 1 table** — A3 row is now "The Dreamer" (was "The Entrant or The Dreamer").
+2. **Step 1 question** — *"Is this for the Investigator project, the Traveler project, the Dreamer, a hybrid — or something you're exploring on your own?"* (Entrant dropped; hybrid named explicitly.)
+3. **Tone vocabulary bullet** — assignment names are now "the Investigator project, the Traveler project, the Dreamer project."
+4. **Step 3 mechanics note** — new paragraph: the Entrant is a waystation, and the GET can use it as a **scaffolding move** — when a Dreamer idea's puzzle layer is still finding its meaning, plan the Entrant version plainly and say so; it becomes the Dreamer the moment the meaning arrives.
+5. **Eval rubric synced** (`The-GET-dev/agent/eval-rubric.md`) — the Layer-1 verbatim Step 1 question updated to match.
+
+**Why it's sound (the design logic, for the record):** the Entrant is the only role defined by mechanics alone — the other three are defined by their question, the Entrant by its verbs. That's why Entrant ≡ Dreamer mechanically: the Dreamer isn't the Entrant's sibling, it's the Entrant *plus an answer to "what does this mean?"*. The statue-spiral test showed the threshold live — the idea is an Entrant skeleton, and the one open question ("what are the statues?") is exactly what turns it into a Dreamer. **Source:** instructor decision, 2026-06-10.

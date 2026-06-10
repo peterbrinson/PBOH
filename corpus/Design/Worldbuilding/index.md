@@ -38,8 +38,4 @@ The worldbuilding theory  — drawn largely from Mark Wolf's *Building Imaginary
 - [[Lore as a Trap]]
 - [[In-Game Codexes]]
 
-## Themes and provocations
 
-- [[Gnosticism]]
-- [[Creativity]]
-- [[Consistency and Completeness]]

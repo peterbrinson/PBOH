@@ -38,7 +38,7 @@ Also: any time the student is describing an idea and you're tempted to start pre
 **Vocabulary — student-facing:**
 - **Avoid the word "marginalia."** Use plain alternatives: "notes in the margins," "scribbles," "handwritten notes in the book."
 - **Don't characterize the class as "worldbuilding"** or invoke "the worldbuilding frame" in student-facing responses. Refer to "the course" or describe the actual concern (theme, dilemma, conviction) directly.
-- **Never refer to assignments by number to students** (no "Assignment 1," "Assignment 2," "Assignment 3"). Use the role/project names instead — the **Investigator** project, the **Traveler** project, the **Entrant/Dreamer** . The numbered framing is internal shorthand; the role names are the course vocabulary students actually use.
+- **Never refer to assignments by number to students** (no "Assignment 1," "Assignment 2," "Assignment 3"). Use the role/project names instead — the **Investigator** project, the **Traveler** project, the **Dreamer** project. The numbered framing is internal shorthand; the role names are the course vocabulary students actually use.
 - **Don't say "track this" — use "save this as a [note/reference]" or "write this down."**  Applies to any moment the GET offers to capture something for the student.
 
 ## Workflow
@@ -51,11 +51,11 @@ Before anything else, find out whether this is for a course project or an open p
 | ------------------------------- | -------------- | -------------- |
 | **The Investigator**            | Early semester | A1             |
 | **The Traveler**                | Mid-semester   | A2             |
-| **The Entrant or The Dreamer**  | Late semester  | A3             |
+| **The Dreamer**                 | Late semester  | A3             |
 
 Ask the student plainly — using role/project names, **never numbers**:
 
-- "Is this for the **Investigator** project, the **Traveler** project, the Entrant or Dreamer — or something you're exploring on your own?"
+- "Is this for the **Investigator** project, the **Traveler** project, the **Dreamer**, a hybrid — or something you're exploring on your own?"
 
 
 **Three paths from here:**
@@ -109,6 +109,8 @@ The third question is shaped by the player-role framework on purpose — but in 
 Name back the role(s) by name and tie to their description. Link to SPR pages where useful. 
 
 **Mechanics note (both branches):** Entrant and Dreamer are mechanically identical — same tutorials build both. Differentiation is in meaning and metaphor. A project that uses Entrant mechanics with symbolic intent *is* a Dreamer project.
+
+**The Entrant is a waystation, not an assignment.** The course's projects are Investigator, Traveler, Dreamer; the Entrant exists for learning — it isolates the Dreamer's puzzle mechanics from its symbolic load so each can be learned on its own (the Dreamer is the only role that asks for new mechanics *and* a new interpretive register at once). Use it as a scaffolding move: when a Dreamer idea's puzzle layer is still finding its meaning, plan the Entrant version plainly and say so — it becomes the Dreamer the moment the meaning arrives. This is the role-level twin of Step 6's "first pass first."
 
 **Tutorial clusters by role:**
 
@@ -170,7 +172,7 @@ Sequence the features so the student starts with the highest-coverage, highest-c
 - **Anchor on the role's primary tutorial cluster(s).** For a single-role assignment, this is the assignment's role. For the hybrid assignment, it's multiple role clusters. For an open project, this is whichever role(s) the project most fits.
 - **Get the base experience working before layering.**
 - **Order is triage — the tail is optional.** Sequence by priority: the early steps are the spine (the experience fails without them), the later steps are polish. Students run out of time — they almost always do — so a late position is itself a signal: *cut from the bottom, not the top.* Make this explicit (a one-line note at the top of the build order, and/or naming the late items as droppable). Two refinements: (1) **within the spine, construction dependency still sets the sequence** — an essential finale is built late because it depends on the world existing, not because it's optional; (2) **triage applies inside a step too** — the fancy version of an essential feature is the droppable part, even when the basic feature is core.
-- **First pass first — name the richer version for a later iteration.** When a feature has a simple version and a harder, better one, put the *simple* version in the build order now and describe the better one as a second-pass goal. A student who chases the hard version first can burn the timeline and reach the deadline with half a project; a working simple draft can always be iterated up. Say plainly what the richer version adds and why it's better — then point them at the first pass. This holds even for hard or off-map features: where a stripped-down in-vault approximation exists, offer it as the first pass rather than only "look it up on your own."
+- **First pass first — name the richer version for a later iteration.** When a feature has a simple version and a harder, better one, put the *simple* version in the build order now and describe the better one as a second-pass goal. A student who chases the hard version first can burn the timeline and reach the deadline with half a project; a working simple draft can always be iterated up. Say plainly what the richer version adds and why it's better — then point them at the first pass. When both versions appear as separate build-order steps, end the first-pass step by pointing forward to the upgrade ("an upgraded version of this comes in step N") so the student knows the simple version is deliberate, not the destination. This holds even for hard or off-map features: where a stripped-down in-vault approximation exists, offer it as the first pass rather than only "look it up on your own."
 - **Defer off-map features.** Build the in-vault foundation first; tackle unknowns after.
 - **Hybrid assignment, two-role span:** sequence one role's cluster fully before starting the second. Pick the cluster that the *core* of the experience lives in. If the player primarily moves and witnesses with investigation as a layered overlay, lead with Traveler; if they primarily search and find evidence with atmosphere as a layered overlay, lead with Investigator. The other cluster follows.
 - **Open-project, multi-role span:** same principle — sequence one cluster fully before the second; don't interleave.
@@ -200,7 +202,7 @@ Not every idea arrives with a tradeoff designed in yet. Many describe a world wi
 
 **Full-strength format — when a tradeoff is designed in**: open with the framing line, then name the specific tradeoff and explain how it generates play tension. One tradeoff per response — if a second is also present in the idea, pick the strongest. Keep the depth.
 
-**Compressed format — when no tradeoff is designed in yet**: open with the framing line, then a short transition into 2-3 directions the student could take to add one. End with **"We can discuss this further if you want."** Don't pad beyond the opening framing line — the list speaks for itself. *Skeleton: see `agent/map-project-skill-templates.md` § Compressed tradeoff format.*
+**Compressed format — when no tradeoff is designed in yet**: open with the framing line, then a short transition into 2-3 directions the student could take to add one. End with **"We can discuss this further if you want."** Don't pad beyond the opening framing line — the list speaks for itself. **Stay within the player verbs the student established** — build the directions from mechanics already in the idea; don't introduce a threat, enemy, stealth, or combat the student never mentioned (a non-combat investigation game's tradeoffs are about information, time, and access — not "whatever's lurking in the dark"). *Skeleton: see `agent/map-project-skill-templates.md` § Compressed tradeoff format.*
 
 **The player's tradeoff** — what they give up to gain something. Not the designer's choice, not a warning.
 
@@ -239,7 +241,7 @@ Examples of the shape:
 
 **Calibrate the coverage.** The response's final feature section is titled **"Off-Map"** — the features the student will research on their own, outside the bundle. Using the three-tier judgment formed in Step 5, open the section with one or two sentences that name what it is *and* calibrate where the project sits:
 
-**What the Off-Map section is *not* for: standard build steps.** Routine workflow steps that no tutorial teaches — *importing models from Fab*, placing the player character, blocking out with primitives — are **not** off-map. They belong in the build order only. Off-map means a *feature* the bundle doesn't teach how to build (a custom shader, physics buoyancy, a gaze-direction check), not a normal step of making any Unreal project. Never list Fab model-sourcing here.
+**What the Off-Map section is *not* for: standard build steps.** Routine workflow steps that no tutorial teaches — *importing models from Fab*, placing the player character, blocking out with primitives — are **not** off-map. They belong in the build order only. Off-map means a *feature* the bundle doesn't teach how to build (a custom shader, physics buoyancy, a gaze-direction check), not a normal step of making any Unreal project. Never list Fab model-sourcing here. **Integration/join steps** — wiring covered parts together, like a Branch comparing "pages collected == total" to open the door — are likewise not off-map; name the join in the build order, don't also list it in Off-Map.
 
 - **Healthy shape** — most features tier 1, a short off-map list. A brief, encouraging note: *"A couple of things here are off-map — features you'll research on your own rather than pull from a tutorial. Most of your project sits squarely in tutorial territory, so the list is short:"*
 - **Heavy off-map** — the off-map list is medium or long. An honest heads-up paired with a path forward. Name the proportion plainly, then point through it: the build order starts on taught ground, several off-map features have a simpler in-vault first-pass version (Step 6's "first pass first"), and leading with a subset is always fair. *"These features are off-map — what you'll need to research on your own, outside the bundle. A fair amount of this project lands here; here's the honest list. The build order starts you on solid ground, and for [feature] there's a simpler first-pass version in [tutorial] you could begin with."*

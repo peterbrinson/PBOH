@@ -42,8 +42,8 @@ When a student describes a feature, route it like a lookup — don't read the wh
 | 401 | Create a Material | Custom colored materials with editable parameters, material instances, texture-mapped surfaces |
 | 701 | Post-Processing | Global color grade (mood/tone), multiple Post Process Volumes per area |
 | 702 | Niagara Particles | Looping ambient particles (smoke/fire/dust/sparks), turbulent motion, color-shift over lifetime |
-| 801 | Inspect an Object | Readable note/object — full-screen widget, player input locked while open, audio log / photo / diary; Blueprint Interface |
-| 821 | Base Interactive System *(WIP)* | E-key interaction with whatever the player looks at, sphere trace for tagged objects, reusable interactable base class |
+| 801 | Inspect an Object | Readable note/object — full-screen widget, player input locked while open, audio log / photo / diary, full-screen black-out / end-card / fade-to-black; Blueprint Interface |
+| 821 | Base Interactive System *(WIP)* | E-key interaction with whatever the player looks at, sphere trace for tagged objects, reusable interactable base class; **prefer 801 when it covers the need — see the 801-vs-821 note** |
 | 901 | Recording with OBS | Screen-recording gameplay to an H.264 video, voice narration, no debug messages |
 
 *Not in this map: the 1000-series (LLM / Gemini-CLI setup, GET onboarding) — it teaches no gameplay features, so it never belongs in a build order. If you're tempted to cite a 1000-series tutorial for a game mechanic, that's a wander — the feature is off-map.*
@@ -87,6 +87,9 @@ When a student describes a feature, route it like a lookup — don't read the wh
 | Hover UI tip appearing when player aims at object           | 821         | Investigator |          |
 | Full-screen widget (note, image, map) opened by interaction | 801         | Investigator |          |
 | Player input locked while widget is open                    | 801         | Investigator |          |
+| Full-screen black-out / end-card / fade-to-black (event-triggered) | 801  | All          |          |
+
+> **Black-out / end-card / fade-to-black is 801, not 3.** It's a *full-screen widget* (801's machinery — a widget that fills the screen, shown on an event such as game-end), **not** a HUD/counter element (Tutorial 3). Tutorial 3 is an on-screen HUD *driven by* gameplay state; 801 is the full-screen takeover. A weak model tends to guess 3 — route it to 801.
 
 ---
 
@@ -112,6 +115,8 @@ When a student describes a feature, route it like a lookup — don't read the wh
 | Readable note — opens full-screen, freezes player input             | 801         | Investigator          |          |
 | Audio log, photograph, map, diary page                              | 801         | Investigator          |          |
 | Blueprint Interface for polymorphic interaction                     | 801         | Investigator          |          |
+
+**801 vs 821 — prefer 801, and don't recommend both.** 801 (Inspect an Object) is the stronger, self-contained default for readable/inspectable objects and covers most cases on its own. **When 801 covers the need, do not also recommend 821.** 821 (Base Interactive System, *WIP*) is a reusable interaction *base* — cite it only when the project genuinely needs one interaction system spanning many different object types (notes, doors, switches all extending a shared base), and even then weigh whether 801 alone is enough. Never sequence 821 ahead of 801 in a build order.
 
 ---
 
