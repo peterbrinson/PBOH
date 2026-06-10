@@ -1,0 +1,82 @@
+---
+publish: false
+role: hybrid — Traveler + Dreamer, with an Investigator thread
+coverage: heavy off-map — above-beginner Blueprints
+---
+
+# The Windshield Splats — Hybrid (example session)
+
+*An example of how the GET maps a student's project. The student brought a hybrid idea — one that deliberately spans roles — and the GET mapped it without resolving it to a single role. It also exercises the heavy off-map register: the idea asks for above-beginner Blueprint work, and the response says so plainly without shrinking the idea. Use it as a model for tone, structure, and how much to say — not as a script to copy.*
+
+**Dear student: this is not here to demonstrate a quality idea, or to influence the kind of idea you devise. It is here so that the LLM has a structural reference — a key component of how context engineering works.**
+
+---
+
+## Your idea:
+
+> Driving a car in slow motion. A semi truck is in front of me, which is open in the back. The loading ramp is dragging on the ground, making small sparks. Objects fall out of the trailer. When they hit my windshield a 2D image splats on the glass for a moment before fading. The images are timed with an instrument playing on loop. The images are not instruments; they are photographs of someone's past. People, places. Each music track fades as the splat does. Image/loops can stack, providing a collage and mix. There are two big categories of objects. One makes you and your car a bit smaller, the other larger. They alternate so you stay roughly within a normal range size. When the player steers the car strongly left and right, they can see ahead of the semi a huge four-legged creature running. That creature kicks backwards like a horse, striking the truck. That's why stuff is falling out of it. Then the semi truck swiftly turns to obscure the creature each time. At some point, the audio track is a voice. Objects fall out more frequently, ensuring a sound mix. They come in clusters — so 10 shrink-you at once and then 10 expand. This means you can now get significantly small and large. This becomes a challenge somewhat, but I don't know.
+
+*Assignment context confirmed via Step 1: a hybrid — the project spans roles on purpose.*
+
+---
+
+This is a hybrid, and it works best left that way — no single role needs to win. (If you've been assigned a specific role for this class project, reach out to the Professor — he's more likely to encourage you than not.)  The player's posture is the **Traveler**'s: held in a slow-motion drive, moving and witnessing, where the sparks off the dragging ramp and the stacking music make presence itself the experience. The mechanics are the **Dreamer**'s: nothing here is only what it is — memories strike the glass and play, the cause of it all runs just out of sight, and the truck turns to keep it that way. And there's a quiet **Investigator** thread doing real work: the splats are photographs of someone's past — people, places, eventually a voice — and over the drive the player assembles a person from whichever fragments happen to hit their glass.
+
+**Your project:** a slow-motion drive behind a semi that sheds someone's memories onto your windshield — each one an image and an instrument loop that fade together, stacking into a collage and a mix — while the creature causing it all runs ahead, glimpsed only when you steer hard, hidden again every time.
+
+**What kind of experience:** A drive where the soundtrack is built out of what hits you. Each memory arrives as image-plus-instrument and leaves the same way; when they stack, the player isn't collecting anything — they're mixing. The size rule gives the drive a breath: shrink a little, grow a little, stay roughly yourself. Then the late clusters break that truce — ten shrinks at once, ten grows, a body that can drift far from normal — and your own note says it best: whether that stretch becomes a challenge is genuinely open. More on that below.
+
+### A Tradeoff To Consider
+
+A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. Yours is already built into the lane: the memories fall where the truck is, and the creature is visible only when you steer out from behind it. To see the cause is to leave the fall line — every hard steer is paid in missed images and a thinner mix. The player constantly chooses between receiving someone's past and glimpsing what's shaking it loose. And the late clusters raise the price: be out of the lane during ten shrinks and the alternation that kept you normal-sized stops working — you come back larger than you meant to be. The choice compounds.
+
+### A reference to look at
+
+**Proteus** (2013, Ed Key & David Kanaga — https://store.steampowered.com/app/219680/Proteus/) — a pastel island where every plant and animal emits its own musical signature, so the soundtrack *is* your position in the world. That's your splat-mix approached from the other direction: a world that composes its own score out of what the player is near.
+
+**La Maison en Petits Cubes** (2008, Kunio Katō, 12-minute animated short — https://www.youtube.com/watch?v=50-fWCXvhAY) — an old man dives down through the submerged stories of his own house, each level holding the memories of the life he lived there. A life read as strata, one layer at a time — the same shape as a past arriving one photograph at a time. Different facet: this one is for the theme.  And an excellent demonstration of [[Finite Worlds]].
+
+### Worth bringing up with the instructor
+
+Two things here deserve a real conversation. First: **whose past is this?** People, places, eventually a voice — whether the photographs are invented, found, or yours changes how every frame reads, and how direct the voice should be is exactly the kind of affective call the instructor is the right person to weigh. Second: **your own open question** — whether the ending should become a challenge. That isn't a mechanics question; it's about what the drive is *about*. If the final stretch demands dexterity, the piece resolves in the player's hands; if it stays a witnessing, the ending is something that happens *to* them. Both are real endings to two different works. Want me to add these to your instructor-questions list?
+
+### The part I'm most excited about
+
+The first time two splats overlap and their loops layer — the moment the player realizes the music isn't a soundtrack, it's a mix, and the thing composing it is whatever falls out of the truck. Every run of this game assembles a different song out of the same life.
+
+### Build order
+
+*Order is triage — the top is the spine, the tail is droppable. Cut from the bottom, not the top.*
+
+1. **Player character** — first-person default template, locked to the driver's seat. Forward motion belongs to the world (the road moves past; the car, truck, and creature can stand still) — far simpler than vehicle physics, and the *right* simpler for a slow-motion dream-drive. The drive rig itself and the lateral steering are both yours to build (see Off-Map). Block out with primitives first: a road plane, a truck-sized box, a glass plane in front of the camera.
+2. **Import from Fab** — the semi with an open trailer and ramp, a car interior/dashboard, road and roadside set, the falling objects (recognizable household things, toys), and the creature — pick one that ships with run *and* kick animations (see Off-Map for why). Dress the primitives as you go.
+3. **The fall pipeline** — falling is what physics does for free. Each object is a physics actor (Simulate Physics checked) tipped out of the trailer with a small impulse toward the glass; gravity and tumbling come with the checkbox. The slow motion lives here too, tuned per actor: raise each falling body's Linear Damping (a physics property, not code) and it drifts down as if through water — everything else in the world keeps its own pace, so the memories float while the creature gallops. Tutorial 4 is the conductor here — not its array of scene objects, which isn't the useful part, but its chain of timed, sequential events: that's what decides when each object drops. Tutorial 1's trigger zone on the windshield fires the hit. Fine-tuning the feel comes in step 11.
+4. **The splats** — Tutorial 401: each photograph is a texture on a translucent plane on the glass, one material instance per image, with an opacity parameter driven by a Timeline — fast in, linger, fade out.
+5. **The music join** — each splat starts its instrument loop, and the same Timeline that drives the splat's opacity drives the loop's volume, so image and sound are one fade. The wiring is a small Blueprint pattern that's yours; the deeper audio work — stacked loops staying musical, the handoff to the voice — is real research (see Off-Map).
+6. **The size rule** — every falling object carries a String category, "shrink" or "grow" (Tutorial 2's shared-variable pattern). On a windshield hit, a Branch reads it and steps the car-and-camera scale down or up. The node is simple; the consequences aren't trivial (see Off-Map). Alternating the spawn order inside step 3's sequence enforces "roughly normal range" with no extra system at all.
+7. **The creature** — Tutorial 4's NPC-with-animation pattern: a looping run ahead of the semi, with the kick animation fired by the same sequence that launches each object batch — so the cause and the falls stay in sync, and a player who steers at the right moment catches it in the act.
+8. **Reveal and obscure** — the semi chases the player's X. Every tick, it moves its lateral position toward the car's, capped at a speed slower than a hard steer — and that lag *is* the mechanic: steer hard and you outrun the truck for a beat, glimpse the creature, then the view closes as it catches up. No triggers, no authored swerve; the obscuring emerges from one rule. It's a few nodes on Tick (look up "FInterp To") that no tutorial teaches — one of the above-beginner Blueprint moments this project asks for.
+9. **Atmosphere** — Tutorial 702: the ramp's spark trail (a looping emitter at the contact point — sparks are squarely in its territory) and dust off the creature's footfalls. Tutorial 701: the color grade that makes slow motion read as mood.
+10. **Escalation and the voice** — re-author step 3's sequence data: faster cadence, clusters of ten shrinks then ten grows, and one late splat whose "loop" is the voice track. No new tech — this is sequence design on systems you already built.
+11. **Second pass on physics** — fine-tune what step 3 gave you: mass, bounciness, and impulse variation so the falls tumble believably and land on the glass reliably in slow motion; runtime spawning to replace pre-placed batches.
+
+### Off-Map
+
+These are the features you'll research on your own, outside the bundle — and an honest heads-up: this project sits further off-map than most. The tutorials cover real pieces — the triggers, the materials, the particles, the creature's animations — but the systems that make this piece *itself* — the drive rig, the chasing truck, the physics feel, the mix — are Blueprint scripting beyond what the tutorials assume. Taking this idea on means deliberately growing your Blueprint skills past the beginner patterns. That's worth knowing as you commit; it's not a reason to shrink the idea necessarily. Each item below has a first pass within reach:
+
+- **The drive rig** — a world that streams past a stationary car: a looping road, roadside parallax, and a semi that lazily chases the player's X (step 8 — the reveal mechanic rides on it). No tutorial teaches any of it; it's the foundation everything else sits on, and it's yours.
+- **Lateral steering input** — a custom left/right input binding that shifts the car within a clamped range, extending the default first-person pawn. Small, but yours.
+- **Physics feel** — the Simulate Physics checkbox gets objects falling in minutes; making them *float* (Linear Damping, or a world-gravity override) and *hit a windshield reliably* is tuning work (mass, impulse, collision shapes) no tutorial covers. Step 3 starts it; step 11 finishes it.
+- **Runtime audio mixing** — the bundle's sound coverage is ambient and spatial (Tutorial 4). Loops that fade with their splat, stack into a listenable mix, and hand off to a voice track is real audio scripting you'd research — and it's the heart of the piece.
+- **Scaling the player mid-drive** — Set Actor Scale 3D is one node, but the ripples aren't: camera height, collision size, how falls land on a smaller windshield. Expect tuning.
+- **Quadruped run and kick animations** — the vault's animation path (Mixamo) is for humans. A Fab creature that ships with a run cycle is findable; a backward horse-kick is not a common stock animation — finding it, or faking it with what the asset ships with, is part of the work.
+
+### Two follow-ups
+
+A. **Tell me more about what sorts the objects.** What kind of memory shrinks you, and what kind makes you larger? Whatever rule you choose, the player will hunt for it — it's the most interpretable decision in the piece.
+
+B. **Tell me more about the creature.** It's the engine of everything — every memory on your glass is there because it kicked. What is it, and does the player ever get a clean look, or is *almost seen* the point?
+
+---
+
+Want me to save this plan to your notes? I'd put it at `student-notes-private/projects/project-plan-windshield-splats.md`.

@@ -159,7 +159,7 @@ For each feature, look it up in `agent/ue-capability-map.md`:
 2. **Combine or adapt** — supported once the student combines two tutorials or adapts a known pattern: a "deviation you are ready for," or an integration step that joins covered parts.
 3. **Off-map** — look up on your own; learned outside the bundle.
 
-Form a judgment about the *proportion*. The healthy shape for an assignment-scale project is **most features in tier 1, some in tier 2, a few in tier 3** — the bulk of the work on taught ground, a manageable amount of new territory. Carry this judgment into Step 7's "Calibrate the coverage," where you voice it to the student.
+Form a judgment about the *proportion*. The healthy shape for an assignment-scale project is **most features in tier 1, some in tier 2, a few in tier 3** — the bulk of the work on taught ground, a manageable amount of new territory. **Expect hybrids to lean further off-map than single-role projects** — multiple roles means complexity: spanning roles usually means spanning tutorial clusters *and* joining them with custom Blueprint work, so role-spread and coverage are not independent axes. Carry this judgment into Step 7's "Calibrate the coverage," where you voice it to the student.
 
 Do not lecture about what the vault has or doesn't have. The map is for *your* reference; the student doesn't need to hear its contents narrated.
 
