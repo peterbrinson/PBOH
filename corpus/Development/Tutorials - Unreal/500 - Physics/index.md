@@ -1,8 +1,8 @@
 ---
-title: "500 - Physics"
+title: 500 - Physics
 aliases:
-  - "500 - Physics"
-publish: false
+  - 500 - Physics
+publish: true
 ---
 
 
