@@ -1,5 +1,7 @@
 ---
 publish: false
+role: investigator — single-role
+coverage: mostly covered — short off-map (underwater look, gaze-triggered cut + end-card)
 ---
 
 # Abandoned Aquarium — Investigator (example session)
@@ -22,15 +24,15 @@ publish: false
 
 ---
 
-This sits cleanly in the **[[SPR 1 - The Investigator, World as Evidence|Investigator]]** role. An emptied public space, equipment left mid-use, a coded note, wet footprints still leading away from a door: you're handing the player exactly the Investigator's verbs — *find evidence, reconstruct what happened.* And the aquarium is a sharp choice of space. It's a place built to *narrate itself* — kiosks, signage, a guided route — so the evidence isn't only scattered objects, it's an institution's own voice. The whale and the painted globe are the moment that voice cracks.
+This sits cleanly in the **Investigator** role. An emptied public space, equipment left mid-use, a coded note, wet footprints still leading away from a door: you're handing the player exactly the Investigator's verbs — *find evidence, reconstruct what happened.* And the aquarium is a sharp choice of space. It's a place built to *narrate itself* — kiosks, signage, a guided route — so the evidence isn't only scattered objects, it's an institution's own voice. The whale and the painted globe are the moment that voice cracks.
 
 **Your project:** a quiet, first-person walk through an abandoned public aquarium, where broken equipment, a coded note, and the building's own ecosystem kiosks let the player reconstruct what happened here — building toward a captive whale, a painted message, and a reveal of who the player has been all along.
 
 **What kind of experience:** Investigator. The player asks *"What happened here? Who left in such a hurry?"* and answers it by looking closely — the broken equipment, the coded paper, the kiosks, the message on the globe.  The kiosks earnestly sell a hopeful, shared mission — *we're in this together, saving the world* — and the player has no reason to doubt them. Then the whale tank's painted globe — *"it pays for her cage"* — shatters that sincerity in a single read. That gap between what the aquarium *promises* and what it's actually doing is the engine of the piece, and the globe is the shock that opens it.
 
-### Tradeoff the player faces
+### A Tradeoff To Consider
 
-Often a designed tradeoff is what turns a space you walk through into a space you *play.* The idea doesn't have one nailed down yet — but it's sitting right there in your fiction. A few directions it could take:
+A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. Yours doesn't have one designed in yet, but it's sitting right there in your fiction. A few directions it could take:
 
 - **The approach as a clock.** The distant talking and the walkie static mean someone is *coming.* Lean into it: the closer they get, the less time the player has — so every object becomes a choice between lingering on the whale's globe and pressing on before the encounter lands.  The goal is to make the player feel like time is a pressure even though you don't implement any such system.  
 - **Look, or leave the scene intact.** The player reads things in place (constrained angles, the stillness preserved) or moves equipment to see better (clearer, but the just-abandoned hush breaks).
@@ -39,8 +41,8 @@ We can discuss this further if you want.
 
 ### A reference to look at
 
-- **[[Game - Tacoma]]** — for the *shape.* An emptied institutional space you reconstruct from what people left behind, audio logs and all. It's the Investigator loop at building scale, and it shows how much story a route through empty rooms can carry. (Its audio logs are doing what your kiosks do.)
-- **[[Game - BioShock]]** — for the *theme and the reveal.* A whole world whose cheerful signage and slogans are the ideology you're meant to swallow — *"It pays for her cage"* is BioShock — and one of the most famous reveal-of-who-the-player-is in games. Worth studying specifically for your ending question: not to copy, but to feel how a reveal can reach back and re-color everything the player already saw.
+- **Tacoma** (2017, The Fullbright Company — https://store.steampowered.com/app/343860/Tacoma/) — for the *shape.* An emptied institutional space you reconstruct from what people left behind, audio logs and all. It's the Investigator loop at building scale, and it shows how much story a route through empty rooms can carry. (Its audio logs are doing what your kiosks do.)
+- **BioShock** (2007, Irrational Games — https://store.steampowered.com/app/409710/BioShock_Remastered/) — for the *theme and the reveal.* A whole world whose cheerful signage and slogans are the ideology you're meant to swallow — *"It pays for her cage"* is BioShock — and one of the most famous reveal-of-who-the-player-is in games. Worth studying specifically for your ending question: not to copy, but to feel how a reveal can reach back and re-color everything the player already saw.
 
 ### Worth bringing up with the instructor
 

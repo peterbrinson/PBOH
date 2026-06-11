@@ -74,7 +74,7 @@ A structured reference for Unreal Engine 5 concepts. Generated from official doc
 
 ## Rendering & Materials
 
-*(empty — first ingest pending)*
+- [[Physical Material]] — defines how a surface behaves physically (Restitution, Friction) and what it is (Surface Type); resolution differs for simple vs. complex collision
 
 ## Landscapes & Environment
 

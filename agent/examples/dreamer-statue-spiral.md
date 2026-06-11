@@ -1,5 +1,7 @@
 ---
 publish: false
+role: dreamer — also serves Entrant (shared mechanics)
+coverage: mechanical heart off-map (physics piles); first pass on taught ground via Timeline
 ---
 
 # The Statue Spiral — Dreamer (example session)

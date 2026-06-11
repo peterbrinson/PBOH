@@ -1,5 +1,7 @@
 ---
 publish: false
+role: traveler — single-role
+coverage: mostly covered — short off-map (real-time audio muffling, comic speech bubble)
 ---
 
 # The Coat Check — Traveler (example session)
@@ -16,15 +18,15 @@ publish: false
 
 ---
 
-This sits cleanly in the **[[SPR 2 - The Traveler, World as Passage|Traveler]]** role. What you're describing is the player moving through a labyrinth *in the present tense* — witnessing a story unfold around them rather than reconstructing one that already happened. The hall that turns 90°, the weather changing room to room, a voiceover that starts muffled and slowly resolves into something you can finally bear to hear: that progression *is* the Traveler's central question, "What is this experience?" And the symphony ticket that falls away at the start is a clean way to say *you have arrived somewhere* — the threshold the whole piece walks away from.
+This sits cleanly in the **Traveler** role. What you're describing is the player moving through a labyrinth *in the present tense* — witnessing a story unfold around them rather than reconstructing one that already happened. The hall that turns 90°, the weather changing room to room, a voiceover that starts muffled and slowly resolves into something you can finally bear to hear: that progression *is* the Traveler's central question, "What is this experience?" And the symphony ticket that falls away at the start is a clean way to say *you have arrived somewhere* — the threshold the whole piece walks away from.
 
 **Your project:** a walk down a hallway where you surrender your family's coats to a quiet attendant while a judging voice slowly sharpens — ending in a room where you reclaim music as something you play for yourself.
 
 **What kind of experience:** This is the Traveler in its purest form — movement *is* the narrative. You're not solving the hallway, you're passing through it and witnessing it change around you: rain to snow, muffled to intelligible, protection to exposure. The voice arrives in the present tense, the way the Traveler's story is constituted by presence. The labyrinth here is unicursal — a single winding path with one small fork at the end — exactly right for an experience about being carried forward toward a reckoning you can't sidestep.
 
-### Tradeoff the player faces
+### A Tradeoff To Consider
 
-A tradeoff — where the player gains one thing only by giving up another — is a worthwhile dynamic to design for, and often practical to build into an early iteration. The idea doesn't have one designed in yet — a few directions you could go:
+A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. Yours doesn't have one designed in yet — a few directions you could go:
 
 - **The instrument room as a listening tradeoff.** Picking up one instrument plays its passage but silences the others — to hear one voice clearly you give up the rest, and you can never hold them all at once. The agency you described becomes a real cost: choosing is also forgoing.
 - **Coats as exposure.** Keep the coats light mechanically, as you want — but let surrendering each one shift how the next hall reads: give up the raincoat and the rain feels colder, louder, closer. Comfort traded for forward progress.
@@ -34,7 +36,7 @@ We can discuss this further if you want.
 
 ### A reference to look at
 
-- **[[Game - Inside]]** — wordless forward motion through a bleak world where the meaning lives entirely in the environment and in *what you're made to do*. Your coat-surrendering has that same uneasy compulsion; it's worth seeing how Inside makes the player feel something is wrong without ever stating it.
+- **Inside** (2016, Playdead — https://store.steampowered.com/app/304430/INSIDE/) — wordless forward motion through a bleak world where the meaning lives entirely in the environment and in *what you're made to do*. Your coat-surrendering has that same uneasy compulsion; it's worth seeing how Inside makes the player feel something is wrong without ever stating it.
 
 ### Worth bringing up with the instructor
 

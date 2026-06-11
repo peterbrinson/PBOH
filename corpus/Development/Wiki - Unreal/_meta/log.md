@@ -10,6 +10,12 @@ Operations: `ingest` (new source processed), `update` (existing page revised), `
 
 ---
 
+## [2026-06-11] ingest | Physical Material
+
+- **Source:** [Physical Materials User Guide | UE 5.5](https://dev.epicgames.com/documentation/unreal-engine/physical-materials-user-guide-for-unreal-engine?application_version=5.5) — clipped 2026-06-11 (raw/)
+- **Created:** [[Physical Material]] — first page in the Rendering & Materials category. Source was creation + per-context usage (Material, Material Instance, Physics Asset, Static Mesh, Phys Material Override). Restructured to wiki format; centered the simple-vs-complex collision resolution rule and the Phys Material Override precedence. Linked to Tutorial 501 (PM_Bouncy pattern).
+- **New stubs:** [[Material]], [[Static Mesh]]
+
 ## [2026-04-12] ingest | Animation Blueprint from editor clip + Tutorial 5
 
 - **Source:** [Animation Blueprint Editor in UE | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/animation-blueprint-editor-in-unreal-engine?application_version=5.7) — clipped 2026-04-12

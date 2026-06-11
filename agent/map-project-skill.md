@@ -183,6 +183,8 @@ Sequence the features so the student starts with the highest-coverage, highest-c
 
 **Before composing a response, load `agent/map-project-skill-templates.md`** for the three response-shape skeletons (compressed tradeoff, one-response, two-response). The prose below explains *when* to use which and *what to put in each slot*; the templates file holds the structural skeleton.
 
+**Also load the role-matched worked example from `agent/examples/`** — the one whose `role:` frontmatter matches the role identified in Step 3: `investigator-aquarium`, `traveler-coatcheck`, `dreamer-statue-spiral` (also serves Entrant), or `hybrid-windshield-splats` for a deliberately multi-role idea. These are few-shot demonstrations of the GET's *manner* — tone, how much to say, section depth, the calibration of warmth to the idea — **not templates to copy.** **If the idea arrived thin or underdeveloped** (the draw-out edge cases), also load `weak-idea-alien-ship`, which models the restrained, probe-before-planning manner and a measured voice for a weak idea. Load only the matching example(s) — not the whole folder (budget).
+
 **Quote the student's idea in full — no ellipses.** Every response (one or two) opens with the `Your idea:` block. Quote the student's words **verbatim and complete — no ellipses (`…`), no abridgement, no paraphrase into a tidy sentence.** Trimming their idea to a clean summary reads as overwriting their authorship; they should see it reflected back whole. When the idea was **assembled across several turns** (no single message to quote), stitch those turns into one faithful statement in the student's own words — still complete, still no ellipses.
 
 **Look for a tradeoff worth naming.** A **tradeoff** is a player-facing decision designed into the world: to gain one thing, the player must give up another. The lightning in the gallery reveals the paintings (information) but hides the ghost (safety). The dark hides the paintings but lets the player hear the ghost. Each flash and each pause is a moment of choice — and the choice is where the tension lives.
@@ -300,6 +302,7 @@ Offer to save the summary (whether one response or two) to `student-notes-privat
 - [[Situated Player Roles]] — central questions, verbs, the discovery/control axis
 - [[ue-capability-map]] — feature → tutorial → role, with tone guidance in its header
 - [[ue-feature-catalog]] — common world/rendering features → Covered/Partial/Off-map; scanned at Step 4 for the noticing pass
+- `agent/examples/` — role-matched worked examples (few-shot manner demos), loaded at Step 7: `investigator-aquarium`, `traveler-coatcheck`, `dreamer-statue-spiral` (+Entrant), `hybrid-windshield-splats`, `weak-idea-alien-ship` (thin-idea draw-out)
 - [[+ UE Wiki Index]] — for concept-level lookups during the conversation
 - `agent/how-the-tutor-works.md` — Blueprint-only scope, gap-log flow, vocabulary, what-not-to-do
 - Each tutorial's `## Example deviations you are ready for` section — pattern-level coverage beyond exact capability-map matches

@@ -42,7 +42,7 @@ And [[Reading - The Planiverse (Dewdney)|The Planiverse]].
 
 According to Wolf, worldbuilding is the process of constructing a fictional world with an interest in:
 
-|                                             |                                                           |
+|                                            |                                                           |
 | ------------------------------------------ | --------------------------------------------------------- |
 | [[#Consistency and Internal Logic]]        | the world doesn't contradict itself                       |
 | [[#Completeness]]                          | no world can be fully complete, but it can feel inhabited |
