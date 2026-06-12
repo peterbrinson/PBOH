@@ -18,11 +18,11 @@ coverage: mostly covered — short off-map (real-time audio muffling, comic spee
 
 ---
 
-This sits cleanly in the **Traveler** role. What you're describing is the player moving through a labyrinth *in the present tense* — witnessing a story unfold around them rather than reconstructing one that already happened. The hall that turns 90°, the weather changing room to room, a voiceover that starts muffled and slowly resolves into something you can finally bear to hear: that progression *is* the Traveler's central question, "What is this experience?" And the symphony ticket that falls away at the start is a clean way to say *you have arrived somewhere* — the threshold the whole piece walks away from.
+This sits cleanly in the **Traveler** role. What you're describing is the player moving through a labyrinth in the present tense — witnessing a story unfold around them rather than reconstructing one that already happened. The hall that turns 90°, the weather changing room to room, a voiceover that starts muffled and slowly resolves into something you can finally bear to hear: that progression is the Traveler's central question, "What is this experience?" And the symphony ticket that falls away at the start is a clean way to say you have arrived somewhere — the threshold the whole piece walks away from.
 
 **Your project:** a walk down a hallway where you surrender your family's coats to a quiet attendant while a judging voice slowly sharpens — ending in a room where you reclaim music as something you play for yourself.
 
-**What kind of experience:** This is the Traveler in its purest form — movement *is* the narrative. You're not solving the hallway, you're passing through it and witnessing it change around you: rain to snow, muffled to intelligible, protection to exposure. The voice arrives in the present tense, the way the Traveler's story is constituted by presence. The labyrinth here is unicursal — a single winding path with one small fork at the end — exactly right for an experience about being carried forward toward a reckoning you can't sidestep.
+**What kind of experience:** This is the Traveler in its purest form — movement is the narrative. You're not solving the hallway, you're passing through it and witnessing it change around you: rain to snow, muffled to intelligible, protection to exposure. The voice arrives in the present tense, the way the Traveler's story is constituted by presence. The labyrinth here is unicursal — a single winding path with one small fork at the end — exactly right for an experience about being carried forward toward a reckoning you can't sidestep.
 
 ### A Tradeoff To Consider
 
@@ -36,26 +36,26 @@ We can discuss this further if you want.
 
 ### A reference to look at
 
-- **Inside** (2016, Playdead — https://store.steampowered.com/app/304430/INSIDE/) — wordless forward motion through a bleak world where the meaning lives entirely in the environment and in *what you're made to do*. Your coat-surrendering has that same uneasy compulsion; it's worth seeing how Inside makes the player feel something is wrong without ever stating it.
+- **Inside** (2016, Playdead — https://store.steampowered.com/app/304430/INSIDE/) — wordless forward motion through a bleak world where the meaning lives entirely in the environment and in what you're made to do. Your coat-surrendering has that same uneasy compulsion; it's worth seeing how Inside makes the player feel something is wrong without ever stating it.
 
 ### Worth bringing up with the instructor
 
-**How to pace the voice's shift from inaudible to clear** so the emotional turn — judgment into release — lands without a single on-the-nose line. That's affective-communication territory: exactly the "how do I make them *feel* this" question the instructor is the right person for.
+**How to pace the voice's shift from inaudible to clear** so the emotional turn — judgment into release — lands without a single on-the-nose line. That's affective-communication territory: exactly the "how do I make them feel this" question the instructor is the right person for.
 
-There's also an opportunity in the ticket's bookend: the *name* of the symphony, read as a small impression at the start, can mean something quite different once the player walks back out to it at the end. What that name is — and what you want it to unlock in hindsight — is theme worth working out with the instructor.
+There's also an opportunity in the ticket's bookend: the name of the symphony, read as a small impression at the start, can mean something quite different once the player walks back out to it at the end. What that name is — and what you want it to unlock in hindsight — is theme worth working out with the instructor.
 
 ### The part I'm most excited about
 
-The snow hall, where the voice becomes *a little more intelligible* — that threshold where you can almost make out that someone is talking about music and instruments, and you lean in before you know it's going to wound you. Designing the audio so the player strains toward the very thing that hurts them is the whole piece in miniature.
+The snow hall, where the voice becomes a little more intelligible — that threshold where you can almost make out that someone is talking about music and instruments, and you lean in before you know it's going to wound you. Designing the audio so the player strains toward the very thing that hurts them is the whole piece in miniature.
 
-### Build order
+### Build order for Unreal Game Engine
 
 *Roughly in priority order. The early steps are the spine; the later ones are polish. If you run short on time — and you almost always will — cut from the bottom, not the top.*
 
 1. **Get a first-person player character placed and walking.** The Unreal first-person template gives you the POV this idea wants, out of the box. Foundational — easy to skip, don't.
 2. **Block out the labyrinth with primitives** (boxes and planes): the opening room, the long hall, the 90° turn, the branching end, the instrument room. Walk it until the length and the turn feel right — pacing is everything here. Then bring in **Fab** assets: coat-check counters, a figure for the attendant, instruments for the floor, the entry-room dressing.
 3. **Tutorial 4 — the coat-check attendant.** A Mixamo NPC with an idle animation that reacts to the player's proximity with a triggered "takes the coat" gesture. Build one, then duplicate it for each station.
-4. **Tutorial 702 — per-hall weather.** Looping Niagara particles placed in each hall — rain in the first, snow in the next. These can just *run continuously*; they don't need a trigger, since each hall only ever shows its own weather, so the effect can already be going before the player arrives. The far-off thunder works the same way — an ambient sound simply playing in the space, no trigger needed.
+4. **Tutorial 702 — per-hall weather.** Looping Niagara particles placed in each hall — rain in the first, snow in the next. These can just run continuously; they don't need a trigger, since each hall only ever shows its own weather, so the effect can already be going before the player arrives. The far-off thunder works the same way — an ambient sound simply playing in the space, no trigger needed.
 5. **Tutorial 701 — a Post Process Volume per hall** for the mood shift (cold blue in the snow, muddy gray in the rain). This is what makes each room feel like a different emotional register.
 6. **The voiceover progression.** First pass: separate audio files — a muffled clip, then a clearer one, then the fully intelligible one — each triggered as the player crosses into the next zone (Tutorial 4). Simple, in reach, and you control the exact moment of clarity.
 7. **The brother/sister fork.** Two coat-check stations; walking to one or the other is the choice. Each triggers its now-audible voiceover (two trigger zones, Tutorial 4).
@@ -75,7 +75,7 @@ Most of this sits squarely in tutorial territory, so the list is short — just 
 
 A. **The coats as a series** — raincoat, then your best friend's jacket, then a sibling's coat. You said wearing them is "taking on that character, but not really." Tell me more about that borrowed-identity feeling: does the order — friend before family — mean something about how close the judgment is getting?
 
-B. **The instrument room versus the halls.** The halls sound heavy and judging; tell me more about what the player should *feel* the moment they enter the room. Is it a release right away, or does the judgment pile in and only lift in the final silence?
+B. **The instrument room versus the halls.** The halls sound heavy and judging; tell me more about what the player should feel the moment they enter the room. Is it a release right away, or does the judgment pile in and only lift in the final silence?
 
 ---
 

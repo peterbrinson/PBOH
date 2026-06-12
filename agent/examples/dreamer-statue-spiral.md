@@ -1,7 +1,7 @@
 ---
 publish: false
 role: dreamer — also serves Entrant (shared mechanics)
-coverage: mechanical heart off-map (physics piles); first pass on taught ground via Timeline
+coverage: motion all taught (501 physics, no Timeline); off-map = the pile-controller dispatch logic (the puzzle's heart) + readability tuning + runtime spawning
 ---
 
 # The Statue Spiral — Dreamer (example session)
@@ -18,17 +18,17 @@ coverage: mechanical heart off-map (physics piles); first pass on taught ground 
 
 ---
 
-This is squarely the **Dreamer**. The mechanics are also metaphors: the player isn't just solving piles, they're *reading* them — sorting animals, people, and household objects into mental categories and testing what belongs with what. Whatever the matching rule turns out to be, it will say something, because the player spends the whole climb interpreting it. And the geometry itself carries meaning — a path that can't be left, that spirals toward figures you've seen since the first step. Solve + interpret, both at once.
+This is squarely the **Dreamer**. The mechanics are also metaphors: the player isn't just solving piles, they're reading them — sorting animals, people, and household objects into mental categories and testing what belongs with what. Whatever the matching rule turns out to be, it will say something, because the player spends the whole climb interpreting it. And the geometry itself carries meaning — a path that can't be left, that spirals toward figures you've seen since the first step. Solve + interpret, both at once.
 
 **Your project:** a forward-only climb up a spiraling ditch, clearing statue-piles by discovering which recognizable figures move which others — with the source of the piles, the great statues at the summit, drawing slowly closer.
 
-**What kind of experience:** A climb where comprehension and pressure rise together. Your miss rule is elegant economy — a wrong roll doesn't just fail, it *feeds the mountain*: the statue flies up and comes back down at you later. And success rolling right, downhill, gives the player a readable grammar with no UI at all: down-and-away means solved, up-and-back means wrong. The player learns to read outcomes by direction alone.
+**What kind of experience:** A climb where comprehension and pressure rise together. Your miss rule is elegant economy — a wrong roll doesn't just fail, it feeds the mountain: the statue flies up and comes back down at you later. And success rolling right, downhill, gives the player a readable grammar with no UI at all: down-and-away means solved, up-and-back means wrong. The player learns to read outcomes by direction alone.
 
 ### A Tradeoff To Consider
 
 A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. Yours is already designed in, and it falls straight out of the geometry:
 
-The large statues at the summit are the key to the matching puzzle, and they get more legible as you climb. But reading them means looking *up*, away from the pile — while replenishment gets faster. The information is most available exactly when you have the least time to use it. The player constantly chooses: study the answer, or work the pile. That's a visibility/information tradeoff built into the camera and the level itself — no extra systems needed.
+The large statues at the summit are the key to the matching puzzle, and they get more legible as you climb. But reading them means looking up, away from the pile — while replenishment gets faster. The information is most available exactly when you have the least time to use it. The player constantly chooses: study the answer, or work the pile. That's a visibility/information tradeoff built into the camera and the level itself — no extra systems needed.
 
 ### A reference to look at
 
@@ -36,33 +36,33 @@ The large statues at the summit are the key to the matching puzzle, and they get
 
 ### Worth bringing up with the instructor
 
-What the statues *are* is the open heart of this. Whether the categories are animals/people/objects, and what the large summit statues mean when the player finally reaches them, is pure theme territory. So is the late-game shift from puzzle matching to dexterity — that's a real arc (cognition early, reflexes late), and whether the summit should demand quickness or comprehension changes what the climb is *about*. Both are worth a real conversation with the instructor. Want me to add them to your instructor-questions list?
+What the statues are is the open heart of this. Whether the categories are animals/people/objects, and what the large summit statues mean when the player finally reaches them, is pure theme territory. So is the late-game shift from puzzle matching to dexterity — that's a real arc (cognition early, reflexes late), and whether the summit should demand quickness or comprehension changes what the climb is about. Both are worth a real conversation with the instructor. Want me to add them to your instructor-questions list?
 
 ### The part I'm most excited about
 
-The moment the player looks up mid-pile and realizes the path has been spiraling — that the big statues haven't just been scenery, they've been getting closer, and the piles are coming *from* them. That's the anticipation you named, built right into the level geometry.
+The moment the player looks up mid-pile and realizes the path has been spiraling — that the big statues haven't just been scenery, they've been getting closer, and the piles are coming from them. That's the anticipation you named, built right into the level geometry.
 
-### Build order
+### Build order for Unreal Game Engine
 
 *Order is triage — the top is the spine, the tail is droppable. Cut from the bottom, not the top.*
 
 1. **Player character** — third-person default template, walking. Block out one straight ditch segment with primitive boxes to feel the 10-foot walls and forward-only confinement before any mountain exists.
 2. **Tutorial 301 — landscape from a Gaea heightmap:** the mountain, with the spiral ditch sculpted into its base and flank. Atmospheric sky comes with it.
 3. **Import statues from Fab** — this project lives or dies on recognizable shapes: a handful of animals (dog, bird, fish), human figures (a soldier, a child), household objects (a chair, a jug, a clock). Plus generic rocks. Get a few in now; full set later.
-4. **Tutorial 821 — E-key interaction** with what you're looking at. This is your pick-up-a-statue verb. First pass: the rolled statue moves along a Timeline toward the pile — smooth and controllable. An upgraded version of this — the true physics roll — comes in step 10.
+4. **Tutorial 821 — E-key interaction** with what you're looking at: your pick-up-a-statue verb. Then roll it with physics — **Tutorial 501**: turn on `Simulate Physics` and give it an `Add Impulse` toward the pile, and it rolls and tumbles for real under gravity. 
 5. **The matching rule** — give every statue a String variable for its category (Tutorial 2's shared-state pattern). One heads-up: comparing two statues' categories with a **Branch** node ("does this equal that?") is a small Blueprint pattern no tutorial walks through directly — the pieces are taught, the join is yours.
-6. **Pile response, first pass** — Tutorial 4's array-of-objects + staggered sequential events: when the right statue hits, the matched statues animate out of the pile one after another via Timelines — solved statues rolling right and downhill, misses arcing up toward the replenish source, so the direction grammar reads from the very first pile. This reads as the pile reacting, without simulated physics; the physics upgrade in step 10 builds on it.
-7. **Replenishment, first pass** — pre-placed statues uphill of each pile that animate down a Timeline path when triggered. Faster Timeline lengths at higher tiers = your mounting pressure, no spawning system needed. An updated approach — true runtime spawning — is a later upgrade (see Off-Map).
+6. **Pile response** — the pile is a stack of **Tutorial 501** physics bodies. When the rolled statue strikes it, the whole pile jostles and lifts on its own — physics, no animation. The matching rule (step 5) then decides the payoff: the matched statues get a targeted `Add Impulse` that rolls them right and downhill (solved), while a miss gets an upward impulse toward the replenish source (your "a mistake feeds the mountain" rule). Tutorial 4's staggered-events pattern fires those impulses one after another, so the direction grammar — down-and-away solved, up-and-back wrong — reads from the very first pile. All physics; no Timeline. One honest flag: what Tutorial 4 doesn't hand you is the live dispatch — on each hit, querying the pile for which statues the rule says should move and commanding each one. That controller is a custom join — see Off-Map.
+7. **Replenishment** — **Tutorial 501 (Simple Physics)**. Pre-placed statues and rocks uphill of each pile that, when triggered, switch on `Simulate Physics` and roll down the slope under gravity — a small `Add Impulse` to start them and the mountain does the rest, landing them on the pile. Things rolling downhill are exactly what physics does for free, so this is physics-first. Quickening the release cadence at higher tiers is your mounting pressure — no spawning system needed: the statues are placed, not spawned (true runtime spawning is the one off-map upgrade — see below).
 8. **Atmosphere** — Tutorial 701, multiple Post Process Volumes: a distinct color grade per spiral tier, intensifying upward. This is the Dreamer's strongest tool and your "more intense than meditative" dial. Tutorial 702 dust particles when piles settle; Tutorial 4's spatial sound zones for low rumble that grows near the top.
 9. **The summit** — a trigger zone (Tutorial 1) at the top for whatever the arrival moment is.
-10. **Second pass on physics** — replace Timeline motion with real simulated physics where it matters most (probably the rolled statue itself first).
 
 ### Off-Map
 
-Honest heads-up: the mechanical heart of your idea — a pile that lifts with physics, sheds particular statues, and settles under gravity — is off-map. The GET doesn't teach physics simulation beyond basic collision. But notice the build order doesn't wait for it: steps 4–7 give you the whole experience on taught ground with Timeline-driven motion, and the real physics becomes research for the second pass.
+Good news: every statue and rock moves on taught ground — all **Tutorial 501 (Simple Physics)** (`Simulate Physics` + `Add Impulse`), no Timelines anywhere; 501's own example deviations even include rolling something into a group and letting physics scatter it, which is your pile exactly. What you assemble yourself is the logic that drives them:
 
-- **Physics-simulated piles** (bodies lifting, tumbling, settling under gravity) — you'd research Unreal's physics simulation on your own; the Timeline version in steps 4–7 is your working first pass.
-- **Runtime spawning of replenishment statues** — pre-placed statues that activate (step 7) cover it; true spawning is a look-it-up-later upgrade.
+- **The pile controller — finding the matches and commanding them.** Physics moves the statues, Tutorial 2 stores each one's category, and Tutorial 4 can fire a set of events in sequence — but the runtime logic that, on each hit, loops the pile, tests every statue against the matching rule, and triggers the ones that should move is a custom Blueprint pattern no tutorial assembles (a ForEach over the pile, a Branch per statue, an impulse on each match). 
+- **Tuning physics to stay readable.** Physics scatters honestly, so guaranteeing a matched statue rolls clearly right-and-downhill every time — and a miss clearly up-and-back — takes tuning: targeted impulses on the selected bodies, maybe a physics constraint to channel the direction. The grammar is the craft; 501 gives you the tools, you dial in the legibility.
+- **Runtime spawning of replenishment statues** — pre-placed statues that switch on physics (step 7) cover it; true runtime spawning is a look-it-up-later upgrade.
 
 ### Two follow-ups
 

@@ -40,6 +40,7 @@ When a student describes a feature, route it like a lookup — don't read the wh
 | 301 | Landscapes, Gaea and Automaterial | Landscape terrain from a Gaea heightmap, auto-layered grass/rock/snow, atmospheric sky, overhead map |
 | 302 | Water | Lakes, oceans (island), rivers with spline-controlled current |
 | 401 | Create a Material | Custom colored materials with editable parameters, material instances, texture-mapped surfaces |
+| 501 | Simple Physics | Objects that fall/tumble/settle (`Simulate Physics`), per-object weight (Mass), bounce via Physical Material (Restitution), gravity dials (Enable Gravity / Global Gravity Z / character Gravity Scale), launch/scatter via Add Impulse; simple vs. complex collision |
 | 701 | Post-Processing | Global color grade (mood/tone), multiple Post Process Volumes per area |
 | 702 | Niagara Particles | Looping ambient particles (smoke/fire/dust/sparks), turbulent motion, color-shift over lifetime |
 | 801 | Inspect an Object | Readable note/object — full-screen widget, player input locked while open, audio log / photo / diary, full-screen black-out / end-card / fade-to-black; Blueprint Interface |
@@ -144,6 +145,21 @@ When a student describes a feature, route it like a lookup — don't read the wh
 
 ---
 
+## Physics & Simulation
+
+| Feature                                                                       | Tutorial(s) | SPR fit          | Best for         |
+| ----------------------------------------------------------------------------- | ----------- | ---------------- | ---------------- |
+| Object that falls, tumbles, and settles under gravity                         | 501         | All              | Entrant, Dreamer |
+| Per-object weight (Mass) — light props vs. heavy/immovable                     | 501         | All              |                  |
+| Bouncy or icy surface via Physical Material (Restitution)                      | 501         | All              |                  |
+| Gravity tuned per object / world / character (moon levels, dream-slow falls)   | 501         | All              | Dreamer          |
+| Launch, scatter, or knock over physics objects (Add Impulse)                  | 501         | Entrant, Dreamer | Entrant, Dreamer |
+| Simple vs. complex collision (the Fab-prop-falls-through-the-floor fix)        | 501         | All              |                  |
+
+> **Physics beyond rigid bodies is still off-map.** 501 covers falling/tumbling/bouncing rigid bodies and gravity tuning — basic, beginner-level. Ragdoll, cloth, vehicles, destruction, and buoyancy are *not* taught; offer a Timeline-driven approximation as a first pass where one fits (e.g. a looping bob instead of true buoyancy). See [[ue-feature-catalog]].
+
+---
+
 ## Materials & Surface
 
 | Feature | Tutorial(s) | SPR fit | Best for |
@@ -185,7 +201,7 @@ Features students may want that are not yet covered:
 - Inventory systems
 - Dialogue systems with branching
 - Save / load game state
-- Physics simulation (beyond basic collision)
+- Advanced physics — ragdoll, cloth, vehicles, destruction, buoyancy *(basic rigid-body physics — falling, tumbling, bouncing, gravity tuning — is now covered by Tutorial 501)*
 - Procedural generation
 - C++ integration
 - Advanced animation (state machines, blend spaces)

@@ -16,19 +16,19 @@ coverage: thin idea — honor + reframe + probe; compressed tradeoff; deliberate
 
 > I have an idea. The player is on a spaceship with aliens. You have to get to the cockpit to attack the aliens ships.
 
-*The student gave no assignment context, and the idea is still a seed — so the GET draws it out before pinning a role or laying out a build order. (It would also confirm, in passing, whether this is for a class project or an open one.)*
+*The student gave no assignment context, and the idea is still a seed — so the GET draws it out before pinning a role or laying out a build order. (It would also confirm, in passing, whether this is for a defined class project or an open one.)*
 
 ---
 
-The setting has potential — a ship you have to cross with something alien aboard, and the cockpit pulling you forward the whole way. That's a spine, and that premise can provide tension. One honest piece of orientation: *attacking the alien ships* is the part the course doesn't go toward — think about storytelling over combat here. That's not a knock on the genre; it's just a different kind of game than this class has studied. 
+The setting has potential — a ship you have to pass through with something alien aboard, and the cockpit pulling you forward the whole way. That's a spine, and that premise can provide tension. One honest piece of orientation: attacking the alien ships is the part the course doesn't go toward — think about storytelling over combat here. That's not a knock on the genre.
 
-What makes "a ship with aliens" compelling isn't firing back — it's *the alien being there.* Picture the version where you can't fight it: you move through the ship toward the cockpit, and the aliens are a presence you sense, avoid, and glimpse . That can be scary. And the cockpit stops being a firing position and becomes a destination you're piecing your way toward — learning what happened to the crew as you go, so that by the time you reach the front of the ship, you understand your role as a pilot.
+What makes "a ship with aliens" compelling isn't firing back — it's the alien being there. Picture the version where you can't fight it: you move through the ship toward the cockpit, and the aliens are a presence you sense, avoid, and glimpse . That can be scary. And the cockpit stops being a goal for the sake of agency and becomes a destination you're piecing your way toward — learning what happened to the crew as you go, so that by the time you reach the front of the ship, you understand your role as a pilot.
 
 Two Situated Player Roles do the heavy lifting, and you'd know both from class: the **Traveler** (you move through and witness a place) and the **Investigator** (you reconstruct what happened from what's left behind). Does that sound like the game that was exciting you — or were you picturing something else?
 
 **Your project could be:** a tense crossing of a derelict spaceship toward the cockpit, with an alien presence you evade rather than fight, piecing together what happened to the crew as you move forward.
 
-**What kind of experience:** A walk that's never safe. The cockpit gives every step a direction; the alien gives every step a cost. You're not clearing rooms, you're *reading* them — a half-eaten meal, a sealed door, a warning scrawled on a wall — and the story of the ship assembles itself in whatever order you happen to find it. 
+**What kind of experience:** A walk that's never safe. The cockpit gives every step a direction; the alien gives every step a cost. You're not clearing rooms, you're reading them — a half-eaten meal, a sealed door, a warning scrawled on a wall — and the story of the ship assembles itself in whatever order you happen to find it. 
 
 ### A Tradeoff To Consider
 
@@ -50,13 +50,13 @@ Reaching the cockpit and reflecting on your path there.
 
 ### Before a build order
 
-When it's time, I will draft you a build order, but now we should develop the idea more.  You can see that I'm trying to build in mystery, player curiosity from the start, and sustain it with each encounter.  Think about how the player's actions engage story — it's in what you find there and what's hunting you, and that can be developed. 
+When it's time, I will draft you a build order, but now we should develop the idea more.  You can see that I'm trying to build in mystery, player curiosity from the start, so you can sustain it with each encounter.  Think about how the player's actions engage story — it's in what you find there and what's hunting you, and that can be developed. 
 
 ### Two follow-ups
 
-A. **Tell me more about one moment you can already see.** Forget the whole ship — what's the single scene you can already picture? A door that won't open, a sound down a corridor, the first time you see one of them. Whatever it is, that's where we build from.
+A. **Tell me more about one moment you can already see.** Forget the whole ship — what's the single situation you can already picture? A door that won't open, a sound down a corridor, the first time you see one of them. Whatever it is, that's where we build from.
 
-B. **Tell me more about the aliens as a presence.**  What makes them frightening — never seeing them clearly, the sound of them, what they've already done to the crew? What you *don't* show is often what makes it land.
+B. **Tell me more about the aliens as a presence.**  What makes them frightening — never seeing them clearly, the sound of them, what they've already done to the crew? What you don't show is often what makes it land.
 
 ---
 

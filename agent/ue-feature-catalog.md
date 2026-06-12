@@ -60,9 +60,10 @@ At **Step 4 of `map-project-skill.md` (decompose into features)**, after you've 
 
 | Feature | Coverage | Where / note |
 |---|---|---|
-| Collision / overlap detection | **Covered** | underlies Tutorial 1's trigger volumes |
+| Collision / overlap detection | **Covered** | underlies Tutorial 1's trigger volumes; simple vs. complex collision taught in 501 |
 | Collision presets | **Off-map · low-hanging** | a per-component editor dropdown |
-| Gravity / physics simulation (falling bodies, ragdoll, buoyancy) | **Off-map · harder** | explicitly outside vault scope; offer a Timeline-driven approximation as a first pass where one fits (e.g. a looping bob instead of buoyancy) |
+| Falling / tumbling / settling rigid bodies, per-object weight (Mass), bounce (Restitution), gravity tuning | **Covered** | 501 (Simple Physics) — beginner level |
+| Advanced physics — ragdoll, cloth, vehicles, destruction, buoyancy | **Off-map · harder** | not taught; offer a Timeline-driven approximation as a first pass where one fits (e.g. a looping bob instead of buoyancy) |
 
 ## Characters & Animation
 
@@ -97,3 +98,4 @@ At **Step 4 of `map-project-skill.md` (decompose into features)**, after you've 
 - ✅ Wired into `map-project-skill.md` Step 4 (the noticing pass) + Pointers list (2026-06-08).
 - ✅ Publish: stays `publish: false` (matches the capability map).
 - ✅ Cross-linked with `ue-capability-map.md` (siblings: gameplay mechanics vs. world/rendering features).
+- **2026-06-11 — Tutorial 501 (Simple Physics) proofread + published.** Physics row split: basic rigid-body physics (falling/tumbling/settling, Mass, bounce, gravity tuning) is now **Covered → 501**; only ragdoll/cloth/vehicles/destruction/buoyancy stay off-map · harder. Capability map gained a "Physics & Simulation" section + Tutorial Index row; its "outside scope" line narrowed to *advanced* physics.
