@@ -9,4 +9,4 @@ The game-design lens The GET reasons with — the player-role framework and the 
 
 - [[_References]] — game and film examples the tutor cites.
 - [[Narrative]] — the four player roles (Investigator, Traveler, Entrant, Dreamer) that frame design decisions.
-- [[Worldbuilding]] — worldbuilding theory (Mark Wolf's *Building Imaginary Worlds*, and focused on games).
+- [[Worldbuilding|Finite Worlds]] — finite worlds, and the worldbuilding theory behind them (Mark Wolf's *Building Imaginary Worlds*, focused on games).

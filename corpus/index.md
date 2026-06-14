@@ -2,7 +2,7 @@
 
 - [[_References]]
 - [[Narrative]]
-- [[Worldbuilding]]
+- [[Worldbuilding|Finite Worlds]]
 
 ## Development
 

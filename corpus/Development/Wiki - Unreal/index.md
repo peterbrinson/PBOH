@@ -31,7 +31,7 @@ A structured reference for Unreal Engine 5 concepts. Generated from official doc
 - [[Print String]] — displays text on viewport and/or Output Log; primary debugging tool
 - [[Sequence]] — flow control; fires multiple exec outputs in order from a single input
 - [[Set Actor Location]]
-- [[Spawn Actor from Class]] — creates a new actor instance at runtime; projectiles, enemies, pickups — moves an actor to a specified position; primary target for Timeline + Lerp output
+- [[Spawn Actor from Class]] — creates a new actor instance at runtime; projectiles, enemies, pickups 
 - [[Set Relative Rotation]] — rotates a component relative to its parent; used for doors, hinged objects
 - [[Set Timer by Event]] — starts a timer that fires a Custom Event delegate after a delay; by Event (visual) or by Function Name (string)
 - [[Switch]] — multi-way routing based on a data value (Int, String, Name, or Enum); alternative to nested Branches
@@ -42,7 +42,7 @@ A structured reference for Unreal Engine 5 concepts. Generated from official doc
 - [[Custom Events]] — user-defined events in the Event Graph; required as delegates for Set Timer by Event
 - [[Event Dispatchers]] — one-to-many broadcast system; sender calls, any number of listeners respond
 - [[OnComponentBeginOverlap]] — fires when another actor enters a collision volume; primary trigger for proximity-based gameplay
-- [[OnComponentEndOverlap]] — GET to BeginOverlap; fires when an actor leaves a collision volume
+- [[OnComponentEndOverlap]] —  fires when an actor leaves a collision volume
 - [[OnComponentHit]] — fires on blocking physical collisions; provides impact point, force, and Hit Result data
 
 ## Components
@@ -59,7 +59,6 @@ A structured reference for Unreal Engine 5 concepts. Generated from official doc
 - [[Character]] — Pawn subclass for humanoid movement; includes CharacterMovementComponent, SkeletalMesh, CapsuleComponent
 - [[Controller]] — non-physical Actor that possesses a Pawn to control it; parent of PlayerController and AIController
 - [[GameMode]] — the game's rule system; controls which Pawn, PlayerState, and Controller classes are used
-- [[GameState]] — replicated GET to GameMode; holds game-wide data visible to all clients
 - [[Pawn]] — physical representation of a player or AI entity; possessed by a Controller
 - [[PlayerController]] — human player's Controller; handles input, owns HUD and camera
 - [[Possess]] — transfers control of a Pawn to a Controller; core of character/vehicle swapping

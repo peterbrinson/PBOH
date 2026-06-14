@@ -18,7 +18,8 @@ Also: any time the student is describing an idea and you're tempted to start pre
 
 ## Required reading before starting
 
-- [[Situated Player Roles]] overview and the four SPR pages — central questions and player verbs for each role
+- [[Situated Player Roles]] **overview** (`corpus/Design/Narrative/index.md`) — the four role essences and the discovery-vs-control axis. **Always load this.** It's small and carries enough of all four roles both to identify the role in play and to *name* a cross-role feature in passing.
+- **The full SPR page only for the role(s) the project actually uses** — load it once Step 3 identifies the role (for a named-role assignment, you know it from Step 1). A single-role project pulls one page; a hybrid pulls two. **Don't pre-load all four** — the non-relevant roles' full pages go unconsulted at runtime, and the overview already covers naming them. The full page sharpens role identification and supplies the role's deeper logic when you're working inside it (the Entrant's L.O.P. loop, the Traveler's maze types, the Dreamer's mechanics-as-metaphor). If a role's page references another role's framework you need (e.g. a Dreamer project leaning on the Entrant's L.O.P.), pull that page on demand too.
 - [[ue-capability-map]] — the feature → tutorial → SPR map, including the tone guidance in its header
 - `agent/how-the-tutor-works.md` — Blueprint-only constraint, gap-log flow, vocabulary
 - The `## Example deviations you are ready for` sections of any tutorial you're about to recommend — these expand what's "covered" beyond exact capability-map matches
