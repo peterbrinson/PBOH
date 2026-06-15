@@ -1,10 +1,30 @@
 ---
-title: "Situational Game Design for Small Worlds"
+title: Situational Game Design for Small Worlds
 aliases:
-  - Situational Game Design for Finite Worlds
 publish: true
 ---
+This page summarizes the first two chapters of Brian Upton's *Situational Game Design* (2015) for the sake of building small worlds.  All page citations refer to that book.
+
+---
+
 > "A situation is an interval of play that contains a choice." (p.11)
+
+## What Is Situational Game Design?
+
+Most approaches to game design are transactional. They treat games as self-contained systems that stand apart from the player. 
+
+Situational game design is different.
+
+> "It's a player-centric approach to design rather than a game-centric one." (p.5)
+
+Some situations invite interaction. Others invite anticipation, interpretation, or introspection. All of these ways to play contribute to the overall texture of the experience.
+
+> "The nexus of play lies not in the interface between the player and the game, but inside the player's mind.  Games are not playful in and of themselves. " (p.6)
+
+> [!hint] Hold On
+> Upton's take precedes today's version of the A.I. topic "am I going to be replaced?" His approach keeps the player — the human — at the nexus of the system.  This reminds us how games as art ponder culture - does this game (my life) need to be transactional?    
+
+---
 
 ## Games Are More Than Interaction
 
@@ -52,22 +72,6 @@ There's another assumption: games are about winning. Our moves are always direct
 ![[week4-dnd.webp]]
 
 > Peter: If your [[Small Worlds|small world]] isn't about winning, what is the player doing there? What is the experience you're making?
-
----
-
-## What Is Situational Game Design?
-
-Most approaches to game design are transactional. They treat games as self-contained systems that stand apart from the player. 
-
-Situational game design is different.
-
-> "It's a player-centric approach to design rather than a game-centric one." (p.5)
-
-Some situations invite interaction. Others invite anticipation, interpretation, or introspection. All of these ways to play contribute to the overall texture of the experience.
-
-> "The nexus of play lies not in the interface between the player and the game, but inside the player's mind.  Games are not playful in and of themselves. " (p.6)
-
-> Peter: Upton's take precedes today's A.I. topic of "am I going to be replaced?" His approach keeps the player — the human — at the nexus of the system.  This reminds us how games as art ponder culture - does this game (my life) need to be transactional?    
 
 ---
 
