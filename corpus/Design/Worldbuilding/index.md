@@ -1,5 +1,5 @@
 ---
-title: "Small Worlds"
+title: "Worldbuilding"
 aliases:
   - Worldbuilding
   - Small Worlds
@@ -120,10 +120,10 @@ Wolf breaks a world into [[World Structure - Wolf's Eight Elements|eight element
 
 #### Narrative Within a World
 
-A world is not a story, but it is usually crafted so that stories can happen.  Where conventional storytelling prizes economy, a world can afford excess: the loose threads and unfired pistols are part of what makes it feel larger than the plot passing through it.
+Fictional worlds are often crafted so that stories can unfold.  Where conventional storytelling prizes economy, a world can afford excess: the loose threads are part of what makes it feel authentic.
 
 #### Worlds Across Media
 
-A world can outgrow the single work that introduced it. [[Transmedia|Transmedia]] is what happens when one world holds many stories across many forms — the film, the game set twenty years earlier, the novel that explains the villain — each adding to the world without depending on the others. It is the far edge of completeness: the world implied so fully that it spills past its original frame.
+A world can outgrow the single work that introduced it. [[Transmedia|Transmedia]] is what happens when one world holds many stories across many forms — the film, the game set twenty years earlier, the novel that explains the villain — each adding to the world without depending on the others.
 
 Further reading:  [[Reading - Emissary's Guide to Worlding (Cheng)|Emissary's Guide to Worlding]].
