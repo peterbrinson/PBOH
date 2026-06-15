@@ -67,7 +67,7 @@ https://youtu.be/Vw35KIvXEe0
 
 -----
 [[Game - The Pedestrian|The Pedestrian]] is a play on perception and space.  
-Its constraints are front and center, but the world's [[Wolf's Taxonomy of Invention|inventions]] are intuitive. 
+Its constraints are front and center, and the world's [[Wolf's Taxonomy of Invention|inventions]] are intuitive. 
 [https://www.youtube.com/watch?v=mIcA3SaZzxs](https://www.youtube.com/watch?v=mIcA3SaZzxs)
 
 ![[the-Pedestrian.webp]]

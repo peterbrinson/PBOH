@@ -3,7 +3,7 @@ publish: true
 ---
 Wolf's **Nature** element (p.155) includes landscape, climate, flora, fauna — and physics. The physical laws of a world are part of its nature.
 
-Most worlds borrow our physics silently. But the more deliberately a world departs from it, the more it reveals itself as a *designed* system with a point of view.
+Most worlds borrow our physics without reference or complication. But the more deliberately a world departs from it, the more it reveals itself as a designed system with a point of view.
 
 ## For Example: Jumping and Falling in Video Games
 
@@ -13,13 +13,10 @@ We take it for granted that video game players can jump enormous heights and fal
 
 Electromagnetic principles are a rich target for invention. Change how light behaves and you change:
 - What organisms can see (visible spectrum, night vision, color perception)
-- How warmth and cold operate
 - What materials are transparent, opaque, or luminous
 - What "beauty" looks like — the aesthetic conventions of any culture are downstream of what light does
 
-An alternate EM spectrum is a worldbuilding decision with cultural and narrative consequences.
-
-See also: [[Teaching the Rules of the World]] — how games and film transmit world rules to the audience before the experience can proceed.
+See also: [[Teaching the Rules of the World]] — how games and film transmit world rules to the audience as an experience, but also before the next experience can arrive.
 
 
 

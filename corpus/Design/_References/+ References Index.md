@@ -202,7 +202,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 | [[Film - Twin Peaks]]                                  | Investigator, Dreamer  | A murder mystery that opens onto a dream-logic realm with a crossable boundary                                                                               |
 | [[Film - World of Tomorrow]]                           | Dreamer, Traveler      | A tour through minimal worlds, each a single memory or idea; constant boundary-crossing, melancholy                                                          |
 | [[Comic - Calvin and Hobbes]]                          | Dreamer                | Spaceman Spiff — a child's imagination as a fully realized other world; graphic design alone carrying the emotion                                            |
-| [[Book - Yertle the Turtle]]                           | Dreamer, Entrant       | A fable of power and hierarchy — the tyrant's stack that finally topples                                                                                     |
+| [[Reading - Yertle the Turtle (Seuss)\|Yertle the Turtle]]  | Dreamer, Entrant       | A fable of power and hierarchy — the tyrant's stack that finally topples                                                                                     |
 
 ---
 

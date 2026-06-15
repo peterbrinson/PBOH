@@ -18,7 +18,7 @@ Henry Jenkins coined the term "transmedia storytelling" (2003): "a process where
 
 - **Star Wars**  — films, novels, comics, games, theme parks. 
 - **The Matrix** — the *Animatrix* (animated shorts) and *Enter the Matrix* (game) told stories inaccessible in the films. The Wachowskis designed the transmedia experience as a whole. 
-- **Halo**  — the novel *The Fall of Reach* was released before the first game. It built the world's backstory and made the game's opening feel like an arrival into something already old. Games + novels + comics, each adding distinct world content.
+- **Halo**  — the novel *The Fall of Reach* was released before the first game. 
 
 
 ## Related

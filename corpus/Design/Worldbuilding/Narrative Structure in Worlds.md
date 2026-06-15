@@ -10,10 +10,11 @@ publish: true
 - **Narrative braid** — multiple narrative threads that sometimes intersect
 
 ## Backstory ([[Mark Wolf|Wolf]] p.202)
-Backstory is the narrative that happened *before* the story the audience experiences. It's one of the primary tools for implying depth — but it's also a trap. See [[Lore as a Trap]].
+Backstory is the narrative that happened before the story the audience experiences. It's one of the primary tools for implying depth — but it's also a trap. See [[Lore as a Trap]].
 
 ## Worldbuilding vs. Narrative Economy
-Worldbuilding and storytelling are not the same impulse. Conventional storytelling values economy — include only what advances the story. Worldbuilding values *excess* — the detail that advances nothing may still make the world feel real. The tension between these two is productive. 
+
+Worldbuilding and storytelling have different relationships with efficiency. Conventional storytelling values economy: include only what advances the story. Experimental narrative often embraces non sequiturs, tangents, and open threads. Worldbuilding of any orientation, however, might value excess: open-ended details can make any world feel developed.
 
 ## Related
 - [[Worldbuilding - Definition and Scope]]

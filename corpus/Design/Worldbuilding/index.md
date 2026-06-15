@@ -48,7 +48,7 @@ The world presents itself as whole. The player engages entirely within what is p
 - [Tetris](https://en.wikipedia.org/wiki/Tetris) (1984) — the well and the falling shapes, a closed abstract system
 - [Aesop's Fables](https://en.wikipedia.org/wiki/Aesop%27s_Fables) — each fable a tiny self-contained world, complete in a few lines
 
-A transition from Finite to Bounded:  [[Book - Yertle the Turtle|Yertle the Turtle]] (1958) — expanding boundary
+A transition from Finite to Bounded:  [[Reading - Yertle the Turtle (Seuss)|Yertle the Turtle]] (1958) — expanding boundary
 
 ### Bounded — the world implies an outside but withholds it
 
@@ -83,13 +83,10 @@ The player can approach and pass from one state or space into another.
 - [[Game - Hades|Hades]] (2020) — each escape attempt crosses out of the Underworld toward the surface
 - [The Chronicles of Narnia](https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia) (C.S. Lewis, 1950–1956) — through the wardrobe into Narnia and back again
 
-## How Small Worlds Begin
-
-A small world can start from a story, a system, or a place — and which one comes first shapes everything after. It can also be framed by intent: as an argument (polemic), an exploration of an idea (theme), or a feeling the player should have (experience). These [[Starting Points for World Creation|starting points]] are less a sequence than a way of naming what the world is *for*.
 
 ## Meeting the World
 
-How a player first crosses into a small world is itself a designed moment. Before entry there is legibility — the player reading the boundary, sensing what kind of place this is — and the crossing itself can carry awe, dread, curiosity, or excitement, play that pays off without winning. [[Meeting the World|Meeting the world]] looks closely at these threshold moments, where the constraint of the boundary becomes the world's most expressive instrument.
+[[Meeting the World|Meeting the World]] - the game beings.  How a player first crosses into a small world is itself a designed moment.  The player reading the boundary, sensing what kind of place this is — and the entry can carry awe, dread, curiosity, or excitement. 
 
 ## Responsiveness: The Inhabited World
 
@@ -97,22 +94,36 @@ A small world feels inhabited when it responds — when it has memory, behavior,
 
 ## Teaching the World's Rules
 
-Because a small world often runs on invented rules, it has to teach them. The strongest small worlds teach through play rather than explanation — early, low-stakes encounters that let the player learn what the world is before it asks anything hard of them. [[Teaching the Rules of the World|Teaching the rules]] contrasts this with the explicit tutorial, the world pausing to explain itself.
+Because a small world often runs on invented rules, it has to teach them. The strongest games and worlds teach through play rather than explanation — early, low-stakes encounters that let the player learn what the world is before it asks anything hard of them. [[Teaching the Rules of the World|Teaching the rules]] contrasts this with the explicit tutorial, the world pausing to explain itself.
 
 ## Exposition Without Lore-Dumping
 
-A small world implies far more than it states. The temptation is to deliver the world's history in a block — a [[Lore as a Trap|lore]] dump — but the stronger move is to leave deliberate gaps, the [[Catalysts of Speculation|withholdings]] that let the player's imagination do the work the designer can't. Even an [[In-Game Codexes|in-game codex]], the most exposition-prone form, works best when it raises more questions than it answers.
+Two common narrative genres - science fiction and fantasy - are attuned for lore and backstory.  
+Any temptation to deliver the world's history in a block — a [[Lore as a Trap|lore]] dump — is trouble.  The stronger move is to leave deliberate gaps, the [[Catalysts of Speculation|withholdings]] that let the player's imagination do the work the designer can't.  When such exposition is needed, [[In-Game Codexes|in-game codexs]] represent a better approach than cut scenes, test scrolls, and the like, but even they work best when they primarily support the world and experience the player is in.
 
-## A Starting Point
-
-Like the player roles, Small Worlds is one particular way into worldbuilding — not the whole of it. It is where a project begins: small enough to finish, bounded enough to mean something.
 
 ## Go Deeper: Wolf's Vocabulary
 
-The worldbuilding theory underneath all of this is drawn largely from Mark Wolf's *Building Imaginary Worlds*. [[Mark Wolf]] is the core reference; the concept pages branch from it:
+The worldbuilding theory underneath all of this is drawn largely from [[Mark Wolf]]'s *Building Imaginary Worlds*.  
 
-- [[Completeness]] · [[Consistency and Internal Logic]] · [[Catalysts of Speculation]]
-- [[Wolf's Taxonomy of Invention]] · [[World Structure - Wolf's Eight Elements]]
-- [[Cultural Invention]] · [[Nature and Invented Physics]] · [[Narrative Structure in Worlds]] · [[Transmedia]]
+#### Consistency and Completeness
 
-Further reading: [[Reading - Piranesi (Clarke)|Piranesi]] · [[Reading - Emissary's Guide to Worlding (Cheng)|Emissary's Guide to Worlding]].
+A well-crafted world doesn't strive for realism, but [[Consistency and Internal Logic|consistency]] .  Once its rules are set, however strange, they hold, and the player learns to trust them. [[Completeness|Completeness]], in turn, is a matter of degree — what isn't there insites [[Catalysts of Speculation|speculation]], discussed above, the gap the player's imagination rushes to fill. Together these earn the world's *plausibility* — its claim on our belief.
+
+#### Inventions: The Steps Away from the Real World
+
+Every imaginary world is measured by how far it departs from the one we live in — a green sun, a talking turtle, a desert that runs on spice. [[Wolf's Taxonomy of Invention|Wolf names four kinds]] of departure, from simply renaming a real thing up to rewriting the laws of physics. Two run deep: [[Cultural Invention|culture]] — the customs, institutions, and beliefs people make, and [[Nature and Invented Physics|nature]], where changing how light, gravity, or biology works ripples out into everything else the world contains.
+
+#### The Building Blocks of a World
+
+Wolf breaks a world into [[World Structure - Wolf's Eight Elements|eight elements]]: three foundations — space, time, and the characters who inhabit it — and five that fill it in — nature, culture, language, mythology, and philosophy. A small world rarely needs all eight, but knowing which you are leaving out is part of deciding where its edges fall.
+
+#### Narrative Within a World
+
+A world is not a story, but it is usually crafted so that stories can happen.  Where conventional storytelling prizes economy, a world can afford excess: the loose threads and unfired pistols are part of what makes it feel larger than the plot passing through it.
+
+#### Worlds Across Media
+
+A world can outgrow the single work that introduced it. [[Transmedia|Transmedia]] is what happens when one world holds many stories across many forms — the film, the game set twenty years earlier, the novel that explains the villain — each adding to the world without depending on the others. It is the far edge of completeness: the world implied so fully that it spills past its original frame.
+
+Further reading:  [[Reading - Emissary's Guide to Worlding (Cheng)|Emissary's Guide to Worlding]].

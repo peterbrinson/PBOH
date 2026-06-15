@@ -8,7 +8,6 @@ Wolf (p.154–155): a world needs **three foundational structures** to exist, pl
 2. **Time** — the world's history, its present moment, its temporal logic
 3. **Characters** — inhabitants who give the world agency and perspective
 
-Without these three, you don't have a world — you have a setting.
 ## Five Content Elements (p.155)
 4. **Nature** — landscape, climate, flora, fauna, physics (see [[Nature and Invented Physics]])
 5. **Culture** — customs, technology, institutions, objects (see [[Cultural Invention]])
@@ -16,7 +15,7 @@ Without these three, you don't have a world — you have a setting.
 7. **Mythology** — belief systems, cosmology, religion, founding stories
 8. **Philosophy** — the world's underlying values; what it thinks is true
 
-These eight elements work as a checklist without being prescriptive. Your project doesn't need all eight — but knowing which ones you're leaving out is a decision.
+Your project doesn't need all eight — but knowing which ones you're leaving out is worth considering.
 
 ## Related
 - [[Worldbuilding - Definition and Scope]]

@@ -160,5 +160,5 @@ Game and film examples The GET draws on when a project reminds it of an existing
 
 ## Books & Comics
 
-- [[Book - Yertle the Turtle|Yertle the Turtle]]
+- [[Reading - Yertle the Turtle (Seuss)|Yertle the Turtle]]
 - [[Comic - Calvin and Hobbes|Calvin and Hobbes]]
