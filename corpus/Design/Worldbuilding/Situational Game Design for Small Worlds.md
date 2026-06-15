@@ -1,4 +1,7 @@
 ---
+title: "Situational Game Design for Small Worlds"
+aliases:
+  - Situational Game Design for Finite Worlds
 publish: true
 ---
 > "A situation is an interval of play that contains a choice." (p.11)
@@ -48,7 +51,7 @@ There's another assumption: games are about winning. Our moves are always direct
 
 ![[week4-dnd.webp]]
 
-> Peter: If your [[Finite Worlds|finite world]] isn't about winning, what is the player doing there? What is the experience you're making?
+> Peter: If your [[Small Worlds|small world]] isn't about winning, what is the player doing there? What is the experience you're making?
 
 ---
 
@@ -124,9 +127,9 @@ But rules aren't the only type of constraint.
 
 > [[SPR 3 - The Entrant, World as Threshold|The Entrant]] is part of a larger framework.  The Entrant confronts a threshold — a constraint that blocks passage. The player reads the space (Legibility), imagines how to proceed (Opportunity) , before executing the plan (Performance).
 
-### → Finite Worlds
+### → Small Worlds
 
-Your [[Finite Worlds|finite world]] is a constraint structure. The three boundary types — a world without an outside, a world with an uncrossable boundary, a world with a crossable boundary — these are constraint designs. How does the player encounter the limits? 
+Your [[Small Worlds|small world]] is a constraint structure. The three types — Finite, Bounded, and Threshold — these are constraint designs. How does the player encounter the limits? 
 
 Let's look at [[Film - Balance (1989)|Balance]], [[Game - Dr Langeskov|Dr Langeskov]], and  [[Film - The Matrix|The Matrix]].  Let's move backwards through them. 
 
@@ -164,10 +167,10 @@ We avoid hills in video games even when the game doesn't penalize climbing. We f
 
 If you're playing a horror game, you'll move differently than if you believe you're playing a first-person shooter. You'll be more cautious. You'll pay more attention. Part of what makes a horror game scary is our knowledge that it's supposed to be scary.
 
-> Peter:  In your finite world does the player constrain themselves? 
+> Peter:  In your small world does the player constrain themselves? 
 
 ---
 
 Source: Chapters 1–2, Situational Game Design
-See also: [[SPR 3 - The Entrant, World as Threshold|SPR 3 - The Entrant]] · [[Finite Worlds]]
+See also: [[SPR 3 - The Entrant, World as Threshold|SPR 3 - The Entrant]] · [[Small Worlds]]
 

@@ -26,6 +26,6 @@ Henry Jenkins coined the term "transmedia storytelling" (2003): "a process where
 - [[Completeness]]
 - [[Consistency and Internal Logic]]
 - [[Lore as a Trap]]
-- [[Finite Worlds]]
+- [[Small Worlds]]
 - [[Mark Wolf]]
 

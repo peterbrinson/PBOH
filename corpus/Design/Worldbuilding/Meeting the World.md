@@ -2,21 +2,21 @@
 publish: true
 ---
 
-Let us focus on brief moments within a situation, steps within "the interval of play" articulated in [[Situational Game Design for Finite Worlds]].
+Let us focus on brief moments within a situation, steps within "the interval of play" articulated in [[Situational Game Design for Small Worlds]].
 
 > "A situation is an interval of play that contains a choice." (p.11)
 
-We are interested in both the moment before and after entry.   Ponder your player's experience of [[SPR 3 - The Entrant, World as Threshold|legibility]] when it comes to your [[Finite Worlds|finite world]] boundary - the experience of playing and the emotions it affords.
+We are interested in both the moment before and after entry.   Ponder your player's experience of [[SPR 3 - The Entrant, World as Threshold|legibility]] when it comes to your [[Small Worlds|small world]] boundary - the experience of playing and the emotions it affords.
 
 What that player attention achieves is intrinsic: beauty, awe, curiosity, dread, excitement — play without winning.
 
 In particular, constraints are expressive, in this case, boundaries.
 
 Topics
-- [[Finite Worlds|Finite worlds]]
+- [[Small Worlds|Small worlds]]
 - [[SPR 3 - The Entrant, World as Threshold|Legibility]]
 - Entry/transitions
-- [[Situational Game Design for Finite Worlds|Situations]]
+- [[Situational Game Design for Small Worlds|Situations]]
 - [[Wolf's Taxonomy of Invention|Inventions]]
 - Constraints 
 

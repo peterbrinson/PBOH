@@ -28,7 +28,7 @@ History and depth can be implied through details — a texture, a sound, a sign 
 - [[Game - Firewatch|Firewatch]] — the Wyoming wilderness feels ancient and layered through environmental design
 
 ## Related
-- [[Finite Worlds]]
+- [[Small Worlds]]
 - [[Transmedia]]
 - [[Catalysts of Speculation]]
 - [[Narrative Structure in Worlds]]

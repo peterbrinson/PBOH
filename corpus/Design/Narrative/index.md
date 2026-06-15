@@ -29,6 +29,6 @@ A given game may focus on one role or transition players among all four.  In eve
 
 ### The Ambition
 
-This framework does not encompass all approaches and possibilities for worldbuilding and narrative game design.  
-It provides a coherent starting point.
+This framework does not encompass all approaches and possibilities for narrative game design.  
+It provides a particular starting point.
 

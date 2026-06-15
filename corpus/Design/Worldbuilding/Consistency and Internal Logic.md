@@ -31,7 +31,7 @@ Cartoonish gravity, speed, specific materials (bombs, meat grinders, labeled box
 >A note about narrative vs play: if this were a game, we would try the same worthwhile approaches until we succeed, or at least more than once.  Wile E. Coyote does not retry his ideas.  
 
 
-## Coupled with a Finite World
+## Coupled with a Small World
 ![[spr_investigator_08.avif]]
 La Maison en Petits by Kunio Kato
 https://www.youtube.com/watch?v=jhQ75OV4VRs
