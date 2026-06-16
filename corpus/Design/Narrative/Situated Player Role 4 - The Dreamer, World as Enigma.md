@@ -4,7 +4,7 @@ aliases:
 ---
 
 **Summarized in:** [[Situated Player Roles]]
-**Previous:** [[SPR 3 - The Entrant, World as Threshold|SPR 3: The Entrant]]
+**Previous:** [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3: The Entrant]]
 
 
 The Dreamer is a player who strives to control their environment, but unlike the Entrant — who confronts a material reality — the Dreamer confronts a symbolic one. In this role, the boundary between a character’s psychology and the level’s challenges begins to dissolve. The world expresses an internal state, and the player must interpret that expression in order to act. The Dreamer asks, **“What does this world express?”**
@@ -13,7 +13,7 @@ The Dreamer is a player who strives to control their environment, but unlike the
 
 We can see the moment where The Entrant becomes The Dreamer in Chapters 1 and 2 of _Alice’s Adventures in Wonderland_. Alice is trapped in a hallway behind a locked door only ten inches high. The situation presents itself as a riddle: a potion shrinks her body, and a cake makes her grow. The key is accessible when she is large; the door is passable when she is small.
 
-The Entrant’s [[SPR 3 - The Entrant, World as Threshold#The Entrant’s Loop: L.O.P.|L.O.P.]] loop applies — but its terms have shifted:
+The Entrant’s [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant’s Loop: L.O.P.|L.O.P.]] loop applies — but its terms have shifted:
 
 1. **The Entrant Approach (Rationality):** Alice tries the key in the locks. It fits the small door, but she cannot pass through. She attempts to solve the situation through grounded logic — aligning keys and doors.
 2. **The Dreamer Approach (Surrealism):** She returns to the table and finds a bottle labeled “DRINK ME.” To succeed, she must accept the dream logic of the world — adjusting her body and perspective to match its symbolic rules.
@@ -35,7 +35,7 @@ _The Burning Giraffe_ (1937) by Salvador Dali
 The Dreamer engages logic — but it is *dream logic*. We see this codified in the film *[[Film - Inception|Inception]]*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, physics bends around the architect's will. These are not the rules of waking life.
 
 ![[spr_dreamer_05.webp]]
-In a Dreamer game, the first state of [[SPR 3 - The Entrant, World as Threshold#The Entrant's Loop: L.O.P.|L.O.P.]] — legibility — becomes central to the experience. The rules and relationships of the world are not immediately intuitive, and the player must accept them on their own terms and learn to reason within them.
+In a Dreamer game, the first state of [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant's Loop: L.O.P.|L.O.P.]] — legibility — becomes central to the experience. The rules and relationships of the world are not immediately intuitive, and the player must accept them on their own terms and learn to reason within them.
 
 ![[spr_dreamer_08.jpg]]
 
@@ -78,4 +78,3 @@ The four roles form a progression of discovery, control, and interpretation:
 - The **Dreamer** interprets: *What does this world mean?*
 
 The Dreamer is the most demanding role because the player must operate on two registers simultaneously — solving the mechanical problem and reading its significance. In particular for The Dreamer, mechanics are language. The player's strategy and execution perform the story as metaphor.
-

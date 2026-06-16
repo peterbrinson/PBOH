@@ -552,3 +552,25 @@ This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**)
 **Token effect:** single-role session saves ~3,500–4,300 tokens of barely-consulted role pages; hybrid saves ~2,500–3,300. No feature rows, tone rules, or response shapes changed.
 
 **Status — pending validation.** Density reduction is an *unproven* adherence lever for us (our proven one is lookup-conversion). Per the audit's method caveat, A/B this against the eval rubric's worked examples (confirm role identification and cross-role naming don't degrade when the non-relevant pages aren't pre-loaded) before treating it as settled. **Source:** instructor-directed CE Review, 2026-06-14.
+
+### 2026-06-15 — Worldbuilding branch: Small Worlds wired into the skill (Branch D)
+
+**Source:** instructor-directed — the `Design/Worldbuilding/` corpus was reworked into a descriptive **Small Worlds** hub (`index.md`), conformed partway to the SPR shape but with two structural differences: one frame (not four roles), and a different axis (the hub's own line: "where the player roles turn on what the player *does*, Small Worlds turns on how the world *defines its edges*"). The tutor consulted it not at all. Goal: make a worldbuilding branch real so a worldbuilding student gets engaged the way SPR students do — the eventual opening question being "Investigator / Traveler / Dreamer / Hybrid — or a worldbuilding project?"
+
+**Design decisions (instructor):**
+- **Axis model — WB leads, role still named.** The opening question offers worldbuilding as a path, but the branch still identifies the player role underneath (the build routes through role→tutorial clusters; every world has a player verb). Reconciles the either/or opening question with the hub's two-axis "companion" framing.
+- **Scope — structure + short shaping pass.** Name the world's structure, then a focused conversation from three hub pages (Meeting the World, World Responsiveness, Teaching the Rules of the World). Wolf's full theory vocabulary deferred.
+- **Name the structure — yes, but deduce it; don't offer a menu.** Mirror Step 2's "don't name the role too early": listen to the world, deduce Finite / Bounded / Threshold, name it back as design clarity. The three structures are design insight, *not* a tutorial-routing key (unlike roles, they don't map to tutorial clusters).
+- **SPR-familiarity gate (instructor follow-up, same day).** Branch D opens by asking whether the student has studied the Situated Player Roles. If **yes**, run the role-aware route (name the role, anchor the build on its tutorial cluster). If **no**, run the whole branch without the SPR frame — no role naming, no SPR pages, no verbs table; plan from the world and its features, build anchored on the world's experience/responsiveness. Serves contexts where Small Worlds is taught without the roles (e.g. a short external workshop). Structure-naming and the shaping pass are shared by both routes (neither needs the SPRs).
+
+**Changes:**
+1. **Required reading** — conditional line: load the Small Worlds overview only on the worldbuilding path (mirrors the on-demand full-role-page load).
+2. **Step 1** — opening question + "paths from here" extended with the worldbuilding path; not a row in the A1/A2/A3 role-sequence table.
+3. **Step 2** — parallel restraint sentence: don't lead with the Finite/Bounded/Threshold taxonomy.
+4. **Step 3 — new Branch D:** opens with a gate question — *has the student studied the Situated Player Roles?* — that forks the branch. Shared on both routes: (1) deduce + name the structure (3-row reference table), (2) short shaping pass over the three hub pages (World Responsiveness flagged as the bridge to the build, triggers/events → Tutorial 4). Then (3) the fork: **studied SPRs** → identify the role as in Branch C and anchor the build on its tutorial cluster; **hasn't** → no SPR frame at all (no role naming, no SPR pages, no verbs table), plan from the world and its features, build anchored on the world's experience/responsiveness. Steps 4–7 reused either way (the capability map works as a plain feature→tutorial lookup without its role columns).
+5. **Step 7** — brief "the world you're building" beat (structure + entry + how it teaches its rules), woven into the design sections.
+6. **Pointers** — Small Worlds entry added.
+
+Also: new `corpus/Design/Worldbuilding/CLAUDE.md` folder pointer (mirrors `Narrative/CLAUDE.md`); `how-the-tutor-works.md` Session-start notes worldbuilding projects route to the same skill.
+
+**Status — pending validation.** Not yet dry-run. Validate per the plan: a fresh GET session (Claude reference runtime), present a worldbuilding idea (the Geidai "normal gallery, then make it strange" Small World is the natural test), confirm the branch fires and reaches a build order with SPR-parity engagement; that transcript seeds the deferred WB worked example. Deferred: WB worked example in `agent/examples/`; full Wolf vocabulary in the shaping pass; student-facing name ("worldbuilding project" vs. "Small Worlds project"). Plan file: `C:\Users\brins\.claude\plans\recently-done-a-lot-synchronous-orbit.md`.

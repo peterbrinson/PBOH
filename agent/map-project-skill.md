@@ -20,6 +20,7 @@ Also: any time the student is describing an idea and you're tempted to start pre
 
 - [[Situated Player Roles]] **overview** (`corpus/Design/Narrative/index.md`) — the four role essences and the discovery-vs-control axis. **Always load this.** It's small and carries enough of all four roles both to identify the role in play and to *name* a cross-role feature in passing.
 - **The full SPR page only for the role(s) the project actually uses** — load it once Step 3 identifies the role (for a named-role assignment, you know it from Step 1). A single-role project pulls one page; a hybrid pulls two. **Don't pre-load all four** — the non-relevant roles' full pages go unconsulted at runtime, and the overview already covers naming them. The full page sharpens role identification and supplies the role's deeper logic when you're working inside it (the Entrant's L.O.P. loop, the Traveler's maze types, the Dreamer's mechanics-as-metaphor). If a role's page references another role's framework you need (e.g. a Dreamer project leaning on the Entrant's L.O.P.), pull that page on demand too.
+- **Small Worlds overview** (`corpus/Design/Worldbuilding/index.md`) — load **only when the project is a worldbuilding project** (Step 1's worldbuilding path → Step 3 Branch D). The world-edge companion to the SPR overview: the three world structures (Finite / Bounded / Threshold) and the question that sorts them. Don't load it for role-only projects.
 - [[ue-capability-map]] — the feature → tutorial → SPR map, including the tone guidance in its header
 - `agent/how-the-tutor-works.md` — Blueprint-only constraint, gap-log flow, vocabulary
 - The `## Example deviations you are ready for` sections of any tutorial you're about to recommend — these expand what's "covered" beyond exact capability-map matches
@@ -56,14 +57,15 @@ Before anything else, find out whether this is for a course project or an open p
 
 Ask the student plainly — using role/project names, **never numbers**:
 
-- "Is this for the **Investigator** project, the **Traveler** project, the **Dreamer**, a hybrid — or something you're exploring on your own?"
+- "Is this for the **Investigator** project, the **Traveler** project, the **Dreamer**, a hybrid, a **worldbuilding project** — or something you're exploring on your own?"
 
 
-**Three paths from here:**
+**Four paths from here:**
 
 - **Single-role assignment (Assignment 1 or 2 or 3)** → that role is the **primary lens.** Step 3 doesn't *identify* a role — it confirms and connects the student's idea to the assigned one. Cross-role features get *referenced* (named with the role/assignment/tutorials where they primarily live) — **never** deferred with "save for later" language. Scope is the student's call.
 - **Hybrid assignment → **Multiple roles are integrated.** Don't pick one. Step 3 describes how the idea uses the roles' verbs. 
 - **Open project (no assigned role)** → no role is privileged; proceed through Step 3 to identify the role(s) the idea most fits.
+- **Worldbuilding project** → the project leads with the **world's design**, not a single player verb. Take **Branch D** in Step 3, which opens with one follow-up question — *"Have you studied the Situated Player Roles in class yet?"* — that forks the rest: if **yes**, the role framework informs the build (deduce the world's structure, shape it, name the role, route to tutorials); if **no**, proceed without the SPR frame at all (structure + shaping + a world-anchored build). (Not one of the role-sequence assignments in the table above — a separate path.)
 
 **Time-aware role vocabulary.** If the student is on Assignment 1 (Investigator), they likely only know the Investigator role from class. When you need to cite other roles ("that part is in the Traveler role"), treat the name as *orientation toward something coming in a few weeks* — one short sentence, no lecture. By Assignment 3, all four roles have been introduced — cite freely; don't lecture.
 
@@ -76,6 +78,8 @@ Students arrive with an experience or story, not a feature list. Resist jumping 
 - "Are they piecing together what happened, moving through a world, figuring out how it works, or somewhere that mechanics are also metaphors?"
 
 The third question is shaped by the player-role framework on purpose — but in this listening phase, don't lead with the role names. Let the student describe their experience in their own words first. Naming the role *too early* preempts their articulation. (Role names are fine to use later — see Step 3 — just not before they've talked.)
+
+**Same restraint for a worldbuilding project.** Don't lead with the Finite / Bounded / Threshold taxonomy either. Let the student describe the world — its space, its edges, what's inside — in their own words; in Step 3 (Branch D) you'll deduce and name the structure back to them, the same way you name a role.
 
 **Internal shorthand vs. student-facing vocabulary:** "SPR" and "SPR 1-4" are internal shorthand — never say them to students. The role *names* (Investigator, Traveler, Entrant, Dreamer) are vocabulary the student has learned in class; use them freely once Step 3 begins.
 
@@ -108,6 +112,32 @@ The third question is shaped by the player-role framework on purpose — but in 
 | Dreamer | What does this world express? | Solve + interpret symbolic/dream logic |
 
 Name back the role(s) by name and tie to their description. Link to SPR pages where useful. 
+
+**Branch D — Worldbuilding project.** The project leads with the world's design. Open with one orienting question, then shape the world, then — only if the role framework is in play — name the role.
+
+**Gate — has the student studied the Situated Player Roles?** Right after they confirm a worldbuilding project (Step 1), ask once: *"Have you studied the Situated Player Roles in class yet?"* The answer sets the mode for the rest of the conversation (worth asking early so Step 2's listening also stays free of role framing for these students):
+- **Yes** → the role framework is available. Do sub-steps 1–3 below in full; Steps 4–7 anchor the build on the role's tutorial clusters.
+- **No** → don't introduce the SPR frame at all. Do sub-steps 1–2, skip sub-step 3, and plan from the world and its features directly (see sub-step 3's "If they haven't"). Never name Investigator / Traveler / Entrant / Dreamer, cite an SPR page, or use the role/verbs table — that's unfamiliar vocabulary here. This serves contexts where Small Worlds is taught without the roles (a short workshop, or a course that hasn't reached them yet).
+
+**1. Deduce and name the world's structure.** From the experience the student described in Step 2, work out which of the three Small Worlds structures their idea fits, and name it back as design clarity — never as a menu to pick from. The sorting question (from the Small Worlds overview): **does the world imply an outside at all?**
+
+| Structure | The world's edge | Examples |
+|---|---|---|
+| **Finite** | No outside; the world is the totality | *Balance*, *Monument Valley*, *Inscryption* Act 1 |
+| **Bounded** | An outside is implied but withheld; the edge is felt, not passed | *Snowpiercer*, *P.T.*, escape rooms |
+| **Threshold** | The edge becomes a passage the player crosses | *Portal*, *Spirited Away*, *The Matrix* |
+
+Name it as an observation — "what you're describing is a bounded world: the player feels the wall but never gets out, and that limit is the point" — then have the conversation from there. If the idea genuinely sits between two, say so; the structures are a lens, not a box. **The structure is design insight, not a tutorial-routing key** — unlike the four roles, the three structures don't map to tutorial clusters. Routing to tutorials happens through the features themselves (the capability map); on the role-aware route, the role named in sub-step 3 also anchors the build cluster.
+
+**2. A short world-shaping pass.** Draw on three pages from the Worldbuilding corpus as the conversation calls for them — not a checklist to recite:
+
+- **Meeting the World** (`corpus/Design/Worldbuilding/Meeting the World.md`) — how the player first crosses into the world. The entry is a designed moment that tells the player what kind of place this is (awe, dread, curiosity). Ask what the player's first moments are.
+- **World Responsiveness** (`corpus/Design/Worldbuilding/World Responsiveness.md`) — how the world reacts to the player's presence (a plate opens a door, a light answers an arrival, the world remembers what was done). **This is the bridge to the build:** responsiveness is made of triggers and events, which is exactly what the tutorials teach — what the student wants the world to *do* in response becomes the feature list in Step 4.
+- **Teaching the Rules of the World** (`corpus/Design/Worldbuilding/Teaching the Rules of the World.md`) — a small world runs on invented rules, so it has to teach them; the strongest worlds teach through early, low-stakes play rather than explanation. Ask how the player learns what this world's rules are.
+
+**3. Identify the player role(s) — only on the "studied SPRs" route.**
+- **If they've studied the SPRs:** proceed exactly as Branch C (open project) — use the central-questions / verbs table to name which role(s) the world's play most fits. Every world still has a player doing something, and Steps 4–7 route the build through the role's tutorial clusters. World-structure and role are companion axes — name both.
+- **If they haven't:** skip role identification entirely. Plan from the world itself — its structure, its entry, its responsiveness, its rules — and the concrete features those imply. Steps 4–7 still run: decompose the world's features (Step 4), map them with the capability map as a plain feature→tutorial lookup (Step 5, ignoring its role-fit columns), and anchor the build order (Step 6) on the world's core experience and its responsiveness rather than a role's tutorial cluster. The summary (Step 7) leads with the world you're building, with no role section.
 
 **Mechanics note (both branches):** Entrant and Dreamer are mechanically identical — same tutorials build both. Differentiation is in meaning and metaphor. A project that uses Entrant mechanics with symbolic intent *is* a Dreamer project.
 
@@ -251,6 +281,8 @@ Examples of the shape:
 
 This is calibration, not gatekeeping — never "your idea is too ambitious." Scope is the student's call; the line only makes the shape of the work visible so they can plan with it. Healthy shape → brief and encouraging. Heavy off-map → honest and immediately constructive.
 
+**Worldbuilding projects — add a brief "the world you're building" beat.** When the project came through Branch D, the design discussion that opens the response names the world's structure (Finite / Bounded / Threshold) and carries the shaping work — the entry moment (how the player meets the world) and how the world teaches its rules. Keep it short: a paragraph woven into the design sections, not a new heading stack. The structure is design insight, not a build instruction; the build order still comes from the role and its tutorials, exactly as for a role project.
+
 **One response — when the idea fits the assigned role cleanly** (or there's no role constraint and you've simply identified the fit). *Skeleton: see `agent/map-project-skill-templates.md` § One-response format.*
 
 The design and meaning sections come first; the build order and the "Off-Map" section land last, so the response ends on concrete next steps. The "excited about" line is intentional — a specific thing you're excited about, placed as the pivot from the design discussion into the practical build. The two follow-up questions, last of all, extend that momentum into the next turn.
@@ -301,6 +333,7 @@ Offer to save the summary (whether one response or two) to `student-notes-privat
 ## Pointers (do not duplicate)
 
 - [[Situated Player Roles]] — central questions, verbs, the discovery/control axis
+- [[Worldbuilding]] (Small Worlds) — the world-edge companion to the SPRs: the three structures (Finite / Bounded / Threshold); loaded at Step 3 Branch D for worldbuilding projects
 - [[ue-capability-map]] — feature → tutorial → role, with tone guidance in its header
 - [[ue-feature-catalog]] — common world/rendering features → Covered/Partial/Off-map; scanned at Step 4 for the noticing pass
 - `agent/examples/` — role-matched worked examples (few-shot manner demos), loaded at Step 7: `investigator-aquarium`, `traveler-coatcheck`, `dreamer-statue-spiral` (+Entrant), `hybrid-windshield-splats`, `weak-idea-alien-ship` (thin-idea draw-out)

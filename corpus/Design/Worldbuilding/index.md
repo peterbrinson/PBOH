@@ -13,7 +13,7 @@ Every game design course faces the same challenge: our initial ideas are too lar
 
 ## What It Is
 
-Small Worlds is a game design framework that foregrounds the world as a bounded space. It is the worldbuilding companion to the [[Situated Player Roles]]: where the player roles turn on what the player does, Small Worlds turns on how the world ends. 
+Small Worlds is a game design framework that foregrounds the world as a bounded space. It is the worldbuilding companion to the [[Situated Player Roles]]: where the player roles turn on what the player does, Small Worlds turns on how the world defines its edges. 
 
 Because the world has overt limits, the designer can focus on making it consistent, inhabited, and intelligible. Small Worlds frames (Brian Upton's) [[Situational Game Design for Small Worlds|situations]] as the essential components of worldbuilding: as the player chooses a path through them, exploration expresses their choices within constraint.
 

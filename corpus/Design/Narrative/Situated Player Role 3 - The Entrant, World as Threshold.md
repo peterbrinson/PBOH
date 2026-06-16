@@ -4,7 +4,7 @@ aliases:
 ---
 
 **Summarized in:** [[Situated Player Roles]]
-**Previous:** [[SPR 2 - The Traveler, World as Passage|SPR 2: The Traveler]] | **Next:** [[SPR 4 - The Dreamer, World as Enigma|SPR 4: The Dreamer]]
+**Previous:** [[Situated Player Role 2 - The Traveler, World as Passage|Situated Player Role 2: The Traveler]] | **Next:** [[Situated Player Role 4 - The Dreamer, World as Enigma|Situated Player Role 4: The Dreamer]]
 
 ![[spr_entrant_01.jpg]]
 
@@ -65,5 +65,4 @@ The Investigator learns how the world works. The Traveler learns how to reach th
 In this way, the threshold itself becomes where the story finds its meaning — not simply something to pass, but something that defines the player’s relationship to the world.
 
 
-**Next:** [[SPR 4 - The Dreamer, World as Enigma|SPR 4: The Dreamer]]
-
+**Next:** [[Situated Player Role 4 - The Dreamer, World as Enigma|Situated Player Role 4: The Dreamer]]

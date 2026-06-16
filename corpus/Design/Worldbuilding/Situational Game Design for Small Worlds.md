@@ -129,7 +129,7 @@ But rules aren't the only type of constraint.
 
 ### → The Entrant: A Response to Situational Game Design
 
-> [[SPR 3 - The Entrant, World as Threshold|The Entrant]] is part of a larger framework.  The Entrant confronts a threshold — a constraint that blocks passage. The player reads the space (Legibility), imagines how to proceed (Opportunity) , before executing the plan (Performance).
+> [[Situated Player Role 3 - The Entrant, World as Threshold|The Entrant]] is part of a larger framework.  The Entrant confronts a threshold — a constraint that blocks passage. The player reads the space (Legibility), imagines how to proceed (Opportunity) , before executing the plan (Performance).
 
 ### → Small Worlds
 
@@ -176,5 +176,4 @@ If you're playing a horror game, you'll move differently than if you believe you
 ---
 
 Source: Chapters 1–2, Situational Game Design
-See also: [[SPR 3 - The Entrant, World as Threshold|SPR 3 - The Entrant]] · [[Small Worlds]]
-
+See also: [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3 - The Entrant]] · [[Small Worlds]]

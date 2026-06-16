@@ -4,7 +4,7 @@ aliases:
 ---
 
 **Summarized in:** [[Situated Player Roles]]
-**Previous:** [[SPR 1 - The Investigator, World as Evidence|SPR 1: The Investigator]] | **Next:** [[SPR 3 - The Entrant, World as Threshold|SPR 3: The Entrant]]
+**Previous:** [[Situated Player Role 1 - The Investigator, World as Evidence|Situated Player Role 1: The Investigator]] | **Next:** [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3: The Entrant]]
 
 ![[spr_traveler_01.png]]
 The Traveler explores a world in the present tense.  Like The Investigator, the Traveler is oriented toward discovery.   But unlike the Investigator - who arrives after events have transpired - The Traveler witnesses the story's events as they happen. 
@@ -67,7 +67,7 @@ A particularly pure interactive example appears at the opening of Giant Sparrow'
 ## The Traveler Among the Other Roles
 
 ![[spr_traveler_10.jpg]]
-When a game is structured largely around the Traveler role, it takes on this experimental character. More commonly, however, the Traveler appears within large-scale commercial games — particularly open world games, which routinely integrate three or four of the Situated Player Roles. The Traveler typically occupies the spaces between roles defined by higher degrees of control (see [[SPR 3 - The Entrant, World as Threshold|SPR 3: The Entrant]] and [[SPR 4 - The Dreamer, World as Enigma|SPR 4: The Dreamer]]). Traversing regions, moving between towns, or crossing large-scale spaces provides rhythm and interpretive breathing room.
+When a game is structured largely around the Traveler role, it takes on this experimental character. More commonly, however, the Traveler appears within large-scale commercial games — particularly open world games, which routinely integrate three or four of the Situated Player Roles. The Traveler typically occupies the spaces between roles defined by higher degrees of control (see [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3: The Entrant]] and [[Situated Player Role 4 - The Dreamer, World as Enigma|Situated Player Role 4: The Dreamer]]). Traversing regions, moving between towns, or crossing large-scale spaces provides rhythm and interpretive breathing room.
 
 ## For Our Needs, Terminology: Maze and Labyrinth
 
@@ -88,5 +88,4 @@ Umberto Eco describes mazes in terms of branches and choices, organized into thr
 If the Investigator treats narrative as evidence to be reconstructed, the Traveler treats narrative as something encountered — moment by moment — shaped by what is witnessed along the way.
 
 
-**Next:** [[SPR 3 - The Entrant, World as Threshold|SPR 3: The Entrant]]
-
+**Next:** [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3: The Entrant]]
