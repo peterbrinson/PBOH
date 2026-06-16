@@ -13,7 +13,7 @@ This folder is your AI tutor for Unreal Engine. You set it up with the 1000-seri
 | `_welcome/` | You're reading from here. Two files: this one (`about-the-get.md`) and `contributing-to-the-get.md` (how to send your work back to the instructor). |
 | `agent/` | The AI's operating files — `how-the-tutor-works.md`, the `map-project-skill.md` skill, the `ue-capability-map.md` lookup. The AI reads these; you usually don't need to. |
 | `corpus/` | The course corpus — two pillars (**Design**, **Development**), the substance the AI teaches from and the published class site: |
-| &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Design/Narrative/` | Four player roles — **Investigator, Traveler, Entrant, Dreamer** — that frame design decisions. |
+| &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Design/Storytelling/` | Four player roles — **Investigator, Traveler, Entrant, Dreamer** — that frame design decisions. |
 | &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Design/_References/` | Game and film examples (Gone Home, Outer Wilds, Twin Peaks, etc.) the AI may cite. |
 | &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Development/Tutorials - LLM/` | The 1000-series setup tutorials for the GET. |
 | &nbsp;&nbsp;&nbsp;&nbsp;`corpus/Development/Tutorials - Unreal/` | Numbered step-by-step Unreal tutorials (1, 2, 3, 4, 201, 202, 301, 302, 401, 701, 702, 801, 821, 901). |

@@ -4,7 +4,7 @@ publish: false
 
 # CLAUDE.md — Situated Player Roles
 
-Four roles that define the design lens for each course assignment. This folder is `Design/Narrative/` (renamed from `Situated Player Roles` 2026-06-08). The published overview is `index.md` — read it for the framework's intent and the discovery-vs-control axis.
+Four roles that define the design lens for each course assignment. This folder is `Design/Storytelling/` (renamed from `Situated Player Roles` 2026-06-08, then from `Narrative` 2026-06-15). The published overview is `index.md` — read it for the framework's intent and the discovery-vs-control axis.
 
 ## The four roles
 
