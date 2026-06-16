@@ -1,5 +1,5 @@
 ---
-title: "Worldbuilding"
+title: "Small Worlds: The Playable and the Imagined"
 aliases:
   - Worldbuilding
   - Small Worlds
