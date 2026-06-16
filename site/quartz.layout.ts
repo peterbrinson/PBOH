@@ -41,10 +41,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       title: "",
       mapFn: (node) => {
-        // Sidebar shows this folder as "Narrative" while its page keeps
-        // the title "Situated Player Roles".
-        if (node.slugSegment === "Narrative" || node.displayName === "Situated Player Roles") {
-          node.displayName = "Narrative"
+        // Sidebar shows the plain folder name; each folder's index page keeps
+        // its own longer title (e.g. "Situated Player Roles", "Small Worlds: ...").
+        if (node.slugSegment === "Storytelling") {
+          node.displayName = "Storytelling"
+        }
+        if (node.slugSegment === "Worldbuilding") {
+          node.displayName = "Worldbuilding"
         }
       },
     }),
@@ -74,10 +77,13 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({
       title: "",
       mapFn: (node) => {
-        // Sidebar shows this folder as "Narrative" while its page keeps
-        // the title "Situated Player Roles".
-        if (node.slugSegment === "Narrative" || node.displayName === "Situated Player Roles") {
-          node.displayName = "Narrative"
+        // Sidebar shows the plain folder name; each folder's index page keeps
+        // its own longer title (e.g. "Situated Player Roles", "Small Worlds: ...").
+        if (node.slugSegment === "Storytelling") {
+          node.displayName = "Storytelling"
+        }
+        if (node.slugSegment === "Worldbuilding") {
+          node.displayName = "Worldbuilding"
         }
       },
     }),
