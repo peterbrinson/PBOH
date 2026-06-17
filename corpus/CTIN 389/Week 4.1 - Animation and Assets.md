@@ -42,7 +42,7 @@ A few games worth looking at through this lens: *Manifold Garden* (and its GDC t
 
 ## Vehicle Physics — a war story
 
-![[week4.1-life-underground.gif]]
+![[week4.1-life-underground.png]]
 *Life Underground (USC Game Innovation Lab, 2016).*
 
 *Life Underground* was developed in the USC Game Innovation Lab in 2016, in collaboration with scientists studying extremophile microorganisms. It's basically a dark ride through a mine with science minigames. At first the vehicle used a physics-based controller — but that couldn't run reliably on the low-cost hardware in grade schools.

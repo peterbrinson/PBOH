@@ -59,8 +59,31 @@ Then I came to USC. In the twelve years since, alongside primarily using Unity (
 
 Along the way: *Walden, a game* (2010, originally in the licensed Gamebryo Lightspeed engine, later rewritten in Unity); my MFA thesis *Grayline* (2011, a co-op detective game for iPad in Flash — which stopped being buildable when Apple changed iOS provisioning); *FutureBound* (2013, Unity, about navigating middle school); and a run of experimental collaborations with Martzi Campos and Jesse Vigil.
 
-![[week10.1-klaxo-radio-hour.gif]]
-*The Klaxo Radio Hour (2018) — an interactive audio drama built into a physical radio (Unity on a stick PC talking to an Arduino), one of the collaborations with Martzi and Jesse.*
+A career's worth of tools, in pictures:
+
+![[week10.1-darkcon.png]]
+*DarkCon (2005) — VR memory research at ICT; a custom C++/OpenGL engine on networked SGI machines, with a "scent collar." DOD-funded for five years.*
+
+![[week10.1-spectre.png]]
+*Spectre (2009) — a 2D narrative platformer in Flash/AS3, on a framework by freshman Asher Vollmer (later of Threes). IndieCade Honorable Mention; IGF Student Showcase Winner.*
+
+![[week10.1-walden.png]]
+*Walden, a game (2010) — built in the licensed Gamebryo Lightspeed engine, later rewritten in Unity.*
+
+![[week10.1-grayline.png]]
+*Grayline (2011) — my MFA thesis, a co-op detective game for iPad in Flash.*
+
+![[week10.1-futurebound.png]]
+*FutureBound (2013) — Unity, about navigating middle school and building college-going ambitions.*
+
+![[week10.1-from-ivan.png]]
+*From Ivan (2018) — an absurd visual novel built almost entirely in Unity's UGUI, with Martzi Campos.*
+
+![[week10.1-klaxo-radio-hour.png]]
+*The Klaxo Radio Hour (2018) — an interactive audio drama built into a physical radio: Unity on a stick PC talking to an Arduino.*
+
+![[week10.1-arbox.png]]
+*ARBox (2019) — AR escape rooms; Unity clients plus a custom PHP/MySQL server driving IoT devices. Featured by Google at GDC 2018.*
 
 
 
