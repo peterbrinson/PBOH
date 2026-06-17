@@ -70,6 +70,20 @@ A head-to-head comparison exercise. For each prompt, weigh the two games on the 
 
 Work through these games, each paired with an analytical lens. Rotate the lenses across the list — formal/dramatic/dynamic elements, the narrative/mechanical/metaphorical arcs, agency, and the emotions evoked.
 
+A few of the games on the table:
+
+![[week12.2-before-your-eyes.png]]
+*Before Your Eyes (2020).*
+
+![[week12.2-gorogoa.jpg]]
+*Gorogoa (2017).*
+
+![[week12.2-papers-please.jpg]]
+*Papers, Please (2014).*
+
+![[week12.2-gone-home.jpg]]
+*Gone Home (2013).*
+
 - **La Madriguera** (2021) — *What are the formal elements? The rules, procedures, objectives, conflicts?*
 - **Thirty Flights of Loving** (2012) — *What are the dramatic elements? Premise, characters, visual style?*
 - **Before Your Eyes** (2020) — *What are the dynamic elements? How do affordances and constraints create an experience through play?*

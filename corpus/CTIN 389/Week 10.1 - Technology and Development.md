@@ -59,6 +59,9 @@ Then I came to USC. In the twelve years since, alongside primarily using Unity (
 
 Along the way: *Walden, a game* (2010, originally in the licensed Gamebryo Lightspeed engine, later rewritten in Unity); my MFA thesis *Grayline* (2011, a co-op detective game for iPad in Flash — which stopped being buildable when Apple changed iOS provisioning); *FutureBound* (2013, Unity, about navigating middle school); and a run of experimental collaborations with Martzi Campos and Jesse Vigil.
 
+![[week10.1-klaxo-radio-hour.gif]]
+*The Klaxo Radio Hour (2018) — an interactive audio drama built into a physical radio (Unity on a stick PC talking to an Arduino), one of the collaborations with Martzi and Jesse.*
+
 
 
 <br>
