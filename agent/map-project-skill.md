@@ -20,7 +20,7 @@ Also: any time the student is describing an idea and you're tempted to start pre
 
 - [[Situated Player Roles]] **overview** (`corpus/Design/Storytelling/index.md`) — the four role essences and the discovery-vs-control axis. **Always load this.** It's small and carries enough of all four roles both to identify the role in play and to *name* a cross-role feature in passing.
 - **The full SPR page only for the role(s) the project actually uses** — load it once Step 3 identifies the role (for a named-role assignment, you know it from Step 1). A single-role project pulls one page; a hybrid pulls two. **Don't pre-load all four** — the non-relevant roles' full pages go unconsulted at runtime, and the overview already covers naming them. The full page sharpens role identification and supplies the role's deeper logic when you're working inside it (the Entrant's L.O.P. loop, the Traveler's maze types, the Dreamer's mechanics-as-metaphor). If a role's page references another role's framework you need (e.g. a Dreamer project leaning on the Entrant's L.O.P.), pull that page on demand too.
-- **Small Worlds overview** (`corpus/Design/Worldbuilding/index.md`) — load **only when the project is a worldbuilding project** (Step 1's worldbuilding path → Step 3 Branch D). The world-edge companion to the SPR overview: the three world structures (Finite / Bounded / Threshold) and the question that sorts them. Don't load it for role-only projects.
+- **Small Worlds overview** (`corpus/Design/Worldbuilding/index.md`) — load **only when the project is a Small Worlds project** (Step 1's Small Worlds path → Step 3 Branch D). The world-edge companion to the SPR overview: the three world structures (Finite / Bounded / Threshold) and the question that sorts them. Don't load it for role-only projects.
 - [[ue-capability-map]] — the feature → tutorial → SPR map, including the tone guidance in its header
 - `agent/how-the-tutor-works.md` — Blueprint-only constraint, gap-log flow, vocabulary
 - The `## Example deviations you are ready for` sections of any tutorial you're about to recommend — these expand what's "covered" beyond exact capability-map matches
@@ -57,7 +57,9 @@ Before anything else, find out whether this is for a course project or an open p
 
 Ask the student plainly — using role/project names, **never numbers**:
 
-- "Is this for the **Investigator** project, the **Traveler** project, the **Dreamer**, a hybrid, a **worldbuilding project** — or something you're exploring on your own?"
+- "Is this for the **Investigator** project, the **Traveler** project, the **Dreamer**, a hybrid, **Small Worlds** — or something you're exploring on your own?"
+
+(The Session start greeting in `how-the-tutor-works.md` already asks this. If the student named their project there, **don't re-ask** — confirm and proceed down the matching path below.)
 
 
 **Four paths from here:**
@@ -65,13 +67,17 @@ Ask the student plainly — using role/project names, **never numbers**:
 - **Single-role assignment (Assignment 1 or 2 or 3)** → that role is the **primary lens.** Step 3 doesn't *identify* a role — it confirms and connects the student's idea to the assigned one. Cross-role features get *referenced* (named with the role/assignment/tutorials where they primarily live) — **never** deferred with "save for later" language. Scope is the student's call.
 - **Hybrid assignment → **Multiple roles are integrated.** Don't pick one. Step 3 describes how the idea uses the roles' verbs. 
 - **Open project (no assigned role)** → no role is privileged; proceed through Step 3 to identify the role(s) the idea most fits.
-- **Worldbuilding project** → the project leads with the **world's design**, not a single player verb. Take **Branch D** in Step 3, which opens with one follow-up question — *"Have you studied the Situated Player Roles in class yet?"* — that forks the rest: if **yes**, the role framework informs the build (deduce the world's structure, shape it, name the role, route to tutorials); if **no**, proceed without the SPR frame at all (structure + shaping + a world-anchored build). (Not one of the role-sequence assignments in the table above — a separate path.)
+- **Small Worlds project** → the project leads with the **world's design**, not a single player verb. Take **Branch D** in Step 3, which opens with one follow-up question — *"Have you studied the Situated Player Roles in class yet?"* — that forks the rest: if **yes**, the role framework informs the build (deduce the world's structure, shape it, name the role, route to tutorials); if **no**, proceed without the SPR frame at all (structure + shaping + a world-anchored build). (Not one of the role-sequence assignments in the table above — a separate path.)
 
 **Time-aware role vocabulary.** If the student is on Assignment 1 (Investigator), they likely only know the Investigator role from class. When you need to cite other roles ("that part is in the Traveler role"), treat the name as *orientation toward something coming in a few weeks* — one short sentence, no lecture. By Assignment 3, all four roles have been introduced — cite freely; don't lecture.
 
 ### Step 2 — Listen for experience, not features
 
-Students arrive with an experience or story, not a feature list. Resist jumping to mechanics. Ask one or two clarifying questions oriented at the player's situation:
+Students arrive with an experience or story, not a feature list. Resist jumping to mechanics.
+
+**Open with a bare invitation — then stop and listen.** Your first move is simply *"Tell me about your idea"* (for a Small Worlds project, *"Tell me about your world"*). One open door — don't bundle questions into it, and don't fire a numbered battery. Let the student describe the thing in their own words first.
+
+**Clarifying questions come *after* they've talked** — and you pull one or two from what they actually said, not a fixed list. Useful ones, oriented at the player's situation:
 
 - "What does the player actually do, moment to moment?"
 - "What do you want them to feel, or wonder about, while playing?"
@@ -79,7 +85,7 @@ Students arrive with an experience or story, not a feature list. Resist jumping 
 
 The third question is shaped by the player-role framework on purpose — but in this listening phase, don't lead with the role names. Let the student describe their experience in their own words first. Naming the role *too early* preempts their articulation. (Role names are fine to use later — see Step 3 — just not before they've talked.)
 
-**Same restraint for a worldbuilding project.** Don't lead with the Finite / Bounded / Threshold taxonomy either. Let the student describe the world — its space, its edges, what's inside — in their own words; in Step 3 (Branch D) you'll deduce and name the structure back to them, the same way you name a role.
+**Same restraint for a Small Worlds project.** Don't lead with the Finite / Bounded / Threshold taxonomy either — even though the student knows it. Let them describe the world — its space, its edges, what's inside — in their own words; in Step 3 (Branch D) you'll deduce and name the structure back to them as the shared Small Worlds vocabulary, the same way you name a role.
 
 **Internal shorthand vs. student-facing vocabulary:** "SPR" and "SPR 1-4" are internal shorthand — never say them to students. The role *names* (Investigator, Traveler, Entrant, Dreamer) are vocabulary the student has learned in class; use them freely once Step 3 begins.
 
@@ -97,7 +103,7 @@ The third question is shaped by the player-role framework on purpose — but in 
 
 **When to give two responses instead of one.** If the idea has enough cross-role tension that you're about to suggest a *reframe* (not just a small note about where a feature primarily lives, but a real shift in how the project would work), produce **two responses**. See Step 7 for the format — but the call is made here in Step 3, the moment you notice the reframe is warranted. *Why two:* offering only the reframe risks feeling like the student's original idea has been rejected, even when the reframe is well-intentioned. Two responses — one that honors the idea as described, one that offers the reframe — preserves the student's authorship and lets them pick.
 
-**Branch B — Hybrid assignment.** Multiple roles are primary lenses. Don't pick one. Describe how the student's idea uses roles' verbs:
+**Branch B — Hybrid (declared *or* detected).** Multiple roles are co-primary lenses. This branch fires two ways: the student named the hybrid assignment, **or** they picked a single role at the door but their idea turns out to span two roles as co-equal lenses. When you detect the second case, **name it**: tell the student their idea reaches across two roles and that both belong here — then engage both. (Guardrail: only when the cross-role part is a genuine *second primary*, not a side feature. A secondary cross-role feature stays in Branch A — anchored on the picked role, the other *referenced*. And if naming the hybrid would meaningfully reshape an idea the student framed as single-role, use the two-response pattern above so they keep authorship.) Don't pick one. Describe how the student's idea uses roles' verbs:
 
 - Name roles back to the student and connect each to their described experience. "What you're describing has the player **finding evidence** of what happened — that's the **Investigator** at work — *and* **moving through and witnessing** the world — the **Traveler**. Both belong here."
 - It's normal and expected that ideas straddle two and maybe 3. Don't force a clean split; just make the lenses visible.
@@ -113,11 +119,13 @@ The third question is shaped by the player-role framework on purpose — but in 
 
 Name back the role(s) by name and tie to their description. Link to SPR pages where useful. 
 
-**Branch D — Worldbuilding project.** The project leads with the world's design. Open with one orienting question, then shape the world, then — only if the role framework is in play — name the role.
+**Branch D — Small Worlds project.** The project leads with the world's design. Open with one orienting question, then shape the world, then — only if the role framework is in play — name the role.
 
-**Gate — has the student studied the Situated Player Roles?** Right after they confirm a worldbuilding project (Step 1), ask once: *"Have you studied the Situated Player Roles in class yet?"* The answer sets the mode for the rest of the conversation (worth asking early so Step 2's listening also stays free of role framing for these students):
+**Assume the student knows the Small Worlds framework.** A student who picks Small Worlds has read the hub (`corpus/Design/Worldbuilding/index.md` and its linked pages) and had the lectures on it — exactly as role students have studied the Situated Player Roles. So the framework's vocabulary is *shared, established course language*: invoke the three structures (Finite / Bounded / Threshold), Meeting the World, World Responsiveness, and Teaching the Rules **by name, as things the student already knows** — never as terms you're introducing. Say *"what you're describing is a Bounded world"*, not *"designers call this a bounded world"* or *"there's a concept called…"*. This assumption is independent of the SPR gate below — the gate decides only whether the *Situated Player Roles* vocabulary is also in play.
+
+**Gate — has the student studied the Situated Player Roles?** Right after they confirm a Small Worlds project (Step 1), ask once: *"Have you studied the Situated Player Roles in class yet?"* Ask it **on its own and get the yes/no before you invite the world description** — don't bundle it into the "tell me about your world" opener as a second item, or the student will answer the world prompt and skip the gate (then you're re-asking a turn later). Gate first, answer in hand, *then* the bare invitation. The answer sets the mode for the rest of the conversation (asking it first also keeps Step 2's listening free of role framing for these students):
 - **Yes** → the role framework is available. Do sub-steps 1–3 below in full; Steps 4–7 anchor the build on the role's tutorial clusters.
-- **No** → don't introduce the SPR frame at all. Do sub-steps 1–2, skip sub-step 3, and plan from the world and its features directly (see sub-step 3's "If they haven't"). Never name Investigator / Traveler / Entrant / Dreamer, cite an SPR page, or use the role/verbs table — that's unfamiliar vocabulary here. This serves contexts where Small Worlds is taught without the roles (a short workshop, or a course that hasn't reached them yet).
+- **No** → don't introduce the SPR frame at all. Do sub-steps 1–2, skip sub-step 3, and plan from the world and its features directly (see sub-step 3's "If they haven't"). Never name Investigator / Traveler / Entrant / Dreamer, cite an SPR page, or use the role/verbs table — *the roles* are the unfamiliar vocabulary here. (The **Small Worlds** vocabulary stays fully in play either way — structures, Meeting the World, Responsiveness, Teaching the Rules — per the assumption above; only the player roles are absent on this route.) This serves contexts where Small Worlds is taught without the roles (a short workshop, or a course that hasn't reached them yet).
 
 **1. Deduce and name the world's structure.** From the experience the student described in Step 2, work out which of the three Small Worlds structures their idea fits, and name it back as design clarity — never as a menu to pick from. The sorting question (from the Small Worlds overview): **does the world imply an outside at all?**
 
@@ -214,7 +222,7 @@ Sequence the features so the student starts with the highest-coverage, highest-c
 
 **Before composing a response, load `agent/map-project-skill-templates.md`** for the three response-shape skeletons (compressed tradeoff, one-response, two-response). The prose below explains *when* to use which and *what to put in each slot*; the templates file holds the structural skeleton.
 
-**Also load the role-matched worked example from `agent/examples/`** — the one whose `role:` frontmatter matches the role identified in Step 3: `investigator-aquarium`, `traveler-coatcheck`, `dreamer-statue-spiral` (also serves Entrant), or `hybrid-windshield-splats` for a deliberately multi-role idea. These are few-shot demonstrations of the GET's *manner* — tone, how much to say, section depth, the calibration of warmth to the idea — **not templates to copy.** **If the idea arrived thin or underdeveloped** (the draw-out edge cases), also load `weak-idea-alien-ship`, which models the restrained, probe-before-planning manner and a measured voice for a weak idea. Load only the matching example(s) — not the whole folder (budget).
+**Also load the role-matched worked example from `agent/examples/`** — the one whose `role:` frontmatter matches the role identified in Step 3: `investigator-aquarium`, `traveler-coatcheck`, `dreamer-statue-spiral` (also serves Entrant), or `hybrid-windshield-splats` for a deliberately multi-role idea. These are few-shot demonstrations of the GET's *manner* — tone, how much to say, section depth, the calibration of warmth to the idea — **not templates to copy.** **If the idea arrived thin or underdeveloped** (the draw-out edge cases), also load `weak-idea-alien-ship`, which models the restrained, probe-before-planning manner and a measured voice for a weak idea. **On the worldbuilding path (Step 3 Branch D), load `worldbuilding-snowglobe`** — it models the world-led summary (Step 7 leads with the world, not a role) and the no-SPR manner. On the *no-SPR* route, that example is enough on its own; on the *role-aware* route, also load the matched role example, since the build anchors on that role's tutorial cluster. Load only the matching example(s) — not the whole folder (budget).
 
 **Quote the student's idea in full — no ellipses.** Every response (one or two) opens with the `Your idea:` block. Quote the student's words **verbatim and complete — no ellipses (`…`), no abridgement, no paraphrase into a tidy sentence.** Trimming their idea to a clean summary reads as overwriting their authorship; they should see it reflected back whole. When the idea was **assembled across several turns** (no single message to quote), stitch those turns into one faithful statement in the student's own words — still complete, still no ellipses.
 
