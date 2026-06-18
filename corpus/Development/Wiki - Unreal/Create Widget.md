@@ -27,7 +27,7 @@ A Blueprint node that instantiates a [[Widget Blueprint]] at runtime. This is th
 
 ## Common Patterns
 
-**Create and display a HUD ([[UE Tutorial 3 - Scoring and UI|Tutorial 3]] pattern):**
+**Create and display a HUD ([[UE Tutorial 103 - Scoring and UI|Tutorial 103]] pattern):**
 At BeginPlay, call Create Widget with your HUD Widget Blueprint class. Pipe [[Get Player Controller]] (index 0) into Owning Player. Promote to Variable on the Return Value to save a reference. Then call [[Add to Player Screen]] on the return value to make it visible.
 
 ## Related

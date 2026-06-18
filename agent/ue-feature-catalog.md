@@ -60,7 +60,7 @@ At **Step 4 of `map-project-skill.md` (decompose into features)**, after you've 
 
 | Feature | Coverage | Where / note |
 |---|---|---|
-| Collision / overlap detection | **Covered** | underlies Tutorial 1's trigger volumes; simple vs. complex collision taught in 501 |
+| Collision / overlap detection | **Covered** | underlies Tutorial 101's trigger volumes; simple vs. complex collision taught in 501 |
 | Collision presets | **Off-map · low-hanging** | a per-component editor dropdown |
 | Falling / tumbling / settling rigid bodies, per-object weight (Mass), bounce (Restitution), gravity tuning | **Covered** | 501 (Simple Physics) — beginner level |
 | Advanced physics — ragdoll, cloth, vehicles, destruction, buoyancy | **Off-map · harder** | not taught; offer a Timeline-driven approximation as a first pass where one fits (e.g. a looping bob instead of buoyancy) |
@@ -88,7 +88,7 @@ At **Step 4 of `map-project-skill.md` (decompose into features)**, after you've 
 - **Fog** — 301 *introduces* it for **outdoor** atmospheric sky (Covered, beginner level). **Interior** haze (e.g. a humid greenhouse) is off-map · low-hanging — so the row is **Partial**. Split surfaced by the 2026-06-09 greenhouse held-out test.
 - **Foliage paint tool** — confirmed **uncovered** → off-map. 301 only does automaterial ground.
 - **Day/night cycle** — **don't suggest a Timeline-driven sun.** Left off-map · harder.
-- **Collision presets** — split confirmed (overlap covered via Tutorial 1; presets off-map).
+- **Collision presets** — split confirmed (overlap covered via Tutorial 101; presets off-map).
 - **Coverage = beginner level** — all "Covered" calls hold on the understanding that this catalog is scoped to early-semester, beginner use.
 
 ## Status

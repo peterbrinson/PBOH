@@ -1,10 +1,10 @@
 ---
-title: UE Tutorial 4 - Haunted House Triggers and Events
+title: UE Tutorial 104 - Haunted House Triggers and Events
 publish: true
 cssclasses:
   - unreal-tutorial
 ---
-**Previous:** [[UE Tutorial 3 - Scoring and UI|Tutorial 3: Scoring and UI]]
+**Previous:** [[UE Tutorial 103 - Scoring and UI|Tutorial 103: Scoring and UI]]
 
 *By Yibei He & Peter Brinson*
 
@@ -68,7 +68,7 @@ cssclasses:
 > Add a `Box Collision` (see [[Collision Components|wiki]]) component.
 >
 > > [!hint] Hold On
-> > If you don't know how to do this, refer back to [[UE Tutorial 1 - A Floor Plate Opens A Door#A. Make the Blueprint File|Tutorial 1]] on the basics of creating new blueprints and adding components.
+> > If you don't know how to do this, refer back to [[UE Tutorial 101 - A Floor Plate Opens A Door#A. Make the Blueprint File|Tutorial 101]] on the basics of creating new blueprints and adding components.
 >
 > ![[unrealTutorial_04_104.png]]
 >
@@ -109,7 +109,7 @@ cssclasses:
 >
 > #### D1 — Build the Timeline and For Each Loop chain
 >
-> To make lights turn on gradually, we will use a `Timeline` node (`Add Timeline...`). Remember timelines from [[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]]?
+> To make lights turn on gradually, we will use a `Timeline` node (`Add Timeline...`). Remember timelines from [[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]]?
 >
 > With the `Timeline` node selected, press F2 to rename it `LightOnTM`.
 >

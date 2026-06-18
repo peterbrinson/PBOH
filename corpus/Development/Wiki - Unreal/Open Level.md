@@ -30,7 +30,7 @@ Target is Gameplay Statics.
 
 ## Common Patterns
 
-**Game restart ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Game restart ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 [[GameMode]]'s [[Set Timer by Event]] expires → [[Custom Events|Custom Event]] fires → Open Level with the current level's own name. The level reloads from scratch, resetting the game.
 
 **Get current level name for restart:**

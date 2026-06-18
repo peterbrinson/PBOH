@@ -31,7 +31,7 @@ Called on a User Widget instance (the return value from [[Create Widget]]).
 
 ## Common Patterns
 
-**Display a HUD at game start ([[UE Tutorial 3 - Scoring and UI|Tutorial 3]] pattern):**
+**Display a HUD at game start ([[UE Tutorial 103 - Scoring and UI|Tutorial 103]] pattern):**
 At BeginPlay: [[Create Widget]] → Promote to Variable (save the reference) → Add to Player Screen. The widget stays visible for the rest of the game. Update its contents later through the saved variable reference.
 
 ## Related

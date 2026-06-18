@@ -28,7 +28,7 @@ publish: true
 > - [[OnComponentHit]] — reacting when physics objects strike things
 >
 > Review:
-> - [[Collision Components]] and [[OnComponentBeginOverlap]] (Tutorial 1)
+> - [[Collision Components]] and [[OnComponentBeginOverlap]] (Tutorial 101)
 
 
 ## 1. The Foundation: Simulate Physics
@@ -69,11 +69,11 @@ publish: true
 > Every collidable object in Unreal carries a set of [[Collision Components|collision responses]] that decide what happens when it meets another object.
 >
 > - **Block** — the two objects can't pass through each other. This is what physics needs: a falling crate lands on the floor.
-> - **Overlap** — the objects pass through each other, but the engine can fire an event at the moment they cross. This is Tutorial 1's pressure plate — [[OnComponentBeginOverlap]].
+> - **Overlap** — the objects pass through each other, but the engine can fire an event at the moment they cross. This is Tutorial 101's pressure plate — [[OnComponentBeginOverlap]].
 > - **Ignore** — they pass through silently. Nothing fires.
 > ![[unrealTutorial500_23.png]]
 >
-> You met overlap events in Tutorial 1. Blocking has its own event: [[OnComponentHit]] fires when a physics object *strikes* something — useful later for playing a sound on impact.
+> You met overlap events in Tutorial 101. Blocking has its own event: [[OnComponentHit]] fires when a physics object *strikes* something — useful later for playing a sound on impact.
 
 > [!info]- B. Add Simple Collision to a Mesh
 > Find any Fab prop, or to follow along. **Double-click the asset in the Content Browser** to open the Static Mesh Editor.
@@ -174,7 +174,7 @@ publish: true
 
 ## 6. A Push: Add Impulse
 ---
-*Tutorial 1's pressure plate, repurposed: step on the plate, and a stack of crates is blasted aside.*
+*Tutorial 101's pressure plate, repurposed: step on the plate, and a stack of crates is blasted aside.*
 
 > [!info]- Use What You Have Learned
 > This chapter is light on instructions on purpose — you've built every piece of it before.
@@ -199,5 +199,5 @@ publish: true
 - Swap the crates for any Fab prop — add simple collision in the Static Mesh Editor first, then `Simulate Physics` works the same
 - A sphere with `Add Impulse` aimed horizontally is bowling — roll something into a group of objects and let physics scatter them
 - A trapdoor floor: a platform whose `Simulate Physics` turns on from a trigger dropping whatever stood on it
-- Falling debris timed in sequence — combine with Tutorial 4's staggered events so objects drop one after another, not all at once
+- Falling debris timed in sequence — combine with Tutorial 104's staggered events so objects drop one after another, not all at once
 - A bouncy-castle room: `PM_Bouncy` applied to the floor instead of the objects

@@ -73,7 +73,7 @@ A door opens the first time the player touches a trigger. Further touches do not
 
 ### DoOnce vs. Branch + Boolean Gate
 
-[[Branch]] with a `HasTriggered` boolean ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] pattern) does the same thing as DoOnce — but requires you to create the variable, set it, and check it. DoOnce is one node. Use DoOnce when you don't need to read the triggered state elsewhere; use the boolean pattern when other parts of the Blueprint need to know whether the event has fired.
+[[Branch]] with a `HasTriggered` boolean ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] pattern) does the same thing as DoOnce — but requires you to create the variable, set it, and check it. DoOnce is one node. Use DoOnce when you don't need to read the triggered state elsewhere; use the boolean pattern when other parts of the Blueprint need to know whether the event has fired.
 
 ---
 

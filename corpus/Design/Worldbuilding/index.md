@@ -30,7 +30,7 @@ Mark Wolf's *Building Imaginary Worlds* describes worldbuilding as a process of 
 
 The framework comprises three structures.
 
-There are a few ways a small world can treat its edges. Some feel complete in themselves. Some present edges that can be approached but not passed. Others are structured around boundaries the player can cross.
+There are a few ways a Small World can treat its edges. Some feel complete in themselves. Some present edges that can be approached but not passed. Others are structured around boundaries the player can cross.
 
 One question sorts them: **does the world imply an outside at all?** If it doesn't, the world is **Finite**. If it does, ask whether the player can reach it — an outside implied but withheld is **Bounded**; an edge the player passes through is a **Threshold**.
 
@@ -56,6 +56,11 @@ The player can encounter the edge of the world. The boundary is felt during play
 
 - [The Exterminating Angel](https://en.wikipedia.org/wiki/The_Exterminating_Angel) (Luis Buñuel, 1962) - bourgeois characters are stuck in their own world
 - [[Game - Dr Langeskov|Dr Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist]] - backstage from the real (and inaccessible) game
+- [[Game - Return of the Obra Dinn|Return of the Obra Dinn]] (2018) — the ship is the playable enclosure; ports, empire, weather, and voyage exist as evidence, not destinations
+- [[Game - Papers Please|Papers, Please]] (2013) — the checkpoint booth holds the player while Arstotzka's politics press in through papers, guards, news, and family consequences
+- [[Game - Tacoma|Tacoma]] (2017) — the station is explorable, but Earth, corporate power, and the crew's lives remain outside the accessible corridors, readable only through traces
+- [[Game - Gone Home|Gone Home]] (2013) — the storm-lit house is the world; the family's wider life is implied through rooms, objects, and absences
+- [[Game - BioShock|BioShock]] (2007) — Rapture is sealed by the ocean; the surface exists as memory, ideology, and almost-impossible escape
 - [[Film - Snowpiercer|Snowpiercer]] (Bong Joon-ho, 2013) — the train holds the last of humanity; outside is death, therefore the cars cannot be left
 - [Flatland](https://en.wikipedia.org/wiki/Flatland) (Edwin Abbott, 1884) — two-dimensional beings who cannot reach the third dimension they are shown
 - [[Film - The Platform|The Platform]] (Galder Gaztelu-Urrutia, 2019) — a vertical prison-pit; the structure holds each prisoner to their level
@@ -86,15 +91,15 @@ The player can approach and pass from one state or space into another.
 
 ## Meeting the World
 
-[[Meeting the World|Meeting the World]] - the game beings.  How a player first crosses into a small world is itself a designed moment.  The player reading the boundary, sensing what kind of place this is — and the entry can carry awe, dread, curiosity, or excitement. 
+[[Meeting the World|Meeting the World]] - the game beings.  How a player first crosses into a Small World is itself a designed moment.  The player reading the boundary, sensing what kind of place this is — and the entry can carry awe, dread, curiosity, or excitement. 
 
 ## Responsiveness: The Inhabited World
 
-A small world feels inhabited when it responds — when it has memory, behavior, and consequence. A pressure plate opens a door; a light answers your arrival; the world remembers what you have done. [[World Responsiveness|Responsiveness]] is what tells the player the world knows they are there, and it is where the conceptual world meets the practical one of building it.
+A Small World feels inhabited when it responds — when it has memory, behavior, and consequence. A pressure plate opens a door; a light answers your arrival; the world remembers what you have done. [[World Responsiveness|Responsiveness]] is what tells the player the world knows they are there, and it is where the conceptual world meets the practical one of building it.
 
 ## Teaching the World's Rules
 
-Because a small world often runs on invented rules, it has to teach them. The strongest games and worlds teach through play rather than explanation — early, low-stakes encounters that let the player learn what the world is before it asks anything hard of them. [[Teaching the Rules of the World|Teaching the rules]] contrasts this with the explicit tutorial, the world pausing to explain itself.
+Because a Small World often runs on invented rules, it has to teach them. The strongest games and worlds teach through play rather than explanation — early, low-stakes encounters that let the player learn what the world is before it asks anything hard of them. [[Teaching the Rules of the World|Teaching the rules]] contrasts this with the explicit tutorial, the world pausing to explain itself.
 
 ## Exposition Without Lore-Dumping
 
@@ -116,7 +121,7 @@ Every imaginary world is measured by how far it departs from the one we live in 
 
 #### The Building Blocks of a World
 
-Wolf breaks a world into [[World Structure - Wolf's Eight Elements|eight elements]]: three foundations — space, time, and the characters who inhabit it — and five that fill it in — nature, culture, language, mythology, and philosophy. A small world rarely needs all eight, but knowing which you are leaving out is part of deciding where its edges fall.
+Wolf breaks a world into [[World Structure - Wolf's Eight Elements|eight elements]]: three foundations — space, time, and the characters who inhabit it — and five that fill it in — nature, culture, language, mythology, and philosophy. A Small World rarely needs all eight, but knowing which you are leaving out is part of deciding where its edges fall.
 
 #### Narrative Within a World
 

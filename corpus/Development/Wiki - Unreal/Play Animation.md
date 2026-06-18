@@ -33,12 +33,12 @@ Play Animation changes transient data on the animation instance. Don't call it i
 
 ## Common Patterns
 
-**NPC attack with return to idle ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]], Chapter C):**
+**NPC attack with return to idle ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]], Chapter C):**
 BP_Zombie is a [[Character]] Blueprint with a Mixamo skeletal mesh. Animation Mode is set to "Use Animation Asset" with idle as the default. A [[Custom Events|Custom Event]] `PlayAttackAnimation` calls Play Animation with the attack sequence (Looping = false). A [[Set Timer by Event]] fires after the attack's duration, triggering a second Play Animation that returns to idle (Looping = true).
 
 **Why not an Animation Blueprint?** Mixamo characters imported directly don't have an Animation Blueprint — they just have raw animation sequences. For a simple NPC that idles and attacks, Play Animation + timer is the fastest path. For characters with complex state (walk/run/jump blends, multiple transitions), an Animation Blueprint is the right tool.
 
-**Trigger from another Blueprint (Tutorial 4, Chapter C):**
+**Trigger from another Blueprint (Tutorial 104, Chapter C):**
 A separate trigger Blueprint (with [[Collision Components|Box Collision]] + [[OnComponentBeginOverlap]]) holds a reference to BP_Zombie as an Instance Editable variable. When the player enters the trigger zone, it calls `PlayAttackAnimation` on the zombie reference. This keeps the trigger logic and the animation logic in separate Blueprints.
 
 ## Related
@@ -52,5 +52,5 @@ A separate trigger Blueprint (with [[Collision Components|Box Collision]] + [[On
 ## Source
 
 - [Play Animation | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Components/Animation/PlayAnimation?application_version=5.7) — clipped 2026-04-11
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — Chapter C (Mixamo NPC, attack + return-to-idle pattern)
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — Chapter C (Mixamo NPC, attack + return-to-idle pattern)
 

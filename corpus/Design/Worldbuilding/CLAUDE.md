@@ -13,16 +13,16 @@ One question sorts them: **does the world imply an outside at all?**
 | Structure | The world's edge | Examples |
 |---|---|---|
 | **Finite** | No outside; the world is the totality | *Balance*, *Monument Valley*, *Inscryption* Act 1 |
-| **Bounded** | An outside is implied but withheld; the edge is felt, not passed | *Snowpiercer*, *P.T.*, escape rooms |
+| **Bounded** | An outside is implied but withheld; the edge is felt, not passed | *P.T.*, *Return of the Obra Dinn*, *Papers, Please*, *Tacoma*, escape rooms |
 | **Threshold** | The edge becomes a passage the player crosses | *Portal*, *Spirited Away*, *The Matrix* |
 
-Unlike the four roles, the three structures do **not** map to tutorial clusters — they're a design lens (how the world treats its limits), not a build-routing key. A small world still builds in Unreal from the same tutorials, via the player role it's given.
+Unlike the four roles, the three structures do **not** map to tutorial clusters — they're a design lens (how the world treats its limits), not a build-routing key. A Small World still builds in Unreal from the same tutorials, via the player role it's given.
 
 ## Key shaping pages
 
 - `index.md` — the hub (the three structures + Wolf's vocabulary, all linked from here)
 - `Meeting the World.md` — how the player first crosses into the world (the entry as a designed moment)
-- `World Responsiveness.md` — how the world reacts to the player; **the bridge to the build** (triggers/events → Tutorial 4, the Haunted House)
+- `World Responsiveness.md` — how the world reacts to the player; **the bridge to the build** (triggers/events → Tutorial 104, the Haunted House)
 - `Teaching the Rules of the World.md` — teaching invented rules through play, not exposition
 - `Situational Game Design for Small Worlds.md` — Upton's situations/constraints, the conceptual underpinning
 - `Starting Points for World Creation.md` — story-/systems-/world-first entry points

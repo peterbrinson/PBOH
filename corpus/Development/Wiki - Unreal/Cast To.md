@@ -41,7 +41,7 @@ The base Character class only has properties that every character shares (moveme
 
 ## Common Patterns
 
-**Verify the player in an overlap ([[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] pattern):**
+**Verify the player in an overlap ([[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] pattern):**
 [[OnComponentBeginOverlap]] fires → drag off **Other Actor** → **Cast to BP_ThirdPersonCharacter**. If the cast succeeds, it's the player — proceed with the door logic. If it fails, something else entered the trigger (a physics object, an AI) — ignore it.
 
 **Access a variable on another Blueprint:**

@@ -81,13 +81,13 @@ Check in this order:
 
 ## Common Patterns
 
-**Floor plate trigger ([[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] pattern):**
+**Floor plate trigger ([[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] pattern):**
 A Box Collision scaled flat and wide (large X/Y, small Z). Player walks over it → [[OnComponentBeginOverlap]] fires → [[Timeline]] plays → door opens. [[OnComponentEndOverlap]] reverses the Timeline → door closes.
 
-**Collectable pickup ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Collectable pickup ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 A Sphere Collision slightly larger than the collectable's mesh. Player enters the sphere → [[OnComponentBeginOverlap]] fires → [[Cast To]] verifies it's the player → [[PlayerState]] updates → [[DestroyActor]] removes the collectable.
 
-**Haunted house triggers ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] pattern):**
+**Haunted house triggers ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] pattern):**
 Box Collisions used for room-entry triggers — lights, doors, NPC animations, sounds. Each trigger Blueprint uses the same overlap-and-cast pattern with a different effect. A bool variable `HasTriggered` gates one-time triggers to prevent re-firing.
 
 **Character body (default):**
@@ -105,7 +105,7 @@ Every [[Character]] comes with a Capsule Collision as its root collider. This is
 - [Collision in Unreal Engine - Overview | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/collision-in-unreal-engine-overview?application_version=5.7) — clipped 2026-04-12
 - [On Component Begin Overlap | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Collision/OnComponentBeginOverlap) — clipped 2026-04-07
 - [On Component End Overlap | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Collision/OnComponentEndOverlap?application_version=5.7) — clipped 2026-04-07
-- [[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] — floor plate Box Collision pattern
-- [[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] — collectable Sphere Collision pattern
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — trigger-once Box Collision pattern
+- [[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] — floor plate Box Collision pattern
+- [[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] — collectable Sphere Collision pattern
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — trigger-once Box Collision pattern
 

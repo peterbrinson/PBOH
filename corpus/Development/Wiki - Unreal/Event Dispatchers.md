@@ -60,7 +60,7 @@ Use **Event Dispatchers** when multiple Blueprints need to react to the same eve
 
 ## Common Patterns
 
-**Pressure plate opens a door ([[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]]):**
+**Pressure plate opens a door ([[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]]):**
 `BP_PressurePlate` has two dispatchers: `OnBeginPressurePlate` and `OnEndPressurePlate`. When the player overlaps, it calls the begin dispatcher. `BP_Door` has an Instance Editable variable referencing the pressure plate. On BeginPlay, the door binds its open/close Custom Events to the pressure plate's dispatchers. The pressure plate doesn't know the door exists — it just broadcasts, and the door listens.
 
 **Multiple listeners:**
@@ -77,5 +77,5 @@ One pressure plate, three doors. Each door instance binds to the same pressure p
 ## Source
 
 - Written from training knowledge — core Blueprint communication feature stable across UE4/UE5
-- [[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] — pressure plate → door dispatcher pattern (Steps 4B–4C)
+- [[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] — pressure plate → door dispatcher pattern (Steps 4B–4C)
 

@@ -90,7 +90,7 @@ When a student describes a feature, route it like a lookup — don't read the wh
 | Player input locked while widget is open                    | 801         | Investigator |          |
 | Full-screen black-out / end-card / fade-to-black (event-triggered) | 801  | All          |          |
 
-> **Black-out / end-card / fade-to-black is 801, not 3.** It's a *full-screen widget* (801's machinery — a widget that fills the screen, shown on an event such as game-end), **not** a HUD/counter element (Tutorial 3). Tutorial 3 is an on-screen HUD *driven by* gameplay state; 801 is the full-screen takeover. A weak model tends to guess 3 — route it to 801.
+> **Black-out / end-card / fade-to-black is 801, not 3.** It's a *full-screen widget* (801's machinery — a widget that fills the screen, shown on an event such as game-end), **not** a HUD/counter element (Tutorial 103). Tutorial 103 is an on-screen HUD *driven by* gameplay state; 801 is the full-screen takeover. A weak model tends to guess 3 — route it to 801.
 
 ---
 

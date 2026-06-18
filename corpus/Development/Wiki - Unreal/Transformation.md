@@ -9,9 +9,9 @@ Nodes that read or change an actor's position, rotation, or scale in the world. 
 
 ## Current Nodes
 
-- **[[Get Actor Location]]** — reads current world position as a Vector. Pure node. Tutorial 1: store starting position for Lerp.
-- **[[Set Actor Location]]** — moves an actor to a Vector position. Tutorial 1: [[Timeline]] → [[Lerp]] → Set Actor Location for sliding doors.
-- **[[Set Relative Rotation]]** — rotates a component relative to its parent. Tutorial 4: door swing on Yaw axis with Split Struct Pin.
+- **[[Get Actor Location]]** — reads current world position as a Vector. Pure node. Tutorial 101: store starting position for Lerp.
+- **[[Set Actor Location]]** — moves an actor to a Vector position. Tutorial 101: [[Timeline]] → [[Lerp]] → Set Actor Location for sliding doors.
+- **[[Set Relative Rotation]]** — rotates a component relative to its parent. Tutorial 104: door swing on Yaw axis with Split Struct Pin.
 
 ## Source
 

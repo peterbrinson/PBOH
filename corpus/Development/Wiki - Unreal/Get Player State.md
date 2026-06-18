@@ -33,7 +33,7 @@ If you already have a reference to the **[[PlayerController]]** or **[[Pawn]]**,
 
 ## Common Patterns
 
-**Collectable pickup chain ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Collectable pickup chain ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 [[OnComponentBeginOverlap]] fires → [[Cast To]] confirms it's the player character → Get Player State (from the Pawn reference) → [[Cast To]] the custom [[PlayerState]] subclass → [[Increment Int]] on the collectable count variable → [[DestroyActor]].
 
 **UI score display:**

@@ -2,7 +2,7 @@
 cssclasses:
   - unreal-tutorial
 ---
-**Continuing from:** [[UE Tutorial 2 - Collectables and Restart|Tutorial 2: Collectables and Restart]]
+**Continuing from:** [[UE Tutorial 102 - Collectables and Restart|Tutorial 102: Collectables and Restart]]
 
 *By Aaron Cheney & Peter Brinson*
 
@@ -11,10 +11,10 @@ cssclasses:
 
 > [!info]- A. Outcome
 > <span style="color:#cb5d21">**This tutorial's outcome:**</span>
-> Continuing from [[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] and [[UE Tutorial 2 - Collectables and Restart|Tutorial 2]], the player collectable count is properly presented in the UI.
+> Continuing from [[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] and [[UE Tutorial 102 - Collectables and Restart|Tutorial 102]], the player collectable count is properly presented in the UI.
 
 > [!info]- B. Learning Objectives
-> Review from [[UE Tutorial 2 - Collectables and Restart|Tutorial 2: Collectables and Restart]]
+> Review from [[UE Tutorial 102 - Collectables and Restart|Tutorial 102: Collectables and Restart]]
 >
 > - custom events
 > - casting
@@ -30,7 +30,7 @@ cssclasses:
 ---
 
 > [!info]- Disconnect Destroy Actor
-> Return to `BP_Collectable` from [[UE Tutorial 2 - Collectables and Restart]]. Break the connection between `OnCollectedCollectable` and `Destroy Actor`.  In fact, you can delete the `Destroy Actor` node as it will be incorporated in the `PlayerState` blueprint instead;  destroying the collectable will be the last thing happening in the overall sequence among the blueprints.
+> Return to `BP_Collectable` from [[UE Tutorial 102 - Collectables and Restart]]. Break the connection between `OnCollectedCollectable` and `Destroy Actor`.  In fact, you can delete the `Destroy Actor` node as it will be incorporated in the `PlayerState` blueprint instead;  destroying the collectable will be the last thing happening in the overall sequence among the blueprints.
 >
 > ![[unrealTutorial_03_101.png]]
 
@@ -85,7 +85,7 @@ cssclasses:
 
 > [!info]- Create the Widget on BeginPlay
 > Return to the blueprint, `BP_InClassPlatforming_PlayerState`.
-> The following steps add blueprint script in the Event Graph you worked in during Step 3 of [[UE Tutorial 2 - Collectables and Restart]].  Add new blueprint script above or below the existing one.
+> The following steps add blueprint script in the Event Graph you worked in during Step 3 of [[UE Tutorial 102 - Collectables and Restart]].  Add new blueprint script above or below the existing one.
 >
 > If it is not there, create `Event BeginPlay`.
 > Drag off of `Event BeginPlay` and type `Create Widget`. Set its Class to `WBP Score`.

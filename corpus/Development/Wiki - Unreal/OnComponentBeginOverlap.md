@@ -39,10 +39,10 @@ Select a collision component in the Components panel → go to the Details panel
 
 ## Common Patterns
 
-**Floor plate triggers a door ([[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] pattern):**
+**Floor plate triggers a door ([[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] pattern):**
 A [[Collision Components|Box Collision]] component on a floor plate actor has OnComponentBeginOverlap. When the player steps on it, the event fires → calls Play on a [[Timeline]] → the [[Timeline]] drives a [[Lerp]] → the door opens. [[OnComponentEndOverlap]] reverses it when the player steps off.
 
-**Collectable pickup ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Collectable pickup ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 A collectable actor has a [[Collision Components|Sphere Collision]] with OnComponentBeginOverlap. When the player overlaps, the event fires → the collectable is destroyed → a counter increments.
 
 **Checking who overlapped:**

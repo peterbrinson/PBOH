@@ -58,16 +58,16 @@ A variable can hold a single value or a collection. Click the icon next to the t
 
 ## Common Patterns
 
-**Trigger-once gate ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]]):**
+**Trigger-once gate ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]]):**
 A Boolean variable `HasTriggered` starts as false. On [[OnComponentBeginOverlap]], a [[Branch]] checks the bool — if false, run the effect and Set `HasTriggered` to true. Future overlaps hit the Branch and do nothing. This is the manual version of [[Flow Control|DoOnce]].
 
-**Instance-configurable property ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]]):**
+**Instance-configurable property ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]]):**
 A variable `SoundToPlay` is marked Instance Editable. Each trigger Blueprint placed in the level can have a different sound assigned in the Details panel without modifying the Blueprint itself. See [[Blueprint Instances]].
 
-**Storing a reference for later ([[UE Tutorial 3 - Scoring and UI|Tutorial 3]]):**
+**Storing a reference for later ([[UE Tutorial 103 - Scoring and UI|Tutorial 103]]):**
 [[Create Widget]] returns a widget object. Promote the return value to a variable (right-click → Promote to Variable) so you can access the widget later to update its text. See [[Getting References]].
 
-**Counter ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]]):**
+**Counter ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]]):**
 An Integer variable on [[PlayerState]] tracks collectables. Each pickup calls [[Increment Int]] on the variable. The count persists across the session because PlayerState survives as long as the player is connected.
 
 ## Related
@@ -82,7 +82,7 @@ An Integer variable on [[PlayerState]] tracks collectables. Each pickup calls [[
 ## Source
 
 - Written from training knowledge — fundamental Blueprint concept stable across UE4/UE5 versions
-- [[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] — counter variable on PlayerState
-- [[UE Tutorial 3 - Scoring and UI|Tutorial 3]] — Promote to Variable pattern
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — trigger-once bool, Instance Editable properties
+- [[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] — counter variable on PlayerState
+- [[UE Tutorial 103 - Scoring and UI|Tutorial 103]] — Promote to Variable pattern
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — trigger-once bool, Instance Editable properties
 

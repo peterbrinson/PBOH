@@ -3,7 +3,7 @@ title: Situational Game Design for Small Worlds
 aliases:
 publish: true
 ---
-This page summarizes the first two chapters of Brian Upton's *Situational Game Design* (2017) for the sake of building small worlds.  All page citations refer to that book.
+This page summarizes the first two chapters of Brian Upton's *Situational Game Design* (2017) for the sake of building Small Worlds.  All page citations refer to that book.
 
 ---
 
@@ -71,7 +71,7 @@ There's another assumption: games are about winning. Our moves are always direct
 
 ![[week4-dnd.webp]]
 
-> Peter: If your [[Small Worlds|small world]] isn't about winning, what is the player doing there? What is the experience you're making?
+> Peter: If your [[Small Worlds|Small World]] isn't about winning, what is the player doing there? What is the experience you're making?
 
 ---
 
@@ -133,7 +133,7 @@ But rules aren't the only type of constraint.
 
 ### → Small Worlds
 
-Your [[Small Worlds|small world]] is a constraint structure. The three types — Finite, Bounded, and Threshold — these are constraint designs. How does the player encounter the limits? 
+Your [[Small Worlds|Small World]] is a constraint structure. The three types — Finite, Bounded, and Threshold — these are constraint designs. How does the player encounter the limits? 
 
 Let's look at [[Film - Balance (1989)|Balance]], [[Game - Dr Langeskov|Dr Langeskov]], and  [[Film - The Matrix|The Matrix]].  Let's move backwards through them. 
 
@@ -171,7 +171,7 @@ We avoid hills in video games even when the game doesn't penalize climbing. We f
 
 If you're playing a horror game, you'll move differently than if you believe you're playing a first-person shooter. You'll be more cautious. You'll pay more attention. Part of what makes a horror game scary is our knowledge that it's supposed to be scary.
 
-> Peter:  In your small world does the player constrain themselves? 
+> Peter:  In your Small World does the player constrain themselves? 
 
 ---
 

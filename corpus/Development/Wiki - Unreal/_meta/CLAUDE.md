@@ -12,7 +12,7 @@ Read these three files in order — stop after step 1 if the user gives a specif
 2. **log.md, last entry only** — what was done last and the running page count.
 3. **+ UE Wiki Index.md** — current table of contents (scan for stub categories to know what's next).
 
-The tutorial spine defines ingest order: Tutorial 3's concepts are next. Each tutorial's Blueprint nodes and UE concepts become wiki pages. Stub wikilinks on existing pages define secondary ingest targets.
+The tutorial spine defines ingest order: Tutorial 103's concepts are next. Each tutorial's Blueprint nodes and UE concepts become wiki pages. Stub wikilinks on existing pages define secondary ingest targets.
 
 ---
 
@@ -70,7 +70,7 @@ Wikilinks to adjacent concepts: [[Concept A]], [[Concept B]]
 
 **Wikilink aggressively.** Any named Blueprint node, UE concept, or subsystem that has or should have its own page gets a `[[wikilink]]`. If the target page doesn't exist yet, the link is still correct — it becomes a stub target.
 
-**Link to tutorials.** When a Common Patterns entry references a tutorial, use a wikilink with display text: `[[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]]`. This creates backlinks on the tutorial pages showing which wiki concepts reference them.
+**Link to tutorials.** When a Common Patterns entry references a tutorial, use a wikilink with display text: `[[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]]`. This creates backlinks on the tutorial pages showing which wiki concepts reference them.
 
 **Reference, not tutorial.** No step-by-step instructions. No "first, then, finally." Explain what something is and when to use it. The tutorials handle sequence.
 

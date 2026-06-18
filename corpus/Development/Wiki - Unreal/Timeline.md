@@ -50,7 +50,7 @@ Timelines may have any number of tracks:
 
 ## Common Patterns
 
-**Door open/close ([[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] pattern):**
+**Door open/close ([[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] pattern):**
 A [[Collision Components|Box Collision]] component triggers [[OnComponentBeginOverlap]]. Play fires the Timeline. The float track outputs 0→1 over 1 second. That value feeds a [[Lerp]] between closed position and open position, driving [[Set Actor Location]] each frame via the Update pin. Reverse closes it.
 
 ## Related

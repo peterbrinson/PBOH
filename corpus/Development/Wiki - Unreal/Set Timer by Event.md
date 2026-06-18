@@ -41,7 +41,7 @@ Both share the same timer pins (Time, Looping, etc.) and return a Timer Handle. 
 
 ## Common Patterns
 
-**Game countdown ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Game countdown ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 In the [[GameMode]]'s Event BeginPlay → Set Timer by Event with Time = 60 and Looping = false. The delegate [[Custom Events|Custom Event]] calls [[Open Level]] to restart when time runs out.
 
 **Repeating spawner:**

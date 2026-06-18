@@ -38,7 +38,7 @@ Each PlayerController typically has:
 
 ## Common Patterns
 
-**Standard flow ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Standard flow ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 [[GameMode]] creates a PlayerController for the human player → the GameMode spawns a [[Pawn]] (or [[Character]]) → the PlayerController possesses the Pawn → input flows from player through PlayerController to Pawn.
 
 **Accessing from other Blueprints:**

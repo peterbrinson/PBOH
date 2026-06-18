@@ -13,7 +13,7 @@ Some pins carry packed data — a Rotator holds Pitch/Yaw/Roll, a Vector holds X
 
 **Reverse:** Right-click a split pin → **Recombine Struct Pin** to collapse back to one pin.
 
-**Used in:** [[Set Relative Rotation]] — Tutorial 4's door swing only drives the Z (Yaw) pin after splitting the New Rotation input. [[Set Actor Location]] can also be split when you only need to change one axis.
+**Used in:** [[Set Relative Rotation]] — Tutorial 104's door swing only drives the Z (Yaw) pin after splitting the New Rotation input. [[Set Actor Location]] can also be split when you only need to change one axis.
 
 ## Promote to Variable
 
@@ -21,7 +21,7 @@ Drag off any output pin → **Promote to Variable**. Creates a named variable in
 
 **Why:** A reference that flows through a wire is gone after execution. Promoting saves it persistently. See [[Getting References]] for the full context on when and why to promote.
 
-**Used in:** [[UE Tutorial 3 - Scoring and UI|Tutorial 3]] — promotes the [[Create Widget]] return value to `ScoreWidget` so the scoring logic can update the widget later. [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — promotes sound and animation variables to make them Instance Editable.
+**Used in:** [[UE Tutorial 103 - Scoring and UI|Tutorial 103]] — promotes the [[Create Widget]] return value to `ScoreWidget` so the scoring logic can update the widget later. [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — promotes sound and animation variables to make them Instance Editable.
 
 ## Comment Boxes
 
@@ -33,7 +33,7 @@ Select one or more nodes → press **C** to wrap them in a comment box. Or press
 
 ## Source
 
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — Chapter B (Split Struct Pin on door rotation)
-- [[UE Tutorial 3 - Scoring and UI|Tutorial 3]] — Step 3 (Promote to Variable on Create Widget return)
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — Chapter B (Split Struct Pin on door rotation)
+- [[UE Tutorial 103 - Scoring and UI|Tutorial 103]] — Step 3 (Promote to Variable on Create Widget return)
 - [Blueprint Visual Scripting | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/blueprints-visual-scripting-in-unreal-engine?application_version=5.7) — Comments section, clipped 2026-04-12
 

@@ -37,7 +37,7 @@ Iterates over each element in an array (or set), executing the **Loop Body** onc
 
 ## Common Patterns
 
-**Apply effect to multiple lights ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]], Chapter A):**
+**Apply effect to multiple lights ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]], Chapter A):**
 BP_LightOnTrigger has two array variables: one for Spot Lights, one for Point Lights. Both are Instance Editable, so each instance in the level can point at different lights. A [[Sequence]] node after the [[Timeline]]'s Update pin splits into two For Each Loops — one per array. Each loop applies Lerp → Set Intensity to the current light. One trigger Blueprint handles any number and combination of lights.
 
 **Why arrays matter here:** Without arrays, you'd need a separate variable and separate logic for each light. With arrays + For Each Loop, the Blueprint scales to any number — place one trigger, assign as many lights as you want.
@@ -52,5 +52,5 @@ BP_LightOnTrigger has two array variables: one for Spot Lights, one for Point Li
 ## Source
 
 - [For Each Loop (Set) | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Utilities/Set/ForEachLoop_Set?application_version=5.7) — clipped 2026-04-11
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — Chapter A, Section A5 (For Each Loop over Spot Light and Point Light arrays)
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — Chapter A, Section A5 (For Each Loop over Spot Light and Point Light arrays)
 

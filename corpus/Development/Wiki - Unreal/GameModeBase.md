@@ -76,7 +76,7 @@ From lowest to highest priority:
 
 ## Common Patterns
 
-**Custom player data ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Custom player data ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 Create a custom GameMode Blueprint. Set its Player State Class to a custom [[PlayerState]] that holds a collectable count variable. Assign this GameMode in World Settings. Now every player who joins gets that custom PlayerState automatically.
 
 **Timed game with restart:**

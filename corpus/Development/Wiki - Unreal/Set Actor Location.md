@@ -34,7 +34,7 @@ For most tutorial-level uses, leave both **Sweep** and **Teleport** at their def
 
 ## Common Patterns
 
-**Timeline-driven door ([[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] pattern):**
+**Timeline-driven door ([[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] pattern):**
 [[OnComponentBeginOverlap]] → Play on [[Timeline]] → float track (0 to 1) feeds [[Lerp]] Alpha → Lerp blends between closed Vector and open Vector → that Vector goes into **New Location** on Set Actor Location, called every frame from the Timeline's Update pin. The door slides smoothly.
 
 **Instant teleport:**

@@ -2,7 +2,7 @@
 cssclasses:
   - unreal-tutorial
 ---
-**Continuing From:** [[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1: A Floor Plate Opens A Door]]
+**Continuing From:** [[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101: A Floor Plate Opens A Door]]
 
 *By Aaron Cheney & Peter Brinson*
 
@@ -10,7 +10,7 @@ cssclasses:
 ---
 
 > [!info]- A. Outcome
-> Continuing from [[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]], the player gathers collectables. The platforming character collect's and the debug UI prints a corresponding incrementing integer. 
+> Continuing from [[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]], the player gathers collectables. The platforming character collect's and the debug UI prints a corresponding incrementing integer. 
 > And the game restarts after 5 seconds.
 
 > [!info]- B. Learning Objectives
@@ -25,7 +25,7 @@ cssclasses:
 > - set [[Variables|variables]]
 > - [[Destroy Actor|DestroyActor]]
 >
-> Review various from [[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1: A Floor Plate Opens A Door]]
+> Review various from [[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101: A Floor Plate Opens A Door]]
 
 ---
 
@@ -73,7 +73,7 @@ cssclasses:
 > [!info]- B. Enable the Gamemode
 > Follow the below image's dropdown to change the active GameMode.  That is, change it to what was created in Step 1; specifically, change the GameMode from `BP_ThirdPersonGameMode` to `BP_InClassPlatforming_GameMode`.
 >
-> For reference, Tutorial 1, Step 1D used this interface to change what pawn was used within the active `GameMode`.  
+> For reference, Tutorial 101, Step 1D used this interface to change what pawn was used within the active `GameMode`.  
 > This *current* step is changing something bigger and broader - the `GameMode` itself. 
 > (By the way, the below image shows the moment *before* the change is made).
 >

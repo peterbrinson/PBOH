@@ -58,10 +58,10 @@ Persistent environmental audio: room tone, wind, machinery hum, background music
 
 ## Common Patterns
 
-**Door creak ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]], Chapters A & B):**
+**Door creak ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]], Chapters A & B):**
 After a [[Timeline]] fires, Play Sound at Location plays a one-shot sound. The Sound pin is promoted to a variable and made [[Blueprint Instances|Instance Editable]] — each door instance plays a different sound.
 
-**Triggered ambient audio (Tutorial 4, Chapter D):**
+**Triggered ambient audio (Tutorial 104, Chapter D):**
 An Ambient Sound actor is placed in the level with Volume set to 0. A trigger Blueprint holds a reference to it (Instance Editable variable of type Ambient Sound). When the player enters the trigger zone ([[OnComponentBeginOverlap]]), the Blueprint sets the Ambient Sound's volume to its active level. The sound fades in spatially as the player moves through the space.
 
 ## Related
@@ -74,5 +74,5 @@ An Ambient Sound actor is placed in the level with Volume set to 0. A trigger Bl
 ## Source
 
 - [Play Sound at Location | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Audio/PlaySoundatLocation?application_version=5.7) — clipped 2026-04-11
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — Chapters A & B (one-shot sounds), Chapter D (Ambient Sound trigger)
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — Chapters A & B (one-shot sounds), Chapter D (Ambient Sound trigger)
 

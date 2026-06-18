@@ -32,8 +32,8 @@ The Condition pin accepts any boolean: a variable, the output of a comparison no
 
 ## Common Patterns
 
-**Trigger-once gate ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]], Chapter A):**
-Create a boolean variable `HasTriggered`, default false. At the start of the overlap event, wire a Branch: if `HasTriggered` is true, do nothing (the False path is unwired or stops). If false, proceed with the effect and then set `HasTriggered` to true. The trigger fires once and never again. This pattern appears in every chapter of Tutorial 4 — lights, doors, NPCs, and sounds all use it.
+**Trigger-once gate ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]], Chapter A):**
+Create a boolean variable `HasTriggered`, default false. At the start of the overlap event, wire a Branch: if `HasTriggered` is true, do nothing (the False path is unwired or stops). If false, proceed with the effect and then set `HasTriggered` to true. The trigger fires once and never again. This pattern appears in every chapter of Tutorial 104 — lights, doors, NPCs, and sounds all use it.
 
 **Why not just remove the overlap event?** You can't easily disconnect an event at runtime. The Branch + boolean gate is the standard Blueprint pattern for "run once" behavior. It's simpler than alternatives like removing the collision component or unbinding the event.
 
@@ -48,5 +48,5 @@ Create a boolean variable `HasTriggered`, default false. At the start of the ove
 ## Source
 
 - [Branch | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Utilities/FlowControl/Branch?application_version=5.7) — clipped 2026-04-11
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — Chapter A, Section A7 (trigger-once bool gate pattern)
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — Chapter A, Section A7 (trigger-once bool gate pattern)
 

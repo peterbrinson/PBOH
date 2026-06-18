@@ -10,7 +10,7 @@ Numbered, hand-built UE tutorials students follow step by step. The published hu
 
 Eight numbered series, each in its own subfolder:
 
-- **100s** — Discovery and Encounter (triggers, doors, scoring, UI) · Tut 1–4
+- **100s** — Discovery and Encounter (triggers, doors, scoring, UI) · Tut 101–104
 - **200s** — The Player Character (pawn possession, MetaHuman) · Tut 201–202
 - **300s** — Environment Systems (landscapes, water) · Tut 301–302
 - **400s** — Materials · Tut 401

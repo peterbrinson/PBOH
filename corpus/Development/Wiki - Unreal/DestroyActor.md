@@ -24,7 +24,7 @@ Call it and the actor is removed at the end of the current frame. Any code after
 
 ## Common Patterns
 
-**Collectable pickup ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Collectable pickup ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 [[OnComponentBeginOverlap]] fires on the collectable's [[Collision Components|Sphere Collision]] → [[Cast To]] verifies it's the player → the [[PlayerState]] updates the collectable count → DestroyActor removes the collectable from the scene.
 
 **Projectile hit:**

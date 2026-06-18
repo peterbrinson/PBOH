@@ -34,7 +34,7 @@ The index stays consistent as long as no players join or leave, but is not the s
 
 ## Common Patterns
 
-**Provide Owning Player to Create Widget ([[UE Tutorial 3 - Scoring and UI|Tutorial 3]] pattern):**
+**Provide Owning Player to Create Widget ([[UE Tutorial 103 - Scoring and UI|Tutorial 103]] pattern):**
 At BeginPlay, call Get Player Controller (Player Index 0). Connect its Return Value to the Owning Player pin of [[Create Widget]].
 
 ## Related

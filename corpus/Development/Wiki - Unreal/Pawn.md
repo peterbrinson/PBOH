@@ -36,7 +36,7 @@ A subclass of DefaultPawn used for spectating. Specified separately from the gam
 
 ## Common Patterns
 
-**Third-person character ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Third-person character ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 The [[GameMode]] sets its Default Pawn Class to BP_ThirdPersonCharacter (a [[Character]], which is a Pawn subclass). When a player joins, the GameMode spawns this Pawn and the [[PlayerController]] possesses it.
 
 **Custom non-humanoid player:**

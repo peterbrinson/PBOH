@@ -36,13 +36,13 @@ A variable marked **Expose on Spawn** appears as an input pin when the Blueprint
 
 ## Common Patterns
 
-**One trigger class, many configurations ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]]):**
+**One trigger class, many configurations ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]]):**
 BP_LightOnTrigger has Instance Editable array variables for Spot Lights and Point Lights, plus a Target Intensity float. Place one instance for the hallway (2 spot lights, intensity 5000). Place another for the basement (1 point light, intensity 3000). Same Blueprint, different behavior — configured entirely in the Details panel.
 
-**Per-instance sound (Tutorial 4, Chapter B):**
+**Per-instance sound (Tutorial 104, Chapter B):**
 BP_DoorTrigger has a Sound variable (Instance Editable). The front door plays a wooden creak. The cellar door plays a metal groan. The Blueprint logic is identical — only the sound asset differs per instance.
 
-**Per-instance NPC (Tutorial 4, Chapter C):**
+**Per-instance NPC (Tutorial 104, Chapter C):**
 The animation trigger has a `Zombie` variable of type BP_Zombie (Instance Editable). Each trigger instance in the level points at a different BP_Zombie actor. One trigger activates the zombie in the hallway, another activates the one in the attic.
 
 ### The Class vs. Instance Mental Model
@@ -57,5 +57,5 @@ Think of the Blueprint class as a cookie cutter and instances as cookies. The cu
 
 ## Source
 
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — Chapters A–D (Instance Editable used for lights, doors, sounds, NPCs throughout)
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — Chapters A–D (Instance Editable used for lights, doors, sounds, NPCs throughout)
 

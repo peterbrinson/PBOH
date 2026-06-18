@@ -42,7 +42,7 @@ Alpha values below 0 or above 1 extrapolate beyond A and B. A clamped variant (*
 
 ## Common Patterns
 
-**Timeline → Lerp → Set Actor Location ([[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] pattern):**
+**Timeline → Lerp → Set Actor Location ([[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] pattern):**
 A [[Timeline]] outputs a float track ranging from 0 to 1. That float feeds the Alpha pin of a Lerp node. A is the door's closed position, B is the open position. The Lerp output drives [[Set Actor Location]] on the [[Timeline]]'s Update pin. The door slides smoothly from closed to open.
 
 **Material parameter blend:**

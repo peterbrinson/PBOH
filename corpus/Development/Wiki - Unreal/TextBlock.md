@@ -24,7 +24,7 @@ To update the TextBlock's displayed text, drag its variable reference into the E
 
 ## Common Patterns
 
-**Score display ([[UE Tutorial 3 - Scoring and UI|Tutorial 3]] pattern):**
+**Score display ([[UE Tutorial 103 - Scoring and UI|Tutorial 103]] pattern):**
 In the Widget Blueprint's Event Graph, create a [[Custom Events|Custom Event]] (e.g., `OnScoreUpdated`) with an integer parameter (`NewScore`). Drag the TextBlock variable in as a Get, then call Set Text on it. Connect `NewScore` → To Text (Integer) → Set Text. The game Blueprint calls this event whenever the score changes.
 
 ## Related
@@ -35,5 +35,5 @@ In the Widget Blueprint's Event Graph, create a [[Custom Events|Custom Event]] (
 
 ## Source
 
-- [[UE Tutorial 3 - Scoring and UI|Tutorial 3: Counting Collectables]] — Section 2A-2B (Widget design, Is Variable, Set Text pattern)
+- [[UE Tutorial 103 - Scoring and UI|Tutorial 103: Counting Collectables]] — Section 2A-2B (Widget design, Is Variable, Set Text pattern)
 

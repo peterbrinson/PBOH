@@ -24,7 +24,7 @@ You *can* drag multiple wires from a single exec output pin — Unreal allows it
 
 ## Common Patterns
 
-**One Timeline driving multiple light types ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]], Chapter A):**
+**One Timeline driving multiple light types ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]], Chapter A):**
 A [[Timeline]] ticks its Update pin every frame. The Sequence node splits that into two paths: Then 0 iterates over the Spot Light array with a For Each Loop, Then 1 iterates over the Point Light array with its own For Each Loop. Both apply the same Lerp → Set Intensity pattern, but to different light types. Without Sequence, you'd need two separate Timelines or a tangled graph.
 
 ## Related
@@ -37,5 +37,5 @@ A [[Timeline]] ticks its Update pin every frame. The Sequence node splits that i
 ## Source
 
 - [Sequence | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Utilities/FlowControl/Sequence?application_version=5.7) — clipped 2026-04-11
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — Chapter A, Section A5 (Sequence used to split Timeline update across light types)
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — Chapter A, Section A5 (Sequence used to split Timeline update across light types)
 

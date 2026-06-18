@@ -1,7 +1,7 @@
 ---
 publish: false
 route: worldbuilding — Branch D, "hasn't studied the Situated Player Roles" (no-SPR route)
-coverage: all features taught (301 landscape/sky, 702 Niagara snow, 1 trigger, 401 materials, 701 post-process, 801 fade, 4 sound); off-map = warped-sky distortion shader + Unreal Camera Shake
+coverage: all features taught (301 landscape/sky, 702 Niagara snow, 101 trigger, 401 materials, 701 post-process, 801 fade, 104 sound); off-map = warped-sky distortion shader + Unreal Camera Shake
 ---
 
 # The Snow Globe — Worldbuilding (example session)
@@ -18,11 +18,13 @@ coverage: all features taught (301 landscape/sky, 702 Niagara snow, 1 trigger, 4
 
 ---
 
+### The kind of Small World this is
+
+A forest that turns out to be an ornament. At first it reads as the whole world — trees, snow, statues, nothing beyond. Then the shake, the snow falling wrong, the warped sky, the face — and the world suddenly has an outside it never seemed to have. You can see out, but you'll never get out. What you've described falls into the second structure, a Bounded world, where the player can encounter the edge of the world but cannot pass it — and yours earns it the best possible way: the player isn't told the edge exists, they discover it. The reveal is the design.
+
 ### The world you're building
 
-A forest that turns out to be an ornament. At first it reads as the whole world — trees, snow, statues, nothing beyond. Then the shake, the snow falling wrong, the warped sky, the face — and the world suddenly has an outside it never seemed to have. You can see out, but you'll never get out. The glass is an edge you feel but can't pass. That's a Bounded world, and yours earns it the best possible way: the player isn't told the edge exists, they discover it. The reveal is the design.
-
-Two shaping notes fall out of that:
+Two shaping notes fall out of that structure:
 
 - **How the player meets the world.** Your entry is inverted — the player thinks they've already met an ordinary forest, and then the world re-introduces itself as an object. The first real "meeting" is the reveal, not the opening. Worth protecting: the early minutes should feel genuinely like a small quiet forest, so the betrayal lands.
 - **How the world teaches its rule.** You've got this right intuitively — the player learns "hiding stirs the giant" by noticing the pattern, not by being told. Hide, shake. Hide, shake. The world teaches through play. That's the strong version.
@@ -45,17 +47,17 @@ The snow falling upward. Before the player even sees the face, gravity betrays t
 
 ### Build order for Unreal Game Engine
 
-*Order is triage — the top is the spine, the tail is droppable. Cut from the bottom, not the top.*
+*Following this sequence, you'll have something playable from the start. And the last items, if you run out of time, can be dropped. All the referenced tutorials you'll find in corpus/Development/Tutorials - Unreal.*
 
 1. **Player character** — first-person default template, walking (first-person so looking up at the face lands). Block the forest out with primitive boxes first to feel the spacing of the statues before any art goes in.
 2. **Tutorial 301 — landscape, snow automaterial, atmospheric sky:** the snowy ground and the sky overhead. This is the world's body.
 3. **Import trees and the statue-objects from Fab** — pines, and whatever the "statues" become. Placeholders first, dressed assets once the layout feels right. A few now; the full set later.
 4. **Tutorial 702 — Niagara:** the gentle ambient snowfall ("snowing a little"). Snow is a named variation of this tutorial — you're on taught ground.
-5. **Tutorial 1 — trigger zone:** a collider under each statue that fires when the player tucks beneath it. The "tends to" part — a Random Float checked by a Branch so the shake only sometimes fires — is a small wiring job you'll do yourself; the pieces are taught, the join is yours.
+5. **Tutorial 101 — trigger zone:** a collider under each statue that fires when the player tucks beneath it. The "tends to" part — a Random Float checked by a Branch so the shake only sometimes fires — is a small wiring job you'll do yourself; the pieces are taught, the join is yours.
 6. **The shake and the snow reaction (the world responding to the giant):** the upward snow-burst, then heavy snowfall, then slow-down is a one-shot Niagara burst triggered from Blueprint plus a spawn-rate change on your step-4 snow — both are 702 variations. The literal world-shake is the one off-map bit (see below).
 7. **The face reveal** — a plane or mesh placed high beyond the sky carrying a face texture (Tutorial 401 — materials), hidden until the shake, then revealed on the same trigger event. If you want to punctuate the realization with a held beat, Tutorial 801 has the full-screen fade machinery.
 8. **Tone** — Tutorial 701 post-process color grade for the uncanny, slightly-wrong feeling. This is also your first-pass answer to the warped sky (see Off-Map).
-9. **(optional tail)** low rumble during the shake — Tutorial 4's spatial ambient sound zones.
+9. **(optional tail)** low rumble during the shake — Tutorial 104's spatial ambient sound zones.
 
 ### Off-Map
 

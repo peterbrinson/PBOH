@@ -26,12 +26,12 @@ The counterpart **Decrement Int** subtracts 1. Same behavior, opposite direction
 
 ## Common Patterns
 
-**Collectable count ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Collectable count ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 Player overlaps a collectable → [[Get Player State]] → [[Cast To]] custom [[PlayerState]] → Increment Int on the `NumberOfCollectables` variable → [[Print String]] to verify → [[DestroyActor]] removes the collectable.
 
 ### Alternative: Add Node
 
-[[UE Tutorial 3 - Scoring and UI|Tutorial 3]] uses a different approach for counting: an **Add** node instead of Increment Int. Drag from the event, search for "Add (Operators)," connect the variable, and the output is `x + 1`. The Add node returns the new value as an output pin — unlike Increment Int, which modifies in place but has no output. This matters when you need to pass the updated count forward (e.g., into a [[Custom Events|Custom Event]] parameter to update a [[Widget Blueprint|widget]]).
+[[UE Tutorial 103 - Scoring and UI|Tutorial 103]] uses a different approach for counting: an **Add** node instead of Increment Int. Drag from the event, search for "Add (Operators)," connect the variable, and the output is `x + 1`. The Add node returns the new value as an output pin — unlike Increment Int, which modifies in place but has no output. This matters when you need to pass the updated count forward (e.g., into a [[Custom Events|Custom Event]] parameter to update a [[Widget Blueprint|widget]]).
 
 Use **Increment Int** when you just need to bump a counter. Use **Add** when you need the new value immediately on the same wire.
 
@@ -44,7 +44,7 @@ Use **Increment Int** when you just need to bump a counter. Use **Add** when you
 
 ## Source
 
-- [[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] — Step 3 (Increment Int on NumberOfCollectables)
-- [[UE Tutorial 3 - Scoring and UI|Tutorial 3]] — Step 4B (Add node alternative)
+- [[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] — Step 3 (Increment Int on NumberOfCollectables)
+- [[UE Tutorial 103 - Scoring and UI|Tutorial 103]] — Step 4B (Add node alternative)
 - No dedicated UE docs page for this node.
 

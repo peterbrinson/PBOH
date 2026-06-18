@@ -38,7 +38,7 @@ To access from other Blueprints: use [[Get Player State]] and [[Cast To]] your c
 
 ## Common Patterns
 
-**Collectable counter ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Collectable counter ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 Custom PlayerState has an integer variable `CollectableCount`. When the player overlaps a collectable, the collectable's [[OnComponentBeginOverlap]] fires → [[Cast To]] confirms it's the player → [[Get Player State]] retrieves the PlayerState → [[Cast To]] the custom PlayerState → [[Increment Int]] increases the count → [[DestroyActor]] removes the collectable.
 
 **Player list:**

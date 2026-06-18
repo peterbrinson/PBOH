@@ -36,7 +36,7 @@ In the Details pane, set whether the event should be **replicated on all clients
 
 ## Common Patterns
 
-**Timer delegate ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Timer delegate ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 Drag off [[Set Timer by Event]]'s Event pin → Add Custom Event → name it "OnTimerExpired." Wire the event's execution to [[Open Level]] or any end-of-timer logic.
 
 **Branch convergence (source example):**

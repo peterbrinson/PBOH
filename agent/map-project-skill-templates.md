@@ -55,6 +55,9 @@ When the idea fits the assigned role cleanly (or there's no role constraint and 
 [one specific thing the idea made you want to see them build]
 
 ### Build order for Unreal Game Engine
+
+*Following this sequence, you'll have something playable from the start. And the last items, if you run out of time, can be dropped. All the referenced tutorials you'll find in corpus/Development/Tutorials - Unreal.*
+
 1. Get a first-person or third-person player character placed and walking [default template, or Tutorial 202 if MetaHuman]
 2. Tutorial [number] — [feature it adds]
 3. Tutorial [number] — [feature]

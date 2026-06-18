@@ -10,7 +10,7 @@ publish: true
 
 ---
 
-- [[UE Tutorial 1 - A Floor Plate Opens A Door]]
-- [[UE Tutorial 2 - Collectables and Restart]]
-- [[UE Tutorial 3 - Scoring and UI]]
-- [[UE Tutorial 4 - Haunted House Triggers and Events]]
+- [[UE Tutorial 101 - A Floor Plate Opens A Door]]
+- [[UE Tutorial 102 - Collectables and Restart]]
+- [[UE Tutorial 103 - Scoring and UI]]
+- [[UE Tutorial 104 - Haunted House Triggers and Events]]

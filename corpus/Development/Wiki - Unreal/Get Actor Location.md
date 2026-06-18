@@ -24,7 +24,7 @@ Pure node — no exec pins. It reads the position at the moment it's evaluated, 
 
 ## Common Patterns
 
-**Store start position for Lerp ([[UE Tutorial 1 - A Floor Plate Opens A Door|Tutorial 1]] pattern):**
+**Store start position for Lerp ([[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101]] pattern):**
 On **Event BeginPlay**, call Get Actor Location and save the result to a variable (e.g., ClosedPosition). Use that variable as the A pin on a [[Lerp]], with a manually set OpenPosition as B. Now the door animates relative to wherever it was placed in the level — no hardcoded coordinates.
 
 **Distance check:**

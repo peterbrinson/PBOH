@@ -40,7 +40,7 @@ In [[UE Tutorial 821 - Base Interactive System (WIP)|Tutorial 821]], Hit Actor i
 
 **Get a Reference to Self** — right-click in the Event Graph and search for it. Returns a reference to the current Blueprint's actor. Used when you need to pass *this actor* as a parameter to another Blueprint's function or event.
 
-In [[UE Tutorial 3 - Scoring and UI|Tutorial 3]], Self is used in BP_Collectable: the collectable passes a reference to itself into the `OnCollectedCollectable` event so that the PlayerState can call [[DestroyActor]] on it at the end of the chain.
+In [[UE Tutorial 103 - Scoring and UI|Tutorial 103]], Self is used in BP_Collectable: the collectable passes a reference to itself into the `OnCollectedCollectable` event so that the PlayerState can call [[DestroyActor]] on it at the end of the chain.
 
 ### By Component (Get Component by Class)
 
@@ -62,7 +62,7 @@ These references are temporary — they exist on the wire but disappear after th
 
 A reference that flows through a pin is gone after that frame's execution. To use it later, **Promote to Variable**: drag off an output pin and select **Promote to Variable**. This creates a named variable (visible in the Variables panel) that stores the reference persistently.
 
-In [[UE Tutorial 3 - Scoring and UI|Tutorial 3]], the return value of [[Create Widget]] is promoted to a variable called `ScoreWidget`. This lets the scoring logic access the widget later to call `OnScoreUpdated` and update the displayed text.
+In [[UE Tutorial 103 - Scoring and UI|Tutorial 103]], the return value of [[Create Widget]] is promoted to a variable called `ScoreWidget`. This lets the scoring logic access the widget later to call `OnScoreUpdated` and update the displayed text.
 
 **When to promote:** if you need a reference more than once, or in a different part of the Event Graph from where it was created, promote it.
 
@@ -83,6 +83,6 @@ In [[UE Tutorial 3 - Scoring and UI|Tutorial 3]], the return value of [[Create W
 
 ## Source
 
-- [[UE Tutorial 3 - Scoring and UI|Tutorial 3]] — Self reference (Step 5), Promote to Variable (Step 3)
+- [[UE Tutorial 103 - Scoring and UI|Tutorial 103]] — Self reference (Step 5), Promote to Variable (Step 3)
 - Synthesized from existing wiki pages: [[Get Player Controller]], [[Get Player State]], [[Cast To]], [[Create Widget]], [[OnComponentBeginOverlap]]
 

@@ -66,7 +66,7 @@ A Widget Blueprint defines the UI layout but doesn't display anything on its own
 
 ## Common Patterns
 
-**HUD score display ([[UE Tutorial 3 - Scoring and UI|Tutorial 3]] pattern):**
+**HUD score display ([[UE Tutorial 103 - Scoring and UI|Tutorial 103]] pattern):**
 Create a Widget Blueprint with a [[TextBlock]]. In the game Blueprint, use [[Create Widget]] to instantiate it, then [[Add to Player Screen]] to display it. When the player collects something, update the TextBlock's text via Set Text (Text) to reflect the new count.
 
 **Full-screen reading overlay ([[UE Tutorial 801 - Inspect an Object|Tutorial 801]] pattern):**

@@ -574,3 +574,55 @@ This aligns the section heading with the Step 5 tier name (tier 3 = **Off-map**)
 Also: new `corpus/Design/Worldbuilding/CLAUDE.md` folder pointer (mirrors `Narrative/CLAUDE.md`); `how-the-tutor-works.md` Session-start notes worldbuilding projects route to the same skill.
 
 **Status — pending validation.** Not yet dry-run. Validate per the plan: a fresh GET session (Claude reference runtime), present a worldbuilding idea (the Geidai "normal gallery, then make it strange" Small World is the natural test), confirm the branch fires and reaches a build order with SPR-parity engagement; that transcript seeds the deferred WB worked example. Deferred: WB worked example in `agent/examples/`; full Wolf vocabulary in the shaping pass; student-facing name ("worldbuilding project" vs. "Small Worlds project"). Plan file: `C:\Users\brins\.claude\plans\recently-done-a-lot-synchronous-orbit.md`.
+
+### 2026-06-16 — Opener overhaul: closed greeting, emergent hybrid, invitation-first listening, gate-first; "Small Worlds" naming
+
+**Source:** instructor-directed, during the snow-globe dry-run. Reworks the session opening and Branch D's question sequence after the no-SPR route validated. All in `how-the-tutor-works.md` Session start + `map-project-skill.md` (Steps 1–3).
+
+**Changes:**
+1. **Closed greeting.** The door names the projects — "The Investigator, The Traveler, The Dreamer? Or instead, Small Worlds?" — with no "what are you working on" escape hatch; students arrive already assigned. Self-description reframed to a tutor for *playable story and worlds*, with the engine as the secondary, if-it-helps offer (story/worlds primary, build order secondary).
+2. **Hybrid is emergent, not at the door.** Dropped from the opening menu. Branch B now fires "declared *or* detected," with a guardrail: a side cross-role feature stays Branch A (referenced); a co-equal second lens gets named and engaged; a reframe of a single-role idea uses the two-response pattern.
+3. **Invitation-first listening (Step 2).** Open with a bare "tell me about your idea/world," then stop — clarifying questions come *after* the student talks (was firing a numbered battery up front). Applies to all branches.
+4. **Gate-first (Branch D).** The SPR-familiarity question is asked on its own and answered *before* the world-description invitation, so the student doesn't answer the world prompt and skip the gate.
+5. **"Small Worlds" is the student-facing assignment name.** Resolves the long-pending naming question (folder paths stay `corpus/Design/Worldbuilding/`). A student who picks Small Worlds is assumed to have read the hub + had the lectures, so the framework vocabulary (Finite/Bounded/Threshold, Meeting the World, Responsiveness, Teaching the Rules) is invoked **by name as shared course language, never taught fresh.** This assumption is independent of the SPR gate — the gate governs only *role* vocabulary; Small Worlds vocab is in play on both routes.
+
+**Also:** the snow-globe dry-run was promoted to the first worldbuilding worked example (`agent/examples/worldbuilding-snowglobe.md`, no-SPR route), wired into Step 7's loader.
+
+**Status — no-SPR route validated** (snow-globe transcript, `The-GET-dev/responses/response-snowglobe.md`); the role-aware gate route is still untested.
+
+### 2026-06-17 — Greeting wording; dedicated structure section; build-order line reworded
+
+**Source:** instructor-directed.
+
+**Changes:**
+1. **Greeting wording (final).** The self-description line now reads, verbatim: *"I'm The GET, your tutor for designing playable stories and worlds. We can discuss an idea of yours, and if it helps, I'll recommend a build order using the Unreal Game Engine."* (`how-the-tutor-works.md` Session start — supersedes the 2026-06-16 "playable story and worlds" phrasing.)
+2. **Dedicated structure section (worldbuilding).** A Branch D response now opens with a **standalone heading** naming which of the three Small Worlds structures the idea is (Finite / Bounded / Threshold) and what it means for the design — e.g. *The kind of small world this is* — separate from and above the *the world you're building* shaping section (Meeting the World / Teaching the Rules). Both sit early, before the tradeoff. Supersedes Step 7's prior "a paragraph woven in, not a new heading stack" instruction. The `worldbuilding-snowglobe` example was split to match.
+3. **Build-order line reworded (global).** Replaced the "Order is triage — the top is the spine… cut from the bottom, not the top" note that opened every build order with: *"Following this sequence, you'll have something playable from the start. And the last items, if you run out of time, can be dropped."* Applied across all five worked examples, the templates skeleton (`map-project-skill-templates.md`), and Step 6's prescription. The internal triage/spine reasoning stays as authoring guidance; only the student-facing line changed.
+
+**Status — in GET-test for a fresh snow-globe comparison run** (instructor running a concurrent session to compare against the prior transcript).
+
+### 2026-06-17 — Structure & role first-mentions name the framework; Small World capitalized; no "teacher"; Branch D role-aware route validated + scale-doors example
+
+**Source:** instructor-directed, reviewing two live Small World dry-runs (the snow-globe re-run and a role-aware scale-doors session).
+
+**Changes:**
+1. **Name the structure explicitly as one of the three** (Branch D sub-step 1). The first mention gives it as *the first / second / third structure* + name + a one-line definition, with a ready summary for each — Finite, Bounded ("…where the player can encounter the edge of the world but cannot pass it"), Threshold. Replaces the looser "what you're describing is a bounded world" example sentence; works for all three, not just Bounded.
+2. **First role mention names the framework** (Step 3, all branches). Frame the first naming as *"Your idea fits the Situated Player Role, The Entrant"* (subtitle optional: Investigator/World as Evidence, Traveler/World as Passage, Entrant/World as Threshold, Dreamer/World as Enigma); plain role name thereafter. Parallels the structure-naming move.
+3. **"Small World(s)" is always capitalized** (Vocabulary) — the framework's term, never lowercase even in generic prose. Fixed in the skill prose and the snowglobe example heading.
+4. **No "teacher" in teaching-through-play** (Branch D shaping bullet) — the *world* teaches and the *player* learns; there's no "teacher" character in the loop (don't write "the teacher's reset").
+
+**Worked example + loader:**
+- New `agent/examples/worldbuilding-scale-doors.md` — the **role-aware** Small World exemplar (Entrant/Dreamer), companion to the no-SPR `worldbuilding-snowglobe`. Models the two-axis summary (dedicated structure section + role section) and a role-anchored build; carries all four rules above.
+- Step 7 loader now picks the WB exemplar by route — `worldbuilding-snowglobe` (no-SPR) vs `worldbuilding-scale-doors` (role-aware) — plus the matched role example on the role-aware route. Pointers updated.
+
+**Status — Branch D fully validated.** Both gate routes confirmed in fresh Claude sessions: no-SPR (snow-globe) and role-aware (scale-doors). Instructor proofread of `worldbuilding-scale-doors` still pending (standard for a new few-shot).
+
+### 2026-06-18 — Tutorials 1–4 renumbered to 101–104 (naming consistency)
+
+**Source:** instructor-directed.
+
+**Change:** The four foundational 100-block tutorials were renamed `Tutorial 1/2/3/4 → 101/102/103/104` to match the folder-keyed hundreds-block scheme every later tutorial already uses (201/202, 301/302, 401, 501, 701/702, 801/821, 901). Files `git mv`'d in `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/` (folder/section names unchanged); titles after the number are identical.
+
+**Reference sweep.** All references updated via a guarded `Tutorial ([1-4])(?![0-9])` → +100 pass (the digit-lookahead excludes 101/201/401/1000/1031, etc.), plus hand-fixes for `coverage:` frontmatter bare digits and `Tut N` abbreviations. Touched: all Wiki - Unreal pages, the capability-map Tutorial Index + feature table + guidance line, all six `agent/examples/`, both tutorial index pages, the four tutorials' own cross-refs, and the Worldbuilding hub refs. Living docs in `The-GET-dev/` also updated (conversion-pipeline tracker, context-audit, foldable-sections — mocks left intact). **Left as dated history** (per the don't-update-archives convention): `session-log.md`, this revision log's prior entries, `The-GET-dev/responses/*.md`, `_meta/log.md`, and a `z_instructor/` learning-note.
+
+**Published-URL note:** Quartz slugs change (`ue-tutorial-1-…` → `ue-tutorial-101-…`); old bookmarks 404. Accepted (site not widely externally linked pre-rollout); no aliases added. Quartz build verified clean — no broken-link / unresolved-wikilink warnings.

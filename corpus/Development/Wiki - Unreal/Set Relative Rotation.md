@@ -30,10 +30,10 @@ The New Rotation pin is a Rotator (3 values packed together). For a door that on
 
 ## Common Patterns
 
-**Door swing ([[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]], Chapter B):**
+**Door swing ([[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]], Chapter B):**
 [[OnComponentBeginOverlap]] → [[Cast To]] player → [[Timeline]] outputs 0→1 → [[Lerp]] between 0° and 90° → Set Relative Rotation with Split Struct Pin, connecting only the Z (Yaw) pin. The door swings open around its parent's origin.
 
-**Rotation axis trick (Tutorial 4, Chapter B):**
+**Rotation axis trick (Tutorial 104, Chapter B):**
 A door mesh rotates around its own center by default — not around its hinge. Fix: place a **Static Mesh Actor** at the hinge point, make the door a child of it. Apply Set Relative Rotation to the parent. The door now swings around the hinge, not its center. This parent-as-pivot pattern works for any hinged object.
 
 ## Related
@@ -45,5 +45,5 @@ A door mesh rotates around its own center by default — not around its hinge. F
 ## Source
 
 - [Set Relative Rotation | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Transformation/SetRelativeRotation?application_version=5.7) — clipped 2026-04-11
-- [[UE Tutorial 4 - Haunted House Triggers and Events|Tutorial 4]] — Chapter B (door rotation, Split Struct Pin, parent-as-pivot)
+- [[UE Tutorial 104 - Haunted House Triggers and Events|Tutorial 104]] — Chapter B (door rotation, Split Struct Pin, parent-as-pivot)
 

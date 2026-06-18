@@ -55,7 +55,7 @@ Two more, told entirely through evidence:
 
 ## The Pragmatic Case
 
-A catalyst of speculation is effective — and it is also pragmatic. What you imply, you don't have to build. A gap costs nothing to model, animate, or explain, yet the player's imagination fills it more richly than any asset might. This is why withholding pairs so naturally with a [[Small Worlds|small world]]: [[Completeness|completeness]] is a matter of degree, and the unbuilt edges are where speculation does its work.
+A catalyst of speculation is effective — and it is also pragmatic. What you imply, you don't have to build. A gap costs nothing to model, animate, or explain, yet the player's imagination fills it more richly than any asset might. This is why withholding pairs so naturally with a [[Small Worlds|Small World]]: [[Completeness|completeness]] is a matter of degree, and the unbuilt edges are where speculation does its work.
 
 ## The PKD Connection
 

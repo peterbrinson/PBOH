@@ -38,7 +38,7 @@ You can plug integers, floats, booleans, vectors, and most other types directly 
 **Event verification:**
 Drag off any event's execution pin → Print String with "Event fired!" to confirm the event is actually triggering.
 
-**Variable inspection ([[UE Tutorial 2 - Collectables and Restart|Tutorial 2]] pattern):**
+**Variable inspection ([[UE Tutorial 102 - Collectables and Restart|Tutorial 102]] pattern):**
 After [[Increment Int]] updates a collectable count, Print String shows the current value. Helps verify the count is increasing as expected.
 
 **Updating display with Key:**
