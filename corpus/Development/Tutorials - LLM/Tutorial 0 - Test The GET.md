@@ -46,7 +46,7 @@ Point Claude Code to your new folder, `The-GET`.
 
 ## 5. Start a session
 
-At the Claude Code prompt, type exactly:
+At the Claude Code prompt, type:
 
 ```
 Start a GET session.
@@ -58,13 +58,13 @@ It'll greet you and ask which role you're working in.
 
 ## 6. Bring an idea and pick a role
 
-You've already pick a role and drafted an idea.   Think of the idea for your project as if for an assignment. Your idea doesn't need to be complete or all sorted out.
+You've already picked a Situated Player Role and drafted an idea.   Think of the idea for your project as if for an assignment. Your idea doesn't need to be complete or all sorted out.
 
 ---
 
 ## 7. Capture the output
 
-After it drafts a plan (you'll know it when you see it - it'll include a "Build Order" and other concrete categories), two things:
+After a bit of back and forth in your conversation, it will draft a plan (you'll know it when you see it - it'll include a "Build Order" and other concrete categories).  Two things:
 
 - Ask it to **write the full response to a file** in the folder (e.g., *"save this plan to project-plan.md"*).
 - Also **save a copy of the whole session** — paste the entire transcript into a text file and send it back. The conversation itself is what's most useful to see.
