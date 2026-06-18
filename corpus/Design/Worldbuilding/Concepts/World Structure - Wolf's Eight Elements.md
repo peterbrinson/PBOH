@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 Wolf (p.154–155): a world needs **three foundational structures** to exist, plus **five more** that comprise the world itself.
 
 ## Three Foundational Structures (p.154)

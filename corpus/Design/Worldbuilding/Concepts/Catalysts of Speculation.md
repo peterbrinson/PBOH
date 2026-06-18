@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 Wolf's term (p.60) — what the designer leaves **untold or unrealized** so that the audience imagines it. It is a deliberate withholding that generates an imaginative experience.
 
 *Note: this appears to be his own term; not found in wider use apparently.*

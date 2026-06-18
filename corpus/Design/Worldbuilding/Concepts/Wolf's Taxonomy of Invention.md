@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 **Invention** = the degree to which default assumptions based on the primary (real) world have been changed (Wolf p.34). For example, a green sun is invention. In science fiction, we might want to know the rule behind that invention.  In fantasy, we do not expect to learn it.  Invention is the *step* from the real world to the fiction world.
 
 ## Four Types (Wolf p.35)

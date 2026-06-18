@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 An in-game codex is an optional database of world lore accessible through a menu — history, species, factions, technology — delivered as text entries outside the flow of play.
 
 Classic examples: the species and political entries in *Mass Effect*, item descriptions in *Dark Souls*, datapads in Star Wars games.

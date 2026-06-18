@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 Mark Wolf (p.43): consistency is the degree to which world details are **plausible, feasible, and without contradiction**.
 
 Rather than strive to make a world realistic (as we don't know what that means), aim to make it consistent. The rules can be surprising, even impossible, but once established, they work moving forward. 

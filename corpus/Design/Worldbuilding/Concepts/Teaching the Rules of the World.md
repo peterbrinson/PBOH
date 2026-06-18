@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 A primary design challenge for video game designers is teaching the player how to play.  This is teaching the rules of the world.  
 
 Two approaches:

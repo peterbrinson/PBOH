@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 Every worldbuilding endeavor begins somewhere. Three common entry points:
 
 - **Story-first** — you have a narrative and build the world to support it

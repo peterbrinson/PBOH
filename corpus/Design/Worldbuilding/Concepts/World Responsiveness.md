@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 A world's responsiveness is what makes a space feel *inhabited* — it has memory, behavior, and consequence.
 
 *The following describes world responsiveness with a pragmatic thread*: our set of [[Tutorials - Unreal|Unreal Tutorials]].  

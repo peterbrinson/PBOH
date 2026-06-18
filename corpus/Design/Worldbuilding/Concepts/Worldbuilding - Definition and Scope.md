@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 [[Mark Wolf|Wolf]] (p.17): fictional worlds - we understand them by comparison to reality — the real world is always our starting point, even for the most alien settings.
 
 [[Reading - Worldbuilding in Science Fiction, Foresight and Design (Zaidi)|Zaidi (2019)]]: worlds "provide detailed contextual rule sets that develop a larger reality that extends beyond a single story." The world is a system; the story runs on top of it.

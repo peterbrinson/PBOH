@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 [[Mark Wolf|Wolf]] (p.198): narrative is by far the most common structure found in imaginary worlds, and the reason that most of them exist in the first place.
 
 ## Definitions ([[Mark Wolf|Wolf]] p.199)

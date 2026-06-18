@@ -3,6 +3,9 @@ title: Situational Game Design for Small Worlds
 aliases:
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 This page summarizes the first two chapters of Brian Upton's *Situational Game Design* (2017) for the sake of building Small Worlds.  All page citations refer to that book.
 
 ---

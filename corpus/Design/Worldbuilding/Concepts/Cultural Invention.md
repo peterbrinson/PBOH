@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 Wolf calls culture **the biggest category of invention** — everything made by people: customs, technology, institutions, ideologies, objects, countries (see [[Wolf's Taxonomy of Invention]]).
 
 A well-invented culture does not need to be explained; you feel it in how characters speak, what they value, what they're afraid of. 

@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 Lore and backstory are worldbuilding skills that are likely out of scale of the student.  Tolkien needed backstory because he was building a mythology spanning thousands of years, therefore his books took years to write.  Students have less time.  
 
 In games, the instinct to write lore is a way of avoiding the essential question: **what does the player experience?**

@@ -1,6 +1,9 @@
 ---
 publish: true
 ---
+
+*Part of the [[Small Worlds]] framework.*
+
 Wolf's **Nature** element (p.155) includes landscape, climate, flora, fauna — and physics. The physical laws of a world are part of its nature.
 
 Most worlds borrow our physics without reference or complication. But the more deliberately a world departs from it, the more it reveals itself as a designed system with a point of view.
