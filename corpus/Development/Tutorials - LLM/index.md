@@ -8,6 +8,7 @@ publish: true
 
 Set up The GET in a local AI tool, then start using it. Work through these once, in order.
 
+- [[Tutorial 0 - Test The GET]] — quick try-it path for a Claude Code tester (no fork)
 - [[Tutorial 1000 - Fork and Clone The GET]] 
 - [[Tutorial 1001 - Install Gemini Locally (CLI)]]
 - [[Tutorial 1002 - Set Up Gemini Desktop (Antigravity)]]
