@@ -8,7 +8,7 @@ Wolf's term (p.60) — what the designer leaves **untold or unrealized** so that
 
 *Note: this appears to be his own term; not found in wider use apparently.*
 
-This is a kind of opposite of **[[Lore as a Trap|lore-dumping]]**, which is delivering large amounts of world backstory, history, or mythology to the audience in an undramatized block — through exposition, cutscenes, sometimes, or text walls — rather than letting it emerge through experience.
+
 
 ## The Gap
 
@@ -33,6 +33,9 @@ When a catalyst opens a gap, the player can respond in two ways:
 
 Anticipation is perfectly common: nearly every story opens with unknowns and then answers them. Anticipation is simply the experience of waiting for the answer. A catalyst of speculation describes a gap we fill in — or one we let stand.
 
+
+
+
 ## Examples
 
 **Jaws** — a gap with intent. We barely see the shark; the surface of the water is the boundary, and everything beneath it is withheld. *(Practice closure — beneath the water.)*
@@ -56,6 +59,7 @@ Two more, told entirely through evidence:
 - [[Game - Outer Wilds|Outer Wilds]] — the entire game is forensic reconstruction of a dead civilization. Nothing is told to you upfront. The world existed before you arrived and will exist after you're gone; you're just reading its traces. *(Practice closure.)*
 - [[Game - Return of the Obra Dinn|Return of the Obra Dinn]] — you reconstruct what happened to a ship's crew entirely from frozen moments. The world is implied through evidence, never explained. The gaps are the game. *(Practice closure.)*
 
+
 ## The Pragmatic Case
 
 A catalyst of speculation is effective — and it is also pragmatic. What you imply, you don't have to build. A gap costs nothing to model, animate, or explain, yet the player's imagination fills it more richly than any asset might. This is why withholding pairs so naturally with a [[Small Worlds|Small World]]: [[Completeness|completeness]] is a matter of degree, and the unbuilt edges are where speculation does its work.
@@ -64,9 +68,11 @@ A catalyst of speculation is effective — and it is also pragmatic. What you im
 
 Philip K. Dick: *"Reality is that which, when you stop believing in it, doesn't go away."*  [[Reading - Philip K Dick]].
 
+
 ## Related
 - [[Completeness]]
 - [[Lore as a Trap]]
+- [[Awkward Exposition]]
 - [[Situated Player Roles]]
 - [[Reading - Philip K Dick]]
 - [[Mark Wolf]]

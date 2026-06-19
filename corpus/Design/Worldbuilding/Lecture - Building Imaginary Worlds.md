@@ -1,10 +1,12 @@
 ---
+title: "Lecture: Building Imaginary Worlds"
+aliases:
+  - Mark Wolf
+  - Building Imaginary Worlds
 publish: true
 ---
 
 *Part of the [[Small Worlds]] framework.*
-
-# Building Imaginary Worlds
 
 This page covers the core vocabulary from Mark Wolf's *Building Imaginary Worlds* — a strong reference for worldbuilding terms. 
 

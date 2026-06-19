@@ -21,14 +21,17 @@ Unlike the four roles, the three structures do **not** map to tutorial clusters 
 ## Key shaping pages
 
 - `index.md` — the hub (the three structures + Wolf's vocabulary, all linked from here)
-- `Meeting the World.md` — how the player first crosses into the world (the entry as a designed moment)
-- `World Responsiveness.md` — how the world reacts to the player; **the bridge to the build** (triggers/events → Tutorial 104, the Haunted House)
-- `Teaching the Rules of the World.md` — teaching invented rules through play, not exposition
-- `Situational Game Design for Small Worlds.md` — Upton's situations/constraints, the conceptual underpinning
-- `Starting Points for World Creation.md` — story-/systems-/world-first entry points
-- Wolf's vocabulary: `Consistency and Internal Logic.md`, `Completeness.md`, `Wolf's Taxonomy of Invention.md`, `World Structure - Wolf's Eight Elements.md`, `Cultural Invention.md`, `Nature and Invented Physics.md`, `Transmedia.md`
-- Exposition without lore-dumping: `Lore as a Trap.md`, `Catalysts of Speculation.md`, `In-Game Codexes.md`
-- `attachments/` — images embedded by the pages above
+- Two survey lectures adapted from CTIN 128, sitting at top level beside the cluster folders:
+  - `Lecture - Building Imaginary Worlds.md` — title "Lecture: Building Imaginary Worlds" (aliased `Mark Wolf`); the richest single overview of Wolf's vocabulary
+  - `Lecture - Situational Game Design for Small Worlds.md` — title "Lecture: Situational Game Design for Small Worlds" (aliased `Situational Game Design for Small Worlds`); Upton's situations
+
+The concept pages are grouped into four cluster folders directly under `Worldbuilding/` (each a folder note + members):
+
+- `Foundations/` — what worldbuilding is and where to start: `Worldbuilding - Definition and Scope.md`, `Starting Points for World Creation.md`
+- `Vocabulary/` — Wolf's analytic terms: `Consistency and Internal Logic.md`, `Completeness.md`, `World Structure - Wolf's Eight Elements.md`, `Narrative Structure in Worlds.md`, `Transmedia.md`, and the nested invention cluster `Taxonomy of Invention/` (folder note `index.md` + `Cultural Invention.md`, `Nature and Invented Physics.md`)
+- `The Experience/` — the playable shaping moments: `Meeting the World.md` (the entry), `World Responsiveness.md` (**the bridge to the build** — triggers/events → Tutorial 104, the Haunted House), `Teaching the Rules of the World.md`
+- `Exposition and Anticipation/` — revealing without dumping: `Lore as a Trap.md`, `Catalysts of Speculation.md`, `Awkward Exposition.md` (the in-game codex now lives as a section inside `Catalysts of Speculation.md`)
+- `attachments/` — images embedded by the pages above (resolved by filename, so the cluster moves didn't affect them)
 
 ## Where this fits
 

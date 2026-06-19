@@ -1,6 +1,7 @@
 ---
-title: Situational Game Design for Small Worlds
+title: "Lecture: Situational Game Design for Small Worlds"
 aliases:
+  - Situational Game Design for Small Worlds
 publish: true
 ---
 

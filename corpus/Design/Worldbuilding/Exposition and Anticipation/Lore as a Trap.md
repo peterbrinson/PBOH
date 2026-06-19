@@ -10,7 +10,7 @@ In games, the instinct to write lore is a way of avoiding the essential question
 
 ## Lore-dumping
 
-Defined as delivering world backstory, history, or mythology in an undramatized block — exposition, cutscenes, text walls, [[In-Game Codexes|in-game codexes]] — rather than letting information emerge through experience.  Lore-dumping is when the world stops moving so it can explain itself. It conflicts with the aspirations of the [[Catalysts of Speculation]].
+Defined as delivering world backstory, history, or mythology in an undramatized block — exposition, cutscenes, text walls — rather than letting information emerge through experience. Lore-dumping is when the world stops moving so it can explain itself; it conflicts with the aspirations of the [[Catalysts of Speculation]]. (An [[Awkward Exposition|in-game codex]] is the graceful exception — opt-in and player-paced, so the world never has to stop.)
 
 ## The Provocation
 
@@ -34,5 +34,6 @@ History and depth can be implied through details — a texture, a sound, even a 
 - [[Small Worlds]]
 - [[Transmedia]]
 - [[Catalysts of Speculation]]
+- [[Awkward Exposition]]
 - [[Narrative Structure in Worlds]]
 
