@@ -8,7 +8,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, **Deep Code** — a terminal agent that runs on the DeepSeek model — is installed, connected to your DeepSeek API key, and verified. The next tutorial — [[Tutorial 1032 - Set Up The GET for DeepSeek]] — downloads The GET's content and gets you to your first session.
+**Outcome.** By the end of this tutorial, **Deep Code** — a terminal agent that runs on the DeepSeek model — is installed, connected to your DeepSeek API key, and verified. The next tutorial — [[Tutorial 1034 - Set Up The GET for DeepSeek]] — downloads The GET's content and gets you to your first session.
 
 **Time.** About 15 minutes.
 
@@ -87,7 +87,7 @@ Save the file.
 
 <span class="hint">On Windows, if your text editor adds a `.txt` ending, the file becomes `settings.json.txt` and won't work. Make sure it's saved as exactly `settings.json` (in the editor's Save dialog, set "Save as type" to **All Files**).</span>
 
-# *++++++++++ Deep Code is installed* — continue to [[Tutorial 1032 - Set Up The GET for DeepSeek]].
+# *++++++++++ Deep Code is installed* — continue to [[Tutorial 1034 - Set Up The GET for DeepSeek]].
 
 ---
 
@@ -115,5 +115,5 @@ Open `settings.json` again and check: the key is pasted in full (starts with `sk
 ## What you can now do
 
 - **Run `deepcode` from any terminal** — the agent is installed and pointed at DeepSeek.
-- **Continue to [[Tutorial 1032 - Set Up The GET for DeepSeek]]** — download The GET's content and start your first session.
+- **Continue to [[Tutorial 1034 - Set Up The GET for DeepSeek]]** — download The GET's content and start your first session.
 - **Want a free path instead?** Gemini is free with a personal Google account ([[Tutorial 1001 - Install Gemini for the Terminal]]).

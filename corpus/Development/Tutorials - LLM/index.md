@@ -34,7 +34,7 @@ Then pick **one** AI tool below and follow its four steps. The first three are a
 
 ### DeepSeek — pay-as-you-go API key; terminal only
 - [[Tutorial 1031 - Install DeepSeek for the Terminal]]
-- [[Tutorial 1032 - Set Up The GET for DeepSeek]]
+- [[Tutorial 1034 - Set Up The GET for DeepSeek]]
 
 **Finally:**
 - [[Tutorial 1101 - Start Using The GET]]
