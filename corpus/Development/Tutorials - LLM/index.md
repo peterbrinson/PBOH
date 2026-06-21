@@ -32,8 +32,8 @@ Then pick **one** AI tool below and follow its four steps. The first three are a
 - [[Tutorial 1023 - Set Up Codex in VSCode]]
 - [[Tutorial 1024 - Set Up The GET for Codex]]
 
-### DeepSeek
-- [[Tutorial 1031 - Install DeepSeek]]
+### DeepSeek — pay-as-you-go API key; terminal only
+- [[Tutorial 1031 - Install DeepSeek for the Terminal]]
 - [[Tutorial 1032 - Set Up The GET for DeepSeek]]
 
 **Finally:**

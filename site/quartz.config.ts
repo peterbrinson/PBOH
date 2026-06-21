@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "vlabusc.github.io/The-GET",
-    ignorePatterns: ["private", "templates", ".obsidian", "**/raw/**"],
+    ignorePatterns: ["private", "templates", ".obsidian", "**/raw/**", "**/CLAUDE.md", "**/GEMINI.md", "**/DEEPSEEK.md", "**/AGENTS.md"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
