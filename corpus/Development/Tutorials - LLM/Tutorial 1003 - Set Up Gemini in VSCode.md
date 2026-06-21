@@ -12,7 +12,7 @@ publish: true
 
 **Time.** About 10 minutes.
 
-**Prerequisites.** [[Tutorial 1001 - Install Gemini Locally (CLI)]] and [[Tutorial 1004 - Set Up The GET for Gemini]] complete — the Gemini CLI is installed, The GET is downloaded, and you've authenticated via Sign in with Google. This tutorial doesn't change anything about Gemini itself; it just runs it inside a nicer container.
+**Prerequisites.** [[Tutorial 1001 - Install Gemini for the Terminal]] and [[Tutorial 1004 - Set Up The GET for Gemini]] complete — the Gemini CLI is installed, The GET is downloaded, and you've authenticated via Sign in with Google. This tutorial doesn't change anything about Gemini itself; it just runs it inside a nicer container.
 
 **Why.** Running the GET in VSCode adds three things over the bare terminal:
 - A **file tree** so you can browse tutorials, wiki pages, and references without opening a separate window

@@ -10,7 +10,7 @@ publish: true
 **Outcome.** By the end of this tutorial, The GET's content is on your machine, your LLM CLI is working and pointed at the folder, making you ready for [[Tutorial 1101 - Start Using The GET]].
 
 
-**Prerequisites.** [[Tutorial 1001 - Install Gemini Locally (CLI)]] complete — the Gemini CLI is installed and the `gemini` command runs.
+**Prerequisites.** [[Tutorial 1001 - Install Gemini for the Terminal]] complete — the Gemini CLI is installed and the `gemini` command runs.
 
 **Learning Objectives:**
 - Download The GET's content from GitHub
