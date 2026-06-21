@@ -1,8 +1,6 @@
----
+﻿---
 publish: true
 ---
-
-*Part of the [[Small Worlds]] framework.*
 
 Mark Wolf (p.38–39): completeness is a **degree**.  Every world has gaps. The question is how those gaps are handled.
 

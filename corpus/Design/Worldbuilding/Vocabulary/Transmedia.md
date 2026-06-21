@@ -1,8 +1,6 @@
----
+﻿---
 publish: true
 ---
-
-*Part of the [[Small Worlds]] framework.*
 
 Transmedia describes the phenomenon of multiple stories told in multiple mediums taking place in one world.
 
@@ -29,6 +27,6 @@ Henry Jenkins coined the term "transmedia storytelling" (2003): "a process where
 - [[Completeness]]
 - [[Consistency and Internal Logic]]
 - [[Lore as a Trap]]
-- [[Small Worlds]]
+- [[Bounded Worlds]]
 - [[Mark Wolf]]
 

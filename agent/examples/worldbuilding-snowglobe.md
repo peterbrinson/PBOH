@@ -1,4 +1,4 @@
----
+﻿---
 publish: false
 route: worldbuilding — Branch D, "hasn't studied the Situated Player Roles" (no-SPR route)
 coverage: all features taught (301 landscape/sky, 702 Niagara snow, 101 trigger, 401 materials, 701 post-process, 801 fade, 104 sound); off-map = warped-sky distortion shader + Unreal Camera Shake
@@ -6,7 +6,7 @@ coverage: all features taught (301 landscape/sky, 702 Niagara snow, 101 trigger,
 
 # The Snow Globe — Worldbuilding (example session)
 
-*An example of how the GET maps a Small Worlds project on the route for a student who hasn't studied the Situated Player Roles. The student developed the idea across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy. Note the manner specific to this route: the summary leads with the world, not a player role; no role is named anywhere; the capability map is used as a plain feature-to-tutorial lookup, its role columns set aside; and the Small Worlds framework (the structures, Meeting the World, Responsiveness) is invoked by name as vocabulary the student already knows — never taught fresh.*
+*An example of how the GET maps a Bounded Worlds project on the route for a student who hasn't studied the Situated Player Roles. The student developed the idea across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy. Note the manner specific to this route: the summary leads with the world, not a player role; no role is named anywhere; the capability map is used as a plain feature-to-tutorial lookup, its role columns set aside; and the Bounded Worlds framework (the structures, Meeting the World, Responsiveness) is invoked by name as vocabulary the student already knows — never taught fresh.*
 
 **Dear student: this is not here to demonstrate a quality idea, or to influence the kind of idea you devise. It is here so that the LLM has a structural reference — a key component of how context engineering works.**
 
@@ -18,7 +18,7 @@ coverage: all features taught (301 landscape/sky, 702 Niagara snow, 101 trigger,
 
 ---
 
-### The kind of Small World this is
+### The kind of Bounded World this is
 
 A forest that turns out to be an ornament. At first it reads as the whole world — trees, snow, statues, nothing beyond. Then the shake, the snow falling wrong, the warped sky, the face — and the world suddenly has an outside it never seemed to have. You can see out, but you'll never get out. What you've described falls into the second structure, a Bounded world, where the player can encounter the edge of the world but cannot pass it — and yours earns it the best possible way: the player isn't told the edge exists, they discover it. The reveal is the design.
 

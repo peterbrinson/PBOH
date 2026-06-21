@@ -1,8 +1,6 @@
----
+﻿---
 publish: true
 ---
-
-*Part of the [[Small Worlds]] framework.*
 
 Wolf's term (p.60) — what the designer leaves **untold or unrealized** so that the audience imagines it. It is a deliberate withholding that generates an imaginative experience.
 
@@ -16,13 +14,13 @@ A catalyst of speculation creates a **gap** — in the story, the situation, or 
 
 ## The Zone of Maximum Joy
 
-For players and audiences, the place of maximum joy — the zone in which creators play — is when people **think** they can reach closure but don't feel certainty (Will Storr, *The Science of Storytelling*).
+For players and audiences, the place of maximum joy — the zone in which creators play — is when people believe they can reach closure but don't feel certainty (Will Storr, *The Science of Storytelling*).
 
 That uncertainty is pleasant for one of three reasons:
 
-1. anticipating that answers are forthcoming;
+1. anticipating that the answers are forthcoming;
 2. imagining what is not shown;
-3. or the ambiguity itself is pleasing — closure isn't wanted.
+3. or the ambiguity itself is pleasing — closure isn't wanted or sought.
 
 ## Two Responses to a Gap
 
@@ -31,7 +29,7 @@ When a catalyst opens a gap, the player can respond in two ways:
 1. **Practice closure** — the gap generates anticipation, and the player (or reader) fills it in.
 2. **Tolerate the gap** — the player accepts the gap, perhaps enjoying the lack of closure.
 
-Anticipation is perfectly common: nearly every story opens with unknowns and then answers them. Anticipation is simply the experience of waiting for the answer. A catalyst of speculation describes a gap we fill in — or one we let stand.
+  Stories are loops of unknowns preceeding answers. Anticipation is the experience of waiting for the answer. A catalyst of speculation describes a gap we fill in — or one we let stand.
 
 
 
@@ -62,7 +60,7 @@ Two more, told entirely through evidence:
 
 ## The Pragmatic Case
 
-A catalyst of speculation is effective — and it is also pragmatic. What you imply, you don't have to build. A gap costs nothing to model, animate, or explain, yet the player's imagination fills it more richly than any asset might. This is why withholding pairs so naturally with a [[Small Worlds|Small World]]: [[Completeness|completeness]] is a matter of degree, and the unbuilt edges are where speculation does its work.
+A catalyst of speculation is effective — and it is also pragmatic. What you imply, you don't have to build. A gap costs nothing to model, animate, or explain, yet the player's imagination fills it more richly than any asset might. This is why withholding pairs so naturally with a [[Bounded Worlds|Bounded World]]: [[Completeness|completeness]] is a matter of degree, and the unbuilt edges are where speculation does its work.
 
 ## The PKD Connection
 

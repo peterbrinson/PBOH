@@ -1,8 +1,6 @@
----
+﻿---
 publish: true
 ---
-
-*Part of the [[Small Worlds]] framework.*
 
 [[Mark Wolf|Wolf]] (p.198): narrative is by far the most common structure found in imaginary worlds, and the reason that most of them exist in the first place.
 
@@ -13,7 +11,7 @@ publish: true
 - **Narrative braid** — multiple narrative threads that sometimes intersect
 
 ## Backstory ([[Mark Wolf|Wolf]] p.202)
-Backstory is the narrative that happened before the story the audience experiences. It's one of the primary tools for implying depth — but it's also a trap. See [[Lore as a Trap]].
+Backstory is the narrative that happened before the story the audience experiences. It's one of the primary tools for implying depth — but for us, likely a trap. See [[Lore as a Trap]].
 
 ## Worldbuilding vs. Narrative Economy
 

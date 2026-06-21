@@ -1,8 +1,6 @@
----
+﻿---
 publish: true
 ---
-
-*Part of the [[Small Worlds]] framework.*
 
 [[Mark Wolf|Wolf]] (p.17): fictional worlds - we understand them by comparison to reality — the real world is always our starting point, even for the most alien settings.
 
@@ -18,11 +16,11 @@ According to [[Mark Wolf|Mark Wolf]], worldbuilding is the process of constructi
 Scholar Marie-Laure Ryan offers a three-part test:
 - **Connected objects** —  the world forms an interrelated network of entities.  Characters, props, locations and other elements link together meaningfully.
 - **Habitable environment** — the setting plausibly supports its inhabitants’ existence.  Physically or socially, characters are able to live and act there.  The world has its own ecology, physics or social order that allows life (or playable activity) to continue
-- **Intelligible totality** — observers make sense of the world as a coherent whole.  There is an overall internal logic, consistent rules, and comprehensibility.  Inventions definite the world, and yet, the world isn’t arbitrary or contradictory.  
+- **Intelligible totality** — observers make sense of the world as a coherent whole.  There is an overall internal logic, consistent rules, and comprehensibility.  Inventions definite the world.
 
 ## Worldbuilding ≠ Storytelling
 
-Traditional storytelling values **narrative economy** — writers include only what advances the story. Worldbuilding does not. Digressions, unnecessary details, and dense data can all be great for expressing a world ([[Mark Wolf|Wolf]] p.29). The detail that goes nowhere *in the plot* may still do essential work in making the place feel real.
+Traditional storytelling values **narrative economy** — writers include only what advances the story. Worldbuilding does not. Digressions, apparently unnecessary details, and dense data can all be great for expressing a world ([[Mark Wolf|Wolf]] p.29). The detail that goes nowhere in the plot may still do essential work in making the place feel real.
 
 ## Related
 - [[Wolf's Taxonomy of Invention]]

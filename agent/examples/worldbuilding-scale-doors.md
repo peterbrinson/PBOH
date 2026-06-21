@@ -1,13 +1,13 @@
----
+﻿---
 publish: false
 route: worldbuilding — Branch D, "has studied the Situated Player Roles" (role-aware route)
 role: entrant — also serves Dreamer (shared mechanics); the role-aware companion to worldbuilding-snowglobe
 coverage: most taught (101 door triggers, 102 restart + shared state, 104 audio zones, 801 readable text + end-card, 701 atmosphere); scale-change = one-node Set Actor Scale join on Tut 101; off-map = path-based story branching
 ---
 
-# Scale Doors — Small World, role-aware route (example session)
+# Scale Doors — Bounded World, role-aware route (example session)
 
-*An example of how the GET maps a Small World project on the route for a student who **has** studied the Situated Player Roles. The student developed the idea across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy. Note the manner specific to this route: the summary names **both axes** — the world's structure (in its own section) and the player's role (named as the Situated Player Role on first mention) — and the build **anchors on the role's tutorial cluster**. The Small Worlds vocabulary (the three structures, Meeting the World, Teaching the Rules) is invoked by name as shared course language the student already knows.*
+*An example of how the GET maps a Bounded World project on the route for a student who **has** studied the Situated Player Roles. The student developed the idea across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy. Note the manner specific to this route: the summary names **both axes** — the world's structure (in its own section) and the player's role (named as the Situated Player Role on first mention) — and the build **anchors on the role's tutorial cluster**. The Bounded Worlds vocabulary (the three structures, Meeting the World, Teaching the Rules) is invoked by name as shared course language the student already knows.*
 
 **Dear student: this is not here to demonstrate a quality idea, or to influence the kind of idea you devise. It is here so that the LLM has a structural reference — a key component of how context engineering works.**
 
@@ -19,11 +19,11 @@ coverage: most taught (101 door triggers, 102 restart + shared state, 104 audio 
 
 ---
 
-### The kind of Small World this is
+### The kind of Bounded World this is
 
 This falls squarely into the third structure, a Threshold world — whose edge becomes a passage the player crosses, moving from one state or space into another. Your doors are exactly that: not just openings between rooms, but crossings that change what the player *is* (their scale) on the way through. And there's a beautiful alignment here — the Situated Player Role this idea plays (more on that below) is the Entrant, "World as Threshold." So the world's structure and the player's job are the same gesture: a boundary you pass by understanding it.
 
-Worth noting the closed-loop flavor too — the rooms form a complete system with no outside, and a wrong turn loops you back to the start.  This dynamic could lead us to categorize this idea falls under the second Small World structure, Bounded Worlds.  But the defining move is the crossing, so the Threshold World structure is the lens to design from.
+Worth noting the closed-loop flavor too — the rooms form a complete system with no outside, and a wrong turn loops you back to the start.  This dynamic could lead us to categorize this idea under the Closed structure — a world whose edge is felt but not crossed. But the defining move is the crossing, so Threshold is the lens to design from.
 
 ### The world you're building
 

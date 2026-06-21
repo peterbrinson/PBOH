@@ -1,8 +1,6 @@
----
+﻿---
 publish: true
 ---
-
-*Part of the [[Small Worlds]] framework.*
 
 Mark Wolf (p.43): consistency is the degree to which world details are **plausible, feasible, and without contradiction**.
 
@@ -34,11 +32,15 @@ Cartoonish gravity, speed, specific materials (bombs, meat grinders, labeled box
 >[!hint] Hold On > > A note about narrative vs play: if this were a game, we would try the same worthwhile approaches until we succeed, or at least more than once.  Wile E. Coyote does not retry his ideas.  
 
 
-## Coupled with a Small World
+## Operating in a Finite World
 ![[spr_investigator_08.avif]]
-La Maison en Petits by Kunio Kato
+La Maison en Petits by Kunio Kato.  The way architecture is metaphor and a vehicles for storytelling is consistent and leverages rather straightforward logic.
 
-We discover the world's with him, as he explores.
+His journey downward triggers flashbacks, each futher back in time as he visits deeper chambers of his home.  
+His impossibly tall home was build over his lifetime, each "story" of the building is a story.  
+The water rises.  He builds upward, just a little ahead of the water - a metaphor for the inevitable end of his life.  
+
+We discover the world with and through him, as he explores.
 https://www.youtube.com/watch?v=jhQ75OV4VRs
 
 

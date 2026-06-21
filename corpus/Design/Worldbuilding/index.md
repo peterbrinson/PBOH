@@ -1,29 +1,29 @@
 ---
-title: "Small Worlds: The Playable and the Imagined"
+title: "Bounded Worlds: The Playable and the Imagined"
 aliases:
   - Worldbuilding
-  - Small Worlds
+  - Bounded Worlds
 publish: true
 ---
 
-# 1. What Is The Small Worlds Framework?
+# 1. What Is The Bounded Worlds Framework?
 
-> [!info] Small Worlds is a game design framework that foregrounds the world as a bounded space — expressive through the world's edge. 
+> [!info] Bounded Worlds is a game design framework that foregrounds the world as a bounded space — expressive through the world's edge. 
 
-Every game design course faces the same challenge: our initial ideas are too large to build.  The Small Worlds framework provides a direct response.  It encourages worlds that are expressive through their limits rather than their size.
+Every game design project faces the same challenge: our initial ideas are too large to build.  The Bounded Worlds framework provides a direct response.  It encourages worlds that are expressive through their limits rather than their size.
 
-The Small Worlds framework is the worldbuilding companion to the [[Situated Player Roles]]: where the player roles turn on what the player does, Small Worlds turns on how the world defines its edges. 
+The Bounded Worlds framework is the worldbuilding companion to the [[Situated Player Roles]]: where the player roles turn on what the player does, Bounded Worlds turns on how the world defines its edges. 
 
-Because the world has overt limits, the designer can focus on making it consistent, inhabited, and intelligible. Small Worlds frames (Brian Upton's) [[Situational Game Design for Small Worlds|situations]] as the essential components of worldbuilding: as the player chooses a path through them, exploration expresses their choices within constraint.
+Because the world has overt limits, the designer can focus on making it consistent, inhabited, and intelligible. Bounded Worlds frames (Brian Upton's) [[Situational Game Design for Bounded Worlds|situations]] as the essential components of worldbuilding: as the player chooses a path through them, exploration expresses their choices within constraint.
 
 # 2. How Will My World's Edges Define My World?
 
-> [!info] Every Small World has one of three boundary types — Finite, Bounded, or Threshold.
+> [!info] Every Bounded World has one of three boundary types — Finite, Closed, or Threshold.
 
-There are a few ways a Small World can treat its edges. Some feel complete in themselves. Some present edges that can be approached but not passed. Others are structured around boundaries the player can cross.
+There are a few ways a Bounded World can treat its edges. Some feel complete in themselves. Some present edges that can be approached but not passed. Others are structured around boundaries the player can cross.
 
-**For your Small Worlds project, your foundational decision**: *does the world imply or provide an outside?*  
-If it doesn't, the world is **Finite**. If it does, ask whether the player can reach it — an outside implied but withheld is **Bounded**; an edge the player passes through is a **Threshold**.
+**For your Bounded Worlds project, your foundational decision**: *does the world imply or provide an outside?*  
+If it doesn't, the world is **Finite**. If it does, ask whether the player can reach it — an outside implied but withheld is **Closed**; an edge the player passes through is a **Threshold**.
 
 ## Finite
 
@@ -42,7 +42,7 @@ The world presents itself as whole. The player engages entirely within what is p
 
 A transition from Finite to Bounded:  [[Reading - Yertle the Turtle (Seuss)|Yertle the Turtle]] (1958) — expanding boundary
 
-## Bounded
+## Closed
 
 The player can encounter the edge of the world. The boundary is felt during play — the system holds the player within its limits — but cannot be passed.
 
@@ -92,7 +92,7 @@ The player can approach and pass from one state or space into another.
 > [!info] A handful of design concepts shape how the player meets, inhabits, and reads the world.
 
 ## [[Meeting the World]] 
-How a player first enters a Small World is itself a designed moment: reading the boundary, sensing the place, an entry that can carry awe, dread, or curiosity.
+How a player first enters a Bounded World is itself a designed moment: reading the boundary, sensing the place, an entry that can carry awe, dread, or curiosity.
 
 
 
@@ -125,8 +125,8 @@ Mark Wolf's *Building Imaginary Worlds* (the [[Mark Wolf|lecture]]) frames world
 Further reading: [[Reading - Emissary's Guide to Worlding (Cheng)|Emissary's Guide to Worlding]].
 
 
-# 4. What Thoughts Will The Game Engine Tutor Offer?
+# 4. What Suggestions Will The Game Engine Tutor Offer?
 
-> [!info] The GET turns your Small World into a build plan — a recommended order for making it in a game engine.
+> [!info] The GET turns your Bounded World into a build plan — a recommended order for making it in a game engine.
 
 [[The-GET/corpus/Development/Tutorials - LLM/index|Get started using The GET]] with your preferred LLM.  

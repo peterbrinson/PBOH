@@ -1,24 +1,22 @@
----
+﻿---
 publish: true
 ---
 
-*Part of the [[Small Worlds]] framework.*
-
-Let us focus on brief moments within a situation, steps within "the interval of play" articulated in [[Situational Game Design for Small Worlds]].
+Let us focus on brief moments within a situation, steps within "the interval of play" articulated in [[Situational Game Design for Bounded Worlds]].
 
 > "A situation is an interval of play that contains a choice." (p.11)
 
-We are interested in both the moment before and after entry.   Ponder your player's experience of [[Situated Player Role 3 - The Entrant, World as Threshold|legibility]] when it comes to your [[Small Worlds|Small World]] boundary - the experience of playing and the emotions it affords.
+We are interested in both the moment before and after entry.   Ponder your player's experience of [[Situated Player Role 3 - The Entrant, World as Threshold|legibility]] when it comes to your [[Bounded Worlds|Bounded World]] boundary - the experience of playing and the emotions it affords.
 
 What that player attention achieves is intrinsic: beauty, awe, curiosity, dread, excitement — play without winning.
 
 In particular, constraints are expressive, in this case, boundaries.
 
 Topics
-- [[Small Worlds|Small worlds]]
+- [[Bounded Worlds|Bounded Worlds]]
 - [[Situated Player Role 3 - The Entrant, World as Threshold|Legibility]]
 - Entry/transitions
-- [[Situational Game Design for Small Worlds|Situations]]
+- [[Situational Game Design for Bounded Worlds|Situations]]
 - [[Wolf's Taxonomy of Invention|Inventions]]
 - Constraints 
 
@@ -39,7 +37,7 @@ We begin the novel with time, tides, and a touchstone.
 
 *The Ninth Vestibule is remarkable for the three great Staircases it contains. Its Walls are lined with marble Statues, hundreds upon hundreds of them, Tier upon Tier, rising into the distant heights".*
 
-This image is not from the novel but from Giovanni Battista Piranesi (1720 – 1778) - the source.  His work is the essential inspiration for Clarke's book.  One of Piranesi's prison etchings.
+This image is not from the novel but from Giovanni Battista Piranesi (1720 – 1778) - the source.  His work is the essential inspiration for Clarke's book.  This is one of Piranesi's prison etchings.
 ![[Piranesi-original.jpg]]
 
 

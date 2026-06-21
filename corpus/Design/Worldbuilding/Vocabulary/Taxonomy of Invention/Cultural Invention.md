@@ -1,20 +1,11 @@
----
+﻿---
 publish: true
 ---
 
-*Part of the [[Small Worlds]] framework.*
-
 Wolf calls culture **the biggest category of invention** — everything made by people: customs, technology, institutions, ideologies, objects, countries (see [[Wolf's Taxonomy of Invention]]).
 
-A well-invented culture does not need to be explained; you feel it in how characters speak, what they value, what they're afraid of. 
-
-## The Central Design Question
-
-**How do you *show* a culture without stopping to describe it?**
-
-The moment a world pauses to explain its own culture, it loses the reader/player. The culture has to be in the behavior, the objects, the architecture — not in the exposition.
-
-Le Guin reference: *The Ones Who Walk Away from Omelas* — the culture is revealed entirely through what the village accepts and what it asks its members to sacrifice. This is a rich example, because the story ignores traditional storytelling - following a character facing adversity, and witnessing their actions.
+Le Guin reference: *The Ones Who Walk Away from Omelas* succinctly describes a village's culture, their beliefs and practices.  
+This is a rich example with its focu, because the story foregoes traditional storytelling - following a character facing adversity, and witnessing their actions.
 
 ## Game Examples
 - [[Game - Disco Elysium|Disco Elysium]] — political factions, failed revolution, class collapse, ideology as character stat. 

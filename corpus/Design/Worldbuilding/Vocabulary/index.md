@@ -1,9 +1,7 @@
----
+﻿---
 title: Vocabulary
 publish: true
 ---
-
-*Part of the [[Small Worlds]] framework.*
 
 Mark Wolf's analytic terms — the language for describing a world: how it holds together, how far it departs from the real, what it's made of, and how it reaches across media.
 
