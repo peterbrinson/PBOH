@@ -10,7 +10,7 @@ Wolf's term (p.60) — what the designer leaves **untold or unrealized** so that
 
 ## The Gap
 
-A catalyst of speculation creates a **gap** — in the story, the situation, or the mechanics. That gap generates anticipation and motivates the player to seek closure. We fill in the gap.
+A catalyst of speculation creates a **gap** — in the story, the situation, or the mechanics. That gap generates anticipation and motivates the player to seek closure — what Gestalt psychology calls the [law of closure](https://en.wikipedia.org/wiki/Principles_of_grouping#Closure): the mind completes an incomplete figure on its own. We fill in the gap.
 
 ## The Zone of Maximum Joy
 

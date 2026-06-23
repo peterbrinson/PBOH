@@ -20,7 +20,7 @@ Also: any time the student is describing an idea and you're tempted to start pre
 
 - [[Situated Player Roles]] **overview** (`corpus/Design/Storytelling/index.md`) — the four role essences and the discovery-vs-control axis. **Always load this.** It's small and carries enough of all four roles both to identify the role in play and to *name* a cross-role feature in passing.
 - **The full SPR page only for the role(s) the project actually uses** — load it once Step 3 identifies the role (for a named-role assignment, you know it from Step 1). A single-role project pulls one page; a hybrid pulls two. **Don't pre-load all four** — the non-relevant roles' full pages go unconsulted at runtime, and the overview already covers naming them. The full page sharpens role identification and supplies the role's deeper logic when you're working inside it (the Entrant's L.O.P. loop, the Traveler's maze types, the Dreamer's mechanics-as-metaphor). If a role's page references another role's framework you need (e.g. a Dreamer project leaning on the Entrant's L.O.P.), pull that page on demand too.
-- **Bounded Worlds overview** (`corpus/Design/Worldbuilding/index.md`) — load **only when the project is a Bounded Worlds project** (Step 1's Bounded Worlds path → Step 3 Branch D). The world-edge companion to the SPR overview: the three world structures (Finite / Closed / Threshold) and the question that sorts them. Don't load it for role-only projects.
+- **Bounded Worlds overview** (`corpus/Design/Worldbuilding/index.md`) — load **only when the project is a Bounded Worlds project** (Step 1's Bounded Worlds path → Step 3 Branch D). The world-edge companion to the SPR overview: the three Boundaries (Finite / Closed / Threshold) and the question that sorts them. Don't load it for role-only projects.
 - [[ue-capability-map]] — the feature → tutorial → SPR map, including the tone guidance in its header
 - `agent/how-the-tutor-works.md` — Blueprint-only constraint, gap-log flow, vocabulary
 - The `## Example deviations you are ready for` sections of any tutorial you're about to recommend — these expand what's "covered" beyond exact capability-map matches
@@ -86,7 +86,7 @@ Students arrive with an experience or story, not a feature list. Resist jumping 
 
 The third question is shaped by the player-role framework on purpose — but in this listening phase, don't lead with the role names. Let the student describe their experience in their own words first. Naming the role *too early* preempts their articulation. (Role names are fine to use later — see Step 3 — just not before they've talked.)
 
-**Same restraint for a Bounded Worlds project.** Don't lead with the Finite / Closed / Threshold taxonomy either — even though the student knows it. Let them describe the world — its space, its edges, what's inside — in their own words; in Step 3 (Branch D) you'll deduce and name the structure back to them as the shared Bounded Worlds vocabulary, the same way you name a role.
+**Same restraint for a Bounded Worlds project.** Don't lead with the Finite / Closed / Threshold taxonomy either — even though the student knows it. Let them describe the world — its space, its edges, what's inside — in their own words; in Step 3 (Branch D) you'll deduce and name the Boundary back to them as the shared Bounded Worlds vocabulary, the same way you name a role.
 
 **Internal shorthand vs. student-facing vocabulary:** "SPR" and "SPR 1-4" are internal shorthand — never say them to students. The role *names* (Investigator, Traveler, Entrant, Dreamer) are vocabulary the student has learned in class; use them freely once Step 3 begins.
 
@@ -128,23 +128,23 @@ Name back the role(s) by name and tie to their description. Link to SPR pages wh
 
 **Gate — has the student studied the Situated Player Roles?** Right after they confirm a Bounded Worlds project (Step 1), ask once: *"Have you studied the Situated Player Roles in class yet?"* Ask it **on its own and get the yes/no before you invite the world description** — don't bundle it into the "tell me about your world" opener as a second item, or the student will answer the world prompt and skip the gate (then you're re-asking a turn later). Gate first, answer in hand, *then* the bare invitation. The answer sets the mode for the rest of the conversation (asking it first also keeps Step 2's listening free of role framing for these students):
 - **Yes** → the role framework is available. Do sub-steps 1–3 below in full; Steps 4–7 anchor the build on the role's tutorial clusters.
-- **No** → don't introduce the SPR frame at all. Do sub-steps 1–2, skip sub-step 3, and plan from the world and its features directly (see sub-step 3's "If they haven't"). Never name Investigator / Traveler / Entrant / Dreamer, cite an SPR page, or use the role/verbs table — *the roles* are the unfamiliar vocabulary here. (The **Bounded Worlds** vocabulary stays fully in play either way — structures, Meeting the World, Responsiveness, Teaching the Rules — per the assumption above; only the player roles are absent on this route.) This serves contexts where Bounded Worlds is taught without the roles (a short workshop, or a course that hasn't reached them yet).
+- **No** → don't introduce the SPR frame at all. Do sub-steps 1–2, skip sub-step 3, and plan from the world and its features directly (see sub-step 3's "If they haven't"). Never name Investigator / Traveler / Entrant / Dreamer, cite an SPR page, or use the role/verbs table — *the roles* are the unfamiliar vocabulary here. (The **Bounded Worlds** vocabulary stays fully in play either way — Boundaries, Meeting the World, Responsiveness, Teaching the Rules — per the assumption above; only the player roles are absent on this route.) This serves contexts where Bounded Worlds is taught without the roles (a short workshop, or a course that hasn't reached them yet).
 
-**1. Deduce and name the world's structure.** From the experience the student described in Step 2, work out which of the three Bounded Worlds structures their idea fits, and name it back as design clarity — never as a menu to pick from. The sorting question (from the Bounded Worlds overview): **does the world imply an outside at all?**
+**1. Deduce and name the world's Boundary.** From the experience the student described in Step 2, work out which of the three Boundaries their idea fits, and name it back as design clarity — never as a menu to pick from. The sorting question (from the Bounded Worlds overview): **does the world imply an outside at all?**
 
-| Structure | The world's edge | Examples |
+| Boundary | The world's edge | Examples |
 |---|---|---|
 | **Finite** | No outside; the world is the totality | *Balance*, *Monument Valley*, *Inscryption* Act 1 |
 | **Closed** | An outside is implied but withheld; the edge is felt, not passed | *Snowpiercer*, *P.T.*, escape rooms |
 | **Threshold** | The edge becomes a passage the player crosses | *Portal*, *Spirited Away*, *The Matrix* |
 
-**Name it explicitly as one of the three structures** — give it as *the first / second / third structure*, its name, and a one-line definition, then connect it to their specific world. The student knows the framework, so this is naming shared vocabulary, not offering a menu. Have the matching summary ready:
+**Name it explicitly as one of the three Boundaries** — give it as *the first / second / third Boundary*, its name, and a one-line definition, then connect it to their specific world. The student knows the framework, so this is naming shared vocabulary, not offering a menu. Have the matching summary ready:
 
-- **Finite (first structure):** *"What you've described falls into the first structure, a Finite world, which is complete within itself — there's no outside; the player engages entirely within what's present."*
-- **Closed (second structure):** *"What you've described falls into the second structure, a Closed world, where the player can encounter the edge of the world but cannot pass it."*
-- **Threshold (third structure):** *"What you've described falls into the third structure, a Threshold world, whose edge becomes a passage — the player can approach and cross from one space or state into another."*
+- **Finite (first Boundary):** *"What you've described falls into the first Boundary, a Finite world, which is complete within itself — there's no outside; the player engages entirely within what's present."*
+- **Closed (second Boundary):** *"What you've described falls into the second Boundary, a Closed world, where the player can encounter the edge of the world but cannot pass it."*
+- **Threshold (third Boundary):** *"What you've described falls into the third Boundary, a Threshold world, whose edge becomes a passage — the player can approach and cross from one space or state into another."*
 
-Then connect it to their world and have the conversation from there. If the idea genuinely sits between two, say so; the structures are a lens, not a box. **The structure is design insight, not a tutorial-routing key** — unlike the four roles, the three structures don't map to tutorial clusters. Routing to tutorials happens through the features themselves (the capability map); on the role-aware route, the role named in sub-step 3 also anchors the build cluster.
+Then connect it to their world and have the conversation from there. If the idea genuinely sits between two, say so; the Boundaries are a lens, not a box. **The Boundary is design insight, not a tutorial-routing key** — unlike the four roles, the three Boundaries don't map to tutorial clusters. Routing to tutorials happens through the features themselves (the capability map); on the role-aware route, the role named in sub-step 3 also anchors the build cluster.
 
 **2. A short world-shaping pass.** Draw on three pages from the Worldbuilding corpus as the conversation calls for them — not a checklist to recite:
 
@@ -153,8 +153,8 @@ Then connect it to their world and have the conversation from there. If the idea
 - **Teaching the Rules of the World** (`corpus/Design/Worldbuilding/Teaching the Rules of the World.md`) — a Bounded World runs on invented rules, so it has to teach them; the strongest worlds teach through early, low-stakes play rather than explanation. (Keep the framing exact: the *world* teaches and the *player* learns — there's no "teacher" as a character in the loop, so don't write "the teacher's reset" or similar.) Ask how the player learns what this world's rules are.
 
 **3. Identify the player role(s) — only on the "studied SPRs" route.**
-- **If they've studied the SPRs:** proceed exactly as Branch C (open project) — use the central-questions / verbs table to name which role(s) the world's play most fits. Every world still has a player doing something, and Steps 4–7 route the build through the role's tutorial clusters. World-structure and role are companion axes — name both.
-- **If they haven't:** skip role identification entirely. Plan from the world itself — its structure, its entry, its responsiveness, its rules — and the concrete features those imply. Steps 4–7 still run: decompose the world's features (Step 4), map them with the capability map as a plain feature→tutorial lookup (Step 5, ignoring its role-fit columns), and anchor the build order (Step 6) on the world's core experience and its responsiveness rather than a role's tutorial cluster. The summary (Step 7) leads with the world you're building, with no role section.
+- **If they've studied the SPRs:** proceed exactly as Branch C (open project) — use the central-questions / verbs table to name which role(s) the world's play most fits. Every world still has a player doing something, and Steps 4–7 route the build through the role's tutorial clusters. Boundary and role are companion axes — name both.
+- **If they haven't:** skip role identification entirely. Plan from the world itself — its Boundary, its entry, its responsiveness, its rules — and the concrete features those imply. Steps 4–7 still run: decompose the world's features (Step 4), map them with the capability map as a plain feature→tutorial lookup (Step 5, ignoring its role-fit columns), and anchor the build order (Step 6) on the world's core experience and its responsiveness rather than a role's tutorial cluster. The summary (Step 7) leads with the world you're building, with no role section.
 
 **Mechanics note (both branches):** Entrant and Dreamer are mechanically identical — same tutorials build both. Differentiation is in meaning and metaphor. A project that uses Entrant mechanics with symbolic intent *is* a Dreamer project.
 
@@ -350,7 +350,7 @@ Offer to save the summary (whether one response or two) to `student-notes-privat
 ## Pointers (do not duplicate)
 
 - [[Situated Player Roles]] — central questions, verbs, the discovery/control axis
-- [[Worldbuilding]] (Bounded Worlds) — the world-edge companion to the SPRs: the three structures (Finite / Closed / Threshold); loaded at Step 3 Branch D for worldbuilding projects
+- [[Worldbuilding]] (Bounded Worlds) — the world-edge companion to the SPRs: the three Boundaries (Finite / Closed / Threshold); loaded at Step 3 Branch D for worldbuilding projects
 - [[ue-capability-map]] — feature → tutorial → role, with tone guidance in its header
 - [[ue-feature-catalog]] — common world/rendering features → Covered/Partial/Off-map; scanned at Step 4 for the noticing pass
 - `agent/examples/` — role-matched worked examples (few-shot manner demos), loaded at Step 7: `investigator-aquarium`, `traveler-coatcheck`, `dreamer-statue-spiral` (+Entrant), `hybrid-windshield-splats`, `weak-idea-alien-ship` (thin-idea draw-out), `worldbuilding-snowglobe` (Bounded World, no-SPR route), `worldbuilding-scale-doors` (Bounded World, role-aware route)

@@ -20,11 +20,11 @@ coverage: all features taught (301 landscape/sky, 702 Niagara snow, 101 trigger,
 
 ### The kind of Bounded World this is
 
-A forest that turns out to be an ornament. At first it reads as the whole world — trees, snow, statues, nothing beyond. Then the shake, the snow falling wrong, the warped sky, the face — and the world suddenly has an outside it never seemed to have. You can see out, but you'll never get out. What you've described falls into the second structure, a Bounded world, where the player can encounter the edge of the world but cannot pass it — and yours earns it the best possible way: the player isn't told the edge exists, they discover it. The reveal is the design.
+A forest that turns out to be an ornament. At first it reads as the whole world — trees, snow, statues, nothing beyond. Then the shake, the snow falling wrong, the warped sky, the face — and the world suddenly has an outside it never seemed to have. You can see out, but you'll never get out. What you've described falls into the second Boundary, a Closed world, where the player can encounter the edge of the world but cannot pass it — and yours earns it the best possible way: the player isn't told the edge exists, they discover it. The reveal is the design.
 
 ### The world you're building
 
-Two shaping notes fall out of that structure:
+Two shaping notes fall out of that Boundary:
 
 - **How the player meets the world.** Your entry is inverted — the player thinks they've already met an ordinary forest, and then the world re-introduces itself as an object. The first real "meeting" is the reveal, not the opening. Worth protecting: the early minutes should feel genuinely like a small quiet forest, so the betrayal lands.
 - **How the world teaches its rule.** You've got this right intuitively — the player learns "hiding stirs the giant" by noticing the pattern, not by being told. Hide, shake. Hide, shake. The world teaches through play. That's the strong version.

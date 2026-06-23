@@ -18,7 +18,7 @@ Because the world has overt limits, the designer can focus on making it consiste
 
 # 2. How Will My World's Edges Define My World?
 
-> [!info] Every Bounded World has one of three boundary types — Finite, Closed, or Threshold.
+> [!info] Every Bounded World has one of three Boundaries — Finite, Closed, or Threshold.
 
 There are a few ways a Bounded World can treat its edges. Some feel complete in themselves. Some present edges that can be approached but not passed. Others are structured around boundaries the player can cross.
 
@@ -114,7 +114,7 @@ Show don't tell.
 
 ## Go Deeper: Wolf's Vocabulary
 
-Mark Wolf's *Building Imaginary Worlds* (the [[Mark Wolf|lecture]]) frames worldbuilding as constructing a world that is **consistent**, **complete** (by degree), **speculative**, and **invented** — qualities that together earn its **plausibility**. Each has a page:
+Mark Wolf's *Building Imaginary Worlds* (the [[Mark Wolf|lecture]]) frames a world through three core properties — **invention**, **completeness** (by degree), and **consistency** — that together earn its **plausibility**. The gaps left by completeness are what invite the player's speculation. Each has a page:
 - [[Consistency and Internal Logic]] — consistent, not realistic
 - [[Completeness]] — inhabited by degree; the gaps invite [[Catalysts of Speculation|speculation]]
 - [[Wolf's Taxonomy of Invention]] — four steps away from the real world, deepest in [[Cultural Invention|culture]] and [[Nature and Invented Physics|nature]]

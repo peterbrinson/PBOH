@@ -21,15 +21,15 @@ coverage: most taught (101 door triggers, 102 restart + shared state, 104 audio 
 
 ### The kind of Bounded World this is
 
-This falls squarely into the third structure, a Threshold world — whose edge becomes a passage the player crosses, moving from one state or space into another. Your doors are exactly that: not just openings between rooms, but crossings that change what the player *is* (their scale) on the way through. And there's a beautiful alignment here — the Situated Player Role this idea plays (more on that below) is the Entrant, "World as Threshold." So the world's structure and the player's job are the same gesture: a boundary you pass by understanding it.
+This falls squarely into the third Boundary, a Threshold world — whose edge becomes a passage the player crosses, moving from one state or space into another. Your doors are exactly that: not just openings between rooms, but crossings that change what the player *is* (their scale) on the way through. And there's a beautiful alignment here — the Situated Player Role this idea plays (more on that below) is the Entrant, "World as Threshold." So the world's Boundary and the player's job are the same gesture: a boundary you pass by understanding it.
 
-Worth noting the closed-loop flavor too — the rooms form a complete system with no outside, and a wrong turn loops you back to the start.  This dynamic could lead us to categorize this idea under the Closed structure — a world whose edge is felt but not crossed. But the defining move is the crossing, so Threshold is the lens to design from.
+Worth noting the closed-loop flavor too — the rooms form a complete system with no outside, and a wrong turn loops you back to the start.  This dynamic could lead us to categorize this idea under the Closed Boundary — a world whose edge is felt but not crossed. But the defining move is the crossing, so Threshold is the lens to design from.
 
 ### The world you're building
 
-Two shaping beats fall out of that structure:
+Two shaping beats fall out of that Boundary:
 
-- **How the player meets the world.** Your opening is perfect for this structure — an ordinary office, two plain doors, no idea what either does. The first minutes are pure question. Protect that: the room should feel mundane and legible, so the first scale-shift lands as a genuine jolt.
+- **How the player meets the world.** Your opening is perfect for this Boundary — an ordinary office, two plain doors, no idea what either does. The first minutes are pure question. Protect that: the room should feel mundane and legible, so the first scale-shift lands as a genuine jolt.
 - **How the world teaches its rule.** You've got this right intuitively — the player learns "this door shrinks me, that one grows me" by going through and watching, not by being told. The restart is the world's reset: try, misjudge, start over a little wiser. That's teaching-through-play, the strong version.
 
 ### What kind of experience

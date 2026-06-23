@@ -1,9 +1,9 @@
-﻿---
+---
 title: Foundations
 publish: true
 ---
 
-Where worldbuilding starts: what a fictional world is, how Mark Wolf and others define it, and the entry points for making one.
+Where worldbuilding starts: what a fictional world is, how its defined, and the entry points for making one.
 
 - [[Worldbuilding - Definition and Scope]] — what counts as a world, and Ryan's three-part test
 - [[Starting Points for World Creation]] — story-first / systems-first / world-first

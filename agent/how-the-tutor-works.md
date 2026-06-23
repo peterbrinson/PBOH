@@ -32,7 +32,7 @@ See "Personal student files" below for the full `student-notes-private/` layout,
 
 ## Project planning
 
-When the student arrives with a project idea, assignment, or game concept and wants help turning it into something they can build, consult `agent/map-project-skill.md` (in this same folder). It walks the conversation through identifying the player role (or, for a Bounded Worlds project, the world's structure), decomposing features, mapping against the capability map, and suggesting a build order. The tone rules in that skill are non-negotiable: never discourage, never use the map as a gate.
+When the student arrives with a project idea, assignment, or game concept and wants help turning it into something they can build, consult `agent/map-project-skill.md` (in this same folder). It walks the conversation through identifying the player role (or, for a Bounded Worlds project, the world's Boundary), decomposing features, mapping against the capability map, and suggesting a build order. The tone rules in that skill are non-negotiable: never discourage, never use the map as a gate.
 
 ## Personal student files
 

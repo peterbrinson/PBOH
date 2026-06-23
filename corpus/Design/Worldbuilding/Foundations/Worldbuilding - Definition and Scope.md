@@ -6,17 +6,14 @@ publish: true
 
 [[Reading - Worldbuilding in Science Fiction, Foresight and Design (Zaidi)|Zaidi (2019)]]: worlds "provide detailed contextual rule sets that develop a larger reality that extends beyond a single story." The world is a system; the story runs on top of it.
 
-According to [[Mark Wolf|Mark Wolf]], worldbuilding is the process of constructing a fictional world with an interest in:
-- **Consistency** — the world doesn't contradict itself
-- **Plausibility** — the world earns belief
-- **Completeness** (degree of) — no world can be fully complete, but it can feel inhabited
-- **Speculation** — the builder imagines beyond what's shown, and encourages 
+According to [[Mark Wolf|Mark Wolf]], worldbuilding constructs a fictional world on three core properties:
 - **Invention** — deliberate departure from the primary (real) world
+- **Completeness** (a matter of degree) — no world is fully complete, but ancillary detail makes it feel inhabited
+- **Consistency** — the world doesn't contradict itself
 
-Scholar Marie-Laure Ryan offers a three-part test:
-- **Connected objects** —  the world forms an interrelated network of entities.  Characters, props, locations and other elements link together meaningfully.
-- **Habitable environment** — the setting plausibly supports its inhabitants’ existence.  Physically or socially, characters are able to live and act there.  The world has its own ecology, physics or social order that allows life (or playable activity) to continue
-- **Intelligible totality** — observers make sense of the world as a coherent whole.  There is an overall internal logic, consistent rules, and comprehensibility.  Inventions definite the world.
+Together these earn the world's **plausibility** — the belief it asks of the player. Completeness is never total, and those deliberate gaps are what invite the player's [[Catalysts of Speculation|speculation]].
+
+Marie-Laure Ryan's three-part test maps onto the same ground from the player's side: **connected objects** (an interrelated network of characters, props, and locations — Wolf's *completeness* and structure), a **habitable environment** (an ecology, physics, or social order that lets inhabitants live and act — *consistency* made livable), and an **intelligible totality** (the world reads as a coherent whole — *consistency* and *invention* working together).
 
 ## Worldbuilding ≠ Storytelling
 
