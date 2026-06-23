@@ -1,16 +1,29 @@
-## The GET
 
-The GET is a tutor you talk to that turns an idea for a playable story or world into a build order for a game engine, backed by the course library below.
+The Game Engine Tutor helps you with an early idea for a playable story or world - into a build order for a game engine.
 
-To run it yourself, [**get The GET on GitHub**](https://github.com/vLabUSC/The-GET) — clone or fork the repository, then open it with an AI coding agent to start a session.
+<div align="center">
 
-## Design
+# The GET on GitHub
 
-- [[_References]]
+</div>
+
+### Github
+Clone or fork [the repository](https://github.com/vLabUSC/The-GET), then open it with an AI coding agent to start a session.  Tutorials - LLM (link below) integrates the major LLM's through installation and setup.  
+
+<div align="center">
+
+# The GET for the Browser
+
+</div>
+
+While the Github repo above provides the functionality for The GET, here is a browsable version of its corpus.  
+### Design
+
+- [[_References|References]]
 - [[Narrative]]
 - [[Worldbuilding]]
 
-## Development
+### Development
 
 - [[Tutorials - LLM]]
 - [[Tutorials - Unreal]]
