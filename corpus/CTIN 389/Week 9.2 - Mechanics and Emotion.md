@@ -1,5 +1,6 @@
----
+﻿---
 cssclasses: [site-389]
+publish: false
 ---
 
 # Week 9.2 — Mechanics and Emotion

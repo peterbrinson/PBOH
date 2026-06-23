@@ -2,7 +2,7 @@
 title: "CTIN 389"
 aliases:
   - CTIN 389
-publish: true
+publish: false
 ---
 
 Game Development Principles — lecture pages for USC's CTIN 389, converted from the course slide decks. (A few pages have fuller image sets than others; image coverage is still being filled in.)

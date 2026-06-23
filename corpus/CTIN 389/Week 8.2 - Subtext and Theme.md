@@ -1,5 +1,6 @@
----
+﻿---
 cssclasses: [site-389]
+publish: false
 ---
 
 # Week 8.2 — Subtext and Theme

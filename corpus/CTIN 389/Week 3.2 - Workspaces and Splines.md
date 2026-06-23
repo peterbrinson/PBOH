@@ -1,5 +1,6 @@
----
+﻿---
 cssclasses: [site-389]
+publish: false
 ---
 
 # Week 3.2 — Workspaces and Splines
