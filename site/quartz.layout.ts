@@ -21,8 +21,14 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs(),
       condition: (page) => page.fileData.slug !== "index",
     }),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
+    Component.ConditionalRender({
+      component: Component.ArticleTitle(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
+    Component.ConditionalRender({
+      component: Component.ContentMeta(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
     Component.TagList(),
   ],
   left: [
@@ -40,6 +46,19 @@ export const defaultContentPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "",
+      sortFn: (a, b) => {
+        // Pin the GitHub page to the very top of the nav, above the folders.
+        if (a.displayName === "The GET on GitHub") return -1
+        if (b.displayName === "The GET on GitHub") return 1
+        // Otherwise keep Quartz's default: folders first, then files, each alphabetical.
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        return !a.isFolder && b.isFolder ? 1 : -1
+      },
       mapFn: (node) => {
         // Sidebar shows the plain folder name; each folder's index page keeps
         // its own longer title (e.g. "Situated Player Roles", "Small Worlds: ...").
@@ -48,6 +67,11 @@ export const defaultContentPageLayout: PageLayout = {
         }
         if (node.slugSegment === "Worldbuilding") {
           node.displayName = "Worldbuilding"
+        }
+        // The folder is named "_References" (leading underscore sorts it first);
+        // show it in the sidebar without the underscore.
+        if (node.slugSegment === "_References") {
+          node.displayName = "References"
         }
       },
     }),
@@ -76,6 +100,19 @@ export const defaultListPageLayout: PageLayout = {
     }),
     Component.Explorer({
       title: "",
+      sortFn: (a, b) => {
+        // Pin the GitHub page to the very top of the nav, above the folders.
+        if (a.displayName === "The GET on GitHub") return -1
+        if (b.displayName === "The GET on GitHub") return 1
+        // Otherwise keep Quartz's default: folders first, then files, each alphabetical.
+        if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
+          return a.displayName.localeCompare(b.displayName, undefined, {
+            numeric: true,
+            sensitivity: "base",
+          })
+        }
+        return !a.isFolder && b.isFolder ? 1 : -1
+      },
       mapFn: (node) => {
         // Sidebar shows the plain folder name; each folder's index page keeps
         // its own longer title (e.g. "Situated Player Roles", "Small Worlds: ...").
@@ -84,6 +121,11 @@ export const defaultListPageLayout: PageLayout = {
         }
         if (node.slugSegment === "Worldbuilding") {
           node.displayName = "Worldbuilding"
+        }
+        // The folder is named "_References" (leading underscore sorts it first);
+        // show it in the sidebar without the underscore.
+        if (node.slugSegment === "_References") {
+          node.displayName = "References"
         }
       },
     }),
