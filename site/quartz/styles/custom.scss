@@ -13,6 +13,16 @@
   margin-top: 0;
 }
 
+// --- Code blocks: soft-wrap instead of horizontal scroll ---
+// Long one-line commands (e.g. the "Read AGENTS.md..." session prompt) otherwise
+// hide behind a horizontal scrollbar. Wrap at spaces first; break long unbroken
+// tokens (URLs, package names) only when they'd overflow. The copy button is
+// absolutely positioned, so it's unaffected.
+pre {
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
 // --- Explorer (left sidebar) legibility ---
 // Long tutorial titles wrap to 2+ lines. Without help, a wrapped entry blurs
 // into the next one. Fixes: space BETWEEN entries, tight leading WITHIN an

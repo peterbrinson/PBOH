@@ -31,10 +31,10 @@ When a student describes a feature, route it like a lookup — don't read the wh
 
 | Tutorial | Title | Teaches (one line) |
 | --- | --- | --- |
-| 1 | A Floor Plate Opens A Door | Trigger zones (enter/exit), objects that slide open/closed, event dispatchers |
-| 2 | Collectables and Restart | Collectibles that disappear on touch, counters, shared game state, level restart |
-| 3 | Scoring and UI | On-screen counter / HUD driven by a gameplay event (event → state → UI chain) |
-| 4 | Haunted House Triggers and Events | Arrays of triggered objects, staggered/sequential events, spatial ambient sound, Mixamo NPC with animation |
+| 101 | A Floor Plate Opens A Door | Trigger zones (enter/exit), objects that slide open/closed, event dispatchers |
+| 102 | Collectables and Restart | Collectibles that disappear on touch, counters, shared game state, level restart |
+| 103 | Scoring and UI | On-screen counter / HUD driven by a gameplay event (event → state → UI chain) |
+| 104 | Haunted House Triggers and Events | Arrays of triggered objects, staggered/sequential events, spatial ambient sound, Mixamo NPC with animation |
 | 201 | Pawn Possession *(WIP)* | Switching between multiple characters at a key press; Level Blueprint behavior — **not** locomotion |
 | 202 | MetaHuman Animations | MetaHuman as player or NPC, Mixamo animation retargeted to MetaHuman, montages |
 | 301 | Landscapes, Gaea and Automaterial | Landscape terrain from a Gaea heightmap, auto-layered grass/rock/snow, atmospheric sky, overhead map |
@@ -55,14 +55,14 @@ When a student describes a feature, route it like a lookup — don't read the wh
 
 | Feature                                              | Tutorial(s) | SPR fit                    | Best for         |
 | ---------------------------------------------------- | ----------- | -------------------------- | ---------------- |
-| Trigger zone that detects player entering or exiting | 1           | All                        | Entrant, Dreamer |
-| Object that slides open/closed when triggered        | 1           | Traveler, Entrant, Dreamer |                  |
-| Object that rotates when triggered (door on hinge)   | 4           | Traveler, Entrant, Dreamer |                  |
-| Actor broadcasting an event via dispatcher           | 1           | All                        | Entrant, Dreamer |
-| Single trigger controlling multiple objects (array)  | 4           | Traveler, Entrant, Dreamer |                  |
-| Lights that turn on when player enters a room        | 4           | Traveler, Entrant, Dreamer | Traveler         |
-| Staggered sequential events (lights one by one)      | 4           | Traveler, Entrant, Dreamer | Traveler         |
-| Spatial ambient sound activating on zone entry       | 4           | Traveler, Dreamer          | Traveler         |
+| Trigger zone that detects player entering or exiting | 101           | All                        | Entrant, Dreamer |
+| Object that slides open/closed when triggered        | 101           | Traveler, Entrant, Dreamer |                  |
+| Object that rotates when triggered (door on hinge)   | 104           | Traveler, Entrant, Dreamer |                  |
+| Actor broadcasting an event via dispatcher           | 101           | All                        | Entrant, Dreamer |
+| Single trigger controlling multiple objects (array)  | 104           | Traveler, Entrant, Dreamer |                  |
+| Lights that turn on when player enters a room        | 104           | Traveler, Entrant, Dreamer | Traveler         |
+| Staggered sequential events (lights one by one)      | 104           | Traveler, Entrant, Dreamer | Traveler         |
+| Spatial ambient sound activating on zone entry       | 104           | Traveler, Dreamer          | Traveler         |
 
 ---
 
@@ -70,11 +70,11 @@ When a student describes a feature, route it like a lookup — don't read the wh
 
 | Feature                                           | Tutorial(s) | SPR fit                | Best for |
 | ------------------------------------------------- | ----------- | ---------------------- | -------- |
-| Collectible object that disappears on touch       | 2           | Investigator, Traveler |          |
-| Counter tracking any incrementing value           | 2, 3        | Traveler               |          |
-| Shared game state readable by multiple blueprints | 2           | All                    |          |
-| Level that restarts after a fixed time            | 2           | Entrant, Dreamer       |          |
-| "Use it up" objects — evidence, keys, pickups     | 2           | Investigator, Entrant, Dreamer  |          |
+| Collectible object that disappears on touch       | 102           | Investigator, Traveler |          |
+| Counter tracking any incrementing value           | 102, 103        | Traveler               |          |
+| Shared game state readable by multiple blueprints | 102           | All                    |          |
+| Level that restarts after a fixed time            | 102           | Entrant, Dreamer       |          |
+| "Use it up" objects — evidence, keys, pickups     | 102           | Investigator, Entrant, Dreamer  |          |
 
 ---
 
@@ -82,9 +82,9 @@ When a student describes a feature, route it like a lookup — don't read the wh
 
 | Feature                                                     | Tutorial(s) | SPR fit      | Best for |
 | ----------------------------------------------------------- | ----------- | ------------ | -------- |
-| On-screen counter updating in real time                     | 3           | All          |          |
-| HUD element driven by any gameplay event                    | 3           | All          |          |
-| Multi-blueprint chain: event → state → UI                   | 3           | All          |          |
+| On-screen counter updating in real time                     | 103           | All          |          |
+| HUD element driven by any gameplay event                    | 103           | All          |          |
+| Multi-blueprint chain: event → state → UI                   | 103           | All          |          |
 | Hover UI tip appearing when player aims at object           | 821         | Investigator |          |
 | Full-screen widget (note, image, map) opened by interaction | 801         | Investigator |          |
 | Player input locked while widget is open                    | 801         | Investigator |          |
@@ -125,8 +125,8 @@ When a student describes a feature, route it like a lookup — don't read the wh
 
 | Feature                                                      | Tutorial(s)   | SPR fit | Best for     |
 | ------------------------------------------------------------ | ------------- | ------- | ------------ |
-| Mixamo NPC with idle animation                               | 4             | All     |              |
-| NPC that reacts to player proximity with triggered animation | 4             | All     | Investigator |
+| Mixamo NPC with idle animation                               | 104             | All     |              |
+| NPC that reacts to player proximity with triggered animation | 104             | All     | Investigator |
 | MetaHuman placed as NPC (not player)                         | 202 deviation | All     | Investigator |
 
 ---

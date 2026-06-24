@@ -14,7 +14,7 @@ If you've just forked the GET and have no gap file yet, the GET creates `gaps/<y
 
 ## How it reaches the instructor
 
-The GET writes the gap file locally and never runs git. **You** commit and push it to your fork — see `_welcome/contributing-to-the-get.md`. The instructor collects every student's gap file from their forks and reviews them, deciding which gaps become new wiki pages, tutorials, or pitfall notes.
+The GET writes the gap file locally and never runs git. **You** commit and push it to your fork — see `corpus/GET Started/For Contributors/contributing-to-the-get.md`. The instructor collects every student's gap file from their forks and reviews them, deciding which gaps become new wiki pages, tutorials, or pitfall notes.
 
 ## Entry format
 
