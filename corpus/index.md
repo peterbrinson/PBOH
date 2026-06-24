@@ -19,6 +19,6 @@ The rest below is a browsable copy of the corpus — the same material the tutor
 
 ## Development
 
-- [[Tutorials - LLM]]
+- [[Development/Tutorials - LLM]]
 - [[Tutorials - Unreal]]
 - [[Wiki - Unreal]]

@@ -225,10 +225,16 @@ async function setupExplorer(currentSlug: FullSlug) {
     if (scrollTop) {
       explorerUl.scrollTop = parseInt(scrollTop)
     } else {
-      // try to scroll to the active element if it exists
+      // scroll the active element into view within the sidebar only (not the main page)
       const activeElement = explorerUl.querySelector(".active")
       if (activeElement) {
-        activeElement.scrollIntoView({ behavior: "smooth" })
+        explorerUl.scrollTo({
+          top:
+            explorerUl.scrollTop +
+            activeElement.getBoundingClientRect().top -
+            explorerUl.getBoundingClientRect().top,
+          behavior: "smooth",
+        })
       }
     }
 

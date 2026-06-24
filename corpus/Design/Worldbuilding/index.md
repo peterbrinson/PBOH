@@ -129,4 +129,4 @@ Further reading: [[Reading - Emissary's Guide to Worlding (Cheng)|Emissary's Gui
 
 > [!info] The GET turns your Bounded World into a build plan — a recommended order for making it in a game engine.
 
-[[The-GET/corpus/Development/Tutorials - LLM/index|Get started using The GET]] with your preferred LLM.  
+[[Development/Tutorials - LLM|Get started using The GET]] with your preferred LLM.  

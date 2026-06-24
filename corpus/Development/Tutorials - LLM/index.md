@@ -1,8 +1,5 @@
 ---
 title: "Tutorials - LLM"
-aliases:
-  - "_Tutorial Index - LLM"
-  - "Tutorials - LLM"
 publish: true
 ---
 
