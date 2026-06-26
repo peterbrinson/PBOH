@@ -1,4 +1,4 @@
-﻿---
+---
 publish: false
 route: worldbuilding — Branch D, "has studied the Situated Player Roles" (role-aware route)
 role: entrant — also serves Dreamer (shared mechanics); the role-aware companion to worldbuilding-snowglobe
@@ -21,7 +21,7 @@ coverage: most taught (101 door triggers, 102 restart + shared state, 104 audio 
 
 ### The kind of Bounded World this is
 
-This falls squarely into the third Boundary, a Threshold world — whose edge becomes a passage the player crosses, moving from one state or space into another. Your doors are exactly that: not just openings between rooms, but crossings that change what the player *is* (their scale) on the way through. And there's a beautiful alignment here — the Situated Player Role this idea plays (more on that below) is the Entrant, "World as Threshold." So the world's Boundary and the player's job are the same gesture: a boundary you pass by understanding it.
+This falls squarely into the third Boundary, a Threshold world — whose edge becomes a passage the player crosses, moving from one state or space into another. Your doors are exactly that: not just openings between rooms, but crossings that change what the player is (their scale) on the way through. And there's a beautiful alignment here — the Situated Player Role this idea plays (more on that below) is the Entrant, "World as Threshold." So the world's Boundary and the player's job are the same gesture: a boundary you pass by understanding it.
 
 Worth noting the closed-loop flavor too — the rooms form a complete system with no outside, and a wrong turn loops you back to the start.  This dynamic could lead us to categorize this idea under the Closed Boundary — a world whose edge is felt but not crossed. But the defining move is the crossing, so Threshold is the lens to design from.
 
@@ -68,16 +68,16 @@ The first crossing — the player steps through a door and the office furniture 
 2. **Build the adjacent rooms at different scales** — still primitives: one room oversized, one undersized, so you can feel "big" and "small" before any art exists.
 3. **Import props from Fab** — a desk, bookshelves, domestic furniture. This idea needs recognizable real objects so the scale gag reads. A few now; the full set later.
 4. **Tutorial 101 — trigger zones at each door:** the threshold that fires when the player passes through.
-5. **The scale change** — on that door trigger, a Set Actor Scale on the player. This is the heart of the game, and it's a small wiring job on top of Tutorial 101 — additional functionality, you'll research. First pass: scale the player (a little tuning, since it nudges camera height and walk feel).
+5. **The scale change** — on that door trigger, a Set Actor Scale on the player. This is the heart of the game, and it's a wiring job on top of Tutorial 101 — additional functionality, you'll research. First pass: scale the player (a little tuning, since it nudges camera height and walk feel).
 6. **Tutorial 801 — readable text fragments** placed in sequence through the rooms (full-screen note, player input locked while reading).
-7. **Tutorial 102 — restart + shared game state:** the start-over when the player is stuck, and the state that remembers which fragments they've seen.  Detecting "The player is the wrong size for this room" is likely too difficult to implment for its payoff.  Look to Blue Prince for a referene; there the player chooses to restart when they recognize they cannot proceed. 
+7. **Tutorial 102 — restart + shared game state:** the start-over when the player is stuck, and the state that remembers which fragments they've seen.  Detecting "The player is the wrong size for this room" is likely too difficult to implement for its payoff.  Look to Blue Prince for a reference; there the player chooses to restart when they recognize they cannot proceed. 
 8. **Tutorial 801 — the end-card:** the full story as white text on black, shown on win or restart. This is 801's full-screen black-out machinery exactly — not a HUD element.
 9. **Assemble the story** — concatenate the collected fragments into that end-card. Linear first (see Off-Map); the path-dependent branching is the upgrade to chase later.
 10. **(optional tail)** Tutorial 701 post-process — a distinct color grade per room so each scale-shift also shifts the mood.
 
 ### Off-Map
 
-Most of this sits on taught ground — the triggers, the readable text, the end-card, the restart are pieces found in the tutorials, and the scale-the-player on top of Tutorial 101 (#5 above). The one genuinely off-map area is short:
+Much of this sits on taught ground — the triggers, the readable text, the end-card, the restart are pieces found in the tutorials, and the scale-the-player on top of Tutorial 101 (#5 above). The one genuinely off-map area is short:
 
 - **The path-based story branching** — varying which fragments appear and in what order based on the player's route is a custom narrative-state system no single tutorial assembles. Tutorial 102 stores the state and 801 shows the card; the logic between them is yours. First pass: a fixed story (all collected fragments shown in a set order) before you build true branching — exactly the "I don't know how it branches yet" you flagged, deferred to when you do.
 
