@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Remedy Entertainment | **Year:** 2023 | **Platform:** PC (Epic Games Store exclusive — not on Steam), PlayStation, Xbox
 **Fame tier:** famous
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Alan_Wake_2)**

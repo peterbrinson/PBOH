@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Bossa Studios | **Year:** 2015 | **Platform:** PC, consoles, mobile
 **Fame tier:** cult-niche
 **→ [Steam](https://store.steampowered.com/app/327890/I_Am_Bread/)**

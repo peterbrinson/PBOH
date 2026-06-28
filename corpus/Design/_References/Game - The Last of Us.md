@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Naughty Dog | **Year:** 2013 (remake 2022) | **Platform:** PC, PlayStation
 **→ [Steam](https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/)**
 

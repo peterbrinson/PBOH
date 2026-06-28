@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Davey Wreden | **Year:** 2015 | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/303210/The_Beginners_Guide/)**
 

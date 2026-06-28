@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** CD Projekt Red | **Year:** 2020 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1091500/Cyberpunk_2077/)**
 

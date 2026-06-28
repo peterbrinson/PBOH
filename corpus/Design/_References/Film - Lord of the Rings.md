@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Peter Jackson | **Years:** 2001–2003
 *Based on the novels by J.R.R. Tolkien (1954–1955)*
 

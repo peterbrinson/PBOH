@@ -1,3 +1,6 @@
+---
+type: Tutorial
+---
 
 - **Right-click + drag** — Look around (free look)
 - **Right-click + WASD** — Fly through the scene (hold right-click to enable movement keys)

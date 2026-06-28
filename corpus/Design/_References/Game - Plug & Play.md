@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Michael Frei & Mario von Rickenbach (Etter Studio / Playables) | **Year:** 2015 | **Platform:** PC, mobile
 **Fame tier:** cult-niche
 **→ [Steam](https://store.steampowered.com/app/353560/Plug__Play/)**

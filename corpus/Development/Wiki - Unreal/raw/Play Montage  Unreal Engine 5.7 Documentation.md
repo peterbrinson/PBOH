@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 Plays a Montage on a SkeletalMeshComponent
 
 ## Inputs

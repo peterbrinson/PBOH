@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** ZA/UM | **Year:** 2019 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/)**
 

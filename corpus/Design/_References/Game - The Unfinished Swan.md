@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Giant Sparrow | **Year:** 2012 | **Platform:** PS3/PS4, iOS, PC
 **→ [Steam](https://store.steampowered.com/app/1206430/The_Unfinished_Swan/)**
 

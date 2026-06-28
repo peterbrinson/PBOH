@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Create Widget | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/UserInterface/CreateWidget?application_version=5.7"
 author:

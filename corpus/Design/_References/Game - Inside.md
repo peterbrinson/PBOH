@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Playdead | **Year:** 2016 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/304430/INSIDE/)**
 

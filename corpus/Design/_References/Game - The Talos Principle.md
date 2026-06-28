@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Croteam (writers Tom Jubert & Jonas Kyratzes) | **Year:** 2014 | **Platform:** PC, console
 **Fame tier:** successful indie
 **→ [Steam](https://store.steampowered.com/app/257510/The_Talos_Principle/)**

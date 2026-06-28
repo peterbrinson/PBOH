@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Nintendo EPD | **Year:** 2017 | **Platform:** Switch, Wii U
 **→ [Nintendo](https://www.nintendo.com/us/store/products/the-legend-of-zelda-breath-of-the-wild-switch/)**
 

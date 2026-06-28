@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Open Level (by Name) | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Game/OpenLevel_byName?application_version=5.7"
 author:

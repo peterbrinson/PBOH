@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Cardboard Computer | **Year:** 2013–2020 (five acts) | **Platform:** PC, consoles
 **Fame tier:** successful indie
 **→ [Steam](https://store.steampowered.com/app/231200/Kentucky_Route_Zero_PC_Edition/)**

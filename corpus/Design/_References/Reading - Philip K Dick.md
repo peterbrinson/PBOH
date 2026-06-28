@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 **Author:** Philip K. Dick · **Year:** 1978 · **Type:** Essay

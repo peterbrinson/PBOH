@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Blizzard Entertainment | **Year:** 2004 | **Platform:** PC
 **→ [Wikipedia](https://en.wikipedia.org/wiki/World_of_Warcraft)**
 

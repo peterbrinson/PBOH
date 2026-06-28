@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Michel Gondry · **Year:** 2004 · **Writer:** Charlie Kaufman
 **Fame tier:** famous
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind)**

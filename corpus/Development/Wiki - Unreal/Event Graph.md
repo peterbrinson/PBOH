@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 #### Node Pin Types
 
 - Execution Pins (White): Control flow direction - when code executes in sequence

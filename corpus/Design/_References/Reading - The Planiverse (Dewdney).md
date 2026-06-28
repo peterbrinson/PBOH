@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 A.K. Dewdney, *The Planiverse: Computer Contact with a Two-Dimensional World* (1984)

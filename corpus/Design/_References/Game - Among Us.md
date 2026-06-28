@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Innersloth | **Year:** 2018 | **Platform:** PC, mobile, console
 **→ [Steam](https://store.steampowered.com/app/945360/Among_Us/)**
 

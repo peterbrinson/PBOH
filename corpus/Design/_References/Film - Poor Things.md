@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Yorgos Lanthimos · **Year:** 2023 · from Alasdair Gray's novel
 **Fame tier:** famous
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Poor_Things_(film))**

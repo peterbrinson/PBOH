@@ -1,3 +1,6 @@
+---
+type: Tutorial
+---
 
 ## 1. Create a New Project
 ---

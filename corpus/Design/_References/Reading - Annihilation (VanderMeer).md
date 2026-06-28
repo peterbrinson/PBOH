@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 Novel by Jeff VanderMeer (2014). First book of the Southern Reach trilogy. [Amazon](https://www.amazon.com/Annihilation-Novel-Southern-Reach-Trilogy/dp/0374104093)

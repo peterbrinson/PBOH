@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 Novel by N.K. Jemisin (2015). First book of the Broken Earth trilogy. [Amazon](https://www.amazon.com/Fifth-Season-Broken-Earth/dp/0316229296)

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Skookum Arts | **Year:** 2020 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/466130/The_Pedestrian/)**
 

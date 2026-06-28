@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 
 *Dr Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist* is a short first-person game by Crows Crows Crows (William Pugh, co-creator of *The Stanley Parable*), released in 2015. 
 

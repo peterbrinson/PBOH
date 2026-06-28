@@ -1,4 +1,5 @@
 ---
+type: PlayerRole
 aliases:
   - "SPR 3 - The Entrant, World as Threshold"
 ---

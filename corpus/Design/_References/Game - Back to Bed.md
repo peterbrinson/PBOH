@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Bedtime Digital Games | **Year:** 2014 | **Platform:** PC, mobile, console
 **→ [Steam](https://store.steampowered.com/app/278360/Back_to_Bed/)
 

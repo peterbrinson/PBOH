@@ -1,4 +1,5 @@
 ---
+type: Guide
 title: "Setup Instructions"
 ---
 

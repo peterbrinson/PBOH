@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Sad Owl Studios | **Year:** 2023 | **Platform:** PC, PlayStation
 **Fame tier:** successful indie
 **→ [Steam](https://store.steampowered.com/app/1382070/Viewfinder/)**

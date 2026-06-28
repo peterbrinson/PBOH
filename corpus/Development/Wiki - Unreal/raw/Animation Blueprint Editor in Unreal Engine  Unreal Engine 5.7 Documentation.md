@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 The **Animation Blueprint Editor** shares similar functionality to the [Blueprint Editor](https://dev.epicgames.com/documentation/unreal-engine/user-interface-reference-for-the-blueprints-visual-scripting-editor-in-unreal-engine), but contains different features, tools, and windows to aid in character animation scripting.
 
 This document provides an overview of the Animation Blueprint Editor interface.

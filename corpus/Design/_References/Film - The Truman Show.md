@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Peter Weir · **Year:** 1998
 **Fame tier:** famous
 **→ [Wikipedia](https://en.wikipedia.org/wiki/The_Truman_Show)**

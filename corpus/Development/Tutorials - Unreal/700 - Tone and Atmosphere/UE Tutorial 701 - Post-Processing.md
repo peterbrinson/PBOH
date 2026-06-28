@@ -1,4 +1,5 @@
 ---
+type: Tutorial
 title: "UE Tutorial 701 - Post-Processing"
 cssclasses:
   - unreal-tutorial

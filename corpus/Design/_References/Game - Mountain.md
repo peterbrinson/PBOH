@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** David OReilly · **Year:** 2014 · **Platform:** PC · 
 **→ [Steam](https://store.steampowered.com/app/313240/Mountain/)**
 

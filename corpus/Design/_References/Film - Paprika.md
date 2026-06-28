@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Satoshi Kon | **Year:** 2006 | **Runtime:** 90 min
 *Based on the novel by Yasutaka Tsutsui*
 

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Arvi Teikari (Hempuli) · **Year:** 2019 · **Platform:** PC, Switch
 **→ [Steam](https://store.steampowered.com/app/736260/Baba_Is_You/)**
 

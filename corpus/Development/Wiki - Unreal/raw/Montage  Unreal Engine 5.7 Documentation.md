@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 ## Actions and Categories
 
 [![Dynamic Montage Is Playing From](https://dev.epicgames.com/documentation/assets/images/static/document_list/empty_thumbnail.svg)

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Alejandro G. Iñárritu · **Year:** 2022 · full title *Bardo, False Chronicle of a Handful of Truths*
 **Fame tier:** cult-niche (polarizing)
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Bardo,_False_Chronicle_of_a_Handful_of_Truths)**

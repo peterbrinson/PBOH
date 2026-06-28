@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** David Cronenberg · **Year:** 1991 · from William S. Burroughs's novel
 **Fame tier:** cult-niche
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Naked_Lunch_(film))**

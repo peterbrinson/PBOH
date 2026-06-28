@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Double Fine Productions | **Year:** 2005 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/3830/Psychonauts/)**
 

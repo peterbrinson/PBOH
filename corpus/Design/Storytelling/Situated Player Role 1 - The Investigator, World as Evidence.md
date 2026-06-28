@@ -1,4 +1,5 @@
 ---
+type: PlayerRole
 aliases:
   - "SPR 1 - The Investigator, World as Evidence"
 ---

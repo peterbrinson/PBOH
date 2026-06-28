@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** David OReilly | **Year:** 2017 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/582270/Everything/)**
 

@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Components Window in Unreal Engine | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/components-window-in-unreal-engine"
 author:

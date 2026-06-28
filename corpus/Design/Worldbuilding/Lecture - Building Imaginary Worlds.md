@@ -1,4 +1,5 @@
-﻿---
+---
+type: Worldbuilding
 title: "Lecture: Building Imaginary Worlds"
 aliases:
   - Mark Wolf

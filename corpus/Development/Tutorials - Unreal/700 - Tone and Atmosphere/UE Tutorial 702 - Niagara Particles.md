@@ -1,4 +1,5 @@
 ---
+type: Tutorial
 title: "UE Tutorial 702 - Niagara Particles"
 cssclasses:
   - unreal-tutorial

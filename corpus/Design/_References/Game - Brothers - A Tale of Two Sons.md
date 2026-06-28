@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Starbreeze Studios (dir. Josef Fares) | **Year:** 2013 (Remake 2024 adds local co-op) | **Platform:** PC, consoles
 **Fame tier:** famous
 **→ [Steam](https://store.steampowered.com/app/225080/Brothers__A_Tale_of_Two_Sons/)**

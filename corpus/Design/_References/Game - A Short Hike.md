@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Adam Robinson-Yu (adamgryu) | **Year:** 2019 | **Platform:** PC, Switch, consoles
 **Fame tier:** successful indie
 **→ [Steam](https://store.steampowered.com/app/1055540/A_Short_Hike/)**

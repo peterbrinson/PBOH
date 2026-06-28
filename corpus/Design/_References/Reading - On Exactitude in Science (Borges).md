@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 Jorge Luis Borges, *Collected Fictions*, translated by Andrew Hurley.

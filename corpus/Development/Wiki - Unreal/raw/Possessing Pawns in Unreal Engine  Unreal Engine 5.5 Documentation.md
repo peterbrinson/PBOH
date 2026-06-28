@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Possessing Pawns in Unreal Engine | Unreal Engine 5.5 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/possessing-pawns-in-unreal-engine?application_version=5.5"
 author:

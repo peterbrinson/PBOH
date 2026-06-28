@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Santa Monica Studio | **Year:** 2018 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1593500/God_of_War/)**
 

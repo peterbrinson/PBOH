@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Garage Heathen | **Year:** 2022 | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/1525190/Whos_Lila/)**
 

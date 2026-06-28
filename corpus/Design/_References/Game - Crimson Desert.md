@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Pearl Abyss | **Year:** 2026 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1337330/Crimson_Desert/)**
 

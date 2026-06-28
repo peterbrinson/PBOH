@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** MachineGames | **Year:** 2024 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/2677660/Indiana_Jones_and_the_Great_Circle/)**
 

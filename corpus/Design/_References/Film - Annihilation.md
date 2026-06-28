@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Alex Garland | **Year:** 2018
 *Based on the novel by Jeff VanderMeer (2014)*
 

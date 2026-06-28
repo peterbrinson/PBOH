@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Zbigniew Rybczyński · **Year:** 1981 · **Runtime:** 8 min
 Academy Award, Best Animated Short Film (1983)
 **Fame tier:** cult-niche

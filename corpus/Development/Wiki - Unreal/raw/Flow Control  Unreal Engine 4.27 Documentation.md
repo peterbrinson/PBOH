@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 ## Switch Nodes
 
 A switch node reads in a data input, and based on the value of that input, sends the execution flow out of the matching (or optional default) execution output. There are several types of switches available: **Int**, **String**, **Name**, and **Enum**.

@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Gameplay Framework in Unreal engine | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/gameplay-framework-in-unreal-engine"
 author:

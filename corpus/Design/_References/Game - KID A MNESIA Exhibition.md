@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Radiohead × Namethemachine | **Year:** 2021 | **Platform:** PC, PS5, macOS
 **→ [Epic Games Store](https://store.epicgames.com/en-US/p/kid-a-mnesia-exhibition)**
 

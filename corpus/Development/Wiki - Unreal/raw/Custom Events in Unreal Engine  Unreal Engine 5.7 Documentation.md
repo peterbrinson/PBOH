@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Custom Events in Unreal Engine | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/custom-events-in-unreal-engine?application_version=5.7"
 author:

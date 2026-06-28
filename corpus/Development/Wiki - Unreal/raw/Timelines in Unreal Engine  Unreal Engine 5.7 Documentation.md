@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Timelines in Unreal Engine | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/timelines-in-unreal-engine?application_version=5.7"
 author:

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Stanley Kubrick | **Year:** 1968
 
 ## What It Is

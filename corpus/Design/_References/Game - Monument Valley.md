@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Ustwo Games | **Year:** 2014 | **Platform:** Mobile
 **→ [App Store](https://apps.apple.com/us/app/monument-valley/id728293409)**
 

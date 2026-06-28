@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Destroy Actor | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Actor/DestroyActor?application_version=5.7"
 author:

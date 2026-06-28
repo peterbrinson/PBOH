@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Team Ico | **Year:** 2005 (remake 2018) | **Platform:** PS2, PS3, PS4
 **→ [PlayStation Store](https://store.playstation.com/en-us/product/UP9000-CUSA08010_00-SHADOWOFCOLOSSUS)**
 

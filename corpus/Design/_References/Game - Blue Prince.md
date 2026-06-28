@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Dogubomb | **Year:** 2025 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/2389270/Blue_Prince/)**
 

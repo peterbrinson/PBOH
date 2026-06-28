@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Wadjet Eye Games | **Year:** 2025 | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/1346360/Old_Skies/)**
 

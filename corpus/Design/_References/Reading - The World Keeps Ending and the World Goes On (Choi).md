@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 Poetry collection by Franny Choi (2022). [Amazon](https://www.amazon.com/World-Keeps-Ending-Goes/dp/0063240084)

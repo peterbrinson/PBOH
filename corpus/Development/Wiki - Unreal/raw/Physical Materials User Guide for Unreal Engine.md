@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 This document will cover the creation and usage of **Physical Materials** as well as enabling or editing **Surface Types** for your project.
 
 ## Creation

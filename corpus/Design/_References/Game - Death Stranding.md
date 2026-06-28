@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Kojima Productions | **Year:** 2019 | **Platform:** PC (Director's Cut), PlayStation
 **Fame tier:** famous
 **→ [Steam](https://store.steampowered.com/app/1850570/DEATH_STRANDING_DIRECTORS_CUT/)**

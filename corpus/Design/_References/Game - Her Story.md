@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Sam Barlow
 **→ [Steam](https://store.steampowered.com/app/368370/Her_Story/)**
 **Year:** 2015

@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 **Author:** Dr. Seuss · **Year:** 1958 · **Type:** Children's book

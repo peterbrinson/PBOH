@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Alejandro Amenábar · **Year:** 2001
 **Fame tier:** famous
 **→ [Wikipedia](https://en.wikipedia.org/wiki/The_Others_(2001_film))**

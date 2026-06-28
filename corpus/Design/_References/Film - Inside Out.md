@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Pete Docter · **Year:** 2015 · Pixar
 **Fame tier:** famous
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Inside_Out_(2015_film))**

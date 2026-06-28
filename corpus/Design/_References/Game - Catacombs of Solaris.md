@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Ian MacLarty | **Year:** 2016 (Revisited 2021) | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/1607240/Catacombs_of_Solaris_Revisited/)**
 

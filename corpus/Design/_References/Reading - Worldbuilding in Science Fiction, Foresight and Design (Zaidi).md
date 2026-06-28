@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 **Author:** Leah Zaidi (2019)

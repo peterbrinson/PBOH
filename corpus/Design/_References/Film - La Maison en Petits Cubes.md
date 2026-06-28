@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Kunio Katō · **Year:** 2008 · **Runtime:** 12 min
 Academy Award, Best Animated Short Film (2009)
 **Fame tier:** cult-niche

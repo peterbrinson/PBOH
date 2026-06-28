@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** The Fullbright Company
 **→ [Steam](https://store.steampowered.com/app/343860/Tacoma/)**
 **Year:** 2017

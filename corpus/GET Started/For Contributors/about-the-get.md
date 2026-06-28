@@ -1,4 +1,5 @@
 ---
+type: Guide
 publish: false
 ---
 
@@ -19,6 +20,8 @@ This folder is your AI tutor for designing playable stories and worlds in Unreal
 | `student-notes-private/` | **Your personal working folder.** The GET saves your project plans, notes, references you collect, and a "where we left off" summary here. Local-only — never pushed anywhere. See the README inside. |
 
 You can ignore most of this until you need it. The AI will route you to specific files when relevant.
+
+It's worth knowing why it's shaped this way: the whole folder is plain markdown — one idea per file, organized in folders, linked together. That's a deliberate, standard form (Google's [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) names exactly this pattern) for material both a person and an AI can read. It's why setup is just "download a folder and open it."
 
 ## Three things to know
 

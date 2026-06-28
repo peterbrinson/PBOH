@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Ed Key & David Kanaga | **Year:** 2013 | **Platform:** PC, PlayStation
 **Fame tier:** cult-niche
 **→ [Steam](https://store.steampowered.com/app/219680/Proteus/)**

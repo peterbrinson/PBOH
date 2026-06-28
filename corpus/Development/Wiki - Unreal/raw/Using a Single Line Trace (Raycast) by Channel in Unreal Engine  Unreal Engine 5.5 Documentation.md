@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Using a Single Line Trace (Raycast) by Channel in Unreal Engine | Unreal Engine 5.5 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/using-a-single-line-trace-raycast-by-channel-in-unreal-engine?application_version=5.5"
 author:

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Bacronym | **Year:** 2020 | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/931310/Airplane_Mode/)**
 

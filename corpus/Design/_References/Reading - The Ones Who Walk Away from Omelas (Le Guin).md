@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 **Author:** Ursula K. Le Guin · **Year:** 1973

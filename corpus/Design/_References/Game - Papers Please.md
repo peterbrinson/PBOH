@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Lucas Pope | **Year:** 2013 | **Platform:** PC, mobile, console
 **→ [Steam](https://store.steampowered.com/app/239030/Papers_Please/)**
 

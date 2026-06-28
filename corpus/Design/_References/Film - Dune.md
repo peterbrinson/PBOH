@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Denis Villeneuve | **Years:** 2021, 2024
 *Based on the novel by Frank Herbert (1965)*
 

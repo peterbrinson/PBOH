@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Tale of Tales | **Year:** 2008 | **Platform:** PC, Mac
 **Fame tier:** cult-niche
 **→ [Steam](https://store.steampowered.com/app/27020/The_Graveyard/)**

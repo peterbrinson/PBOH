@@ -1,4 +1,5 @@
 ---
+type: Tutorial
 publish: false
 ---
 

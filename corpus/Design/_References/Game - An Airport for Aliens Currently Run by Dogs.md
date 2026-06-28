@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Strange Scaffold | **Year:** 2021 | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/1246250/An_Airport_for_Aliens_Currently_Run_by_Dogs/)**
 

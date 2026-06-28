@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Limasse Five | **Year:** 2014 | **Platform:** PC
 **Fame tier:** cult-niche
 **→ [Steam](https://store.steampowered.com/app/265690/NaissanceE/)**

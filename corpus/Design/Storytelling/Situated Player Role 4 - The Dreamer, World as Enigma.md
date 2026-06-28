@@ -1,4 +1,5 @@
 ---
+type: PlayerRole
 aliases:
   - "SPR 4 - The Dreamer, World as Enigma"
 ---

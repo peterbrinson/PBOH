@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** The Fullbright Company
 **→ [Steam](https://store.steampowered.com/app/232430/Gone_Home/)**
 **Year:** 2013

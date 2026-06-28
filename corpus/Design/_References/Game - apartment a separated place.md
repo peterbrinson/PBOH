@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** The Elsewhere Company | **Year:** 2020 | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/435730/apartment_a_separated_place/)**
 

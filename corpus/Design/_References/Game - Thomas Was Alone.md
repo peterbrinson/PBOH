@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Mike Bithell | **Year:** 2012 | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/220780/Thomas_Was_Alone/)**
 

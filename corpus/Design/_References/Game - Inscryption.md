@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Daniel Mullins | **Year:** 2021 | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/1092790/Inscryption/)**
 

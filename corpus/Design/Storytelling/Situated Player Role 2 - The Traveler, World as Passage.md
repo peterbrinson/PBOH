@@ -1,4 +1,5 @@
 ---
+type: PlayerRole
 aliases:
   - "SPR 2 - The Traveler, World as Passage"
 ---

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Hayao Miyazaki | **Year:** 2001 | **Studio:** Studio Ghibli
 
 ## What It Is

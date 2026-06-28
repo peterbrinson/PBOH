@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Blizzard | **Year:** 2022 | **Platform:** PC, console
 **→ [Battle.net](https://us.shop.battle.net/en-us/product/overwatch-2)**
 

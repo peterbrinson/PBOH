@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 publish: true
 ---
 

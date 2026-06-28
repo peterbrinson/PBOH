@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Traces in Unreal Engine - Overview | Unreal Engine 5.5 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/traces-in-unreal-engine---overview?application_version=5.5"
 author:

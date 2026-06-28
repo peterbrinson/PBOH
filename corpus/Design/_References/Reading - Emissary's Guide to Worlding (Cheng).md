@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 **Author:** Ian Cheng · **Year:** 2018 · **Type:** Book (short, e-book format)

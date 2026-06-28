@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Luis Antonio | **Year:** 2021 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1440820/Twelve_Minutes/)**
 

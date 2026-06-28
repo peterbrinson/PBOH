@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Remedy Entertainment | **Year:** 2010 (Remastered 2021) | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1622680/Alan_Wake_Remastered/)**
 

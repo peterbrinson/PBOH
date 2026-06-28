@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Moon Studios | **Year:** 2015 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/261570/Ori_and_the_Blind_Forest/)**
 

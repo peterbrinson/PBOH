@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Frogwares | **Year:** 2021 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1449280/Sherlock_Holmes_Chapter_One/)**
 

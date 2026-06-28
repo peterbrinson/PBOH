@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** LocalThunk | **Year:** 2024 | **Platform:** PC, console, mobile
 **→ [Steam](https://store.steampowered.com/app/2379780/Balatro/)**
 

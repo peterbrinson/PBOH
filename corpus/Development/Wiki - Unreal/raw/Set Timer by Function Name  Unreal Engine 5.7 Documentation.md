@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Set Timer by Function Name | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Utilities/Time/SetTimerbyFunctionName?application_version=5.7"
 author:

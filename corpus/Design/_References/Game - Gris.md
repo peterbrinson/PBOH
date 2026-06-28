@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Nomada Studio | **Year:** 2018 | **Platform:** PC, Switch, PlayStation, Xbox, mobile
 **Fame tier:** successful indie
 **→ [Steam](https://store.steampowered.com/app/683320/GRIS/)**

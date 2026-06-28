@@ -1,4 +1,5 @@
 ---
+type: Guide
 publish: false
 ---
 

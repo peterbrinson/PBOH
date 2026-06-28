@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Minority | **Year:** 2012 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/227080/Papo_Yo/)**
 

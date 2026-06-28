@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Irrational Games | **Year:** 2007 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/409710/BioShock_Remastered/)**
 

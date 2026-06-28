@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Controllers in Unreal Engine | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/controllers-in-unreal-engine"
 author:

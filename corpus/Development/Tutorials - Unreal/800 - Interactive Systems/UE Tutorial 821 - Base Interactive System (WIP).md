@@ -1,4 +1,5 @@
 ---
+type: Tutorial
 title: "UE Tutorial 821 - Base Interactive System"
 cssclasses: unreal-tutorial
 ---

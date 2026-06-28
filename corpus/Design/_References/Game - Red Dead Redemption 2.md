@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Rockstar Games | **Year:** 2018 | **Platform:** PC, console
 
 ## What It Is

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Directors:** Christoph & Wolfgang Lauenstein · **Year:** 1989 · **Runtime:** 7 min
 Academy Award, Best Animated Short (1990)
 

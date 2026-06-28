@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Chris Sawyer | **Year:** 1999 (the version cited in lecture: 2003 platinum) | **Platform:** PC
 **→ [Steam](https://store.steampowered.com/app/285330/RollerCoaster_Tycoon_Deluxe/)**
 

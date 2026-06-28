@@ -1,4 +1,5 @@
-﻿---
+---
+type: Lecture
 cssclasses: [site-389]
 publish: false
 ---

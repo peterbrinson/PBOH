@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Lucas Pope | **Year:** 2018 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/653530/Return_of_the_Obra_Dinn/)**
 

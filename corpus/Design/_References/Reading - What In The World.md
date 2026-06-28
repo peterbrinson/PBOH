@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 **Authors:** von Stackelberg & McDowell (2015)

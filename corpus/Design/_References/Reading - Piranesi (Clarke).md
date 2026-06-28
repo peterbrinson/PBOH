@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 **Author:** Susanna Clarke · **Year:** 2020 · **Type:** Novel

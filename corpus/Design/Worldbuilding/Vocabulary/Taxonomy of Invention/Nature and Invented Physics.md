@@ -1,4 +1,5 @@
-﻿---
+---
+type: Worldbuilding
 publish: true
 ---
 

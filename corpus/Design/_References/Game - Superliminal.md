@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Pillow Castle Games | **Year:** 2019 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1049410/Superliminal/)</br>
 

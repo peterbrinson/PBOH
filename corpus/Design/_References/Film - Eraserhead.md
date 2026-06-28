@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** David Lynch · **Year:** 1977 · black and white
 **Fame tier:** cult-niche (the canonical midnight movie)
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Eraserhead)**

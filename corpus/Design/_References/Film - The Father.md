@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Florian Zeller · **Year:** 2020 · from his play *Le Père*
 **Fame tier:** famous (Oscars: Best Actor, Best Adapted Screenplay)
 **→ [Wikipedia](https://en.wikipedia.org/wiki/The_Father_(2020_film))**

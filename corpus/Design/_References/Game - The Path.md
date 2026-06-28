@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Tale of Tales | **Year:** 2009 | **Platform:** PC, Mac
 **Fame tier:** cult-niche
 **→ [Wikipedia](https://en.wikipedia.org/wiki/The_Path_(2009_video_game))**

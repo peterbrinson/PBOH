@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** BlueTwelve Studio | **Year:** 2022 | **Platform:** PC, PlayStation, Xbox
 **Fame tier:** famous
 **→ [Steam](https://store.steampowered.com/app/1332010/Stray/)**

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Bethesda Game Studios | **Year:** 2015 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/377160/Fallout_4/)**
 

@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Gameplay Framework Quick Reference in Unreal Engine | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/gameplay-framework-quick-reference-in-unreal-engine?application_version=5.7"
 author:

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Larian Studios | **Year:** 2023 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1086940/Baldurs_Gate_3/)**
 

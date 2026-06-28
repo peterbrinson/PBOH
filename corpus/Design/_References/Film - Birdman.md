@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Alejandro G. Iñárritu · **Year:** 2014 · full title *Birdman or (The Unexpected Virtue of Ignorance)*
 **Fame tier:** famous (Best Picture)
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Birdman_(film))**

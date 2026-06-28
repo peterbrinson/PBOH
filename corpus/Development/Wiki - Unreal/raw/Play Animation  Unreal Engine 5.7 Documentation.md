@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Play Animation | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Components/Animation/PlayAnimation?application_version=5.7"
 author:

@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Giant Sparrow | **Year:** 2017 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/501300/What_Remains_of_Edith_Finch/)**
 

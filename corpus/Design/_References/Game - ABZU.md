@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Giant Squid | **Year:** 2016 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/384190/ABZU/)**
 

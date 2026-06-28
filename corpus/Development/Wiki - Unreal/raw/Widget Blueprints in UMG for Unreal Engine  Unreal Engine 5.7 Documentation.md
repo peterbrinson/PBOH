@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Widget Blueprints in UMG for Unreal Engine | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/widget-blueprints-in-umg-for-unreal-engine?application_version=5.7"
 author:

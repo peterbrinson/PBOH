@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Todd Haynes · **Year:** 1995
 **Fame tier:** cult-niche (Village Voice critics' best film of the 1990s)
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Safe_(1995_film))**

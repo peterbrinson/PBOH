@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Playables (Michael Frei & Raphaël Munoz), published by Panic | **Year:** 2025 | **Platform:** PC, Switch, PlayStation
 **Fame tier:** cult-niche
 **→ [Steam](https://store.steampowered.com/app/2000120/Time_Flies/)**

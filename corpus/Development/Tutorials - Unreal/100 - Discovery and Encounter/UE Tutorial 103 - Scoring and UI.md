@@ -1,4 +1,5 @@
 ---
+type: Tutorial
 cssclasses:
   - unreal-tutorial
 ---

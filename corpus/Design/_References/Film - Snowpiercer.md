@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Bong Joon-ho | **Year:** 2013 | **Runtime:** 126 min
 *Based on the French graphic novel Le Transperceneige*
 

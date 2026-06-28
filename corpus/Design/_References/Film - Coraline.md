@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Henry Selick | **Year:** 2009 | **Runtime:** 100 min
 *Based on the novella by Neil Gaiman*
 

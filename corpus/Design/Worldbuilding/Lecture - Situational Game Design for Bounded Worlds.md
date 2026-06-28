@@ -1,4 +1,5 @@
-﻿---
+---
+type: Worldbuilding
 title: "Lecture: Situational Game Design for Bounded Worlds"
 aliases:
   - Situational Game Design for Bounded Worlds

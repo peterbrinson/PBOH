@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** FromSoftware | **Year:** 2022 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1245620/ELDEN_RING/)**
 

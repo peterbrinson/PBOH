@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** René Rother, published by Devolver Digital | **Year:** 2024 | **Platform:** PC
 **Fame tier:** cult-niche
 **→ [Steam](https://store.steampowered.com/app/1309950/Children_of_the_Sun/)**

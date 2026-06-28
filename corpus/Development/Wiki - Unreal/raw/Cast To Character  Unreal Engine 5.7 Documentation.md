@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Cast To Character | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Utilities/Casting/CastToCharacter?application_version=5.7"
 author:

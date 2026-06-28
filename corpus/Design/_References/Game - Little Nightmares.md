@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Tarsier Studios | **Year:** 2017 | **Platform:** PC, consoles
 **Fame tier:** famous
 **→ [Steam](https://store.steampowered.com/app/424840/Little_Nightmares/)**

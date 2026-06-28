@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Ubisoft Montreal | **Year:** 2009 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/33230/Assassins_Creed_2/)**
 

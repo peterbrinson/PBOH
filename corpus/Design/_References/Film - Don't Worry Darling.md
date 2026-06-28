@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Olivia Wilde · **Year:** 2022
 **Fame tier:** famous
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Don't_Worry_Darling)**

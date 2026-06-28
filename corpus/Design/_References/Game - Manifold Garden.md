@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** William Chyr Studio | **Year:** 2019 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/473950/Manifold_Garden/)**
 

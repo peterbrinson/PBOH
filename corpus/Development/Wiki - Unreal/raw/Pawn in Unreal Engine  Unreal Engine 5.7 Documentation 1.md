@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Pawn in Unreal Engine | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/pawn-in-unreal-engine"
 author:

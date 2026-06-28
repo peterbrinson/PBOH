@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Young Horses | **Year:** 2014 | **Platform:** PC, consoles | full title *Octodad: Dadliest Catch*
 **Fame tier:** successful indie
 **→ [Steam](https://store.steampowered.com/app/224480/Octodad_Dadliest_Catch/)**

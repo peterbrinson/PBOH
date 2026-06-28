@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 **Functions** are node graphs belonging to a particular **Blueprint** that can be executed, or called, from another graph within the Blueprint. Functions have a single entry point designated by a node with the name of the Function containing a single exec output pin. When the Function is called from another graph, the output exec pin is activated causing the connected network to execute.
 
 The steps below will guide you through creating a Function which will print text to the screen when a button is pressed.

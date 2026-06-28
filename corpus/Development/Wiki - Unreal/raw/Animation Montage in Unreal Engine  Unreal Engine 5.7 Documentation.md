@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 You can use **Animation Montages** (**Montages**) to combine several **Animation Sequences** into a single asset and control playback with Blueprints. You can also use Animation Montages to replicate **Root Motion** animation in [network games](https://dev.epicgames.com/documentation/unreal-engine/animation-montage-in-unreal-engine#networkgames).
 
 ![demonstration of animation montage playback](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/74423179-9d8a-4f27-8cb3-ad194859509d/montagedemo.gif)

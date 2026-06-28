@@ -1,4 +1,5 @@
 ---
+type: Tutorial
 title: "UE Tutorial 202 - MetaHuman Animations"
 cssclasses:
   - unreal-tutorial

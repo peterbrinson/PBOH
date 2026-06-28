@@ -1,4 +1,5 @@
-﻿---
+---
+type: Worldbuilding
 title: Awkward Exposition
 publish: true
 ---

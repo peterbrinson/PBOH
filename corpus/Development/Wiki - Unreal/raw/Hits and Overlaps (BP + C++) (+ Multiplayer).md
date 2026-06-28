@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 Want to create your own community tutorial? [Create tutorial now](https://dev.epicgames.com/community/learning/tutorials/new)
 
 ![Hits and Overlaps (BP + C++) (+ Multiplayer)](https://dev.epicgames.com/community/api/learning/image/133055af-161d-4abd-be79-3ef30fa42133?resizing_type=fill&width=1600&height=200)

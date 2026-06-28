@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Amanita Design | **Year:** 2020 | **Platform:** PC, console, mobile
 **→ [Steam](https://store.steampowered.com/app/1102990/Creaks/)**
 

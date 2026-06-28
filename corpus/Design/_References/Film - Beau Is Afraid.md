@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Ari Aster · **Year:** 2023 · A24
 **Fame tier:** famous (divisive)
 **→ [Wikipedia](https://en.wikipedia.org/wiki/Beau_Is_Afraid)**

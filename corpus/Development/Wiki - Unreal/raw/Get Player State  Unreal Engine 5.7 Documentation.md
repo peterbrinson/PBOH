@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Get Player State | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Game/GetPlayerState?application_version=5.7"
 author:

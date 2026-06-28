@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Supergiant Games | **Year:** 2020 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1145360/Hades/)**
 

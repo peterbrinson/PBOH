@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Geometric Interactive (dir. Jeppe Carlsen, lead designer of Limbo/Inside) | **Year:** 2023 | **Platform:** PC, consoles
 **Fame tier:** successful indie
 **→ [Steam](https://store.steampowered.com/app/1497440/COCOON/)**

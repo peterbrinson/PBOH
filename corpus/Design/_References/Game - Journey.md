@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** thatgamecompany | **Year:** 2012 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/638230/Journey/)**
 

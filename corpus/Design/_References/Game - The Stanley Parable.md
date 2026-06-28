@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Galactic Cafe | **Year:** 2013 (Ultra Deluxe 2022) | **Platform:** PC, console
 **→ [Steam]([...](https://store.steampowered.com/app/1703340/The_Stanley_Parable_Ultra_Deluxe/))**
 

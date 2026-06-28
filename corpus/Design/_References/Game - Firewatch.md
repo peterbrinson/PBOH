@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Campo Santo | **Year:** 2016 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/383870/Firewatch/)**
 

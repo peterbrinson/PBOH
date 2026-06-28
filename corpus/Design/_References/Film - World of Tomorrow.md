@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Don Hertzfeldt · **Year:** 2015 · **Runtime:** 17 min
 **Fame tier:** cult-niche
 **→ [Wikipedia](https://en.wikipedia.org/wiki/World_of_Tomorrow_(film))**

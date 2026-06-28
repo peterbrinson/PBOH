@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Guerrilla Games | **Year:** 2017 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn/)**
 

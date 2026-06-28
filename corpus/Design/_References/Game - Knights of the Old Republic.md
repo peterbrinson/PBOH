@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** BioWare | **Year:** 2003 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/32370/STAR_WARS_Knights_of_the_Old_Republic/)**
 

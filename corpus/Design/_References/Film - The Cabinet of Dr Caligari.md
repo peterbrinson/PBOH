@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Director:** Robert Wiene · **Year:** 1920 · silent, German Expressionist
 **Fame tier:** famous (the canonical expressionist film)
 **→ [Wikipedia](https://en.wikipedia.org/wiki/The_Cabinet_of_Dr._Caligari)**

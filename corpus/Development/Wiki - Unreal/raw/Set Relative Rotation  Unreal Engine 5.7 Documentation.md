@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "Set Relative Rotation | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Transformation/SetRelativeRotation?application_version=5.7"
 author:

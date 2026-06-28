@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Team Bondi / Rockstar Games | **Year:** 2011 | **Platform:** PC, consoles | full title *L.A. Noire*
 **Fame tier:** famous
 **→ [Steam](https://store.steampowered.com/app/110800/LA_Noire/)**

@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 The **Blueprint Visual Scripting** system in Unreal Engine (often referred to as just “ **Blueprints** ”) is a visual scripting language that uses a node-based interface to create gameplay functionality without writing code. Similar to a written scripting language, the Blueprints system works with typed data like numbers, booleans, arrays, and structs. Logic flows through execution wires, meaning each node runs only when something explicitly tells it to run.
 
 With Blueprint Classes, you can pair physical components with scripted behavior. For example, a Blueprint could contain a coin static mesh and behavior that makes the player pick up the coin when they touch it.

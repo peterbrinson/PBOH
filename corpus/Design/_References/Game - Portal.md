@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Valve | **Year:** 2007 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/400/Portal/)**
 

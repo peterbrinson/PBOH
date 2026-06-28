@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** tha ltd. (dir. Yugo Nakamura) / Enhance | **Year:** 2023 | **Platform:** PC, PlayStation (VR optional)
 **Fame tier:** successful indie
 **→ [Steam](https://store.steampowered.com/app/1581480/HUMANITY/)**

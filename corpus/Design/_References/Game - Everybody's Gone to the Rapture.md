@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** The Chinese Room | **Year:** 2015 | **Platform:** PC, PlayStation
 **Fame tier:** successful indie
 **→ [Steam](https://store.steampowered.com/app/417880/Everybodys_Gone_to_the_Rapture/)**

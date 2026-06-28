@@ -1,3 +1,6 @@
+---
+type: WikiPage
+---
 ## Steps
 
 ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/185fd8fa-f677-47a2-a610-423ce151f6e9/colref_collisionmenu_buildyourown.png)

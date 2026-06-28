@@ -1,4 +1,5 @@
 ---
+type: Tutorial
 title: UE Tutorial 104 - Haunted House Triggers and Events
 publish: true
 cssclasses:

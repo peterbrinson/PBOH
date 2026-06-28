@@ -1,4 +1,5 @@
 ---
+type: Reference
 publish: true
 ---
 Novella by R.F. Kuang (2024). [Amazon](https://www.amazon.com/Katabasis-Novel-R-F-Kuang/dp/0063442078)

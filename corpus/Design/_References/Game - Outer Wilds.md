@@ -1,3 +1,6 @@
+---
+type: Reference
+---
 **Developer:** Mobius Digital | **Year:** 2019 | **Platform:** PC, console
 **→ [Steam](https://store.steampowered.com/app/753640/Outer_Wilds/)**
 

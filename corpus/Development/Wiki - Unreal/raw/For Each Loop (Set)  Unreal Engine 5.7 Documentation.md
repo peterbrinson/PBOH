@@ -1,4 +1,5 @@
 ---
+type: WikiPage
 title: "For Each Loop (Set) | Unreal Engine 5.7 Documentation"
 source: "https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Utilities/Set/ForEachLoop_Set?application_version=5.7"
 author:
