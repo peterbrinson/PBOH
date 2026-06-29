@@ -43,7 +43,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → Death Stranding, A Short Hike, NaissanceE, Journey, Shadow of the Colossus
 
 **A bounded / closed world with an enforced edge or one-way direction**
-→ Snowpiercer, The Platform, Hades, Severance, Dr Langeskov, Coraline, The Truman Show, Little Nightmares, Stray, NaissanceE
+→ Snowpiercer, The Platform, Hades, Severance, Dr Langeskov, Coraline, The Truman Show, Little Nightmares, Stray, NaissanceE, Backrooms
 
 **Crossing into another world and (maybe) returning changed**
 → Spirited Away, The Matrix, Twin Peaks, Coraline, World of Tomorrow, Annihilation
@@ -61,7 +61,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → Tango (1981), The Others, The Father, Tacoma
 
 **Sustained tone as the subject — dread or awe held without explanation** *(new 2026-06-10)*
-→ Safe, Arrival, Eraserhead, P.T.
+→ Safe, Arrival, Eraserhead, P.T., Backrooms
 
 **The dilemma is the design — an unwinnable or costly choice at the center (tradeoff material)** *(new 2026-06-10)*
 → Sophie's Choice, The Van (2019), Get Out, Papers Please
@@ -165,6 +165,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 | [[Game - What Remains of Edith Finch]]                     | Investigator, Dreamer            | A family home where each room is a complete, stylistically distinct world-within-a-world                                                                     |
 | [[Game - World of Warcraft]]                               | Traveler                         | Azeroth as deep cultural invention — dozens of races, histories, and values; the world is the main character                                                 |
 | [[Game - apartment a separated place]]                     | Dreamer, Investigator            | Move through the memories of a breakup; intimate environmental storytelling about love and loss                                                              |
+| [[World - Backrooms]]                                      | Traveler, Dreamer                | An internet-born liminal-horror world from one image + one rule — the unseen thing you only hear; a Closed boundary; worldbuilding from a single mood        |
 | [[Film - 2001 A Space Odyssey]]                            | Dreamer, Traveler                | Evolution, a homicidal AI, and a transcendent abstract finale                                                                                                |
 | [[Film - Annihilation]]                                    | Dreamer, Traveler                | A zone where biology, identity, and physics stop working                                                                                                     |
 | [[Film - Arrival]]                                         | Traveler, Dreamer                | Two hours of slow awe and grief held in suspension — a tone piece; a language that reshapes time                                                             |

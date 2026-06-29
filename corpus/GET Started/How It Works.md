@@ -10,6 +10,6 @@ Two things make this possible:
 - **Long context** — today's AI models can hold a large amount of text in memory at once, enough to take in the entire repository.
 - **In-context learning** — instead of being re-trained, the AI learns what it needs from the material you hand it in the moment. The GET's pages and rules *are* that material.
 
-This works because of *how* the material is written: plain markdown, one idea per file, linked together — a form that's just as readable to a person as to an AI. (It's the same shape Google recently named the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md); the GET arrived there on its own.)
+This works because of how the material is written: plain markdown, one idea per file, linked together — a form that's just as readable to a person as to an AI. (It's the same shape Google recently named the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md)).
 
-So the Design and Development sections you can browse here aren't the whole story — they're the library the tutor reads from. 
+
