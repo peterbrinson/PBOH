@@ -23,7 +23,7 @@ publish: true
 
 ## 1. Start Your Session
 
-#### *Not using the terminal or already have your CLI running with the GET greeting? Skip to Section 2.*
+#### Already have your CLI running with the GET greeting? Skip to Section 2.*
 
 Do this every time you've closed The GET in the terminal:
 
@@ -44,7 +44,7 @@ The GET will greet you and ask which role you're working in — The Investigator
 
 ## 2. Try Your Idea
 
-Tell the GET about an idea you have. Something concrete is best — describe the **experience**, not the mechanics. 
+Tell the GET about an idea you have. Something concrete is best — describe the **experience**, more than the mechanics. 
 
 You don't need a finished concept. A situation you can picture is enough.  Perhaps 4 to 8 sentences.  There certainly can be unknowns.
 

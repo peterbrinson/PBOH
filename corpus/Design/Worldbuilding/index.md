@@ -16,7 +16,7 @@ The Bounded Worlds framework is the worldbuilding companion to the [[Situated Pl
 
 Because the world has overt limits, the designer can focus on making it consistent, inhabited, and intelligible. Bounded Worlds frames (Brian Upton's) [[Situational Game Design for Bounded Worlds|situations]] as the essential components of worldbuilding: as the player chooses a path through them, exploration expresses their choices within constraint.
 
-# 2. How Will My World's Edges Define My World?
+# 2. Which Boundary Defines My World?
 
 > [!info] Every Bounded World has one of three Boundaries — Finite, Closed, or Threshold.
 
@@ -27,7 +27,7 @@ If it doesn't, the world is **Finite**. If it does, ask whether the player can r
 
 ## Finite
 
-The world presents itself as whole. The player engages entirely within what is present — the world is the totality.
+The world presents itself as whole. The player engages entirely within what is present — there is no world outside of what's playable.
 
 > [!example]- Examples
 > - [[Film - Balance (1989)|Balance]] (1989) — the world is the platform and the five characters; nothing else exists
@@ -40,11 +40,11 @@ The world presents itself as whole. The player engages entirely within what is p
 > - [Tetris](https://en.wikipedia.org/wiki/Tetris) (1984) — the well and the falling shapes, a closed abstract system
 > - [Aesop's Fables](https://en.wikipedia.org/wiki/Aesop%27s_Fables) — each fable a tiny self-contained world, complete in a few lines
 
-A transition from Finite to Bounded:  [[Reading - Yertle the Turtle (Seuss)|Yertle the Turtle]] (1958) — expanding boundary
+-A transition from Finite to Bounded:  [[Reading - Yertle the Turtle (Seuss)|Yertle the Turtle]] (1958) — expanding boundary
 
 ## Closed
 
-The player can encounter the edge of the world. The boundary is felt during play — the system holds the player within its limits — but cannot be passed.
+The player can encounter the edge of the world. The boundary is found during play — the system holds the player within its limits — but cannot be passed.
 
 > [!example]- Examples
 > - [The Exterminating Angel](https://en.wikipedia.org/wiki/The_Exterminating_Angel) (Luis Buñuel, 1962) - bourgeois characters are stuck in their own world

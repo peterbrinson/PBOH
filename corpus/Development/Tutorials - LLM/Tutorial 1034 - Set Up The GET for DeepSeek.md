@@ -76,9 +76,12 @@ Read the file AGENTS.md in this folder and follow it to act as The GET. Then sta
 
 The GET greets you and asks what you're working on.
 
-### *You're set up* — continue to [[Tutorial 1101 - Start Using The GET]].
+# *You're set up* — continue to [[Tutorial 1101 - Start Using The GET]].
 
 ---
+___
+---
+<br>
 
 ## 4. Troubleshooting
 

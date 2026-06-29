@@ -146,6 +146,9 @@ Find the line `"API_KEY": "sk-REPLACE_WITH_YOUR_KEY"`, swap `sk-REPLACE_WITH_YOU
 # *Deep Code is installed* — continue to [[Tutorial 1034 - Set Up The GET for DeepSeek]].
 
 ---
+----
+----
+<br>
 
 ## 5. Troubleshooting
 
