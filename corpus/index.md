@@ -11,14 +11,6 @@ Clone or fork the repository, open it with an AI coding agent, and start a sessi
 
 The rest below is a browsable copy of the corpus — the same material the tutor reads from.
 
-## Design
+## Web Version
 
-- [[_References|References]]
-- [[Storytelling]]
-- [[Worldbuilding]]
-
-## Development
-
-- [[Development/Tutorials - LLM]]
-- [[Tutorials - Unreal]]
-- [[Wiki - Unreal]]
+The navigation bar on the left lets you look at the read-only version of The GET.  
