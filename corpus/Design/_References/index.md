@@ -95,6 +95,7 @@ Game and film examples The GET draws on when a project reminds it of an existing
 - [[Game - Slash Bash|Slash Bash]]
 - [[Game - Spec Ops The Line|Spec Ops The Line]]
 - [[Game - Stray|Stray]]
+- [[Game - Subnautica|Subnautica]]
 - [[Game - Superliminal|Superliminal]]
 - [[Game - Tacoma|Tacoma]]
 - [[Game - The Beginner's Guide|The Beginner's Guide]]
@@ -166,3 +167,4 @@ Game and film examples The GET draws on when a project reminds it of an existing
 ## Worlds
 
 - [[World - Backrooms|Backrooms]]
+- [[World - The Exit 8|The Exit 8]]

@@ -24,9 +24,12 @@ In [[Bounded Worlds]] terms the original is a **Closed** world: an outside (ordi
 
 ## Liminal Space
 
-The Backrooms is the signature example of the **liminal space** aesthetic: transitional, semi-public built environments — hallways, offices, malls, empty pools, waiting rooms — treated as charged thresholds rather than neutral architecture. Emptied of people and purpose but with their maintenance signs still humming, they produce disorientation and dread. Shira Chess calls this the ["institutional gothic"](https://thereader.mitpress.mit.edu/backrooms-and-the-rise-of-the-institutional-gothic/): the haunted castle replaced by fluorescent lights, drop ceilings, and corporate bureaucracy. 
+The Backrooms is the signature example of the **liminal space** aesthetic: transitional, semi-public built environments — hallways, offices, malls, empty pools, waiting rooms — treated as charged thresholds. Emptied of people and purpose but with their maintenance signs still humming, they produce disorientation and dread. Shira Chess calls this the ["institutional gothic"](https://thereader.mitpress.mit.edu/backrooms-and-the-rise-of-the-institutional-gothic/): the haunted castle replaced by fluorescent lights, drop ceilings, and corporate bureaucracy. 
 
-**Creepypasta** — the tradition the Backrooms belongs to: short, shareable internet horror stories that spread by copy-paste, reposting, and mutation. They're folklore native to the web, authorless and endlessly remixed. (Slender Man is the most famous earlier example.)
+A tighter, single-authored take on the same corridor-dread is [[World - The Exit 8|The Exit 8]] — one looping passage with a precise rule.
+
+### Creepypasta
+The tradition the Backrooms belongs to: short, shareable internet horror stories that spread by copy-paste, reposting, and mutation. They're folklore native to the web, authorless and endlessly remixed. (Perhaps Slender Man is the most famous earlier example.)
 
 ## The Wiki Phenomenon
 
@@ -60,6 +63,7 @@ In January 2022, teenage creator Kane Parsons ("Kane Pixels") released **The Bac
 
 
 ## Related
+- [[World - The Exit 8]] — a single-authored liminal looping world; close kin
 - [[Wolf's Taxonomy of Invention]] — the kit maps onto all four types of invention
 - [[Catalysts of Speculation]] — the unseen thing; withholding as the engine
 - [[Bounded Worlds]] — the original is a Closed world (an edge felt, never crossed)

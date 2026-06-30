@@ -43,7 +43,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → Death Stranding, A Short Hike, NaissanceE, Journey, Shadow of the Colossus
 
 **A bounded / closed world with an enforced edge or one-way direction**
-→ Snowpiercer, The Platform, Hades, Severance, Dr Langeskov, Coraline, The Truman Show, Little Nightmares, Stray, NaissanceE, Backrooms
+→ Snowpiercer, The Platform, Hades, Severance, Dr Langeskov, Coraline, The Truman Show, Little Nightmares, Stray, NaissanceE, Backrooms, The Exit 8
 
 **Crossing into another world and (maybe) returning changed**
 → Spirited Away, The Matrix, Twin Peaks, Coraline, World of Tomorrow, Annihilation
@@ -67,13 +67,16 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → Sophie's Choice, The Van (2019), Get Out, Papers Please
 
 **Ecological — the natural world as subject, indifferent or in collapse**
-→ Rain World, ABZU, Horizon Zero Dawn, Elden Ring, Proteus
+→ Rain World, ABZU, Horizon Zero Dawn, Elden Ring, Proteus, Subnautica
+
+**3D survival — gather, craft, and endure in a world whose nature sets the rules**
+→ Subnautica, Rain World
 
 **Autobiography / grief / intimate emotional subject (sensitive territory)**
 → Papo and Yo, apartment a separated place, The Unfinished Swan, What Remains of Edith Finch, World of Tomorrow, Gris, Eternal Sunshine of the Spotless Mind, The Father, Bardo
 
 **Time loop — repeating an interval with carried-over knowledge**
-→ 12 Minutes, Outer Wilds, P.T., Hades
+→ 12 Minutes, Outer Wilds, P.T., Hades, The Exit 8
 
 **Meta / authorial control / the game knows it's a game**
 → The Stanley Parable, Inscryption, Dr Langeskov, The Pedestrian, The Truman Show, Alan Wake 2, Birdman, The Beginner's Guide, Spec Ops The Line
@@ -149,6 +152,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 | [[Game - Shadow of the Colossus]]                          | Traveler, Dreamer                | Sixteen majestic creatures you're sent to kill — the mechanics slowly argue that you're the villain                                                          |
 | [[Game - Spec Ops The Line]]                               | Dreamer                          | A standard-looking military shooter that ends as a meditation on your complicity — the reveal reframes everything you did                                    |
 | [[Game - Stray]]                                           | Entrant                          | A cat in a sealed robot city — moving through a world built for other bodies                                                                                 |
+| [[Game - Subnautica]]                                      | Investigator, Traveler           | The reference 3D survival game — an alien ocean whose nature (oxygen, pressure, depth) is the ruleset; descent as dread; the story read from wreckage         |
 | [[Game - Superliminal]]                                    | Entrant, Dreamer                 | Forced perspective made physical — objects resize to their apparent size; a dream that runs on how you look at it                                            |
 | [[Game - Tacoma]]                                          | Investigator                     | An emptied space station rebuilt by scrubbing 3D AR recordings of the crew; institution-scale evidence                                                       |
 | [[Game - The Beginner's Guide]]                            | Dreamer, Traveler                | A guided tour through a fictional designer's body of work — authorship, interpretation, and a slowly building wrongness                                      |
@@ -166,6 +170,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 | [[Game - World of Warcraft]]                               | Traveler                         | Azeroth as deep cultural invention — dozens of races, histories, and values; the world is the main character                                                 |
 | [[Game - apartment a separated place]]                     | Dreamer, Investigator            | Move through the memories of a breakup; intimate environmental storytelling about love and loss                                                              |
 | [[World - Backrooms]]                                      | Traveler, Dreamer                | An internet-born liminal-horror world from one image + one rule — the unseen thing you only hear; a Closed boundary; worldbuilding from a single mood        |
+| [[World - The Exit 8]]                                     | Entrant, Traveler                | A looping liminal subway corridor escaped only by spotting anomalies — the world posts its own rules; one mechanic (attention); game + acclaimed 2025 film   |
 | [[Film - 2001 A Space Odyssey]]                            | Dreamer, Traveler                | Evolution, a homicidal AI, and a transcendent abstract finale                                                                                                |
 | [[Film - Annihilation]]                                    | Dreamer, Traveler                | A zone where biology, identity, and physics stop working                                                                                                     |
 | [[Film - Arrival]]                                         | Traveler, Dreamer                | Two hours of slow awe and grief held in suspension — a tone piece; a language that reshapes time                                                             |
