@@ -60,7 +60,7 @@ According to Wolf, worldbuilding is the process of constructing a fictional worl
 
 Wolf (p.43): a world does not have to be realistic — it has to be *consistent*. 
 
-![[week2-baba-is-you.avif]]
+![[week2-baba-is-you.webp]]
 
 [[Game - Baba Is You|Baba Is You]] (2019): the rules of the world are literally written on screen as movable word tiles. Rewrite them, and the world's rules change.
 
@@ -84,7 +84,7 @@ Ancillary details help believability.
 
 [[Game - Firewatch|Firewatch]] (2016): the ranger's backstory unfolds at the beginning.  https://www.youtube.com/watch?v=cJxBMoMkY1U
 
-![[week2-lotr-moria.avif]]
+![[week2-lotr-moria.webp]]
 
 In **[[Film - Lord of the Rings|Middle-earth]]**: the old ruins, the faded maps, the languages with their own grammatical history — these are signals that something happened, long before the story began. 
 
@@ -121,7 +121,7 @@ Real-world things renamed. The concept works exactly like its real-world equival
 
 In **Middle-earth**: *pipeweed* (tobacco), *lembas* (travel bread), *mithril* (an ultra-light silver-like metal), *mathoms* (useless keepsakes you can't bring yourself to throw away). 
 
-![[week2-lotr-pipeweed.avif]]
+![[week2-lotr-pipeweed.webp]]
 *(Pipeweed — tobacco by another name.)*
 
 The novel [[Reading - Dark Eden (Beckett)]] English has changed over five generations of a shipwrecked family.  

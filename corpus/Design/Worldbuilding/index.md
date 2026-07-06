@@ -71,7 +71,7 @@ The player can approach and pass from one state or space into another.
 > - [[Game - Psychonauts|Psychonauts]] (2005) — you cross from the physical camp into the interior worlds of other minds
 > - [[Film - World of Tomorrow|World of Tomorrow]] (Don Hertzfeldt, 2015) — a child pulled across time into a distant, stranger future
 > - [[Film - Spirited Away|Spirited Away]] (Miyazaki, 2001) — Chihiro passes through the tunnel into the spirit world, and must cross back
-> - [[Reading - Piranesi (Clarke)|Piranesi]] (Susanna Clarke, 2020) — the labyrinthine House connects to our world through hidden ways
+> - [[Reading - Piranesi (Clarke)|Piranesi]] (Susanna Clarke, 2020) — the labyrinthine house connects to our world through hidden ways
 > - [Alice in Wonderland](https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland) (Lewis Carroll, 1865) — down the rabbit-hole into a world with its own logic
 > - [[Film - The Matrix|The Matrix]] (Wachowski Sisters, 1999) — crossing between the simulation and the real
 > - [[Film - Inception|Inception]] (Christopher Nolan, 2010) — descent through nested dream layers, each a world within a world
@@ -114,7 +114,7 @@ Show don't tell.
 
 ## Go Deeper: Wolf's Vocabulary
 
-Mark Wolf's *Building Imaginary Worlds* (the [[Mark Wolf|lecture]]) frames a world through three core properties — **invention**, **completeness** (by degree), and **consistency** — that together earn its **plausibility**. The gaps left by completeness are what invite the player's speculation. Each has a page:
+Mark Wolf's *Building Imaginary Worlds* (the [[Mark Wolf|lecture]]) frames a world through three core properties — **invention**, **completeness** (by degree), and **consistency** — that together earn its **plausibility**. The gaps left by completeness are what invite the player's speculation. Find each page:
 - [[Consistency and Internal Logic]] — consistent, not realistic
 - [[Completeness]] — inhabited by degree; the gaps invite [[Catalysts of Speculation|speculation]]
 - [[Wolf's Taxonomy of Invention]] — four steps away from the real world, deepest in [[Cultural Invention|culture]] and [[Nature and Invented Physics|nature]]

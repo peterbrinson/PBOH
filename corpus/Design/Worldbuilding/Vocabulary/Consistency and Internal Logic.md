@@ -34,7 +34,7 @@ Cartoonish gravity, speed, specific materials (bombs, meat grinders, labeled box
 
 
 ## Operating in a Finite World
-![[spr_investigator_08.avif]]
+![[spr_investigator_08.webp]]
 La Maison en Petits by Kunio Kato.  The way architecture is metaphor and a vehicles for storytelling is consistent and leverages rather straightforward logic.
 
 His journey downward triggers flashbacks, each futher back in time as he visits deeper chambers of his home.  

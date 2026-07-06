@@ -1,7 +1,7 @@
 
 # The GET
 
-The Game Engine Tutor maps an early idea for a playable story or world — clarifying what is known, what questions remain, and how the prototype might be built in a game engine.
+The Game Engine Tutor maps an early idea for a playable story or world, outlining what is known, what questions remain, and how the prototype might be built in a game engine.
 
 ---
 ## [[GET Started]]

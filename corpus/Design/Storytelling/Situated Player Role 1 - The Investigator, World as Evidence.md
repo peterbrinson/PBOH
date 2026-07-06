@@ -66,7 +66,7 @@ AAA games contain multiple Situated Player Roles. The Investigator — examining
 <br>
 ## Allegory
 
-![[spr_investigator_08.avif]]
+![[spr_investigator_08.webp]]
 
 Perhaps the most straightforward encapsulation of The Investigator can be found in a short animated film, *La Maison en Petits Cubes.* Neither a detective nor adventurer, the protagonist is an old man alone in an elemental world. He descends floor by floor into a flooded, impossibly tall and multi-storied house; each level is a lived period, a memory recovered through exploration. This short film captures how spaces can represent a life and how descending into them is an act of remembering.
 https://www.youtube.com/watch?v=jhQ75OV4VRs

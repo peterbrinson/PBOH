@@ -10,7 +10,8 @@ This page summarizes the first two chapters of Brian Upton's *Situational Game D
 
 ---
 
-> "A situation is an interval of play that contains a choice." (p.11)
+#### *"A situation is an interval of play that contains a choice."* (p.11)
+----
 
 ## What Is Situational Game Design?
 
@@ -43,8 +44,8 @@ Many games feel playful even when we aren't interacting with them.
 
 **[[Game - PT|P.T.]]** — the interactivity is limited. What makes it work is the tension between actions. 
 
-> Peter: People want their field to be special. Game design folks look to isolate what qualities aren't in other media — like interaction. But if we acknowledge that control doesn't have to be the player's focus, what opens up?  
-> Like other forms of art, game encourage us to ponder and process culture.  And so, is there more to computing than efficiency and power? 
+> Peter: People want their field to be special. Game design folks often privlidge what qualities aren't in other media — like interaction. But if we acknowledge that control doesn't have to be at the center of our model, what creative opportunites open up?  
+> Like other forms of art, games encourage us to ponder and process culture.  And so, is there more to computing than efficiency and power? 
 
 ---
 ### Film cuts as analogy
@@ -90,13 +91,13 @@ Cinema is a sign system. The director controls what you see, when you see it, wh
 
 La Maison en Petits Cubes encodes an entire life — through image and score. Every viewer decodes the same thing: grief, delivered. 
 
-![[spr_investigator_08.avif]]
+![[spr_investigator_08.webp]]
 
 > "But the standard semiotic model breaks down when we get at the heart of how meaning-making operates in games. Much of the meaning that we take away from a game is not a function of the signifiers that it transmits to us, but rather of the things it allows us to do. Performance is where much of the meaning of a game lies." (p.7)
 
 Here meaning is constructed, not transmitted.
 
-> Peter: So playing pretend is an example? 
+> Peter: So "playing pretend" is an example? 
 
 In Journey, meaning-making is not explainable through the standard semiotic model because its meaning doesn't arise from a transmission of signifiers.
 
@@ -115,7 +116,7 @@ A turn in Monopoly, a platform in Super Mario Bros., entering a door in DOOM, a 
 
 > "We can conceptualize any play experience as a chain of situations. Within each situation we have a choice of moves, and the move we choose determines our next situation." (p.11)
 
-> Peter:  Choosing to run towards the distant tree is a choice, just valuable (expressive) as choosing to use a weapon against a boss.  
+> Peter:  Choosing to run towards a distant tree is a choice, just as valuable (expressive) as choosing to use a weapon against a boss.  
 
 ### Constraints
 
@@ -174,7 +175,7 @@ We avoid hills in video games even when the game doesn't penalize climbing. We f
 
 If you're playing a horror game, you'll move differently than if you believe you're playing a first-person shooter. You'll be more cautious. You'll pay more attention. Part of what makes a horror game scary is our knowledge that it's supposed to be scary.
 
-> Peter:  In your Bounded World does the player constrain themselves? 
+> Peter:  In your Bounded World, does the player constrain themselves? 
 
 ---
 

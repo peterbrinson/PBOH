@@ -46,7 +46,7 @@ The Entrant operates through a repeatable three-step loop: **L.O.P.** — Legibi
 
 The puzzle-platformer *[[Game - Inside|Inside]]* (2016) consistently manifests L.O.P.
 
-![[spr_entrant_05.avif]]
+![[spr_entrant_05.webp]]
 **Legibility** ("See what matters.") — The player recognizes the barrier and identifies the interactive components in the room. 
 
 -----
