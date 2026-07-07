@@ -68,15 +68,15 @@ The player can encounter the edge of the world. The boundary is found during pla
 The player can approach and pass from one state or space into another. 
 
 > [!example]- Examples
+> - [[Reading - Alice's Adventures in Wonderland (Carroll)|Alice in Wonderland]] (Lewis Carroll, 1865) — down the rabbit-hole into a world with its own logic
+> - [[Film - The Matrix|The Matrix]] (Wachowski Sisters, 1999) — crossing between the simulation and the real
+> - [[Film - Inception|Inception]] (Christopher Nolan, 2010) — descent through nested dream layers, each a world within a world
+> - [[Film - Paprika|Paprika]] (Satoshi Kon, 2006) — the boundary between dream and waking dissolves 
 > - [[Game - Portal|Portal]] (2007) — the portal itself is the crossing: step through one space, emerge from another
 > - [[Game - Psychonauts|Psychonauts]] (2005) — you cross from the physical camp into the interior worlds of other minds
 > - [[Film - World of Tomorrow|World of Tomorrow]] (Don Hertzfeldt, 2015) — a child pulled across time into a distant, stranger future
 > - [[Film - Spirited Away|Spirited Away]] (Miyazaki, 2001) — Chihiro passes through the tunnel into the spirit world, and must cross back
 > - [[Reading - Piranesi (Clarke)|Piranesi]] (Susanna Clarke, 2020) — the labyrinthine house connects to our world through hidden ways
-> - [[Reading - Alice's Adventures in Wonderland (Carroll)|Alice in Wonderland]] (Lewis Carroll, 1865) — down the rabbit-hole into a world with its own logic
-> - [[Film - The Matrix|The Matrix]] (Wachowski Sisters, 1999) — crossing between the simulation and the real
-> - [[Film - Inception|Inception]] (Christopher Nolan, 2010) — descent through nested dream layers, each a world within a world
-> - [[Film - Paprika|Paprika]] (Satoshi Kon, 2006) — the boundary between dream and waking dissolves 
 > - [[Film - Pan's Labyrinth|Pan's Labyrinth]] (Guillermo del Toro, 2006) — Ofelia moves between wartime Spain and the faun's underground kingdom
 > - [[Film - Twin Peaks|Twin Peaks]] (1990–1991, 2017) — the town opens onto the Red Room, another order of reality
 > - [[Film - Severance|Severance]] (2022–) — the threshold splits work-self from home-self; crossing it changes who you are

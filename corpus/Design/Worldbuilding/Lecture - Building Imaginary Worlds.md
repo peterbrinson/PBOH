@@ -23,12 +23,12 @@ Chihiro's point-of-view provides a straightforward vehicle for us learn about th
 
 ## Worlds Next to Worlds
 
-Wolf (p.17) says that fictional worlds don't exist *inside* our world. They exist *next to* it — held in the mind alongside the real world. 
+Wolf (p.17) says that fictional worlds don't exist inside our world. They exist in comparison. 
 
-The practical consequence: we bring everything we know about the real world with us when we enter a fiction. [[Reading - The Planiverse (Dewdney)]] has seasons, gravity, hunger. 
+The practical consequence: we bring everything we know about the real world with us when we enter a fiction. For example, [[Reading - The Planiverse (Dewdney)|The Planiverse]] has seasons, gravity, hunger. 
 Middle-earth has weather, fatigue, economics.
 
-Our question is, what do they add or subtract? 
+Our question is, what do they add, subtract, and change? 
 
 ---
 ### Definitions
@@ -94,8 +94,8 @@ In **[[Film - Lord of the Rings|Middle-earth]]**: the old ruins, the faded maps,
 ## Catalysts of Speculation
 *→ [[Catalysts of Speculation]]*
 
-Wolf (p.60): **Catalysts of Speculation** — what the writer leaves untold, in order to *imply.*
-This is *deliberate* ambiguity — a gap that invites the audience to lean in and imagine, or theorize. 
+Wolf (p.60): **Catalysts of Speculation** — what the writer leaves untold, in order to imply.
+This is designed ambiguity — a gap that invites the audience to lean in and imagine, or theorize. 
 
 ![[week2-monolith.jpg]]
 
@@ -103,7 +103,7 @@ This is *deliberate* ambiguity — a gap that invites the audience to lean in an
 
 ![[week2-outer-wilds.webp]]
 
-**[[Game - Outer Wilds|Outer Wilds]]** (2019): the Nomai ruins. What happened to them? The game has an answer — but withholds it long enough that speculation drives exploration.
+**[[Game - Outer Wilds|Outer Wilds]]** (2019): the Nomai ruins. What happened to them? In this case the game has an answer — but withholds it long enough that speculation drives exploration.
 
 The end of [[Reading - The Ones Who Walk Away from Omelas (Le Guin)|"The Ones Who Walk Away from Omelas"]] lets us ponder.
 
