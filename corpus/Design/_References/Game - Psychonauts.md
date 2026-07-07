@@ -7,3 +7,5 @@ type: Reference
 ## What It Is
 A third-person platformer. You play Raz, a psychic kid at a summer camp for psychic children. a primary mechanic: enter the minds of NPCs and navigate them as distinct physical worlds. Each mental world is a bounded, self-contained space inside that character's mind.
 
+Inside Coach Oleander's mind:  https://youtu.be/HxtFsjS7-ok?t=1058
+

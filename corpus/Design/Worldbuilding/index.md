@@ -46,6 +46,8 @@ The world presents itself as whole. The player engages entirely within what is p
 The player can encounter the edge of the world. The boundary is found during play — the system holds the player within its limits — but cannot be passed.
 
 > [!example]- Examples
+> - [Escape rooms](https://en.wikipedia.org/wiki/Escape_room) — sealed by design; the walls hold you for the duration of play
+> - [Terrariums](https://www.google.com/search?sca_esv=b2e5da9dfdb7adff&rlz=1C1HKFL_enUS1217US1217&sxsrf=APpeQnu5eDdC8bNazMLXcxq1bPRQY41ZnQ:1783465197703&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYRzcy6GgySVUpZky6o6nTl3yANz31fL3XIvRkTfoNBefg3cGlw6l4eYsWcHwcpFAwvKRuQYIHx4O8jI7q2P29S5kcU1ohbwTRhnOZ2hYPs8TPwU9KlaZERvH99w1Olcwj1Sbz1vyx3B0AnMQaaxzIr9OAIHMA&q=terrarium&sa=X&ved=2ahUKEwju68_M1cGVAxXEplYBHfiSDXkQtKgLegQIGBAB&biw=1392&bih=779&dpr=2), zoos, prisons —  a world inside the world
 > - [The Exterminating Angel](https://en.wikipedia.org/wiki/The_Exterminating_Angel) (Luis Buñuel, 1962) - bourgeois characters are stuck in their own world
 > - [[Game - Dr Langeskov|Dr Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist]] - backstage from the real (and inaccessible) game
 > -  [[Game - 12 Minutes|12 Minutes]] (2021) — three rooms, one looping conversation; the world is the apartment
@@ -59,8 +61,7 @@ The player can encounter the edge of the world. The boundary is found during pla
 > - [[Film - The Platform|The Platform]] (Galder Gaztelu-Urrutia, 2019) — a vertical prison-pit; the structure holds each prisoner to their level
 > - [[Game - PT|P.T.]] (Kojima Productions, 2014) — an L-shaped corridor that loops on itself; you walk forward but never leave
 > - [Slaughterhouse-Five](https://en.wikipedia.org/wiki/Slaughterhouse-Five) (Kurt Vonnegut, 1969) — Billy Pilgrim is kept in an alien zoo; 
-> - Escape rooms — sealed by design; the walls hold you for the duration of play
-> - Terrariums, zoos, prisons — enclosures built to contain and display; the inhabitant cannot leave
+
 
 ## Threshold
 
@@ -72,7 +73,7 @@ The player can approach and pass from one state or space into another.
 > - [[Film - World of Tomorrow|World of Tomorrow]] (Don Hertzfeldt, 2015) — a child pulled across time into a distant, stranger future
 > - [[Film - Spirited Away|Spirited Away]] (Miyazaki, 2001) — Chihiro passes through the tunnel into the spirit world, and must cross back
 > - [[Reading - Piranesi (Clarke)|Piranesi]] (Susanna Clarke, 2020) — the labyrinthine house connects to our world through hidden ways
-> - [Alice in Wonderland](https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland) (Lewis Carroll, 1865) — down the rabbit-hole into a world with its own logic
+> - [[Reading - Alice's Adventures in Wonderland (Carroll)|Alice in Wonderland]] (Lewis Carroll, 1865) — down the rabbit-hole into a world with its own logic
 > - [[Film - The Matrix|The Matrix]] (Wachowski Sisters, 1999) — crossing between the simulation and the real
 > - [[Film - Inception|Inception]] (Christopher Nolan, 2010) — descent through nested dream layers, each a world within a world
 > - [[Film - Paprika|Paprika]] (Satoshi Kon, 2006) — the boundary between dream and waking dissolves 
