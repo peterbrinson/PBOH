@@ -34,13 +34,12 @@ The world presents itself as whole. The player engages entirely within what is p
 > - [[Game - Monument Valley|Monument Valley]] (2014) — a set of micro-worlds, each small and finite
 > - [[Game - Mountain|Mountain]] (2014) — you are a mountain
 > - [[Game - Inscryption|Inscryption]] (2021) — Act 1: the table, the cabin, the game
-> - [[Game - 12 Minutes|12 Minutes]] (2021) — three rooms, one looping conversation; the world is the apartment
 > - [[Game - Thomas Was Alone|Thomas Was Alone]] (2012) — abstract rectangles in an empty field; the puzzle-space is the whole world
 > - [Journey](https://store.steampowered.com/app/638230/Journey/) (2012) — a single pilgrimage from desert to summit; nothing exists outside the arc
 > - [Tetris](https://en.wikipedia.org/wiki/Tetris) (1984) — the well and the falling shapes, a closed abstract system
-> - [Aesop's Fables](https://en.wikipedia.org/wiki/Aesop%27s_Fables) — each fable a tiny self-contained world, complete in a few lines
+> - [[Reading - Aesop's Fables (Aesop)|Aesop's Fables]] — each fable a tiny self-contained world, complete in a few lines (see *The Boy Who Cried Wolf*)
 
--A transition from Finite to Bounded:  [[Reading - Yertle the Turtle (Seuss)|Yertle the Turtle]] (1958) — expanding boundary
+-A transition from Finite to Bounded:  [[Reading - Yertle the Turtle (Seuss)|Yertle the Turtle]] (1958) — expanding the boundary
 
 ## Closed
 
@@ -49,6 +48,7 @@ The player can encounter the edge of the world. The boundary is found during pla
 > [!example]- Examples
 > - [The Exterminating Angel](https://en.wikipedia.org/wiki/The_Exterminating_Angel) (Luis Buñuel, 1962) - bourgeois characters are stuck in their own world
 > - [[Game - Dr Langeskov|Dr Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist]] - backstage from the real (and inaccessible) game
+> -  [[Game - 12 Minutes|12 Minutes]] (2021) — three rooms, one looping conversation; the world is the apartment
 > - [[Game - Return of the Obra Dinn|Return of the Obra Dinn]] (2018) — the ship is the playable enclosure; ports, empire, weather, and voyage exist as evidence, not destinations
 > - [[Game - Papers Please|Papers, Please]] (2013) — the checkpoint booth holds the player while Arstotzka's politics press in through papers, guards, news, and family consequences
 > - [[Game - Tacoma|Tacoma]] (2017) — the station is explorable, but Earth, corporate power, and the crew's lives remain outside the accessible corridors, readable only through traces

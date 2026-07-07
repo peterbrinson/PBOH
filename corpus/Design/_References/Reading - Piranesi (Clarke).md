@@ -9,10 +9,10 @@ A man known as Piranesi lives in the House: an endless labyrinth of grand halls,
 
 ## Relevance to Worldbuilding
 
-Piranesi is a near-perfect [[Small Worlds|Small World]]: the House is a bounded, self-consistent labyrinth the narrator treats as complete in itself, yet it connects to our world through hidden passages. Clarke withholds far more than she explains, making the House a sustained [[Catalysts of Speculation|catalyst of speculation]] — meaning accumulates through the narrator's patient, committed observation of statues, tides, and halls. It is a vivid case for [[Meeting the World|how a player meets a world]].
+Piranesi is a near-perfect [[Bounded Worlds|Bounded World]]: the House is a bounded, self-consistent labyrinth the narrator treats as complete in itself, yet it connects to our world through hidden passages. Clarke withholds far more than she explains, making the House a sustained [[Catalysts of Speculation|catalyst of speculation]] — meaning accumulates through the narrator's patient, committed observation of statues, tides, and halls. It is a vivid case for [[Meeting the World|how a player meets a world]].
 
 ## Related
-- [[Small Worlds]]
+- [[Bounded Worlds]]
 - [[Meeting the World]]
 - [[Catalysts of Speculation]]
 - [[Mark Wolf]]

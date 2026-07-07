@@ -29,6 +29,6 @@ This is worldbuilding as cultural anthropology: a society's myths, taboos, and p
 
 ## Related
 
-- [[Small Worlds]]
+- [[Bounded Worlds]]
 - [[Completeness]]
 - [[Cultural Invention]]

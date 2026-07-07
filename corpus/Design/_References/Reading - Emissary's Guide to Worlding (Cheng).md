@@ -230,5 +230,5 @@ If an artwork is a ship, then the artist is its crew, the content is its cargo, 
 ## Related
 - [[Worldbuilding - Definition and Scope]]
 - [[Consistency and Internal Logic]]
-- [[Small Worlds]]
+- [[Bounded Worlds]]
 - [[Reading - Philip K Dick]]

@@ -26,6 +26,9 @@ In [[Bounded Worlds]] terms the original is a **Closed** world: an outside (ordi
 
 The Backrooms is the signature example of the **liminal space** aesthetic: transitional, semi-public built environments — hallways, offices, malls, empty pools, waiting rooms — treated as charged thresholds. Emptied of people and purpose but with their maintenance signs still humming, they produce disorientation and dread. Shira Chess calls this the ["institutional gothic"](https://thereader.mitpress.mit.edu/backrooms-and-the-rise-of-the-institutional-gothic/): the haunted castle replaced by fluorescent lights, drop ceilings, and corporate bureaucracy. 
 
+![[backrooms_Level-37-7.gif]]
+*The "Poolrooms" (the wiki's Level 37) — the empty-pool variant of the aesthetic: white tile, warm light, still green water.*
+
 A tighter, single-authored take on the same corridor-dread is [[World - The Exit 8|The Exit 8]] — one looping passage with a precise rule.
 
 ### Creepypasta
@@ -42,6 +45,9 @@ What the community did next demonstrates impressive worldbuilding. Within months
 - **Almond water** — a mundane found object (thermoses of liquid) that became the survival resource and informal currency. 
 - **The M.E.G.** (Major Explorer Group) — a faction of survivors that maps, rescues, and researches. Its real job is to give the wiki an in-world narrator.
 - **Canons** — when contributors contradicted each other, the community created parallel **canons**. Contradiction became a feature, somehting like comic-book multiverses.
+
+![[backrooms_sketches.jpg]]
+*Fan-drawn level maps (DeviantArt: Amfstation17, 2022) — the numbered-level taxonomy sketched out by the community, from Level 0: The Lobby onward.*
 
 Two wikis carried this — a **Fandom** wiki (2019, fast and maximalist) and a later **Wikidot** wiki (2020, more curated and literary).
 
@@ -60,7 +66,8 @@ In January 2022, teenage creator Kane Parsons ("Kane Pixels") released **The Bac
 - **Co-op survival horror** — *Inside the Backrooms* has up to four players escape levels by solving puzzles, managing supplies, and learning entity behavior.
 - **Polished multi-level escape** — *Escape the Backrooms* turned the wiki's level taxonomy into 30+ co-op levels with level-specific exits.
 
-
+![[backrooms_Roblox_24_12_2023_17_06_57.webp]]
+*A Roblox rendition — the premise migrated to game platforms and mutated: blue walls instead of mono-yellow, a stray toy chest. A small instance of the parallel canons.*
 
 ## Related
 - [[World - The Exit 8]] — a single-authored liminal looping world; close kin

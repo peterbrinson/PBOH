@@ -14,4 +14,4 @@ Omelas is a world defined entirely by its central dilemma. There is almost no pl
 
 ## Related
 - [[Worldbuilding - Definition and Scope]]
-- [[Small Worlds]]
+- [[Bounded Worlds]]
