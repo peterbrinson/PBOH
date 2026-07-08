@@ -30,10 +30,11 @@ If it doesn't, the world is **Finite**. If it does, ask whether the player can r
 The world presents itself as whole. The player engages entirely within what is present — there is no world outside of what's playable.
 
 > [!example]- Examples
-> - [[Film - Balance (1989)|Balance]] (1989) — the world is the platform and the five characters; nothing else exists
+> - [[Film - Balance (1989)|Balance]] (1989) — the world is the platform and the five characters; get get a tiny glimpse of what's beyond 
 > - [[Game - Monument Valley|Monument Valley]] (2014) — a set of micro-worlds, each small and finite
 > - [[Game - Mountain|Mountain]] (2014) — you are a mountain
 > - [[Game - Inscryption|Inscryption]] (2021) — Act 1: the table, the cabin, the game
+> - [[Game - 12 Minutes|12 Minutes]] (2021) — three rooms, one looping conversation; the world is the apartment.  The world exists for 12 minutes
 > - [[Game - Thomas Was Alone|Thomas Was Alone]] (2012) — abstract rectangles in an empty field; the puzzle-space is the whole world
 > - [Journey](https://store.steampowered.com/app/638230/Journey/) (2012) — a single pilgrimage from desert to summit; nothing exists outside the arc
 > - [Tetris](https://en.wikipedia.org/wiki/Tetris) (1984) — the well and the falling shapes, a closed abstract system
@@ -48,10 +49,9 @@ The player can encounter the edge of the world. The boundary is found during pla
 > [!example]- Examples
 > - [Escape rooms](https://en.wikipedia.org/wiki/Escape_room) — sealed by design; the walls hold you for the duration of play
 > - [Terrariums](https://www.google.com/search?sca_esv=b2e5da9dfdb7adff&rlz=1C1HKFL_enUS1217US1217&sxsrf=APpeQnu5eDdC8bNazMLXcxq1bPRQY41ZnQ:1783465197703&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYRzcy6GgySVUpZky6o6nTl3yANz31fL3XIvRkTfoNBefg3cGlw6l4eYsWcHwcpFAwvKRuQYIHx4O8jI7q2P29S5kcU1ohbwTRhnOZ2hYPs8TPwU9KlaZERvH99w1Olcwj1Sbz1vyx3B0AnMQaaxzIr9OAIHMA&q=terrarium&sa=X&ved=2ahUKEwju68_M1cGVAxXEplYBHfiSDXkQtKgLegQIGBAB&biw=1392&bih=779&dpr=2), zoos, prisons —  a world inside the world
-> - [The Exterminating Angel](https://en.wikipedia.org/wiki/The_Exterminating_Angel) (Luis Buñuel, 1962) - bourgeois characters are stuck in their own world
+> - [The Exterminating Angel](https://en.wikipedia.org/wiki/The_Exterminating_Angel) (Luis Buñuel, 1962) - bourgeois characters are stuck in their own world, a house
 > - [[Game - Dr Langeskov|Dr Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist]] - backstage from the real (and inaccessible) game
-> -  [[Game - 12 Minutes|12 Minutes]] (2021) — three rooms, one looping conversation; the world is the apartment
-> - [[Game - Return of the Obra Dinn|Return of the Obra Dinn]] (2018) — the ship is the playable enclosure; ports, empire, weather, and voyage exist as evidence, not destinations
+> - [[Game - Return of the Obra Dinn|Return of the Obra Dinn]] (2018) — the ship is the playable enclosure; ports, empire, weather, and voyage exist as evidence
 > - [[Game - Papers Please|Papers, Please]] (2013) — the checkpoint booth holds the player while Arstotzka's politics press in through papers, guards, news, and family consequences
 > - [[Game - Tacoma|Tacoma]] (2017) — the station is explorable, but Earth, corporate power, and the crew's lives remain outside the accessible corridors, readable only through traces
 > - [[Game - Gone Home|Gone Home]] (2013) — the storm-lit house is the world; the family's wider life is implied through rooms, objects, and absences
@@ -75,7 +75,7 @@ The player can approach and pass from one state or space into another.
 > - [[Game - Portal|Portal]] (2007) — the portal itself is the crossing: step through one space, emerge from another
 > - [[Game - Psychonauts|Psychonauts]] (2005) — you cross from the physical camp into the interior worlds of other minds
 > - [[Film - World of Tomorrow|World of Tomorrow]] (Don Hertzfeldt, 2015) — a child pulled across time into a distant, stranger future
-> - [[Film - Spirited Away|Spirited Away]] (Miyazaki, 2001) — Chihiro passes through the tunnel into the spirit world, and must cross back
+> - [[Film - Spirited Away|Spirited Away]] (Miyazaki, 2001) — Chihiro passes through the tunnel into the spirit world, before crossing back
 > - [[Reading - Piranesi (Clarke)|Piranesi]] (Susanna Clarke, 2020) — the labyrinthine house connects to our world through hidden ways
 > - [[Film - Pan's Labyrinth|Pan's Labyrinth]] (Guillermo del Toro, 2006) — Ofelia moves between wartime Spain and the faun's underground kingdom
 > - [[Film - Twin Peaks|Twin Peaks]] (1990–1991, 2017) — the town opens onto the Red Room, another order of reality

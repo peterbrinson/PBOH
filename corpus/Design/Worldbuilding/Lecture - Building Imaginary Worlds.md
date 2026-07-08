@@ -9,13 +9,12 @@ publish: true
 
 This page covers the core vocabulary from Mark Wolf's *Building Imaginary Worlds* — a strong reference for worldbuilding terms. 
 
-Note: [[Film - Lord of the Rings|Lord of the Rings]] and [[Film - Dune|Dune]] are frequently referenced because - with sprawling sets of books and movies - their worlds have a lot to draw from. 
 
 ---
 
 
 ![[week2-spirited-away.jpg]]
-*([[Film - Spirited Away|Spirited Away]], 2001 — a world with additional logic)*
+*([[Film - Spirited Away|Spirited Away]], 2001 — a world with new logic)*
 
 Chihiro's point-of-view provides a straightforward vehicle for us learn about the world; she is doing so with us. Often, she is as surprised as us.  But sometimes differently - when and how? 
 
@@ -36,11 +35,6 @@ Our question is, what do they add, subtract, and change?
 J.R.R. Tolkien's Groundwork:  [[Reading - On Fairy-Stories (Tolkien)]]
 *→ [[Worldbuilding - Definition and Scope]]*
 
----
-## References
-
-We will use [[Game - Inside|Inside]] and [Everything](https://vimeo.com/1122256656/8bf64a9e92?share=copy) as references.
-And [[Reading - The Planiverse (Dewdney)|The Planiverse]].
 
 ----------
 
@@ -58,7 +52,7 @@ According to Wolf, worldbuilding is the process of constructing a fictional worl
 ## Consistency and Internal Logic
 *→ [[Consistency and Internal Logic]]*
 
-Wolf (p.43): a world does not have to be realistic — it has to be *consistent*. 
+Wolf (p.43): a world does not have to be realistic, but it can be consistent. 
 
 ![[week2-baba-is-you.webp]]
 
