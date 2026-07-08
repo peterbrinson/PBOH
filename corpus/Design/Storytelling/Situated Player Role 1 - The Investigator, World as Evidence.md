@@ -5,7 +5,7 @@ aliases:
 ---
 
 **Summarized in:** [[Situated Player Roles]]
-**Next:** [[Situated Player Role 2 - The Traveler, World as Passage|Situated Player Role 2: The Traveler]]
+**Next:** [[Situated Player Role 2 - The Traveler, World as Presence|Situated Player Role 2: The Traveler]]
 
 ![[spr_investigator_01.webp]]
 
@@ -74,4 +74,4 @@ https://www.youtube.com/watch?v=jhQ75OV4VRs
 Where games make The Investigator most salient is in their system of knowing: understanding is earned through play. This role treats narrative as discoverable and stable, rewarding players who slow down, take notes, and update comprehension as new evidence appears.
 
 
-**Next:** [[Situated Player Role 2 - The Traveler, World as Passage|Situated Player Role 2: The Traveler]]
+**Next:** [[Situated Player Role 2 - The Traveler, World as Presence|Situated Player Role 2: The Traveler]]

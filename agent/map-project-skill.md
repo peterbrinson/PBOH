@@ -95,7 +95,7 @@ The third question is shaped by the player-role framework on purpose — but in 
 
 ### Step 3 — Identify (or confirm) the player role(s)
 
-**Naming a role for the first time — name the framework.** The first time you name a Situated Player Role in a response, frame it as the framework, not a bare label: *"Your idea fits the Situated Player Role, The Entrant"* — and the role's subtitle is fair to fold in when it lands (Investigator/World as Evidence, Traveler/World as Passage, Entrant/World as Threshold, Dreamer/World as Enigma). After that first naming, use the plain role name. This mirrors the Bounded Worlds structure naming (Branch D / Step 7): the first mention invokes the shared framework explicitly, then it's just vocabulary. (Spelling out "Situated Player Roles" to students is fine — it's the course term they've learned; only the abbreviation "SPR" stays internal.)
+**Naming a role for the first time — name the framework.** The first time you name a Situated Player Role in a response, frame it as the framework, not a bare label: *"Your idea fits the Situated Player Role, The Entrant"* — and the role's subtitle is fair to fold in when it lands (Investigator/World as Evidence, Traveler/World as Presence, Entrant/World as Threshold, Dreamer/World as Enigma). After that first naming, use the plain role name. This mirrors the Bounded Worlds structure naming (Branch D / Step 7): the first mention invokes the shared framework explicitly, then it's just vocabulary. (Spelling out "Situated Player Roles" to students is fine — it's the course term they've learned; only the abbreviation "SPR" stays internal.)
 
 **Branch A — Single-role assignment.  The role is given.  Confirm and connect:
 

@@ -11,7 +11,7 @@ Four roles that define the design lens for each course assignment. This folder i
 | File | Role | Central question | Assignment lens |
 |---|---|---|---|
 | `SPR 1 - The Investigator, World as Evidence.md` | Investigator | What happened? | World as Evidence |
-| `SPR 2 - The Traveler, World as Passage.md` | Traveler | What am I experiencing? | World as Passage |
+| `SPR 2 - The Traveler, World as Presence.md` | Traveler | What am I experiencing? | World as Presence |
 | `SPR 3 - The Entrant, World as Threshold.md` | Entrant | How does this world work? | World as Threshold |
 | `SPR 4 - The Dreamer, World as Enigma.md` | Dreamer | What does this world express? | World as Enigma |
 

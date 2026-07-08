@@ -15,12 +15,12 @@ The GET's single source of truth for **where each corpus page lives** and **whic
 - **about-the-get** *(unpublished)* `corpus/GET Started/For Contributors/about-the-get.md` — This folder is your AI tutor for designing playable stories and worlds in Unreal Engine. You set it up with the 1000-series tutorials —…
 - **contributing-to-the-get** *(unpublished)* `corpus/GET Started/For Contributors/contributing-to-the-get.md` — The GET is distributed by forking. You work in your own fork; the class original stays read-only to you. This page covers the three things…
 - **How It Works** `corpus/GET Started/How It Works.md` — You open the repository with an AI coding agent (such as Claude Code or Gemini CLI). The agent reads the whole repository into its working…
-- **GET Started** `corpus/GET Started/index.md` — The GET is a repository on GitHub — the course material plus the instructions that turn an AI into your tutor. The website you're reading…
+- **GET Started** `corpus/GET Started/index.md` — The GET is a knowledge bundle — course material coupled with the instructions that turn an LLM into your tutor.
 - **Setup Instructions** `corpus/GET Started/Setup Instructions.md` — 1. Get the repository. Clone or fork The GET on GitHub.
 
 ### Design
 
-- **+ References Index** *(unpublished)* `corpus/Design/_References/+ References Index.md` — Built 2026-06-06 (CE Review). Purpose: when the GET is about to cite an example in a project-mapping response, it should look up the best…
+- **+ References Index** *(unpublished)* `corpus/Design/_References/+ References Index.md` — Reverse lookup: match the student's theme/shape to an example here rather than citing a famous title from memory.
 - **Comic - Calvin and Hobbes** `corpus/Design/_References/Comic - Calvin and Hobbes.md` — Creator: Bill Watterson | Year: 1985–1995 | Format: Newspaper comic strip
 - **Film - 2001 A Space Odyssey** `corpus/Design/_References/Film - 2001 A Space Odyssey.md` — Director: Stanley Kubrick | Year: 1968
 - **Film - Annihilation** `corpus/Design/_References/Film - Annihilation.md` — Director: Alex Garland | Year: 2018
@@ -144,6 +144,7 @@ The GET's single source of truth for **where each corpus page lives** and **whic
 - **Game - Slash Bash** `corpus/Design/_References/Game - Slash Bash.md` — Developer: USC student team | Year: 2024 | Platform: PC
 - **Game - Spec Ops The Line** `corpus/Design/_References/Game - Spec Ops The Line.md` — Developer: Yager | Year: 2012 | Platform: PC, console
 - **Game - Stray** `corpus/Design/_References/Game - Stray.md` — Developer: BlueTwelve Studio | Year: 2022 | Platform: PC, PlayStation, Xbox
+- **Game - Subnautica** `corpus/Design/_References/Game - Subnautica.md` — Developer: Unknown Worlds | Year: 2018 | Platform: PC, console
 - **Game - Superliminal** `corpus/Design/_References/Game - Superliminal.md` — Developer: Pillow Castle Games | Year: 2019 | Platform: PC, console
 - **Game - Tacoma** `corpus/Design/_References/Game - Tacoma.md` — Developer: The Fullbright Company
 - **Game - The Beginner's Guide** `corpus/Design/_References/Game - The Beginner's Guide.md` — Developer: Davey Wreden | Year: 2015 | Platform: PC
@@ -164,6 +165,8 @@ The GET's single source of truth for **where each corpus page lives** and **whic
 - **Game - Who's Lila** `corpus/Design/_References/Game - Who's Lila.md` — Developer: Garage Heathen | Year: 2022 | Platform: PC
 - **Game - World of Warcraft** `corpus/Design/_References/Game - World of Warcraft.md` — Developer: Blizzard Entertainment | Year: 2004 | Platform: PC
 - **index** `corpus/Design/_References/index.md` — Game and film examples The GET draws on when a project reminds it of an existing work.
+- **Reading - Aesop's Fables (Aesop)** `corpus/Design/_References/Reading - Aesop's Fables (Aesop).md` — Author: attributed to Aesop · Year: c. 6th century BCE (collected later) · Type: Fables
+- **Reading - Alice's Adventures in Wonderland (Carroll)** `corpus/Design/_References/Reading - Alice's Adventures in Wonderland (Carroll).md` — Author: Lewis Carroll · Year: 1865 · Type: Novel
 - **Reading - Annihilation (VanderMeer)** `corpus/Design/_References/Reading - Annihilation (VanderMeer).md` — Novel by Jeff VanderMeer (2014). First book of the Southern Reach trilogy. Amazon
 - **Reading - Dark Eden (Beckett)** `corpus/Design/_References/Reading - Dark Eden (Beckett).md` — Dark Eden is a science fiction novel by Chris Beckett, published in 2012. It won the Arthur C. Clarke Award in 2013.
 - **Reading - Emissary's Guide to Worlding (Cheng)** `corpus/Design/_References/Reading - Emissary's Guide to Worlding (Cheng).md` — Author: Ian Cheng · Year: 2018 · Type: Book (short, e-book format)
@@ -180,36 +183,38 @@ The GET's single source of truth for **where each corpus page lives** and **whic
 - **Reading - What In The World** `corpus/Design/_References/Reading - What In The World.md` — Authors: von Stackelberg & McDowell (2015)
 - **Reading - Worldbuilding in Science Fiction, Foresight and Design (Zaidi)** `corpus/Design/_References/Reading - Worldbuilding in Science Fiction, Foresight and Design (Zaidi).md` — Author: Leah Zaidi (2019)
 - **Reading - Yertle the Turtle (Seuss)** `corpus/Design/_References/Reading - Yertle the Turtle (Seuss).md` — Author: Dr. Seuss · Year: 1958 · Type: Children's book
-- **Design** `corpus/Design/index.md` — The game-design lens The GET reasons with — the player-role framework and the library of game and film examples it draws on.
+- **World - Backrooms** `corpus/Design/_References/World - Backrooms.md` — Origin: 4chan /x/, 2019 | Form: creepypasta → collaborative wiki → found-footage video → feature film
+- **World - The Exit 8** `corpus/Design/_References/World - The Exit 8.md` — Game: The Exit 8 — Kotake Create, 2023 (PC, Switch) | Film: Exit 8 — dir. Genki Kawamura, 2025
+- **Design** `corpus/Design/index.md` — The game-design lens The GET reasons with — the player-role and a worldbuilding framework as well as a library of game and film examples…
 - **dreamer working** *(unpublished)* `corpus/Design/Storytelling/dreamer working.md` — give proper credit to the image i just inserted
 - **Situated Player Roles** `corpus/Design/Storytelling/index.md` — This framework responds to a challenge every game design course inevitably faces: our initial ideas are too large to build, especially…
 - **Situated Player Role 1 - The Investigator, World as Evidence** `corpus/Design/Storytelling/Situated Player Role 1 - The Investigator, World as Evidence.md` — Summarized in: Situated Player Roles
-- **Situated Player Role 2 - The Traveler, World as Passage** `corpus/Design/Storytelling/Situated Player Role 2 - The Traveler, World as Passage.md` — Summarized in: Situated Player Roles
+- **Situated Player Role 2 - The Traveler, World as Presence** `corpus/Design/Storytelling/Situated Player Role 2 - The Traveler, World as Presence.md` — Summarized in: The-GET/corpus/Design/Storytelling/index|Situated Player Roles
 - **Situated Player Role 3 - The Entrant, World as Threshold** `corpus/Design/Storytelling/Situated Player Role 3 - The Entrant, World as Threshold.md` — Summarized in: Situated Player Roles
 - **Situated Player Role 4 - The Dreamer, World as Enigma** `corpus/Design/Storytelling/Situated Player Role 4 - The Dreamer, World as Enigma.md` — Summarized in: Situated Player Roles
-- **Awkward Exposition** `corpus/Design/Worldbuilding/Exposition and Anticipation/Awkward Exposition.md` — title: Awkward Exposition
-- **Catalysts of Speculation** `corpus/Design/Worldbuilding/Exposition and Anticipation/Catalysts of Speculation.md` — publish: true
+- **Awkward Exposition** `corpus/Design/Worldbuilding/Exposition and Anticipation/Awkward Exposition.md` — Exposition becomes awkward when the world stops moving so it can explain itself — the cutscene, the text scroll, the block of Lore as a…
+- **Catalysts of Speculation** `corpus/Design/Worldbuilding/Exposition and Anticipation/Catalysts of Speculation.md` — Wolf's term (p.60) — what the designer leaves untold or unrealized so that the audience imagines it. It is a deliberate withholding that…
 - **index** `corpus/Design/Worldbuilding/Exposition and Anticipation/index.md` — title: Exposition and Anticipation
-- **Lore as a Trap** `corpus/Design/Worldbuilding/Exposition and Anticipation/Lore as a Trap.md` — publish: true
+- **Lore as a Trap** `corpus/Design/Worldbuilding/Exposition and Anticipation/Lore as a Trap.md` — Lore and backstory are worldbuilding skills that are likely out of scale of the student. Tolkien needed backstory because he was building…
 - **Foundations** `corpus/Design/Worldbuilding/Foundations/index.md` — Where worldbuilding starts: what a fictional world is, how its defined, and the entry points for making one.
-- **Starting Points for World Creation** `corpus/Design/Worldbuilding/Foundations/Starting Points for World Creation.md` — publish: true
-- **Worldbuilding - Definition and Scope** `corpus/Design/Worldbuilding/Foundations/Worldbuilding - Definition and Scope.md` — publish: true
+- **Starting Points for World Creation** `corpus/Design/Worldbuilding/Foundations/Starting Points for World Creation.md` — Every worldbuilding endeavor begins somewhere. Three common entry points:
+- **Worldbuilding - Definition and Scope** `corpus/Design/Worldbuilding/Foundations/Worldbuilding - Definition and Scope.md` — Mark Wolf|Wolf (p.17): fictional worlds - we understand them by comparison to reality — the real world is always our starting point, even…
 - **Bounded Worlds: The Playable and the Imagined** `corpus/Design/Worldbuilding/index.md` — Every game design project faces the same challenge: our initial ideas are too large to build. The Bounded Worlds framework provides a…
-- **Lecture - Building Imaginary Worlds** `corpus/Design/Worldbuilding/Lecture - Building Imaginary Worlds.md` — title: "Lecture: Building Imaginary Worlds"
-- **Lecture - Situational Game Design for Bounded Worlds** `corpus/Design/Worldbuilding/Lecture - Situational Game Design for Bounded Worlds.md` — title: "Lecture: Situational Game Design for Bounded Worlds"
+- **Lecture: Building Imaginary Worlds** `corpus/Design/Worldbuilding/Lecture - Building Imaginary Worlds.md` — This page covers the core vocabulary from Mark Wolf's Building Imaginary Worlds — a strong reference for worldbuilding terms.
+- **Lecture: Situational Game Design for Bounded Worlds** `corpus/Design/Worldbuilding/Lecture - Situational Game Design for Bounded Worlds.md` — This page summarizes the first two chapters of Brian Upton's Situational Game Design (2017) for the sake of building Bounded Worlds. All…
 - **index** `corpus/Design/Worldbuilding/The Experience/index.md` — title: The Experience
-- **Meeting the World** `corpus/Design/Worldbuilding/The Experience/Meeting the World.md` — publish: true
-- **Teaching the Rules of the World** `corpus/Design/Worldbuilding/The Experience/Teaching the Rules of the World.md` — publish: true
-- **World Responsiveness** `corpus/Design/Worldbuilding/The Experience/World Responsiveness.md` — publish: true
-- **Completeness** `corpus/Design/Worldbuilding/Vocabulary/Completeness.md` — publish: true
-- **Consistency and Internal Logic** `corpus/Design/Worldbuilding/Vocabulary/Consistency and Internal Logic.md` — publish: true
+- **Meeting the World** `corpus/Design/Worldbuilding/The Experience/Meeting the World.md` — Let us focus on brief moments within a situation, steps within "the interval of play" articulated in Situational Game Design for Bounded…
+- **Teaching the Rules of the World** `corpus/Design/Worldbuilding/The Experience/Teaching the Rules of the World.md` — A primary design challenge for video game designers is teaching the player how to play. This is teaching the rules of the world.
+- **World Responsiveness** `corpus/Design/Worldbuilding/The Experience/World Responsiveness.md` — A world's responsiveness is what makes a space feel inhabited and exciting — it has precence, behavior, and consequence.
+- **Completeness** `corpus/Design/Worldbuilding/Vocabulary/Completeness.md` — Mark Wolf (p.38–39): completeness is a degree. Every world has gaps. The question is how those gaps are handled.
+- **Consistency and Internal Logic** `corpus/Design/Worldbuilding/Vocabulary/Consistency and Internal Logic.md` — Mark Wolf (p.43): consistency is the degree to which world details are plausible, feasible, and without contradiction.
 - **index** `corpus/Design/Worldbuilding/Vocabulary/index.md` — title: Vocabulary
-- **Narrative Structure in Worlds** `corpus/Design/Worldbuilding/Vocabulary/Narrative Structure in Worlds.md` — publish: true
-- **Cultural Invention** `corpus/Design/Worldbuilding/Vocabulary/Taxonomy of Invention/Cultural Invention.md` — publish: true
+- **Narrative Structure in Worlds** `corpus/Design/Worldbuilding/Vocabulary/Narrative Structure in Worlds.md` — Mark Wolf|Wolf (p.198): narrative is by far the most common structure found in imaginary worlds, and the reason that most of them exist in…
+- **Cultural Invention** `corpus/Design/Worldbuilding/Vocabulary/Taxonomy of Invention/Cultural Invention.md` — Wolf calls culture the biggest category of invention — everything made by people: customs, technology, institutions, ideologies, objects,…
 - **index** `corpus/Design/Worldbuilding/Vocabulary/Taxonomy of Invention/index.md` — title: Mark Wolf's Taxonomy of Invention
-- **Nature and Invented Physics** `corpus/Design/Worldbuilding/Vocabulary/Taxonomy of Invention/Nature and Invented Physics.md` — publish: true
-- **Transmedia** `corpus/Design/Worldbuilding/Vocabulary/Transmedia.md` — publish: true
-- **World Structure - Wolf's Eight Elements** `corpus/Design/Worldbuilding/Vocabulary/World Structure - Wolf's Eight Elements.md` — publish: true
+- **Nature and Invented Physics** `corpus/Design/Worldbuilding/Vocabulary/Taxonomy of Invention/Nature and Invented Physics.md` — Wolf's Nature element (p.155) includes landscape, climate, flora, fauna — and physics. The physical laws of a world are part of its nature.
+- **Transmedia** `corpus/Design/Worldbuilding/Vocabulary/Transmedia.md` — Transmedia describes the phenomenon of multiple stories told in multiple mediums taking place in one world.
+- **World Structure - Wolf's Eight Elements** `corpus/Design/Worldbuilding/Vocabulary/World Structure - Wolf's Eight Elements.md` — Wolf (p.154–155): a world needs three foundational structures to exist, plus five more that comprise the world itself.
 
 ### Development
 
@@ -243,10 +248,10 @@ The GET's single source of truth for **where each corpus page lives** and **whic
 - **index** `corpus/Development/Tutorials - Unreal/300 - Environment Systems/index.md` — The natural world — landscape, water, and foliage.
 - **UE Tutorial 301 - Landscapes, Gaea and Automaterial** `corpus/Development/Tutorials - Unreal/300 - Environment Systems/UE Tutorial 301 - Landscapes, Gaea and Automaterial.md` — You will make a landscape in the program, Gaea, to import into Unreal.
 - **UE Tutorial 302 - Water** `corpus/Development/Tutorials - Unreal/300 - Environment Systems/UE Tutorial 302 - Water.md` — Previous: UE Tutorial 301 - Landscapes, Gaea and Automaterial
-- **index** `corpus/Development/Tutorials - Unreal/400 - Materials/index.md` — More to come.
+- **400 - Materials** `corpus/Development/Tutorials - Unreal/400 - Materials/index.md` — More to come.
 - **UE Tutorial 401 - Create a Material** `corpus/Development/Tutorials - Unreal/400 - Materials/UE Tutorial 401 - Create a Material.md` — Choose New Project.
 - **500 - Physics** `corpus/Development/Tutorials - Unreal/500 - Physics/index.md` — - UE Tutorial 501 - Simple Physics
-- **UE Tutorial 501 - Simple Physics** `corpus/Development/Tutorials - Unreal/500 - Physics/UE Tutorial 501 - Simple Physics.md` — An object falls, tumbles when clipped, and can be shoved around by the player — without a single Blueprint node.
+- **UE Tutorial 501 - Simple Physics** `corpus/Development/Tutorials - Unreal/500 - Physics/UE Tutorial 501 - Simple Physics.md` — Learn the fundamentals of Unreal's physics engine.
 - **index** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/index.md` — Augment the world's expressiveness — mood, attention, perspective.
 - **UE Tutorial 701 - Post-Processing** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/UE Tutorial 701 - Post-Processing.md` — By Yibei He & Peter Brinson
 - **UE Tutorial 702 - Niagara Particles** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/UE Tutorial 702 - Niagara Particles.md` — By Yibei He & Peter Brinson
@@ -329,20 +334,20 @@ The GET's single source of truth for **where each corpus page lives** and **whic
 ### CTIN 389
 
 - **CTIN 389** *(unpublished)* `corpus/CTIN 389/index.md` — Game Development Principles — lecture pages for USC's CTIN 389, converted from the course slide decks. (A few pages have fuller image sets…
-- **Week 1.2 - Lost Woods** `corpus/CTIN 389/Week 1.2 - Lost Woods.md` — cssclasses: [site-389]
-- **Week 2.1 - Keys and Doors** `corpus/CTIN 389/Week 2.1 - Keys and Doors.md` — cssclasses: [site-389]
-- **Week 3.2 - Workspaces and Splines** `corpus/CTIN 389/Week 3.2 - Workspaces and Splines.md` — cssclasses: [site-389]
-- **Week 4.1 - Animation and Assets** `corpus/CTIN 389/Week 4.1 - Animation and Assets.md` — cssclasses: [site-389]
-- **Week 5.1 - Quandaries** `corpus/CTIN 389/Week 5.1 - Quandaries.md` — cssclasses: [site-389]
-- **Week 8.1 - Unreal Tutorial** `corpus/CTIN 389/Week 8.1 - Unreal Tutorial.md` — cssclasses: [site-389]
-- **Week 8.2 - Subtext and Theme** `corpus/CTIN 389/Week 8.2 - Subtext and Theme.md` — cssclasses: [site-389]
-- **Week 9.2 - Mechanics and Emotion** `corpus/CTIN 389/Week 9.2 - Mechanics and Emotion.md` — cssclasses: [site-389]
-- **Week 10.1 - Technology and Development** `corpus/CTIN 389/Week 10.1 - Technology and Development.md` — cssclasses: [site-389]
-- **Week 12.2 - Evoking Emotion** `corpus/CTIN 389/Week 12.2 - Evoking Emotion.md` — cssclasses: [site-389]
+- **Week 1.2 - Lost Woods** *(unpublished)* `corpus/CTIN 389/Week 1.2 - Lost Woods.md` — Today's agenda — Discussion (the Explore/Exploit reading), Unity Review, Ideation & Design (group brainwriting toward the Lost Woods…
+- **Week 2.1 - Keys and Doors** *(unpublished)* `corpus/CTIN 389/Week 2.1 - Keys and Doors.md` — The Keys, the Doors, and All Those Problems — doing things that let you do other things.
+- **Week 3.2 - Workspaces and Splines** *(unpublished)* `corpus/CTIN 389/Week 3.2 - Workspaces and Splines.md` — Perforce, more carefully this time — plus an introduction to splines and the math behind curved shapes.
+- **Week 4.1 - Animation and Assets** *(unpublished)* `corpus/CTIN 389/Week 4.1 - Animation and Assets.md` — Importing and controlling animations in Unity, and a field guide to finding game assets you can actually use.
+- **Week 5.1 - Quandaries** *(unpublished)* `corpus/CTIN 389/Week 5.1 - Quandaries.md` — Goals, rewards, and punishments — why we do the things we do, and how games turn a choice into a dilemma.
+- **Week 8.1 - Unreal Tutorial** *(unpublished)* `corpus/CTIN 389/Week 8.1 - Unreal Tutorial.md` — A tour of the Unreal Editor and Blueprints — orienting Unity-trained designers in a second engine.
+- **Week 8.2 - Subtext and Theme** *(unpublished)* `corpus/CTIN 389/Week 8.2 - Subtext and Theme.md` — How games carry meaning through metaphor — from Alice in Wonderland to surrealism to the controlling metaphor of Papo y Yo.
+- **Week 9.2 - Mechanics and Emotion** *(unpublished)* `corpus/CTIN 389/Week 9.2 - Mechanics and Emotion.md` — The arc of experience where mechanics generate meaning — the self-conscious emotions games are uniquely able to evoke.
+- **Week 10.1 - Technology and Development** *(unpublished)* `corpus/CTIN 389/Week 10.1 - Technology and Development.md` — A tour through one developer's ever-changing toolset — and why learning new tools is the real skill.
+- **Week 12.2 - Evoking Emotion** *(unpublished)* `corpus/CTIN 389/Week 12.2 - Evoking Emotion.md` — A recap of the semester's four arcs of experience, and an in-class workout analyzing games through them.
 
 ### index.md
 
-- **index** `corpus/index.md` — The Game Engine Tutor maps an early idea for a playable story or world — clarifying what is known, what questions remain, and how the…
+- **index** `corpus/index.md` — The Game Engine Tutor maps an early idea for a playable story or world, outlining what is known, what questions remain, and how the…
 
 ### Unity Wiki
 

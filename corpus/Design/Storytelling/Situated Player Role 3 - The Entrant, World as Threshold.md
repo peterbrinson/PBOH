@@ -5,7 +5,7 @@ aliases:
 ---
 
 **Summarized in:** [[Situated Player Roles]]
-**Previous:** [[Situated Player Role 2 - The Traveler, World as Passage|Situated Player Role 2: The Traveler]] | **Next:** [[Situated Player Role 4 - The Dreamer, World as Enigma|Situated Player Role 4: The Dreamer]]
+**Previous:** [[Situated Player Role 2 - The Traveler, World as Presence|Situated Player Role 2: The Traveler]] | **Next:** [[Situated Player Role 4 - The Dreamer, World as Enigma|Situated Player Role 4: The Dreamer]]
 
 ![[spr_entrant_01.jpg]]
 

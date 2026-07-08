@@ -18,7 +18,7 @@ coverage: mostly covered — short off-map (real-time audio muffling, comic spee
 
 ---
 
-This sits cleanly in the Situated Player Role, **The Traveler** — World as Passage. What you're describing is the player moving through a labyrinth in the present tense — witnessing a story unfold around them rather than reconstructing one that already happened. The hall that turns 90°, the weather changing room to room, a voiceover that starts muffled and slowly resolves into something you can finally bear to hear: that progression is the Traveler's central question, "What is this experience?" And the symphony ticket that falls away at the start is a clean way to say you have arrived somewhere — the threshold the whole piece walks away from.
+This sits cleanly in the Situated Player Role, **The Traveler** — World as Presence. What you're describing is the player moving through a labyrinth in the present tense — witnessing a story unfold around them rather than reconstructing one that already happened. The hall that turns 90°, the weather changing room to room, a voiceover that starts muffled and slowly resolves into something you can finally bear to hear: that progression is the Traveler's central question, "What is this experience?" And the symphony ticket that falls away at the start is a clean way to say you have arrived somewhere — the threshold the whole piece walks away from.
 
 **Your project:** a walk down a hallway where you surrender your family's coats to a quiet attendant while a judging voice slowly sharpens — ending in a room where you reclaim music as something you play for yourself.
 

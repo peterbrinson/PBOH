@@ -20,7 +20,7 @@ The Situated Player Roles form a game design framework for approaching narrative
 Each role balances two dynamics: discovery and control. The first two roles emphasize discovery; the latter two emphasize control.
 
 1. **[[Situated Player Role 1 - The Investigator, World as Evidence|The Investigator]]** ("What happened?") — The Investigator reconstructs the story by discovering and engaging evidence - notes, objects, recordings, and NPC's. 
-2. **[[Situated Player Role 2 - The Traveler, World as Passage|The Traveler]]** ("What am I experiencing?") —  The Traveler discovers meaning by moving through the world, often a labyrinth.  Story emerges in real-time by exploring a world, shaped by the player's point of view and the simple act of being there.
+2. **[[Situated Player Role 2 - The Traveler, World as Presence|The Traveler]]** ("What am I experiencing?") —  The Traveler discovers meaning by moving through the world, often a labyrinth.  Story emerges in real-time by exploring a world, shaped by the player's point of view and the simple act of being there.
 3. **[[Situated Player Role 3 - The Entrant, World as Threshold|The Entrant]]** ("How does this world work?") — The Entrant is a puzzle solver - learning the logic of the world in order to open blocked passages.  
 4. **[[Situated Player Role 4 - The Dreamer, World as Enigma|The Dreamer]]** ("What does this world express?") — The Dreamer begins in the same situation as the The Entrant.  But here, the structures are dreamlike—actions function as both mechanics and metaphor.
 
