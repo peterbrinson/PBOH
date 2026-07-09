@@ -42,8 +42,8 @@ According to Wolf, worldbuilding is the process of constructing a fictional worl
 
 |                                            |                                                           |
 | ------------------------------------------ | --------------------------------------------------------- |
-| [[#Consistency and Internal Logic]]        | the world doesn't contradict itself                       |
-| [[#Completeness]]                          | no world can be fully complete, but it can feel inhabited |
+| [[#Consistency and Internal Logic\|Consistency and Internal Logic]] | the world doesn't contradict itself                       |
+| [[#Completeness\|Completeness]]            | no world can be fully complete, but it can feel inhabited |
 | [[#Catalysts of Speculation\|Speculation]] | the builder imagines beyond what's shown                  |
 | [[#Invention (Four Types)\|Invention]]     | deliberate departure from the primary (real) world        |
 | Plausibility                               | the world earns belief — a product of the other four      |
