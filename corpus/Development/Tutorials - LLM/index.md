@@ -12,6 +12,7 @@ Set up The GET in a local AI tool, then start using it.
 Then pick **one** AI tool below and follow its four steps. The first three are alternatives — install the tool on whichever surface you prefer (the **terminal**, the **desktop app**, or **VSCode**) — and the fourth points it at The GET.
 
 ### Gemini — free with a personal Google account
+- [[Tutorial 1005 - Antigravity Quick Start]] — everything on one page: ZIP download + Antigravity, no GitHub account, no terminal
 - [[Tutorial 1001 - Install Gemini for the Terminal]]
 - [[Tutorial 1002 - Set Up Gemini Desktop (Antigravity)]]
 - [[Tutorial 1003 - Set Up Gemini in VSCode]]
