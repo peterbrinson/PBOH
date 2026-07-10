@@ -11,7 +11,7 @@ publish: true
 
 **Outcome.** By the end of this tutorial, you've held your first real GET conversation — described an idea, gotten back a project plan for your narrative or worldbuilding project which might include role identification, features, and a build order.
 
-**Before you start.** Read at least one of the [[The-GET/corpus/Design/Storytelling/index|Situated Player Roles]] (The Investigator, The Traveler, The Dreamer) or the [[The-GET/corpus/Design/Worldbuilding/index|Bounded Worlds]] framework first. The GET will ask which one you're working in, so you'll want to arrive already knowing at least one of them.
+**Before you start.** Read at least one of the [Situated Player Roles](https://vlabusc.github.io/The-GET/Design/Storytelling/) (The Investigator, The Traveler, The Dreamer) or the [Bounded Worlds](https://vlabusc.github.io/The-GET/Design/Worldbuilding/) framework first. The GET will ask which one you're working in, so you'll want to arrive already knowing at least one of them.
 
 **Prerequisites.** (one is needed)
 - For Gemini -- [[Tutorial 1004 - Set Up The GET for Gemini]]

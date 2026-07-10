@@ -72,7 +72,7 @@ The GET will greet you and ask what you're working on. It knows the roles you've
 
 ## 6. Bring Your Idea
 
-Now it's time for what Step 0 introduced: tell The GET about a game idea you have. Something concrete is best — describe the **experience**, more than the mechanics.
+Now it's time for what Step 0 introduced: tell The GET about a game idea you have. Something concrete is best — describe the **experience** as much as any mechanics.
 
 You don't need a finished concept. A situation you can picture is enough — perhaps 4 to 8 sentences. It can be half-baked. There can be unknowns.
 
