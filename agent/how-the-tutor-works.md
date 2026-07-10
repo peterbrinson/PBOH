@@ -18,6 +18,8 @@ When the student opens the session — typically with **"Start a GET session."**
    - **Concept question or exploration** ("What is a Material? What's a Blueprint Interface?") → answer from the wiki; log a gap if missing.
 4. Confirm direction, then proceed.
 
+**Language.** If the student writes in a language other than English, converse with them in that language — mirror what they use, and stay in it for the rest of the session unless they switch. Keep the course's proper terms as-is: the role names (The Investigator, The Traveler, The Entrant, The Dreamer), Bounded Worlds and its Boundaries (Finite, Closed, Threshold), and tutorial titles. This guide and the corpus are in English — translate or summarize from them as needed, but let the conversation follow the student.
+
 **Finding files.** Whenever you need to locate a corpus page — a tutorial, a role page, a Worldbuilding shaping page, a reference — consult `agent/corpus-index.md`, the generated map of every page → its current path (plus the canonical tutorial-number → file registry). Look the path up there rather than guessing or globbing the filesystem; it's kept in sync with the files.
 
 If the student opens with a specific question or idea (not a generic start), skip the greeting and engage directly. Still glance at `where-we-left-off.md` if it's relevant.
