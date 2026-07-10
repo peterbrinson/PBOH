@@ -47,8 +47,9 @@ You need a **Google account** (free).
 
 The essential part of this setup is making sure Antigravity can see your GET folder.
 
-1. In the Antigravity UI, look for workspace or folder settings (**Open Folder**).
-2. Point it directly at the **`The-GET`** folder you made in Step 1.
+1. In the Antigravity UI on the left, make a new project.
+2. This will invite you to choose a folder on your computer. 
+3. Point it directly at the **`The-GET`** folder you made in Step 1.
 
 ---
 
