@@ -10,7 +10,7 @@ publish: true
 
 You need a **Google account** (free).
 
-**Before you start, consider.** Soon, you will share a rough idea for a game - a description of what you're working on in class now, or instead one you've thought of today.  The GET can frame your  idea through the Situated Player Roles — **The Investigator** and **The Traveler** — *or* the **Bounded Worlds** framework. You've studied these in class and you are encouraged to embrace one or more of them when you draft your idea. If you want to refresh, the pages are on the class site: [Situated Player Roles](https://vlabusc.github.io/The-GET/Design/Storytelling/) and [Bounded Worlds](https://vlabusc.github.io/The-GET/Design/Worldbuilding/).
+**Before you start, consider.** Soon, you will share a rough idea for a game - a description of what you're working on in class now, or instead one you've thought of today. The GET can frame your idea through the Situated Player Roles — **The Investigator** and **The Traveler** — *or* the **Bounded Worlds** framework. You've studied these in class and you are encouraged to embrace one or more of them when you draft your idea. If you want to refresh, the pages are on the class site: [Situated Player Roles](https://vlabusc.github.io/The-GET/Design/Storytelling/) and [Bounded Worlds](https://vlabusc.github.io/The-GET/Design/Worldbuilding/).
 
 ---
 
@@ -35,7 +35,7 @@ You need a **Google account** (free).
 
 *Antigravity is the Gemini desktop app — the program you'll talk to The GET through.*
 
-1. Download **Antigravity** 2.0 for your platform and install it. https://antigravity.google/download
+1. Download **Antigravity** 2.0 for your platform from [antigravity.google/download](https://antigravity.google/download) and install it.
 2. Open it and **sign in with your Google account**.
 
 > [!NOTE]
@@ -95,7 +95,7 @@ Now it's time for what Step 0 introduced: tell The GET about a game idea you hav
 You don't need a finished concept. A situation you can picture is enough — perhaps 4 to 8 sentences. It can be half-baked. There can be unknowns.
 
 > [!NOTE]
-> You can write to The GET in Japanese if you prefer. Its pages are in English, but the conversation can happen in your language.
+> You can write to The GET in your own language if you prefer. Its pages are in English, but the conversation doesn't have to be.
 
 ---
 
@@ -112,11 +112,11 @@ After some back and forth, for perhaps 5 to 10 minutes, The GET will draft a pla
 
 ### It acts like a normal chatbot, not The GET
 
-Antigravity is probably not looking at the right folder. Check that the folder you opened in Chapter 3 is the one containing `agent/` and `corpus/`, then type `Start a GET session.` again.
+Antigravity is probably not looking at the right folder. Check that the folder you opened in Step 3 is the one containing `agent/` and `corpus/`, then type `Start a GET session.` again.
 
 ### I can't find the folder I unzipped
 
-Check your **Downloads** folder — unzipped folders land next to the ZIP file. Move the folder to Documents and continue from Chapter 1, step 5.
+Check your **Downloads** folder — unzipped folders land next to the ZIP file. Move the folder to Documents and continue from Step 1, item 5.
 
 ### The sign-in doesn't work
 
