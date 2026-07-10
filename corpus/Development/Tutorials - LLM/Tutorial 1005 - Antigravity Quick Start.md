@@ -10,7 +10,7 @@ publish: true
 
 You need a **Google account** (free).
 
-**Before you start, consider.** Soon, you will share a rough idea for a game - one you've thought of today.  The GET can frame your your idea through the Situated Player Roles — **The Investigator** and **The Traveler** — *or* the **Bounded Worlds** framework. You've studied these in class and you are encouraged to embrace one or more of them when you draft your idea. If you want to refresh, the pages are on the class site: [[The-GET/corpus/Design/Storytelling/index|Situated Player Roles]] and [[The-GET/corpus/Design/Worldbuilding/index|Bounded Worlds]].
+**Before you start, consider.** Soon, you will share a rough idea for a game - a description of what you're working on in class now, or instead one you've thought of today.  The GET can frame your  idea through the Situated Player Roles — **The Investigator** and **The Traveler** — *or* the **Bounded Worlds** framework. You've studied these in class and you are encouraged to embrace one or more of them when you draft your idea. If you want to refresh, the pages are on the class site: [Situated Player Roles](https://vlabusc.github.io/The-GET/Design/Storytelling/) and [Bounded Worlds](https://vlabusc.github.io/The-GET/Design/Worldbuilding/).
 
 ---
 
