@@ -60,11 +60,13 @@ Once the app is running, select an appropriate model. We recommend **Gemini 3.1 
 
 ## 5. Start a GET Session
 
-In the chat panel, type exactly:
+In the chat panel, type this — or the same request in your own language:
 
 ```
 Start a GET session.
 ```
+
+*(In Japanese, for example: `GETセッションを始めます。`)*
 
 The GET will greet you and ask what you're working on. It knows the roles you've learned — **The Investigator**, **The Traveler** — and the **Bounded Worlds** framework. Any of these is a fine place to start.
 
