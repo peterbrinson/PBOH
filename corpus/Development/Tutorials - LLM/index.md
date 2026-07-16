@@ -31,7 +31,7 @@ Then pick **one** AI tool below and follow its four steps. The first three are a
 - [[Tutorial 1024 - Set Up The GET for Codex]]
 
 ### DeepSeek — pay-as-you-go API key; terminal only
-- [[Tutorial 1035 - DeepSeek Quick Start]] — everything on one page: ZIP download + Deep Code, no GitHub account (terminal and a small paid API key are still required)
+- [[Tutorial 1035 - DeepSeek Quick Start]] — everything on one page: ZIP download + Deep Code, no GitHub account (terminal and a small paid API key are still required) ([[Tutorial 1035 (Chinese) - DeepSeek Quick Start|中文版]])
 - [[Tutorial 1031 - Install DeepSeek for the Terminal]]
 - [[Tutorial 1034 - Set Up The GET for DeepSeek]]
 
