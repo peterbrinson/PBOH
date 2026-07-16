@@ -122,3 +122,7 @@ Check your **Downloads** folder — unzipped folders land next to the ZIP file. 
 ### The sign-in doesn't work
 
 Antigravity needs a Google account. If you're signed into several, pick your personal one.
+
+### I'd rather use DeepSeek
+
+See [[Tutorial 1035 - DeepSeek Quick Start]] — it needs a terminal and a small paid API key instead of a Google account.
