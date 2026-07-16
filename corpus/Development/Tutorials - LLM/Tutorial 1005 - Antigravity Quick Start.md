@@ -100,7 +100,7 @@ You don't need a finished concept. A situation you can picture is enough — per
 
 ---
 
-## 7. Save What You Get
+## 7. Save What You GET
 
 After some back and forth, for perhaps 5 to 10 minutes, The GET will draft a plan — you'll know it when you see it (it includes concrete sections, and might include a "Build Order"). Two things:
 
