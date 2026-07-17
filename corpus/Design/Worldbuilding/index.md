@@ -49,6 +49,7 @@ The player can encounter the edge of the world. The boundary is found during pla
 > [!example]- Examples
 > - [Escape rooms](https://en.wikipedia.org/wiki/Escape_room) — sealed by design; the walls hold you for the duration of play
 > - [Terrariums](https://www.google.com/search?sca_esv=b2e5da9dfdb7adff&rlz=1C1HKFL_enUS1217US1217&sxsrf=APpeQnu5eDdC8bNazMLXcxq1bPRQY41ZnQ:1783465197703&udm=2&fbs=ABfTbFVyMZGZf1hfvX9uKjN_-G8c4u0nXx4bEIpwm1lnNH832SMIiTl3t-JZ4hGJOxPbHYRzcy6GgySVUpZky6o6nTl3yANz31fL3XIvRkTfoNBefg3cGlw6l4eYsWcHwcpFAwvKRuQYIHx4O8jI7q2P29S5kcU1ohbwTRhnOZ2hYPs8TPwU9KlaZERvH99w1Olcwj1Sbz1vyx3B0AnMQaaxzIr9OAIHMA&q=terrarium&sa=X&ved=2ahUKEwju68_M1cGVAxXEplYBHfiSDXkQtKgLegQIGBAB&biw=1392&bih=779&dpr=2), zoos, prisons —  a world inside the world
+> - [Disneyland](https://en.wikipedia.org/wiki/Disneyland#/map/0) — the berm and landscaping hide the outside world from view; once inside, every sightline stays in-theme
 > - [The Exterminating Angel](https://en.wikipedia.org/wiki/The_Exterminating_Angel) (Luis Buñuel, 1962) - bourgeois characters are stuck in their own world, a house
 > - [[Game - Dr Langeskov|Dr Langeskov, The Tiger, and The Terribly Cursed Emerald: A Whirlwind Heist]] - backstage from the real (and inaccessible) game
 > - [[Game - Return of the Obra Dinn|Return of the Obra Dinn]] (2018) — the ship is the playable enclosure; ports, empire, weather, and voyage exist as evidence
