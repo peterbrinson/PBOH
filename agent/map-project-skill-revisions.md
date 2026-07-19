@@ -647,7 +647,20 @@ Also: new `corpus/Design/Worldbuilding/CLAUDE.md` folder pointer (mirrors `Narra
 
 **Published-URL note:** the Quartz slug changes (`…world-as-passage` → `…world-as-presence`); old bookmarks 404. Accepted (site not widely externally linked pre-rollout); no alias added.
 
-### 2026-07-19 — The summary response is named: "Prototype Map"
+### 2026-07-19 — "Blueprints need no programming background" is now a prohibited claim
+
+**Source:** the Geidai cohort's outputs. In Liu Zhuoxin's session the student wrote *"I have no programming experience at all"* — twice — and the GET answered, in both the chat and the saved plan, that *"Blueprints are designed to allow people without a programming background to construct logic visually."* The instructor disagrees with the claim itself: Blueprints are widely **sold** on exactly this promise, and it is false. Blueprints remove syntax; they do not remove the knack for abstract logic, which is the part that is actually hard. A student told the difficulty is gone, who then meets it anyway, concludes the problem is them.
+
+**Provenance checked.** The claim is **not** corpus-sourced — no teaching page states it. The nearest text in the repo is Epic's own promotional wording in an unedited clipping at `corpus/Development/Wiki - Unreal/raw/` ("create gameplay functionality without writing code"), which is a plausible retrieval path into the framing. So this is model comfort language, possibly reinforced by vendor marketing sitting in `raw/`.
+
+**Changes to `how-the-tutor-works.md`:**
+
+1. **New section, "When a student says they can't program"** — placed after Vocabulary, framed by its trigger so the runtime recognizes the moment. Names the prohibited phrasings explicitly, then supplies the answer to give in their place: Blueprints remove **syntax** (no semicolons, no build-breaking typos; the logic is a picture you can trace), but not **thinking in steps and conditions**, which is the same knack a programmer uses — and which is learnable, and which the tutorials teach. Honest version and encouragement in the same breath, per the never-discourage rule: the goal is an accurate picture of the work, not a warning.
+2. **Manner constraints** in the same section — answer in a line or two and return to the project (it's reassurance, not a software-engineering lecture, which the existing "don't lecture" rule already forbids); no "just" ("you just drag nodes"), which minimizes work the student is about to find difficult.
+3. **A `raw/` caution** — those clippings carry Epic's promotional voice and are source material, not the course's position. Vendor marketing claims must never reach a student as the GET's own framing. This generalizes past Blueprints.
+4. **A "What not to do" bullet** cross-referencing the section, so the rule is reachable from the prohibition list as well as the trigger.
+
+**Not runtime-tested yet.** The natural test is a fresh session that opens with the no-experience worry.
 
 **Source:** instructor-directed. Classroom-driven — from the Geidai/SFK runs: the GET goes back and forth with the student, then delivers the long response (build order, workflow, instructor questions). That crossing was unmarked, and Peter wants to be able to say in class *"keep going until it gives you a big answer — you'll know it when you see it"* — with the response feeling like the student has **arrived**. Requirements for the name: implies a beginning (a recipe/rubric to continue thinking, not orders to follow), works as a doc for talking to their team and the professor — a conversation starter, not ender. "Threshold" was unavailable (taken by the Bounded Worlds Boundary); "blueprint" is UE's term. Decided name: **Prototype Map**.
 
