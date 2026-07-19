@@ -17,7 +17,8 @@ Eight numbered series, each in its own subfolder:
 - **700s** — Tone and Atmosphere (post-processing, Niagara) · Tut 701–702
 - **800s** — Interactive Systems (inspect, base interactive) · Tut 801, 821
 - **900s** — Release (OBS recording) · Tut 901
-- **1000s** — LLM (Gemini CLI setup, GET onboarding) · Tut 1001, 1002, 1031, 1061
+
+The **1000s** (LLM setup / GET onboarding) are *not* in this folder — they live in the sibling `Tutorials - LLM/`, teach no gameplay features, and never belong in a build order. See that folder's `CLAUDE.md`.
 
 Top-level reference pages: `UE Editor Navigation.md`, `Unreal Engine.md`. Images live in `attachments/`.
 
