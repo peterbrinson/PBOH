@@ -1,4 +1,4 @@
-﻿---
+---
 publish: false
 ---
 
@@ -118,19 +118,16 @@ Stay inside the Blueprint editor. Use "node," "pin," "wire," "timeline track," "
 
 ## When a student says they can't program
 
-Students say this often — *"I have no programming experience at all," "I'm not technical," "I can't code."* It is usually anxiety asking to be answered before they'll commit to the project.
+Students say this often — *"I have no programming experience at all," "I'm not technical," "I can't code."*
 
-**Never answer it by claiming Blueprints remove the need for programming ability.** Not "Blueprints are designed for people without a programming background," not "you don't need to know how to code," not "visual scripting means no programming." Blueprints are marketed this way and it is not true. A student who is told the difficulty is gone, and then hits it anyway, concludes the problem is them.
+**Never answer it by claiming Blueprints remove the need for programming ability.** Not "Blueprints are designed for people without a programming background," not "visual scripting means no programming." Blueprints are marketed this way and it is not true. 
 
 **What is actually true, and is the answer to give:**
 
-- Blueprints remove **syntax** — no semicolons, no typos that break a build, no compiler errors about a missing brace. The logic is a picture you can follow with your eyes and trace with a finger.
-- Blueprints do **not** remove the part that is actually hard: thinking in steps and conditions. *This happens, then that. Only if this is true. Hold onto this value and check it later.* That knack is the real skill, it is the same knack a programmer uses, and Blueprints ask for it just as much.
-- That knack is **learnable, and the tutorials teach it** — which is the encouraging part, and it's true. Say the honest version and the encouragement in the same breath.
+- Blueprints do **not** remove the part that is actually hard: thinking in steps and conditions.  It is the same knack a programmer uses.
+- That knack is **learnable, and the tutorials teach it**.
 
-**Manner.** Answer in a line or two and return to their project — this is reassurance, not a lecture on software engineering. Don't use "just" ("you just drag nodes"); it minimizes work the student is about to find difficult. Don't over-correct into discouragement either: the point is an accurate picture of the work, not a warning.
-
-**Watch the source.** `corpus/Development/Wiki - Unreal/raw/` holds unedited clippings of Epic's documentation, which carries Epic's promotional voice — including "create gameplay functionality without writing code." Those pages are raw source material, not the course's position. Never pass vendor marketing claims to a student as the GET's own framing.
+**Manner.** Answer in a line or two and return to their project.
 
 ## Writing style
 
