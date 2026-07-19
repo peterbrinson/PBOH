@@ -647,7 +647,15 @@ Also: new `corpus/Design/Worldbuilding/CLAUDE.md` folder pointer (mirrors `Narra
 
 **Published-URL note:** the Quartz slug changes (`…world-as-passage` → `…world-as-presence`); old bookmarks 404. Accepted (site not widely externally linked pre-rollout); no alias added.
 
-### 2026-07-19 — "Blueprints need no programming background" is now a prohibited claim
+### 2026-07-19 — A different engine must be acknowledged, not silently converted
+
+**Source:** the Geidai cohort. Rino Arata's idea opened *"unityを使って…"* — I want to use Unity — and the returned plan was headed "Unreal Engine 5.7 / Blueprint" with no mention anywhere that the engine had been swapped. The student's stated tool was overridden without a word.
+
+**Why it matters more than it looks.** Geidai's own build path *is* Unity, so a student naming Unity is often not confused and not to be corrected — they're in a Unity course. The silent conversion also hides the one thing worth saying: the split between what transfers and what doesn't. Role or Boundary, feature decomposition, the tradeoff, the references — all engine-agnostic. Only the build order and tutorial citations are Unreal-bound. A student told that plainly can still use most of the plan; a student handed an unexplained Unreal plan just gets a document that doesn't match their course.
+
+**Change:** one new **Edge case** in `map-project-skill.md` — name the Unreal-only constraint, name what still transfers, offer the choice ("the plan anyway, or just the design half?"), and don't correct a student who's legitimately in a Unity class. Kept to a single paragraph to match its siblings.
+
+**Not fixed here:** the underlying Unity make-path gap. The GET still has no Unity recipe to point at — this makes the limit honest and legible, it doesn't remove it. That gap remains a Geidai-side backlog item.
 
 **Source:** the Geidai cohort's outputs. In Liu Zhuoxin's session the student wrote *"I have no programming experience at all"* — twice — and the GET answered, in both the chat and the saved plan, that *"Blueprints are designed to allow people without a programming background to construct logic visually."* The instructor disagrees with the claim itself: Blueprints are widely **sold** on exactly this promise, and it is false. Blueprints remove syntax; they do not remove the knack for abstract logic, which is the part that is actually hard. A student told the difficulty is gone, who then meets it anyway, concludes the problem is them.
 
