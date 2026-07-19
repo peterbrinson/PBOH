@@ -1,115 +1,94 @@
 ---
 type: Tutorial
 cssclasses: unreal-tutorial
+language: ja
+translation_of: "Tutorial 1005 - Antigravity Quick Start"
 publish: true
 ---
 
-*[English version →](https://vlabusc.github.io/The-GET/Development/Tutorials---LLM/Tutorial-1005---Antigravity-Quick-Start)*
+*[[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|English version →]]*
 
 ## 0. はじめに
 
-**ゴール。** このチュートリアルを終えると、The Game Engine Tutor(The GET)があなたのパソコンに入り、Gemini のデスクトップアプリ(Antigravity)で開かれ、最初の GET との会話を体験しています — ゲームのアイデアを伝え、話し合い、もらったプランを保存するところまで。
+**ゴール。** このチュートリアルを終えると、Antigravity で The GET を開き、プロジェクトのアイデアについて最初の会話を行い、Prototype Map を自分専用の学生フォルダに保存できます。
 
-必要なのは **Google アカウント**(無料)だけです。
-
-**始める前に。** この後すぐ、ゲームの大まかなアイデアを共有します。今授業で取り組んでいるものの説明でも、今日思いついたものでも構いません。The GET はあなたのアイデアを、Situated Player Roles(**The Investigator** と **The Traveler**)、あるいは **Bounded Worlds** のフレームワークを通して捉えることができます。どちらも授業で学んだものです。アイデアを練るとき、これらのうち一つ以上を取り入れてみてください。復習したいときは、クラスサイトのページへ(英語): [Situated Player Roles](https://vlabusc.github.io/The-GET/Design/Storytelling/) と [Bounded Worlds](https://vlabusc.github.io/The-GET/Design/Worldbuilding/)。
+**必要なもの:** 個人の Google アカウント、インターネット接続、約15分。ターミナル、GitHub アカウント、有料プランは必要ありません。
 
 ---
 
 ## 1. The GET をダウンロードする
 
-*The GET はファイルの入ったフォルダです。プロジェクトページから ZIP として直接ダウンロードします — アカウントは不要です。*
-
-1. ブラウザで **[github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET)** を開きます。
-2. 緑色の **Code** ボタン(ファイル一覧の右上)をクリックします。
-3. **Download ZIP** をクリックします。
-4. 解凍します:
-   - **Windows:** ダウンロードしたファイルを右クリック → **すべて展開…**
-   - **macOS:** ダウンロードしたファイルをダブルクリック
-5. **`The-GET-main`** という名前のフォルダができます。あとで見つけられる場所に移動してください — **Documents**(書類)フォルダがおすすめです。
-6. フォルダの名前を `The-GET-main` から **`The-GET`** に**変更**します。
-
-<span style="color:#cb5d21">**ここを見落とさないで:**</span> 解凍したら、フォルダを開いて中身を確認してください。`agent/` と `corpus/` というフォルダが直下に見えるはずです。
+1. [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET) を開きます。
+2. 緑色の **Code** ボタンを押し、**Download ZIP** を選びます。
+3. ZIP を解凍します。
+   - **Windows:** 右クリック → **Extract All…**
+   - **macOS:** ダブルクリック
+4. `The-GET-main` を `The-GET` に名前変更し、Documents など見つけやすい場所へ移動します。
+5. フォルダを開き、`agent/` と `corpus/` が直下にあることを確認します。
 
 ---
 
 ## 2. Antigravity をインストールする
 
-*Antigravity は Gemini のデスクトップアプリ — The GET と話すためのプログラムです。*
-
-1. お使いの環境向けの **Antigravity** 2.0 を [antigravity.google/download](https://antigravity.google/download) からダウンロードしてインストールします。
-2. 起動して、**Google アカウントでサインイン**します。
-
-> [!NOTE]
-> **Antigravity API ではありません。** 使うのは通常の Antigravity デスクトップアプリです。より高度な Antigravity API ではありません。API には開発者キーの設定やカスタムツールなど、この授業に必要な範囲を超えた複雑さがあります。
+1. [antigravity.google/download](https://antigravity.google/download) から、自分のコンピューター用の **Antigravity 2.0** をダウンロードします。
+2. インストールして開きます。
+3. 個人の Google アカウントでサインインします。
 
 ---
 
-## 3. GET フォルダを開く
+## 3. The GET を開く
 
-このセットアップで一番大切なのは、Antigravity があなたの GET フォルダを見られるようにすることです。
-
-1. Antigravity の左側で、新しいプロジェクトを作成します。
-2. コンピューター上のフォルダを選ぶよう案内されます。
-3. Step 1 で作った **`The-GET`** フォルダを直接指定します。
+1. Antigravity で新しいプロジェクトを作成します。
+2. フォルダを求められたら、`The-GET` フォルダそのものを選びます。Documents など親フォルダは選びません。
+3. モデルを選ぶ画面が出たら、現在おすすめされている Pro モデルを使います。
 
 ---
 
-## 4. モデルを選ぶ
+## 4. GET セッションを始める
 
-アプリが起動したら、モデルを選びます。**Gemini 3.1 Pro (High)** をおすすめします。
-
----
-
-## 5. GET セッションを始める
-
-チャット欄に、次のように入力します:
+チャット欄に入力します。
 
 ```
 GETセッションを始めます。
 ```
 
-日本語のままで大丈夫です — 会話も日本語で進められます。もちろん英語でも:
-
-```
-Start a GET session.
-```
-
-The GET が挨拶をして、何に取り組んでいるかを尋ねてきます。授業で学んだロール — **The Investigator**、**The Traveler** — と **Bounded Worlds** のフレームワークを知っています。どれから始めても大丈夫です。
+日本語で会話できます。The GET は、The Investigator、The Traveler、The Dreamer、または Bounded Worlds のどれに取り組んでいるかを尋ねます。
 
 ---
 
-## 6. アイデアを伝える
+## 5. アイデアを伝える
 
-Step 0 で紹介したことの出番です: 持っているゲームのアイデアを The GET に伝えてください。具体的なものがベストです — メカニクスと同じくらい、**体験**を描写してください。
+ゲームやプレイ可能な世界のアイデアを4〜8文で説明してください。仕組みだけでなく、プレイヤーにどんな体験をしてほしいかを伝えます。完成したアイデアでなくても構いません。
 
-完成したコンセプトである必要はありません。思い浮かべられる状況があれば十分です — だいたい4〜8文くらい。生煮えでも構いません。わからないことが残っていてもいいのです。
-
-> [!NOTE]
-> The GET のページは英語ですが、会話は日本語でできます。
+The GET が「Here is a Prototype Map for your project」と言うまで会話を続けます。
 
 ---
 
-## 7. 受け取ったものを保存する
+## 6. Prototype Map を保存する
 
-5〜10分ほどやり取りすると、The GET が **Prototype Map(プロトタイプ・マップ)** をまとめます — 見ればわかります(冒頭で自らそう名乗り、具体的なセクションが並び、「Build Order」が含まれることもあります)。やることは三つ:
+The GET が保存を提案したら、承認してください。Antigravity がファイル変更の許可を求めた場合も承認します。保存先は次の場所です。
 
-- **使ったツールをメモしておきましょう** — 保存したファイルの冒頭に、例えば *「Tool: Gemini (Antigravity)」* のように一行書いておくだけで十分です。あとで別のツールを使った人と結果を比べるときに区別がつきます。
-- **Prototype Map をフォルダ内のファイルに保存**してもらいましょう — 例: *「この Prototype Map を prototype-map.md に保存して」*。
-- 先生に求められたら、**会話全体**をテキストファイルにコピーしてください。会話そのものが、一番見る価値のあるものです。
+```
+student-notes-private/projects/prototype-map-<project-name>.md
+```
+
+授業の提出物にする場合は、ファイルの冒頭に `Tool: Gemini (Antigravity)` と書きます。先生から求められた場合は、会話全体もコピーまたは書き出してください。
+
+次は [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]] に進んでください。
 
 ---
 
 ## トラブルシューティング
 
-### 普通のチャットボットみたいで、The GET らしくない
+### 普通のチャットボットのように振る舞う
 
-Antigravity が正しいフォルダを見ていない可能性が高いです。Step 3 で開いたフォルダが `agent/` と `corpus/` を含むものか確認して、もう一度「GETセッションを始めます。」と入力してください。
+Antigravity が間違ったフォルダを見ている可能性があります。`agent/`、`corpus/`、`AGENTS.md` を含むフォルダを開き直し、新しいセッションを始めてください。
 
 ### 解凍したフォルダが見つからない
 
-**Downloads**(ダウンロード)フォルダを確認してください — 解凍されたフォルダは ZIP ファイルの隣にできます。フォルダを Documents に移動して、Step 1 の項目 5 から続けてください。
+Downloads フォルダを確認してください。Documents に移動し、`The-GET` に名前変更してから続けます。
 
 ### サインインできない
 
-Antigravity には Google アカウントが必要です。複数のアカウントにサインインしている場合は、個人のものを選んでください。
+学校や職場の管理者によって Gemini が制限されている場合があります。個人の Google アカウントを試してください。
+

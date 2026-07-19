@@ -1,0 +1,82 @@
+---
+type: Tutorial
+cssclasses: unreal-tutorial
+publish: true
+---
+
+## 0. Introduction
+
+**Outcome.** By the end of this tutorial, Codex CLI is installed, pointed at The GET, and used for your first saved Prototype Map.
+
+Use this path only if you prefer a terminal. For the graphical route, use [[Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start|Codex Desktop Quick Start]].
+
+**You need:** a ChatGPT account with Codex access, Node.js, an internet connection, and about 15 minutes.
+
+---
+
+## 1. Install Codex CLI
+
+Open **PowerShell** on Windows or **Terminal** on macOS.
+
+Check Node.js:
+
+```
+node -v
+```
+
+If the command is missing, install the current **LTS** release from [nodejs.org](https://nodejs.org/) and reopen the terminal.
+
+Install and verify Codex:
+
+```
+npm install -g @openai/codex
+codex --version
+```
+
+---
+
+## 2. Download The GET
+
+1. Go to [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET).
+2. Click **Code** → **Download ZIP**.
+3. Unzip it, rename `The-GET-main` to `The-GET`, and move it to Documents.
+
+---
+
+## 3. Launch Codex in The GET Folder
+
+Type `cd `, drag the `The-GET` folder into the terminal, and press Enter. Then run:
+
+```
+codex
+```
+
+Choose **Sign in with ChatGPT** and complete the browser sign-in.
+
+---
+
+## 4. Start, Talk, and Save
+
+Type:
+
+```
+Start a GET session.
+```
+
+Describe a project idea in 4 to 8 sentences and continue until The GET produces a Prototype Map. Approve its offer to save the map to `student-notes-private/projects/`.
+
+If this is a class submission, add `Tool: Codex CLI` near the top and save the transcript if your instructor requests it.
+
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]].
+
+---
+
+## Troubleshooting
+
+### `codex` is not recognized
+
+Close every terminal, open a new one, and try `codex --version` again.
+
+### Sign-in or access fails
+
+Confirm that you used the intended ChatGPT account and workspace. Codex availability and limits vary by plan and organization.

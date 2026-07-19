@@ -3,6 +3,7 @@ title: "Bounded Worlds: The Playable and the Imagined"
 aliases:
   - Worldbuilding
   - Bounded Worlds
+  - "Bounded Worlds: The Playable and the Imagined"
 publish: true
 ---
 

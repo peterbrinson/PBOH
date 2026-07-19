@@ -7,11 +7,11 @@ publish: false
 
 The GET is distributed by **forking**. You work in your own fork; the class original stays read-only to you. This page covers the three things you'll do after setup: pull updates, send your gap log to the instructor, and (optionally) contribute a reference page.
 
-If you haven't forked and cloned yet, do [[Tutorial 1000 - Fork and Clone The GET]] first.
+If you haven't forked and cloned yet, do [[Tutorial 1090 - Fork and Update The GET]] first.
 
 ## Your two remotes
 
-After Tutorial 1000 your clone has two remotes:
+After Tutorial 1090 your clone has two remotes:
 
 - **`origin`** — your own fork (`github.com/<you>/The-GET`). You can push here freely.
 - **`upstream`** — the class original (`github.com/vLabUSC/The-GET`). You pull updates from here; you cannot push to it.

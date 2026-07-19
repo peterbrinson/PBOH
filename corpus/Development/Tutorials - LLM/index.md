@@ -3,37 +3,28 @@ title: "Tutorials - LLM"
 publish: true
 ---
 
-Set up The GET in a local AI tool, then start using it.
+# Start The GET
 
-**First-time setup:**
-- [[Tutorial 0 - Test The GET]] — quick try-it path for a Claude Code tester (no fork)
-- [[Tutorial 1000 - Fork and Clone The GET]]
+Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first GET conversation and a saved Prototype Map.
 
-Then pick **one** AI tool below and follow its four steps. The first three are alternatives — install the tool on whichever surface you prefer (the **terminal**, the **desktop app**, or **VSCode**) — and the fourth points it at The GET.
+## Start here — pick one
 
-### Gemini — free with a personal Google account
-- [[Tutorial 1005 - Antigravity Quick Start]] — everything on one page: ZIP download + Antigravity, no GitHub account, no terminal ([[Tutorial 1005 (Japanese) - Antigravity Quick Start|日本語版]])
-- [[Tutorial 1001 - Install Gemini for the Terminal]]
-- [[Tutorial 1002 - Set Up Gemini Desktop (Antigravity)]]
-- [[Tutorial 1003 - Set Up Gemini in VSCode]]
-- [[Tutorial 1004 - Set Up The GET for Gemini]]
+- [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]] — free with a personal Google account; graphical app; no terminal or GitHub account ([[Tutorials - LLM/Tutorial 1005 (Japanese) - Antigravity Quick Start|日本語版]])
+- [[Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start|Claude Code Desktop Quick Start]] — graphical app; requires access to Claude Code; no terminal or GitHub account
+- [[Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start|Codex Desktop Quick Start]] — graphical app; uses the ChatGPT desktop app; no terminal or GitHub account
+- [[Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start|DeepSeek Quick Start]] — DeepSeek through Deep Code; terminal and a small API balance required; no GitHub account ([[Tutorials - LLM/Tutorial 1035 (Chinese) - DeepSeek Quick Start|中文版]])
 
-### Claude Code — needs a paid Claude plan
-- [[Tutorial 1011 - Install Claude Code for the Terminal]]
-- [[Tutorial 1012 - Set Up Claude Code Desktop]]
-- [[Tutorial 1013 - Set Up Claude Code in VSCode]]
-- [[Tutorial 1014 - Set Up The GET for Claude Code]]
+If you are unsure, begin with the Antigravity quickstart.
 
-### Codex — needs a paid ChatGPT plan
-- [[Tutorial 1021 - Install Codex for the Terminal]]
-- [[Tutorial 1022 - Set Up Codex Desktop]]
-- [[Tutorial 1023 - Set Up Codex in VSCode]]
-- [[Tutorial 1024 - Set Up The GET for Codex]]
+## Other ways to run The GET
 
-### DeepSeek — pay-as-you-go API key; terminal only
-- [[Tutorial 1035 - DeepSeek Quick Start]] — everything on one page: ZIP download + Deep Code, no GitHub account (terminal and a small paid API key are still required) ([[Tutorial 1035 (Chinese) - DeepSeek Quick Start|中文版]])
-- [[Tutorial 1031 - Install DeepSeek for the Terminal]]
-- [[Tutorial 1034 - Set Up The GET for DeepSeek]]
+These are complete alternatives, not extra prerequisites:
 
-**Finally:**
-- [[Tutorial 1101 - Start Using The GET]]
+- [[Tutorials - LLM/Tutorial 1001 - Gemini Terminal Quick Start|Gemini Terminal Quick Start]]
+- [[Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start|Claude Code Terminal Quick Start]]
+- [[Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start|Codex Terminal Quick Start]]
+
+## After your first session
+
+- [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]] — the three kinds of conversation, saved files, and where to continue
+- [[Tutorials - LLM/Tutorial 1090 - Fork and Update The GET|Fork and Update The GET]] — optional GitHub setup for receiving updates and contributing; do this after The GET is already working

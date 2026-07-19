@@ -220,28 +220,18 @@ The GET's single source of truth for **where each corpus page lives** and **whic
 ### Development
 
 - **Development** `corpus/Development/index.md` — The hands-on side — building in Unreal Engine and setting up the AI tooling that runs The GET.
-- **Tutorials - LLM** `corpus/Development/Tutorials - LLM/index.md` — Set up The GET in a local AI tool, then start using it.
-- **Tutorial 0 - Test The GET** `corpus/Development/Tutorials - LLM/Tutorial 0 - Test The GET.md` — By the end of this you've held one GET conversation — read the player roles, brought an idea, picked a role, and saved both the GET's…
-- **Tutorial 1000 - Fork and Clone The GET** `corpus/Development/Tutorials - LLM/Tutorial 1000 - Fork and Clone The GET.md` — By the end of this tutorial you have your own copy — a fork — of The GET on GitHub, cloned to your machine, and connected to the class…
-- **Tutorial 1001 - Install Gemini for the Terminal** `corpus/Development/Tutorials - LLM/Tutorial 1001 - Install Gemini for the Terminal.md` — By the end of this tutorial, the Gemini command-line interface (CLI) is installed on your computer and verified. The next tutorial —…
-- **Tutorial 1002 - Set Up Gemini Desktop (Antigravity)** `corpus/Development/Tutorials - LLM/Tutorial 1002 - Set Up Gemini Desktop (Antigravity).md` — By the end of this tutorial, you will have the Gemini desktop app (Antigravity) installed, pointed at your GET folder, and ready for use.
-- **Tutorial 1003 - Set Up Gemini in VSCode** `corpus/Development/Tutorials - LLM/Tutorial 1003 - Set Up Gemini in VSCode.md` — By the end of this tutorial, the GET folder is open as a VSCode workspace, Gemini runs in VSCode's integrated terminal, and you can read…
-- **Tutorial 1004 - Set Up The GET for Gemini** `corpus/Development/Tutorials - LLM/Tutorial 1004 - Set Up The GET for Gemini.md` — By the end of this tutorial, The GET's content is on your machine, your LLM CLI is working and pointed at the folder, making you ready for…
-- **Tutorial 1005 - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start.md` — By the end of this tutorial you have The Game Engine Tutor on your computer, open in the Gemini desktop app (Antigravity), and you've held…
-- **Tutorial 1005 (Japanese) - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 (Japanese) - Antigravity Quick Start.md` — English version →
-- **Tutorial 1011 - Install Claude Code for the Terminal** `corpus/Development/Tutorials - LLM/Tutorial 1011 - Install Claude Code for the Terminal.md` — By the end of this tutorial, Claude Code is installed as a terminal command on your computer and verified. The next tutorial — Tutorial…
-- **Tutorial 1012 - Set Up Claude Code Desktop** `corpus/Development/Tutorials - LLM/Tutorial 1012 - Set Up Claude Code Desktop.md` — By the end of this tutorial, the Claude desktop app is installed, you're signed in, and its Code tab is pointed at The GET — with no…
-- **Tutorial 1013 - Set Up Claude Code in VSCode** `corpus/Development/Tutorials - LLM/Tutorial 1013 - Set Up Claude Code in VSCode.md` — By the end of this tutorial, The GET folder is open as a VSCode workspace, Claude Code runs in VSCode's sidebar, and you can read…
-- **Tutorial 1014 - Set Up The GET for Claude Code** `corpus/Development/Tutorials - LLM/Tutorial 1014 - Set Up The GET for Claude Code.md` — By the end of this tutorial, The GET's content is on your machine, Claude Code is pointed at the folder, and you've started your first…
-- **Tutorial 1021 - Install Codex for the Terminal** `corpus/Development/Tutorials - LLM/Tutorial 1021 - Install Codex for the Terminal.md` — By the end of this tutorial, Codex (OpenAI's coding agent) is installed as a terminal command and verified. The next tutorial — Tutorial…
-- **Tutorial 1022 - Set Up Codex Desktop** `corpus/Development/Tutorials - LLM/Tutorial 1022 - Set Up Codex Desktop.md` — By the end of this tutorial, the Codex desktop app is installed, you're signed in, and it's pointed at The GET — no terminal involved.
-- **Tutorial 1023 - Set Up Codex in VSCode** `corpus/Development/Tutorials - LLM/Tutorial 1023 - Set Up Codex in VSCode.md` — By the end of this tutorial, The GET folder is open as a VSCode workspace, Codex runs in VSCode's sidebar, and you can read tutorials and…
-- **Tutorial 1024 - Set Up The GET for Codex** `corpus/Development/Tutorials - LLM/Tutorial 1024 - Set Up The GET for Codex.md` — By the end of this tutorial, The GET's content is on your machine, Codex is pointed at the folder, and you've started your first session —…
-- **Tutorial 1031 - Install DeepSeek for the Terminal** `corpus/Development/Tutorials - LLM/Tutorial 1031 - Install DeepSeek for the Terminal.md` — By the end of this tutorial, Deep Code — a terminal agent that runs on the DeepSeek model — is installed, connected to your DeepSeek API…
-- **Tutorial 1034 - Set Up The GET for DeepSeek** `corpus/Development/Tutorials - LLM/Tutorial 1034 - Set Up The GET for DeepSeek.md` — By the end of this tutorial, The GET's content is on your machine, Deep Code is pointed at the folder, and you've started your first…
-- **Tutorial 1035 - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` — By the end of this tutorial you have The Game Engine Tutor on your computer, reachable through Deep Code (a terminal agent running on the…
-- **Tutorial 1035 (Chinese) - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 (Chinese) - DeepSeek Quick Start.md` — English version →
-- **Tutorial 1101 - Start Using The GET** `corpus/Development/Tutorials - LLM/Tutorial 1101 - Start Using The GET.md` — By the end of this tutorial, you've held your first real GET conversation — described an idea, gotten back a Prototype Map for your…
+- **Tutorials - LLM** `corpus/Development/Tutorials - LLM/index.md` — Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first GET conversation…
+- **Tutorial 1001 - Gemini Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1001 - Gemini Terminal Quick Start.md` — By the end of this tutorial, Gemini CLI is installed, pointed at The GET, and used for your first GET conversation and Prototype Map.
+- **Tutorial 1005 - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start.md` — By the end of this tutorial, The GET is open in Antigravity and you have held your first conversation about a project idea. The GET will…
+- **Tutorial 1005 (Japanese) - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 (Japanese) - Antigravity Quick Start.md` — Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|English version →
+- **Tutorial 1011 - Claude Code Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start.md` — By the end of this tutorial, Claude Code is installed in your terminal, pointed at The GET, and used for your first saved Prototype Map.
+- **Tutorial 1015 - Claude Code Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start.md` — By the end of this tutorial, The GET is open in Claude Code’s desktop interface and you have completed and saved your first Prototype Map.
+- **Tutorial 1021 - Codex Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start.md` — By the end of this tutorial, Codex CLI is installed, pointed at The GET, and used for your first saved Prototype Map.
+- **Tutorial 1025 - Codex Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start.md` — By the end of this tutorial, The GET is open through Codex in the ChatGPT desktop app and you have completed and saved your first…
+- **Tutorial 1035 - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` — By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at The GET, and used for your first saved Prototype Map.
+- **Tutorial 1035 (Chinese) - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 (Chinese) - DeepSeek Quick Start.md` — Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start|English version →
+- **Tutorial 1090 - Fork and Update The GET** `corpus/Development/Tutorials - LLM/Tutorial 1090 - Fork and Update The GET.md` — By the end of this optional tutorial, you have a GitHub fork of The GET that can receive course updates and carry contributions back to…
+- **Tutorial 1101 - Keep Using The GET** `corpus/Development/Tutorials - LLM/Tutorial 1101 - Keep Using The GET.md` — You know the three main ways to work with The GET, where it saves your files, and how to resume later.
 - **100 - Discovery and Encounter** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/index.md` — The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.
 - **UE Tutorial 101 - A Floor Plate Opens A Door** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 101 - A Floor Plate Opens A Door.md` — By Aaron Cheney & Peter Brinson
 - **UE Tutorial 102 - Collectables and Restart** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 102 - Collectables and Restart.md` — Continuing From: UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101: A Floor Plate Opens A Door
@@ -364,7 +354,6 @@ The GET's single source of truth for **where each corpus page lives** and **whic
 
 | Number | Title | Path |
 | --- | --- | --- |
-| 0 | Test The GET | `corpus/Development/Tutorials - LLM/Tutorial 0 - Test The GET.md` |
 | 101 | A Floor Plate Opens A Door | `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 101 - A Floor Plate Opens A Door.md` |
 | 102 | Collectables and Restart | `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 102 - Collectables and Restart.md` |
 | 103 | Scoring and UI | `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 103 - Scoring and UI.md` |
@@ -380,22 +369,13 @@ The GET's single source of truth for **where each corpus page lives** and **whic
 | 801 | Inspect an Object | `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 801 - Inspect an Object.md` |
 | 821 | Base Interactive System (WIP) | `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 821 - Base Interactive System (WIP).md` |
 | 901 | Recording with OBS | `corpus/Development/Tutorials - Unreal/900 - Release/UE Tutorial 901 - Recording with OBS.md` |
-| 1000 | Fork and Clone The GET | `corpus/Development/Tutorials - LLM/Tutorial 1000 - Fork and Clone The GET.md` |
-| 1001 | Install Gemini for the Terminal | `corpus/Development/Tutorials - LLM/Tutorial 1001 - Install Gemini for the Terminal.md` |
-| 1002 | Set Up Gemini Desktop (Antigravity) | `corpus/Development/Tutorials - LLM/Tutorial 1002 - Set Up Gemini Desktop (Antigravity).md` |
-| 1003 | Set Up Gemini in VSCode | `corpus/Development/Tutorials - LLM/Tutorial 1003 - Set Up Gemini in VSCode.md` |
-| 1004 | Set Up The GET for Gemini | `corpus/Development/Tutorials - LLM/Tutorial 1004 - Set Up The GET for Gemini.md` |
+| 1001 | Gemini Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1001 - Gemini Terminal Quick Start.md` |
 | 1005 | Antigravity Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start.md` |
-| 1011 | Install Claude Code for the Terminal | `corpus/Development/Tutorials - LLM/Tutorial 1011 - Install Claude Code for the Terminal.md` |
-| 1012 | Set Up Claude Code Desktop | `corpus/Development/Tutorials - LLM/Tutorial 1012 - Set Up Claude Code Desktop.md` |
-| 1013 | Set Up Claude Code in VSCode | `corpus/Development/Tutorials - LLM/Tutorial 1013 - Set Up Claude Code in VSCode.md` |
-| 1014 | Set Up The GET for Claude Code | `corpus/Development/Tutorials - LLM/Tutorial 1014 - Set Up The GET for Claude Code.md` |
-| 1021 | Install Codex for the Terminal | `corpus/Development/Tutorials - LLM/Tutorial 1021 - Install Codex for the Terminal.md` |
-| 1022 | Set Up Codex Desktop | `corpus/Development/Tutorials - LLM/Tutorial 1022 - Set Up Codex Desktop.md` |
-| 1023 | Set Up Codex in VSCode | `corpus/Development/Tutorials - LLM/Tutorial 1023 - Set Up Codex in VSCode.md` |
-| 1024 | Set Up The GET for Codex | `corpus/Development/Tutorials - LLM/Tutorial 1024 - Set Up The GET for Codex.md` |
-| 1031 | Install DeepSeek for the Terminal | `corpus/Development/Tutorials - LLM/Tutorial 1031 - Install DeepSeek for the Terminal.md` |
-| 1034 | Set Up The GET for DeepSeek | `corpus/Development/Tutorials - LLM/Tutorial 1034 - Set Up The GET for DeepSeek.md` |
+| 1011 | Claude Code Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start.md` |
+| 1015 | Claude Code Desktop Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start.md` |
+| 1021 | Codex Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start.md` |
+| 1025 | Codex Desktop Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start.md` |
 | 1035 | DeepSeek Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` |
-| 1101 | Start Using The GET | `corpus/Development/Tutorials - LLM/Tutorial 1101 - Start Using The GET.md` |
+| 1090 | Fork and Update The GET | `corpus/Development/Tutorials - LLM/Tutorial 1090 - Fork and Update The GET.md` |
+| 1101 | Keep Using The GET | `corpus/Development/Tutorials - LLM/Tutorial 1101 - Keep Using The GET.md` |
 
