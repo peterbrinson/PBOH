@@ -197,8 +197,9 @@ You don't need a finished concept. A situation you can picture is enough — per
 
 ## 10. Save What You Get
 
-After some back and forth, The GET will deliver a **Prototype Map** — you'll know it when you see it (it announces itself by name, includes concrete sections, and might include a "Build Order"). Two things:
+After some back and forth, The GET will deliver a **Prototype Map** — you'll know it when you see it (it announces itself by name, includes concrete sections, and might include a "Build Order"). Three things:
 
+- **Note which tool you used**, near the top of the saved file — for example: *"Tool: DeepSeek"*. Takes a second, and it means anyone comparing results across different AI tools later can actually tell them apart.
 - Ask it to **save the Prototype Map to a file** in the folder — for example: *"save this Prototype Map to prototype-map.md"*.
 - If your instructor asks for it, also **copy the whole conversation** into a text file. The conversation itself is the most useful thing to see.
 
