@@ -84,6 +84,7 @@ The player can approach and pass from one state or space into another.
 > - [[Game - Hades|Hades]] (2020) — each escape attempt crosses out of the Underworld toward the surface
 > - [The Chronicles of Narnia](https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia) (C.S. Lewis, 1950–1956) — through the wardrobe into Narnia and back again
 
+A Boundary describes the player's experience of the edge, not a property of the world itself. Judge it from inside the player's perspective — a locked door only reads as Closed if the player feels it as sealed — not from an outside description of "the thing" (the room, the ship, the pocket dimension). And a Boundary can change over the course of play: a game might hold Closed for its first hour, then open into a Threshold once a door finally gives way. Naming a Boundary describes the experience *right now*, not a fixed label for the whole game.
 
 ---
 
