@@ -13,7 +13,7 @@ coverage: most taught (101 door triggers, 102 restart + shared state, 104 audio 
 
 ---
 
-Here is a Prototype Map for your project — a starting point to think with, and to bring to your team and your professor.
+Here is a Prototype Map for your project. Think of this Prototype Map as the start of a plan — a conversation with your teammates and your professor.
 
 ## Your idea:
 

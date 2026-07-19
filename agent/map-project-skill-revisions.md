@@ -653,7 +653,7 @@ Also: new `corpus/Design/Worldbuilding/CLAUDE.md` folder pointer (mirrors `Narra
 
 **Changes:**
 
-1. **New rule in Step 7 ("Name the response").** The full summary response is a "Prototype Map" and opens, above the `Your idea` block, with a verbatim naming line: *"Here is a Prototype Map for your project — a starting point to think with, and to bring to your team and your professor."* Only the full response gets the name — the restrained draw-out responses (thin ideas, weak-idea manner) are explicitly *not* Prototype Maps, so the name keeps marking the arrival.
+1. **New rule in Step 7 ("Name the response").** The full summary response is a "Prototype Map" and opens, above the `Your idea` block, with a verbatim naming line: *"Here is a Prototype Map for your project. Think of this Prototype Map as the start of a plan — a conversation with your teammates and your professor."* (Wording set by the instructor same-day, replacing a first draft — "a starting point to think with, and to bring to your team and your professor." The final version states the frame as an instruction to the student — *think of this as* — and says **teammates**, naming the people rather than the abstraction "your team.") Only the full response gets the name — the restrained draw-out responses (thin ideas, weak-idea manner) are explicitly *not* Prototype Maps, so the name keeps marking the arrival.
 2. **Save target renamed:** `student-notes-private/projects/project-plan-<name>.md` → `prototype-map-<name>.md`; the offer says "Prototype Map," not "plan." Distinctive-filename rule unchanged.
 3. **Templates:** both skeletons (one-response, two-response intro) open with the naming line; in the two-response format it appears once at the top, not inside each response.
 
