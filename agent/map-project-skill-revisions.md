@@ -647,6 +647,16 @@ Also: new `corpus/Design/Worldbuilding/CLAUDE.md` folder pointer (mirrors `Narra
 
 **Published-URL note:** the Quartz slug changes (`…world-as-passage` → `…world-as-presence`); old bookmarks 404. Accepted (site not widely externally linked pre-rollout); no alias added.
 
+### 2026-07-19 — Role insistence ends when the Prototype Map is delivered
+
+**Source:** a student in a long session reported that the GET **kept pushing them back to** *"are you doing the Investigator, the Traveler…?"* when they wanted to move past it. Not degradation — role-insistence continuing past the point where it was useful.
+
+**Instructor-set solution.** Keep the insistence up to and including the Prototype Map, then drop it. The role is what makes the mapping work; once the map exists, re-asking is friction. The rule gets a clean trigger for free — the Prototype Map is already the named arrival, so "before / after the map" is unambiguous to the runtime rather than a judgment call about when a conversation has "moved on."
+
+**Change:** one paragraph at the end of Step 7, where the map is delivered. After the map, follow what the student is actually doing — building, debugging, revising, or drifting somewhere the role doesn't describe — and raise the role again only if they raise it or bring a new idea that needs mapping.
+
+**Placement note.** Skill-only, deliberately. A *new* session's greeting asks which project the student is on, and that's correct — role-anchoring at session start is the way in. This rule governs the arc *after* the map inside a planning conversation, so it belongs with the flow that produced it, not in the charter.
+
 ### 2026-07-19 — Branch D's sorting question reframed to the player's experience
 
 **Source:** the Geidai cohort. Moeri Hirose's idea — escape the womb by eating the placenta, then a chain of rooms where eating makes a door appear — was named a **Finite** world. Repeated crossings, each one earned by a bodily transformation, is a **Threshold** world.
