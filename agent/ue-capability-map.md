@@ -63,6 +63,9 @@ When a student describes a feature, route it like a lookup — don't read the wh
 | Lights that turn on when player enters a room        | 104           | Traveler, Entrant, Dreamer | Traveler         |
 | Staggered sequential events (lights one by one)      | 104           | Traveler, Entrant, Dreamer | Traveler         |
 | Spatial ambient sound activating on zone entry       | 104           | Traveler, Dreamer          | Traveler         |
+| Any property animated smoothly over time — position, rotation, scale, colour, light intensity | 101, 104 | All | Traveler, Dreamer |
+
+> **Timeline is the general mechanism behind the rows above, not just a door-opener.** Introduced in 101 and developed in 104. Reach for it whenever something must *change over time* rather than snap — a sun setting, a ship sinking, a shape morphing, a room tilting. The specific rows above are examples of Timeline, not the limit of it.
 
 ---
 
@@ -142,6 +145,8 @@ When a student describes a feature, route it like a lookup — don't read the wh
 | Lake with customizable wave behavior                  | 302         | All     | Traveler |
 | Ocean surrounding landscape as island                 | 302         | All     | Traveler |
 | River with spline-controlled path and current         | 302         | All     | Traveler |
+
+> **301 and 302 build the world; they don't animate it.** A sky that *shifts* from sunset to night, or a ship that *sinks* as the level goes on, is Timeline work (101, 104) applied to a sky or water actor — not a Landscape or Water feature. A weak model tends to guess 301 because it owns "sky" and "ocean"; route anything change-over-time to Timeline.
 
 ---
 

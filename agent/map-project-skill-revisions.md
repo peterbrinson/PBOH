@@ -647,6 +647,22 @@ Also: new `corpus/Design/Worldbuilding/CLAUDE.md` folder pointer (mirrors `Narra
 
 **Published-URL note:** the Quartz slug changes (`…world-as-passage` → `…world-as-presence`); old bookmarks 404. Accepted (site not widely externally linked pre-rollout); no alias added.
 
+### 2026-07-19 — Timeline gets a capability-map home
+
+**Source:** the Geidai cohort. Reo Fujimori's plan cited **Tutorial 301** twice for Timeline work — a sky moving from sunset to night, and a ship sinking over the level. 301 is *Landscapes, Gaea and Automaterial*.
+
+**Not a coverage gap, an indexing gap.** Timeline is taught (9 mentions in 101, 21 in 104) and has a wiki page. But the capability map named it exactly once, inside a physics aside, and every Timeline row was written as a *specific object doing a specific thing* — "object that slides open," "object that rotates," "staggered lights." A sky and a sinking ship match none of those. Meanwhile the map does offer "Atmospheric sky — sun position, haze, fog → 301" and "Ocean surrounding landscape → 302", so a runtime searching for sky and water lands on 301. **The map led it there** — the citation was the closest match the map contained, not a hallucination. (The drift check can't catch this: 301 is a real tutorial, so the citation is "valid.")
+
+The general lesson: Timeline is a **primitive**, not a feature, and a map organised around finished effects gives a primitive nowhere to sit. Compare Kohei Shima's plan from the same cohort, which correctly applied "Tutorial 101's Timeline" to morphing doors — that runtime generalised from the tutorial rather than consulting the map.
+
+**Changes to `ue-capability-map.md`:**
+
+1. **A general row** in Triggers & Environment Response — *"Any property animated smoothly over time — position, rotation, scale, colour, light intensity → 101, 104."*
+2. **A note under that table** naming Timeline as the mechanism behind the specific rows above it, with the specific rows framed as examples rather than the limit.
+3. **A corrective note under World & Environment**, modelled on the existing fade-to-black-is-801-not-3 note and aimed squarely at the observed misroute: 301 and 302 *build* the world, they don't *animate* it; route change-over-time to Timeline.
+
+**Deliberately not done.** The wider question this raises — *what other primitives are invisible because the map indexes effects?* (casting, event dispatchers are candidates) — is left to the capability-map audit backlog row. Fujimori's other error, a stale bare "Tutorial 4" from before the 101–104 renumber, is left open pending more instances; it came from the model, not the corpus.
+
 ### 2026-07-19 — Role insistence ends when the Prototype Map is delivered
 
 **Source:** a student in a long session reported that the GET **kept pushing them back to** *"are you doing the Investigator, the Traveler…?"* when they wanted to move past it. Not degradation — role-insistence continuing past the point where it was useful.
