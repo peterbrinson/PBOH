@@ -1,7 +1,7 @@
 # .gitignore for The Companion (public student bundle)
 #
 # student-notes-private/ holds personal content the Companion writes for each student
-# locally — project plans, notes, references they collect, session handoffs,
+# locally — Prototype Maps, notes, references they collect, session handoffs,
 # instructor questions. None of that belongs in the public repo. The folder
 # scaffolding (README + .gitkeep files) IS tracked so the structure ships
 # with the bundle.

@@ -9,7 +9,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, you've held your first real GET conversation — described an idea, gotten back a project plan for your narrative or worldbuilding project which might include role identification, features, and a build order.
+**Outcome.** By the end of this tutorial, you've held your first real GET conversation — described an idea, gotten back a Prototype Map for your narrative or worldbuilding project which might include role identification, features, and a build order.
 
 **Before you start.** Read at least one of the [Situated Player Roles](https://vlabusc.github.io/The-GET/Design/Storytelling/) (The Investigator, The Traveler, The Dreamer) or the [Bounded Worlds](https://vlabusc.github.io/The-GET/Design/Worldbuilding/) framework first. The GET will ask which one you're working in, so you'll want to arrive already knowing at least one of them.
 
@@ -61,6 +61,6 @@ You don't need a finished concept. A situation you can picture is enough.  Perha
 
 ## Example deviations you are ready for
 
-- Ask the GET to **save your plan to a file** in the GET folder (e.g., `project-plan-mygame.md`) — useful when you're exploring multiple ideas in parallel
+- Ask the GET to **save your Prototype Map to a file** in the GET folder (e.g., `prototype-map-mygame.md`) — useful when you're exploring multiple ideas in parallel
 - Ask for a **reference to look at** from the bundle's `References/` folder (*Gone Home*, *What Remains of Edith Finch*, etc.) when an idea reminds you of something you can't quite name
 - Open the same GET folder in another LLM front-end — the same workflow applies because The GET's content lives in the folder, not in the agent

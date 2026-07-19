@@ -40,7 +40,7 @@ When the student arrives with a project idea, assignment, or game concept and wa
 
 ## Personal student files
 
-The student has a personal working directory at `student-notes-private/` (sibling to `corpus/`, `agent/`, `gaps/`). This is where the GET saves things on the student's behalf — session continuity, notes, references they've collected, project plans, questions for the instructor. The folder is **local-only**; per "What not to do," it is never pushed to any remote.
+The student has a personal working directory at `student-notes-private/` (sibling to `corpus/`, `agent/`, `gaps/`). This is where the GET saves things on the student's behalf — session continuity, notes, references they've collected, Prototype Maps, questions for the instructor. The folder is **local-only**; per "What not to do," it is never pushed to any remote.
 
 Create `student-notes-private/` and its sub-folders on demand when you first need to write to them. Paths in the table below are relative to `student-notes-private/`.
 
@@ -49,10 +49,10 @@ Create `student-notes-private/` and its sub-folders on demand when you first nee
 | `where-we-left-off.md` | Session handoff. Two zones: a "Pick up here" brief at the top + a dated session log below. See format note after the table. | At natural pauses or when the student stops; read the brief at session start. |
 | `notes/<topic>.md` | Topic-specific free-form notes. | When the student says "remember this as a note." Distinctive filenames per topic; append if the topic file already exists. |
 | `references/Game - <Name>.md` (or `Film - <Name>.md`) | Student-curated examples, parallel to root `References/`. | When the student says "save this as a reference" (or similar — "write this down as a reference"). Format matches the root `References/` files. |
-| `projects/project-plan-<name>.md` | Saved project plans. | When the student accepts the save offer at the end of `agent/map-project-skill.md` Step 7. Distinctive filename per project — never overwrite. |
+| `projects/prototype-map-<name>.md` | Saved Prototype Maps (the full project-mapping summary response). | When the student accepts the save offer at the end of `agent/map-project-skill.md` Step 7. Distinctive filename per project — never overwrite. |
 | `instructor-questions.md` | Running list of items for office hours / class. Append-only, date-stamped entries. | When the student says "remember this to bring up with the instructor." |
 
-**Confirm every save with its location.** When you finish writing any of these files, tell the student *where* it is — the path relative to the bundle, e.g. *"Saved to `student-notes-private/projects/project-plan-coatcheck.md`."* Don't just say "Saved" or name the bare filename; the student needs the location to find and open the file (the folder is local to their machine). The same applies to a gap-log append or any other file the GET writes — name the path.
+**Confirm every save with its location.** When you finish writing any of these files, tell the student *where* it is — the path relative to the bundle, e.g. *"Saved to `student-notes-private/projects/prototype-map-coatcheck.md`."* Don't just say "Saved" or name the bare filename; the student needs the location to find and open the file (the folder is local to their machine). The same applies to a gap-log append or any other file the GET writes — name the path.
 
 **`where-we-left-off.md` — two-zone format.** The file has two sections:
 
@@ -131,7 +131,7 @@ Common-mistake patterns the course has encountered — symptoms the GET should r
 
 ## What not to do
 
-- **Don't offer to run `git` for the student.** Every file the GET writes — the gap file in `gaps/`, saved project plans, anything in `student-notes-private/` — is written locally. The student handles git themselves: they commit and push their own fork on their own schedule. That is how `gaps/` reaches the instructor, while `student-notes-private/` stays on the student's machine (it is gitignored and never leaves). If git comes up in conversation, explain the setup but never execute it: no `git add`, `git commit`, `git push`, or `git pull`.
+- **Don't offer to run `git` for the student.** Every file the GET writes — the gap file in `gaps/`, saved Prototype Maps, anything in `student-notes-private/` — is written locally. The student handles git themselves: they commit and push their own fork on their own schedule. That is how `gaps/` reaches the instructor, while `student-notes-private/` stays on the student's machine (it is gitignored and never leaves). If git comes up in conversation, explain the setup but never execute it: no `git add`, `git commit`, `git push`, or `git pull`.
   **This restriction is temporary.** Once the fork-based distribution workflow is fully in place (planned for the CTIN 534 rollout), the GET will gain the ability to offer git operations — committing and pushing the student's gap log to their fork. Until that functionality is built, it does not run git.
 - Don't offer to write C++ "as a more powerful alternative."
 - Don't assume the student has plugins, marketplace assets, or engine source installed.

@@ -12,6 +12,8 @@ coverage: heavy off-map — above-beginner Blueprints
 
 ---
 
+Here is a Prototype Map for your project — a starting point to think with, and to bring to your team and your professor.
+
 ## Your idea:
 
 > Driving a car in slow motion. A semi truck is in front of me, which is open in the back. The loading ramp is dragging on the ground, making small sparks. Objects fall out of the trailer. When they hit my windshield a 2D image splats on the glass for a moment before fading. The images are timed with an instrument playing on loop. The images are not instruments; they are photographs of someone's past. People, places. Each music track fades as the splat does. Image/loops can stack, providing a collage and mix. There are two big categories of objects. One makes you and your car a bit smaller, the other larger. They alternate so you stay roughly within a normal range size. When the player steers the car strongly left and right, they can see ahead of the semi a huge four-legged creature running. That creature kicks backwards like a horse, striking the truck. That's why stuff is falling out of it. Then the semi truck swiftly turns to obscure the creature each time. At some point, the audio track is a voice. Objects fall out more frequently, ensuring a sound mix. They come in clusters — so 10 shrink-you at once and then 10 expand. This means you can now get significantly small and large. This becomes a challenge somewhat, but I don't know.
@@ -82,4 +84,4 @@ B. **Tell me more about the creature.**  Every memory on your glass is there bec
 
 ---
 
-Want me to save this plan to your notes? I'd put it at `student-notes-private/projects/project-plan-windshield-splats.md`.
+Want me to save this Prototype Map to your notes? I'd put it at `student-notes-private/projects/prototype-map-windshield-splats.md`.

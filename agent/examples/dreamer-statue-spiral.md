@@ -12,6 +12,8 @@ coverage: motion all taught (501 physics, no Timeline); off-map = the pile-contr
 
 ---
 
+Here is a Prototype Map for your project — a starting point to think with, and to bring to your team and your professor.
+
 ## Your idea:
 
 > Walking in a ditch about 10 feet deep. Can't climb out, only walk forward. To the left side is a mountain. The ditch is at the base of the mountain. Far away, at the top of the mountain are a few large statues. You come upon a medium-sized statue, blocking your way. Short and wide. It sits with a handful of small rocks, probably resulting from a landslide. You are told you have an ability with the E key. You can pick up the statue and roll it away, opening up your path. After walking again, you come upon another blockage, this time multiple rocks mixed in with an assortment of statues. They stack high, blocking your way. You can pick up one statue and roll it. When it hits the pile, the collective statues and rocks lift a little (with physics) and particular statues roll forward, out of the pile, before the pile drops back down with gravity. Then a handful of rocks and statues roll from the top of the mountain to replenish the pile. The player observes the statues and estimates that rolling particular statues affects other statues. There is some matching pattern to be found that pushes enough statues at once to open up passage. As the player continues walking and facing new piles, it becomes clear that the path is spiraling up the mountain. Gradually you are getting closer to the top — the large statues. And when piles are replenished, they do so faster as their source is closer as you proceed upward. The mood is a little more intense than meditative. The climb will take a while, but there's anticipation; pressure mounts gradually. The statues need to be very recognizable — an animal, a type of person, a household object — so the player can put them into mental categories. A miss means the statue flies upward and joins the replenish objects; success means it rolls to the right, downhill. As the player gets closer to the top, they can make out the large statues, which helps with the matching puzzles — so that gets easier. But with the replenish timing getting faster, the game shifts from puzzle matching to dexterity.
@@ -72,4 +74,4 @@ B. **Tell me more about what a miss should feel like.** Your wrong statue flies 
 
 ---
 
-Want me to save this plan to your notes? I'd put it at `student-notes-private/projects/project-plan-statue-spiral.md`.
+Want me to save this Prototype Map to your notes? I'd put it at `student-notes-private/projects/prototype-map-statue-spiral.md`.

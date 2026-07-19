@@ -58,7 +58,7 @@ A brand-new file like this never causes a merge conflict — it's the cleanest k
 
 **Don't edit the bundle's own files** — the tutorials, wiki pages, charter, or skills. Those are the instructor's to maintain; editing them locally causes a merge conflict every time you pull updates. Your own work has two homes that never conflict:
 
-- Project plans, notes, your own references, session handoffs → `student-notes-private/` (stays on your machine, never pushed).
+- Prototype Maps, notes, your own references, session handoffs → `student-notes-private/` (stays on your machine, never pushed).
 - Gaps the wiki doesn't cover → `gaps/<your-username>.md` (pushed to your fork).
 
 Keep your writing in those two places and updates from upstream will always be smooth.

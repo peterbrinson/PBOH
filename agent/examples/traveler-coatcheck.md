@@ -12,6 +12,8 @@ coverage: mostly covered — short off-map (real-time audio muffling, comic spee
 
 ---
 
+Here is a Prototype Map for your project — a starting point to think with, and to bring to your team and your professor.
+
 ## Your idea:
 
 > The screen opens on a concert ticket to a symphony. It falls away and the player is in a room with a long hallway, thunder far off. At a coat check, an idle attendant with a comic word bubble says "Can I take your raincoat?" — and takes it. Walking down the hall, it's raining indoors, a muffled voiceover playing. The hall turns 90°; another coat check, the same man: "Perhaps your best friend's rain jacket?" The next hall, it's snowing, and the voice is a little clearer — talking about music and instruments. At the end, a coat check on either side: "Your brother's coat?" / "Your sister's coat?" The player picks one and now hears the voice clearly: your musical performance isn't good enough, your siblings play beautifully. The player reaches a room of instruments lying on the floor; touching one picks it up and plays its sound over a voice — kind or cruel about trying, about doing well or not. The player can switch between the voiceover passages — a little agency. The coats are like taking on that character, but at the same time, not really. From the halls into the instrument room it gets more intense — different voiceovers piling up — until all the instruments are collected; then it goes quiet, and the player has nothing to do but keep walking. I want it to end with the player feeling that music is worth playing for its own sake, outside judgment.
@@ -79,4 +81,4 @@ B. **The instrument room versus the halls.** The halls sound heavy and judging; 
 
 ---
 
-Want me to save this summary as `project-plan-coatcheck.md` in your project folder?
+Want me to save this Prototype Map as `prototype-map-coatcheck.md` in your project folder?

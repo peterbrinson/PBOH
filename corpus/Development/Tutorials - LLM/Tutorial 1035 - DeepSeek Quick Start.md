@@ -34,6 +34,9 @@ Everything below happens here.
 
 *Deep Code runs on top of Node.js, a runtime for command-line programs.*
 
+> [!NOTE]
+> This step is just a check — it doesn't change anything on your computer. If you get an error, that's fine and expected if you don't have Node yet; the next line tells you what to do about it.
+
 Type:
 
 ```
@@ -194,9 +197,9 @@ You don't need a finished concept. A situation you can picture is enough — per
 
 ## 10. Save What You Get
 
-After some back and forth, The GET will draft a plan — you'll know it when you see it (it includes concrete sections, and might include a "Build Order"). Two things:
+After some back and forth, The GET will deliver a **Prototype Map** — you'll know it when you see it (it announces itself by name, includes concrete sections, and might include a "Build Order"). Two things:
 
-- Ask it to **save the plan to a file** in the folder — for example: *"save this plan to project-plan.md"*.
+- Ask it to **save the Prototype Map to a file** in the folder — for example: *"save this Prototype Map to prototype-map.md"*.
 - If your instructor asks for it, also **copy the whole conversation** into a text file. The conversation itself is the most useful thing to see.
 
 ---

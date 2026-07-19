@@ -12,6 +12,8 @@ coverage: all features taught (301 landscape/sky, 702 Niagara snow, 101 trigger,
 
 ---
 
+Here is a Prototype Map for your project — a starting point to think with, and to bring to your team and your professor.
+
 ## Your idea:
 
 > You're in a forest with statues scattered about. It's snowing a little. The sky is warped and glistens in places. Suddenly the whole world shakes for a couple of seconds. When that's over, the snow on the ground lifts upward and now it's snowing a lot. Then it slows down. High above, through the warped sky, you see a distorted face. You realize that you're in a snow globe. The player is incentivized to hide under the statues — but then the shake might happen. Maybe they're not statues but something that makes sense; you'll figure out what the incentive is soon. If you hide below a statue, the shake tends to happen.
@@ -74,4 +76,4 @@ B. **Tell me more about the face.** The instant the player understands they're b
 
 ---
 
-Want me to save this plan? I'd put it at `student-notes-private/projects/project-plan-snowglobe.md`.
+Want me to save this Prototype Map? I'd put it at `student-notes-private/projects/prototype-map-snowglobe.md`.

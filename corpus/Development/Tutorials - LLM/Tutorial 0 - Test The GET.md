@@ -65,7 +65,7 @@ You've already picked a Situated Player Role and drafted an idea.   Think of the
 
 ## 7. Capture the output
 
-After a bit of back and forth in your conversation, it will draft a plan (you'll know it when you see it - it'll include a "Build Order" and other concrete categories).  Two things:
+After a bit of back and forth in your conversation, it will deliver a **Prototype Map** (you'll know it when you see it — it announces itself by name, and includes a "Build Order" and other concrete categories).  Two things:
 
-- Ask it to **write the full response to a file** in the folder (e.g., *"save this plan to project-plan.md"*).
+- Ask it to **write the full response to a file** in the folder (e.g., *"save this Prototype Map to prototype-map.md"*).
 - Also **save a copy of the whole session** — paste the entire transcript into a text file and send it back. The conversation itself is what's most useful to see.

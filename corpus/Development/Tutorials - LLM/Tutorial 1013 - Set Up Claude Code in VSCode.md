@@ -97,7 +97,7 @@ When the GET cites a wiki page or reference, open that file in the Explorer and 
 
 - **Run the GET inside VSCode** with the workspace, file tree, and markdown preview in one window
 - **Browse and preview** the GET's tutorials, wiki pages, player-role pages, and references without leaving the editor
-- **See files appear live** when the GET writes to the folder (project plans, notes)
+- **See files appear live** when the GET writes to the folder (Prototype Maps, notes)
 
 ## Example deviations you are ready for
 

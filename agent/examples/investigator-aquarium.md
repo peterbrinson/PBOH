@@ -12,6 +12,8 @@ coverage: mostly covered — short off-map (underwater look, gaze-triggered cut 
 
 ---
 
+Here is a Prototype Map for your project — a starting point to think with, and to bring to your team and your professor.
+
 ## Your idea:
 
 > The player finds themselves in a public aquarium — the kind people visit like a zoo. Everyone's gone. On scattered benches and across the floor, the player finds pieces of equipment, some broken, plus a piece of paper with a code and references to a key. By one door there's a spot of water, with wet footprints leading out of it.
@@ -85,4 +87,4 @@ B. **The wet footprints.** Whose are they — the person talking to the cop, the
 
 ---
 
-Want me to save this summary as `project-plan-aquarium.md` in your project folder?
+Want me to save this Prototype Map as `prototype-map-aquarium.md` in your project folder?

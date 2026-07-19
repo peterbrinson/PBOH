@@ -13,6 +13,8 @@ coverage: most taught (101 door triggers, 102 restart + shared state, 104 audio 
 
 ---
 
+Here is a Prototype Map for your project — a starting point to think with, and to bring to your team and your professor.
+
 ## Your idea:
 
 > The player starts in a room such as an offce. There are two doors. One leads to another room – a domestic room or a library perhaps – in which the player is smaller than the previous. and the other door leads to a room in which they are bigger. The player figures out which door changes scale in what direction. Rooms might be unpassable if the player finds themselves as too small or too big. they start the game over. Text is layed about most rooms in sequence telling some sort of story. I don't know how that story branches based on the player's path but when they have to start over or they win, they see the story as a whole as white text over black background.
@@ -89,4 +91,4 @@ B. **Tell me more about the restart moment** — when the player realizes they'r
 
 ---
 
-Want me to save this plan? I'd put it at `student-notes-private/projects/project-plan-scale-doors.md`.
+Want me to save this Prototype Map? I'd put it at `student-notes-private/projects/prototype-map-scale-doors.md`.

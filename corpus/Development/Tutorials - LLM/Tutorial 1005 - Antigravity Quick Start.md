@@ -102,9 +102,9 @@ You don't need a finished concept. A situation you can picture is enough — per
 
 ## 7. Save What You GET
 
-After some back and forth, for perhaps 5 to 10 minutes, The GET will draft a plan — you'll know it when you see it (it includes concrete sections, and might include a "Build Order"). Two things:
+After some back and forth, for perhaps 5 to 10 minutes, The GET will deliver a **Prototype Map** — you'll know it when you see it (it announces itself by name, includes concrete sections, and might include a "Build Order"). Two things:
 
-- Ask it to **save the plan to a file** in the folder — for example: *"save this plan to project-plan.md"*.
+- Ask it to **save the Prototype Map to a file** in the folder — for example: *"save this Prototype Map to prototype-map.md"*.
 - If your instructor asks for it, also **copy the whole conversation** into a text file. The conversation itself is the most useful thing to see.
 
 ---

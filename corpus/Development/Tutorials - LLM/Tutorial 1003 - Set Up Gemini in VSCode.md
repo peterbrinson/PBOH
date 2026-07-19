@@ -76,8 +76,8 @@ When the GET cites a wiki page or reference, click that file in the Explorer and
 ## 5. Tips for the workflow
 
 - **Split the layout.** Drag the integrated terminal panel down so it sits below the editor. Now you can read tutorials in the top panel and chat with Gemini in the bottom panel without switching focus.
-- **Live file changes.** When the GET saves a file (e.g., a `project-plan-mygame.md` you asked it to write), VSCode's Explorer shows it appear immediately. Click it to read.
-- **Edit response files.** You can edit any markdown file the GET creates. Useful for refining a saved project plan or jotting your own notes alongside it.
+- **Live file changes.** When the GET saves a file (e.g., a `prototype-map-mygame.md` you asked it to write), VSCode's Explorer shows it appear immediately. Click it to read.
+- **Edit response files.** You can edit any markdown file the GET creates. Useful for refining a saved Prototype Map or jotting your own notes alongside it.
 - **Same agent, same content.** Nothing about the GET's behavior changes inside VSCode. It's still the same Gemini CLI and the same folder. The GET has no idea you're in an IDE.
 
 ---
@@ -86,7 +86,7 @@ When the GET cites a wiki page or reference, click that file in the Explorer and
 
 - **Run the GET inside VSCode** with the workspace, terminal, and markdown preview all in one window
 - **Browse and preview** the GET's tutorials, wiki pages, SPR pages, and references without leaving VSCode
-- **See files appear live** when the GET writes to the folder (project plans, notes)
+- **See files appear live** when the GET writes to the folder (Prototype Maps, notes)
 
 ## Example deviations you are ready for
 
