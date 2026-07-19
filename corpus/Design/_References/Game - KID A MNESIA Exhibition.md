@@ -5,5 +5,5 @@ type: Reference
 **→ [Epic Games Store](https://store.epicgames.com/en-US/p/kid-a-mnesia-exhibition)**
 
 ## What It Is
-Made in the [[Unreal Engine]], a free interactive exhibition that walks through dreamlike rooms built from the artwork, lyrics, and music of Radiohead's *Kid A* and *Amnesiac*. 
+Made in Unreal Engine, a free interactive exhibition that walks through dreamlike rooms built from the artwork, lyrics, and music of Radiohead's *Kid A* and *Amnesiac*. 
 

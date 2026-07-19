@@ -66,7 +66,7 @@ For [[MetaHuman|MetaHumans]], this is set on the **Body** component (not the inh
 **Template character locomotion:**
 The default ABP_Mannequin uses a State Machine with states for Idle, Start, Cycle (full-speed movement), Stop, and Pivot. The Event Graph reads the character's velocity and ground state each frame. Transition rules check these variables — velocity above threshold triggers Idle → Start, reaching full speed triggers Start → Cycle, velocity dropping triggers Cycle → Stop.
 
-**MetaHuman player character ([[UE Tutorial 202 - MetaHuman Animations (WIP)|Tutorial 5]], Chapter B):**
+**MetaHuman player character ([[UE Tutorial 202 - MetaHuman Animations|Tutorial 5]], Chapter B):**
 Retarget the template ABP (ABP_Unarmed) to the MetaHuman's skeleton → assign the retargeted ABP to the MetaHuman's Body component → all locomotion animations transfer automatically. Foot IK requires a separate Control Rig fix (see [[MetaHuman]]).
 
 ## Related
@@ -79,5 +79,5 @@ Retarget the template ABP (ABP_Unarmed) to the MetaHuman's skeleton → assign t
 ## Source
 
 - [Animation Blueprint Editor in Unreal Engine | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/animation-blueprint-editor-in-unreal-engine?application_version=5.7) — clipped 2026-04-12
-- [[UE Tutorial 202 - MetaHuman Animations (WIP)|Tutorial 5]] — Chapter B (retargeting ABP to MetaHuman)
+- [[UE Tutorial 202 - MetaHuman Animations|Tutorial 5]] — Chapter B (retargeting ABP to MetaHuman)
 

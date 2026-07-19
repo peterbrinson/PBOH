@@ -1,5 +1,7 @@
 ---
 title: "Tutorials - LLM"
+aliases:
+  - "Tutorials - LLM"
 publish: true
 ---
 

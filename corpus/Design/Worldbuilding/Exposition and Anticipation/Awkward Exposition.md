@@ -4,7 +4,7 @@ title: Awkward Exposition
 publish: true
 ---
 
-Exposition becomes awkward when the world stops moving so it can explain itself — the cutscene, the text scroll, the block of [[Lore as a Trap|lore]]. The opposite instinct is embracing [[catalysts of speculation]]: a designed gap that encourages the player to imagine. 
+Exposition becomes awkward when the world stops moving so it can explain itself — the cutscene, the text scroll, the block of [[Lore as a Trap|lore]]. The opposite instinct is embracing [[Catalysts of Speculation]]: a designed gap that encourages the player to imagine. 
 
 ## Graceful, Diegetic Options
 

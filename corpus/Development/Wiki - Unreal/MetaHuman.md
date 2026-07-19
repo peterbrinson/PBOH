@@ -51,7 +51,7 @@ The inherited character animations (walk, run, jump) need retargeting to the Met
 
 ### Foot IK Fix
 
-After retargeting, feet may drag on the ground. This requires adding **virtual bones** (`ik_foot_l`, `ik_foot_r`) to the MetaHuman's base skeleton and updating the **Control Rig** to reference them. This only needs to be done once per project — all MetaHumans share the same base skeleton. See [[UE Tutorial 202 - MetaHuman Animations (WIP)|Tutorial 5]] Chapter B for the full walkthrough.
+After retargeting, feet may drag on the ground. This requires adding **virtual bones** (`ik_foot_l`, `ik_foot_r`) to the MetaHuman's base skeleton and updating the **Control Rig** to reference them. This only needs to be done once per project — all MetaHumans share the same base skeleton. See [[UE Tutorial 202 - MetaHuman Animations|Tutorial 5]] Chapter B for the full walkthrough.
 
 ### Custom Animations (Mixamo)
 
@@ -66,10 +66,10 @@ The Body component is the MetaHuman's visible skeletal mesh — always target it
 
 ## Common Patterns
 
-**Player character setup ([[UE Tutorial 202 - MetaHuman Animations (WIP)|Tutorial 5]], Chapters A–B):**
+**Player character setup ([[UE Tutorial 202 - MetaHuman Animations|Tutorial 5]], Chapters A–B):**
 Create MetaHuman → Full Rig → Assemble → reparent to BP_ThirdPersonCharacter → retarget ABP → fix foot IK → swap Default Pawn Class in GameMode. The MetaHuman replaces the mannequin as the playable character with all existing movement and input intact.
 
-**Custom animation playback ([[UE Tutorial 202 - MetaHuman Animations (WIP)|Tutorial 5]], Chapter C):**
+**Custom animation playback ([[UE Tutorial 202 - MetaHuman Animations|Tutorial 5]], Chapter C):**
 Import a Mixamo animation → retarget to MetaHuman skeleton → create [[Animation Montage]] → play via Blueprint on the Body component's Anim Instance. The animation layers on top of the character's existing locomotion.
 
 ## Related
@@ -84,5 +84,5 @@ Import a Mixamo animation → retarget to MetaHuman skeleton → create [[Animat
 ## Source
 
 - [MetaHuman Documentation](https://dev.epicgames.com/documentation/metahuman/metahuman-documentation) — Epic's full MetaHuman reference
-- [[UE Tutorial 202 - MetaHuman Animations (WIP)|Tutorial 5]] — Chapters A–C (create, incorporate, animate)
+- [[UE Tutorial 202 - MetaHuman Animations|Tutorial 5]] — Chapters A–C (create, incorporate, animate)
 

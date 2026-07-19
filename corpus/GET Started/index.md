@@ -1,5 +1,7 @@
 ---
 title: "GET Started"
+aliases:
+  - "GET Started"
 ---
 ### The Game Engine Tutor
 The GET is a knowledge bundle — course material coupled with the instructions that turn an LLM into your tutor.  

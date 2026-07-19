@@ -13,10 +13,10 @@ Key idea: a game is a sequence of situations. Good design is the crafting of sit
 
 A world is a device for generating situations. The design question shifts from "what are the rules?" to "what situations will the player find themselves in, and do those situations feel meaningful?"
 
-The corpus page [[Situational Game Design for Small Worlds]] works through the first two chapters in detail.
+The corpus page [[Lecture - Situational Game Design for Bounded Worlds]] works through the first two chapters in detail.
 
 ## Related
-- [[Situational Game Design for Small Worlds]]
+- [[Lecture - Situational Game Design for Bounded Worlds]]
 - [[Starting Points for World Creation]]
 - [[World Responsiveness]]
 - [[Situated Player Roles]]

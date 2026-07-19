@@ -70,7 +70,7 @@ Create variants of a Montage by right-clicking → **Create Child Montage**. The
 
 ## Common Patterns
 
-**MetaHuman custom animation ([[UE Tutorial 202 - MetaHuman Animations (WIP)|Tutorial 5]], Chapter C):**
+**MetaHuman custom animation ([[UE Tutorial 202 - MetaHuman Animations|Tutorial 5]], Chapter C):**
 Import a Mixamo animation → retarget it to the MetaHuman skeleton → right-click the retargeted sequence → Create AnimMontage. In the Blueprint Event Graph, get the Anim Instance from the MetaHuman's Body component, then call Play Montage. The animation plays on top of the character's existing locomotion.
 
 **Play Animation vs Animation Montage:**
@@ -95,5 +95,5 @@ Import a Mixamo animation → retarget it to the MetaHuman skeleton → right-cl
 - [Animation Montage in Unreal Engine | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/animation-montage-in-unreal-engine?application_version=5.7) — clipped 2026-04-12
 - [Play Montage | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Animation/Montage/PlayMontage?application_version=5.7) — node reference, clipped 2026-04-12
 - [Montage Play | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Animation/Montage/MontagePlay?application_version=5.7) — node reference, clipped 2026-04-12
-- [[UE Tutorial 202 - MetaHuman Animations (WIP)|Tutorial 5]] — Chapter C (MetaHuman Mixamo animation import and playback)
+- [[UE Tutorial 202 - MetaHuman Animations|Tutorial 5]] — Chapter C (MetaHuman Mixamo animation import and playback)
 
