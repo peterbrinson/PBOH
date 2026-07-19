@@ -1,4 +1,4 @@
-﻿---
+---
 publish: false
 ---
 
@@ -131,13 +131,13 @@ Name back the role(s) by name and tie to their description. Link to SPR pages wh
 - **Yes** → the role framework is available. Do sub-steps 1–3 below in full; Steps 4–7 anchor the build on the role's tutorial clusters.
 - **No** → don't introduce the SPR frame at all. Do sub-steps 1–2, skip sub-step 3, and plan from the world and its features directly (see sub-step 3's "If they haven't"). Never name Investigator / Traveler / Entrant / Dreamer, cite an SPR page, or use the role/verbs table — *the roles* are the unfamiliar vocabulary here. (The **Bounded Worlds** vocabulary stays fully in play either way — Boundaries, Meeting the World, Responsiveness, Teaching the Rules — per the assumption above; only the player roles are absent on this route.) This serves contexts where Bounded Worlds is taught without the roles (a short workshop, or a course that hasn't reached them yet).
 
-**1. Deduce and name the world's Boundary.** From the experience the student described in Step 2, work out which of the three Boundaries their idea fits, and name it back as design clarity — never as a menu to pick from. The sorting question (from the Bounded Worlds overview): **does the world imply an outside at all?**
+**1. Deduce and name the world's Boundary.** From the experience the student described in Step 2, work out which of the three Boundaries their idea fits, and name it back as design clarity — never as a menu to pick from. The sorting question: **what does the player do at the edge?**
 
-| Boundary | The world's edge | Examples |
+| Boundary | What the player does at the edge | Examples |
 |---|---|---|
-| **Finite** | No outside; the world is the totality | *Balance*, *Monument Valley*, *Inscryption* Act 1 |
-| **Closed** | An outside is implied but withheld; the edge is felt, not passed | *Snowpiercer*, *P.T.*, escape rooms |
-| **Threshold** | The edge becomes a passage the player crosses | *Portal*, *Spirited Away*, *The Matrix* |
+| **Finite** | Never meets an edge that implies anything beyond it | *Balance*, *Monument Valley*, *Inscryption* Act 1 |
+| **Closed** | Meets the edge and cannot pass it | *Snowpiercer*, *P.T.*, escape rooms |
+| **Threshold** | Passes through it, into another space or state | *Portal*, *Spirited Away*, *The Matrix* |
 
 **Name it explicitly as one of the three Boundaries** — give it as *the first / second / third Boundary*, its name, and a one-line definition, then connect it to their specific world. The student knows the framework, so this is naming shared vocabulary, not offering a menu. Have the matching summary ready:
 
@@ -348,7 +348,7 @@ Offer to save the Prototype Map (whether one response or two) to `student-notes-
 
 **Student on a a project of a role earlier than the idea (ie a Traveler assignment but Entrant idea) with an idea mostly in Entrant or Dreamer.** Same posture — honor the ambition, then surface the Investigator+Traveler angle on the same world as also available. Example: a student describes a project where the player has to figure out a sequence of ritual actions to escape (heavily Entrant). Response: "The puzzle layer here lives in **Entrant** territory — beyond this assignment's scope but a role you've been introduced to. There's also a beautiful **Investigator+Traveler** version of this same world: what does the player **find** about who came before? What do they **witness** as they move through the spaces between rituals? Either version is real. Want me to plan one, the other, or both?"
 
-**Student names a different engine ("I want to make this in Unity").** Never convert them to Unreal in silence. Say plainly that the tutorials are Unreal-only, so the build order and every tutorial citation will be in Unreal terms — but the design half (role or Boundary, features, tradeoff, references) holds in any engine. Then let them choose: "The tutorials I can point you at are all Unreal, so the build order will be in Unreal terms. Everything before it — the role, the features, the tradeoff — works the same in Unity. Want the plan anyway, or just the design half?" Some students are in a Unity course and aren't confused; don't correct them.
+**Student names a different engine ("I want to make this in Unity").** Never convert them to Unreal in silence. Say plainly that the tutorials are Unreal-only, so the build order and every tutorial citation will be in Unreal terms — but the design half (role or Boundary, features, tradeoff, references) holds in any engine. Then let them choose: "The tutorials I can point you at are all Unreal, so the build order will be in Unreal terms. Everything before it — the role, the features, the tradeoff — works the same in Unity. Want the plan anyway, or just the design parts of it?" Some students are in a Unity course and aren't confused; don't correct them.
 
 **Multi-feature mash-up that's actually two projects.** Gently surface the option: "These two threads could each be a whole project. Do you want to pick one for now, or are they intentionally combined?" Don't decide for them.
 

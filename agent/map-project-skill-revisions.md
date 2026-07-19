@@ -647,6 +647,25 @@ Also: new `corpus/Design/Worldbuilding/CLAUDE.md` folder pointer (mirrors `Narra
 
 **Published-URL note:** the Quartz slug changes (`…world-as-passage` → `…world-as-presence`); old bookmarks 404. Accepted (site not widely externally linked pre-rollout); no alias added.
 
+### 2026-07-19 — Branch D's sorting question reframed to the player's experience
+
+**Source:** the Geidai cohort. Moeri Hirose's idea — escape the womb by eating the placenta, then a chain of rooms where eating makes a door appear — was named a **Finite** world. Repeated crossings, each one earned by a bodily transformation, is a **Threshold** world.
+
+**Diagnosis — the wording invited it.** The sorting question was *"does the world imply an outside at all?"*, which asks about the world **as an object**: stand outside the fiction, describe its totality. Answered that way, Finite is defensible — the chain of rooms is complete in itself. The Bounded Worlds hub already warns against exactly this ("judge it from inside the player's perspective… not from an outside description of 'the thing'"), and the hub **is loaded on Branch D** — so the correct instruction was in context and lost anyway, sitting as a closing caveat fifty lines below the examples while the sorting question sat immediately beside the decision.
+
+**So the fix is not another caveat.** Duplicating the hub's warning into the skill would have added text already in the window, competing with the same question that caused the error. Instead the question itself was reframed so that only an inside-the-player reading can answer it:
+
+| | before | after |
+|---|---|---|
+| Sorting question | does the world imply an outside at all? | **what does the player do at the edge?** |
+| Finite | No outside; the world is the totality | Never meets an edge that implies anything beyond it |
+| Closed | An outside is implied but withheld | Meets the edge and cannot pass it |
+| Threshold | The edge becomes a passage the player crosses | Passes through it, into another space or state |
+
+Taxonomy, examples, and line count unchanged — this is a rewrite, not an addition. The parenthetical "(from the Bounded Worlds overview)" was dropped: the skill now owns an operational phrasing that deliberately differs from the hub's, which keeps its own wording for the student-facing page.
+
+**Known limit.** n=1, and the source case is genuinely arguable — every game with rooms has doors, and that alone doesn't make them Threshold. The reasons to read Hirose's as Threshold (the womb exit is a birth-crossing; each door is *earned by eating*, so crossing is the mechanic rather than scenery) are real but contestable. The deeper issue may be that the GET asserted one Boundary flatly on a case with tension in it, when the hub itself says a Boundary can shift during play. **Teaching it to notice contestable cases is deliberately not attempted here** — it's a larger change and would have muddied a clean rewrite.
+
 ### 2026-07-19 — A different engine must be acknowledged, not silently converted
 
 **Source:** the Geidai cohort. Rino Arata's idea opened *"unityを使って…"* — I want to use Unity — and the returned plan was headed "Unreal Engine 5.7 / Blueprint" with no mention anywhere that the engine had been swapped. The student's stated tool was overridden without a word.
