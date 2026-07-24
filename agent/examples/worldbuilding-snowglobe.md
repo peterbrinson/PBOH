@@ -1,10 +1,10 @@
-﻿---
+---
 publish: false
 route: worldbuilding — Branch D, "hasn't studied the Situated Player Roles" (no-SPR route)
 coverage: all features taught (301 landscape/sky, 702 Niagara snow, 101 trigger, 401 materials, 701 post-process, 801 fade, 104 sound); off-map = warped-sky distortion shader + Unreal Camera Shake
 ---
 
-# The Snow Globe — Worldbuilding (example session)
+# The Snow Globe — Worldbuilding 
 
 *An example of how the GET maps a Bounded Worlds project on the route for a student who hasn't studied the Situated Player Roles. The student developed the idea across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy. Note the manner specific to this route: the summary leads with the world, not a player role; no role is named anywhere; the capability map is used as a plain feature-to-tutorial lookup, its role columns set aside; and the Bounded Worlds framework (the structures, Meeting the World, Responsiveness) is invoked by name as vocabulary the student already knows — never taught fresh.*
 
