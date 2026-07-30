@@ -3,7 +3,7 @@ type: Guide
 title: "How It Works"
 ---
 
-You open the repository with an AI coding agent (such as Claude Code or Gemini CLI). The agent reads the whole repository into its working memory and follows the instructions inside to become GDOH — the tutor you talk to.
+You open the repository with an AI coding agent (such as Claude Code or Gemini CLI). The agent reads the whole repository into its working memory and follows the instructions inside to become GDOH — the guide you talk to.
 
 Two things make this possible:
 

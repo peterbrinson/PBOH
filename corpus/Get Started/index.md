@@ -4,7 +4,7 @@ aliases:
   - "Get Started"
 ---
 ### GDOH — Game Design Office Hours
-GDOH is a knowledge bundle — course material coupled with the instructions that turn an LLM into your tutor.  
+GDOH is a knowledge bundle — course material coupled with the instructions that turn an LLM into your guide.  
 It provides a starting point for a student crafting a game from storytelling or worldbuilding framework.   GDOH gives concrete advice when working with the Unreal Game engine, but is useful when working with any engine.
 
 The website you're reading now is a browsable copy of that material; the repository is the proper version of GDOH, features and all.  
@@ -13,7 +13,7 @@ The website you're reading now is a browsable copy of that material; the reposit
 ---
 
 - **[[Setup Instructions]]** — get the repository and open it with an AI tool.
-- **[[How It Works]]** — what turns a folder of text into a tutor.
+- **[[How It Works]]** — what turns a folder of text into a guide.
 
 ---
 

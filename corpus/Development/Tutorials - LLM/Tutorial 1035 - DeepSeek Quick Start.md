@@ -118,7 +118,7 @@ deepcode
 
 ## 7. Start, Talk, and Save
 
-Deep Code may not automatically load the tutor instructions, so begin with:
+Deep Code may not automatically load the guide instructions, so begin with:
 
 ```
 Read AGENTS.md in this folder and follow it to act as GDOH. Then start a GDOH session.

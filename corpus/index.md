@@ -8,7 +8,7 @@ GDOH — Game Design Office Hours — maps an early idea for a playable story or
 
 Clone or fork the repository, open it with an AI coding agent, and start a session. See **Get Started** for how GDOH works and how to set up the major AI tools (Gemini, Claude Code, Codex, DeepSeek).
 
-The rest below is a browsable copy of the corpus — the same material the tutor reads from.
+The rest below is a browsable copy of the corpus — the same material the guide reads from.
 
 ## Web Version
 

@@ -5,7 +5,7 @@ publish: false
 
 # About GDOH
 
-This folder is your AI tutor for designing playable stories and worlds in Unreal Engine. You set it up with the 1000-series tutorials — install an AI tool (Gemini, Claude Code, Codex, or DeepSeek), download the folder, and start your first session (**Tutorial 1101**). This page orients you to what you just downloaded.
+This folder is your AI guide for designing playable stories and worlds in Unreal Engine. You set it up with the 1000-series tutorials — install an AI tool (Gemini, Claude Code, Codex, or DeepSeek), download the folder, and start your first session (**Tutorial 1101**). This page orients you to what you just downloaded.
 
 ## What's in this folder
 
