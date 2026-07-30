@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at The GET, and used for your first saved Prototype Map.
+**Outcome.** By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at GDOH, and used for your first saved Prototype Map.
 
 This is the shortest supported DeepSeek route. It does not require GitHub or git, but it does require a terminal, a DeepSeek API key, and a small pay-as-you-go balance.
 
@@ -97,18 +97,18 @@ Replace `sk-REPLACE_WITH_YOUR_KEY` with the key from Chapter 3. Keep the quotati
 
 ---
 
-## 5. Download The GET
+## 5. Download GDOH
 
-1. Go to [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET).
+1. Go to [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
 2. Click **Code** → **Download ZIP**.
-3. Unzip it, rename `The-GET-main` to `The-GET`, and move it to Documents.
+3. Unzip it, rename `gdofficehours.github.io-main` to `GDOH`, and move it to Documents.
 4. Check that `AGENTS.md`, `agent/`, and `corpus/` are directly inside it.
 
 ---
 
-## 6. Launch Deep Code in The GET Folder
+## 6. Launch Deep Code in GDOH Folder
 
-Type `cd `, drag the `The-GET` folder into the terminal, and press Enter. Then run:
+Type `cd `, drag the `GDOH` folder into the terminal, and press Enter. Then run:
 
 ```
 deepcode
@@ -121,14 +121,14 @@ deepcode
 Deep Code may not automatically load the tutor instructions, so begin with:
 
 ```
-Read AGENTS.md in this folder and follow it to act as The GET. Then start a GET session.
+Read AGENTS.md in this folder and follow it to act as GDOH. Then start a GDOH session.
 ```
 
-Describe a project idea in 4 to 8 sentences and continue until The GET produces a Prototype Map. Let it save the map to `student-notes-private/projects/`.
+Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Map. Let it save the map to `student-notes-private/projects/`.
 
 If this is a class submission, add `Tool: DeepSeek (Deep Code)` near the top and save the transcript if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
 
 ---
 
@@ -138,7 +138,7 @@ Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using Th
 
 Close every terminal, open a new one, and try `deepcode --version` again.
 
-### It does not act like The GET
+### It does not act like GDOH
 
 Confirm that the terminal is inside the folder containing `AGENTS.md`, then use the full starting prompt from Chapter 7.
 

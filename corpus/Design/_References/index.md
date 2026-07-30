@@ -5,7 +5,7 @@ aliases:
 publish: true
 ---
 
-Game and film examples The GET draws on when a project reminds it of an existing work.
+Game and film examples GDOH draws on when a project reminds it of an existing work.
 
 ## Games
 

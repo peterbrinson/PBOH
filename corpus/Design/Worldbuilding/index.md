@@ -131,6 +131,6 @@ Further reading: [[Reading - Emissary's Guide to Worlding (Cheng)|Emissary's Gui
 
 # 4. What Suggestions Will The Game Engine Tutor Offer?
 
-> [!info] The GET turns your Bounded World into a build plan — a recommended order for making it in a game engine.
+> [!info] GDOH turns your Bounded World into a build plan — a recommended order for making it in a game engine.
 
-[[Development/Tutorials - LLM|Get started using The GET]] with your preferred LLM.  
+[[Development/Tutorials - LLM|Get started using GDOH]] with your preferred LLM.  

@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, Claude Code is installed in your terminal, pointed at The GET, and used for your first saved Prototype Map.
+**Outcome.** By the end of this tutorial, Claude Code is installed in your terminal, pointed at GDOH, and used for your first saved Prototype Map.
 
 Use this path only if you prefer a terminal. For the graphical route, use [[Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start|Claude Code Desktop Quick Start]].
 
@@ -40,17 +40,17 @@ On Windows, if Claude asks for Git, install it from [git-scm.com/downloads/win](
 
 ---
 
-## 2. Download The GET
+## 2. Download GDOH
 
-1. Go to [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET).
+1. Go to [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
 2. Click **Code** → **Download ZIP**.
-3. Unzip it, rename `The-GET-main` to `The-GET`, and move it to Documents.
+3. Unzip it, rename `gdofficehours.github.io-main` to `GDOH`, and move it to Documents.
 
 ---
 
-## 3. Launch Claude in The GET Folder
+## 3. Launch Claude in GDOH Folder
 
-Type `cd `, drag the `The-GET` folder into the terminal, and press Enter. Then run:
+Type `cd `, drag the `GDOH` folder into the terminal, and press Enter. Then run:
 
 ```
 claude
@@ -65,14 +65,14 @@ Complete the browser sign-in when asked.
 Type:
 
 ```
-Start a GET session.
+Start a GDOH session.
 ```
 
-Describe a project idea in 4 to 8 sentences and continue until The GET produces a Prototype Map. Approve its offer to save the map to `student-notes-private/projects/`.
+Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Map. Approve its offer to save the map to `student-notes-private/projects/`.
 
 If this is a class submission, add `Tool: Claude Code CLI` near the top and save the transcript if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
 
 ---
 

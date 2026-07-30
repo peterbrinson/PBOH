@@ -6,20 +6,20 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, The GET is open in Antigravity and you have held your first conversation about a project idea. The GET will save the resulting Prototype Map in your private student folder.
+**Outcome.** By the end of this tutorial, GDOH is open in Antigravity and you have held your first conversation about a project idea. GDOH will save the resulting Prototype Map in your private student folder.
 
 **You need:** a personal Google account, an internet connection, and about 15 minutes. You do not need a terminal, GitHub account, or paid plan.
 
 ---
 
-## 1. Download The GET
+## 1. Download GDOH
 
-1. Go to [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET).
+1. Go to [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
 2. Click the green **Code** button, then **Download ZIP**.
 3. Unzip the download:
    - **Windows:** right-click it → **Extract All…**
    - **macOS:** double-click it
-4. Rename `The-GET-main` to `The-GET` and move it somewhere easy to find, such as Documents.
+4. Rename `gdofficehours.github.io-main` to `GDOH` and move it somewhere easy to find, such as Documents.
 5. Open the folder and check that `agent/` and `corpus/` are directly inside it.
 
 ---
@@ -32,23 +32,23 @@ publish: true
 
 ---
 
-## 3. Open The GET
+## 3. Open GDOH
 
 1. In Antigravity, create a new project.
-2. When asked for a folder, choose the `The-GET` folder itself—not Documents or another parent folder.
+2. When asked for a folder, choose the `GDOH` folder itself—not Documents or another parent folder.
 3. If Antigravity asks you to choose a model, use the recommended current Pro model.
 
 ---
 
-## 4. Start a GET Session
+## 4. Start a GDOH Session
 
 Type this in the chat panel:
 
 ```
-Start a GET session.
+Start a GDOH session.
 ```
 
-You can write in your own language. The GET will ask whether you are working on The Investigator, The Traveler, The Dreamer, or Bounded Worlds.
+You can write in your own language. GDOH will ask whether you are working on The Investigator, The Traveler, The Dreamer, or Bounded Worlds.
 
 ---
 
@@ -56,13 +56,13 @@ You can write in your own language. The GET will ask whether you are working on 
 
 Describe a game or playable-world idea in 4 to 8 sentences. Describe the experience you want the player to have; the idea can still be incomplete.
 
-Continue the conversation until The GET says, “Here is a Prototype Map for your project.”
+Continue the conversation until GDOH says, “Here is a Prototype Map for your project.”
 
 ---
 
 ## 6. Save the Prototype Map
 
-When The GET offers to save the Prototype Map, say yes and approve the file change if Antigravity asks. It should save to:
+When GDOH offers to save the Prototype Map, say yes and approve the file change if Antigravity asks. It should save to:
 
 ```
 student-notes-private/projects/prototype-map-<project-name>.md
@@ -70,7 +70,7 @@ student-notes-private/projects/prototype-map-<project-name>.md
 
 If this is a class submission, add `Tool: Gemini (Antigravity)` near the top. If your instructor asks for the full conversation, also copy or export the transcript.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
 
 ---
 
@@ -82,7 +82,7 @@ Antigravity is probably looking at the wrong folder. Reopen the folder containin
 
 ### I cannot find the unzipped folder
 
-Look in Downloads. Move the folder to Documents, rename it `The-GET`, and continue.
+Look in Downloads. Move the folder to Documents, rename it `GDOH`, and continue.
 
 ### Sign-in does not work
 

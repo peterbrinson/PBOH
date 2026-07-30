@@ -6,18 +6,18 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, The GET is open through Codex in the ChatGPT desktop app and you have completed and saved your first Prototype Map.
+**Outcome.** By the end of this tutorial, GDOH is open through Codex in the ChatGPT desktop app and you have completed and saved your first Prototype Map.
 
 **You need:** a ChatGPT account with Codex access, an internet connection, and about 15 minutes. You do not need a terminal or GitHub account.
 
 ---
 
-## 1. Download The GET
+## 1. Download GDOH
 
-1. Go to [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET).
+1. Go to [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
 2. Click **Code** → **Download ZIP**.
 3. Unzip it.
-4. Rename `The-GET-main` to `The-GET` and move it somewhere easy to find, such as Documents.
+4. Rename `gdofficehours.github.io-main` to `GDOH` and move it somewhere easy to find, such as Documents.
 5. Check that `agent/`, `corpus/`, and `AGENTS.md` are directly inside the folder.
 
 ---
@@ -31,20 +31,20 @@ publish: true
 
 ---
 
-## 3. Open The GET
+## 3. Open GDOH
 
 1. Begin a new local task.
-2. Choose the `The-GET` folder itself—not Documents or another parent folder.
+2. Choose the `GDOH` folder itself—not Documents or another parent folder.
 3. Keep the normal workspace permissions so Codex stays limited to the project and asks before broader actions.
 
 ---
 
-## 4. Start a GET Session
+## 4. Start a GDOH Session
 
 Type:
 
 ```
-Start a GET session.
+Start a GDOH session.
 ```
 
 Codex reads `AGENTS.md`, greets you, and asks which assignment or framework you are using.
@@ -53,7 +53,7 @@ Codex reads `AGENTS.md`, greets you, and asks which assignment or framework you 
 
 ## 5. Bring an Idea and Save
 
-Describe a game or playable-world idea in 4 to 8 sentences. Continue until The GET produces a Prototype Map.
+Describe a game or playable-world idea in 4 to 8 sentences. Continue until GDOH produces a Prototype Map.
 
 When it offers to save, approve the file change. The map should appear at:
 
@@ -63,7 +63,7 @@ student-notes-private/projects/prototype-map-<project-name>.md
 
 If this is a class submission, add `Tool: Codex Desktop` near the top. Save the transcript too if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
 
 ---
 
@@ -73,6 +73,6 @@ Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using Th
 
 Confirm that you are signed into the intended account and workspace. Codex availability and usage limits vary by plan and organization.
 
-### Codex does not act like The GET
+### Codex does not act like GDOH
 
 Start a new local task and select the folder that directly contains `AGENTS.md`, `agent/`, and `corpus/`.

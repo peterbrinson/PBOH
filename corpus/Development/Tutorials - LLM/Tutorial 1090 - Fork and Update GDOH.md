@@ -6,21 +6,21 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this optional tutorial, you have a GitHub fork of The GET that can receive course updates and carry contributions back to the instructor.
+**Outcome.** By the end of this optional tutorial, you have a GitHub fork of GDOH that can receive course updates and carry contributions back to the instructor.
 
-Do this after you have successfully used one of the quickstarts. Forking is useful for the semester-long workflow, but it should not delay your first GET conversation.
+Do this after you have successfully used one of the quickstarts. Forking is useful for the semester-long workflow, but it should not delay your first GDOH conversation.
 
 **You need:** a GitHub account and [Git](https://git-scm.com/downloads) installed.
 
 ---
 
-## 1. Fork The GET
+## 1. Fork GDOH
 
 1. Sign in to [github.com](https://github.com/).
-2. Open [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET).
+2. Open [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
 3. Click **Fork**, leave the defaults, and create the fork.
 
-Your copy now lives at `github.com/<your-username>/The-GET`.
+Your copy now lives at `github.com/<your-username>/gdofficehours.github.io`.
 
 ---
 
@@ -32,14 +32,14 @@ Open **PowerShell** on Windows or **Terminal** on macOS and move to Documents:
 cd ~/Documents
 ```
 
-If you already have a ZIP copy named `The-GET`, keep it in place for now and clone the Git copy under a different name:
+If you already have a ZIP copy named `GDOH`, keep it in place for now and clone the Git copy under a different name:
 
 ```
-git clone https://github.com/<your-username>/The-GET.git The-GET-git
-cd The-GET-git
+git clone https://github.com/<your-username>/gdofficehours.github.io.git GDOH-git
+cd GDOH-git
 ```
 
-If you do not already have a `The-GET` folder, you can omit `The-GET-git` from the first command.
+If you do not already have a `GDOH` folder, you can omit `GDOH-git` from the first command.
 
 ---
 
@@ -48,7 +48,7 @@ If you do not already have a `The-GET` folder, you can omit `The-GET-git` from t
 From inside the cloned folder:
 
 ```
-git remote add upstream https://github.com/vLabUSC/The-GET.git
+git remote add upstream https://github.com/gdofficehours/gdofficehours.github.io.git
 git remote -v
 ```
 
@@ -75,7 +75,7 @@ From inside your Git copy:
 git pull upstream main
 ```
 
-For contribution and gap-log instructions, read `corpus/GET Started/For Contributors/contributing-to-the-get.md` inside The GET.
+For contribution and gap-log instructions, read `corpus/GET Started/For Contributors/contributing-to-gdoh.md` inside GDOH.
 
 ---
 

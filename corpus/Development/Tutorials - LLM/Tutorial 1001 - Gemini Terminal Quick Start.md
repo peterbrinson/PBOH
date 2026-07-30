@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, Gemini CLI is installed, pointed at The GET, and used for your first GET conversation and Prototype Map.
+**Outcome.** By the end of this tutorial, Gemini CLI is installed, pointed at GDOH, and used for your first GET conversation and Prototype Map.
 
 Use this path only if you prefer a terminal. For the simplest graphical route, use [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]].
 
@@ -35,17 +35,17 @@ gemini --version
 
 ---
 
-## 2. Download The GET
+## 2. Download GDOH
 
-1. Go to [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET).
+1. Go to [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
 2. Click **Code** → **Download ZIP**.
-3. Unzip it, rename `The-GET-main` to `The-GET`, and move it to Documents.
+3. Unzip it, rename `gdofficehours.github.io-main` to `GDOH`, and move it to Documents.
 
 ---
 
-## 3. Launch Gemini in The GET Folder
+## 3. Launch Gemini in GDOH Folder
 
-In the terminal, change into the folder. One easy method is to type `cd `, drag the `The-GET` folder into the terminal, and press Enter.
+In the terminal, change into the folder. One easy method is to type `cd `, drag the `GDOH` folder into the terminal, and press Enter.
 
 Then run:
 
@@ -62,14 +62,14 @@ Sign in with your personal Google account and trust the folder when asked.
 Type:
 
 ```
-Start a GET session.
+Start a GDOH session.
 ```
 
-Describe a project idea in 4 to 8 sentences and continue until The GET produces a Prototype Map. Accept its offer to save the file to `student-notes-private/projects/`.
+Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Map. Accept its offer to save the file to `student-notes-private/projects/`.
 
 If this is a class submission, add `Tool: Gemini CLI` near the top and save the transcript if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
 
 ---
 

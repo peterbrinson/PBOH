@@ -5,9 +5,9 @@ aliases:
 publish: true
 ---
 
-# Start The GET
+# Start GDOH
 
-Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first GET conversation and a saved Prototype Map.
+Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first GDOH conversation and a saved Prototype Map.
 
 ## Start here — pick one
 
@@ -18,7 +18,7 @@ Pick the path that matches what you already have. Each quickstart begins with no
 
 If you are unsure, begin with the Antigravity quickstart.
 
-## Other ways to run The GET
+## Other ways to run GDOH
 
 These are complete alternatives, not extra prerequisites:
 
@@ -28,5 +28,5 @@ These are complete alternatives, not extra prerequisites:
 
 ## After your first session
 
-- [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]] — the three kinds of conversation, saved files, and where to continue
-- [[Tutorials - LLM/Tutorial 1090 - Fork and Update The GET|Fork and Update The GET]] — optional GitHub setup for receiving updates and contributing; do this after The GET is already working
+- [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]] — the three kinds of conversation, saved files, and where to continue
+- [[Tutorials - LLM/Tutorial 1090 - Fork and Update GDOH|Fork and Update GDOH]] — optional GitHub setup for receiving updates and contributing; do this after GDOH is already working

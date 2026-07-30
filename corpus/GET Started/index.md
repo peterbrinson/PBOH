@@ -3,12 +3,12 @@ title: "GET Started"
 aliases:
   - "GET Started"
 ---
-### The Game Engine Tutor
-The GET is a knowledge bundle — course material coupled with the instructions that turn an LLM into your tutor.  
-It provides a starting point for a student crafting a game from storytelling or worldbuilding framework.   The GET gives concrete advice when working with the Unreal Game engine, but is useful when working with any engine.
+### GDOH — Game Design Office Hours
+GDOH is a knowledge bundle — course material coupled with the instructions that turn an LLM into your tutor.  
+It provides a starting point for a student crafting a game from storytelling or worldbuilding framework.   GDOH gives concrete advice when working with the Unreal Game engine, but is useful when working with any engine.
 
-The website you're reading now is a browsable copy of that material; the repository is the proper version of The GET, features and all.  
-## [**Open The GET on GitHub**](https://github.com/vLabUSC/The-GET)
+The website you're reading now is a browsable copy of that material; the repository is the proper version of GDOH, features and all.  
+## [**Open GDOH on GitHub**](https://github.com/gdofficehours/gdofficehours.github.io)
 
 ---
 
@@ -17,4 +17,4 @@ The website you're reading now is a browsable copy of that material; the reposit
 
 ---
 
-The GET embraces the qualities Google's [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) recently articulated. 
+GDOH embraces the qualities Google's [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) recently articulated. 

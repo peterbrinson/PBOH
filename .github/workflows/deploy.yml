@@ -1,4 +1,4 @@
-name: Deploy The GET (Quartz) to GitHub Pages
+name: Deploy GDOH (Quartz) to GitHub Pages
 
 on:
   push:

@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "The GET",
+    pageTitle: "GDOH",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "vlabusc.github.io/The-GET",
+    baseUrl: "gdofficehours.github.io",
     ignorePatterns: ["private", "templates", ".obsidian", "**/raw/**", "**/CLAUDE.md", "**/GEMINI.md", "**/DEEPSEEK.md", "**/AGENTS.md", "CTIN 389/**"],
     defaultDateType: "modified",
     theme: {

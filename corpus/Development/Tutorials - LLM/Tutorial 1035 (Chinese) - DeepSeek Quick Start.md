@@ -10,7 +10,7 @@ publish: true
 
 ## 0. 简介
 
-**目标。** 完成本教程后，你会把 Deep Code 连接到 DeepSeek，在 The GET 文件夹中启动它，并完成第一次 GET 对话，保存一份 Prototype Map。
+**目标。** 完成本教程后，你会把 Deep Code 连接到 DeepSeek，在 GDOH 文件夹中启动它，并完成第一次 GET 对话，保存一份 Prototype Map。
 
 这是目前最短的 DeepSeek 路线。不需要 GitHub 账号或 git，但需要终端、DeepSeek API key，以及少量按使用量付费的余额。
 
@@ -101,18 +101,18 @@ open -e ~/.deepcode/settings.json
 
 ---
 
-## 5. 下载 The GET
+## 5. 下载 GDOH
 
-1. 打开 [github.com/vLabUSC/The-GET](https://github.com/vLabUSC/The-GET)。
+1. 打开 [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io)。
 2. 点击绿色的 **Code** 按钮，然后选择 **Download ZIP**。
-3. 解压，把 `The-GET-main` 改名为 `The-GET`，并移动到 Documents 等容易找到的位置。
+3. 解压，把 `gdofficehours.github.io-main` 改名为 `GDOH`，并移动到 Documents 等容易找到的位置。
 4. 检查 `AGENTS.md`、`agent/` 和 `corpus/` 是否直接位于文件夹内。
 
 ---
 
-## 6. 在 The GET 文件夹中启动 Deep Code
+## 6. 在 GDOH 文件夹中启动 Deep Code
 
-输入 `cd `，把 `The-GET` 文件夹拖进终端，再按 Enter。然后运行：
+输入 `cd `，把 `GDOH` 文件夹拖进终端，再按 Enter。然后运行：
 
 ```
 deepcode
@@ -125,14 +125,14 @@ deepcode
 Deep Code 不一定会自动读取辅导系统的说明，所以请先输入：
 
 ```
-请阅读此文件夹中的 AGENTS.md，并按照其中的说明扮演 The GET。然后开始一个 GET 会话。
+请阅读此文件夹中的 AGENTS.md，并按照其中的说明扮演 GDOH。然后开始一个 GDOH 会话。
 ```
 
-用4到8句话描述一个项目想法，继续对话，直到 The GET 生成 Prototype Map。让它把文件保存到 `student-notes-private/projects/`。
+用4到8句话描述一个项目想法，继续对话，直到 GDOH 生成 Prototype Map。让它把文件保存到 `student-notes-private/projects/`。
 
 如果这是课堂提交，请在文件开头加上 `Tool: DeepSeek (Deep Code)`。如果老师要求，也请保存完整对话。
 
-接下来请阅读 [[Tutorials - LLM/Tutorial 1101 - Keep Using The GET|Keep Using The GET]]。
+接下来请阅读 [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]]。
 
 ---
 
@@ -142,7 +142,7 @@ Deep Code 不一定会自动读取辅导系统的说明，所以请先输入：
 
 关闭所有终端，重新打开一个，再运行 `deepcode --version`。
 
-### 它不像 The GET
+### 它不像 GDOH
 
 确认终端位于包含 `AGENTS.md` 的文件夹中，然后使用第 7 章的完整开场提示语。
 
