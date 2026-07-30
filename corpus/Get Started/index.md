@@ -1,7 +1,7 @@
 ---
-title: "GET Started"
+title: "Get Started"
 aliases:
-  - "GET Started"
+  - "Get Started"
 ---
 ### GDOH — Game Design Office Hours
 GDOH is a knowledge bundle — course material coupled with the instructions that turn an LLM into your tutor.  

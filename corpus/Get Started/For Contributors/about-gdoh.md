@@ -11,8 +11,8 @@ This folder is your AI tutor for designing playable stories and worlds in Unreal
 
 | Folder / file | What it is |
 |---|---|
-| `corpus/GET Started/` | How GDOH works and how to install the AI tools — the published site's front door. |
-| &nbsp;&nbsp;&nbsp;&nbsp;`GET Started/For Contributors/` | You're reading from here. Repo-only notes (kept off the website): this orientation and `contributing-to-gdoh.md` (how to send your work back to the instructor). |
+| `corpus/Get Started/` | How GDOH works and how to install the AI tools — the published site's front door. |
+| &nbsp;&nbsp;&nbsp;&nbsp;`Get Started/For Contributors/` | You're reading from here. Repo-only notes (kept off the website): this orientation and `contributing-to-gdoh.md` (how to send your work back to the instructor). |
 | `corpus/Design/` | One corpus pillar: `Storytelling/` (the four player roles — **Investigator, Traveler, Entrant, Dreamer**), `Worldbuilding/` (the Bounded Worlds framework), and `_References/` (game and film examples the AI may cite). |
 | `corpus/Development/` | The other pillar: `Tutorials - LLM/` (the 1000-series setup tutorials), `Tutorials - Unreal/` (numbered Unreal tutorials — 101, 102, 103, 104, 201, 202, 301, 302, 401, 501, 701, 702, 801, 821, 901), `Wiki - Unreal/` (quick-reference Blueprint pages). |
 | `agent/` | The AI's operating files — `how-the-tutor-works.md`, the `map-project-skill.md` skill, the `ue-capability-map.md` lookup. The AI reads these; you usually don't need to. |

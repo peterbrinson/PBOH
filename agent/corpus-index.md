@@ -10,14 +10,6 @@ GDOH's single source of truth for **where each corpus page lives** and **which t
 
 ## Section A — Corpus map
 
-### GET Started
-
-- **about-gdoh** *(unpublished)* `corpus/GET Started/For Contributors/about-gdoh.md` — This folder is your AI tutor for designing playable stories and worlds in Unreal Engine. You set it up with the 1000-series tutorials —…
-- **contributing-to-gdoh** *(unpublished)* `corpus/GET Started/For Contributors/contributing-to-gdoh.md` — GDOH is distributed by forking. You work in your own fork; the class original stays read-only to you. This page covers the three things…
-- **How It Works** `corpus/GET Started/How It Works.md` — You open the repository with an AI coding agent (such as Claude Code or Gemini CLI). The agent reads the whole repository into its working…
-- **GET Started** `corpus/GET Started/index.md` — GDOH is a knowledge bundle — course material coupled with the instructions that turn an LLM into your tutor.
-- **Setup Instructions** `corpus/GET Started/Setup Instructions.md` — 1. Get the repository. Clone or fork GDOH on GitHub.
-
 ### Design
 
 - **+ References Index** *(unpublished)* `corpus/Design/_References/+ References Index.md` — Reverse lookup: match the student's theme/shape to an example here rather than citing a famous title from memory.
@@ -339,6 +331,14 @@ GDOH's single source of truth for **where each corpus page lives** and **which t
 - **Week 9.2 - Mechanics and Emotion** *(unpublished)* `corpus/CTIN 389/Week 9.2 - Mechanics and Emotion.md` — The arc of experience where mechanics generate meaning — the self-conscious emotions games are uniquely able to evoke.
 - **Week 10.1 - Technology and Development** *(unpublished)* `corpus/CTIN 389/Week 10.1 - Technology and Development.md` — A tour through one developer's ever-changing toolset — and why learning new tools is the real skill.
 - **Week 12.2 - Evoking Emotion** *(unpublished)* `corpus/CTIN 389/Week 12.2 - Evoking Emotion.md` — A recap of the semester's four arcs of experience, and an in-class workout analyzing games through them.
+
+### Get Started
+
+- **about-gdoh** *(unpublished)* `corpus/Get Started/For Contributors/about-gdoh.md` — This folder is your AI tutor for designing playable stories and worlds in Unreal Engine. You set it up with the 1000-series tutorials —…
+- **contributing-to-gdoh** *(unpublished)* `corpus/Get Started/For Contributors/contributing-to-gdoh.md` — GDOH is distributed by forking. You work in your own fork; the class original stays read-only to you. This page covers the three things…
+- **How It Works** `corpus/Get Started/How It Works.md` — You open the repository with an AI coding agent (such as Claude Code or Gemini CLI). The agent reads the whole repository into its working…
+- **Get Started** `corpus/Get Started/index.md` — GDOH is a knowledge bundle — course material coupled with the instructions that turn an LLM into your tutor.
+- **Setup Instructions** `corpus/Get Started/Setup Instructions.md` — 1. Get the repository. Clone or fork GDOH on GitHub.
 
 ### index.md
 

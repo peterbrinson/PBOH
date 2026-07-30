@@ -14,7 +14,7 @@ If you've just forked GDOH and have no gap file yet, GDOH creates `gaps/<your-gi
 
 ## How it reaches the instructor
 
-GDOH writes the gap file locally and never runs git. **You** commit and push it to your fork — see `corpus/GET Started/For Contributors/contributing-to-gdoh.md`. The instructor collects every student's gap file from their forks and reviews them, deciding which gaps become new wiki pages, tutorials, or pitfall notes.
+GDOH writes the gap file locally and never runs git. **You** commit and push it to your fork — see `corpus/Get Started/For Contributors/contributing-to-gdoh.md`. The instructor collects every student's gap file from their forks and reviews them, deciding which gaps become new wiki pages, tutorials, or pitfall notes.
 
 ## Entry format
 

@@ -37,7 +37,7 @@ Two rules keep the corpus tidy. Both are cheap to follow at write time and annoy
 | `Design/Worldbuilding/` | `Worldbuilding` |
 | `Design/Storytelling/` (the player-role pages) | `PlayerRole` |
 | `CTIN 389/` | `Lecture` |
-| `GET Started/` | `Guide` |
+| `Get Started/` | `Guide` |
 
 **Not** tagged, deliberately: `index.md` and `log.md` (reserved names), and agent files (`CLAUDE.md` / `GEMINI.md`) — they aren't concept pages.
 

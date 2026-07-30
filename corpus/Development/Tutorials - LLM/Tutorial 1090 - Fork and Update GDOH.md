@@ -75,7 +75,7 @@ From inside your Git copy:
 git pull upstream main
 ```
 
-For contribution and gap-log instructions, read `corpus/GET Started/For Contributors/contributing-to-gdoh.md` inside GDOH.
+For contribution and gap-log instructions, read `corpus/Get Started/For Contributors/contributing-to-gdoh.md` inside GDOH.
 
 ---
 
