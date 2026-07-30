@@ -18,7 +18,7 @@ publish: true
 2. Click **Code** → **Download ZIP**.
 3. Unzip it.
 4. Rename `GDOH-main` to `GDOH` and move it somewhere easy to find, such as Documents.
-5. Check that `agent/`, `corpus/`, and `AGENTS.md` are directly inside the folder.
+5. Open the `GDOH` folder. If it contains only another folder called `GDOH-main` instead of folders such as `agent/`, `corpus/`, and `AGENTS.md`, that folder was nested in the ZIP — move that inner folder to Documents instead and rename it `GDOH`.
 
 ---
 

@@ -20,7 +20,7 @@ If the **Code** area is unavailable after sign-in, your account or organization 
 2. Click **Code** → **Download ZIP**.
 3. Unzip the download.
 4. Rename `GDOH-main` to `GDOH` and move it somewhere easy to find, such as Documents.
-5. Check that `agent/`, `corpus/`, and `CLAUDE.md` are directly inside the folder.
+5. Open the `GDOH` folder. If it contains only another folder called `GDOH-main` instead of folders such as  `agent/`, `corpus/`, and `CLAUDE.md`, that folder was nested in the ZIP — move that inner folder to Documents instead and rename it `GDOH`.
 
 ---
 
@@ -29,9 +29,8 @@ If the **Code** area is unavailable after sign-in, your account or organization 
 1. Download the app from [claude.com/download](https://claude.com/download).
 2. Install and open it.
 3. Sign in with the Claude account that has Claude Code access.
-4. Open **Code**.
+4. Switch to **Code**.
 
-On Windows, Claude may ask for Git before it can start a local Code session. If so, install Git from [git-scm.com/downloads/win](https://git-scm.com/downloads/win), accept the defaults, and restart Claude.
 
 ---
 

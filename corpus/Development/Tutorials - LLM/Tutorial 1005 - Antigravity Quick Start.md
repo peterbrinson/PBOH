@@ -20,7 +20,7 @@ publish: true
    - **Windows:** right-click it → **Extract All…**
    - **macOS:** double-click it
 4. Rename `GDOH-main` to `GDOH` and move it somewhere easy to find, such as Documents.
-5. Open the folder and check that `agent/` and `corpus/` are directly inside it.
+5. Open the `GDOH` folder. If it contains only another folder called `GDOH-main` instead of folders such as `agent/` and `corpus/`, that folder was nested in the ZIP — move that inner folder to Documents instead and rename it `GDOH`.
 
 ---
 
