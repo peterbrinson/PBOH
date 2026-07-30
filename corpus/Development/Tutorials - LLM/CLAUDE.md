@@ -8,7 +8,7 @@ Setup tutorials: how a student gets an AI tool running and has their first GDOH 
 
 ## The organizing principle — quick-start-first
 
-**Every path is a single self-contained quick start.** One page takes a student from nothing installed to a first GDOH conversation and a saved Prototype Map. No prerequisite chain, no terminal assumed, no GitHub account required.
+**Every path is a single self-contained quick start.** One page takes a student from nothing installed to a first GDOH conversation and a saved Prototype Plan. No prerequisite chain, no terminal assumed, no GitHub account required.
 
 This replaced (2026-07-19) an earlier shape: **per-tool four-step sequences** — install for the terminal → set up desktop → set up in VSCode → set up GDOH — one tool spread across four pages. Those are retired.
 

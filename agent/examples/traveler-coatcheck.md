@@ -12,7 +12,7 @@ coverage: mostly covered — short off-map (real-time audio muffling, comic spee
 
 ---
 
-Here is a Prototype Map for your project. Think of this Prototype Map as the start of a plan — a conversation with your teammates and your professor.
+Here is a Prototype Plan for your project. Think of this Prototype Plan as the start of your thinking — a conversation with your teammates and your professor.
 
 ## Your idea:
 
@@ -81,4 +81,4 @@ B. **The instrument room versus the halls.** The halls sound heavy and judging; 
 
 ---
 
-Want me to save this Prototype Map as `prototype-map-coatcheck.md` in your project folder?
+Want me to save this Prototype Plan as `prototype-plan-coatcheck.md` in your project folder?

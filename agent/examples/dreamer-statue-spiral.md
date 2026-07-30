@@ -12,7 +12,7 @@ coverage: motion all taught (501 physics, no Timeline); off-map = the pile-contr
 
 ---
 
-Here is a Prototype Map for your project. Think of this Prototype Map as the start of a plan — a conversation with your teammates and your professor.
+Here is a Prototype Plan for your project. Think of this Prototype Plan as the start of your thinking — a conversation with your teammates and your professor.
 
 ## Your idea:
 
@@ -74,4 +74,4 @@ B. **Tell me more about what a miss should feel like.** Your wrong statue flies 
 
 ---
 
-Want me to save this Prototype Map to your notes? I'd put it at `student-notes-private/projects/prototype-map-statue-spiral.md`.
+Want me to save this Prototype Plan to your notes? I'd put it at `student-notes-private/projects/prototype-plan-statue-spiral.md`.

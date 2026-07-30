@@ -61,7 +61,7 @@ You should see:
 
 ## 4. Carry Over Your Private Work
 
-If you began with a ZIP copy, copy its `student-notes-private/` folder into the new Git copy. That folder contains your Prototype Maps, notes, and session handoff. It stays private and is not pushed to GitHub.
+If you began with a ZIP copy, copy its `student-notes-private/` folder into the new Git copy. That folder contains your Prototype Plans, notes, and session handoff. It stays private and is not pushed to GitHub.
 
 Once you have confirmed the files are present, open the new Git copy in your AI tool and continue there. Keep the ZIP copy until you are confident the new folder works.
 

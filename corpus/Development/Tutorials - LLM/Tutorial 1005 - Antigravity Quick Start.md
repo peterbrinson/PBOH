@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, GDOH is open in Antigravity and you have held your first conversation about a project idea. GDOH will save the resulting Prototype Map in your private student folder.
+**Outcome.** By the end of this tutorial, GDOH is open in Antigravity and you have held your first conversation about a project idea. GDOH will save the resulting Prototype Plan in your private student folder.
 
 **You need:** a personal Google account, an internet connection, and about 15 minutes. You do not need a terminal, GitHub account, or paid plan.
 
@@ -56,16 +56,16 @@ You can write in your own language. GDOH will ask whether you are working on The
 
 Describe a game or playable-world idea in 4 to 8 sentences. Describe the experience you want the player to have; the idea can still be incomplete.
 
-Continue the conversation until GDOH says, “Here is a Prototype Map for your project.”
+Continue the conversation until GDOH says, “Here is a Prototype Plan for your project.”
 
 ---
 
-## 6. Save the Prototype Map
+## 6. Save the Prototype Plan
 
-When GDOH offers to save the Prototype Map, say yes and approve the file change if Antigravity asks. It should save to:
+When GDOH offers to save the Prototype Plan, say yes and approve the file change if Antigravity asks. It should save to:
 
 ```
-student-notes-private/projects/prototype-map-<project-name>.md
+student-notes-private/projects/prototype-plan-<project-name>.md
 ```
 
 If this is a class submission, add `Tool: Gemini (Antigravity)` near the top. If your instructor asks for the full conversation, also copy or export the transcript.

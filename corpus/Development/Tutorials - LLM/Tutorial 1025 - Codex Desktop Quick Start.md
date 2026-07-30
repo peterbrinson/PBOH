@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, GDOH is open through Codex in the ChatGPT desktop app and you have completed and saved your first Prototype Map.
+**Outcome.** By the end of this tutorial, GDOH is open through Codex in the ChatGPT desktop app and you have completed and saved your first Prototype Plan.
 
 **You need:** a ChatGPT account with Codex access, an internet connection, and about 15 minutes. You do not need a terminal or GitHub account.
 
@@ -53,12 +53,12 @@ Codex reads `AGENTS.md`, greets you, and asks which assignment or framework you 
 
 ## 5. Bring an Idea and Save
 
-Describe a game or playable-world idea in 4 to 8 sentences. Continue until GDOH produces a Prototype Map.
+Describe a game or playable-world idea in 4 to 8 sentences. Continue until GDOH produces a Prototype Plan.
 
 When it offers to save, approve the file change. The map should appear at:
 
 ```
-student-notes-private/projects/prototype-map-<project-name>.md
+student-notes-private/projects/prototype-plan-<project-name>.md
 ```
 
 If this is a class submission, add `Tool: Codex Desktop` near the top. Save the transcript too if your instructor requests it.

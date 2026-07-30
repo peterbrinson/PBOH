@@ -30,10 +30,10 @@ We can discuss this further if you want.
 
 ## One-response format
 
-When the idea fits the assigned role cleanly (or there's no role constraint and you've simply identified the fit). The naming line at the top is required — it marks the response as the Prototype Map (see the skill's "Name the response" rule).
+When the idea fits the assigned role cleanly (or there's no role constraint and you've simply identified the fit). The naming line at the top is required — it marks the response as the Prototype Plan (see the skill's "Name the response" rule).
 
 ```
-Here is a Prototype Map for your project. Think of this Prototype Map as the start of a plan — a conversation with your teammates and your professor.
+Here is a Prototype Plan for your project. Think of this Prototype Plan as the start of your thinking — a conversation with your teammates and your professor.
 
 ### Your idea
 > [paste the student's idea verbatim and in full — quote, don't summarize, no ellipses or abridgement; if it was assembled across several turns, stitch them into one faithful statement in the student's words]
@@ -81,7 +81,7 @@ B. Tell me more about [specific aspect 2 — different facet].
 When a reframe is warranted (per the Step 3 call). The idea block appears **once** at the top — not repeated inside each response. After the intro, deliver both Response 1 and Response 2 in full following the One-response format above (the naming line appears once here at the top, not again inside each response).
 
 ```
-Here is a Prototype Map for your project. Think of this Prototype Map as the start of a plan — a conversation with your teammates and your professor.
+Here is a Prototype Plan for your project. Think of this Prototype Plan as the start of your thinking — a conversation with your teammates and your professor.
 
 ### Your idea
 > [paste the student's idea verbatim and in full — quote, don't summarize, no ellipses or abridgement; if it was assembled across several turns, stitch them into one faithful statement in the student's words]

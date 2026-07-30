@@ -16,7 +16,7 @@ This page follows any quickstart. It is not another setup requirement.
 
 ### Plan a project
 
-Describe an idea for The Investigator, The Traveler, The Dreamer, or Bounded Worlds. GDOH will help shape it and, when the idea is ready, produce a Prototype Map.
+Describe an idea for The Investigator, The Traveler, The Dreamer, or Bounded Worlds. GDOH will help shape it and, when the idea is ready, produce a Prototype Plan.
 
 ### Get tutorial help
 
@@ -32,7 +32,7 @@ Ask about a Blueprint node, Unreal concept, design framework, or example from th
 
 GDOH saves personal work inside `student-notes-private/`:
 
-- `projects/` — Prototype Maps
+- `projects/` — Prototype Plans
 - `notes/` — ideas, fixes, and discoveries you ask it to remember
 - `references/` — games, films, or books you save as examples
 - `instructor-questions.md` — questions to bring to class or office hours

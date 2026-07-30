@@ -12,7 +12,7 @@ coverage: heavy off-map — above-beginner Blueprints
 
 ---
 
-Here is a Prototype Map for your project. Think of this Prototype Map as the start of a plan — a conversation with your teammates and your professor.
+Here is a Prototype Plan for your project. Think of this Prototype Plan as the start of your thinking — a conversation with your teammates and your professor.
 
 ## Your idea:
 
@@ -84,4 +84,4 @@ B. **Tell me more about the creature.**  Every memory on your glass is there bec
 
 ---
 
-Want me to save this Prototype Map to your notes? I'd put it at `student-notes-private/projects/prototype-map-windshield-splats.md`.
+Want me to save this Prototype Plan to your notes? I'd put it at `student-notes-private/projects/prototype-plan-windshield-splats.md`.

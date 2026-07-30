@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, Claude Code is installed in your terminal, pointed at GDOH, and used for your first saved Prototype Map.
+**Outcome.** By the end of this tutorial, Claude Code is installed in your terminal, pointed at GDOH, and used for your first saved Prototype Plan.
 
 Use this path only if you prefer a terminal. For the graphical route, use [[Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start|Claude Code Desktop Quick Start]].
 
@@ -68,7 +68,7 @@ Type:
 Start a GDOH session.
 ```
 
-Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Map. Approve its offer to save the map to `student-notes-private/projects/`.
+Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Plan. Approve its offer to save the plan to `student-notes-private/projects/`.
 
 If this is a class submission, add `Tool: Claude Code CLI` near the top and save the transcript if your instructor requests it.
 

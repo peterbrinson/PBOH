@@ -7,7 +7,7 @@ publish: true
 
 # Start GDOH
 
-Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first GDOH conversation and a saved Prototype Map.
+Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first GDOH conversation and a saved Prototype Plan.
 
 ## Start here — pick one
 

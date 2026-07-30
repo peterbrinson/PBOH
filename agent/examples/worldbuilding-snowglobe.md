@@ -12,7 +12,7 @@ coverage: all features taught (301 landscape/sky, 702 Niagara snow, 101 trigger,
 
 ---
 
-Here is a Prototype Map for your project. Think of this Prototype Map as the start of a plan — a conversation with your teammates and your professor.
+Here is a Prototype Plan for your project. Think of this Prototype Plan as the start of your thinking — a conversation with your teammates and your professor.
 
 ## Your idea:
 
@@ -76,4 +76,4 @@ B. **Tell me more about the face.** The instant the player understands they're b
 
 ---
 
-Want me to save this Prototype Map? I'd put it at `student-notes-private/projects/prototype-map-snowglobe.md`.
+Want me to save this Prototype Plan? I'd put it at `student-notes-private/projects/prototype-plan-snowglobe.md`.

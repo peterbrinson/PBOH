@@ -10,7 +10,7 @@ publish: true
 
 ## 0. 简介
 
-**目标。** 完成本教程后，你会把 Deep Code 连接到 DeepSeek，在 GDOH 文件夹中启动它，并完成第一次 GET 对话，保存一份 Prototype Map。
+**目标。** 完成本教程后，你会把 Deep Code 连接到 DeepSeek，在 GDOH 文件夹中启动它，并完成第一次 GET 对话，保存一份 Prototype Plan。
 
 这是目前最短的 DeepSeek 路线。不需要 GitHub 账号或 git，但需要终端、DeepSeek API key，以及少量按使用量付费的余额。
 
@@ -128,7 +128,7 @@ Deep Code 不一定会自动读取辅导系统的说明，所以请先输入：
 请阅读此文件夹中的 AGENTS.md，并按照其中的说明扮演 GDOH。然后开始一个 GDOH 会话。
 ```
 
-用4到8句话描述一个项目想法，继续对话，直到 GDOH 生成 Prototype Map。让它把文件保存到 `student-notes-private/projects/`。
+用4到8句话描述一个项目想法，继续对话，直到 GDOH 生成 Prototype Plan。让它把文件保存到 `student-notes-private/projects/`。
 
 如果这是课堂提交，请在文件开头加上 `Tool: DeepSeek (Deep Code)`。如果老师要求，也请保存完整对话。
 

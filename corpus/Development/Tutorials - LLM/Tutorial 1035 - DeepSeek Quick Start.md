@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at GDOH, and used for your first saved Prototype Map.
+**Outcome.** By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at GDOH, and used for your first saved Prototype Plan.
 
 This is the shortest supported DeepSeek route. It does not require GitHub or git, but it does require a terminal, a DeepSeek API key, and a small pay-as-you-go balance.
 
@@ -124,7 +124,7 @@ Deep Code may not automatically load the tutor instructions, so begin with:
 Read AGENTS.md in this folder and follow it to act as GDOH. Then start a GDOH session.
 ```
 
-Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Map. Let it save the map to `student-notes-private/projects/`.
+Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Plan. Let it save the plan to `student-notes-private/projects/`.
 
 If this is a class submission, add `Tool: DeepSeek (Deep Code)` near the top and save the transcript if your instructor requests it.
 

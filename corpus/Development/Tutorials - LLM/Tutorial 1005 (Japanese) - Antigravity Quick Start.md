@@ -10,7 +10,7 @@ publish: true
 
 ## 0. はじめに
 
-**ゴール。** このチュートリアルを終えると、Antigravity で GDOH を開き、プロジェクトのアイデアについて最初の会話を行い、Prototype Map を自分専用の学生フォルダに保存できます。
+**ゴール。** このチュートリアルを終えると、Antigravity で GDOH を開き、プロジェクトのアイデアについて最初の会話を行い、Prototype Plan を自分専用の学生フォルダに保存できます。
 
 **必要なもの:** 個人の Google アカウント、インターネット接続、約15分。ターミナル、GitHub アカウント、有料プランは必要ありません。
 
@@ -60,16 +60,16 @@ GDOHセッションを始めます。
 
 ゲームやプレイ可能な世界のアイデアを4〜8文で説明してください。仕組みだけでなく、プレイヤーにどんな体験をしてほしいかを伝えます。完成したアイデアでなくても構いません。
 
-GDOH が「Here is a Prototype Map for your project」と言うまで会話を続けます。
+GDOH が「Here is a Prototype Plan for your project」と言うまで会話を続けます。
 
 ---
 
-## 6. Prototype Map を保存する
+## 6. Prototype Plan を保存する
 
 GDOH が保存を提案したら、承認してください。Antigravity がファイル変更の許可を求めた場合も承認します。保存先は次の場所です。
 
 ```
-student-notes-private/projects/prototype-map-<project-name>.md
+student-notes-private/projects/prototype-plan-<project-name>.md
 ```
 
 授業の提出物にする場合は、ファイルの冒頭に `Tool: Gemini (Antigravity)` と書きます。先生から求められた場合は、会話全体もコピーまたは書き出してください。

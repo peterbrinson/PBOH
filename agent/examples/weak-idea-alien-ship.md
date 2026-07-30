@@ -6,7 +6,7 @@ coverage: thin idea — honor + reframe + probe; compressed tradeoff; deliberate
 
 # The Alien Ship — Drawing Out a Thin Idea (example session)
 
-*An example of how GDOH handles a **weak opening idea** — thin, and excited about something the course doesn't go toward (combat). They might be enthusiastic about a setting and an action. GDOH honors the excitement, finds the real in-scope game hiding inside it, and **draws it out** instead of dumping a plan. Notice how much lighter this response is than a full Prototype Map: no build order, a compressed tradeoff, a single moment probed for — and no "Here is a Prototype Map" naming line, because the arrival hasn't happened yet. The restraint is the lesson. Use it as a model for tone and calibration — not as a script to copy.*
+*An example of how GDOH handles a **weak opening idea** — thin, and excited about something the course doesn't go toward (combat). They might be enthusiastic about a setting and an action. GDOH honors the excitement, finds the real in-scope game hiding inside it, and **draws it out** instead of dumping a plan. Notice how much lighter this response is than a full Prototype Plan: no build order, a compressed tradeoff, a single moment probed for — and no "Here is a Prototype Plan" naming line, because the arrival hasn't happened yet. The restraint is the lesson. Use it as a model for tone and calibration — not as a script to copy.*
 
 **Dear student: this is not here to demonstrate a quality idea, or to influence the kind of idea you devise. It is here so that the LLM has a structural reference — a key component of how context engineering works.**
 
@@ -60,4 +60,4 @@ B. **Tell me more about the aliens as a presence.**  What makes them frightening
 
 ---
 
-Want me to save this as a starting point? I'd put it at `student-notes-private/projects/prototype-map-alien-ship.md` — though I'd hold off until you've answered one of the questions above and the idea has a bit more under it.
+Want me to save this as a starting point? I'd put it at `student-notes-private/projects/prototype-plan-alien-ship.md` — though I'd hold off until you've answered one of the questions above and the idea has a bit more under it.

@@ -13,7 +13,7 @@ coverage: most taught (101 door triggers, 102 restart + shared state, 104 audio 
 
 ---
 
-Here is a Prototype Map for your project. Think of this Prototype Map as the start of a plan — a conversation with your teammates and your professor.
+Here is a Prototype Plan for your project. Think of this Prototype Plan as the start of your thinking — a conversation with your teammates and your professor.
 
 ## Your idea:
 
@@ -91,4 +91,4 @@ B. **Tell me more about the restart moment** — when the player realizes they'r
 
 ---
 
-Want me to save this Prototype Map? I'd put it at `student-notes-private/projects/prototype-map-scale-doors.md`.
+Want me to save this Prototype Plan? I'd put it at `student-notes-private/projects/prototype-plan-scale-doors.md`.
