@@ -36,7 +36,7 @@ A tradeoff — where the player gains one thing only by giving up another — is
 
 **Proteus** (2013, Ed Key & David Kanaga — https://store.steampowered.com/app/219680/Proteus/) — a pastel island where every plant and animal emits its own musical signature, so the soundtrack is your position in the world. That's your splat-mix approached from the other direction: a world that composes its own score out of what the player is near.
 
-**La Maison en Petits Cubes** (2008, Kunio Katō, 12-minute animated short — https://www.youtube.com/watch?v=50-fWCXvhAY) — an old man dives down through the submerged stories of his own house, each level holding the memories of the life he lived there. A life read as strata, one layer at a time — the same shape as a past arriving one photograph at a time. Different facet: this one is for the theme.  And an excellent demonstration of a [Bounded World](https://vlabusc.github.io/GDOH/Design/Worldbuilding/).
+**La Maison en Petits Cubes** (2008, Kunio Katō, 12-minute animated short — https://www.youtube.com/watch?v=50-fWCXvhAY) — an old man dives down through the submerged stories of his own house, each level holding the memories of the life he lived there. A life read as strata, one layer at a time — the same shape as a past arriving one photograph at a time. Different facet: this one is for the theme.  And an excellent demonstration of a [Bounded World](https://gdofficehours.github.io/GDOH/Design/Worldbuilding/).
 
 ### Worth bringing up with the instructor
 
