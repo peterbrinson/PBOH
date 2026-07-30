@@ -17,10 +17,10 @@ Do this after you have successfully used one of the quickstarts. Forking is usef
 ## 1. Fork GDOH
 
 1. Sign in to [github.com](https://github.com/).
-2. Open [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
+2. Open [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
 3. Click **Fork**, leave the defaults, and create the fork.
 
-Your copy now lives at `github.com/<your-username>/gdofficehours.github.io`.
+Your copy now lives at `github.com/<your-username>/GDOH`.
 
 ---
 
@@ -35,7 +35,7 @@ cd ~/Documents
 If you already have a ZIP copy named `GDOH`, keep it in place for now and clone the Git copy under a different name:
 
 ```
-git clone https://github.com/<your-username>/gdofficehours.github.io.git GDOH-git
+git clone https://github.com/<your-username>/GDOH.git GDOH-git
 cd GDOH-git
 ```
 
@@ -48,7 +48,7 @@ If you do not already have a `GDOH` folder, you can omit `GDOH-git` from the fir
 From inside the cloned folder:
 
 ```
-git remote add upstream https://github.com/gdofficehours/gdofficehours.github.io.git
+git remote add upstream https://github.com/gdofficehours/GDOH.git
 git remote -v
 ```
 

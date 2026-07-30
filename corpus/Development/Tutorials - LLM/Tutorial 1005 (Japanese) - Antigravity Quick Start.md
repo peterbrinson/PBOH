@@ -18,12 +18,12 @@ publish: true
 
 ## 1. GDOH をダウンロードする
 
-1. [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io) を開きます。
+1. [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH) を開きます。
 2. 緑色の **Code** ボタンを押し、**Download ZIP** を選びます。
 3. ZIP を解凍します。
    - **Windows:** 右クリック → **Extract All…**
    - **macOS:** ダブルクリック
-4. `gdofficehours.github.io-main` を `GDOH` に名前変更し、Documents など見つけやすい場所へ移動します。
+4. `GDOH-main` を `GDOH` に名前変更し、Documents など見つけやすい場所へ移動します。
 5. フォルダを開き、`agent/` と `corpus/` が直下にあることを確認します。
 
 ---

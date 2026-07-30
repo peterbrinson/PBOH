@@ -8,7 +8,7 @@ GDOH is a knowledge bundle — course material coupled with the instructions tha
 It provides a starting point for a student crafting a game from storytelling or worldbuilding framework.   GDOH gives concrete advice when working with the Unreal Game engine, but is useful when working with any engine.
 
 The website you're reading now is a browsable copy of that material; the repository is the proper version of GDOH, features and all.  
-## [**Open GDOH on GitHub**](https://github.com/gdofficehours/gdofficehours.github.io)
+## [**Open GDOH on GitHub**](https://github.com/gdofficehours/GDOH)
 
 ---
 

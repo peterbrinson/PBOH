@@ -14,12 +14,12 @@ publish: true
 
 ## 1. Download GDOH
 
-1. Go to [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
+1. Go to [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
 2. Click the green **Code** button, then **Download ZIP**.
 3. Unzip the download:
    - **Windows:** right-click it → **Extract All…**
    - **macOS:** double-click it
-4. Rename `gdofficehours.github.io-main` to `GDOH` and move it somewhere easy to find, such as Documents.
+4. Rename `GDOH-main` to `GDOH` and move it somewhere easy to find, such as Documents.
 5. Open the folder and check that `agent/` and `corpus/` are directly inside it.
 
 ---

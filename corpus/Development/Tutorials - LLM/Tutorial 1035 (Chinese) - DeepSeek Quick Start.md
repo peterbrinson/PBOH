@@ -103,9 +103,9 @@ open -e ~/.deepcode/settings.json
 
 ## 5. 下载 GDOH
 
-1. 打开 [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io)。
+1. 打开 [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH)。
 2. 点击绿色的 **Code** 按钮，然后选择 **Download ZIP**。
-3. 解压，把 `gdofficehours.github.io-main` 改名为 `GDOH`，并移动到 Documents 等容易找到的位置。
+3. 解压，把 `GDOH-main` 改名为 `GDOH`，并移动到 Documents 等容易找到的位置。
 4. 检查 `AGENTS.md`、`agent/` 和 `corpus/` 是否直接位于文件夹内。
 
 ---

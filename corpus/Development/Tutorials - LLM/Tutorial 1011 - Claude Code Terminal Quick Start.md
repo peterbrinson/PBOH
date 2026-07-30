@@ -42,9 +42,9 @@ On Windows, if Claude asks for Git, install it from [git-scm.com/downloads/win](
 
 ## 2. Download GDOH
 
-1. Go to [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
+1. Go to [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
 2. Click **Code** → **Download ZIP**.
-3. Unzip it, rename `gdofficehours.github.io-main` to `GDOH`, and move it to Documents.
+3. Unzip it, rename `GDOH-main` to `GDOH`, and move it to Documents.
 
 ---
 

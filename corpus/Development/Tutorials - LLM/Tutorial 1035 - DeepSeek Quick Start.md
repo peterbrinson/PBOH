@@ -99,9 +99,9 @@ Replace `sk-REPLACE_WITH_YOUR_KEY` with the key from Chapter 3. Keep the quotati
 
 ## 5. Download GDOH
 
-1. Go to [github.com/gdofficehours/gdofficehours.github.io](https://github.com/gdofficehours/gdofficehours.github.io).
+1. Go to [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
 2. Click **Code** → **Download ZIP**.
-3. Unzip it, rename `gdofficehours.github.io-main` to `GDOH`, and move it to Documents.
+3. Unzip it, rename `GDOH-main` to `GDOH`, and move it to Documents.
 4. Check that `AGENTS.md`, `agent/`, and `corpus/` are directly inside it.
 
 ---

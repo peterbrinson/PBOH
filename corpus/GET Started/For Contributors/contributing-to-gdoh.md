@@ -13,8 +13,8 @@ If you haven't forked and cloned yet, do [[Tutorial 1090 - Fork and Update GDOH]
 
 After Tutorial 1090 your clone has two remotes:
 
-- **`origin`** — your own fork (`github.com/<you>/gdofficehours.github.io`). You can push here freely.
-- **`upstream`** — the class original (`github.com/gdofficehours/gdofficehours.github.io`). You pull updates from here; you cannot push to it.
+- **`origin`** — your own fork (`github.com/<you>/GDOH`). You can push here freely.
+- **`upstream`** — the class original (`github.com/gdofficehours/GDOH`). You pull updates from here; you cannot push to it.
 
 Check them any time with `git remote -v`.
 
@@ -47,7 +47,7 @@ Found a game or film worth adding to the shared `corpus/Design/_References/` lib
 
 1. Add a new file `corpus/Design/_References/Game - Your Title.md` (or `Film - …`), matching the format of the existing reference pages.
 2. Commit and push it to your fork (`git push origin main`).
-3. On GitHub, open a **pull request** from your fork to `gdofficehours/gdofficehours.github.io`.
+3. On GitHub, open a **pull request** from your fork to `gdofficehours/GDOH`.
 4. The instructor reviews it; if accepted, it merges and reaches everyone on their next `git fetch upstream`.
 
 A brand-new file like this never causes a merge conflict — it's the cleanest kind of contribution.
