@@ -9,7 +9,7 @@ aliases:
 
 ![[spr_entrant_01.jpg]]
 
-The Entrant has arrived at a boundary. Unlike the Investigator, who seeks story, or the Traveler, who moves through space as an interpretive act, the Entrant confronts a blocked passage. Progress is possible — but only by satisfying conditions. 
+The Entrant has arrived at a boundary. Unlike the Investigator, who researches the past, or the Traveler, who moves through space as an interpretive act, the Entrant confronts a blocked passage. Progress is possible — but only by satisfying conditions. 
 
 These thresholds appear as gates, locked doors, guarded borders, or rituals. The player reads what is present in the space, tests what the system accepts or rejects, and gradually learns the rules governing passage. The room is a puzzle that compels the player to ask, **"How does this world work?"**
 
@@ -47,16 +47,19 @@ The Entrant operates through a repeatable three-step loop: **L.O.P.** — Legibi
 The puzzle-platformer *[[Game - Inside|Inside]]* (2016) consistently manifests L.O.P.
 
 ![[spr_entrant_05.webp]]
+
 **Legibility** ("See what matters.") — The player recognizes the barrier and identifies the interactive components in the room. 
 
 -----
 
 ![[spr_entrant_06.jpg]]
+
 **Opportunity** ("Imagine the solution.") — By experimenting with individual mechanics, the player imagines how the components can be configured or sequenced. Solutions exist first as speculations; opportunities arrive as epiphanies.
 
 ----------
 
 ![[spr_entrant_07.jpg]]
+
 **Performance** ("Test the idea.") — The player attempts to carry out their idea. This is the moment of execution.
 
 This loop — legibility, opportunity, performance — governs the Entrant's relationship to story. It also explains why this role marks a shift toward control. Agency is no longer expressed through movement or interpretation alone, but through demonstrated alignment with the system's demands.

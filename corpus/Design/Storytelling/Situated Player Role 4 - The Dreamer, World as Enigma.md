@@ -22,6 +22,7 @@ The Entrant’s [[Situated Player Role 3 - The Entrant, World as Threshold#The E
 The Entrant’s threshold demands mastery of how the world works. The Dreamer’s threshold demands recognition of what the world expresses. 
 
 ![[spr_dreamer_02.png]]
+
 *Lewis Carroll, Alice's Adventures in Wonderland. Illustrated by Gwynedd M. Hudson, 1922 edition.*
 
 ## Surrealism and Dreams
@@ -29,6 +30,7 @@ The Entrant’s threshold demands mastery of how the world works. The Dreamer’
 *Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer's role is not to decode a hidden answer but to interpret the work into personal meaning — the same demand The Dreamer places on the player.
 
 ![[Spr_dreamer_20.jpg]]
+
 _The Burning Giraffe_ (1937) by Salvador Dali
 
 ## Dream Logic
@@ -36,6 +38,7 @@ _The Burning Giraffe_ (1937) by Salvador Dali
 The Dreamer engages logic — but it is *dream logic*. We see this codified in the film *[[Film - Inception|Inception]]*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, physics bends around the architect's will. These are not the rules of waking life.
 
 ![[spr_dreamer_05.webp]]
+
 In a Dreamer game, the first state of [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant's Loop: L.O.P.|L.O.P.]] — legibility — becomes central to the experience. The rules and relationships of the world are not immediately intuitive, and the player must accept them on their own terms and learn to reason within them.
 
 ![[spr_dreamer_08.jpg]]
@@ -45,6 +48,7 @@ In a Dreamer game, the first state of [[Situated Player Role 3 - The Entrant, Wo
 Early in _Maquette_ (2021), between narrative scenes, the player stands inside a dome; at its center sits a miniature model of that same space. When a small block is lifted within the model, its massive counterpart moves in the surrounding world.
 
 ![[spr_dreamer_13.jpg]]
+
 The player’s search for passage unfolds across two alternating challenges: configuring the dollhouse-sized architecture, and then platforming through its full-scale counterpart. As the player shifts between these scales, their sense of power and position shifts as well. This structure is not just a puzzle — it becomes surreal language for expressing the emotional stakes of the narrative. Small gestures produce enormous consequences, and meaning emerges through that recursive relationship.
 
 ## Papo & Yo
