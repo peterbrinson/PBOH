@@ -560,7 +560,11 @@ img {
   content-visibility: auto;
 }
 
-p > img + em {
+// A caption is emitted as the only text following an image in its paragraph.
+// Requiring both positions prevents ordinary italicized prose after an embed
+// (for example, a game title at the start of the next sentence) from becoming
+// a block-level caption.
+p > img:first-child + em:last-child {
   display: block;
   transform: translateY(-1rem);
 }
