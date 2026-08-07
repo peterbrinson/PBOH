@@ -1,5 +1,8 @@
+---
+title: "Game Design Office Hours"
+---
 
-# GDOH
+# Game Design Office Hours
 
 GDOH — Game Design Office Hours — maps an early idea for a playable story or world, outlining what is known, what questions remain, and how the prototype might be built in a game engine.
 
