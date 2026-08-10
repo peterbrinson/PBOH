@@ -4,7 +4,7 @@ aliases:
   - "SPR 2 - The Traveler, World as Presence"
 ---
 
-**Summarized in:** [[GDOH/corpus/Design/Storytelling/index|Situated Player Roles]]
+**Summarized in:** [[Situated Player Roles]]
 **Previous:** [[Situated Player Role 1 - The Investigator, World as Evidence|Situated Player Role 1: The Investigator]] | **Next:** [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3: The Entrant]]
 
 ![[spr_traveler_01.png]]

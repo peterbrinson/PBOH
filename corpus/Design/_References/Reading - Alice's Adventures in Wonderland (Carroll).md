@@ -17,9 +17,9 @@ https://youtu.be/Q93VrYOXSe8?t=22
 ## Relevance to Storytelling and Worldbuilding
 Two axes meet in Alice, defining it as a primary text for both game storytelling and worldbuilding.
 
-Within the [[GDOH/corpus/Design/Worldbuilding/index|Bounded Worlds]] framework, Wonderland is a [[GDOH/corpus/Design/Worldbuilding/index|Bounded World]].  Passing through a boundary is primary:  the rabbit hole is a designed crossing, a single moment that carries [the player] from one order of reality into another, ushering in a new set of rules. The descent itself — long, disorienting— is the entry that tells the player that they can anticipate [[Teaching the Rules of the World|learning]] the [[GDOH/corpus/Design/Worldbuilding/Vocabulary/Taxonomy of Invention/index|inventions of the world]].
+Within the [[Bounded Worlds]] framework, Wonderland is a [[Bounded Worlds|Bounded World]].  Passing through a boundary is primary:  the rabbit hole is a designed crossing, a single moment that carries [the player] from one order of reality into another, ushering in a new set of rules. The descent itself — long, disorienting— is the entry that tells the player that they can anticipate [[Teaching the Rules of the World|learning]] the [[Taxonomy of Invention|inventions of the world]].
 
-In terms of storytelling, Alice is the foundation for the [[GDOH/corpus/Design/Storytelling/index|Situated Player Role]], **[[Situated Player Role 4 - The Dreamer, World as Enigma|The Dreamer]]**. Wonderland is dream logic made navigable. Alice enages is as puzzles — the key fits the door but she is too big; she has to accept the world's symbolic rules (drink to shrink, eat to grow) to proceed. That shift, from solving the world as expected to reading what it expresses, is exactly the Entrant→Dreamer move the Dreamer role is built on.
+In terms of storytelling, Alice is the foundation for the [[Situated Player Roles|Situated Player Role]], **[[Situated Player Role 4 - The Dreamer, World as Enigma|The Dreamer]]**. Wonderland is dream logic made navigable. Alice enages is as puzzles — the key fits the door but she is too big; she has to accept the world's symbolic rules (drink to shrink, eat to grow) to proceed. That shift, from solving the world as expected to reading what it expresses, is exactly the Entrant→Dreamer move the Dreamer role is built on.
 
 ## Related
 - [[Bounded Worlds]]

@@ -318,20 +318,6 @@ GDOH's single source of truth for **where each corpus page lives** and **which t
 - **Variables** `corpus/Development/Wiki - Unreal/Variables.md` — Named containers that store a value in a Blueprint. Every variable has a type (what kind of data it holds) and a value (the current data).…
 - **Widget Blueprint** `corpus/Development/Wiki - Unreal/Widget Blueprint.md` — A specialized Blueprint for building UI elements using Unreal Motion Graphics (UMG). Widget Blueprints define what the player sees on…
 
-### CTIN 389
-
-- **CTIN 389** *(unpublished)* `corpus/CTIN 389/index.md` — Game Development Principles — lecture pages for USC's CTIN 389, converted from the course slide decks. (A few pages have fuller image sets…
-- **Week 1.2 - Lost Woods** *(unpublished)* `corpus/CTIN 389/Week 1.2 - Lost Woods.md` — Today's agenda — Discussion (the Explore/Exploit reading), Unity Review, Ideation & Design (group brainwriting toward the Lost Woods…
-- **Week 2.1 - Keys and Doors** *(unpublished)* `corpus/CTIN 389/Week 2.1 - Keys and Doors.md` — The Keys, the Doors, and All Those Problems — doing things that let you do other things.
-- **Week 3.2 - Workspaces and Splines** *(unpublished)* `corpus/CTIN 389/Week 3.2 - Workspaces and Splines.md` — Perforce, more carefully this time — plus an introduction to splines and the math behind curved shapes.
-- **Week 4.1 - Animation and Assets** *(unpublished)* `corpus/CTIN 389/Week 4.1 - Animation and Assets.md` — Importing and controlling animations in Unity, and a field guide to finding game assets you can actually use.
-- **Week 5.1 - Quandaries** *(unpublished)* `corpus/CTIN 389/Week 5.1 - Quandaries.md` — Goals, rewards, and punishments — why we do the things we do, and how games turn a choice into a dilemma.
-- **Week 8.1 - Unreal Tutorial** *(unpublished)* `corpus/CTIN 389/Week 8.1 - Unreal Tutorial.md` — A tour of the Unreal Editor and Blueprints — orienting Unity-trained designers in a second engine.
-- **Week 8.2 - Subtext and Theme** *(unpublished)* `corpus/CTIN 389/Week 8.2 - Subtext and Theme.md` — How games carry meaning through metaphor — from Alice in Wonderland to surrealism to the controlling metaphor of Papo y Yo.
-- **Week 9.2 - Mechanics and Emotion** *(unpublished)* `corpus/CTIN 389/Week 9.2 - Mechanics and Emotion.md` — The arc of experience where mechanics generate meaning — the self-conscious emotions games are uniquely able to evoke.
-- **Week 10.1 - Technology and Development** *(unpublished)* `corpus/CTIN 389/Week 10.1 - Technology and Development.md` — A tour through one developer's ever-changing toolset — and why learning new tools is the real skill.
-- **Week 12.2 - Evoking Emotion** *(unpublished)* `corpus/CTIN 389/Week 12.2 - Evoking Emotion.md` — A recap of the semester's four arcs of experience, and an in-class workout analyzing games through them.
-
 ### Get Started
 
 - **about-gdoh** *(unpublished)* `corpus/Get Started/For Contributors/about-gdoh.md` — This folder is your AI guide for designing playable stories and worlds in Unreal Engine. You set it up with the 1000-series tutorials —…
@@ -342,7 +328,7 @@ GDOH's single source of truth for **where each corpus page lives** and **which t
 
 ### index.md
 
-- **index** `corpus/index.md` — GDOH — Game Design Office Hours — maps an early idea for a playable story or world, outlining what is known, what questions remain, and…
+- **Game Design Office Hours** `corpus/index.md` — GDOH — Game Design Office Hours — maps an early idea for a playable story or world, outlining what is known, what questions remain, and…
 
 ### Unity Wiki
 
