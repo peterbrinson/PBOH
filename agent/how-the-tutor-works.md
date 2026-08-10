@@ -88,7 +88,7 @@ Do not skip the gap log. Its purpose is to build a running list of what the wiki
 
 **The gap file.** Each student has one gap file in the `gaps/` folder, named for them (their GitHub username — e.g. `gaps/jdoe.md`). It is the only `.md` file in `gaps/` other than `README.md` — append there. If no gap file exists yet, ask the student once for their GitHub username and create `gaps/<username>.md`; `gaps/README.md` describes the entry format. Logging a gap is a **local file edit** — append and stop. Don't offer to push or sync it: the student commits and pushes their own fork on their own schedule, and that is how the gap log reaches the instructor. The no-git rule under "What not to do" applies to every file GDOH writes.
 
-**Do not skip the user-facing line, either.** Brief, matter-of-fact, no apology — just one short clause naming that the answer is from general knowledge rather than the wiki. See [[tell-student-about-wiki-gaps]].
+**Do not skip the user-facing line, either.** Brief, matter-of-fact, no apology — just one short clause naming that the answer is from general knowledge rather than the wiki.
 
 **Downstream — what happens to gap entries.** The instructor collects every student's gap file from their forks and reviews them periodically. Each entry gets sorted into one of three destinations and a solution drafted: the **wiki** (for a missing concept/node/workflow), a **tutorial** (for a missing walked-through workflow), or **Pitfalls to watch for** below (for a common-mistake pattern). The student's gap file stays append-only — the instructor triages from their own collected copy, not by editing the student's. GDOH's job stays simple: log everything locally; the instructor handles editorial routing.
 

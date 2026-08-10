@@ -181,7 +181,7 @@ GDOH's single source of truth for **where each corpus page lives** and **which t
 - **dreamer working** *(unpublished)* `corpus/Design/Storytelling/dreamer working.md` — give proper credit to the image i just inserted
 - **Situated Player Roles** `corpus/Design/Storytelling/index.md` — This framework responds to a challenge every game design course inevitably faces: our initial ideas are too large to build, especially…
 - **Situated Player Role 1 - The Investigator, World as Evidence** `corpus/Design/Storytelling/Situated Player Role 1 - The Investigator, World as Evidence.md` — Summarized in: Situated Player Roles
-- **Situated Player Role 2 - The Traveler, World as Presence** `corpus/Design/Storytelling/Situated Player Role 2 - The Traveler, World as Presence.md` — Summarized in: GDOH/corpus/Design/Storytelling/index|Situated Player Roles
+- **Situated Player Role 2 - The Traveler, World as Presence** `corpus/Design/Storytelling/Situated Player Role 2 - The Traveler, World as Presence.md` — Summarized in: Situated Player Roles
 - **Situated Player Role 3 - The Entrant, World as Threshold** `corpus/Design/Storytelling/Situated Player Role 3 - The Entrant, World as Threshold.md` — Summarized in: Situated Player Roles
 - **Situated Player Role 4 - The Dreamer, World as Enigma** `corpus/Design/Storytelling/Situated Player Role 4 - The Dreamer, World as Enigma.md` — Summarized in: Situated Player Roles
 - **Awkward Exposition** `corpus/Design/Worldbuilding/Exposition and Anticipation/Awkward Exposition.md` — Exposition becomes awkward when the world stops moving so it can explain itself — the cutscene, the text scroll, the block of Lore as a…
