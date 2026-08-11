@@ -47,3 +47,35 @@ pre {
     }
   }
 }
+
+// TEST — synthetic "Index" entry injected under select folders
+// (explorer.inline.ts, indexLinkFolders list — Storytelling only for now).
+// Same pattern as teach's "Syllabus" row: match the folder-title rows
+// exactly (font/size/weight/indent) rather than reading as a lesser leaf
+// link, center it between the folder name above and its first child below,
+// and color it low-saturation pink when it's the active page.
+.folder-index-link {
+  opacity: 1 !important;
+  font-family: var(--headerFont);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--secondary) !important;
+  margin-top: 0.2rem !important;
+  margin-bottom: 0.8rem !important;
+  // Default: align with leaf file children (e.g. Storytelling's SPR pages) —
+  // same hanging-indent pair as the base leaf-link rule, flush at the same x.
+  padding-left: 0.85rem !important;
+  text-indent: -0.85rem !important;
+
+  // Modifier: this folder's first child is itself a folder (e.g.
+  // Worldbuilding's "Exposition and Anticipation"), which indents its own
+  // text 17px further right past its chevron — match that instead.
+  &.folder-index-link--folder-children {
+    padding-left: 17px !important;
+    text-indent: 0 !important;
+  }
+
+  &.active {
+    color: #d9a8b3 !important;
+  }
+}

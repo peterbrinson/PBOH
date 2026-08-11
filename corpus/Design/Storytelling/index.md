@@ -25,7 +25,7 @@ Each role balances two dynamics: discovery and control. The first two roles emph
 4. **[[Situated Player Role 4 - The Dreamer, World as Enigma|The Dreamer]]** ("What does this world express?") — The Dreamer begins in the same situation as the The Entrant.  But here, the structures are dreamlike—actions function as both mechanics and metaphor.
 
 ### Used Together
-A given game may focus on one role or transition players among all four.  In every case, the Situated Player Roles treat narrative as something experienced through player verbs: observing, exploring, manipulating, and interpreting the world.
+A given game may focus on one role or transition players among all four. In every case, the Situated Player Roles treat narrative as something experienced through player verbs that, when used together, form a natural sequence: **the Investigator studies the situation, the Traveler explores it, the Entrant solves it, and the Dreamer reads it for meaning.**
 
 ### The Ambition
 
