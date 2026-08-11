@@ -144,6 +144,40 @@ function createFolderNode(
     folderOuter.classList.add("open")
   }
 
+  // Folders in this list have their own real landing page (index.md) but
+  // clicking the folder name itself isn't obviously "go there" vs. "expand
+  // this" — an explicit first-row link makes the destination clear. Mirrors
+  // teach's "Syllabus" row (site/quartz.layout.ts there), named "Index" here
+  // instead. Tested on Storytelling alone first, then extended.
+  const indexLinkFolders = [
+    "Storytelling",
+    "Worldbuilding",
+    "Tutorials - LLM",
+    "Tutorials - Unreal",
+    "Wiki - Unreal",
+  ]
+  if (indexLinkFolders.includes(node.displayName)) {
+    const fileTemplate = document.getElementById("template-file") as HTMLTemplateElement
+    const indexClone = fileTemplate.content.cloneNode(true) as DocumentFragment
+    const indexLi = indexClone.querySelector("li") as HTMLLIElement
+    const indexA = indexLi.querySelector("a") as HTMLAnchorElement
+    indexA.href = resolveRelative(currentSlug, folderPath)
+    indexA.dataset.for = folderPath
+    indexA.textContent = "Index"
+    indexA.classList.add("folder-index-link")
+    // Align with whatever the first real child actually is: folder rows
+    // start their text 17px further right than leaf files do (chevron +
+    // margin). A single fixed indent looks flush-aligned for one case and
+    // off by 17px for the other, depending on which kind of folder this is.
+    if (node.children[0]?.isFolder) {
+      indexA.classList.add("folder-index-link--folder-children")
+    }
+    if (currentSlug === folderPath) {
+      indexA.classList.add("active")
+    }
+    ul.appendChild(indexLi)
+  }
+
   for (const child of node.children) {
     const childNode = child.isFolder
       ? createFolderNode(currentSlug, child, opts)
