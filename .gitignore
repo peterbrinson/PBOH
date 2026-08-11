@@ -25,3 +25,4 @@ student-notes-private/**
 # corpus/Unity Wiki/raw/ was permanently moved out of the vault on 2026-06-05
 # (Obsidian startup-speed fix, see GDOH-dev/session-log.md 2026-06-05) --
 # nothing should ever exist at this path again, so no ignore rule is needed.
+site/quartz-local.*.log
