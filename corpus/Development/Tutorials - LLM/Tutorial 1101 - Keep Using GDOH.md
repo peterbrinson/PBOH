@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** You know the three main ways to work with GDOH, where it saves your files, and how to resume later.
+**Outcome.** You will know the three main ways to work with GDOH, where it saves your files, and how to resume later.
 
 This page follows any quickstart. It is not another setup requirement.
 

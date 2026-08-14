@@ -34,7 +34,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → BioShock, The Stanley Parable, Yertle the Turtle, The Truman Show, Don't Worry Darling, The Others, Fight Club, The Sixth Sense, Get Out, Spec Ops The Line
 
 **A mechanic that overturns or reveals itself chapter by chapter**
-→ The Unfinished Swan, The Pedestrian, Inscryption, Baba Is You, Mats and the Metamagicians
+→ The Unfinished Swan, The Pedestrian, Inscryption, Pony Island, Antichamber, Baba Is You, Mats and the Metamagicians
 
 **Move through and witness a world for its own sake (little or no win-state)**
 → ABZU, Airplane Mode, An Airport for Aliens Currently Run by Dogs, Mountain, Crimson Desert (when exploring), Red Dead Redemption 2 (when exploring), The Graveyard, Proteus, Kentucky Route Zero, Poor Things, Birdman, Journey, Catacombs of Solaris
@@ -49,10 +49,10 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → Spirited Away, The Matrix, Twin Peaks, Coraline, World of Tomorrow, Annihilation
 
 **Dream logic / the inside of a mind / layered unreal space**
-→ Inception, Paprika, Psychonauts, Pan's Labyrinth, KID A MNESIA Exhibition, 2001 A Space Odyssey, Everything, Eternal Sunshine of the Spotless Mind, Inside Out, Beau Is Afraid, Bardo, The Father, Naked Lunch, The Cabinet of Dr Caligari, Alan Wake 2, Gris, Back to Bed, Superliminal, Alan Wake, Calvin and Hobbes, World of Tomorrow
+→ Inception, Paprika, Psychonauts, Pan's Labyrinth, KID A MNESIA Exhibition, 2001 A Space Odyssey, Everything, Eternal Sunshine of the Spotless Mind, Inside Out, Beau Is Afraid, Bardo, The Father, Naked Lunch, The Cabinet of Dr Caligari, Alan Wake 2, Gris, Back to Bed, Superliminal, Antichamber, Alan Wake, Calvin and Hobbes, World of Tomorrow
 
 **A world built outward from a single fact or rule**
-→ Dune (water), Baba Is You (rules-as-blocks), Portal (one mechanic), Monument Valley (impossible geometry), Viewfinder (photos become real), Cocoon (worlds carried as orbs), Children of the Sun (one bullet), Humanity (command the crowd), Time Flies (a fly's lifespan), Brothers (one player, two thumbsticks), Superliminal (forced perspective), Manifold Garden (geometry wraps onto itself)
+→ Dune (water), Baba Is You (rules-as-blocks), Portal and Portal 2 (linked spaces), Monument Valley (impossible geometry), Viewfinder (photos become real), Cocoon (worlds carried as orbs), Children of the Sun (one bullet), Humanity (command the crowd), Time Flies (a fly's lifespan), Brothers (one player, two thumbsticks), Superliminal (forced perspective), Manifold Garden (geometry wraps onto itself)
 
 **Comic embodiment — an unruly body as the whole game** *(new 2026-06-10)*
 → I Am Bread, Octodad
@@ -79,7 +79,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → 12 Minutes, Outer Wilds, P.T., Hades, The Exit 8
 
 **Meta / authorial control / the game knows it's a game**
-→ The Stanley Parable, Inscryption, Dr Langeskov, The Pedestrian, The Truman Show, Alan Wake 2, Birdman, The Beginner's Guide, Spec Ops The Line
+→ The Stanley Parable, Inscryption, Pony Island, Dr Langeskov, The Pedestrian, The Truman Show, Alan Wake 2, Birdman, The Beginner's Guide, Spec Ops The Line
 
 **A vast living world / cultural invention (many peoples, histories, factions)**
 → World of Warcraft, Cyberpunk 2077, Horizon Zero Dawn, Lord of the Rings, Dune, Red Dead Redemption 2, Breath of the Wild
@@ -100,6 +100,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 | [[Game - Alan Wake]]                                       | Traveler, Dreamer                | A writer hunted through a dark Pacific Northwest forest — light is both the navigation tool and the weapon                                                   |
 | [[Game - Alan Wake 2]]                                     | All four, esp. Dreamer           | A horror story rewritten from inside — investigation in one reality, a writer trapped in the other, scenes that swap reality around you                      |
 | [[Game - An Airport for Aliens Currently Run by Dogs]]     | Traveler                         | A warm absurdist walking sim — charm and writing carry it, not challenge                                                                                     |
+| [[Game - Antichamber]]                                     | Entrant, Dreamer                 | Impossible architecture repeatedly breaks spatial expectations, then turns each surprise into a rule the player can use                                      |
 | [[Game - Baba Is You]]                                     | Entrant                          | The world's rules are on-screen blocks you push to rewrite — rules-as-mechanic                                                                               |
 | [[Game - Back to Bed]]                                     | Entrant, Dreamer                 | Guide a sleepwalker through a Escher dreamscape by redirecting his path — dream logic as an isometric puzzle                                                 |
 | [[Game - BioShock]]                                        | Investigator, Dreamer            | Cheerful ideological signage you're meant to swallow + a famous reveal that re-colors everything seen; reconstruct a collapsed world through its environment |
@@ -143,7 +144,9 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 | [[Game - Papers Please]]                                   | Investigator, Entrant            | Inspect documents against a shifting rulebook under moral pressure — bureaucratic procedure as the whole game                                                |
 | [[Game - Papo and Yo]]                                     | Dreamer                          | Autobiographical allegory — the monster is the developer's alcoholic father; sensitive symbolic territory                                                    |
 | [[Game - Plug & Play]]                                     | Dreamer                          | Surreal plug-people in stark black-and-white — a 15-minute interactive animation about connection                                                            |
+| [[Game - Pony Island]]                                     | Entrant, Dreamer                 | A cheerful arcade-game contract breaks open until the interface itself becomes the world the player investigates                                              |
 | [[Game - Portal]]                                          | Entrant                          | One mechanic (the portal gun) taught and mastered in a consistent testing facility                                                                           |
+| [[Game - Portal 2]]                                        | Entrant, Dreamer                 | A mundane tutorial room becomes a moving shell that reveals the ruined facility around it — setup transformed into world-revealing payoff                    |
 | [[Game - Proteus]]                                         | Traveler                         | A generative island whose flora and fauna *are* the soundtrack — pure presence, no goals                                                                     |
 | [[Game - Psychonauts]]                                     | Dreamer                          | Enter NPC minds as distinct, self-contained physical worlds                                                                                                  |
 | [[Game - Rain World]]                                      | Traveler, Entrant                | A collapsed ecosystem indifferent to you; you're small prey in a food chain that runs on its own                                                             |
