@@ -11,16 +11,15 @@ Pick the path that matches what you already have. Each quickstart begins with no
 
 ## Start here — pick one
 
-- [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]] — free with a personal Google account; graphical app; no terminal or GitHub account ([[Tutorials - LLM/Tutorial 1005 (Japanese) - Antigravity Quick Start|日本語版]])
-- [[Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start|Claude Code Desktop Quick Start]] — graphical app; requires access to Claude Code; no terminal or GitHub account
-- [[Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start|Codex Desktop Quick Start]] — graphical app; uses the ChatGPT desktop app; no terminal or GitHub account
-- [[Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start|DeepSeek Quick Start]] — DeepSeek through Deep Code; terminal and a small API balance required; no GitHub account ([[Tutorials - LLM/Tutorial 1035 (Chinese) - DeepSeek Quick Start|中文版]])
+- [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]]
+- [[Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start|Claude Code Desktop Quick Start]] 
+- [[Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start|Codex Desktop Quick Start]] 
+- [[Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start|DeepSeek Quick Start]] 
 
-If you are unsure, begin with the Antigravity quickstart.
 
 ## Other ways to run GDOH
 
-These are complete alternatives, not extra prerequisites:
+These are complete alternatives:
 
 - [[Tutorials - LLM/Tutorial 1001 - Gemini Terminal Quick Start|Gemini Terminal Quick Start]]
 - [[Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start|Claude Code Terminal Quick Start]]
