@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "gdofficehours.github.io/GDOH",
+    baseUrl: "peterbrinson.github.io/PBOH",
     ignorePatterns: ["private", "templates", ".obsidian", "**/raw/**", "**/CLAUDE.md", "**/GEMINI.md", "**/DEEPSEEK.md", "**/AGENTS.md", "CTIN 389/**"],
     defaultDateType: "modified",
     theme: {

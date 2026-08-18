@@ -168,7 +168,7 @@ for (const [noExt, rel] of byRel) {
     totalLinks++;
 
     // Vault-absolute: valid in Obsidian (vault root), 404 on the site.
-    if (/^(GDOH|corpus)\//.test(target)) {
+    if (/^(PBOH|GDOH|corpus)\//.test(target)) {
       if (srcPublished) brokenLive.push({ rel, target });
       continue;
     }
