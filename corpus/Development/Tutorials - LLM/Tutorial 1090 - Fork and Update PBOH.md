@@ -3,7 +3,7 @@ type: Tutorial
 cssclasses: unreal-tutorial
 publish: true
 aliases:
-  - "Tutorial 1090 - Fork and Update GDOH"
+  - "./Tutorial 1090 - Fork and Update GDOH"
 ---
 
 ## 0. Introduction
