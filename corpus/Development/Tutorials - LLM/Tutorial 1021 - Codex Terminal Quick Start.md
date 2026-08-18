@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, Codex CLI is installed, pointed at GDOH, and used for your first saved Prototype Plan.
+**Outcome.** By the end of this tutorial, Codex CLI is installed, pointed at PBOH, and used for your first saved Prototype Plan.
 
 Use this path only if you prefer a terminal. For the graphical route, use [[Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start|Codex Desktop Quick Start]].
 
@@ -35,17 +35,17 @@ codex --version
 
 ---
 
-## 2. Download GDOH
+## 2. Download PBOH
 
-1. Go to [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
+1. Go to [github.com/peterbrinson/PBOH](https://github.com/peterbrinson/PBOH).
 2. Click **Code** → **Download ZIP**.
-3. Unzip it, rename `GDOH-main` to `GDOH`, and move it to Documents.
+3. Unzip it, rename `PBOH-main` to `PBOH`, and move it to Documents.
 
 ---
 
-## 3. Launch Codex in GDOH Folder
+## 3. Launch Codex in PBOH Folder
 
-Type `cd `, drag the `GDOH` folder into the terminal, and press Enter. Then run:
+Type `cd `, drag the `PBOH` folder into the terminal, and press Enter. Then run:
 
 ```
 codex
@@ -60,14 +60,14 @@ Choose **Sign in with ChatGPT** and complete the browser sign-in.
 Type:
 
 ```
-Start a GDOH session.
+Start a PBOH session.
 ```
 
-Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Plan. Approve its offer to save the plan to `student-notes-private/projects/`.
+Describe a project idea in 4 to 8 sentences and continue until PBOH produces a Prototype Plan. Approve its offer to save the plan to `student-notes-private/projects/`.
 
 If this is a class submission, add `Tool: Codex CLI` near the top and save the transcript if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 

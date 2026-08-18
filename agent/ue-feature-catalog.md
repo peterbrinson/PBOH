@@ -4,7 +4,7 @@ publish: false
 
 # UE Feature Catalog (common feature → covered / partial / off-map)
 
-> **v1 — instructor-passed 2026-06-08.** Built from Peter's "what students hit in the early months of Unreal" list. The **third lookup leg** (see `GDOH-dev/agent/recall-lookup-audit.md`): the Tutorial Index fixes *routing*, the References Index fixes *retrieval*, and this catalog fixes **noticing** — so a common feature a student clearly wants (water!) isn't silently dropped at the decompose step. Sibling to `ue-capability-map.md`, not merged into it: that map is *Blueprint gameplay mechanics*; this is *world / rendering / setup* features you mostly configure in the editor. Coverage calls confirmed in-engine 2026-06-08; wired into skill Step 4.
+> **v1 — instructor-passed 2026-06-08.** Built from Peter's "what students hit in the early months of Unreal" list. The **third lookup leg** (see `PBOH-dev/agent/recall-lookup-audit.md`): the Tutorial Index fixes *routing*, the References Index fixes *retrieval*, and this catalog fixes **noticing** — so a common feature a student clearly wants (water!) isn't silently dropped at the decompose step. Sibling to `ue-capability-map.md`, not merged into it: that map is *Blueprint gameplay mechanics*; this is *world / rendering / setup* features you mostly configure in the editor. Coverage calls confirmed in-engine 2026-06-08; wired into skill Step 4.
 
 ## How to use this catalog (lookup discipline)
 
@@ -44,9 +44,9 @@ At **Step 4 of `map-project-skill.md` (decompose into features)**, after you've 
 
 | Feature | Coverage | Where / note |
 |---|---|---|
-| Lights — directional / point / spot | **Off-map · low-hanging** | GDOH does not provide a tutorial for this; a *standard build step* — place and tune (same status as "place the player character") |
+| Lights — directional / point / spot | **Off-map · low-hanging** | PBOH does not provide a tutorial for this; a *standard build step* — place and tune (same status as "place the player character") |
 | Light mobility (static / stationary / movable) | **Off-map · low-hanging** | editor setting on each light |
-| Depth of field (camera focus blur) | **Off-map · low-hanging** | GDOH does not provide a tutorial for this; a focus/blur effect you add through Post Process settings |
+| Depth of field (camera focus blur) | **Off-map · low-hanging** | PBOH does not provide a tutorial for this; a focus/blur effect you add through Post Process settings |
 
 ## Landscape & Foliage
 

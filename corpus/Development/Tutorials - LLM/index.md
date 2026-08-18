@@ -5,9 +5,9 @@ aliases:
 publish: true
 ---
 
-# Start GDOH
+# Start PBOH
 
-Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first GDOH conversation and a saved Prototype Plan.
+Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first PBOH conversation and a saved Prototype Plan.
 
 ## Start here — pick one
 
@@ -17,7 +17,7 @@ Pick the path that matches what you already have. Each quickstart begins with no
 - [[Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start|DeepSeek Quick Start]] 
 
 
-## Other ways to run GDOH
+## Other ways to run PBOH
 
 These are complete alternatives:
 
@@ -27,5 +27,5 @@ These are complete alternatives:
 
 ## After your first session
 
-- [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]] — the three kinds of conversation, saved files, and where to continue
-- [[Tutorials - LLM/Tutorial 1090 - Fork and Update GDOH|Fork and Update GDOH]] — optional GitHub setup for receiving updates and contributing; do this after GDOH is already working
+- [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]] — the three kinds of conversation, saved files, and where to continue
+- [[Tutorials - LLM/Tutorial 1090 - Fork and Update PBOH|Fork and Update PBOH]] — optional GitHub setup for receiving updates and contributing; do this after PBOH is already working

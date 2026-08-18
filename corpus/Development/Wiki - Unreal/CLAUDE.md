@@ -30,4 +30,4 @@ The wiki is the first place to look for any UE concept. If it's covered, answer 
 
 ## Where this fits
 
-Layer 2 of GDOH's three layers (tutorials, wiki, SPRs). See `GDOH-dev/team/gdoh-overview.md`.
+Layer 2 of PBOH's three layers (tutorials, wiki, SPRs). See `PBOH-dev/team/pboh-overview.md`.

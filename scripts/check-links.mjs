@@ -9,7 +9,7 @@
 // WHY THIS EXISTS. Obsidian and Quartz resolve links differently, so a link can
 // be perfectly valid in one and a 404 in the other — with nothing to warn you:
 //
-//   * Obsidian's root is the VAULT, so a path-style link needs a `GDOH/corpus/`
+//   * Obsidian's root is the VAULT, so a path-style link needs a `PBOH/corpus/`
 //     prefix. Quartz's root IS `corpus/`, so that same prefix 404s on the site.
 //     Quartz does not flag these — it accepts the bad slug and emits a normal
 //     -looking anchor. Invisible in the editor, in the build log, and on the page.
@@ -231,7 +231,7 @@ function section(title, rows, render) {
 }
 
 section("BREAKS THE LIVE SITE — vault-absolute link", brokenLive,
-  (r) => `${r.rel}\n        [[${r.target}]]  → drop the GDOH/corpus/ prefix; use the target's alias`);
+  (r) => `${r.rel}\n        [[${r.target}]]  → drop the PBOH/corpus/ prefix; use the target's alias`);
 
 section("BREAKS THE LIVE SITE — links into an unpublished page", intoHidden,
   (r) => `${r.rel}\n        [[${r.target}]] → ${r.hit} (publish:false)`);

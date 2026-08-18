@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, Gemini CLI is installed, pointed at GDOH, and used for your first GET conversation and Prototype Plan.
+**Outcome.** By the end of this tutorial, Gemini CLI is installed, pointed at PBOH, and used for your first GET conversation and Prototype Plan.
 
 Use this path only if you prefer a terminal. For the simplest graphical route, use [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]].
 
@@ -35,17 +35,17 @@ gemini --version
 
 ---
 
-## 2. Download GDOH
+## 2. Download PBOH
 
-1. Go to [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
+1. Go to [github.com/peterbrinson/PBOH](https://github.com/peterbrinson/PBOH).
 2. Click **Code** → **Download ZIP**.
-3. Unzip it, rename `GDOH-main` to `GDOH`, and move it to Documents.
+3. Unzip it, rename `PBOH-main` to `PBOH`, and move it to Documents.
 
 ---
 
-## 3. Launch Gemini in GDOH Folder
+## 3. Launch Gemini in PBOH Folder
 
-In the terminal, change into the folder. One easy method is to type `cd `, drag the `GDOH` folder into the terminal, and press Enter.
+In the terminal, change into the folder. One easy method is to type `cd `, drag the `PBOH` folder into the terminal, and press Enter.
 
 Then run:
 
@@ -62,14 +62,14 @@ Sign in with your personal Google account and trust the folder when asked.
 Type:
 
 ```
-Start a GDOH session.
+Start a PBOH session.
 ```
 
-Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Plan. Accept its offer to save the file to `student-notes-private/projects/`.
+Describe a project idea in 4 to 8 sentences and continue until PBOH produces a Prototype Plan. Accept its offer to save the file to `student-notes-private/projects/`.
 
 If this is a class submission, add `Tool: Gemini CLI` near the top and save the transcript if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 

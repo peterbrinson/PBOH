@@ -6,7 +6,7 @@ publish: false
 
 Skeleton structures used by `agent/map-project-skill.md` Step 7. The skill's prose explains *when* to use which format and *what to put in each slot*; this file holds the *structural skeleton* of each response shape.
 
-**Split rationale (2026-05-26):** moved out of `map-project-skill.md` to reduce the token cost of maintainer sessions (`iterate-gdoh`) that don't load the templates. Student-runtime sessions load both files when reaching Step 7. If you're editing a template, also check whether its surrounding prose in `map-project-skill.md` still squares with the change.
+**Split rationale (2026-05-26):** moved out of `map-project-skill.md` to reduce the token cost of maintainer sessions (`iterate-pboh`) that don't load the templates. Student-runtime sessions load both files when reaching Step 7. If you're editing a template, also check whether its surrounding prose in `map-project-skill.md` still squares with the change.
 
 ---
 

@@ -8,7 +8,7 @@ PBOH is a knowledge bundle — course material coupled with the instructions tha
 It provides a starting point for a student crafting a game from a storytelling or worldbuilding framework.   Additionally, PBOH gives concrete advice when working with the Unreal Game engine, but is useful when working with any engine.
 
 The website you're reading now is a browsable copy of that material; the repository is the proper version of PBOH, features and all.  
-## [**Open PBOH on GitHub**](https://github.com/gdofficehours/GDOH)
+## [**Open PBOH on GitHub**](https://github.com/peterbrinson/PBOH)
 
 ---
 

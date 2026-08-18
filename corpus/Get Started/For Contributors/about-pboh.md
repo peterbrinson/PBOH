@@ -12,11 +12,11 @@ This folder is your AI guide for designing playable stories and worlds in Unreal
 | Folder / file | What it is |
 |---|---|
 | `corpus/Get Started/` | How PBOH works and how to install the AI tools — the published site's front door. |
-| &nbsp;&nbsp;&nbsp;&nbsp;`Get Started/For Contributors/` | You're reading from here. Repo-only notes (kept off the website): this orientation and `contributing-to-gdoh.md` (how to send your work back to the instructor). |
+| &nbsp;&nbsp;&nbsp;&nbsp;`Get Started/For Contributors/` | You're reading from here. Repo-only notes (kept off the website): this orientation and `contributing-to-pboh.md` (how to send your work back to the instructor). |
 | `corpus/Design/` | One corpus pillar: `Storytelling/` (the four player roles — **Investigator, Traveler, Entrant, Dreamer**), `Worldbuilding/` (the Bounded Worlds framework), and `_References/` (game and film examples the AI may cite). |
 | `corpus/Development/` | The other pillar: `Tutorials - LLM/` (the 1000-series setup tutorials), `Tutorials - Unreal/` (numbered Unreal tutorials — 101, 102, 103, 104, 201, 202, 301, 302, 401, 501, 701, 702, 801, 821, 901), `Wiki - Unreal/` (quick-reference Blueprint pages). |
 | `agent/` | The AI's operating files — `how-the-tutor-works.md`, the `map-project-skill.md` skill, the `ue-capability-map.md` lookup. The AI reads these; you usually don't need to. |
-| `gaps/` | Your per-student gap log. When the AI hits an Unreal topic the wiki doesn't cover, it logs the gap in your file here. You push that to your fork; the instructor harvests it. See `contributing-to-gdoh.md` for the workflow. |
+| `gaps/` | Your per-student gap log. When the AI hits an Unreal topic the wiki doesn't cover, it logs the gap in your file here. You push that to your fork; the instructor harvests it. See `contributing-to-pboh.md` for the workflow. |
 | `student-notes-private/` | **Your personal working folder.** PBOH saves your Prototype Plans, notes, references you collect, and a "where we left off" summary here. Local-only — never pushed anywhere. See the README inside. |
 
 You can ignore most of this until you need it. The AI will route you to specific files when relevant.

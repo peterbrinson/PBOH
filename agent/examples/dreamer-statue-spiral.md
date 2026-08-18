@@ -6,7 +6,7 @@ coverage: motion all taught (501 physics, no Timeline); off-map = the pile-contr
 
 # The Statue Spiral — Dreamer (example session)
 
-*An example of how GDOH maps a student's project. The student brought a Dreamer idea and developed it across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy. (Entrant and Dreamer share mechanics — this example serves both roles.)*
+*An example of how PBOH maps a student's project. The student brought a Dreamer idea and developed it across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy. (Entrant and Dreamer share mechanics — this example serves both roles.)*
 
 **Dear student: this is not here to demonstrate a quality idea, or to influence the kind of idea you devise. It is here so that the LLM has a structural reference — a key component of how context engineering works.**
 

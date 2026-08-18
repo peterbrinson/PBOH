@@ -2,7 +2,7 @@
 title: "Building your Quartz"
 ---
 
-Once you've [[GDOH/site/docs/index#🪴 Get Started|initialized]] Quartz, let's see what it looks like locally:
+Once you've [[PBOH/site/docs/index#🪴 Get Started|initialized]] Quartz, let's see what it looks like locally:
 
 ```bash
 npx quartz build --serve
