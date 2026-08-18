@@ -6,7 +6,7 @@ coverage: all features taught (301 landscape/sky, 702 Niagara snow, 101 trigger,
 
 # The Snow Globe — Worldbuilding 
 
-*An example of how GDOH maps a Bounded Worlds project on the route for a student who hasn't studied the Situated Player Roles. The student developed the idea across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy. Note the manner specific to this route: the summary leads with the world, not a player role; no role is named anywhere; the capability map is used as a plain feature-to-tutorial lookup, its role columns set aside; and the Bounded Worlds framework (the structures, Meeting the World, Responsiveness) is invoked by name as vocabulary the student already knows — never taught fresh.*
+*An example of how PBOH maps a Bounded Worlds project on the route for a student who hasn't studied the Situated Player Roles. The student developed the idea across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy. Note the manner specific to this route: the summary leads with the world, not a player role; no role is named anywhere; the capability map is used as a plain feature-to-tutorial lookup, its role columns set aside; and the Bounded Worlds framework (the structures, Meeting the World, Responsiveness) is invoked by name as vocabulary the student already knows — never taught fresh.*
 
 **Dear student: this is not here to demonstrate a quality idea, or to influence the kind of idea you devise. It is here so that the LLM has a structural reference — a key component of how context engineering works.**
 

@@ -4,17 +4,17 @@ publish: false
 
 # Gap Logs
 
-When GDOH answers a game engine question the course wiki doesn't cover — or when a student flags something for the instructor — it records an entry here. This is the **one outbound channel** from student to instructor.
+When PBOH answers a game engine question the course wiki doesn't cover — or when a student flags something for the instructor — it records an entry here. This is the **one outbound channel** from student to instructor.
 
 ## One file per student
 
 Each student's bundle has a single gap file in this folder, named after the student's GitHub username — e.g. `jdoe.md`. A student only ever writes their own file, so no two students' logs ever collide. `README.md` (this file) is the only shared file in `gaps/`.
 
-If you've just forked GDOH and have no gap file yet, GDOH creates `gaps/<your-github-username>.md` the first time it logs something.
+If you've just forked PBOH and have no gap file yet, PBOH creates `gaps/<your-github-username>.md` the first time it logs something.
 
 ## How it reaches the instructor
 
-GDOH writes the gap file locally and never runs git. **You** commit and push it to your fork — see `corpus/Get Started/For Contributors/contributing-to-gdoh.md`. The instructor collects every student's gap file from their forks and reviews them, deciding which gaps become new wiki pages, tutorials, or pitfall notes.
+PBOH writes the gap file locally and never runs git. **You** commit and push it to your fork — see `corpus/Get Started/For Contributors/contributing-to-pboh.md`. The instructor collects every student's gap file from their forks and reviews them, deciding which gaps become new wiki pages, tutorials, or pitfall notes.
 
 ## Entry format
 

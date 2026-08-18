@@ -6,7 +6,7 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at GDOH, and used for your first saved Prototype Plan.
+**Outcome.** By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at PBOH, and used for your first saved Prototype Plan.
 
 This is the shortest supported DeepSeek route. It does not require GitHub or git, but it does require a terminal, a DeepSeek API key, and a small pay-as-you-go balance.
 
@@ -97,18 +97,18 @@ Replace `sk-REPLACE_WITH_YOUR_KEY` with the key from Chapter 3. Keep the quotati
 
 ---
 
-## 5. Download GDOH
+## 5. Download PBOH
 
-1. Go to [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
+1. Go to [github.com/peterbrinson/PBOH](https://github.com/peterbrinson/PBOH).
 2. Click **Code** → **Download ZIP**.
-3. Unzip it, rename `GDOH-main` to `GDOH`, and move it to Documents.
+3. Unzip it, rename `PBOH-main` to `PBOH`, and move it to Documents.
 4. Check that `AGENTS.md`, `agent/`, and `corpus/` are directly inside it.
 
 ---
 
-## 6. Launch Deep Code in GDOH Folder
+## 6. Launch Deep Code in PBOH Folder
 
-Type `cd `, drag the `GDOH` folder into the terminal, and press Enter. Then run:
+Type `cd `, drag the `PBOH` folder into the terminal, and press Enter. Then run:
 
 ```
 deepcode
@@ -121,14 +121,14 @@ deepcode
 Deep Code may not automatically load the guide instructions, so begin with:
 
 ```
-Read AGENTS.md in this folder and follow it to act as GDOH. Then start a GDOH session.
+Read AGENTS.md in this folder and follow it to act as PBOH. Then start a PBOH session.
 ```
 
-Describe a project idea in 4 to 8 sentences and continue until GDOH produces a Prototype Plan. Let it save the plan to `student-notes-private/projects/`.
+Describe a project idea in 4 to 8 sentences and continue until PBOH produces a Prototype Plan. Let it save the plan to `student-notes-private/projects/`.
 
 If this is a class submission, add `Tool: DeepSeek (Deep Code)` near the top and save the transcript if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 
@@ -138,7 +138,7 @@ Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]
 
 Close every terminal, open a new one, and try `deepcode --version` again.
 
-### It does not act like GDOH
+### It does not act like PBOH
 
 Confirm that the terminal is inside the folder containing `AGENTS.md`, then use the full starting prompt from Chapter 7.
 

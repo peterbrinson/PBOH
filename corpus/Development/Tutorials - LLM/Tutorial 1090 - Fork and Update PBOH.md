@@ -2,25 +2,27 @@
 type: Tutorial
 cssclasses: unreal-tutorial
 publish: true
+aliases:
+  - "Tutorial 1090 - Fork and Update GDOH"
 ---
 
 ## 0. Introduction
 
-**Outcome.** By the end of this optional tutorial, you have a GitHub fork of GDOH that can receive course updates and carry contributions back to the instructor.
+**Outcome.** By the end of this optional tutorial, you have a GitHub fork of PBOH that can receive course updates and carry contributions back to the instructor.
 
-Do this after you have successfully used one of the quickstarts. Forking is useful for the semester-long workflow, but it should not delay your first GDOH conversation.
+Do this after you have successfully used one of the quickstarts. Forking is useful for the semester-long workflow, but it should not delay your first PBOH conversation.
 
 **You need:** a GitHub account and [Git](https://git-scm.com/downloads) installed.
 
 ---
 
-## 1. Fork GDOH
+## 1. Fork PBOH
 
 1. Sign in to [github.com](https://github.com/).
-2. Open [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
+2. Open [github.com/peterbrinson/PBOH](https://github.com/peterbrinson/PBOH).
 3. Click **Fork**, leave the defaults, and create the fork.
 
-Your copy now lives at `github.com/<your-username>/GDOH`.
+Your copy now lives at `github.com/<your-username>/PBOH`.
 
 ---
 
@@ -32,14 +34,14 @@ Open **PowerShell** on Windows or **Terminal** on macOS and move to Documents:
 cd ~/Documents
 ```
 
-If you already have a ZIP copy named `GDOH`, keep it in place for now and clone the Git copy under a different name:
+If you already have a ZIP copy named `PBOH`, keep it in place for now and clone the Git copy under a different name:
 
 ```
-git clone https://github.com/<your-username>/GDOH.git GDOH-git
-cd GDOH-git
+git clone https://github.com/<your-username>/PBOH.git PBOH-git
+cd PBOH-git
 ```
 
-If you do not already have a `GDOH` folder, you can omit `GDOH-git` from the first command.
+If you do not already have a `PBOH` folder, you can omit `PBOH-git` from the first command.
 
 ---
 
@@ -48,7 +50,7 @@ If you do not already have a `GDOH` folder, you can omit `GDOH-git` from the fir
 From inside the cloned folder:
 
 ```
-git remote add upstream https://github.com/gdofficehours/GDOH.git
+git remote add upstream https://github.com/peterbrinson/PBOH.git
 git remote -v
 ```
 
@@ -75,7 +77,7 @@ From inside your Git copy:
 git pull upstream main
 ```
 
-For contribution and gap-log instructions, read `corpus/Get Started/For Contributors/contributing-to-gdoh.md` inside GDOH.
+For contribution and gap-log instructions, read `corpus/Get Started/For Contributors/contributing-to-pboh.md` inside PBOH.
 
 ---
 

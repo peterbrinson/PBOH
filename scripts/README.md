@@ -1,10 +1,10 @@
 # scripts/
 
-Maintenance tooling for GDOH. Instructor / maintainer use — students never need to run these.
+Maintenance tooling for PBOH. Instructor / maintainer use — students never need to run these.
 
 ## generate-corpus-index.mjs
 
-Regenerates `agent/corpus-index.md` — GDOH's single source of truth for **where each corpus page lives** and **which tutorial number maps to which file**. GDOH reads that index to locate content instead of globbing the filesystem.
+Regenerates `agent/corpus-index.md` — PBOH's single source of truth for **where each corpus page lives** and **which tutorial number maps to which file**. PBOH reads that index to locate content instead of globbing the filesystem.
 
 **Run it** (zero dependencies, needs Node) from the repo root:
 
@@ -19,7 +19,7 @@ node scripts/generate-corpus-index.mjs
 - Builds the **canonical tutorial registry** from tutorial filenames (e.g. `UE Tutorial 101 - ….md` → `101`). Filenames are the authority.
 - **Drift check:** scans the curated indexes (`ue-capability-map.md`, `ue-feature-catalog.md`, `examples/`) for tutorial numbers that don't exist in the registry — e.g. a stale "Tutorial 1" left behind after a renumber. If it finds any, it prints warnings and **exits non-zero** (so a git hook or CI can block the commit). Fix the flagged citations, then re-run.
 
-Output is plain markdown by design — GDOH's legibility constraint (no embeddings, no opaque index a student can't read).
+Output is plain markdown by design — PBOH's legibility constraint (no embeddings, no opaque index a student can't read).
 
 ## check-links.mjs
 
@@ -37,14 +37,14 @@ node scripts/check-links.mjs
 
 **Why it exists.** Obsidian and Quartz resolve links differently, so a link can be valid in one and a 404 in the other, with nothing anywhere to warn you:
 
-- **Obsidian's root is the vault**, so a path-style wikilink needs a `GDOH/corpus/` prefix. **Quartz's root *is* `corpus/`**, so that same prefix 404s on the site. Quartz does **not** flag this — it accepts the slug and emits a normal-looking anchor. Invisible in the editor, in the build log, and on the rendered page. Eight of these were live on 2026-08-10, three of them on the `Design/` hub.
+- **Obsidian's root is the vault**, so a path-style wikilink needs a `PBOH/corpus/` prefix. **Quartz's root *is* `corpus/`**, so that same prefix 404s on the site. Quartz does **not** flag this — it accepts the slug and emits a normal-looking anchor. Invisible in the editor, in the build log, and on the rendered page. Eight of these were live on 2026-08-10, three of them on the `Design/` hub.
 - **A link into a `publish: false` page** resolves fine in Obsidian and 404s live. Worse, it breaks *later* — whenever a page gets hidden — with nothing to say what pointed at it.
 
 **What it reports:**
 
 | Category | Fails the run? |
 | --- | --- |
-| Vault-absolute link (`GDOH/corpus/…`) | yes |
+| Vault-absolute link (`PBOH/corpus/…`) | yes |
 | Link into an unpublished page | yes |
 | Ambiguous basename (several candidates) | yes |
 | Resolves on the site, dead in Obsidian | no — advisory |
@@ -63,7 +63,7 @@ Two rules keep the corpus tidy. Both are cheap to follow at write time and annoy
 
 **1. Regenerate the index and check links after any corpus change.** See above — `generate-corpus-index.mjs` then `check-links.mjs`.
 
-**Link form:** when linking to a page in another folder, use its frontmatter **alias**, not a path. `[[Bounded Worlds]]` resolves in both Obsidian and Quartz; `[[GDOH/corpus/Design/Worldbuilding/index]]` and `[[Design/Worldbuilding/index]]` each work in exactly one of them. Give any page that gets linked from elsewhere a short unique alias.
+**Link form:** when linking to a page in another folder, use its frontmatter **alias**, not a path. `[[Bounded Worlds]]` resolves in both Obsidian and Quartz; `[[PBOH/corpus/Design/Worldbuilding/index]]` and `[[Design/Worldbuilding/index]]` each work in exactly one of them. Give any page that gets linked from elsewhere a short unique alias.
 
 **2. Every new corpus page carries a `type:` in its frontmatter.** The vocabulary is fixed at seven labels, decided by which folder the page lives in:
 
@@ -79,4 +79,4 @@ Two rules keep the corpus tidy. Both are cheap to follow at write time and annoy
 
 **Not** tagged, deliberately: `index.md` and `log.md` (reserved names), and agent files (`CLAUDE.md` / `GEMINI.md`) — they aren't concept pages.
 
-Why bother: it's the one hard requirement of the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md), the plain-markdown knowledge-bundle convention GDOH is already shaped like. Nothing in GDOH reads `type:` today — it's there so the corpus stays interoperable and so a future lookup can route on it. Tagged in bulk across 348 files on 2026-06-28; keeping up is a per-file habit, not a project.
+Why bother: it's the one hard requirement of the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md), the plain-markdown knowledge-bundle convention PBOH is already shaped like. Nothing in PBOH reads `type:` today — it's there so the corpus stays interoperable and so a future lookup can route on it. Tagged in bulk across 348 files on 2026-06-28; keeping up is a per-file habit, not a project.

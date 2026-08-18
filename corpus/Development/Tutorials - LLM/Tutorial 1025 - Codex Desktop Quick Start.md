@@ -6,19 +6,19 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, GDOH is open through Codex in the ChatGPT desktop app and you have completed and saved your first Prototype Plan.
+**Outcome.** By the end of this tutorial, PBOH is open through Codex in the ChatGPT desktop app and you have completed and saved your first Prototype Plan.
 
 **You need:** a ChatGPT account with Codex access, an internet connection, and about 15 minutes. You do not need a terminal or GitHub account.
 
 ---
 
-## 1. Download GDOH
+## 1. Download PBOH
 
-1. Go to [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
+1. Go to [github.com/peterbrinson/PBOH](https://github.com/peterbrinson/PBOH).
 2. Click **Code** → **Download ZIP**.
 3. Unzip it.
-4. Rename `GDOH-main` to `GDOH` and move it somewhere easy to find, such as Documents.
-5. Open the `GDOH` folder. If it contains only another folder called `GDOH-main` instead of folders such as `agent/`, `corpus/`, and `AGENTS.md`, that folder was nested in the ZIP — move that inner folder to Documents instead and rename it `GDOH`.
+4. Rename `PBOH-main` to `PBOH` and move it somewhere easy to find, such as Documents.
+5. Open the `PBOH` folder. If it contains only another folder called `PBOH-main` instead of folders such as `agent/`, `corpus/`, and `AGENTS.md`, that folder was nested in the ZIP — move that inner folder to Documents instead and rename it `PBOH`.
 
 ---
 
@@ -31,20 +31,20 @@ publish: true
 
 ---
 
-## 3. Open GDOH
+## 3. Open PBOH
 
 1. Begin a new local task.
-2. Choose the `GDOH` folder itself—not Documents or another parent folder.
+2. Choose the `PBOH` folder itself—not Documents or another parent folder.
 3. Keep the normal workspace permissions so Codex stays limited to the project and asks before broader actions.
 
 ---
 
-## 4. Start a GDOH Session
+## 4. Start a PBOH Session
 
 Type:
 
 ```
-Start a GDOH session.
+Start a PBOH session.
 ```
 
 Codex reads `AGENTS.md`, greets you, and asks which assignment or framework you are using.
@@ -53,7 +53,7 @@ Codex reads `AGENTS.md`, greets you, and asks which assignment or framework you 
 
 ## 5. Bring an Idea and Save
 
-Describe a game or playable-world idea in 4 to 8 sentences. Continue until GDOH produces a Prototype Plan.
+Describe a game or playable-world idea in 4 to 8 sentences. Continue until PBOH produces a Prototype Plan.
 
 When it offers to save, approve the file change. The map should appear at:
 
@@ -63,7 +63,7 @@ student-notes-private/projects/prototype-plan-<project-name>.md
 
 If this is a class submission, add `Tool: Codex Desktop` near the top. Save the transcript too if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 
@@ -73,6 +73,6 @@ Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]
 
 Confirm that you are signed into the intended account and workspace. Codex availability and usage limits vary by plan and organization.
 
-### Codex does not act like GDOH
+### Codex does not act like PBOH
 
 Start a new local task and select the folder that directly contains `AGENTS.md`, `agent/`, and `corpus/`.

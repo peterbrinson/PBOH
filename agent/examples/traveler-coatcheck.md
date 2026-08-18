@@ -6,7 +6,7 @@ coverage: mostly covered — short off-map (real-time audio muffling, comic spee
 
 # The Coat Check — Traveler (example session)
 
-*An example of how GDOH maps a student's project. The student brought a single-role Traveler idea and developed it across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy.*
+*An example of how PBOH maps a student's project. The student brought a single-role Traveler idea and developed it across a few turns of questions; this is the settled response. Use it as a model for tone, structure, and how much to say — not as a script to copy.*
 
 **Dear student: this is not here to demonstrate a quality idea, or to influence the kind of idea you devise. It is here so that the LLM has a structural reference — a key component of how context engineering works.**
 

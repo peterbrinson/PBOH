@@ -6,21 +6,21 @@ publish: true
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial, GDOH is open in Antigravity and you have held your first conversation about a project idea. GDOH will save the resulting Prototype Plan in your private student folder.
+**Outcome.** By the end of this tutorial, PBOH is open in Antigravity and you have held your first conversation about a project idea. PBOH will save the resulting Prototype Plan in your private student folder.
 
 **You need:** a personal Google account, an internet connection, and about 15 minutes. You do not need a terminal, GitHub account, or paid plan.
 
 ---
 
-## 1. Download GDOH
+## 1. Download PBOH
 
-1. Go to [github.com/gdofficehours/GDOH](https://github.com/gdofficehours/GDOH).
+1. Go to [github.com/peterbrinson/PBOH](https://github.com/peterbrinson/PBOH).
 2. Click the green **Code** button, then **Download ZIP**.
 3. Unzip the download:
    - **Windows:** right-click it → **Extract All…**
    - **macOS:** double-click it
-4. Rename `GDOH-main` to `GDOH` and move it somewhere easy to find, such as Documents.
-5. Open the `GDOH` folder. If it contains only another folder called `GDOH-main` instead of folders such as `agent/` and `corpus/`, that folder was nested in the ZIP — move that inner folder to Documents instead and rename it `GDOH`.
+4. Rename `PBOH-main` to `PBOH` and move it somewhere easy to find, such as Documents.
+5. Open the `PBOH` folder. If it contains only another folder called `PBOH-main` instead of folders such as `agent/` and `corpus/`, that folder was nested in the ZIP — move that inner folder to Documents instead and rename it `PBOH`.
 
 ---
 
@@ -32,23 +32,23 @@ publish: true
 
 ---
 
-## 3. Open GDOH
+## 3. Open PBOH
 
 1. In Antigravity, create a new project.
-2. When asked for a folder, choose the `GDOH` folder itself—not Documents or another parent folder.
+2. When asked for a folder, choose the `PBOH` folder itself—not Documents or another parent folder.
 3. If Antigravity asks you to choose a model, use the recommended current Pro model.
 
 ---
 
-## 4. Start a GDOH Session
+## 4. Start a PBOH Session
 
 Type this in the chat panel:
 
 ```
-Start a GDOH session.
+Start a PBOH session.
 ```
 
-You can write in your own language. GDOH will ask whether you are working on The Investigator, The Traveler, The Dreamer, or Bounded Worlds.
+You can write in your own language. PBOH will ask whether you are working on The Investigator, The Traveler, The Dreamer, or Bounded Worlds.
 
 ---
 
@@ -56,13 +56,13 @@ You can write in your own language. GDOH will ask whether you are working on The
 
 Describe a game or playable-world idea in 4 to 8 sentences. Describe the experience you want the player to have; the idea can still be incomplete.
 
-Continue the conversation until GDOH says, “Here is a Prototype Plan for your project.”
+Continue the conversation until PBOH says, “Here is a Prototype Plan for your project.”
 
 ---
 
 ## 6. Save the Prototype Plan
 
-When GDOH offers to save the Prototype Plan, say yes and approve the file change if Antigravity asks. It should save to:
+When PBOH offers to save the Prototype Plan, say yes and approve the file change if Antigravity asks. It should save to:
 
 ```
 student-notes-private/projects/prototype-plan-<project-name>.md
@@ -70,7 +70,7 @@ student-notes-private/projects/prototype-plan-<project-name>.md
 
 If this is a class submission, add `Tool: Gemini (Antigravity)` near the top. If your instructor asks for the full conversation, also copy or export the transcript.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using GDOH|Keep Using GDOH]].
+Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 
@@ -82,7 +82,7 @@ Antigravity is probably looking at the wrong folder. Reopen the folder containin
 
 ### I cannot find the unzipped folder
 
-Look in Downloads. Move the folder to Documents, rename it `GDOH`, and continue.
+Look in Downloads. Move the folder to Documents, rename it `PBOH`, and continue.
 
 ### Sign-in does not work
 

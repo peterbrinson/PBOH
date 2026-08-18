@@ -29,4 +29,4 @@ SPR pages link to game/film examples in the shared `corpus/Design/_References/` 
 
 ## Where this fits
 
-Layer 3 of GDOH's three layers (tutorials, wiki, SPRs). The SPRs are the design lens applied throughout the system — the project-mapping skill loads the assignment's named SPR as its primary frame. See `agent/how-the-tutor-works.md`, `agent/map-project-skill.md`, and `agent/ue-capability-map.md`'s "SPR fit" / "Best for" columns.
+Layer 3 of PBOH's three layers (tutorials, wiki, SPRs). The SPRs are the design lens applied throughout the system — the project-mapping skill loads the assignment's named SPR as its primary frame. See `agent/how-the-tutor-works.md`, `agent/map-project-skill.md`, and `agent/ue-capability-map.md`'s "SPR fit" / "Best for" columns.
