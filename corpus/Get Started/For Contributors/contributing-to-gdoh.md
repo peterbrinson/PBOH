@@ -3,9 +3,9 @@ type: Guide
 publish: false
 ---
 
-# Contributing to GDOH
+# Contributing to PBOH
 
-GDOH is distributed by **forking**. You work in your own fork; the class original stays read-only to you. This page covers the three things you'll do after setup: pull updates, send your gap log to the instructor, and (optionally) contribute a reference page.
+PBOH is distributed by **forking**. You work in your own fork; the class original stays read-only to you. This page covers the three things you'll do after setup: pull updates, send your gap log to the instructor, and (optionally) contribute a reference page.
 
 If you haven't forked and cloned yet, do [[Tutorial 1090 - Fork and Update GDOH]] first.
 
@@ -18,7 +18,7 @@ After Tutorial 1090 your clone has two remotes:
 
 Check them any time with `git remote -v`.
 
-## Get the latest GDOH updates
+## Get the latest PBOH updates
 
 The course tutorials and wiki get updated over the semester. To pull the latest, from inside your GDOH folder:
 
@@ -31,7 +31,7 @@ As long as you haven't edited the bundle's own files (see the rule at the bottom
 
 ## Send your gap log to the instructor
 
-Your gap log lives at `gaps/<your-username>.md`. GDOH writes to it but never runs git. To get it to the instructor, commit and push it to your fork:
+Your gap log lives at `gaps/<your-username>.md`. PBOH writes to it but never runs git. To get it to the instructor, commit and push it to your fork:
 
 ```
 git add gaps/

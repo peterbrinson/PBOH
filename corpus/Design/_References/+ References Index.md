@@ -218,4 +218,4 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 
 ## Maintenance
 
-When a new page is added to `References/` (e.g. via the gap-log flow growing the folder), add it here too: a row in Path 2 (role affinity + one-line hook) and into the relevant Path 1 cluster(s). An index that drifts out of sync with the folder sends GDOH back to citing from memory.
+When a new page is added to `References/` (e.g. via the gap-log flow growing the folder), add it here too: a row in Path 2 (role affinity + one-line hook) and into the relevant Path 1 cluster(s). An index that drifts out of sync with the folder sends PBOH back to citing from memory.

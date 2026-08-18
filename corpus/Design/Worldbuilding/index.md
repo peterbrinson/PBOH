@@ -129,8 +129,8 @@ Mark Wolf's *Building Imaginary Worlds* (the [[Mark Wolf|lecture]]) frames a wor
 Further reading: [[Reading - Emissary's Guide to Worlding (Cheng)|Emissary's Guide to Worlding]].
 
 
-# 4. What Suggestions Will GDOH Offer?
+# 4. What Suggestions Will PBOH Offer?
 
-> [!info] GDOH turns your Bounded World into a build plan — a recommended order for making it in a game engine.
+> [!info] PBOH turns your Bounded World into a build plan — a recommended order for making it in a game engine.
 
-[[Development/Tutorials - LLM|Get started using GDOH]] with your preferred LLM.  
+[[Development/Tutorials - LLM|Get started using PBOH]] with your preferred LLM.  
