@@ -3,7 +3,7 @@ type: Tutorial
 cssclasses: unreal-tutorial
 publish: true
 aliases:
-  - "Tutorial 1101 - Keep Using GDOH"
+  - "./Tutorial 1101 - Keep Using GDOH"
 ---
 
 ## 0. Introduction
