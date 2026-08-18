@@ -3,12 +3,12 @@ title: "Get Started"
 aliases:
   - "Get Started"
 ---
-### GDOH — Game Design Office Hours
-GDOH is a knowledge bundle — course material coupled with the instructions that turn an LLM into your guide.  
-It provides a starting point for a student crafting a game from a storytelling or worldbuilding framework.   Additionally, GDOH gives concrete advice when working with the Unreal Game engine, but is useful when working with any engine.
+### PBOH — Peter B's Office Hours
+PBOH is a knowledge bundle — course material coupled with the instructions that turn an LLM into your guide.  
+It provides a starting point for a student crafting a game from a storytelling or worldbuilding framework.   Additionally, PBOH gives concrete advice when working with the Unreal Game engine, but is useful when working with any engine.
 
-The website you're reading now is a browsable copy of that material; the repository is the proper version of GDOH, features and all.  
-## [**Open GDOH on GitHub**](https://github.com/gdofficehours/GDOH)
+The website you're reading now is a browsable copy of that material; the repository is the proper version of PBOH, features and all.  
+## [**Open PBOH on GitHub**](https://github.com/gdofficehours/GDOH)
 
 ---
 
@@ -17,4 +17,4 @@ The website you're reading now is a browsable copy of that material; the reposit
 
 ---
 
-GDOH embraces the qualities Google's [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) recently articulated. 
+PBOH embraces the qualities Google's [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md) recently articulated. 
