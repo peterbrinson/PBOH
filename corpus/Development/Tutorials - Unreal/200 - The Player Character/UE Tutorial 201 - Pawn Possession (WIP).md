@@ -3,7 +3,7 @@ type: Tutorial
 cssclasses:
   - unreal-tutorial
 ---
-*By Aaron Cheney*
+<span style="color:#d9a8b3">*By Aaron Cheney*</span>
 
 ## 0. Introduction
 ---

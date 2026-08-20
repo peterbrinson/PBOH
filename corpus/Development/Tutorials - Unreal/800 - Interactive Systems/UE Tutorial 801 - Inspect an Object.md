@@ -3,7 +3,7 @@ type: Tutorial
 cssclasses:
   - unreal-tutorial
 ---
-*By Yibei He & Peter Brinson*
+<span style="color:#d9a8b3">*By Yibei He & Peter Brinson*</span>
 
 ## 0. Introduction
 ---

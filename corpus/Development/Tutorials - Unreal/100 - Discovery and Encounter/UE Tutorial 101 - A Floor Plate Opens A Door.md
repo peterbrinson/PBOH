@@ -4,7 +4,7 @@ cssclasses:
   - unreal-tutorial
 ---
 
-*By Aaron Cheney & Peter Brinson*
+<span style="color:#d9a8b3">*By Aaron Cheney & Peter Brinson*</span>
 
 
 ## 0. Introduction
