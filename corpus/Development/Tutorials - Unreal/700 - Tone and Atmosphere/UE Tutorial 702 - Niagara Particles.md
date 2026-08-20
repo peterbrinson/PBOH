@@ -7,7 +7,7 @@ cssclasses:
 
 
 
-<span style="color:#d9a8b3">*By Yibei He & Peter Brinson*</span>
+<span style="color:#d9a8b3; font-size:1.4rem">*By Yibei He & Peter Brinson*</span>
 
 ## 0. Introduction
 ---

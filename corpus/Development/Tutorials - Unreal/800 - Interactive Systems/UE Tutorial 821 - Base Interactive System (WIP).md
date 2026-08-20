@@ -5,7 +5,7 @@ cssclasses: unreal-tutorial
 ---
 
 
-<span style="color:#d9a8b3">*By Yibei He & Peter Brinson*</span>
+<span style="color:#d9a8b3; font-size:1.4rem">*By Yibei He & Peter Brinson*</span>
 
 > *Disclaimer: since being converted from a different platform, this document has not yet been proofread. And many of the images need updating. You are welcome to ask Peter any questions.*
 
