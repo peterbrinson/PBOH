@@ -5,7 +5,7 @@ cssclasses:
 ---
 **Continuing From:** [[UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101: A Floor Plate Opens A Door]]
 
-<span style="color:#d9a8b3">*By Aaron Cheney & Peter Brinson*</span>
+<span style="color:#d9a8b3; font-size:1.4rem">*By Aaron Cheney & Peter Brinson*</span>
 
 ## 0. Introduction
 ---

@@ -7,7 +7,7 @@ aliases:
 publish: true
 ---
 
-<span style="color:#d9a8b3">*by Aaron Cheney, Yibei He, and Zhixuan Xiao*</span>
+<span style="color:#d9a8b3; font-size:1.4rem">*by Aaron Cheney, Yibei He, and Zhixuan Xiao*</span>
 
 ## [[100 - Discovery and Encounter]]
 *The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.*
