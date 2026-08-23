@@ -220,6 +220,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **Tutorial 1005 (Japanese) - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 (Japanese) - Antigravity Quick Start.md` — Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|English version →
 - **Tutorial 1011 - Claude Code Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start.md` — By the end of this tutorial, Claude Code is installed in your terminal, pointed at PBOH, and used for your first saved Prototype Plan.
 - **Tutorial 1015 - Claude Code Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start.md` — By the end of this tutorial, PBOH is open in Claude Code’s desktop interface and you have completed and saved your first Prototype Plan.
+- **Tutorial 1020 - Codex Access and Obsidian Setup** `corpus/Development/Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup.md` — By the end of this tutorial, your USC ChatGPT account has Codex access approved, and Obsidian is installed with a vault open — both are…
 - **Tutorial 1021 - Codex Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start.md` — By the end of this tutorial, Codex CLI is installed, pointed at PBOH, and used for your first saved Prototype Plan.
 - **Tutorial 1025 - Codex Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start.md` — By the end of this tutorial, PBOH is open through Codex in the ChatGPT desktop app and you have completed and saved your first Prototype…
 - **Tutorial 1035 - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` — By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at PBOH, and used for your first saved Prototype Plan.
@@ -227,13 +228,13 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **Tutorial 1090 - Fork and Update PBOH** `corpus/Development/Tutorials - LLM/Tutorial 1090 - Fork and Update PBOH.md` — By the end of this optional tutorial, you have a GitHub fork of PBOH that can receive course updates and carry contributions back to the…
 - **Tutorial 1101 - Keep Using PBOH** `corpus/Development/Tutorials - LLM/Tutorial 1101 - Keep Using PBOH.md` — You will know the three main ways to work with PBOH, where it saves your files, and how to resume later.
 - **100 - Discovery and Encounter** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/index.md` — The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.
-- **UE Tutorial 101 - A Floor Plate Opens A Door** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 101 - A Floor Plate Opens A Door.md` — By Aaron Cheney & Peter Brinson
+- **UE Tutorial 101 - A Floor Plate Opens A Door** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 101 - A Floor Plate Opens A Door.md` — Jump to (01:48): https://vimeo.com/1119249385?fl=pl&fe=cmt=1m45s
 - **UE Tutorial 102 - Collectables and Restart** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 102 - Collectables and Restart.md` — Continuing From: UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101: A Floor Plate Opens A Door
 - **UE Tutorial 103 - Scoring and UI** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 103 - Scoring and UI.md` — Continuing from: UE Tutorial 102 - Collectables and Restart|Tutorial 102: Collectables and Restart
 - **UE Tutorial 104 - Haunted House Triggers and Events** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 104 - Haunted House Triggers and Events.md` — Previous: UE Tutorial 103 - Scoring and UI|Tutorial 103: Scoring and UI
 - **index** `corpus/Development/Tutorials - Unreal/200 - The Player Character/index.md` — Building the basic vocabulary of character — pawn possession and animation.
-- **UE Tutorial 201 - Pawn Possession (WIP)** `corpus/Development/Tutorials - Unreal/200 - The Player Character/UE Tutorial 201 - Pawn Possession (WIP).md` — By Aaron Cheney
-- **UE Tutorial 202 - MetaHuman Animations** `corpus/Development/Tutorials - Unreal/200 - The Player Character/UE Tutorial 202 - MetaHuman Animations.md` — By Yibei He & Peter Brinson
+- **UE Tutorial 201 - Pawn Possession (WIP)** `corpus/Development/Tutorials - Unreal/200 - The Player Character/UE Tutorial 201 - Pawn Possession (WIP).md` — - A game where the player can switch between multiple characters at the press of a key
+- **UE Tutorial 202 - MetaHuman Animations** `corpus/Development/Tutorials - Unreal/200 - The Player Character/UE Tutorial 202 - MetaHuman Animations.md` — - A photorealistic MetaHuman as your playable character, moving with proper animations
 - **index** `corpus/Development/Tutorials - Unreal/300 - Environment Systems/index.md` — The natural world — landscape, water, and foliage.
 - **UE Tutorial 301 - Landscapes, Gaea and Automaterial** `corpus/Development/Tutorials - Unreal/300 - Environment Systems/UE Tutorial 301 - Landscapes, Gaea and Automaterial.md` — You will make a landscape in the program, Gaea, to import into Unreal.
 - **UE Tutorial 302 - Water** `corpus/Development/Tutorials - Unreal/300 - Environment Systems/UE Tutorial 302 - Water.md` — Previous: UE Tutorial 301 - Landscapes, Gaea and Automaterial
@@ -242,14 +243,14 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **500 - Physics** `corpus/Development/Tutorials - Unreal/500 - Physics/index.md` — - UE Tutorial 501 - Simple Physics
 - **UE Tutorial 501 - Simple Physics** `corpus/Development/Tutorials - Unreal/500 - Physics/UE Tutorial 501 - Simple Physics.md` — Learn the fundamentals of Unreal's physics engine.
 - **index** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/index.md` — Augment the world's expressiveness — mood, attention, perspective.
-- **UE Tutorial 701 - Post-Processing** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/UE Tutorial 701 - Post-Processing.md` — By Yibei He & Peter Brinson
-- **UE Tutorial 702 - Niagara Particles** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/UE Tutorial 702 - Niagara Particles.md` — By Yibei He & Peter Brinson
+- **UE Tutorial 701 - Post-Processing** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/UE Tutorial 701 - Post-Processing.md` — - A global color grade that gives the entire scene a consistent mood — desaturated, warm, cold, bleached
+- **UE Tutorial 702 - Niagara Particles** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/UE Tutorial 702 - Niagara Particles.md` — - A particle effect — smoke, fire, dust, magic sparkles — placed anywhere in the level
 - **index** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/index.md` — - UE Tutorial 801 - Inspect an Object
-- **UE Tutorial 801 - Inspect an Object** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 801 - Inspect an Object.md` — By Yibei He & Peter Brinson
-- **UE Tutorial 821 - Base Interactive System (WIP)** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 821 - Base Interactive System (WIP).md` — By Yibei He & Peter Brinson
+- **UE Tutorial 801 - Inspect an Object** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 801 - Inspect an Object.md` — - A readable note in the world — E key opens it full-screen, E closes it; player cannot move or look while reading
+- **UE Tutorial 821 - Base Interactive System (WIP)** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 821 - Base Interactive System (WIP).md` — Learning Objectives:
 - **index** `corpus/Development/Tutorials - Unreal/900 - Release/index.md` — Delivering the playable game and capturing to video.
-- **UE Tutorial 901 - Recording with OBS** `corpus/Development/Tutorials - Unreal/900 - Release/UE Tutorial 901 - Recording with OBS.md` — By Yibei He & Peter Brinson
-- **index** `corpus/Development/Tutorials - Unreal/index.md` — The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.
+- **UE Tutorial 901 - Recording with OBS** `corpus/Development/Tutorials - Unreal/900 - Release/UE Tutorial 901 - Recording with OBS.md` — Learning Objectives:
+- **Tutorials - Unreal** `corpus/Development/Tutorials - Unreal/index.md` — The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.
 - **UE Editor Navigation** `corpus/Development/Tutorials - Unreal/UE Editor Navigation.md` — - Right-click + drag — Look around (free look)
 - **Unreal Engine** `corpus/Development/Tutorials - Unreal/Unreal Engine.md` — Unreal Engine is a real-time 3D creation platform developed by Epic Games. It is one of the two dominant game engines in the industry,…
 - **a_ai-learn-plan** `corpus/Development/Wiki - Unreal/_meta/a_ai-learn-plan.md` — Goal: learn contemporary AI approaches well enough to teach them. Each step builds toward understanding the full stack, not just using…
@@ -361,6 +362,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 | 1005 | Antigravity Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start.md` |
 | 1011 | Claude Code Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start.md` |
 | 1015 | Claude Code Desktop Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start.md` |
+| 1020 | Codex Access and Obsidian Setup | `corpus/Development/Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup.md` |
 | 1021 | Codex Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start.md` |
 | 1025 | Codex Desktop Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start.md` |
 | 1035 | DeepSeek Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` |

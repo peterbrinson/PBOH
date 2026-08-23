@@ -6,6 +6,8 @@ publish: false
 
 Setup tutorials: how a student gets an AI tool running and has their first PBOH conversation. These teach **no gameplay features** and must never appear in a build order — if you're tempted to cite one for a game mechanic, that's a wander and the feature is off-map. The published human-facing list is `index.md`; use that when you need the reading order.
 
+**One deliberate exception: 1020 — Codex Access and Obsidian Setup.** A prerequisite page for the Codex decade (1021, 1025): requesting Codex access through USC IT (grants can take a while, so it needs to happen before a student sits down to actually use Codex) plus a plain Obsidian install-and-open-a-vault. No PBOH session here and no AI-tool interaction — doesn't teach the vault/markdown-as-LLM-workspace pattern the rest of this block builds toward. Don't generalize its shape to a new page.
+
 ## The organizing principle — quick-start-first
 
 **Every path is a single self-contained quick start.** One page takes a student from nothing installed to a first PBOH conversation and a saved Prototype Plan. No prerequisite chain, no terminal assumed, no GitHub account required.
