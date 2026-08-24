@@ -51,14 +51,14 @@ Leave it open. You will point it at a folder in the next step.
 2. Make a **copy** of the root folder, `PHO-game-project`.
 3. Rename the copy to `PHO-game-project (Improve)`.
 
-Keep the original untouched. It is your clean starting point — if the workshop goes sideways, or if you want to compare before-and-after at the end, you will want it.
+Keep the original untouched. It is your clean starting point.
 
 Now open the copy in Obsidian:
 
 1. In Obsidian, choose **Open folder as vault**.
 2. Select `PHO-game-project (Improve)`.
 
-A vault is just a folder. Every note in it is a plain `.md` (markdown) text file sitting on your own computer — Obsidian is only a nice window onto files that already exist. That is exactly why an AI can work in the same folder you do.
+A vault is just a folder. Every note in it is a plain `.md` (markdown) text file sitting on your own computer — Obsidian is only a nice window onto files that already exist. 
 
 Take a minute to look around the left sidebar before anything changes. The mess is the point.
 
@@ -77,14 +77,14 @@ Take a minute to look around the left sidebar before anything changes. The mess 
 Paste this:
 
 ```
-This is the work folder for two game students working together. Not me.
+This is the design and production folder of two game students working together. Not me.
 It's messy. Read through it all and orient me to their collaboration and
 their ideas but don't give your advice or take on the merits of the idea.
 Think like a project manager who is trying to organize for the sake of
 comprehension.
 ```
 
-It will take a while, and the answer will be long. Read it.
+It will take a while, and the answer will be long. Skim it.
 
 Notice what it can tell you that a folder listing cannot: where Anthony and Deloris **disagree**, which document is actually current, and what got decided in a meeting note and never made it into the design doc.
 
@@ -95,7 +95,7 @@ Ok. That's a long response. Summarize the essence in 2 paragraphs or
 equivalent bullet points.
 ```
 
-Read that too. Compressing what it just said is itself a context-engineering move — you are deciding what is worth keeping.
+Read that. 
 
 ---
 
@@ -108,16 +108,16 @@ Paste:
 ```
 Please suggest how to organize things. Let's move, create, edit, and
 archive whatever files and folders will make that possible. And, consider
-context engineering practices such as creating index files and the like.
+context engineering practices such as creating indexes and the like.
 Ultimately, I want this to be an Obsidian vault for the team and Codex to
 work together moving forward.
 ```
 
 It will probably ask you some questions. Answer them with these in mind:
 
-- **Don't use Git.**
+- Don't use Git.
 - Make these edits in `PHO-game-project (Improve)`, **not** the original download.
-- If it asks about the Unity game project itself, tell it to work only on these documents for now.
+- If it asks about the Unity game project itself, tell it to work only on these documents.
 - It will likely propose drafting new files as part of the restructure. Ask it to **archive** anything made obsolete by that, rather than deleting it.
 - If it asks about Obsidian, ask for a **minimal** setup.
 
@@ -131,13 +131,13 @@ You can edit the plan or just tell it to **implement the plan**.
 
 Switch to Obsidian while Codex works. The project structure in the left navigation will reorganize itself as files move.
 
-**Don't edit anything until Codex is finished.** You and it are writing to the same folder, and editing underneath a running job is how work gets lost.
+Don't edit anything until Codex is finished. 
 
 ---
 
 ## 9. Read What It Built
 
-Start at the root of the reorganized folder and read whatever is now sitting there — files like `AGENTS.md`, `README.md`, and a start-here note.
+Start at the root of the reorganized folder and read whatever is now sitting there — files like `AGENTS.md`, `README.md`, or a start-here note.
 
 These are the entry points. A folder that explains itself in its own root is the difference between a workspace an AI can pick up cold and one it has to re-derive every session.
 
@@ -158,7 +158,6 @@ Then:
 Tell me about any frontmatter you added. I'm new to this concept.
 ```
 
-Frontmatter is the small block at the very top of a markdown file, fenced by `---` lines. It holds facts *about* the note — status, owner, date, tags — in a form both Obsidian and an AI can read without parsing the prose.
 
 ---
 
@@ -166,7 +165,7 @@ Frontmatter is the small block at the very top of a markdown file, fenced by `--
 
 In the prompt area, next to the model dropdown, there is a small **incomplete circle**. Hover over it.
 
-That is your context window — how much of the conversation and the files Codex is currently holding in mind. It is finite, and this session has been filling it.
+That is your context window — how much of the conversation and the files Codex is currently holding in mind. 
 
 Ask Codex about it directly. Some worth asking:
 
@@ -175,11 +174,11 @@ What is in my context window right now, and what happens when it fills up?
 ```
 
 ```
-How does the way you organized this project change what you need to load
-to answer a question about it?
+Now that the project is reorganized, what would you need to read to answer
+a question about it? How does that compare to the messy version?
 ```
 
-That second question is the whole workshop in one line. The reorganization was not tidying for its own sake — it was making a project that fits in a context window.
+That second question is the whole workshop in one line. 
 
 ---
 
@@ -189,13 +188,6 @@ With Codex access granted and Obsidian installed, you can continue to [[Tutorial
 
 ## Troubleshooting
 
-### I haven't heard back from USC IT about Codex access
-
-Access grants can take a while. Check the [ChatGPT Edu workspace announcement](https://itservices.usc.edu/2026/02/26/new-features-now-available-in-uscs-chatgpt-edu-workspace/) for the current request process, and follow up with USC IT directly if it's been more than a few days.
-
-### The installer is blocked or flagged by my system
-
-This is common for new downloads on Windows and Mac. Confirm you downloaded from `obsidian.md` and allow it through your system's security prompt.
 
 ### The unzipped folder contains another folder with the same name
 
