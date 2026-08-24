@@ -9,10 +9,6 @@ publish: true
 
 Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first PBOH conversation and a saved Prototype Plan.
 
-## Understand the landscape
-
-- [[Tutorials - LLM/LLM Concepts - Claude and ChatGPT|LLM Concepts: Claude and ChatGPT]] — a beginner's map of models, products, surfaces, cloud and local work, collaboration, effort, vocabulary, and business models
-
 ## Using Codex? Start here first
 
 - [[Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup|Codex Access and Obsidian Setup]] — request Codex access through USC IT, install Obsidian, then use both together to reorganize a deliberately messy team project. Covers persistent workspaces and context engineering. Do this before Codex Terminal or Codex Desktop below.
