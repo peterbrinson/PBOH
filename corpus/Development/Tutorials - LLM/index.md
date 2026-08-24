@@ -11,7 +11,7 @@ Pick the path that matches what you already have. Each quickstart begins with no
 
 ## Using Codex? Start here first
 
-- [[Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup|Codex Access and Obsidian Setup]] — request Codex access through USC IT, then install Obsidian. Do this before Codex Terminal or Codex Desktop below.
+- [[Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup|Codex Access and Obsidian Setup]] — request Codex access through USC IT, install Obsidian, then use both together to reorganize a deliberately messy team project. Covers persistent workspaces and context engineering. Do this before Codex Terminal or Codex Desktop below.
 
 ## Start here — pick one
 

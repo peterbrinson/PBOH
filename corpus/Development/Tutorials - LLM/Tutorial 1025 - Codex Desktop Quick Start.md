@@ -8,7 +8,7 @@ publish: true
 
 **Outcome.** By the end of this tutorial, PBOH is open through Codex in the ChatGPT desktop app and you have completed and saved your first Prototype Plan.
 
-**You need:** a ChatGPT account with Codex access, an internet connection, and about 15 minutes. You do not need a terminal or GitHub account. If you haven't requested Codex access yet, see [[Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup|Codex Access and Obsidian Setup]] first.
+**You need:** a ChatGPT account with Codex access, an internet connection, and about 15 minutes. You do not need a terminal or GitHub account. If you haven't requested Codex access yet, [[Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup|Codex Access and Obsidian Setup]] Step 1 tells you how — access takes USC IT a while to grant.
 
 ---
 
