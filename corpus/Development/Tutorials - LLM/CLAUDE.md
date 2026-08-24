@@ -6,7 +6,9 @@ publish: false
 
 Setup tutorials: how a student gets an AI tool running and has their first PBOH conversation. These teach **no gameplay features** and must never appear in a build order — if you're tempted to cite one for a game mechanic, that's a wander and the feature is off-map. The published human-facing list is `index.md`; use that when you need the reading order.
 
-**One deliberate exception: 1020 — Codex Access and Obsidian Setup.** A prerequisite page for the Codex decade (1021, 1025): requesting Codex access through USC IT (grants can take a while, so it needs to happen before a student sits down to actually use Codex) plus a plain Obsidian install-and-open-a-vault. No PBOH session here and no AI-tool interaction — doesn't teach the vault/markdown-as-LLM-workspace pattern the rest of this block builds toward. Don't generalize its shape to a new page.
+**One deliberate exception: 1020 — Codex Access and Obsidian Setup.** A prerequisite page for the Codex decade (1021, 1025), and the only page in this block that is a **classroom workshop** rather than a quick start. It has no PBOH session and produces no Prototype Plan. It covers requesting Codex access through USC IT (grants take time, so it must happen before a student sits down to use Codex), installing Obsidian, and then a guided exercise: unpack `attachments/PHO-game-project.zip` — a fictional two-person team's deliberately chaotic project folder — and use Codex to reorganize it into a working vault. What it actually teaches is persistent workspaces and context engineering, not any game feature.
+
+Its title undersells the content; the filename is kept stable because it's a published URL. The ZIP is generated content, not authored — regenerate it from `teach/389/Workshop Files/PHO-game-project` if the workshop source changes. Don't generalize this page's shape to a new tool.
 
 ## The organizing principle — quick-start-first
 
