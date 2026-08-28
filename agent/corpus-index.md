@@ -220,7 +220,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **Tutorial 1005 (Japanese) - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 (Japanese) - Antigravity Quick Start.md` — Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|English version →
 - **Tutorial 1011 - Claude Code Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start.md` — By the end of this tutorial, Claude Code is installed in your terminal, pointed at PBOH, and used for your first saved Prototype Plan.
 - **Tutorial 1015 - Claude Code Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start.md` — By the end of this tutorial, PBOH is open in Claude Code’s desktop interface and you have completed and saved your first Prototype Plan.
-- **Tutorial 1020 - Codex Access and Obsidian Setup** `corpus/Development/Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup.md` — By the end of this tutorial you will have Codex access approved, Obsidian installed, and you will have used the two of them together to…
+- **Tutorial 1020 - Your First Persistent Workspace (with Codex)** `corpus/Development/Tutorials - LLM/Tutorial 1020 - Your First Persistent Workspace (with Codex).md` — By the end of this tutorial you will have Codex access approved, Obsidian installed, and you will have used the two of them together to…
 - **Tutorial 1021 - Codex Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start.md` — By the end of this tutorial, Codex CLI is installed, pointed at PBOH, and used for your first saved Prototype Plan.
 - **Tutorial 1025 - Codex Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start.md` — By the end of this tutorial, Peter's project, PB Office Hours is open through Codex in the ChatGPT desktop app and you have completed and…
 - **Tutorial 1035 - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` — By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at PBOH, and used for your first saved Prototype Plan.
@@ -362,7 +362,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 | 1005 | Antigravity Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start.md` |
 | 1011 | Claude Code Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start.md` |
 | 1015 | Claude Code Desktop Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start.md` |
-| 1020 | Codex Access and Obsidian Setup | `corpus/Development/Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup.md` |
+| 1020 | Your First Persistent Workspace (with Codex) | `corpus/Development/Tutorials - LLM/Tutorial 1020 - Your First Persistent Workspace (with Codex).md` |
 | 1021 | Codex Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start.md` |
 | 1025 | Codex Desktop Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start.md` |
 | 1035 | DeepSeek Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` |
