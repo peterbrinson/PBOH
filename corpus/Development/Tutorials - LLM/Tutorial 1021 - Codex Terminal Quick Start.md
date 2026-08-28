@@ -10,7 +10,7 @@ publish: true
 
 Use this path only if you prefer a terminal. For the graphical route, use [[Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start|Codex Desktop Quick Start]].
 
-**You need:** a ChatGPT account with Codex access, Node.js, an internet connection, and about 15 minutes. If you haven't requested Codex access yet, [[Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup|Codex Access and Obsidian Setup]] Step 1 tells you how — access takes USC IT a while to grant.
+**You need:** a ChatGPT account with Codex access, Node.js, an internet connection, and about 15 minutes. If you haven't requested Codex access yet, [[Tutorials - LLM/Tutorial 1020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] Step 1 tells you how — access takes USC IT a while to grant.
 
 ---
 

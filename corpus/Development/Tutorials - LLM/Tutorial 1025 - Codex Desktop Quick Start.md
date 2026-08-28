@@ -8,7 +8,7 @@ publish: true
 
 **Outcome.** By the end of this tutorial, Peter's project, PB Office Hours is open through Codex in the ChatGPT desktop app and you have completed and saved your first Prototype Plan.  [[Get Started|PBOH is a knowledge bundle]] — course material coupled with the instructions that turn an LLM into your guide.  
 
-**You need:** a ChatGPT account with Codex access, an internet connection, and about 15 minutes. You do not need a terminal or GitHub account. If you haven't requested Codex access yet, [[Tutorials - LLM/Tutorial 1020 - Codex Access and Obsidian Setup|Codex Access and Obsidian Setup]] Step 1 tells you how — access takes USC IT a while to grant.
+**You need:** a ChatGPT account with Codex access, an internet connection, and about 15 minutes. You do not need a terminal or GitHub account. If you haven't requested Codex access yet, [[Tutorials - LLM/Tutorial 1020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] Step 1 tells you how — access takes USC IT a while to grant.
 
 ---
 
