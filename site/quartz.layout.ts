@@ -43,10 +43,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Explorer({
       title: "",
       sortFn: (a, b) => {
-        // Pin the Get Started doorway to the very top of the nav, above the other folders.
-        if (a.displayName === "Get Started") return -1
-        if (b.displayName === "Get Started") return 1
-        // Otherwise keep Quartz's default: folders first, then files, each alphabetical.
+        // The doorway is no longer a folder — it's the site root, injected as
+        // the first nav row ("PBOH") by explorer.inline.ts, so nothing needs
+        // pinning here any more.
+        // Quartz's default: folders first, then files, each alphabetical.
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           return a.displayName.localeCompare(b.displayName, undefined, {
             numeric: true,
@@ -97,10 +97,10 @@ export const defaultListPageLayout: PageLayout = {
     Component.Explorer({
       title: "",
       sortFn: (a, b) => {
-        // Pin the Get Started doorway to the very top of the nav, above the other folders.
-        if (a.displayName === "Get Started") return -1
-        if (b.displayName === "Get Started") return 1
-        // Otherwise keep Quartz's default: folders first, then files, each alphabetical.
+        // The doorway is no longer a folder — it's the site root, injected as
+        // the first nav row ("PBOH") by explorer.inline.ts, so nothing needs
+        // pinning here any more.
+        // Quartz's default: folders first, then files, each alphabetical.
         if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
           return a.displayName.localeCompare(b.displayName, undefined, {
             numeric: true,

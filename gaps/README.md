@@ -14,7 +14,7 @@ If you've just forked PBOH and have no gap file yet, PBOH creates `gaps/<your-gi
 
 ## How it reaches the instructor
 
-PBOH writes the gap file locally and never runs git. **You** commit and push it to your fork — see `corpus/Get Started/For Contributors/contributing-to-pboh.md`. The instructor collects every student's gap file from their forks and reviews them, deciding which gaps become new wiki pages, tutorials, or pitfall notes.
+PBOH writes the gap file locally and never runs git. **You** commit and push it to your fork — see `corpus/For Contributors/contributing-to-pboh.md`. The instructor collects every student's gap file from their forks and reviews them, deciding which gaps become new wiki pages, tutorials, or pitfall notes.
 
 ## Entry format
 
