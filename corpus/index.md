@@ -4,7 +4,7 @@ title: "Peter B's Office Hours"
 
 # Peter B's Office Hours
 
-<p style="border-left:5px solid #d6006e;background:#ffe0ef;padding:0.85rem 1.15rem;border-radius:6px;margin:1.4rem 0;color:#8a0045;"><strong style="color:#a1004d;">Here to learn about Queryable Knowledge Bases generally?</strong> <a href="https://peterbrinson.github.io/teach/AI/" style="color:#d6006e;font-weight:700;">Go straight there →</a></p>
+<p style="border-left:3px solid #d6006e;padding-left:0.9rem;margin:1.6rem 0;">Here to learn about Queryable Knowledge Bases generally? <a href="https://peterbrinson.github.io/teach/AI/">Go straight there →</a></p>
 
 **PBOH** is a queryable knowledge bundle — a folder of course material coupled with the instructions that turn an AI into your guide. Open it with an AI coding agent and start a session: the agent reads the folder, becomes PBOH, and talks with you about the game you want to make.
 
