@@ -5,15 +5,14 @@ aliases:
 publish: true
 ---
 
-# Start PBOH
 
-Pick the path that matches what you already have. Each quickstart begins with nothing installed and ends with your first PBOH conversation and a saved Prototype Plan.
+## Learning persistent-workspace fundamentals instead? Start here
 
-## Using Codex? Start here first
+- [[Tutorials - LLM/Tutorial 1020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] 
 
-- [[Tutorials - LLM/Tutorial 1020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] — request Codex access through USC IT, install Obsidian, then use both together to reorganize a deliberately messy team project. Covers persistent workspaces and context engineering. Do this before Codex Terminal or Codex Desktop below.
+## Start PBOH — pick one
 
-## Start here — pick one
+Each quickstart begins with nothing installed and ends with your first PBOH conversation and a saved Prototype Plan.
 
 - [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]]
 - [[Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start|Claude Code Desktop Quick Start]] 
