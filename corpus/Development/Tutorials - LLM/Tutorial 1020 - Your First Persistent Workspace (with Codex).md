@@ -64,7 +64,16 @@ Take a minute to look around the left sidebar before anything changes. The mess 
 
 ---
 
-## 5. Open the Project in Codex
+## 5. Install the ChatGPT Desktop App
+
+1. Download the desktop app from [chatgpt.com/download](https://chatgpt.com/download/).
+2. Install and open it.
+3. Sign in with the ChatGPT account that has Codex access.
+4. Open the Codex or local-work area.
+
+---
+
+## 6. Open the Project in Codex
 
 1. In Codex, make a **new project**.
 2. Point it at `PHO-game-project (Improve)` — the copy, not the original.
@@ -72,7 +81,7 @@ Take a minute to look around the left sidebar before anything changes. The mess 
 
 ---
 
-## 6. Ask Codex to Read Everything
+## 7. Ask Codex to Read Everything
 
 Paste this:
 
@@ -99,7 +108,7 @@ Read that.
 
 ---
 
-## 7. Make a Plan
+## 8. Make a Plan
 
 Click the **plus button** next to the chat interface and choose **Plan Mode**. In Plan Mode, Codex proposes what it intends to do before it does any of it.
 
@@ -127,7 +136,7 @@ You can edit the plan or just tell it to **implement the plan**.
 
 ---
 
-## 8. Watch It Happen
+## 9. Watch It Happen
 
 Switch to Obsidian while Codex works. The project structure in the left navigation will reorganize itself as files move.
 
@@ -135,7 +144,7 @@ Don't edit anything until Codex is finished.
 
 ---
 
-## 9. Read What It Built
+## 10. Read What It Built
 
 Start at the root of the reorganized folder and read whatever is now sitting there — files like `AGENTS.md`, `README.md`, or a start-here note.
 
@@ -143,7 +152,7 @@ These are the entry points. A folder that explains itself in its own root is the
 
 ---
 
-## 10. Ask How It Works
+## 11. Ask How It Works
 
 Ask Codex:
 
@@ -161,7 +170,7 @@ Tell me about any frontmatter you added. I'm new to this concept.
 
 ---
 
-## 11. Look at Your Context Window
+## 12. Look at Your Context Window
 
 In the prompt area, next to the model dropdown, there is a small **incomplete circle**. Hover over it.
 
