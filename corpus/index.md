@@ -4,11 +4,13 @@ title: "Peter B's Office Hours"
 
 # Peter B's Office Hours
 
+<p style="border-left:5px solid #d6006e;background:#ffe0ef;padding:0.85rem 1.15rem;border-radius:6px;margin:1.4rem 0;color:#8a0045;"><strong style="color:#a1004d;">Here to learn about Queryable Knowledge Bases generally?</strong> <a href="https://peterbrinson.github.io/teach/AI/" style="color:#d6006e;font-weight:700;">Go straight there →</a></p>
+
 **PBOH** is a queryable knowledge bundle — a folder of course material coupled with the instructions that turn an AI into your guide. Open it with an AI coding agent and start a session: the agent reads the folder, becomes PBOH, and talks with you about the game you want to make.
 
 It is a starting point for anyone shaping a playable story or world. Bring an early idea and PBOH maps it — naming what is already clear, what questions are still open, and how a first prototype might actually get built. The build advice is written for Unreal Engine and assumes no programming background, but the design thinking holds for any engine.
 
-Nothing here is trained in or hidden away. The guide knows what it knows because the pages are sitting in the folder beside it, in plain markdown you can read yourself — a shape Google recently named the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md). That arrangement is a general practice rather than anything particular to a game design course; if it's the practice you're after rather than the guide, [Queryable Knowledge Bases](https://peterbrinson.github.io/teach/AI/) is where to start.
+Nothing here is trained in or hidden away. The guide knows what it knows because the pages are sitting in the folder beside it, in plain markdown you can read yourself — a shape Google recently named the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md). What the agent learns, it learns in the moment, from material you can open and edit yourself.
 
 ---
 
@@ -33,7 +35,5 @@ Each quick start begins with nothing installed and ends with your first PBOH con
 - [[Tutorial 1090 - Fork and Update PBOH|Fork and Update PBOH]] — optional GitHub setup for receiving updates and contributing; do this once PBOH is already working
 
 ---
-
-[[How It Works]] explains what turns a folder of text into a guide.
 
 The website you are reading is a browsable copy of the material — the navigation on the left opens the corpus itself. The repository, [github.com/peterbrinson/PBOH](https://github.com/peterbrinson/PBOH), is the proper version, features and all.
