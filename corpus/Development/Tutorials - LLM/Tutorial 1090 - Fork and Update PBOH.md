@@ -77,7 +77,7 @@ From inside your Git copy:
 git pull upstream main
 ```
 
-For contribution and gap-log instructions, read `corpus/Get Started/For Contributors/contributing-to-pboh.md` inside PBOH.
+For contribution and gap-log instructions, read `corpus/For Contributors/contributing-to-pboh.md` inside PBOH.
 
 ---
 
