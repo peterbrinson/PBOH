@@ -2,13 +2,20 @@
 publish: false
 ---
 
-# CLAUDE.md — LLM Tutorials (the 1000 block)
+# CLAUDE.md — LLM Tutorials (two blocks: 1000 and 2000)
 
-Setup tutorials: how a student gets an AI tool running and has their first PBOH conversation. These teach **no gameplay features** and must never appear in a build order — if you're tempted to cite one for a game mechanic, that's a wander and the feature is off-map. The published human-facing lists are `index.md` here and `corpus/index.md` (the site root) — the two overlap by design but aren't identical (the root has no 1020 fundamentals door; this page does), so they don't stay in sync automatically. **Adding, renaming, or retiring a tool means updating both**, or one silently goes stale — Setup Instructions did exactly this after the 2026-07-19 quick-start restructure and had to be caught and deleted.
+This folder holds two different kinds of tutorial, separated by number range. **Neither teaches gameplay features**, and none may appear in a build order — if you're tempted to cite one for a game mechanic, that's a wander and the feature is off-map.
 
-**One deliberate exception: 1020 — Your First Persistent Workspace (with Codex).** A prerequisite page for the Codex decade (1021, 1025), and the only page in this block that is a **classroom workshop** rather than a quick start. It has no PBOH session and produces no Prototype Plan. It covers requesting Codex access through USC IT (grants take time, so it must happen before a student sits down to use Codex), installing Obsidian, and then a guided exercise: unpack `attachments/PHO-game-project.zip` — a fictional two-person team's deliberately chaotic project folder — and use Codex to reorganize it into a working vault. What it actually teaches is persistent workspaces and context engineering, not any game feature.
+**The 1000 block — PBOH setup.** How a student gets an AI tool running and has their first PBOH conversation. Every page ends in a PBOH session and a saved Prototype Plan. The published human-facing lists are `index.md` here and `corpus/index.md` (the site root) — the two overlap by design but aren't identical (the root has no fundamentals door; this page does), so they don't stay in sync automatically. **Adding, renaming, or retiring a tool means updating both**, or one silently goes stale — Setup Instructions did exactly this after the 2026-07-19 quick-start restructure and had to be caught and deleted.
 
-Its title undersells the content; the filename is kept stable because it's a published URL. The ZIP is generated content, not authored — regenerate it from `teach/389/Workshop Files/PHO-game-project` if the workshop source changes. Don't generalize this page's shape to a new tool.
+**The 2000 block — general practice, no PBOH.** Persistent workspaces and queryable knowledge bases as a craft, independent of this course and this tutor. These pages run no PBOH session and produce no Prototype Plan. They are the material behind the peer-facing page at `teach/AI/` (`peterbrinson.github.io/teach/AI/`), which is their real audience:
+
+- **2020 — Your First Persistent Workspace (with Codex).** A **classroom workshop**, not a quick start: request Codex access through USC IT (grants take time, so it must happen before a student sits down to use Codex), install Obsidian, then unpack `attachments/PHO-game-project.zip` — a fictional two-person team's deliberately chaotic project folder — and use Codex to reorganize it into a working vault. Teaches persistent workspaces and context engineering. Also serves as the Codex-access prerequisite for 1021 and 1025.
+- **2021 — Your First Queryable Knowledge Bundle.** The sequel: the same moves applied to the reader's *own* material. Covers the step 2020 sidesteps entirely — getting real files (Docs, Word, PDF) into markdown — plus scope, a root note, standing instructions, and keeping it alive.
+
+*Numbered 2020/2021 (renumbered from 1020, 2026-08-31) to separate general-practice pages from PBOH setup. They still live in this folder; whether they should move to `teach/` is an open question.*
+
+The ZIP is generated content, not authored — regenerate it from `teach/389/Workshop Files/PHO-game-project` if the workshop source changes. Don't generalize the 2000-block shape to a new tool quick start.
 
 ## The organizing principle — quick-start-first
 
@@ -37,6 +44,8 @@ Outside the per-tool decades:
 
 - **1090 — Fork and Update PBOH.** Optional GitHub setup, deliberately numbered high so it reads as *after*, not *before*.
 - **1101 — Keep Using PBOH.** What to do once the first session has happened.
+
+The 2000 block is not tool-scoped — those pages teach a practice, not a product, so the decade convention above doesn't apply to them. They run in sequence: **2020** (someone else's folder) then **2021** (your own).
 
 **Translations keep the source number** and carry the language in parentheses plus `language:` / `translation_of:` frontmatter — e.g. `Tutorial 1005 (Japanese)`, `Tutorial 1035 (Chinese)`. Two files sharing a number is correct *only* for translations. Two different tutorials sharing a number is the bug this renumbering fixed; the corpus index registry can't carry it.
 
