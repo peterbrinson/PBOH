@@ -245,25 +245,6 @@ async function setupExplorer(currentSlug: FullSlug) {
 
     // Create and insert new content
     const fragment = document.createDocumentFragment()
-
-    // The site root (corpus/index.md) is the PBOH doorway — the description
-    // plus the quick-start list. Quartz never lists a root index in the
-    // explorer (it folds into the tree root), so it has no nav row and can
-    // only be reached via the title or breadcrumb. Inject one as the first
-    // top-level entry. Same intent as the per-folder "Index" rows above, one
-    // level up.
-    const rootTemplate = document.getElementById("template-file") as HTMLTemplateElement
-    const rootClone = rootTemplate.content.cloneNode(true) as DocumentFragment
-    const rootLi = rootClone.querySelector("li") as HTMLLIElement
-    const rootA = rootLi.querySelector("a") as HTMLAnchorElement
-    rootA.href = resolveRelative(currentSlug, "index" as FullSlug)
-    rootA.dataset.for = "index"
-    rootA.textContent = "PBOH"
-    if (currentSlug === "index") {
-      rootA.classList.add("active")
-    }
-    fragment.appendChild(rootLi)
-
     for (const child of trie.children) {
       const node = child.isFolder
         ? createFolderNode(currentSlug, child, opts)
