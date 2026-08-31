@@ -214,19 +214,20 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 ### Development
 
 - **Development** `corpus/Development/index.md` — The hands-on side — building in Unreal Engine and setting up the AI tooling that runs PBOH.
-- **Tutorials - LLM** `corpus/Development/Tutorials - LLM/index.md` — - Tutorials - LLM/Tutorial 1020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)
+- **Tutorials - LLM** `corpus/Development/Tutorials - LLM/index.md` — - Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)
 - **Tutorial 1001 - Gemini Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1001 - Gemini Terminal Quick Start.md` — By the end of this tutorial, Gemini CLI is installed, pointed at PBOH, and used for your first GET conversation and Prototype Plan.
 - **Tutorial 1005 - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start.md` — By the end of this tutorial, PBOH is open in Antigravity and you have held your first conversation about a project idea. PBOH will save…
 - **Tutorial 1005 (Japanese) - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 (Japanese) - Antigravity Quick Start.md` — Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|English version →
 - **Tutorial 1011 - Claude Code Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start.md` — By the end of this tutorial, Claude Code is installed in your terminal, pointed at PBOH, and used for your first saved Prototype Plan.
 - **Tutorial 1015 - Claude Code Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start.md` — By the end of this tutorial, PBOH is open in Claude Code’s desktop interface and you have completed and saved your first Prototype Plan.
-- **Tutorial 1020 - Your First Persistent Workspace (with Codex)** `corpus/Development/Tutorials - LLM/Tutorial 1020 - Your First Persistent Workspace (with Codex).md` — By the end of this tutorial you will have Codex access approved, Obsidian installed, and you will have used the two of them together to…
 - **Tutorial 1021 - Codex Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start.md` — By the end of this tutorial, Codex CLI is installed, pointed at PBOH, and used for your first saved Prototype Plan.
 - **Tutorial 1025 - Codex Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start.md` — By the end of this tutorial, Peter's project, PB Office Hours is open through Codex in the ChatGPT desktop app and you have completed and…
 - **Tutorial 1035 - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` — By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at PBOH, and used for your first saved Prototype Plan.
 - **Tutorial 1035 (Chinese) - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 (Chinese) - DeepSeek Quick Start.md` — Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start|English version →
 - **Tutorial 1090 - Fork and Update PBOH** `corpus/Development/Tutorials - LLM/Tutorial 1090 - Fork and Update PBOH.md` — By the end of this optional tutorial, you have a GitHub fork of PBOH that can receive course updates and carry contributions back to the…
 - **Tutorial 1101 - Keep Using PBOH** `corpus/Development/Tutorials - LLM/Tutorial 1101 - Keep Using PBOH.md` — You will know the three main ways to work with PBOH, where it saves your files, and how to resume later.
+- **Tutorial 2020 - Your First Persistent Workspace (with Codex)** `corpus/Development/Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex).md` — By the end of this tutorial you will have Codex access approved, Obsidian installed, and you will have used the two of them together to…
+- **Tutorial 2021 - Your First Queryable Knowledge Bundle** `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Bundle.md` — By the end of this tutorial a slice of your own material — a course you teach, a research area, a project's documents — is a working…
 - **100 - Discovery and Encounter** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/index.md` — The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.
 - **UE Tutorial 101 - A Floor Plate Opens A Door** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 101 - A Floor Plate Opens A Door.md` — Jump to (01:48): https://vimeo.com/1119249385?fl=pl&fe=cmt=1m45s
 - **UE Tutorial 102 - Collectables and Restart** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 102 - Collectables and Restart.md` — Continuing From: UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101: A Floor Plate Opens A Door
@@ -359,10 +360,11 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 | 1005 | Antigravity Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start.md` |
 | 1011 | Claude Code Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start.md` |
 | 1015 | Claude Code Desktop Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start.md` |
-| 1020 | Your First Persistent Workspace (with Codex) | `corpus/Development/Tutorials - LLM/Tutorial 1020 - Your First Persistent Workspace (with Codex).md` |
 | 1021 | Codex Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start.md` |
 | 1025 | Codex Desktop Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start.md` |
 | 1035 | DeepSeek Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` |
 | 1090 | Fork and Update PBOH | `corpus/Development/Tutorials - LLM/Tutorial 1090 - Fork and Update PBOH.md` |
 | 1101 | Keep Using PBOH | `corpus/Development/Tutorials - LLM/Tutorial 1101 - Keep Using PBOH.md` |
+| 2020 | Your First Persistent Workspace (with Codex) | `corpus/Development/Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex).md` |
+| 2021 | Your First Queryable Knowledge Bundle | `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Bundle.md` |
 
