@@ -86,12 +86,12 @@ comprehension.
 
 It will take a while, and the answer will be long. Skim it.
 
-Notice what it can tell you that a folder listing cannot: where Anthony and Deloris **disagree**, which document is actually current, and what got decided in a meeting note and never made it into the design doc.
+Notice what it can tell you that a folder listing cannot: where Anthony and Deloris **disagree**, which documents are in fact current, and what meeting decisions  never made it into the design doc.
 
 Then ask for less:
 
 ```
-Ok. That's a long response. Summarize the essence in 2 paragraphs or
+Ok. That's a long response. Summarize in 2 paragraphs or
 equivalent bullet points.
 ```
 
@@ -115,7 +115,7 @@ work together moving forward.
 
 It will probably ask you some questions. Answer them with these in mind:
 
-- Don't use Git.
+- Don't use Git (yet).
 - Make these edits in `PHO-game-project (Improve)`, **not** the original download.
 - If it asks about the Unity game project itself, tell it to work only on these documents.
 - It will likely propose drafting new files as part of the restructure. Ask it to **archive** anything made obsolete by that, rather than deleting it.
@@ -174,11 +174,11 @@ What is in my context window right now, and what happens when it fills up?
 ```
 
 ```
-Now that the project is reorganized, what would you need to read to answer
+Now that the project is reorganized, what would you need to read in order to answer
 a question about it? How does that compare to the messy version?
 ```
 
-That second question is the whole workshop in one line. 
+
 
 ---
 
