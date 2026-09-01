@@ -167,14 +167,10 @@ If you want to see how far this goes with sustained tending, [PB Office Hours](h
 ## Troubleshooting
 
 
-
 ### The conversion mangled my tables and figures
 
 Expected. Keep the original file beside the markdown version and reference it by name. Not everything needs to be text — the point is that the *queryable* material is text.
 
-### It can't read my PDFs
-
-Ask it directly what it can and can't open. For scanned PDFs (images of pages rather than text), it will need OCR, which is usually more effort than it's worth for a first pass — leave them as artifacts and move on.
 
 ### The answers are vague, or it misses things I know are there
 
@@ -182,4 +178,4 @@ Almost always a naming or structure problem rather than a model problem. Ask: *"
 
 ### I started with too much and it's overwhelming
 
-Stop, keep the original, and start again with a smaller slice. This is the most common way a first attempt goes wrong, and starting over costs less than trying to salvage a reorganization you can't check.
+Stop, keep the original, and start again with a smaller slice. 
