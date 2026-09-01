@@ -11,14 +11,14 @@ aliases: ["Tutorial 2021 - Your First Queryable Knowledge Bundle"]
 
 In [[Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace]] you did this to somebody else's mess. That folder was chosen to be easy: it was small, it was already markdown, and none of it was yours to have opinions about. Your own material is none of those things. This tutorial is about the difference.
 
-**What this is actually teaching.** Four things 2020 left out:
+**What this is actually teaching.** Four things Tutorial 2020 left out:
 
 - **Scope** — choosing a slice small enough to finish.
 - **Conversion** — getting real files out of Word, Google Docs, and PDFs and into plain text.
 - **Authorship** — the parts an AI shouldn't decide for you: your vocabulary, your structure, your standing instructions.
 - **Upkeep** — what makes it a living folder rather than a one-time cleanup.
 
-**You need:** an AI coding agent already working on your machine and Obsidian installed — both covered in 2020 — plus material of your own. Budget an hour or two, and expect to come back to it.
+**You need:** an AI coding agent already working on your machine and Obsidian installed — both covered in Tutorial 2020 — plus material of your own. Budget an hour or two, and expect to come back to it.
 
 ---
 
