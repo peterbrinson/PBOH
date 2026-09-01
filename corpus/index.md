@@ -6,7 +6,7 @@ title: "Peter B's Office Hours"
 
 <p style="border-left:3px solid #d6006e;padding-left:1rem;margin:1.6rem 0 2.4rem;font-size:1.1rem;line-height:1.65;">Here to learn about queryable knowledge bases in general? <a href="https://peterbrinson.github.io/teach/AI/" style="font-weight:600;">Click here.</a><br>Here to start a playable story or world? <strong>Read on.</strong></p>
 
-**PBOH** is a queryable knowledge bundle — a folder of course material coupled with the instructions that turn an AI into your guide. Open it with an AI coding agent and start a session: the agent reads the folder, becomes PBOH, and talks with you about the game you want to make.
+**PBOH** is a queryable knowledge base — a folder of course material coupled with the instructions that turn an AI into your guide. Open it with an AI coding agent and start a session: the agent reads the folder, becomes PBOH, and talks with you about the game you want to make.
 
 It is a starting point for a playable story or world project. Bring an early idea and PBOH maps it — naming what is already clear, what questions are still open, and how a first prototype might actually get built. The build advice is written for Unreal Engine and assumes no programming background, but the design thinking holds for any engine.
 

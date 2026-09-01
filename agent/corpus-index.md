@@ -227,7 +227,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **Tutorial 1090 - Fork and Update PBOH** `corpus/Development/Tutorials - LLM/Tutorial 1090 - Fork and Update PBOH.md` — By the end of this optional tutorial, you have a GitHub fork of PBOH that can receive course updates and carry contributions back to the…
 - **Tutorial 1101 - Keep Using PBOH** `corpus/Development/Tutorials - LLM/Tutorial 1101 - Keep Using PBOH.md` — You will know the three main ways to work with PBOH, where it saves your files, and how to resume later.
 - **Tutorial 2020 - Your First Persistent Workspace (with Codex)** `corpus/Development/Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex).md` — By the end of this tutorial you will have Codex access approved, Obsidian installed, and you will have used the two of them together to…
-- **Tutorial 2021 - Your First Queryable Knowledge Bundle** `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Bundle.md` — By the end of this tutorial a slice of your own material — a course you teach, a research area, a project's documents — is a working…
+- **Tutorial 2021 - Your First Queryable Knowledge Base** `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Base.md` — By the end of this tutorial a slice of your own material — a course you teach, a research area, a project's documents — is a working…
 - **100 - Discovery and Encounter** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/index.md` — The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.
 - **UE Tutorial 101 - A Floor Plate Opens A Door** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 101 - A Floor Plate Opens A Door.md` — Jump to (01:48): https://vimeo.com/1119249385?fl=pl&fe=cmt=1m45s
 - **UE Tutorial 102 - Collectables and Restart** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 102 - Collectables and Restart.md` — Continuing From: UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101: A Floor Plate Opens A Door
@@ -329,7 +329,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 
 ### index.md
 
-- **Peter B's Office Hours** `corpus/index.md` — PBOH is a queryable knowledge bundle — a folder of course material coupled with the instructions that turn an AI into your guide. Open it…
+- **Peter B's Office Hours** `corpus/index.md` — PBOH is a queryable knowledge base — a folder of course material coupled with the instructions that turn an AI into your guide. Open it…
 
 ### Unity Wiki
 
@@ -366,5 +366,5 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 | 1090 | Fork and Update PBOH | `corpus/Development/Tutorials - LLM/Tutorial 1090 - Fork and Update PBOH.md` |
 | 1101 | Keep Using PBOH | `corpus/Development/Tutorials - LLM/Tutorial 1101 - Keep Using PBOH.md` |
 | 2020 | Your First Persistent Workspace (with Codex) | `corpus/Development/Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex).md` |
-| 2021 | Your First Queryable Knowledge Bundle | `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Bundle.md` |
+| 2021 | Your First Queryable Knowledge Base | `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Base.md` |
 

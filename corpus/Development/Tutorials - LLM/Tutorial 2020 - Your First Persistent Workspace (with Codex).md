@@ -191,7 +191,7 @@ a question about it? How does that compare to the messy version?
 
 ---
 
-**Next:** do this to your own material — [[Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Bundle|Your First Queryable Knowledge Bundle]] covers the parts this workshop left out, starting with getting real files into markdown.
+**Next:** do this to your own material — [[Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] covers the parts this workshop left out, starting with getting real files into markdown.
 
 With Codex access granted and Obsidian installed, you can also continue to [[Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start|Codex Terminal]] or [[Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start|Codex Desktop]] to set up PBOH.
 
