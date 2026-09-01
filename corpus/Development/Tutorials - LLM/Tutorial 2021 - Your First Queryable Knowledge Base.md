@@ -24,11 +24,10 @@ In [[Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex
 
 ## 1. Choose Your Slice
 
-Pick one thing you already know well: a single course, a single research area, one project's documents. Not a whole drive, not "all my teaching."
+Pick something you already know well: a single course, a single research area, one project's documents. 
 
-Somewhere between 20 and 200 files is the right size. Small enough to finish in a sitting, big enough that finding things by hand is genuinely annoying — which is the feeling this is supposed to relieve.
+Somewhere between 15 and 40 documents is the right size. 
 
-The temptation is to start with the biggest mess you own. Resist it. A large folder produces a reorganization you can't check, and if you can't check it you won't trust it, and if you don't trust it you won't use it.
 
 ---
 
@@ -36,23 +35,13 @@ The temptation is to start with the biggest mess you own. Resist it. A large fol
 
 Copy the folder. Work only on the copy. Name it something obvious like `<project> (KB)`.
 
-This is the same discipline as 2020, and it matters more here because this material is real. Everything below is reversible as long as the original is untouched.
-
-If your material lives in Google Drive or Dropbox, download a copy to a local folder first. Working inside a syncing folder while an agent moves files around can produce conflicts that are tedious to untangle.
+If your material lives in Google Drive or Dropbox, download a copy to a local folder first. 
 
 ---
 
 ## 3. Get It Into Markdown
 
-This is the step 2020 skipped entirely, and it's where most people stall.
-
-**First, decide what actually needs converting.** Not everything does:
-
-- **Convert** anything you'll want to *ask questions about* — notes, outlines, drafts, meeting records, syllabi, reading responses.
-- **Leave alone** anything that's an artifact rather than text — images, video, slide decks you present from, spreadsheets, final PDFs you hand out. These can sit in the folder and be referenced by name. Your agent can still see them.
-- **Decide case by case** on long PDFs. Many agents read PDFs directly; ask yours before spending effort converting one.
-
-**Then let the agent do the work.** Point it at the folder and ask for a plan before any converting happens:
+**Start with an inventory.** You can't decide what to convert before you know what's there. Point the agent at the folder and ask for a plan before anything moves:
 
 ```
 This is a folder of my own material that I want to turn into a markdown
@@ -62,16 +51,16 @@ ones you'd need to convert. Then propose a conversion plan — what becomes
 markdown, what stays as-is, and why. Don't convert anything yet.
 ```
 
-Read the plan and push back on it. You know which of these files matter; it doesn't.
+**Then judge the plan.** You know which of these files matter. What to weigh:
 
-Two things to tell it when you approve:
+- **If it holds text you'll ask questions about, convert it** — notes, outlines, drafts, meeting records, syllabi, reading responses, PDFs and slide decks. Conversion is a one-time cost that pays back on every visit afterward. An agent re-reading a PDF each session is slower, and quietly less reliable than one reading markdown you made once.
+- **Leave what isn't made of words** — images, video, audio, and spreadsheets you actually compute with. There's nothing to convert. They sit in the folder and get referenced by name, and your agent can still see them.
+- **Scanned PDFs are the real exception.** Pages that are pictures of text are expensive to read each time. Leave them on the first pass and come back if you find yourself reaching for them.
 
-- **Keep the original next to the converted copy** for anything where formatting carried meaning — tables, figures, anything you'd have to rebuild by hand if the conversion came out wrong.
-- **Don't invent content.** If a conversion loses something, you want a gap you can see, not a plausible sentence filling it.
 
 **Shortcuts worth knowing.** Google Docs exports markdown directly (File → Download → Markdown), which is cleaner than going through `.docx`. If you have many Word files, ask your agent whether `pandoc` is available on your machine — it's the standard converter and handles bulk jobs in one command.
 
-Expect this step to be imperfect. Converted files will have odd spacing and stray artifacts. That's fine; the text is what you're querying, not the formatting.
+Expect this step to be imperfect. Converted files will have odd spacing and stray artifacts. That's fine.
 
 ---
 
@@ -85,9 +74,7 @@ things are duplicated, where two documents contradict each other, and what
 looks unfinished. Don't give advice on the merits of the ideas.
 ```
 
-The result is different from 2020's, and the difference is the point. In the workshop you were learning about strangers. Here you're being shown your own material from outside — which draft is actually current, what you wrote twice, what you started and abandoned.
 
-Read it properly. This is the most useful single output of the whole tutorial, and it's the one you can't get any other way.
 
 ---
 
@@ -105,9 +92,8 @@ I want to be able to hand this folder to an AI cold and have it find things.
 
 When it asks questions — it will — here is where you overrule it:
 
-- **Your vocabulary wins.** If you call them "modules" and it proposes "units," say so. The folder should sound like you, because you're the one who has to find things in it later.
-- **Your groupings win.** An agent will organize by file type or by date because those are visible. You know the material has a shape that isn't visible in filenames. Tell it what that shape is.
-- **Archive, don't delete.** Same rule as 2020.
+- **Your vocabulary wins.** If you call them "modules" and it proposes "units," say so. The folder should sound like you.
+- **Your groupings win.**  If an aspect of its organization isn't to your liking, change it.  
 
 Let it implement, and watch the sidebar in Obsidian while it works. Don't edit anything until it's finished.
 
@@ -145,20 +131,20 @@ Start with three or four lines. Add to it whenever you catch yourself repeating 
 
 ## 8. Test It With a Real Question
 
-Ask something you actually need answered, not a test question:
+Ask something you actually need answered:
 
 ```
 What have I already written about [a topic you know is in there somewhere]?
 ```
 
-Then the diagnostic from 2020:
+Then the diagnostic from Tutorial 2020:
 
 ```
 What did you need to read to answer that? How would it have gone before
 the reorganization?
 ```
 
-If it can't find something you know is there, that is a **context engineering problem, not an AI failure** — the file is named badly, or it's in the wrong folder, or the root note doesn't mention it. Fix the folder, then ask again.
+If it can't find something you know is there, that is a **context engineering problem** — the file is named badly, or it's in the wrong folder, or the root note doesn't mention it. Fix then ask again.
 
 ---
 
@@ -180,9 +166,7 @@ If you want to see how far this goes with sustained tending, [PB Office Hours](h
 
 ## Troubleshooting
 
-### It reorganized things I didn't want touched
 
-Your original copy is untouched — that's what Step 2 was for. Restore the parts you want back, tell the agent explicitly which folders are off limits, and add that rule to your `AGENTS.md` so it holds next session.
 
 ### The conversion mangled my tables and figures
 
