@@ -2,11 +2,12 @@
 type: Tutorial
 cssclasses: unreal-tutorial
 publish: true
+aliases: ["Tutorial 2021 - Your First Queryable Knowledge Bundle"]
 ---
 
 ## 0. Introduction
 
-**Outcome.** By the end of this tutorial a slice of your own material — a course you teach, a research area, a project's documents — is a working knowledge bundle: a folder you can ask questions of, that an AI can pick up cold, and that you can keep adding to.
+**Outcome.** By the end of this tutorial a slice of your own material — a course you teach, a research area, a project's documents — is a working knowledge base: a folder you can ask questions of, that an AI can pick up cold, and that you can keep adding to.
 
 In [[Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace]] you did this to somebody else's mess. That folder was chosen to be easy: it was small, it was already markdown, and none of it was yours to have opinions about. Your own material is none of those things. This tutorial is about the difference.
 
@@ -163,7 +164,7 @@ If it can't find something you know is there, that is a **context engineering pr
 
 ## 9. Keep It Alive
 
-A knowledge bundle is a habit, not a project. Three things keep it useful:
+A knowledge base is a habit, not a project. Three things keep it useful:
 
 - **Add as you go.** New notes go in the folder in markdown, not in a chat window you'll close.
 - **Let it file for you.** *"I'm adding this document — where does it belong and what should it be called?"*
@@ -173,7 +174,7 @@ You do not need to convert the rest of your material. Add the next slice when th
 
 ---
 
-If you want to see how far this goes with sustained tending, [PB Office Hours](https://peterbrinson.github.io/PBOH/) is a knowledge bundle built this way over months — course material plus standing instructions, arranged so an AI becomes a guide students talk to. It is one example of the shape, not the only one.
+If you want to see how far this goes with sustained tending, [PB Office Hours](https://peterbrinson.github.io/PBOH/) is a knowledge base built this way over months — course material plus standing instructions, arranged so an AI becomes a guide students talk to. It is one example of the shape, not the only one.
 
 ---
 

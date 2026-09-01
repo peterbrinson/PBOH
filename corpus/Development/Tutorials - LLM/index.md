@@ -9,7 +9,7 @@ publish: true
 ## Learning persistent-workspace fundamentals instead? Start here
 
 - [[Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] 
-- [[Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Bundle|Your First Queryable Knowledge Bundle]] — then the same moves on your own material
+- [[Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] — then the same moves on your own material
 
 ## Start PBOH — pick one
 

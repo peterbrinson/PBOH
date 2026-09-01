@@ -11,7 +11,7 @@ This folder holds two different kinds of tutorial, separated by number range. **
 **The 2000 block — general practice, no PBOH.** Persistent workspaces and queryable knowledge bases as a craft, independent of this course and this tutor. These pages run no PBOH session and produce no Prototype Plan. They are the material behind the peer-facing page at `teach/AI/` (`peterbrinson.github.io/teach/AI/`), which is their real audience:
 
 - **2020 — Your First Persistent Workspace (with Codex).** A **classroom workshop**, not a quick start: request Codex access through USC IT (grants take time, so it must happen before a student sits down to use Codex), install Obsidian, then unpack `attachments/PHO-game-project.zip` — a fictional two-person team's deliberately chaotic project folder — and use Codex to reorganize it into a working vault. Teaches persistent workspaces and context engineering. Also serves as the Codex-access prerequisite for 1021 and 1025.
-- **2021 — Your First Queryable Knowledge Bundle.** The sequel: the same moves applied to the reader's *own* material. Covers the step 2020 sidesteps entirely — getting real files (Docs, Word, PDF) into markdown — plus scope, a root note, standing instructions, and keeping it alive.
+- **2021 — Your First Queryable Knowledge Base.** The sequel: the same moves applied to the reader's *own* material. Covers the step 2020 sidesteps entirely — getting real files (Docs, Word, PDF) into markdown — plus scope, a root note, standing instructions, and keeping it alive.
 
 *Numbered 2020/2021 (renumbered from 1020, 2026-08-31) to separate general-practice pages from PBOH setup. They still live in this folder; whether they should move to `teach/` is an open question.*
 
