@@ -49,7 +49,7 @@ These files belong to you. PBOH confirms the location whenever it saves somethin
 Open the same `PBOH` folder in the same tool and type:
 
 ```
-Start a GET session.
+Start a PBOH session.
 ```
 
 If `student-notes-private/where-we-left-off.md` contains a recent brief, PBOH will offer to continue from it.
