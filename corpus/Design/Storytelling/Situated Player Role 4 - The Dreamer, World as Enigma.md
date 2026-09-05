@@ -27,7 +27,7 @@ The Entrant’s threshold demands mastery of how the world works. The Dreamer’
 
 ## Surrealism and Dreams
 
-*Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer's role is not to decode a hidden answer but to interpret the work into personal meaning — the same demand The Dreamer places on the player.
+*Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer's role is not not just to decode meaning within but to interpret the work into personal meaning — the same demand The Dreamer places on the player.
 
 ![[Spr_dreamer_20.jpg]]
 
@@ -35,7 +35,7 @@ _The Burning Giraffe_ (1937) by Salvador Dali
 
 ## Dream Logic
 
-The Dreamer engages logic — but it is *dream logic*. We see this codified in the film *[[Film - Inception|Inception]]*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, physics bends around the architect's will. These are not the rules of waking life.
+The Dreamer engages logic — but it is *dream logic*. We see this codified in the film *[[Film - Inception|Inception]]*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, physics bends around the architect's will. 
 
 ![[spr_dreamer_05.webp]]
 
@@ -67,7 +67,7 @@ The mechanics are metaphors.  Playing the child of an alcoholic, the player mana
 
 ## Dreams and Play
 
-Satoshi Kon’s animated film, _[[Film - Paprika|Paprika]]_, offers a clear image of dreams as living enigmas. As the film progresses, dreams leak into the waking world, culminating in an absurd parade of surreal objects — dancing appliances, walking furniture, and twisting toys — march through the city.
+Satoshi Kon’s animated film, _[[Film - Paprika|Paprika]]_, offers a clear image of dreams as living enigmas.  Dreams leak into the waking world, culminating in an absurd parade of surreal objects — dancing appliances, walking furniture, and twisting toys — march through the city.
 
 ![[spr_dreamer_40.webp]]
 
