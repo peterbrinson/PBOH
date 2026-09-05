@@ -14,7 +14,7 @@ PBOH is written close to the shape Google recently named the [Open Knowledge For
 
 ---
 
-## Your first session
+<h2 style="color:#d6006e;border-left:4px solid #d6006e;padding-left:0.75rem;margin:2.4rem 0 1.1rem;">Your First Session</h2>
 
 You've met the [[Situated Player Roles]] — the Investigator, the Traveler, the Entrant, the Dreamer — or [[Worldbuilding|Bounded Worlds]]. This is what to do with them.
 
