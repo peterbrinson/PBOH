@@ -14,12 +14,11 @@ PBOH is written close to the shape Google recently named the [Open Knowledge For
 
 ---
 
-<h2 style="color:#d6006e;border-left:4px solid #d6006e;padding-left:0.75rem;margin:2.4rem 0 1.1rem;">Your First Session</h2>
+# *Start Your First Session Here*
 
-You've met the [[Situated Player Roles]] — the Investigator, the Traveler, the Entrant, the Dreamer — or [[Worldbuilding|Bounded Worlds]]. This is what to do with them.
+If you haven't studied them in Peter's class, read at least one of the [[Situated Player Roles]] or the [[Worldbuilding|Bounded Worlds]] framework before continuing. Each is a quick read.
 
 **Bring one idea.** It should be new and short, and can be incomplete. 
-
 **You leave with a Prototype Plan** — saved to your own folder and yours to keep. 
 
 ## Set up your AI tool — pick one
@@ -41,7 +40,7 @@ Each quick start begins with nothing installed and ends with your first PBOH con
 
 - [[Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]] — the three kinds of conversation, saved files, and where to continue
 - [[Tutorial 1090 - Fork and Update PBOH|Fork and Update PBOH]] — optional GitHub setup for receiving updates and contributing; do this once PBOH is already working
-
+<br>
 - [[Tutorials - LLM|A list of all quick starts]]
 ---
 
