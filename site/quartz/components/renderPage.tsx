@@ -259,8 +259,14 @@ export function renderPage(
 
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const direction = i18n(cfg.locale).direction ?? "ltr"
+  // PBOH is dark only. `saved-theme` is normally set by darkmode.inline.ts,
+  // which ships with the Darkmode toggle — and that toggle is deliberately gone
+  // from quartz.layout.ts. Hardcoding the attribute here keeps every
+  // `[saved-theme="dark"]` selector firing (syntax.scss's code-block theme, the
+  // color-scheme rule in custom.scss) and lets mermaid.inline.ts read "dark".
+  // Static, so there's no flash on load and nothing to persist.
   const doc = (
-    <html lang={lang} dir={direction}>
+    <html lang={lang} dir={direction} saved-theme="dark">
       <Head {...componentData} />
       <body data-slug={slug}>
         <div id="quartz-root" class="page">

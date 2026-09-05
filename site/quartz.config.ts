@@ -28,16 +28,27 @@ const config: QuartzConfig = {
         code: "IBM Plex Mono",
       },
       colors: {
+        // PBOH is DARK ONLY. Three things enforce it together, and they have
+        // to stay together:
+        //   1. both palettes below carry the same dark values,
+        //   2. `saved-theme="dark"` is hardcoded on <html> in
+        //      quartz/components/renderPage.tsx,
+        //   3. the Darkmode toggle is removed from quartz.layout.ts.
+        // Quartz's theme.ts emits BOTH a `:root` block (fed by lightMode) and
+        // a `:root[saved-theme="dark"]` block (fed by darkMode), so leaving
+        // lightMode light would let any page that misses the attribute render
+        // half-light. Keeping them identical makes that impossible.
+        // To recolor the site, edit both blocks.
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
+          light: "#161618",
+          lightgray: "#393639",
+          gray: "#646464",
+          darkgray: "#d4d4d4",
+          dark: "#ebebec",
+          secondary: "#7b97aa",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          textHighlight: "#b3aa0288",
         },
         darkMode: {
           light: "#161618",
