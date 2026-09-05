@@ -2,6 +2,16 @@
 
 // put your custom CSS here!
 
+// --- Dark only ---
+// `color-scheme: dark` used to come from the Darkmode component's own
+// darkmode.scss, which Quartz only ships when that component is in the layout —
+// and it isn't any more (see quartz.layout.ts). Without this, the browser
+// renders scrollbars, form controls, and the pre-paint canvas in LIGHT chrome
+// against a dark page. Restated here so it survives the toggle's removal.
+:root {
+  color-scheme: dark;
+}
+
 // Remove the "Explorer" header row (title emptied in quartz.layout.ts).
 // Hide the desktop collapse-all toggle (empty title + stray chevron).
 // Higher specificity than explorer.scss's `button.desktop-explorer`

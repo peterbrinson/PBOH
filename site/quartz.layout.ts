@@ -36,7 +36,10 @@ export const defaultContentPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
-        { Component: Component.Darkmode() },
+        // Component.Darkmode() deliberately removed — PBOH is dark only.
+        // See the colors block in quartz.config.ts for the other two halves
+        // of that change; re-adding this button alone would give students a
+        // toggle whose "light" side no longer exists.
         { Component: Component.ReaderMode() },
       ],
     }),
@@ -91,7 +94,7 @@ export const defaultListPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
-        { Component: Component.Darkmode() },
+        // Component.Darkmode() deliberately removed — PBOH is dark only.
       ],
     }),
     Component.Explorer({
