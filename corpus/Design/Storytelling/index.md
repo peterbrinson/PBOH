@@ -17,7 +17,7 @@ The Situated Player Roles form a game design framework for approaching narrative
 
 ### The Four Roles
 
-Each role balances two dynamics: discovery and control. The first two roles emphasize discovery; the latter two emphasize control.
+Two dynamics organize the four roles: discovery and control. Discovery means attending closely to what the world presents by looking, reading, listening, and moving through it. Control means acting upon the world's state by testing, manipulating, and configuring its systems. Every role involves both dynamics, but places different activities in the foreground. In the Investigator and Traveler, the player's meaningful mechanics, time, and attention are devoted primarily to discovery. In the Entrant and Dreamer, they are devoted primarily to control. In the first two roles, control enables discovery; in the latter two, discovery enables control.
 
 1. **[[Situated Player Role 1 - The Investigator, World as Evidence|The Investigator]]** ("What happened?") — The Investigator reconstructs the story by discovering and engaging evidence - notes, objects, recordings, and NPC's. 
 2. **[[Situated Player Role 2 - The Traveler, World as Presence|The Traveler]]** ("What am I experiencing?") —  The Traveler discovers meaning by moving through the world, often a labyrinth.  Story emerges in real-time by exploring a world, shaped by the player's point of view and the simple act of being there.
