@@ -9,9 +9,9 @@ aliases:
 
 ![[spr_investigator_01.webp]]
 
-The Investigator probes a world in order to understand how it is configured and how it behaves. Play is an act of reconstruction; the player has arrived late: the events have transpired.
+The Investigator probes a world to reconstruct the events that shaped its present condition. The player has arrived late: the events have transpired.
 
-The Investigator reconstructs past events through environmental storytelling by asking, **"What happened?"** 
+Through environmental storytelling, the Investigator asks, **"What happened?"** 
 
 ## Discovery and Analysis
 
@@ -24,7 +24,7 @@ Discovery means attending closely to what the world presents. For the Investigat
 
 These mechanics give the player control over movement, attention, and access to evidence. But that control serves discovery: the player uses what they find to reconstruct past events.
 
-Success might be measured by the system, but is also always intrinsic; progress comes from learning the world’s internal consistency — how natural forces work, how people and places connect, and how technology functions.
+Success might be measured by the system, but it is also intrinsic; progress comes from learning enough of the world's internal consistency to read its evidence. Understanding how natural forces behave, how people and places connect, and how technology functions helps the player assemble that evidence into a causal history.
 
 With this understanding in place, the player can begin to speculate — quietly imagining the parts of the world and story they cannot directly access.
 
