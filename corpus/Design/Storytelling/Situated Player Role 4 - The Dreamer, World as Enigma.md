@@ -8,7 +8,9 @@ aliases:
 **Previous:** [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3: The Entrant]]
 
 
-The Dreamer is a player who strives to control their environment, but unlike the Entrant — who confronts a material reality — the Dreamer confronts a symbolic one. In this role, the boundary between a character’s psychology and the level’s challenges begins to dissolve. The world expresses an internal state, and the player must interpret that expression in order to act. The Dreamer asks, **“What does this world express?”**
+The Dreamer is a player who strives to control their environment, but unlike the Entrant — who confronts a material reality — the Dreamer confronts a symbolic one. In this role, the boundary between a character’s psychology and the level’s challenges begins to dissolve. The world expresses an internal state. The Dreamer asks, **“What does this world express?”**
+
+Within the framework's two organizing dynamics—discovery and control—the Dreamer places control in the foreground. The player discovers the world's expressive logic while acting within it. Their actions function both mechanically and metaphorically.
 
 ## The “Alice” Shift: Rationality vs. Surrealism
 

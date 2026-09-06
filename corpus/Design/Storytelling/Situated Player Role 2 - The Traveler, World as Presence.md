@@ -13,6 +13,8 @@ The Traveler explores a world in the present tense.  Like The Investigator, the 
 
 A familiar philosophical riddle captures this logic: if a tree falls in the woods and no one is there to hear it, does it make a sound? For the Traveler, the answer is *no*. Narrative is constituted by presence. What The Traveler sees, passes through, and confronts is the story. The player asks, **"What is this experience?"** 
 
+Within the framework's two organizing dynamics—discovery and control—the Traveler places discovery in the foreground. The player controls movement and attention in order to encounter the world and experience what unfolds there.
+
 ## The Labyrinth
 
 ![[spr_traveler_02.jpg]]

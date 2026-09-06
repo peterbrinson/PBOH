@@ -15,7 +15,7 @@ These thresholds appear as gates, locked doors, guarded borders, or rituals. The
 
 ## The Shift to Control
 
-The Entrant marks the framework's major shift toward control. Agency is no longer expressed merely through movement or interpretation, but through demonstrated alignment with the system's demands.
+Within the framework's two organizing dynamics—discovery and control—the Entrant places control in the foreground. The player discovers the system's rules in order to satisfy its conditions and cross the threshold.
 
 In *The Legend of Zelda* (1986), this is often transparent: a locked door requires a key. But in *[[Game - Breath of the Wild|Breath of the Wild]]* (2017) — to pass through a room within a shrine — the player must manipulate parts of the room by rotating gears with Magnesis or freezing water with Cryonis.
 

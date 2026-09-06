@@ -15,12 +15,14 @@ The Investigator reconstructs past events through environmental storytelling by 
 
 ## Discovery and Analysis
 
-This role is driven by discovery. The gameplay consists of:
+Discovery means attending closely to what the world presents. For the Investigator, this happens through mechanics such as:
 
-- Exploring spaces
-- Using maps
+- Exploring and examining spaces
+- Using maps to connect locations
 - Reading notes and listening to recordings
-- Engaging NPCs
+- Questioning NPCs
+
+These mechanics give the player control over movement, attention, and access to evidence. But that control serves discovery: the player uses what they find to reconstruct past events.
 
 Success might be measured by the system, but is also always intrinsic; progress comes from learning the world’s internal consistency — how natural forces work, how people and places connect, and how technology functions.
 
@@ -76,7 +78,7 @@ AAA games contain multiple Situated Player Roles. The Investigator — examining
 Perhaps the most straightforward encapsulation of The Investigator can be found in a short animated film, *La Maison en Petits Cubes.* Neither a detective nor adventurer, the protagonist is an old man alone in an elemental world. He descends floor by floor into a flooded, impossibly tall and multi-storied house; each level is a lived period, a memory recovered through exploration. This short film captures how spaces can represent a life and how descending into them is an act of remembering.
 https://www.youtube.com/watch?v=jhQ75OV4VRs
 
-Where games make The Investigator most salient is in their system of knowing: understanding is earned through play. This role treats narrative as discoverable and stable, rewarding players who slow down, take notes, and update comprehension as new evidence appears.
+Where games make The Investigator most salient is in their system of knowing: understanding is earned through what the player chooses to examine, read, listen to, and connect. This role treats narrative as discoverable and stable, rewarding players who slow down, take notes, and update comprehension as new evidence appears.
 
 
 **Next:** [[Situated Player Role 2 - The Traveler, World as Presence|Situated Player Role 2: The Traveler]]
