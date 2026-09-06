@@ -10,8 +10,6 @@ aliases:
 
 The Dreamer is a player who strives to control their environment, but unlike the Entrant — who confronts a material reality — the Dreamer confronts a symbolic one. In this role, the boundary between a character’s psychology and the level’s challenges begins to dissolve. The world expresses an internal state. The Dreamer asks, **“What does this world express?”**
 
-Within the framework's two organizing dynamics—discovery and control—the Dreamer places control in the foreground. The player discovers the world's expressive logic while acting within it. Their actions function both mechanically and metaphorically.
-
 ## The “Alice” Shift: Rationality vs. Surrealism
 
 We can see the moment where The Entrant becomes The Dreamer in Chapters 1 and 2 of _Alice’s Adventures in Wonderland_. Alice is trapped in a hallway behind a locked door only ten inches high. The situation presents itself as a riddle: a potion shrinks her body, and a cake makes her grow. The key is accessible when she is large; the door is passable when she is small.
@@ -19,9 +17,9 @@ We can see the moment where The Entrant becomes The Dreamer in Chapters 1 and 2 
 The Entrant’s [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant’s Loop: L.O.P.|L.O.P.]] loop applies — but its terms have shifted:
 
 1. **The Entrant Approach (Rationality):** Alice tries the key in the locks. It fits the small door, but she cannot pass through. She attempts to solve the situation through grounded logic — aligning keys and doors.
-2. **The Dreamer Approach (Surrealism):** She returns to the table and finds a bottle labeled “DRINK ME.” To succeed, she must accept the dream logic of the world — adjusting her body and perspective to match its symbolic rules.
+2. **The Dreamer Approach (Surrealism):** She returns to the table and finds a bottle labeled “DRINK ME.” To proceed, she drinks the potion and changes her own scale. She discovers the world's logic while acting within it, adjusting her body and perspective to match its symbolic rules.
 
-The Entrant’s threshold demands mastery of how the world works. The Dreamer’s threshold demands recognition of what the world expresses. 
+The Entrant’s threshold demands mastery of how the world works. The Dreamer’s threshold invites recognition of what the world expresses. 
 
 ![[spr_dreamer_02.png]]
 
@@ -29,7 +27,7 @@ The Entrant’s threshold demands mastery of how the world works. The Dreamer’
 
 ## Surrealism and Dreams
 
-*Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer's role is not not just to decode meaning within but to interpret the work into personal meaning — the same demand The Dreamer places on the player.
+*Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer's role is not just to decode meaning within but to interpret the work into personal meaning — the same demand The Dreamer places on the player.
 
 ![[Spr_dreamer_20.jpg]]
 
@@ -41,13 +39,13 @@ The Dreamer engages logic — but it is *dream logic*. We see this codified in t
 
 ![[spr_dreamer_05.webp]]
 
-In a Dreamer game, the first state of [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant's Loop: L.O.P.|L.O.P.]] — legibility — becomes central to the experience. The rules and relationships of the world are not immediately intuitive, and the player must accept them on their own terms and learn to reason within them.
+In a Dreamer game, the first state of [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant's Loop: L.O.P.|L.O.P.]] — legibility — becomes central to the experience. The rules and relationships of the world are not immediately intuitive. The player discovers them by acting within them, learning to reason as the world responds.
 
 ![[spr_dreamer_08.jpg]]
 
 ## Maquette
 
-Early in _Maquette_ (2021), between narrative scenes, the player stands inside a dome; at its center sits a miniature model of that same space. When a small block is lifted within the model, its massive counterpart moves in the surrounding world.
+Early in _Maquette_ (2021), between narrative scenes, the player stands inside a dome; at its center sits a miniature model of that same space. When a small block is lifted within the model, its massive counterpart moves in the surrounding world. By manipulating the miniature, the player reconfigures the surrounding world and discovers its recursive logic through the response.
 
 ![[spr_dreamer_13.jpg]]
 
@@ -65,7 +63,7 @@ But, crucially, the game is a metaphor for living with an alcoholic parent.
 - **The Puzzles** reflect the child’s attempt to control what he can — rearranging spaces and creating pathways forward within a world that remains fundamentally unstable.
 - **The Girl** emerges from his imagination. She represents a guiding presence — a way of moving forward, creating distance, and imagining a life beyond the situation. 
 
-The mechanics are metaphors.  Playing the child of an alcoholic, the player manages and accommodates, and ultimately confronts the impossibility of fixing the situation. This is what separates The Dreamer from The Entrant: the player still solves puzzles, but the meaning lies in what those solutions reveal. 
+The mechanics are metaphors. Playing the child of an alcoholic, the player manages the Monster, rearranges spaces, and creates paths forward. Discovery and control unfold together: the player learns the world's logic while acting within it, and those actions express the attempt to accommodate and ultimately fix the situation. The player eventually confronts the impossibility of doing so. This is what separates The Dreamer from The Entrant: the player still solves puzzles, but the meaning lies in what those solutions reveal. 
 
 ## Dreams and Play
 
@@ -77,11 +75,11 @@ This is a character’s subconscious made manifest. A Dreamer game works in the 
 
 ## The Dreamer Among the Other Roles
 
-The four roles form a progression of discovery, control, and interpretation:
+The four roles place discovery and control in different relationships:
 
 - The **Investigator** reconstructs: *What happened?*
 - The **Traveler** witnesses: *What is this experience?*
 - The **Entrant** demonstrates: *How does this world work?*
 - The **Dreamer** interprets: *What does this world mean?*
 
-The Dreamer is the most demanding role because the player must operate on two registers simultaneously — solving the mechanical problem and reading its significance. In particular for The Dreamer, mechanics are language. The player's strategy and execution perform the story as metaphor.
+The Dreamer asks the player to operate on two registers simultaneously — solving the mechanical problem and reading its significance. Here, mechanics are language. The player's strategy and execution perform the story as metaphor.

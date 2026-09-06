@@ -11,9 +11,7 @@ aliases:
 
 The Traveler explores a world in the present tense.  Like The Investigator, the Traveler is oriented toward discovery.   But unlike the Investigator - who arrives after events have transpired - The Traveler witnesses the story's events as they happen. 
 
-A familiar philosophical riddle captures this logic: if a tree falls in the woods and no one is there to hear it, does it make a sound? For the Traveler, the answer is *no*. Narrative is constituted by presence. What The Traveler sees, passes through, and confronts is the story. The player asks, **"What is this experience?"** 
-
-Within the framework's two organizing dynamics—discovery and control—the Traveler places discovery in the foreground. The player controls movement and attention in order to encounter the world and experience what unfolds there.
+A familiar philosophical riddle captures this logic: if a tree falls in the woods and no one is there to hear it, does it make a sound? For the Traveler, the answer is *no*. Narrative is constituted by presence. What The Traveler sees, passes through, and confronts is the story. Movement and attention are the Traveler's central mechanics: where the player walks, when they pause, and what they stop to see or hear determine what the world reveals. The player asks, **"What is this experience?"** 
 
 ## The Labyrinth
 
@@ -62,13 +60,13 @@ Film scholar P. Adams Sitney says the avant-garde cinema protagonist "wanders th
 
 ![[spr_traveler_07.jpg]]
 
-In [[Film - Twin Peaks|Twin Peaks]], Agent Cooper's path in the Red Room is not in his control. He is there to experience its confusing, shifting logic.
+In [[Film - Twin Peaks|Twin Peaks]], Agent Cooper does not choose his path through the Red Room. He is there to experience its confusing, shifting logic.
 
-## Perception is Control
+## Control in Service of Discovery
 
 ![[spr_traveler_08.jpg]]
 
-A particularly pure interactive example appears at the opening of Giant Sparrow's *[[Game - The Unfinished Swan|Unfinished Swan]]*. The world begins as blank white nothing. The player can only walk and throw black paint, gradually revealing the contours of a three-dimensional environment. The act of movement literally brings the world into perceptual existence.
+A particularly pure interactive example appears at the opening of Giant Sparrow's *[[Game - The Unfinished Swan|Unfinished Swan]]*. The world begins as blank white nothing. The player can only walk and throw black paint, gradually revealing the contours of a three-dimensional environment. The act of movement literally brings the world into perceptual existence. The player acts upon the world by walking and throwing paint, but that control serves discovery by making the environment perceptible.
 
 ## Free Will
 
