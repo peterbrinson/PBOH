@@ -8,8 +8,14 @@ publish: true
 
 ## Learning persistent-workspace fundamentals instead? Start here
 
-- [[Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] 
-- [[Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] — then the same moves on your own material
+The first workshop comes in two versions — same project, same moves, different tool. **Pick one.**
+
+- [[Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] — needs Codex access granted by USC IT
+- [[Tutorials - LLM/Tutorial 2022 - Your First Persistent Workspace (with Antigravity)|Your First Persistent Workspace (with Antigravity)]] — free personal Google account, nothing to request
+
+Then:
+
+- [[Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] — the same moves on your own material
 
 ## Start PBOH — pick one
 
