@@ -5,7 +5,8 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  // Renders nothing; ships the anchor re-scroll fix. See quartz/components/AnchorFix.tsx.
+  afterBody: [Component.AnchorFix()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
