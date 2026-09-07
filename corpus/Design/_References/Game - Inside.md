@@ -6,8 +6,5 @@ type: Reference
 
 ## What It Is
 
-A side-scrolling platformer with almost no UI, no dialogue, and no explanation. A boy moves through a bleak, industrial world. Everything about what's happening — and why — is implied through environment, imagery, and what you're made to do.
-
-## What Does This Scene Express About the World?
-https://youtu.be/NP4AuKdb_dA?t=1187
+A side-scrolling puzzle-platformer with no UI, no dialogue, and no stated goal. A boy runs through a bleak, industrial world — sneaking past search parties, wading through flooded facilities, moving among people who no longer act like people. Nothing is explained. No institution is named, no reason given for what he's fleeing or where he's headed; the world withholds its own **why**. What's happening, and what it means, comes entirely from environment, staging, and what you're made to do to survive each room.
 
