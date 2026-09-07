@@ -12,14 +12,17 @@ The Dreamer acts within a world whose mechanics go beyond governing progress: th
 
 ## The “Alice” Shift: Progression as Expression
 
-We can see the moment where The Entrant becomes The Dreamer in Chapters 1 and 2 of _Alice’s Adventures in Wonderland_. Alice is trapped in a hallway behind a locked door only ten inches high. The situation presents itself as a riddle: a potion shrinks her body, and a cake makes her grow. The key is accessible when she is large; the door is passable when she is small.
+We can see the shift from The Entrant to The Dreamer in Chapters 1 and 2 of _Alice’s Adventures in Wonderland_. Alice confronts a door about fifteen inches high. The key fits, but she is too large to pass through.
 
-The Entrant’s [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant’s Loop: L.O.P.|L.O.P.]] loop applies — but its terms have shifted:
+The Entrant’s [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant's Loop: L.O.P.|L.O.P.]] loop structures what follows:
 
-1. **The Entrant Approach (Progression):** Alice tries the key in the locks. It fits the small door, but she cannot pass through. She attempts to solve the situation through grounded logic — aligning keys and doors.
-2. **The Dreamer Approach (Expression):** She returns to the table and finds a bottle labeled “DRINK ME.” To proceed, she drinks the potion and changes her own scale. She discovers the world's logic while acting within it. Changing scale does more than open a passage: it turns Alice’s unstable sense of power and perspective into action.
+1. **Legibility:** Alice recognizes the relationship among the key, the door, and her size.
+2. **Opportunity:** The “DRINK ME” bottle and “EAT ME” cake suggest that her size can be changed.
+3. **Performance:** Alice drinks, eats, and tests her changing body against the threshold.
 
-The Entrant’s threshold demands mastery of how the world works. The Dreamer’s threshold invites recognition of what the world expresses. 
+Within the larger context of Wonderland, the story primes us to expect its dreamlike rules and actions to carry meaning, allowing Alice’s solutions to function as metaphor as well as mechanism. This is where progression couples with expression. Alice's changing size is both a rule for solving the puzzle and an expression of her unstable relationship to power, identity, and the world around her.
+
+The Entrant discovers what the world permits. The Dreamer discovers what the world’s rules express.
 
 ![[spr_dreamer_02.png]]
 
@@ -27,15 +30,15 @@ The Entrant’s threshold demands mastery of how the world works. The Dreamer’
 
 ## Surrealism and Dreams
 
-*Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer does more than decode a fixed message; the work invites them to form personal meaning. Surrealism offers a useful guide to how the Dreamer role can work.
+*Surrealism* was an art movement of the early 20th century. It used dreamlike imagery, unexpected juxtapositions, and illogic to give form to unconscious thoughts, desires, and fears. This transformation of inner experience into visible objects and spaces offers a useful guide to how the Dreamer role can work.
 
 ![[Spr_dreamer_20.jpg]]
 
-_The Burning Giraffe_ (1937) by Salvador Dali
+_The Burning Giraffe_ (1937) by Salvador Dalí.
 
 ## Dream Logic
 
-The Dreamer engages logic—but it is *dream logic*, cleanly manifested in an early scene in *[[Film - Inception|Inception]]*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, and physics bends around the architect's will. 
+The Dreamer engages logic — but it is *dream logic*, cleanly manifested in an early scene in *[[Film - Inception|Inception]]*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, and physics bends around the architect's will.
 
 ![[spr_dreamer_05.webp]]
 
@@ -67,7 +70,7 @@ The mechanics are metaphors. Playing the child of an alcoholic, the player manag
 
 ## Dreams and Play
 
-Satoshi Kon’s animated film, _[[Film - Paprika|Paprika]]_, offers a clear image of dreams as living enigmas.  Dreams leak into the waking world, culminating in an absurd parade of surreal objects — dancing appliances, walking furniture, and twisting toys — marching through the city.
+Satoshi Kon’s animated film, _[[Film - Paprika|Paprika]]_, offers a clear image of dreams as living enigmas. Dreams leak into the waking world, culminating in an absurd parade of surreal objects — dancing appliances, walking furniture, and twisting toys — marching through the city.
 
 ![[spr_dreamer_40.webp]]
 
