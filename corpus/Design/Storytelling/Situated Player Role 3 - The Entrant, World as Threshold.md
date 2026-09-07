@@ -29,7 +29,7 @@ In *[[Game - Portal|Portal]]* (2007), each chamber presents an exit isolated by 
 
 ![[spr_entrant_03.webp]]
 
-In *Demon’s Souls*, the roads extending from the Archstones culminate in demonic battles. The player learns a boss’s patterns and vulnerabilities, then defeats it to move forward. These victories also advance the central quest: becoming the Slayer of Demons and returning the Old One to slumber.
+In *Demon’s Souls*, each Archstone path culminates in a powerful demon. The player studies the boss’s patterns and weaknesses, then defeats it to open the way forward. These victories advance the larger quest: becoming the Slayer of Demons and returning the Old One to slumber.
 
 ##### Bureaucratic Threshold
 
