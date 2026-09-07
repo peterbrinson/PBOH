@@ -23,19 +23,19 @@ The shift toward control is visible in what the mechanics ask the player to do. 
 
 ![[spr_entrant_02.webp]]
 
-*[[Game - Portal|Portal]]* (2007) intensifies this role. Each chamber is a space the player wants to pass through, but the threshold is not a locked door — it is a non-Euclidean pathway.
+In *[[Game - Portal|Portal]]* (2007), each chamber presents an exit isolated by its architecture and hazards. The player creates a non-Euclidean route to it; once they pass through, the story continues.
 
 ##### Boss Threshold
 
 ![[spr_entrant_03.webp]]
 
-In *[[Game - Elden Ring|Elden Ring]]*, the defining barriers are bosses. Progress halts until the player learns the logic of the fight: recognizing patterns, identifying vulnerabilities, and playing defensively.
+In *Demon’s Souls*, the roads extending from the Archstones culminate in demonic battles. The player learns a boss’s patterns and vulnerabilities, then defeats it to move forward. These victories also advance the central quest: becoming the Slayer of Demons and returning the Old One to slumber.
 
 ##### Bureaucratic Threshold
 
 ![[spr_entrant_04.png]]
 
-The Entrant does not always confront physical challenges. In *[[Game - Papers Please|Papers, Please]]* (2013), each interaction is a bureaucratic barrier. The player inspects documents, applies rules, and decides who may pass.
+The Entrant does not always confront a physical challenge. *[[Game - Papers Please|Papers, Please]]* (2013) approaches the threshold from the other side. The player does not seek passage but administers it: inspecting documents, applying rules, and deciding who may pass.
 
 
 ## The Entrant's Loop: L.O.P.
@@ -60,11 +60,11 @@ The puzzle-platformer *[[Game - Inside|Inside]]* (2016) consistently manifests L
 
 **Performance** ("Test the idea.") — The player acts upon the world, manipulating its components and testing whether the imagined solution works.
 
-L.O.P. structures the Entrant's relationship to story by moving from discovery toward control. Legibility and Opportunity build understanding; Performance uses that understanding to act upon the world. The story lies in what the threshold asks the player to notice, learn, and do before passage becomes possible.
+L.O.P. structures the Entrant’s movement from discovery toward control. Legibility and Opportunity build understanding; Performance uses that understanding to act upon the world. The threshold asks the player to notice, learn, and do what passage requires.
 
-The Investigator reconstructs the events that produced the present situation. The Traveler experiences events as they unfold. The Entrant discovers what the present situation permits, then acts to change it.
+The Investigator reconstructs the events that produced the present situation. The Traveler experiences events as they unfold. The Entrant discovers what the present situation permits, acts to change it, and passes onward.
 
-In this way, the threshold itself becomes where the story finds its meaning — not simply something to pass, but something that defines the player’s relationship to the world.
+For the Entrant, overcoming a threshold allows the story to continue. The Dreamer, the next role, connects action and story differently: **The Entrant advances through the story. The Dreamer performs it.**
 
 
 **Next:** [[Situated Player Role 4 - The Dreamer, World as Enigma|Situated Player Role 4: The Dreamer]]

@@ -8,7 +8,7 @@ aliases:
 **Previous:** [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3: The Entrant]]
 
 
-The Dreamer is a player who strives to control their environment, but unlike the Entrant — who confronts a material reality — the Dreamer confronts a symbolic one. In this role, the boundary between a character’s psychology and the level’s challenges begins to dissolve. The world expresses an internal state. The Dreamer asks, **“What does this world express?”**
+The Dreamer acts within a world whose mechanics go beyond governing progress: they express an emotional, thematic, or psychological dimension of the story. The player discovers how the rules work while acting within them, and those same actions carry metaphorical meaning. The Dreamer asks, **“What does this world express?”**
 
 ## The “Alice” Shift: Rationality vs. Surrealism
 
@@ -27,7 +27,7 @@ The Entrant’s threshold demands mastery of how the world works. The Dreamer’
 
 ## Surrealism and Dreams
 
-*Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer's role is not just to decode meaning within but to interpret the work into personal meaning — the same demand The Dreamer places on the player.
+*Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer does more than decode a fixed message; the work invites them to form personal meaning. The Dreamer likewise offers an interpretive register without requiring a single correct reading.
 
 ![[Spr_dreamer_20.jpg]]
 
@@ -63,7 +63,7 @@ But, crucially, the game is a metaphor for living with an alcoholic parent.
 - **The Puzzles** reflect the child’s attempt to control what he can — rearranging spaces and creating pathways forward within a world that remains fundamentally unstable.
 - **The Girl** emerges from his imagination. She represents a guiding presence — a way of moving forward, creating distance, and imagining a life beyond the situation. 
 
-The mechanics are metaphors. Playing the child of an alcoholic, the player manages the Monster, rearranges spaces, and creates paths forward. Discovery and control unfold together: the player learns the world's logic while acting within it, and those actions express the attempt to accommodate and ultimately fix the situation. The player eventually confronts the impossibility of doing so. This is what separates The Dreamer from The Entrant: the player still solves puzzles, but the meaning lies in what those solutions reveal. 
+The mechanics are metaphors. Playing the child of an alcoholic, the player manages the Monster, rearranges spaces, and creates paths forward. Discovery and control unfold together: the player learns the world's logic while acting within it, and those actions express the attempt to accommodate and ultimately fix the situation. The player eventually confronts the impossibility of doing so. This is what separates The Dreamer from The Entrant: the player still solves puzzles, but those solutions also enact the story's meaning. 
 
 ## Dreams and Play
 
@@ -80,6 +80,6 @@ The four roles place discovery and control in different relationships:
 - The **Investigator** reconstructs: *What happened?*
 - The **Traveler** witnesses: *What is this experience?*
 - The **Entrant** demonstrates: *How does this world work?*
-- The **Dreamer** interprets: *What does this world mean?*
+- The **Dreamer** enacts: *What does this world express?*
 
-The Dreamer asks the player to operate on two registers simultaneously — solving the mechanical problem and reading its significance. Here, mechanics are language. The player's strategy and execution perform the story as metaphor.
+The Dreamer presents play on two registers: the player solves a mechanical problem while the same actions carry thematic significance. The player may not recognize the metaphor, but they have performed it.

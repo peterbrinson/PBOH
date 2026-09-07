@@ -9,9 +9,9 @@ aliases:
 
 ![[spr_traveler_01.png]]
 
-The Traveler explores a world in the present tense.  Like The Investigator, the Traveler is oriented toward discovery.   But unlike the Investigator - who arrives after events have transpired - The Traveler witnesses the story's events as they happen. 
+The Traveler explores a world in the present tense. Like the Investigator, the Traveler is oriented toward discovery. But where the Investigator treats what is present as evidence of events beyond reach, the Traveler discovers meaning through movement, attention, and what is encountered along the way. 
 
-A familiar philosophical riddle captures this logic: if a tree falls in the woods and no one is there to hear it, does it make a sound? For the Traveler, the answer is *no*. Narrative is constituted by presence. What The Traveler sees, passes through, and confronts is the story. Movement and attention are the Traveler's central mechanics: where the player walks, when they pause, and what they stop to see or hear determine what the world reveals. The player asks, **"What is this experience?"** 
+A familiar philosophical riddle captures this logic: if a tree falls in the woods and no one is there to hear it, does it make a sound? For the Traveler, the answer is *no*. In this role, narrative is constituted by presence. What The Traveler sees, passes through, and confronts is the story. Movement and attention are the Traveler's central mechanics: where the player walks, when they pause, and what they stop to see or hear determine what the world reveals. The player asks, **"What is this experience?"** 
 
 ## The Labyrinth
 
