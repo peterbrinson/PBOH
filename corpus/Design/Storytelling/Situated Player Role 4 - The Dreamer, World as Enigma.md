@@ -10,14 +10,14 @@ aliases:
 
 The Dreamer acts within a world whose mechanics go beyond governing progress: they express an emotional, thematic, or psychological dimension of the story. The player discovers how the rules work while acting within them, and those same actions carry metaphorical meaning. The Dreamer asks, **“What does this world express?”**
 
-## The “Alice” Shift: Rationality vs. Surrealism
+## The “Alice” Shift: Progression as Expression
 
 We can see the moment where The Entrant becomes The Dreamer in Chapters 1 and 2 of _Alice’s Adventures in Wonderland_. Alice is trapped in a hallway behind a locked door only ten inches high. The situation presents itself as a riddle: a potion shrinks her body, and a cake makes her grow. The key is accessible when she is large; the door is passable when she is small.
 
 The Entrant’s [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant’s Loop: L.O.P.|L.O.P.]] loop applies — but its terms have shifted:
 
-1. **The Entrant Approach (Rationality):** Alice tries the key in the locks. It fits the small door, but she cannot pass through. She attempts to solve the situation through grounded logic — aligning keys and doors.
-2. **The Dreamer Approach (Surrealism):** She returns to the table and finds a bottle labeled “DRINK ME.” To proceed, she drinks the potion and changes her own scale. She discovers the world's logic while acting within it, adjusting her body and perspective to match its symbolic rules.
+1. **The Entrant Approach (Progression):** Alice tries the key in the locks. It fits the small door, but she cannot pass through. She attempts to solve the situation through grounded logic — aligning keys and doors.
+2. **The Dreamer Approach (Expression):** She returns to the table and finds a bottle labeled “DRINK ME.” To proceed, she drinks the potion and changes her own scale. She discovers the world's logic while acting within it. Changing scale does more than open a passage: it turns Alice’s unstable sense of power and perspective into action.
 
 The Entrant’s threshold demands mastery of how the world works. The Dreamer’s threshold invites recognition of what the world expresses. 
 
@@ -27,7 +27,7 @@ The Entrant’s threshold demands mastery of how the world works. The Dreamer’
 
 ## Surrealism and Dreams
 
-*Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer does more than decode a fixed message; the work invites them to form personal meaning. The Dreamer likewise offers an interpretive register without requiring a single correct reading.
+*Surrealism* was an art movement of the early 20th century. It deployed illogic to surface the unconscious mind. The viewer does more than decode a fixed message; the work invites them to form personal meaning. Surrealism offers a useful guide to how the Dreamer role can work.
 
 ![[Spr_dreamer_20.jpg]]
 
@@ -35,7 +35,7 @@ _The Burning Giraffe_ (1937) by Salvador Dali
 
 ## Dream Logic
 
-The Dreamer engages logic — but it is *dream logic*. We see this codified in the film *[[Film - Inception|Inception]]*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, physics bends around the architect's will. 
+The Dreamer engages logic—but it is *dream logic*, cleanly manifested in an early scene in *[[Film - Inception|Inception]]*. When Cobb invites Ariadne into a shared dream, she discovers that the space responds to intention: streets fold upward, bridges materialize, and physics bends around the architect's will. 
 
 ![[spr_dreamer_05.webp]]
 
@@ -67,11 +67,11 @@ The mechanics are metaphors. Playing the child of an alcoholic, the player manag
 
 ## Dreams and Play
 
-Satoshi Kon’s animated film, _[[Film - Paprika|Paprika]]_, offers a clear image of dreams as living enigmas.  Dreams leak into the waking world, culminating in an absurd parade of surreal objects — dancing appliances, walking furniture, and twisting toys — march through the city.
+Satoshi Kon’s animated film, _[[Film - Paprika|Paprika]]_, offers a clear image of dreams as living enigmas.  Dreams leak into the waking world, culminating in an absurd parade of surreal objects — dancing appliances, walking furniture, and twisting toys — marching through the city.
 
 ![[spr_dreamer_40.webp]]
 
-This is a character’s subconscious made manifest. A Dreamer game works in the same way: situations are projections of character psyche.
+This is a character’s subconscious made manifest. A Dreamer game can work similarly, turning a character’s inner life into spaces, objects, and rules the player acts upon.
 
 ## The Dreamer Among the Other Roles
 
