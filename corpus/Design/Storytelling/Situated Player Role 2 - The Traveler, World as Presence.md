@@ -11,7 +11,7 @@ aliases:
 
 The Traveler explores a world in the present tense. Like the Investigator, the Traveler is oriented toward discovery. But where the Investigator treats what is present as evidence of events beyond reach, the Traveler discovers meaning through movement, attention, and what is encountered along the way. 
 
-A familiar philosophical riddle captures this logic: if a tree falls in the woods and no one is there to hear it, does it make a sound? For the Traveler, the answer is *no*. In this role, narrative is constituted by presence. What The Traveler sees, passes through, and confronts is the story. Movement and attention are the Traveler's central mechanics: where the player walks, when they pause, and what they stop to see or hear determine what the world reveals. The player asks, **"What is this experience?"** 
+A familiar philosophical riddle captures this logic: if a tree falls in the woods and no one is there to hear it, does it make a sound? For the Traveler, the answer is *no*. In this role, narrative is constituted by presence. What The Traveler sees, passes through, and confronts is the story. Movement and attention are the Traveler's central mechanics: where the player walks, when they pause, and what they stop to see or hear determine what the world reveals. The player asks, **“What is this experience?”**
 
 ## The Labyrinth
 
@@ -38,7 +38,7 @@ When we describe a video game as “difficult,” we usually mean it demands dex
 
 ![[spr_traveler_05.jpg]]
 
-*[[Game - The Path|The Path]]* (by Tale of Tales) embodies this rebellious spirit. The game gives a clear instruction — "And Stay on the Path" — but the instruction is a deceit. The meaningful experience requires disobedience. Off the path the player might:
+*[[Game - The Path|The Path]]* (by Tale of Tales) embodies this rebellious spirit. The game gives a clear instruction — “And Stay on the Path” — but the instruction is a deceit. The meaningful experience requires disobedience. Off the path the player might:
 
 - find a girl in a white dress standing beside a wolf at a piano
 - encounter a silent campfire deep in the woods
@@ -50,13 +50,13 @@ These encounters are not framed as steps toward progress. The player moves throu
 
 ![[spr_traveler_06.png]]
 
-This emphasis on point of view connects the Traveler strongly to 20th-century cinema, deeply concerned with subjectivity and presence.  "One take" films invite the viewer in as a silent and invisible character: Hitchcock's *Rope* (1948), *Russian Ark* (2002), and *The Way Things Go* (1987) all position the viewer within a continuous present.  These are an exception in cinema, and yet provide a powerful reference for 3D games, where the "one take" is the norm.
+This emphasis on point of view connects the Traveler strongly to 20th-century cinema, deeply concerned with subjectivity and presence. “One take” films invite the viewer in as a silent and invisible character: Hitchcock's *Rope* (1948), *Russian Ark* (2002), and *The Way Things Go* (1987) all position the viewer within a continuous present. These are an exception, and yet provide a powerful reference for 3D games, where the “one take” is the norm.
 
 The continuous take emphasizes the viewer as a proximate witness, responsible for orienting themselves, choosing where to look, and forming their own judgments.
 <br>
 ## Like the Sleepwalker
 
-Film scholar P. Adams Sitney says the avant-garde cinema protagonist "wanders through a potent environment toward a climactic scene of self-realization. The stages of his progress are often marked by what he sees along his path rather than what he does."
+In *Visionary Film*, film scholar P. Adams Sitney says the avant-garde cinema protagonist “wanders through a potent environment toward a climactic scene of self-realization. The stages of his progress are often marked by what he sees along his path rather than what he does.”
 
 ![[spr_traveler_07.jpg]]
 
@@ -66,7 +66,7 @@ In [[Film - Twin Peaks|Twin Peaks]], Agent Cooper does not choose his path throu
 
 ![[spr_traveler_08.jpg]]
 
-A particularly pure interactive example appears at the opening of Giant Sparrow's *[[Game - The Unfinished Swan|Unfinished Swan]]*. The world begins as blank white nothing. The player can only walk and throw black paint, gradually revealing the contours of a three-dimensional environment. The act of movement literally brings the world into perceptual existence. The player acts upon the world by walking and throwing paint, but that control serves discovery by making the environment perceptible.
+A particularly pure interactive example appears at the opening of Giant Sparrow's *[[Game - The Unfinished Swan|Unfinished Swan]]*. The world begins as blank white nothing. The player can only walk and throw black paint, gradually revealing the contours of a three-dimensional environment. These simple actions literally bring the world into perceptual existence. The player acts upon the world by walking and throwing paint, but that control serves discovery by making the environment perceptible.
 
 ## Free Will
 
@@ -91,11 +91,11 @@ For our understanding of The Traveler, we use the term *labyrinth* in a specific
 
 ![[spr_traveler_11.jpg]]
 
-Umberto Eco describes mazes in terms of branches and choices, organized into three categories.
+In Umberto Eco's *Et in Labyrintho Ego*, labyrinths are spatial structures described by how their paths connect. For the Situated Player Roles, we can apply all three of his types to the distinction above.
 
 - **Unicursal** — A single winding path with no branches or choices; you cannot get lost because there is only one route.
 - **Multicursal** — A branching structure with choices and dead ends; you must decide at intersections, and wrong decisions lead to retracing your steps.
-- **Network** — A web in which every point can connect to many others; no start and end points, no defined path.
+- **Network** — A web in which each point can potentially connect to any other. It cannot be unfolded into a single route or branching tree, and the traveler can continue circulating within it indefinitely.
 
 If the Investigator treats narrative as evidence to be reconstructed, the Traveler treats narrative as something encountered — moment by moment — shaped by what is witnessed along the way.
 

@@ -11,7 +11,7 @@ aliases:
 
 The Entrant has arrived at a boundary. Unlike the Investigator, who researches the past, or the Traveler, who moves through space as an interpretive act, the Entrant confronts a blocked passage. Progress is possible — but only by satisfying conditions. 
 
-These thresholds appear as gates, locked doors, guarded borders, or rituals. The player reads what is present in the space, tests what the system accepts or rejects, and gradually learns the rules governing passage. The room is a puzzle that compels the player to ask, **"How does this world work?"**
+These thresholds appear as gates, locked doors, guarded borders, or rituals. The player reads what is present in the space, tests what the system accepts or rejects, and gradually learns the rules governing passage. The room is a puzzle that compels the player to ask, **“How does this world work?”**
 
 ## The Shift to Control
 
@@ -46,19 +46,19 @@ The puzzle-platformer *[[Game - Inside|Inside]]* (2016) consistently manifests L
 
 ![[spr_entrant_05.webp]]
 
-**Legibility** ("See what matters.") — The player attends closely to the space, recognizing the barrier and identifying its interactive components. 
+**Legibility** (“See what matters.”) — The player attends closely to the space, recognizing the barrier and identifying its interactive components.
 
 -----
 
 ![[spr_entrant_06.jpg]]
 
-**Opportunity** ("Imagine the solution.") — By testing individual mechanics, the player discovers how the components could be configured or sequenced. Solutions exist first as speculations; opportunities arrive as epiphanies.
+**Opportunity** (“Imagine the solution.”) — By testing individual mechanics, the player discovers how the components could be configured or sequenced. Solutions exist first as speculations; opportunities arrive as epiphanies.
 
 ----------
 
 ![[spr_entrant_07.jpg]]
 
-**Performance** ("Test the idea.") — The player acts upon the world, manipulating its components and testing whether the imagined solution works.
+**Performance** (“Test the idea.”) — The player acts upon the world, manipulating its components and testing whether the imagined solution works.
 
 L.O.P. structures the Entrant’s movement from discovery toward control. Legibility and Opportunity build understanding; Performance uses that understanding to act upon the world. The threshold asks the player to notice, learn, and do what passage requires.
 

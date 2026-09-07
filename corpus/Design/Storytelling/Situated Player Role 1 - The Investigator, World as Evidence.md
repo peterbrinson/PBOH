@@ -11,7 +11,7 @@ aliases:
 
 The Investigator probes a world to reconstruct the events that shaped its present condition. The player has arrived late: the events have transpired.
 
-Through environmental storytelling, the Investigator asks, **"What happened?"** 
+Through environmental storytelling, the Investigator asks, **“What happened?”**
 
 ## Discovery and Analysis
 
@@ -30,12 +30,12 @@ With this understanding in place, the player can begin to speculate — quietly 
 
 ## Plot vs. Story
 
-Detective fiction and film noir provide the canonical examples for this role. In films like _The Maltese Falcon_ (1941) and _Chinatown_ (1974), the detective does little to impact the world but instead studies it. From the start, clues, motives, and relationships are already in place, but not yet understood.
+Detective fiction and film noir provide the canonical examples for this role. In films like _The Maltese Falcon_ (1941) and _Chinatown_ (1974), the detective's actions arise in response to a mystery already present in the world. From the start, clues, motives, and relationships are in place, but not yet understood. We anticipate what the detective is seeking and follow as they discover what those clues mean.
 
 ![[spr_investigator_03.png]]
 
 - **The Plot:** The sequence in which the detective (and the audience) experiences the investigation.
-- **The Story:** The underlying events sequenced retrospectively.
+- **The Story:** The underlying events as they are retrospectively sequenced through the investigation.
 
 ## Video Game Examples
 
@@ -49,7 +49,7 @@ Detective fiction and film noir provide the canonical examples for this role. In
 
 ![[spr_investigator_05.jpg]]
 
-**[[Game - Gone Home|Gone Home]]** demonstrates that The Investigator stories are not limited to crime. The game invites the player to piece together a coming-of-age narrative embedded in a childhood home. 
+**[[Game - Gone Home|Gone Home]]** demonstrates that Investigator stories are not limited to crime. The game invites the player to piece together a coming-of-age narrative embedded in the family’s new home.
 Its follow-up, **[[Game - Tacoma|Tacoma]]**, translates this to science fiction, featuring 3D recordings that reconstruct a tragedy on a space station.
 <br>
 ##### Her Story
@@ -69,7 +69,9 @@ Its follow-up, **[[Game - Tacoma|Tacoma]]**, translates this to science fiction,
 
 ![[spr_investigator_02.png]]
 
-AAA games contain multiple Situated Player Roles. The Investigator — examining an interior in *Skyrim*, probing a map's lore in *[[Game - Elden Ring|Elden Ring]]*, or conversing with a character in *The Outer Worlds* — likely sits off the main line of action, but remains essential to the game's storytelling.  *[[Game - Alan Wake|Alan Wake]]* manifests all four roles; one of the protagonists in Alan Wake is Saga Anderson, an FBI agent.
+AAA games contain multiple Situated Player Roles. The Investigator — examining an interior in *Skyrim*, probing a map's lore in *[[Game - Elden Ring|Elden Ring]]*, or conversing with a character in *The Outer Worlds* — likely sits off the main line of action, but remains essential to the game's storytelling. 
+
+For instance, *[[Game - Alan Wake 2|Alan Wake 2]]* manifests all four roles: Saga reconstructs ritual murders from evidence; both protagonists travel through realities as events unfold around them; Saga discovers and performs rituals that open passages between realities; and Alan rewrites scenes, turning authorship into a mechanic that transforms the world.
 <br>
 ## Allegory
 
