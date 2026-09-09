@@ -22,9 +22,19 @@ The project you will work on belongs to **Anthony and Deloris** — a two-person
 
 ## 1. Request Codex Access from USC IT
 
-You should have already requested Codex access from USC IT — see [USC's ChatGPT Edu workspace announcement](https://itservices.usc.edu/2026/02/26/new-features-now-available-in-uscs-chatgpt-edu-workspace/) for how to request it if you haven't.
+Codex is not switched on by default in USC's ChatGPT workspace. You have to ask for it, and the request goes through a ticket and it could take them over a week to grant access.  
 
-Once USC IT has granted it, you can continue.
+1. Go to USC's [ChatGPT Edu workspace announcement](https://itservices.usc.edu/2026/02/26/new-features-now-available-in-uscs-chatgpt-edu-workspace/).
+2. Scroll down to the paragraph about access to advanced models and features. It says requests may be submitted by **opening a ticket** with ITS. Click that **opening a ticket** link — it takes you to [ITS Services](https://itsusc.service-now.com/usc_its_support?id=_its_services&table=cmdb_ci_service&sys_id=41d2f99547bd7210b0ab5131e36d439d).
+3. On the ITS Services page, choose **AI Support**.
+4. Click **Request additional access**. A form opens, titled **AI Additive Feature Request**.
+5. Fill it out:
+   - **Short Description** — say you are requesting it for a class, and name the class: for example CTIN 389 or CTIN 534.
+   - **What feature(s)** — Codex.
+   - **Duration** — Academic Term.
+6. Click **Order Now**.
+
+
 
 ---
 
