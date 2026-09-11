@@ -1,4 +1,4 @@
-﻿---
+---
 publish: false
 role: hybrid — Traveler + Dreamer, with an Investigator thread
 coverage: heavy off-map — above-beginner Blueprints
