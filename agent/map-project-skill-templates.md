@@ -42,7 +42,7 @@ Here is a Prototype Plan for your project. Think of this Prototype Plan as the s
 [restate in their words, one sentence — REQUIRED opener; don't skip straight to the experience]
 
 ### What kind of experience
-[role(s), described in their language]
+[role and experience goal as one connected statement — name the role (first mention invokes the Situated Player Role framework by name), then say what the player is meant to feel, in the student's own words. Prose, not two labels stacked. If the goal never surfaced in Step 2, name the role and the concrete moment the plan is anchored to instead.]
 
 ### A Tradeoff To Consider
 [the moment where gaining X costs Y; skip if the idea doesn't have one designed in yet]
