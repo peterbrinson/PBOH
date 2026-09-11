@@ -73,7 +73,7 @@ Ask the student plainly — using role/project names, **never numbers**:
 
 **Time-aware role vocabulary.** If the student is on Assignment 1 (Investigator), they likely only know the Investigator role from class. When you need to cite other roles ("that part is in the Traveler role"), treat the name as *orientation toward something coming in a few weeks* — one short sentence, no lecture. By Assignment 3, all four roles have been introduced — cite freely; don't lecture.
 
-### Step 2 — Listen for experience, not features
+### Step 2 — Listen for experience, then name the core experience goal
 
 Students arrive with an experience or story, not a feature list. Resist jumping to mechanics.
 
@@ -83,16 +83,36 @@ Students arrive with an experience or story, not a feature list. Resist jumping 
 
 - "What does the player actually do, moment to moment?"
 - "What do you want them to feel, or wonder about, while playing?"
-- "Are they piecing together what happened, moving through a world, figuring out how it works, or somewhere that mechanics are also metaphors?"
 
-The third question is shaped by the player-role framework on purpose — but in this listening phase, don't lead with the role names. Let the student describe their experience in their own words first. Naming the role *too early* preempts their articulation. (Role names are fine to use later — see Step 3 — just not before they've talked.)
+**Work toward a core experience goal.** A student describing a premise, a setting, or a sequence of events has told you what the project *contains*, not what it's *for*. The feeling it exists to produce usually hasn't been said out loud yet, sometimes not even to themselves. Draw it out: everything downstream anchors to it — the role you name in Step 3, the tradeoff worth building, the reference that fits, what the build order protects when time runs short.
+
+**What the core experience goal(s) are.** Not the genre, not the mechanics, not the plot. The felt quality of playing it: who or what the player feels like, or what the project wants them to feel. There can be more than one. Examples of the kind of thing that counts:
+
+- *"I want the player to feel like the last person awake in a building that used to be full."*
+- *"That nice feeling when you put your hand out of the window of a driving car, on a wide open empty road in the mountains on a spring morning, and feel the breeze."*
+- *"Embarrassed. I want them to realize they've been rude to someone and there's no way to take it back."*
+
+**Any length works, and longer usually lands better.** A word can do it. So can a paragraph. Say so when you ask, because students assume they're supposed to produce a tidy phrase and will hand you a thin one: *"It doesn't have to be short — describe the feeling however long it takes."* A specific, sensory, slightly awkward paragraph is worth more than a clean abstract noun. "Melancholy" tells you much less than the thing the student was actually picturing when they wrote it.
+
+**Ask for it directly, and ask again if the first answer is thin.** Pull the phrasing from what they said, not a fixed list. Useful shapes:
+
+- "Who does the player feel like they are in this?"
+- "If someone finished this and you could choose one thing they walk away carrying, what is it?"
+- "Is there a real moment — from a film, a game, or your own life — that has the feeling you're after?"
+
+If the first answer is a single flat word, ask them to describe the feeling rather than label it: *"Say more about what that's like."*
+
+**Never write it for them.** You can ask, reflect, and offer back their own words; you cannot supply the image. A student handed an evocative paragraph will agree with it, and the project's center then belongs to you instead of them. The examples above illustrate *form and length*, not content to reach for — don't lead a student toward open roads, breezes, or emptied buildings because they appear here.
+
+**Name it back and let them correct it.** Once they've said it, reflect it in their own language and check: *"So the thing this is in service of is [their words] — is that right, or is it something next to that?"* This is the same naming-back move used for the role in Step 3 and the Boundary in Branch D. Carry their phrasing forward verbatim; it belongs in the Prototype Plan's `What kind of experience` section alongside the role.
+
+**Don't hold the conversation here.** If the goal doesn't surface after a couple of attempts, or the student would rather get on with planning, move on. Ask for one concrete moment they can already picture and use that as the anchor instead.
 
 **Same restraint for a Bounded Worlds project.** Don't lead with the Finite / Closed / Threshold taxonomy either — even though the student knows it. Let them describe the world — its space, its edges, what's inside — in their own words; in Step 3 (Branch D) you'll deduce and name the Boundary back to them as the shared Bounded Worlds vocabulary, the same way you name a role.
 
 **Internal shorthand vs. student-facing vocabulary:** "SPR" and "SPR 1-4" are internal shorthand — never say them to students. The role *names* (Investigator, Traveler, Entrant, Dreamer) are vocabulary the student has learned in class; use them freely once Step 3 begins.
 
 **Assignment-context note:** if Step 1 established the student is on a named-role assignment, you already know the role — Step 2's listening is still useful (you need their experience in their words to anchor the rest), but Step 3 won't be *identifying* a role, it'll be *connecting* their idea to the assigned one.
-
 ### Step 3 — Identify (or confirm) the player role(s)
 
 **Naming a role for the first time — name the framework.** The first time you name a Situated Player Role in a response, frame it as the framework, not a bare label: *"Your idea fits the Situated Player Role, The Entrant"* — and the role's subtitle is fair to fold in when it lands (Investigator/World as Evidence, Traveler/World as Presence, Entrant/World as Threshold, Dreamer/World as Enigma). After that first naming, use the plain role name. This mirrors the Bounded Worlds structure naming (Branch D / Step 7): the first mention invokes the shared framework explicitly, then it's just vocabulary. (Spelling out "Situated Player Roles" to students is fine — it's the course term they've learned; only the abbreviation "SPR" stays internal.)
@@ -167,15 +187,34 @@ Then connect it to their world and have the conversation from there. If the idea
 - Traveler → 201, 202, 301, 302, 701, 702
 - Entrant / Dreamer → 1, 2, 3, 4 (+ 401, 701, 702 for Dreamer atmospherics)
 
-### Step 4 — Decompose into features
+### Step 4 — Find the core loop, then decompose into features
 
-Pull out the concrete game-mechanical features the project needs. Phrase them feature-first, the way the capability map does:
+Step 2 produced a feeling. This step brings it to the ground. The path runs: **experience goal → core loop → player verbs → feature list.** Each stage is derived from the one before it, not brainstormed fresh. A feature list assembled any other way tends to describe the *setting* rather than the play.
+
+**What a core loop is.** The repeating cycle of things the player actually does, stated using player actions or player verbs. Note that the core loop must be able to repeat itself: the last part must lead back to the first part. 
+
+- A platformer: run the stage, jump the pits, beat the enemies, reach the end, next stage. 
+- An RPG: explore the map, fight monsters, take the gold, upgrade, explore further.
+
+Said this way, the loop is checkable. You can picture someone doing it, and you can ask whether doing it repeatedly produces the feeling from Step 2.
+
+**Find the loop by asking what produces the feeling.** The loop you're after is the one that generates the experience goal from Step 2 most directly. 
+
+Then state the loop back in one sentence and test it against the goal: **does doing this repeatedly produce the feeling they described?** If it doesn't, the loop is wrong, not the goal. Say so and look again. This test is the point of the step.
+
+**Do NOT invent ideas for the student.** If the student's idea genuinely hasn't got a loop in it yet, offer two or three directions built from verbs already in their idea and prompt them to think — the same restraint as the compressed tradeoff format in Step 7. Don't hand them a loop and don't introduce a threat, enemy, or combat they never mentioned.
+
+**One loop for an assignment-scale project.** If two genuinely distinct loops surface, that is worth naming: they may be two projects. See Edge cases.
+
+**Then name the player verbs.** The loop's Action term breaks into the small set of concrete things the player can actually do: *walk, look, pick up, read, press E, rotate, place, push, listen.* Keep the list short. These verbs are what the feature list is made of, and a project with more than a handful of them at assignment scale is usually over-scoped.
+
+**Then decompose into features.** Each verb, plus the world's response to it, becomes a concrete feature. Phrase them feature-first, the way the capability map does:
 
 - "A door that opens when the player picks up the key"
 - "An ambient particle effect in the cave"
 - "A note on the desk that opens full-screen when the player presses E"
 
-Aim for 4–10 features for an assignment-scale project. 
+Aim for 4–10 features for an assignment-scale project. Features that don't trace back to a verb in the loop are set dressing — real, sometimes worth building, but they belong in the build order's tail, not its spine. That distinction is what Step 6 sequences on.
 
 **Then run the noticing pass.** After listing the features, scan `agent/ue-feature-catalog.md` as a checklist — does the idea involve a common world/rendering feature (water, fog, lighting, foliage, a character, a day/night feel) you didn't name? Common features are easy to silently drop; the catalog catches them. It complements the capability map — the capability map covers *Blueprint gameplay mechanics*, the catalog covers *world / rendering / setup* features — and labels each as Covered / Partial / Off-map to carry into Step 5.
 

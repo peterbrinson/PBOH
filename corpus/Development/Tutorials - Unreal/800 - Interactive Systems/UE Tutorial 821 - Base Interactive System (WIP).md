@@ -54,12 +54,12 @@ Click on **BP_Interactable_Base** in the [[Components]] panel and add the tag `I
 ### A1. Setup Interact Overlap
 
 Right-click on the collision component (`InteractRadius`) and add:
-- Add `OnComponentBeginOverlap`
-- Add `OnComponentEndOverlap`
+- Add [[OnComponentBeginOverlap]]
+- Add [[OnComponentEndOverlap]]
 
 ![[unrealTutorial_10_125.png]]
 
-Drag from each event node and search for **Cast to BP_FirstPersonCharacter**. Note the parameters flowing left to right.
+Drag from each event node and search for **[[Cast To|Cast to]] BP_FirstPersonCharacter**. Note the parameters flowing left to right.
 
 ![[unrealTutorial_10_128.png]]
 
@@ -95,11 +95,11 @@ For **On Component End Overlap**, do the same but uncheck **Is Overlapped**.
 
 ![[unrealTutorial_10_152.png]]
 
-Back in the Interactable Blueprint, add **Branch** and **Print String** nodes to test.
+Back in the Interactable Blueprint, add **[[Branch]]** and **[[Print String]]** nodes to test.
 
 ![[unrealTutorial_10_155.png]]
 
-Toggle between `BP_Interactable_Base` and `InteractionComponent`'s `EventGraph` to see how `OnInteractableOverlap` is called as a custom function.
+Toggle between `BP_Interactable_Base` and `InteractionComponent`'s [[Event Graph|EventGraph]] to see how `OnInteractableOverlap` is called as a custom function.
 
 ![[unrealTutorial_10_158.png]]
 ![[unrealTutorial_10_161.png]]
@@ -122,7 +122,7 @@ Branch the **Draw Trace** event and connect to **Set Timer by Function Name**, p
 
 ![[unrealTutorial_10_170.png]]
 
-Promote the Return Value to a variable. In the `Variables` panel, rename it `Trace Timer`.
+Promote the Return Value to a variable. In the [[Variables]] panel, rename it `Trace Timer`.
 
 ![[unrealTutorial_10_173.png]]
 ![[unrealTutorial_10_176.png]]
@@ -155,7 +155,7 @@ Set the following on the Sphere Trace node:
 
 ![[unrealTutorial_10_194.png]]
 
-From **Return Value**, add a **Branch** to detect whether the trace hit something. Drag from **On Hit** to **Break Hit Result** so you can check whether the hit actor has the `Interactable` tag. Continue building as shown — don't forget the tag value for **Actor Has Tag**.
+From **Return Value**, add a **Branch** to detect whether the trace hit something. Drag from **On Hit** to **Break Hit Result** so you can check whether the hit actor has the `Interactable` tag. Continue building as shown — don't forget the tag value for **[[Actor Has Tag]]**.
 
 ![[unrealTutorial_10_197.png]]
 
@@ -209,7 +209,7 @@ The behavior is the same as the GIF above, but `Print "Looking"` and `Print "Not
 
 ### B1. Create Hover Logic
 
-In **BP_Interactable_Base**, create two custom events: `On Hovered` and `On UnHovered`.
+In **BP_Interactable_Base**, create two [[Custom Events|custom events]]: `On Hovered` and `On UnHovered`.
 
 ![[unrealTutorial_10_230.png]]
 
@@ -231,7 +231,7 @@ Back in **BP_Interactable_Base**, the `On Hovered` and `On UnHovered` events are
 
 ### B2. Add a Hover UI
 
-Right-click in the Content Browser and navigate to **UI → Widget Blueprint → User Widget**. Name it `WB_InteractionTip`.
+Right-click in the Content Browser and navigate to **UI → [[Widget Blueprint]] → User Widget**. Name it `WB_InteractionTip`.
 
 ![[unrealTutorial_10_245.png]]
 
