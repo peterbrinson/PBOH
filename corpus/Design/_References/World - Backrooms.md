@@ -61,7 +61,7 @@ In January 2022, teenage creator Kane Parsons ("Kane Pixels") released **The Bac
 
 ## The Games
 
-- **Liminal ambience, no monster** — *POOLS* turns the aesthetic into pure navigation dread: no enemies, no UI, no dialogue, just sound, water, and oppressive space.
+- **Liminal ambience, no monster** — [[Game - POOLS|POOLS]] turns the aesthetic into pure navigation dread: no enemies, no UI, no dialogue, just sound, water, and oppressive space.
 - **Atmospheric walking sim** — *The Complex: Found Footage* is a VHS-camera walk through a Backrooms-like world.
 - **Co-op survival horror** — *Inside the Backrooms* has up to four players escape levels by solving puzzles, managing supplies, and learning entity behavior.
 - **Polished multi-level escape** — *Escape the Backrooms* turned the wiki's level taxonomy into 30+ co-op levels with level-specific exits.
