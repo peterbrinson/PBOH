@@ -74,6 +74,7 @@ Game and film examples PBOH draws on when a project reminds it of an existing wo
 - [[Game - Ori and the Blind Forest|Ori and the Blind Forest]]
 - [[Game - Outer Wilds|Outer Wilds]]
 - [[Game - Overwatch 2|Overwatch 2]]
+- [[Game - POOLS|POOLS]]
 - [[Game - PT|PT]]
 - [[Game - Papers Please|Papers Please]]
 - [[Game - Papo and Yo|Papo and Yo]]

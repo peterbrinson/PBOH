@@ -43,7 +43,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → Death Stranding, A Short Hike, NaissanceE, Journey, Shadow of the Colossus
 
 **A bounded / closed world with an enforced edge or one-way direction**
-→ Snowpiercer, The Platform, Hades, Severance, Dr Langeskov, Coraline, The Truman Show, Little Nightmares, Stray, NaissanceE, Backrooms, The Exit 8
+→ Snowpiercer, The Platform, Hades, Severance, Dr Langeskov, Coraline, The Truman Show, Little Nightmares, Stray, NaissanceE, Backrooms, POOLS, The Exit 8
 
 **Crossing into another world and (maybe) returning changed**
 → Spirited Away, The Matrix, Twin Peaks, Coraline, World of Tomorrow, Annihilation
@@ -140,6 +140,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 | [[Game - NaissanceE]]                                      | Traveler, Entrant                | Descent through a monumental abstract megastructure — being small inside an unknowable architecture                                                          |
 | [[Game - Octodad]]                                         | Entrant                          | An octopus passing as a suburban dad — deliberately unruly controls; hiding what you are                                                                     |
 | [[Game - Outer Wilds]]                                     | Investigator                     | A 22-minute solar-system loop; piece together a dead civilization from its ruins and writing                                                                 |
+| [[Game - POOLS]]                                           | Traveler, Dreamer                | Drained pool complexes with no enemy, no UI and no music — dread built from scale and repetition alone; a network labyrinth with a Closed edge               |
 | [[Game - PT]]                                              | Traveler, Investigator           | An endlessly looping hallway whose details shift each pass — environmental dread                                                                             |
 | [[Game - Papers Please]]                                   | Investigator, Entrant            | Inspect documents against a shifting rulebook under moral pressure — bureaucratic procedure as the whole game                                                |
 | [[Game - Papo and Yo]]                                     | Dreamer                          | Autobiographical allegory — the monster is the developer's alcoholic father; sensitive symbolic territory                                                    |

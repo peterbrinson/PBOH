@@ -31,7 +31,7 @@ If it doesn't, the world is **Finite**. If it does, ask whether the player can r
 The world presents itself as whole. The player engages entirely within what is present — there is no world outside of what's playable.
 
 > [!example]- Examples
-> - [[Film - Balance (1989)|Balance]] (1989) — the world is the platform and the five characters; get get a tiny glimpse of what's beyond 
+> - [[Film - Balance (1989)|Balance]] (1989) — the world is the platform and the five characters
 > - [[Game - Monument Valley|Monument Valley]] (2014) — a set of micro-worlds, each small and finite
 > - [[Game - Mountain|Mountain]] (2014) — you are a mountain
 > - [[Game - Inscryption|Inscryption]] (2021) — Act 1: the table, the cabin, the game
@@ -61,6 +61,7 @@ The player can encounter the edge of the world. The boundary is found during pla
 > - [[Film - Snowpiercer|Snowpiercer]] (Bong Joon-ho, 2013) — the train holds the last of humanity; outside is death, therefore the cars cannot be left
 > - [Flatland](https://en.wikipedia.org/wiki/Flatland) (Edwin Abbott, 1884) — two-dimensional beings who cannot reach the third dimension they are shown
 > - [[Film - The Platform|The Platform]] (Galder Gaztelu-Urrutia, 2019) — a vertical prison-pit; the structure holds each prisoner to their level
+> - [[Film - La Maison en Petits Cubes|La Maison en Petits Cubes]] (Kunio Katō, 2008) — a whole life stacked as rooms, read by diving down through them; it would be Finite but for the moment other structures appear in the distance — an outside that plainly exists, and that he never ventures to
 > - [[Game - PT|P.T.]] (Kojima Productions, 2014) — an L-shaped corridor that loops on itself; you walk forward but never leave
 > - [Slaughterhouse-Five](https://en.wikipedia.org/wiki/Slaughterhouse-Five) (Kurt Vonnegut, 1969) — Billy Pilgrim is kept in an alien zoo; 
 
