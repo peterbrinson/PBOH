@@ -116,7 +116,7 @@ A folder that explains itself in its own root is the difference between a worksp
 
 ## 7. Write Your Standing Instructions
 
-Add a file at the root named `AGENTS.md` — or `CLAUDE.md` if you use Claude Code, `GEMINI.md` for Gemini. Your agent reads it at the start of every session.
+Ask it to add a file at the root named `AGENTS.md` for Codex — or `CLAUDE.md` if you use Claude Code, `GEMINI.md` for Gemini. Your agent reads it at the start of every session.
 
 This is where a folder stops being a pile of files and starts being *yours*. Put in the things you'd otherwise re-explain every conversation:
 
