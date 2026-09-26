@@ -744,3 +744,37 @@ Taxonomy, examples, and line count unchanged — this is a rewrite, not an addit
 **Deliberately not renamed** — dated records, per the standing convention: prior entries in this file (including the 2026-07-19 one, now the only live record that the artifact was ever called a Map), `session-log.md`, `GDOH-dev/responses/*.md`, and the Geidai/SFK student archives. The SFK deliverables at `people/peter/sfk-2026-07/` are additionally named `project-plan-*.md` — the save target from *before* 2026-07-19 — so those sessions ran an older build still.
 
 **Untested at runtime,** exactly as the name was before the rename: swept everywhere, never run once. The backlog row is now "Runtime-test the Prototype Plan naming."
+
+### 2026-09-26 — The Prototype Plan stopped being written to the student
+
+**Source:** instructor runtime test, 2026-09-25 — first full session against the post-George build (`prototype-plan-trench-voices.md`, Traveler, a deliberately uncertain student). The instructor flagged one sentence in the Off-Map section: *"These are coverage notes, not a verified implementation recipe. Technical mapping is grounded in the local capability map, tutorial outcome/deviation sections, and the Sound and Timeline wiki pages."* — developer-facing, in a student's document. Inspection found the same instinct running through the whole file.
+
+**What was wrong — four categories, not one.**
+
+1. **Internal machinery named to the student.** "The local capability map," "tutorial outcome/deviation sections" — file and section names the student has never seen. Tutorial numbers are citeable because a student can open them; these are not.
+2. **Instrumentation status reported in the artifact.** *"The student's GitHub username has been requested for the local gap log and is still pending; no gap entry has been saved."* and *"No instructor-question file has been created."*
+3. **Third person inside a document addressed to "you."** Five instances — "The student's words, gathered across the conversation," "the designer's background," "not a confirmed student decision. The student established that…," "close to the student's design."
+4. **Narrated restraint — eleven instances.** *"This is a proposed implementation experiment, not a confirmed student decision."* *"These are approximations, not the final visual effect."* *"Do not assume it must feel like grief."* *"Do not build the experience around an assumed recognition."* The last two are imperatives aimed at an implementer, not a student.
+
+**Confirmed new.** All seven pre-George worked examples in `agent/examples/` are clean of every category in their response prose — the only "the student" hits are in each file's instructor-facing header note (line 9).
+
+**Cause — categories 3 and 4.** Step 2's new authorship rules interlock: *"Carry their phrasing forward verbatim; it belongs in the Prototype Plan's `What kind of experience` section"* and *"Never write it for them… the project's center then belongs to you instead of them."* Separately reasonable. Together they oblige the runtime to know, for every statement in the plan, whether it came from the student or from itself — provenance tracking. Nothing said where that tracking lives, so it was written into the artifact. Line 65 of the test output is the obligation rendered literally: *"**PBOH suggested** tying the later fades to distance walked… This is a proposed implementation experiment, **not a confirmed student decision**. **The student established** that continued walking leads through the fades."* Three clauses — PBOH's contribution, its status, the student's. Category 3 then follows necessarily: a provenance ledger cannot be written in second person.
+
+Prohibition density in Steps 2–4 rose 28 → 38 (+36%) across the same change, but the count is not the mechanism; the *kind* is. Attribution prohibitions are the only kind that demand a record.
+
+**Cause — categories 1 and 2 are separate.** George never touched Step 5, the Off-Map section, or the gap-log rules, and his charter edit was reverted the same day (`22923c4`). Category 1 is plausibly downstream of the same provenance impulse; **category 2 is not, and still needs its own diagnosis.** The gap-log instruction in `how-the-tutor-works.md` ("Do not skip the gap log") is the place to look.
+
+**Why this test caught it.** The instructor played an uncertain student — ten hedges across seven turns ("I think" ×5, "I don't know" ×2, "not sure," "I guess," "perhaps"). The authorship rules are conditional on how confidently a thing was stated, so the input was near-worst-case. It also landed between the two branches: Step 2 handles the goal surfacing, the template handles *"if the goal never surfaced"* — this one half-surfaced ("eery, curious. not sure"), so neither applied cleanly and the runtime hedged, then narrated the hedge.
+
+**Rules added — two, placed at cause and at effect.**
+
+1. **Step 2, immediately after "Name it back and let them correct it"** (the rule that creates the obligation) — *"Provenance is yours to hold, not to publish."* Knowing which words are theirs governs what is written; it never appears as writing. Open items go in *Decisions still open*, not into disclaimers.
+2. **Step 7, after the save-target rule** — *"The Prototype Plan is written to the student."* Second person throughout; never third person, never addressed to an implementer. Three things never appear: your sources, your instrumentation, your compliance. Technical warnings are the opposite and belong — the test is whether a sentence is about **their project** or **your process**.
+
+**Deliberately kept.** George's Step 2 (core experience goal) and Step 4 (core loop → player verbs) stay. The defect is a missing disposal route, not a bad rule, and the test output's sequence and build order are visibly stronger for both.
+
+**The generalizable signature, for the eval work:** a rule that says what not to do, without saying where the resulting uncertainty goes, gets answered in the artifact.
+
+**Open — to ask George.** His reverted charter block banned *"contrastive framing such as 'X, not Y'"* — the exact grammar of category 4, eleven instances. Both commits are same-day. He may have hit this output in his own testing and aimed the fix at the charter globally rather than at its source here.
+
+**Untested.** Both rules are swept in and never run. Next runtime test should reuse an uncertain student — the condition that exposed this.

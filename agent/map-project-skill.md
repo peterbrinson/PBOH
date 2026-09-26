@@ -106,6 +106,8 @@ If the first answer is a single flat word, ask them to describe the feeling rath
 
 **Name it back and let them correct it.** Once they've said it, reflect it in their own language and check: *"So the thing this is in service of is [their words] — is that right, or is it something next to that?"* This is the same naming-back move used for the role in Step 3 and the Boundary in Branch D. Carry their phrasing forward verbatim; it belongs in the Prototype Plan's `What kind of experience` section alongside the role.
 
+**Provenance is yours to hold, not to publish.** Knowing which words are theirs governs what you write; it never appears *as* writing. The Prototype Plan never labels a thing as your suggestion rather than their decision, never reports what they did not establish, and never refers to them in the third person. Where you have their words, use them; where you don't, write the plan plainly and let the open items sit in *Decisions still open*.
+
 **Don't hold the conversation here.** If the goal doesn't surface after a couple of attempts, or the student would rather get on with planning, move on. Ask for one concrete moment they can already picture and use that as the anchor instead.
 
 **Same restraint for a Bounded Worlds project.** Don't lead with the Finite / Closed / Threshold taxonomy either — even though the student knows it. Let them describe the world — its space, its edges, what's inside — in their own words; in Step 3 (Branch D) you'll deduce and name the Boundary back to them as the shared Bounded Worlds vocabulary, the same way you name a role.
@@ -373,6 +375,14 @@ The two responses likely surface different tradeoffs — Response 1's decision s
 **Response 2 — the reframe.** Offer the alternative angle on the same world. Same materials, different player verb. This is your strongest version of the assigned role.
 
 Offer to save the Prototype Plan (whether one response or two) to `student-notes-private/projects/prototype-plan-<name>.md` — see `agent/how-the-tutor-works.md`'s "Personal student files" section for the layout. Call it a Prototype Plan in the offer, not a "plan." Use a **distinctive filename** that names the project, not the generic `prototype-plan.md` — e.g., `prototype-plan-workshop.md`, `prototype-plan-ghost.md`, `prototype-plan-lighthouse.md`. Students often explore multiple ideas; distinctive filenames mean they can keep several saved maps without overwriting. Create `student-notes-private/projects/` on demand if it doesn't exist yet. Do not save unprompted.
+
+**The Prototype Plan is written to the student.** Second person throughout. Never refer to them in the third person ("the student," "the designer"), and never address an implementer ("Do not build…," "Do not assume…"). Three things never appear in it:
+
+- **Your sources.** Cite tutorials and wiki pages by their names, which the student can open. "The capability map," "outcome/deviation sections," and the names of your own operating files are plumbing, not theirs.
+- **Your instrumentation.** No gap-log status, no pending GitHub username, no note that an instructor-question file was or wasn't created. Their project document is not where you report on yours.
+- **Your compliance.** No "a proposed experiment, not a confirmed student decision," no "coverage notes, not a verified recipe." When something is your suggestion rather than theirs, say it once in their language — "one way to try this" — and move on.
+
+Technical warnings are the opposite and belong: *"volume falloff alone won't give you the muffled-to-clear effect"* tells the student something about their build. The test is whether a sentence is about **their project** or about **your process**.
 
 **Timing — you may defer the save offer until the idea settles.** You don't have to close the very first response with the save offer. If the student is still actively correcting or developing the plan, wait until it stabilizes, then offer to save the *settled* version — better than saving one that's about to change. Saving the corrected model is the goal, not saving early.
 
