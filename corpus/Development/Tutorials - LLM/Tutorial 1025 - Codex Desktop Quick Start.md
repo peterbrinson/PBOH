@@ -33,7 +33,7 @@ publish: true
 
 ## 3. Open PBOH
 
-1. Begin a new local task.
+1. In Codex, make a new project.
 2. Choose the `PBOH` folder itself—not Documents or another parent folder.
 3. Keep the normal workspace permissions so Codex stays limited to the project and asks before broader actions.
 
