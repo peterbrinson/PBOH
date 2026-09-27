@@ -777,4 +777,40 @@ Prohibition density in Steps 2–4 rose 28 → 38 (+36%) across the same change,
 
 **Open — to ask George.** His reverted charter block banned *"contrastive framing such as 'X, not Y'"* — the exact grammar of category 4, eleven instances. Both commits are same-day. He may have hit this output in his own testing and aimed the fix at the charter globally rather than at its source here.
 
-**Untested.** Both rules are swept in and never run. Next runtime test should reuse an uncertain student — the condition that exposed this.
+**Tested 2026-09-27 — both rules hold.** Re-run of the same student turns on a fresh download and a new Codex project (`prototype-plan-trenches-and-figures.md`). All four categories absent: no internal file names, no third person, no compliance disclaimers, no instrumentation status. 22 second-person instances. **The technical warnings survived**, which was the over-correction risk — *"A full-screen fade at that first moment would also hide the figures, so it would not produce your ending"* and *"This selective disappearance is different from a whole-screen fade"* both stayed, the second now framed around the student's own ending.
+
+The clearest confirmation is the same ambiguity handled the opposite way. Test 1 wrote *"Do not assume it must feel like grief or recognized personal loss."* Test 2 wrote *"Your questions — 'are they thinking about the soldiers?' and 'are we functionally enviious of their lives' — can stay open,"* and put the unresolved items in *Decisions still open*. Same input, no disclaimer.
+
+Also first runtime confirmation of George's Step 4: the core loop appears with its verbs named (walk, look, listen, pause) and framed as a thing to test. Step 7's tradeoff section came out in the succinct-when-undesigned shape — two directions, no intro or outro, closing on "We can discuss this further if you want."
+
+**Category 2 is not confirmed fixed.** Its cause was never touched. The gap log only fires when a UE question is answered from training knowledge, and this conversation may not have triggered it — absence here is not evidence. Keep the row open until a session that *should* fire it comes back clean.
+
+**One residue.** "The labyrinth has a branch for exploration" — the only word in the plan the student did not say. Defensible as course vocabulary (`Labyrinths - Design Axes` exists, and `traveler-coatcheck` uses it for the same kind of space), but there it is PBOH's own framing word, while here it is stated as though it were the student's. Either invoke it as vocabulary or do not lean on it.
+
+### 2026-09-27 (later) — Three conversation-flow fixes from reading the transcripts
+
+**Source:** instructor review of the full transcripts of both runtime tests, saved beside the plans as `War_Travler_firstConversation.md` and `War_Traveler_secondConversation.md`. The plans were the good news; the *conversations* held three problems no plan could show.
+
+**1. The crossing into the plan was never offered — in either session.** Both conversations reached a converged idea and then ended a turn with a summary paragraph and **no question**. In both, the student typed "ok" to break the silence, and only then did the plan arrive. Conversation 1, before the "ok": *"For a first version, one encounter could test this…"* Conversation 2: *"We have a direction to build around now: explore the chaotic trenches, find the quiet passage…"* Every earlier turn in both sessions had ended on a question; these did not.
+
+The instructor’s concern is the one that matters: **a student will stop there.** And that is precisely the failure the class instruction *"work until you get the Prototype Plan"* exists to patch — so the runtime was leaning on a spoken classroom rule to cover its own dead air. Step 7 described the crossing ("the crossing from back-and-forth into the plan itself") but nothing said how a conversation *arrives* at it.
+
+**Rule added** — Step 7, immediately before the naming rule: *"Offer the crossing — never wait to be told."* Do not end a turn with a summary and no question. When the idea has converged, name that and ask — *"I think there’s enough here to turn into a Prototype Plan — want me to put one together?"* The turn always ends on a question, and crossing is the student’s decision to make rather than to guess at.
+
+**2. The save offer was bundled with the two follow-ups, and got lost.** Conversation 2 closed one turn with three questions: A ("Tell me more about…"), B ("Tell me more about…"), then *"Would you like me to save this Prototype Plan…"*. The instructor answered A and B and never saw the third — and had to type *"please write teh prototype plan"* several turns later to get it.
+
+The instructor suggested wrapping it in rows of asterisks. Not taken, for a stated reason: the charter’s own writing rules note that asterisks render as literal characters in a terminal runtime, so that mechanism would look broken in exactly the runtimes students use. The real defect is bundling, not volume.
+
+**Rule added** — Step 7, before the save-deferral note: *"An action ask never shares a turn with content questions."* A save offer or a gap-file name is a request for a **decision**; "Tell me more about ___" is a request for **thinking**. One action ask per turn, the only question in that turn, on its own line after a `---` rule, in bold, last. When A/B are also due, let those run first and offer the save once that exchange settles.
+
+**3. The gap-file ask assumed a GitHub account, and had no skip.** Conversation 2 asked: *"What’s your GitHub username? PBOH uses it to name a local course-gap note…"* — buried mid-tool-run, with no way to decline. The instructor skipped it.
+
+Two things were wrong. It assumes a fork, when **Tutorial 1025 tells students outright they do not need a GitHub account**, and `gaps/README.md` had no fallback naming at all — the standing backlog row *"Gap-log channel — gap for ZIP-only students"* biting in a live session. And there was no skip affordance, so the only way past it was to ignore it.
+
+**Changed** — `how-the-tutor-works.md`’s gap-file rule: ask once, in two parts, skippable — *"Are you using GitHub for this? If not, just say skip. If you are, what’s your GitHub username?"* A username is preferred because it is how the file reaches the instructor, but any short name works. **On a skip, still log the gap** — to `gaps/unnamed.md`, with a one-line note that it can be renamed. A gap that goes unrecorded is lost. Never a condition of continuing. `gaps/README.md` gained the matching student-facing paragraph so the convention is documented where students read it.
+
+**Correction to the entry above — category 2 IS confirmed fixed.** That entry said the gap-log instrumentation defect could not be judged because the flow might not have fired. The transcript shows **it did fire**: conversation 2 asked for the username and read `gaps/README.md`, the instructor skipped, and the flow was left incomplete — the exact condition that produced test 1’s *"The student’s GitHub username has been requested… no gap entry has been saved."* Test 2’s plan says nothing about it. An interrupted gap flow no longer leaks into the artifact. The Step 7 rule covers it after all.
+
+**Standing lesson — read the transcript, not only the artifact.** All three of these defects are invisible in the saved plan, and the plan was judged good twice. Conversation-shape failures (dead air, bundled asks, un-skippable prompts) only appear in the transcript, and two of the three were *reproduced across both sessions* without being noticed until the transcripts were read side by side. Worth building into the eval work: the artifact scores the reasoning, the transcript scores the conversation.
+
+**Untested.** All three are swept in and never run.
