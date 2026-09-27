@@ -12,6 +12,8 @@ Each student's bundle has a single gap file in this folder, named after the stud
 
 If you've just forked PBOH and have no gap file yet, PBOH creates `gaps/<your-github-username>.md` the first time it logs something.
 
+**No GitHub account?** That is fine — most of the course never needs one. PBOH asks once and takes "skip" for an answer, then logs to `gaps/unnamed.md` instead. Everything is still recorded locally, and you can rename the file whenever you like.
+
 ## How it reaches the instructor
 
 PBOH writes the gap file locally and never runs git. **You** commit and push it to your fork — see `corpus/For Contributors/contributing-to-pboh.md`. The instructor collects every student's gap file from their forks and reviews them, deciding which gaps become new wiki pages, tutorials, or pitfall notes.
