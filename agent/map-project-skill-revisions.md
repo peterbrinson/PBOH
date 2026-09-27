@@ -814,3 +814,35 @@ Two things were wrong. It assumes a fork, when **Tutorial 1025 tells students ou
 **Standing lesson — read the transcript, not only the artifact.** All three of these defects are invisible in the saved plan, and the plan was judged good twice. Conversation-shape failures (dead air, bundled asks, un-skippable prompts) only appear in the transcript, and two of the three were *reproduced across both sessions* without being noticed until the transcripts were read side by side. Worth building into the eval work: the artifact scores the reasoning, the transcript scores the conversation.
 
 **Untested.** All three are swept in and never run.
+
+### 2026-09-27 (test 4) — All three flow rules fired; one new defect, introduced by the fix
+
+**Source:** fourth runtime test, same student and idea, fresh download of `753e018`. Transcript saved as `War_Traveler_FourthConversation.md`. (A third test was abandoned and is not recorded.)
+
+**All three flow rules worked.**
+
+- **The crossing was offered.** No dead air. It summarized, then — after a `---`, in bold — *"Would you like me to put together a Prototype Plan, including an Unreal build order?"* The student said yes. No "ok" needed in either the plan offer or the save offer.
+- **Action asks stood alone.** Three separate turns, each with a single ask: the plan offer, the gap-file name, the save offer. Nothing bundled with the A/B questions.
+- **The skippable gap ask worked end to end.** Asked in the specified two-part form, the student answered "skip", and `gaps/unnamed.md` was written with a well-formed, genuinely instructor-useful entry — then reported to the student in one line with the note that the name can be changed. First time the gap channel has completed in any test.
+
+Two smaller gains: the reference page was actually **read** rather than merely cited (it quotes the Eternal Sunshine page’s beach-house scene and connects it to the student’s separation of people, place, and speech), and a `student-notes-private/where-we-left-off.md` session handoff was written.
+
+**NEW DEFECT — category 5: PBOH quoted its own operating files to the student, twice.**
+
+> "The [PBOH planning guide](…/agent/map-project-skill.md) leaves this transition to you: *‘the decision to cross is theirs to make.’*"
+> "The [PBOH planning guide](…) says *‘Do not save unprompted,’* so I need your confirmation before writing the plan to your project folder."
+
+Both rendered as clickable absolute paths into the instructor’s own machine. The first quotes the crossing rule added earlier the same day, **verbatim** — the fix caused the defect.
+
+**Two causes, both worth recording.** (1) The Step 7 rule *"The Prototype Plan is written to the student"* is scoped to the **document**. Both of these are in **conversation**, which nothing covered. (2) The crossing rule as first written carried its own rationale in the body — *"a student reading one has nothing to answer, and the ones who stop there never reach the plan the class told them to work until they get"* — and rationale in a rule body is quotable. That is the standing budget convention (state the rule, put the reasoning in the revision log) earning its keep for a reason beyond token cost: **prose a rule does not need is prose the runtime can recite to a student.**
+
+**Fixes.**
+
+1. `how-the-tutor-works.md`, under Writing style, so it governs everything the student reads and not just the plan: never quote, cite, or link your own operating files — not by name, not as a path, not as a link, and never by quoting a line back as the reason for an action. Explain reasons in your own words or leave them unsaid. Course tutorials, wiki pages, and reference pages stay the opposite — name and link those freely.
+2. The crossing rule rewritten to state the behavior only, ending *"Ask in your own words; do not explain the rule you are following."* Its reasoning now lives here.
+
+**Partial regression — the originally-flagged phrase returned.** Off-Map, in both the plan and the conversation: *"Material opacity or dissolve techniques are directions to investigate; they are not a verified recipe here."* That is the descendant of test 1’s *"coverage notes, not a verified implementation recipe"* — the sentence that started all of this. The Step 7 rule names that exact shape and was near-missed anyway. **Not** fixed with more prose: the Tone-section rule at the top (*"Off-map = here’s what you’d learn separately … no hand-wringing"*) gained the specific recurring phrasings as named examples, since a named tic is cheaper to catch than a described one.
+
+**Note on the gap file.** `gaps/unnamed.md` uses *"a research direction, not an implementation verified in UE 5.7"* — and that is **correct there.** The gap log is instructor-facing by definition (`gaps/README.md`: "the one outbound channel from student to instructor"), so certainty-hedging is exactly its content. The rule against it is about what the *student* reads. Do not sweep the gap file.
+
+**Standing.** Four of five categories clean in the plan; category 5 and the Off-Map phrasing now ruled against but untested. Next test is the instructor’s class use on 2026-09-29.
