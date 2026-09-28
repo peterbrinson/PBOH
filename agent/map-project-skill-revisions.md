@@ -871,3 +871,36 @@ Both rendered as clickable absolute paths into the instructor’s own machine. T
 **Deliberately not fixed here.** The voice gap between the two runs (conversation 5 interprets the idea, conversation 4 describes it back) is real and larger, but it is a quality problem rather than a correctness one, and the proposed fix — a voice spec built around finding the reading that unifies the most of what the student said — is unproven and carries its own risk (a checklist is satisfiable, so a weaker runtime may produce well-shaped sentences around a thin reading). Parked until after the instructor’s 2026-09-29 class use. Note also that `Tutorial 1025` specifies **no model at all**, which may be a cheaper lever than any skill change.
 
 **Untested.** All three are swept in and never run.
+
+### 2026-09-28 (test 6) — Sweep validated; noticing pass rebuilt as a lookup; Sol beats Astra on voice
+
+**Source:** sixth runtime test — same trench idea, Codex on **5.6 Sol**, fresh download of `b8ca81f` (the first build carrying the completeness sweep). Transcript `War_Traveler_conversation_6th.md`, plan `prototype-plan-trench-peace.md`.
+
+**The sweep works, and produced a better result than the Claude run had.** The student’s sentence contains a typo — *"They sometimes yet things down at the player."* Sol went back to the literal sentence and handled the ambiguity rather than resolving it silently: *"If you meant **yell**, use triggered spatial voice clips from Tutorial 104. If you meant **throw**, Tutorial 501 provides a simple falling or launched physics-object version,"* with the open question carried into *Decisions still open*. Conversation 5 (Claude) had assumed "throw" and built it. The sweep’s instruction to work from their sentences and never from a summary is what produced this.
+
+**Attribution caveat:** the 501 find is confounded — it could be the sweep or it could be Sol, since both changed between tests. Not separable from one run.
+
+**Sky and fog were still missed, and that half was my fault.** No 301 anywhere; the "20th century war" look got 701 colour grading and nothing else. The distinction the fix had blurred:
+
+- **The sweep** catches what the student **named**. Worked.
+- **The noticing pass** catches what the description **implies**. A look implies a sky. Still missed.
+
+The 2026-09-28 fix strengthened the sweep properly and only widened a word list on the noticing pass, leaving it a judgment call — *"does the idea involve a common feature you didn’t name?"* Judgment calls get skipped; that was the whole lesson of the sweep and it was not applied here.
+
+**Noticing pass rebuilt as a lookup.** It no longer asks the runtime to wonder whether it missed something. It now requires naming, in one sentence, **where the project takes place and what it looks like** — period, weather, time of day, indoors or out, light — which every project has and students usually give in passing ("it feels like a 20th century war," "golden hour," "a humid greenhouse"). Then it opens the catalog sections that sentence touches, **by name**: Atmosphere & Sky, Lighting & Camera, Water, Landscape & Foliage, Physics & Collision, Characters & Animation, Effects. Closing check: a described look that produced no sky, fog, or lighting feature means the pass did not run. Same conversion the Tutorial Index and References Index made — recall becomes lookup.
+
+**Sol beats Astra on voice, and this attribution IS clean.** Nothing about voice changed between the two builds, so the difference is the model. Sol found a version of the unifying reading Astra never attempted: *"The civilians’ domestic concerns, the leaders’ congratulatory voice-over, and the continuing battle all occupy the same experience **without acknowledging one another**."* Weaker than Claude’s, which included the player — *"the only one present and the only one unaddressed"* — but the same family of observation. Also a genuine tradeoff (the loud route costs "the spectacle and authority of the loud path") and a coined handle ("how its voice and architecture argue with each other").
+
+**Where the three runtimes sit** — build steps / tutorials cited / found 501 / found 301 / unifying reading:
+
+- **Astra High** — 8 / 5 / no / no / none
+- **Sol** — 11 / 6 / yes / no / partial
+- **Claude** — 14 / 9 / yes / yes / full
+
+**Flow rules: all passed on Sol.** Crossing offered near-verbatim. Gap ask word-for-word, alone in its turn, skip honoured, `gaps/unnamed.md` written with a sound instructor-facing entry, student told in one line. Save offer alone and bold. No self-citation of operating files. All four voice categories clean. Codex’s structural compliance has now held across two different models.
+
+**Tutorial 1025 gained a model line.** It specified none, so four tests’ worth of student experience was an uncontrolled variable — and `Tutorial 2020` had said Sol all along, meaning the instructor had been testing Astra against his own documentation. 1025 now reads *"Set the model to **5.6 Sol**, reasoning **High**"* as a new step 3. This makes it a four-step section where its sibling quick starts (1005, 1015) have three; accepted, because Codex needs both a model line and a permissions line where the siblings need only one.
+
+**Open — for the instructor.** `Tutorial 2020` still says reasoning **Medium** where 1025 now says **High**. Deliberately not changed: Medium may be a quota decision, and higher reasoning costs more of a student’s allowance. Either align them or record why they differ.
+
+**Untested.** The rebuilt noticing pass has not been run. The next test should keep a stated look in the student’s description — that is the condition it exists to catch.
