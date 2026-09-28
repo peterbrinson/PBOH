@@ -846,3 +846,28 @@ Both rendered as clickable absolute paths into the instructor’s own machine. T
 **Note on the gap file.** `gaps/unnamed.md` uses *"a research direction, not an implementation verified in UE 5.7"* — and that is **correct there.** The gap log is instructor-facing by definition (`gaps/README.md`: "the one outbound channel from student to instructor"), so certainty-hedging is exactly its content. The rule against it is about what the *student* reads. Do not sweep the gap file.
 
 **Standing.** Four of five categories clean in the plan; category 5 and the Off-Map phrasing now ruled against but untested. Next test is the instructor’s class use on 2026-09-29.
+
+### 2026-09-28 — Dropped student content: the completeness sweep
+
+**Source:** comparing the two September runtime tests of the same trench idea — conversation 4 (Codex, Astra at High reasoning) and conversation 5 (Claude). Conversation 4 **silently lost two features the student stated in their first message.**
+
+**The two misses.**
+
+1. *"They sometimes yet things down at the player."* Conversation 4’s build order gave the soldiers "simple animations and triggered calls" — it kept the yelling and dropped the thrown objects entirely. No physics anywhere in the plan. The catalog has it: *"Falling / tumbling / settling rigid bodies … **Covered** — 501 (Simple Physics) — beginner level."* Conversation 5 built it as step 8, "the things they throw down," with Add Impulse from a trigger.
+2. *"it feels like a 20th century war."* No sky, no fog, no 301 — it used 701 post-processing for "visual tone" and stopped. The catalog has both rows: *"Sky & sun placement — **Covered** — 301"* and *"Fog / atmospheric haze — **Partial** — 301."* Conversation 5 built it as step 3, "the overcast, hazy light of a 20th-century war photograph."
+
+**Why this outranks the voice difference between the two runs.** A student reads their Prototype Plan and a detail from their own first message is simply absent. That is a wrong answer, not a disappointing one.
+
+**The diagnosis is not retrieval.** The transcript shows conversation 4 ran `Get-Content -Raw agent/ue-feature-catalog.md`. It **read the catalog and still dropped both.** Nor is it reasoning — Astra was at High for all four Codex tests, and the repo’s 2026-06-06 finding is that retrieval misses are identical at low and high reasoning. What failed is **checklist execution**: it read the document instead of walking it against the idea. That is the same failure the capability map’s "How to use this map (lookup discipline)" block was written to solve; the catalog had no equivalent.
+
+**Worth noting about which rules a compliant runtime skips.** Conversation 4 passed every *other* structural rule that week — it offered the crossing, kept action asks unbundled, ran the skippable gap-file ask, and cited all three relevant wiki pages (conversation 5 cited none). The difference: the flow rules are explicit imperatives at the point of action. The noticing pass was one sentence telling it to go consult a second file and form a judgment. **The rules that get skipped are the ones that ask for work in another file.**
+
+**Fixes — three, all mechanical.**
+
+1. **Step 4, new pass after the noticing pass: sweep the student’s own words.** List every concrete thing in what they actually wrote — object, character, action, place, sound, look — working from their sentences and never from a summary of them, because the summary is where things disappear. Check the list against the features one item at a time; anything without a feature gets one or is named in Off-Map. The list becomes the completeness standard for the rest of the plan. Countable rather than interpretive, which is the property that made the Tutorial Index and References Index port down a model tier.
+2. **The noticing pass’s example list widened.** It read *(water, fog, lighting, foliage, a character, a day/night feel)* — **falling or thrown objects was not in it**, so the physics miss would have escaped the pass even had it run. Now *(water, fog, sky, lighting, foliage, a character, falling or thrown objects, a day/night feel)*.
+3. **Restated at Step 6.** Per the lesson from the verbatim-quote fix — a single, easily-overridden mention does not hold — the build order opens by checking the sweep list: every named thing appears here or in Off-Map, and if something is missing it is because it was dropped, not because the student didn’t say it.
+
+**Deliberately not fixed here.** The voice gap between the two runs (conversation 5 interprets the idea, conversation 4 describes it back) is real and larger, but it is a quality problem rather than a correctness one, and the proposed fix — a voice spec built around finding the reading that unifies the most of what the student said — is unproven and carries its own risk (a checklist is satisfiable, so a weaker runtime may produce well-shaped sentences around a thin reading). Parked until after the instructor’s 2026-09-29 class use. Note also that `Tutorial 1025` specifies **no model at all**, which may be a cheaper lever than any skill change.
+
+**Untested.** All three are swept in and never run.
