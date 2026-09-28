@@ -35,7 +35,8 @@ publish: true
 
 1. In Codex, make a new project.
 2. Choose the `PBOH` folder itself—not Documents or another parent folder.
-3. Keep the normal workspace permissions so Codex stays limited to the project and asks before broader actions.
+3. Set the model to **5.6 Sol**, reasoning **High**.
+4. Keep the normal workspace permissions so Codex stays limited to the project and asks before broader actions.
 
 ---
 
