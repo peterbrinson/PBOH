@@ -6,7 +6,7 @@ translation_of: "Tutorial 1035 - DeepSeek Quick Start"
 publish: true
 ---
 
-*[[Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start|English version →]]*
+*[[Tutorial 1035 - DeepSeek Quick Start|English version →]]*
 
 ## 0. 简介
 
@@ -15,7 +15,7 @@ publish: true
 这是目前最短的 DeepSeek 路线。不需要 GitHub 账号或 git，但需要终端、DeepSeek API key，以及少量按使用量付费的余额。
 
 > [!NOTE]
-> DeepSeek 提供模型，但不提供代理工具。本教程使用第三方社区工具 **Deep Code**。如果你想使用免费、图形化的路线，请阅读 [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]]。
+> DeepSeek 提供模型，但不提供代理工具。本教程使用第三方社区工具 **Deep Code**。如果你想使用免费、图形化的路线，请阅读 [[Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]]。
 
 ---
 
@@ -132,7 +132,7 @@ Deep Code 不一定会自动读取辅导系统的说明，所以请先输入：
 
 如果这是课堂提交，请在文件开头加上 `Tool: DeepSeek (Deep Code)`。如果老师要求，也请保存完整对话。
 
-接下来请阅读 [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]]。
+接下来请阅读 [[Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]]。
 
 ---
 

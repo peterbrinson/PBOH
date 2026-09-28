@@ -11,7 +11,7 @@ publish: true
 This is the shortest supported DeepSeek route. It does not require GitHub or git, but it does require a terminal, a DeepSeek API key, and a small pay-as-you-go balance.
 
 > [!NOTE]
-> DeepSeek provides the model, not the agent. This tutorial uses **Deep Code**, a third-party community tool. If you want a free graphical path, use [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]].
+> DeepSeek provides the model, not the agent. This tutorial uses **Deep Code**, a third-party community tool. If you want a free graphical path, use [[Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]].
 
 ---
 
@@ -128,7 +128,7 @@ Describe a project idea in 4 to 8 sentences and continue until PBOH produces a P
 
 If this is a class submission, add `Tool: DeepSeek (Deep Code)` near the top and save the transcript if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
+Continue with [[Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 

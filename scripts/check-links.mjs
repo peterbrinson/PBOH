@@ -151,6 +151,8 @@ const brokenLive = [];   // resolves in Obsidian, 404s on the site
 const intoHidden = [];   // target exists but is not published
 const unwritten = [];    // target does not exist anywhere
 const obsidianOnly = []; // resolves in Quartz, dead in Obsidian (mirror bug)
+const partialPath = []; // multi-segment path that is neither corpus-relative nor
+                        // folder-relative: Quartz emits it literally and 404s
 const ambiguous = [];
 let totalLinks = 0;
 
@@ -178,6 +180,7 @@ for (const [noExt, rel] of byRel) {
     const stem = target.replace(/\.[A-Za-z0-9]+$/, "");
     let hit = byRel.get(stem) ?? byRel.get(target) ?? null;
     let viaPath = hit !== null;
+    let viaBase = false;
 
     if (!hit) {
       const folder = [target, stem].find((t) => folders.has(t));
@@ -193,12 +196,12 @@ for (const [noExt, rel] of byRel) {
     if (!hit) {
       const base = stem.split("/").pop();
       const cands = byBase.get(base) ?? byBase.get(target.split("/").pop()) ?? [];
-      if (cands.length === 1) hit = cands[0];
+      if (cands.length === 1) { hit = cands[0]; viaBase = true; }
       else if (cands.length > 1) {
         // Same basename, different extensions (e.g. a .jpg beside a .webp) is
         // not ambiguous when the link names one explicitly.
         const exact = cands.find((c) => c.split("/").pop() === target.split("/").pop());
-        if (exact) hit = exact;
+        if (exact) { hit = exact; viaBase = true; }
         else { ambiguous.push({ rel, target, cands }); continue; }
       }
     }
@@ -214,6 +217,10 @@ for (const [noExt, rel] of byRel) {
       // A multi-segment path link resolves corpus-relative (Quartz) but NOT from
       // the vault root (Obsidian) — the mirror image of the vault-absolute bug.
       if (viaPath && target.includes("/")) obsidianOnly.push({ rel, target, hit });
+      // Resolved only by basename, yet written as a path: the path matches neither
+      // the corpus root nor this page's folder, so Quartz emits a relative href
+      // that 404s for a reader. Obsidian finds it by basename and hides the bug.
+      else if (viaBase && target.includes("/")) partialPath.push({ rel, target, hit });
       if (srcPublished && !published.get(hit)) intoHidden.push({ rel, target, hit });
     }
   }
@@ -238,6 +245,10 @@ section("BREAKS THE LIVE SITE — links into an unpublished page", intoHidden,
 
 // Advisory only: the published site is correct, it's the editor that can't
 // follow these. Worth knowing, not worth blocking a deploy over.
+section("BREAKS THE LIVE SITE — partial path (404s for a reader)", partialPath,
+  (r) => `${r.rel}
+        [[${r.target}]] → the page is ${r.hit}; this path is neither corpus-relative nor folder-relative, so Quartz 404s. Use the bare name: [[${r.target.split("/").pop()}]]`);
+
 section("ADVISORY — resolves on the site, dead in Obsidian", obsidianOnly,
   (r) => `${r.rel}\n        [[${r.target}]] → ${r.hit}; Obsidian can't follow a folder/corpus-relative path`);
 
@@ -261,7 +272,7 @@ if (grouped.size && !QUIET) {
 }
 console.log(`PAGE NEVER WRITTEN — cited only from unpublished pages: ${hiddenUnwritten} link(s)  (cosmetic)\n`);
 
-const hard = brokenLive.length + intoHidden.length + ambiguous.length;
+const hard = brokenLive.length + intoHidden.length + ambiguous.length + partialPath.length;
 if (hard) {
   console.error(`FAIL — ${hard} link(s) broken for a reader on the published site. See above.`);
   process.exit(1);

@@ -8,7 +8,7 @@ publish: true
 
 **Outcome.** By the end of this tutorial, Gemini CLI is installed, pointed at PBOH, and used for your first GET conversation and Prototype Plan.
 
-Use this path only if you prefer a terminal. For the simplest graphical route, use [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]].
+Use this path only if you prefer a terminal. For the simplest graphical route, use [[Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]].
 
 **You need:** a personal Google account, Node.js 20 or newer, an internet connection, and about 15 minutes.
 
@@ -69,7 +69,7 @@ Describe a project idea in 4 to 8 sentences and continue until PBOH produces a P
 
 If this is a class submission, add `Tool: Gemini CLI` near the top and save the transcript if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
+Continue with [[Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 

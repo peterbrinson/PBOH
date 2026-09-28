@@ -58,4 +58,4 @@ If `student-notes-private/where-we-left-off.md` contains a recent brief, PBOH wi
 
 ## 4. Keep the Folder Current — Optional
 
-The ZIP download is enough to begin. If you want a semester-long copy that can receive course updates and contribute a gap log, continue to [[Tutorials - LLM/Tutorial 1090 - Fork and Update PBOH|Fork and Update PBOH]].
+The ZIP download is enough to begin. If you want a semester-long copy that can receive course updates and contribute a gap log, continue to [[Tutorial 1090 - Fork and Update PBOH|Fork and Update PBOH]].

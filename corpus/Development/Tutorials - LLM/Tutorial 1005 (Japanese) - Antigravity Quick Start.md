@@ -6,7 +6,7 @@ translation_of: "Tutorial 1005 - Antigravity Quick Start"
 publish: true
 ---
 
-*[[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|English version →]]*
+*[[Tutorial 1005 - Antigravity Quick Start|English version →]]*
 
 ## 0. はじめに
 
@@ -74,7 +74,7 @@ student-notes-private/projects/prototype-plan-<project-name>.md
 
 授業の提出物にする場合は、ファイルの冒頭に `Tool: Gemini (Antigravity)` と書きます。先生から求められた場合は、会話全体もコピーまたは書き出してください。
 
-次は [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]] に進んでください。
+次は [[Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]] に進んでください。
 
 ---
 
