@@ -10,7 +10,7 @@ publish: true
 
 **You need:** a Claude account with Claude Code access, an internet connection, and about 15 minutes. You do not need a terminal or GitHub account.
 
-If the **Code** area is unavailable after sign-in, your account or organization does not currently provide Claude Code access. Use [[Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]] instead.
+If the **Code** area is unavailable after sign-in, your account or organization does not currently provide Claude Code access. Use [[Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]] instead.
 
 ---
 
@@ -66,7 +66,7 @@ student-notes-private/projects/prototype-plan-<project-name>.md
 
 If this is a class submission, add `Tool: Claude Code Desktop` near the top. Save the transcript too if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
+Continue with [[Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 

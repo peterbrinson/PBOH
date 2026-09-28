@@ -8,7 +8,7 @@ publish: true
 
 **Outcome.** By the end of this tutorial you will have Antigravity installed, Obsidian installed, and you will have used the two of them together to reorganize a messy game project into a working team vault.
 
-This is the same workshop as [[Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]], but run on Antigravity instead. Do one or the other, not both. The difference that matters: **Antigravity needs no access request and no paid plan** — a personal Google account is enough. 
+This is the same workshop as [[Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]], but run on Antigravity instead. Do one or the other, not both. The difference that matters: **Antigravity needs no access request and no paid plan** — a personal Google account is enough. 
 
 The project you will work on belongs to **Anthony and Deloris** — a fictional two-person student team. Their folder is a deliberate mess: duplicate design docs, three versions of the schedule, notes that contradict each other, and files with names like `GDD_v2_FINAL.md` sitting next to `GDD_v2_FINAL_deloris-comments.md`. 
 
@@ -201,7 +201,7 @@ That second question is the one this whole workshop was built to make answerable
 
 ---
 
-**Next for your learning:** do this to your own material — [[Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] covers the parts this workshop left out, starting with getting real files into markdown.
+**Next for your learning:** do this to your own material — [[Tutorial 2021 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] covers the parts this workshop left out, starting with getting real files into markdown.
 
 
 
@@ -217,7 +217,7 @@ A free account limits how often you can set an agent working, and the limit refr
 
 If that does not work either, **wait**. The workshop survives being finished in two sittings, because everything lives in the folder rather than in a conversation. Reopen the project later and ask the agent to re-read the folder before continuing.
 
-The last resort is the **terminal version** of the same tool, which has a much larger free allowance: [[Tutorials - LLM/Tutorial 1001 - Gemini Terminal Quick Start|Gemini Terminal Quick Start]] Step 1 installs it, and you can point it at the same folder and pick up where you stopped.
+The last resort is the **terminal version** of the same tool, which has a much larger free allowance: [[Tutorial 1001 - Gemini Terminal Quick Start|Gemini Terminal Quick Start]] Step 1 installs it, and you can point it at the same folder and pick up where you stopped.
 
 
 ### It is asking me to approve every single change

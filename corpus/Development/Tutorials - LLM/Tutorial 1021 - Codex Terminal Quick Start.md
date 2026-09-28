@@ -8,9 +8,9 @@ publish: true
 
 **Outcome.** By the end of this tutorial, Codex CLI is installed, pointed at PBOH, and used for your first saved Prototype Plan.
 
-Use this path only if you prefer a terminal. For the graphical route, use [[Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start|Codex Desktop Quick Start]].
+Use this path only if you prefer a terminal. For the graphical route, use [[Tutorial 1025 - Codex Desktop Quick Start|Codex Desktop Quick Start]].
 
-**You need:** a ChatGPT account with Codex access, Node.js, an internet connection, and about 15 minutes. If you haven't requested Codex access yet, [[Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] Step 1 tells you how — access takes USC IT a while to grant.
+**You need:** a ChatGPT account with Codex access, Node.js, an internet connection, and about 15 minutes. If you haven't requested Codex access yet, [[Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] Step 1 tells you how — access takes USC IT a while to grant.
 
 ---
 
@@ -67,7 +67,7 @@ Describe a project idea in 4 to 8 sentences and continue until PBOH produces a P
 
 If this is a class submission, add `Tool: Codex CLI` near the top and save the transcript if your instructor requests it.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
+Continue with [[Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 

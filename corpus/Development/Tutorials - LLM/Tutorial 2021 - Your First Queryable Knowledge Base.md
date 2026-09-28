@@ -9,7 +9,7 @@ aliases: ["Tutorial 2021 - Your First Queryable Knowledge Bundle"]
 
 **Outcome.** By the end of this tutorial a slice of your own material — a course you teach, a research area, a project's documents — is a working knowledge base: a folder you can ask questions of, that an AI can pick up cold, and that you can keep adding to.
 
-In [[Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace]] you did this to somebody else's mess. That folder was chosen to be easy: it was small, it was already markdown, and none of it was yours to have opinions about. Your own material is none of those things. This tutorial is about the difference.
+In [[Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace]] you did this to somebody else's mess. That folder was chosen to be easy: it was small, it was already markdown, and none of it was yours to have opinions about. Your own material is none of those things. This tutorial is about the difference.
 
 **What this is actually teaching.** Four things Tutorial 2020 left out:
 

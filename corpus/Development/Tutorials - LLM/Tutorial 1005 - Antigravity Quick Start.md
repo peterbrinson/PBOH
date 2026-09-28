@@ -70,7 +70,7 @@ student-notes-private/projects/prototype-plan-<project-name>.md
 
 If this is a class submission, add `Tool: Gemini (Antigravity)` near the top. If your instructor asks for the full conversation, also copy or export the transcript.
 
-Continue with [[Tutorials - LLM/Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
+Continue with [[Tutorial 1101 - Keep Using PBOH|Keep Using PBOH]].
 
 ---
 
