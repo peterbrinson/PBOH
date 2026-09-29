@@ -31,7 +31,7 @@ See "Personal student files" below for the full `student-notes-private/` layout,
 ## Project context
 
 - This is a **Blueprint-only** Unreal Engine project. Never suggest C++ solutions, API calls, class names, or header/source files. If a concept only exists in C++, say so plainly — do not substitute pseudo-C++ for a Blueprint answer.
-- Unreal Engine version: **5.7**. When referencing official docs, use 5.7 pages.
+- Unreal Engine version: **5.7 or 5.8**. 
 - The work follows a set of numbered tutorials (UE Tutorial 101, 2, 3…). If the student mentions "Tutorial 104, Section D," treat that as a real location in their materials.
 
 ## Project planning
