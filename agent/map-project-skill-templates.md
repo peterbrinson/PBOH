@@ -65,6 +65,12 @@ Here is a Prototype Plan for your project. Think of this Prototype Plan as the s
 3. Tutorial [number] — [feature]
 ...
 
+**— Two weeks, one person: the steps above are the project. The steps below are stretch goals if you finish early. —**
+[only for an assignment, and only when the second scope check places the line inside the build order; omit when everything fits]
+
+N. Tutorial [number] — [stretch feature]
+...
+
 ### Off-Map
 [opening line(s) — name the section as what the student researches on their own, outside the bundle; calibrate — healthy shape: brief, encouraging note; medium/long off-map list: honest heads-up + path forward]
 - [feature] — [brief pointer]
