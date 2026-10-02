@@ -26,3 +26,6 @@ student-notes-private/**
 # (Obsidian startup-speed fix, see GDOH-dev/session-log.md 2026-06-05) --
 # nothing should ever exist at this path again, so no ignore rule is needed.
 site/quartz-local.*.log
+
+.DS_Store
+*/.DS_Store

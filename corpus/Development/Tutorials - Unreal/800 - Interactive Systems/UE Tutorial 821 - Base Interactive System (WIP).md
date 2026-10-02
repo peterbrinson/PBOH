@@ -18,6 +18,38 @@ cssclasses: unreal-tutorial
 - Build hover effects including a Widget UI that appears when the player looks at an object
 - Bind an interaction event to the E key
 
+This tutorial starts from a new project. [[UE Tutorial 822 - Pick Up, Place, and Unlock (WIP)|Tutorial 822]] continues in the same project, so keep it once you're done.
+
+---
+
+## Chapter 0: Start a First Person Project
+
+### 0.1 Choose the Template
+
+Open Unreal Engine. In the **Project Browser**, choose **Games**, then the **First Person** template.
+
+[📷 SCREENSHOT: Project Browser with Games and the First Person template selected.]
+
+Under **Project Defaults**, choose **Blueprint**, not C++. You don't need a Variant or Starter Content for this tutorial.
+
+[📷 SCREENSHOT: Project Defaults panel set to Blueprint, no Variant, Starter Content unchecked.]
+
+### 0.2 Name and Verify
+
+Name the project something you'll recognize later, such as `InteractiveSystems`. Click **Create**.
+
+<span class="hint">Use this project for Tutorial 822 as well. Everything 822 builds sits on top of what you make here.</span>
+
+Once the project opens, press **Play**. You should be walking around the template level in first person. Press **Esc** to stop.
+
+### 0.3 Find the Player Character
+
+In the Content Browser, open **FirstPerson → Blueprints**. `BP_FirstPersonCharacter` is the player. In A2 you'll add the interaction logic to it as a component.
+
+[📷 SCREENSHOT: Content Browser showing FirstPerson > Blueprints > BP_FirstPersonCharacter.]
+
+<span class="hint">The template already uses the left mouse button, Space, WASD, and the mouse. E is free, which is why this tutorial binds interaction to it.</span>
+
 ---
 
 ## Chapter A: Create the Interactable Item System
@@ -72,7 +104,7 @@ Create a new Blueprint and choose **Actor Component**.
 ![[unrealTutorial_10_131.png]]
 ![[unrealTutorial_10_134.png]]
 
-Add it to `BP_FirstPersonCharacter` (found in your `FirstPerson` folder). Keeping interaction logic in a dedicated component makes it easy to disable — just remove the component from the character.
+Add it to `BP_FirstPersonCharacter` (in **FirstPerson → Blueprints**, from step 0.3). Keeping interaction logic in a dedicated component makes it easy to disable — just remove the component from the character.
 
 ![[unrealTutorial_10_137.png]]
 ![[unrealTutorial_10_140.png]]
