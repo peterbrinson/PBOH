@@ -33,7 +33,7 @@ cssclasses:
 > [!info]- Disconnect Destroy Actor
 > Return to `BP_Collectable` from [[UE Tutorial 102 - Collectables and Restart]]. Break the connection between `OnCollectedCollectable` and `Destroy Actor`.  In fact, you can delete the `Destroy Actor` node as it will be incorporated in the `PlayerState` blueprint instead;  destroying the collectable will be the last thing happening in the overall sequence among the blueprints.
 >
-> ![[unrealTutorial_03_101.png]]
+> ![[unrealTutorial_03_101.webp]]
 
 ## 2. Make the Score Widget Blueprint
 ---
@@ -42,18 +42,18 @@ cssclasses:
 > In the Content Browser, right-click and choose **User Interface > Widget Blueprint**. When prompted for a class, select **User Widget**. Name it `WBP_Score`. Double-click to open it.
 >
 > In the Palette panel, find `Canvas Panel` (by searching).
-> ![[unrealTutorial_04_102.png]]
+> ![[unrealTutorial_04_102.webp]]
 >
 > Drag `Canvas Panel` into the Hierarchy panel.  Do the same with `Text` (under Common).  From now on, we will refer to this `Text` as `TextBlock`, per its name. Build the following Hierarchy:
 >
-> ![[unrealTutorial_03_107.png]]
+> ![[unrealTutorial_03_107.webp]]
 >
 > Arrange `TextBlock` on the canvas.
-> ![[unrealTutorial_03_108.png]]
+> ![[unrealTutorial_03_108.webp]]
 >
 > Then, with `TextBlock` selected, find `Is Variable` in the Details panel (at the very top) and check it `true`.
 >
-> ![[unrealTutorial_03_109.png]]
+> ![[unrealTutorial_03_109.webp]]
 >
 > > [!hint] Hold On
 > > Why `Is Variable`? Making the `TextBlock` a variable provides a named reference to it in the [[Event Graph]]. Without this, `TextBlock` is inaccessible to blueprint script.
@@ -63,7 +63,7 @@ cssclasses:
 
 > [!info]- B. Widget Event Graph
 > Click Graph in the top-right corner of the Widget Blueprint editor.
-> ![[unrealTutorial_03_109b.png]]
+> ![[unrealTutorial_03_109b.webp]]
 >
 > Now that you're in the graph, complete the blueprint script using these instructions and screenshot.  This screenshot of the blueprint script is below the instructions.
 >
@@ -71,11 +71,11 @@ cssclasses:
 > - Create `OnScoreUpdated`, a custom event. With it selected, add in the Inputs panel, a new parameter (of type `Integer`): `NewScore`.
 > - Under the VARIABLES panel, the `TextBlock` will be available as `TextBlock_xx`  Drag it into the graph and choose Get.
 > - Drag off the `TextBlock_xx` node and search for `Set Text`.  There are numerous `Set Text`.  Find the one under the category, Content.
-> ![[unrealTutorial_03_109c.png]]
+> ![[unrealTutorial_03_109c.webp]]
 > - Drag off the `OnScoreUpdated` node - `NewScore` and search for `To Text (Integer)`
 > - At this moment, Unreal will insert a `To Text (Integer)` conversion between `NewScore` and `Set`.
 >
-> ![[unrealTutorial_03_110.png]]
+> ![[unrealTutorial_03_110.webp]]
 >
 > <span class="action">Compile</span>
 >
@@ -92,13 +92,13 @@ cssclasses:
 > Drag off of `Event BeginPlay` and type `Create Widget`. Set its Class to `WBP Score`.
 >
 > Add `Get Player Controller` (Player Index 0) and connect its `Return Value` to the `Owning Player` pin of `Create WBP Score Widget`.
-> ![[unrealTutorial_03_113.png]]
+> ![[unrealTutorial_03_113.webp]]
 >
 > To create the `SET` node below, drag off the `Return Value` of `Create WBP Score Widget` and search for `Promote to Variable`.
-> ![[unrealTutorial_03_114.png]]
+> ![[unrealTutorial_03_114.webp]]
 >
 > ...which also gives you - on the left - under VARIABLES, a new variable.
-> ![[unrealTutorial_03_115.png]]
+> ![[unrealTutorial_03_115.webp]]
 > Name that new variable `ScoreWidget` of type `WBP Score`.
 >
 > After the `SET` node, add `Add to Player Screen`.
@@ -107,7 +107,7 @@ cssclasses:
 > > In the Unreal tutorial I'm following, after creating a widget with `Create Widget`, the tutorial says to `Promote to Variable` before adding it to the player screen. Why do I need to store the widget in a variable?
 >
 > Double-check all pin connects - this is the same screenshot you saw a bit above.
-> ![[unrealTutorial_03_113.png]]
+> ![[unrealTutorial_03_113.webp]]
 >
 > <span class="action">Compile</span>
 >
@@ -121,13 +121,13 @@ cssclasses:
 >
 > Select on the `OnCollectedCollectable` custom event node in the Event Graph. In the Details panel, add an Input:
 >
-> ![[unrealTutorial_03_116.png]]
+> ![[unrealTutorial_03_116.webp]]
 >
 > That Input: `Collectable` of type `BP_Collectable`.
 >
 > Notice that now the node has a `Collectable` parameter pin:
 >
-> ![[unrealTutorial_03_119.png]]
+> ![[unrealTutorial_03_119.webp]]
 >
 > (Providing a value for this Parameter comes in Step 5).
 >
@@ -138,7 +138,7 @@ cssclasses:
 >
 > Instructions:
 > - Drag from `OnCollectedCollectable` and search for Add, under the category Operators.
-> ![[unrealTutorial_03_123.png]]
+> ![[unrealTutorial_03_123.webp]]
 > - From the VARIABLES panel, drag in `NumberOfCollectables` and connect to the Add node.  (We're doing a x=x+1, essentially).
 > - Drag from Add and search for `OnScoreUpdated` (the custom event created in Step 2B) -- turn off `Context Sensitive`, momentarily, to find it. Connect the integer output of Add to the `NewScore` parameter pin on `OnScoreUpdated`.
 > - Turn `Context Sensitive` back on.
@@ -146,7 +146,7 @@ cssclasses:
 > - Drag from `OnScoreUpdated` to create `Destroy Actor`.
 > - Notice the long blue wire.  `OnCollectedCollectable`'s parameter - `Collectable` - connects to `Destroy Actor`.  This is why `Destroy Actor` was removed from `BP_Collectable` in Step 1: it belongs here, at the end of the chain among all relevant blueprints - after the number of collectables is updated and presented in the widget.
 >
-> ![[unrealTutorial_03_125.png]]
+> ![[unrealTutorial_03_125.webp]]
 >
 > Almost there.  Step 5 will remedy the runtime error you might notice.
 >
@@ -160,7 +160,7 @@ cssclasses:
 >
 > Right-click in the Event Graph and choose `Get a Reference to Self`. Connect it to the `Collectable` input pin of `OnCollectedCollectable`.
 >
-> ![[unrealTutorial_03_131.png]]
+> ![[unrealTutorial_03_131.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, the collectable blueprint passes `Self` as a parameter to a custom event on the `PlayerState`. Why does the collectable need to pass a reference to itself?

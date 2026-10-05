@@ -32,7 +32,7 @@ With this understanding in place, the player can begin to speculate — quietly 
 
 Detective fiction and film noir provide the canonical examples for this role. In films like _The Maltese Falcon_ (1941) and _Chinatown_ (1974), the detective's actions arise in response to a mystery already present in the world. From the start, clues, motives, and relationships are in place, but not yet understood. We anticipate what the detective is seeking and follow as they discover what those clues mean.
 
-![[spr_investigator_03.png]]
+![[spr_investigator_03.webp]]
 
 - **The Plot:** The sequence in which the detective (and the audience) experiences the investigation.
 - **The Story:** The underlying events as they are retrospectively sequenced through the investigation.
@@ -41,33 +41,33 @@ Detective fiction and film noir provide the canonical examples for this role. In
 
 ##### Return of the Obra Dinn
 
-![[spr_investigator_04.png]]
+![[spr_investigator_04.webp]]
 
 **[[Game - Return of the Obra Dinn|Return of the Obra Dinn]]** mirrors detective fiction perfectly. An insurance inspector investigates a ship mutiny by examining audio fragments and suspended moments in time to match evidence to causal chains.
 <br>
 ##### Gone Home
 
-![[spr_investigator_05.jpg]]
+![[spr_investigator_05.webp]]
 
 **[[Game - Gone Home|Gone Home]]** demonstrates that Investigator stories are not limited to crime. The game invites the player to piece together a coming-of-age narrative embedded in the family’s new home.
 Its follow-up, **[[Game - Tacoma|Tacoma]]**, translates this to science fiction, featuring 3D recordings that reconstruct a tragedy on a space station.
 <br>
 ##### Her Story
 
-![[spr_investigator_06.jpg]]
+![[spr_investigator_06.webp]]
 
 [[Game - Her Story|Her Story]] proves this role doesn't necessarily explore physical space. It confines the player to a database, where discovery comes from searching records and noting contradictions across time.
 <br>
 ##### Disco Elysium
 
-![[spr_investigator_07.jpg]]
+![[spr_investigator_07.webp]]
 
 **[[Game - Disco Elysium|Disco Elysium]]** simultaneously attends to the present and the past. It mixes retroactive reconstruction with a living present: the player starts by investigating past events and soon must parse competing political ideologies and social forces presently active in the town.
 <br>
 
 ## Multiple Roles in a Single Game
 
-![[spr_investigator_02.png]]
+![[spr_investigator_02.webp]]
 
 AAA games contain multiple Situated Player Roles. The Investigator — examining an interior in *Skyrim*, probing a map's lore in *[[Game - Elden Ring|Elden Ring]]*, or conversing with a character in *The Outer Worlds* — likely sits off the main line of action, but remains essential to the game's storytelling. 
 

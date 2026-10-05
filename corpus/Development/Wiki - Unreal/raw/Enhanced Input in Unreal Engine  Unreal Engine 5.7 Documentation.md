@@ -23,7 +23,7 @@ For example, if you have a player character that can walk, sprint, and be prone.
 
 Enhanced Input is enabled by default. You can create input assets from the Content Browser, by clicking **Add** (**+**) and navigating to the **Input** category.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/bb3fb38c-3a7e-4d0b-b920-b31b88d11f5a/image_0.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/bb3fb38c-3a7e-4d0b-b920-b31b88d11f5a/image_0.webp)
 
 ## Core Concepts
 
@@ -35,7 +35,7 @@ The Enhanced Input system has four main concepts, **Input Actions**, **Input Map
 
 Input Actions can be several different types that will determine their behavior. You can make a simple boolean action or a more complex 3D axis. The type of action determines the value. Boolean actions have a simple **bool** value, an **Axis1D** is a **float** value, an **Axis2D** is an **FVector2D**, and **Axis3D** is a whole **FVector**.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f2c62175-7fbb-4d83-81b3-4b09d51d24bd/image_1.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f2c62175-7fbb-4d83-81b3-4b09d51d24bd/image_1.webp)
 
 Input Actions can be different value types that will determine their behavior.
 
@@ -43,7 +43,7 @@ You should use bool actions for inputs that have an on or off state. This is the
 
 As an example, a "pick up item" Action might only need an on / off state, indicating whether or not the user wants the character to pick something up, while a "walk" Action might require a 2D axis to describe the direction and speed at which the user wants the character to walk.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/cbfec54a-8c36-44f8-ac0d-c232d7612436/image_2.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/cbfec54a-8c36-44f8-ac0d-c232d7612436/image_2.webp)
 
 The different Input Actions used in the Lyra Game Sample.
 
@@ -61,7 +61,7 @@ A **Trigger State** represents the current state of an action, such as **Started
 
 To add an Input action listener in Blueprints, you can right-click in the Blueprint's event graph and type in the name of your input action data asset.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f6187c7e-2858-4553-b5bc-9b746d5bef0e/image_3.png) ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/6100dc17-058b-4aa8-a778-993789529d6c/image_4.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f6187c7e-2858-4553-b5bc-9b746d5bef0e/image_3.webp) ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/6100dc17-058b-4aa8-a778-993789529d6c/image_4.webp)
 
 Adding an Input Action Event and setting it to execute a Print String.
 
@@ -93,13 +93,13 @@ void AFooBar::SomeCallbackFunc(const FInputActionInstance& Instance)
 
 To create an Input Mapping Context, right-click the **Context Browser**, expand the **Input** option, and choose **Input Mapping Context**.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d0923212-114f-40ee-8d97-d564edc2ec80/image_5.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d0923212-114f-40ee-8d97-d564edc2ec80/image_5.webp)
 
 The basic structure of an Input Mapping Context is a hierarchy with a list of Input Actions at the top level. Under the Input Action level is a list of user inputs that can trigger each Input Action, such as keys, buttons, and movement axes.
 
 The bottom level contains a list of Input Triggers and Input Modifiers for each user input, which you can use to determine how an input's raw value is filtered or processed, and what restrictions it must meet in order to drive the Input Action at the top of its hierarchy.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/6c38fff1-2df0-4100-9a7d-bc6f3b06427a/image_6.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/6c38fff1-2df0-4100-9a7d-bc6f3b06427a/image_6.webp)
 
 You can apply one or more of these Contexts to a local player through its Enhanced Input Local Player Subsystem, and prioritize them to resolve collisions between multiple Actions trying to consume the same input.
 
@@ -131,7 +131,7 @@ if (ULocalPlayer* LocalPlayer = Cast<ULocalPlayer>(Player))
     }
 }
 ```
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/cda4af79-acac-4708-979e-9790879f406c/image_7.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/cda4af79-acac-4708-979e-9790879f406c/image_7.webp)
 
 ### Input Modifiers
 
@@ -139,25 +139,25 @@ if (ULocalPlayer* LocalPlayer = Cast<ULocalPlayer>(Player))
 
 Input Modifiers are useful for applying sensitivity settings, smoothing input over multiple frames, or changing how input behaves based on the state of the player. Because you have access to the `UPlayerInput` class when making your own modifier, you can access the owning Player Controller and get any game state you want.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/89bdb32f-5633-465b-b6d0-c54695809073/image_8.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/89bdb32f-5633-465b-b6d0-c54695809073/image_8.webp)
 
 You can make your own Input Modifiers in C++ or Blueprints by creating a subclass of the `UInputModifier` class and overriding the `ModifyRaw_Implementation` function.
 
 You can also create your own Input Modifier by creating a new **Blueprint Child Class** using **Input Modifier** as the parent.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ef7a1197-2a76-44aa-b61f-79883adee90b/image_9.jpg)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ef7a1197-2a76-44aa-b61f-79883adee90b/image_9.webp)
 
 Next, navigate to **My Blueprint > Functions > Override** and from the **dropdown menu** select the **Modify Raw** function.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ab994f5d-c61c-44f1-ac90-f7809b709a62/image_10.jpg)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ab994f5d-c61c-44f1-ac90-f7809b709a62/image_10.webp)
 
 The output parameter is an **Input Action Value**, which contains three **float** values, much like a **Vector**. The function's input parameters contain the **Player Input** object, the **Current Value** from the input hardware or the previous Input Modifier, and a **Delta Time** value.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/823477d6-417a-4597-86b2-ce41ea430392/image_11.jpg)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/823477d6-417a-4597-86b2-ce41ea430392/image_11.webp)
 
 The Input Action Value you return from **Modify Raw** will go to the next Input Modifier, if there is one, or to the first Input Trigger.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/7a65a12e-8471-40d3-8011-dd84d3cb9d5f/image_12.jpg)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/7a65a12e-8471-40d3-8011-dd84d3cb9d5f/image_12.webp)
 
 Below is an example of an Input Modifier used in the Lyra Game Sample.
 
@@ -212,7 +212,7 @@ Enhanced Input supports input from one-dimensional sources, such as a keyboard's
 | S | Down | Negative Y-Axis | Negate Swizzle Input Axis Values (YXZ or ZXY) |
 | D | Right | Positive X-Axis | (none) |
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/c64ef3f3-837a-4074-9552-68c332e3c99b/image_13.jpg)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/c64ef3f3-837a-4074-9552-68c332e3c99b/image_13.webp)
 
 This interpretation of the directional arrows or "WASD" keys enables one-dimensional inputs to map to a two-dimensional Input Action.
 
@@ -250,7 +250,7 @@ After processing user input, Input Triggers can return one of three states:
 
 You can create your own Input Trigger by extending the base Input Trigger class, or **Input Trigger Timed Base**.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/7241dae4-8ecb-4e05-bd62-2a56cd4a360e/image_14.jpg)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/7241dae4-8ecb-4e05-bd62-2a56cd4a360e/image_14.webp)
 
 **Input Trigger Timed Base** checks that an input has been held down for a certain length of time before accepting it and returning to the **Ongoing** state.
 
@@ -323,11 +323,11 @@ There are several input related debug commands available to help you debug any i
 
 Using the command `showdebug enhancedinput` displays the available input action and axis mappings used by your project.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/4bd682f0-58bc-45d8-a161-ee3d2d34870e/image_15.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/4bd682f0-58bc-45d8-a161-ee3d2d34870e/image_15.webp)
 
 Using the command: `showdebug devices`
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/4ad61c87-26da-417a-b096-47d43b098d46/image_16.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/4ad61c87-26da-417a-b096-47d43b098d46/image_16.webp)
 
 ## Injecting Input
 
@@ -343,7 +343,7 @@ Input.-key Gamepad_Left2D
 
 The key name is whatever the actual FKey name is, which you can find in the `InputCoreTypes.cpp` file, or in the key picker widget if you remove the spaces in the displayed key name.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/cef26c35-3aab-4122-978e-4797f5e72e61/image_17.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/cef26c35-3aab-4122-978e-4797f5e72e61/image_17.webp)
 
 Injecting input in Blueprints
 
@@ -364,11 +364,11 @@ You can make a Blueprint based on the **Enhanced Input Platform Data** class. Th
 
 Any time the mapping context is referenced on a specific platform, it will be replaced by the value in the map when the mappings are rebuilt.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/6ff0dfb2-939e-4733-bfe5-366eda2c9753/image_18.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/6ff0dfb2-939e-4733-bfe5-366eda2c9753/image_18.webp)
 
 To apply this redirect, add it to your **Project Settings** > **Enhanced Input** > **Platform Settings** > **Input Data**
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d9969433-e5cc-48fc-8391-47744c9aeb79/image_19.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d9969433-e5cc-48fc-8391-47744c9aeb79/image_19.webp)
 
 These project settings add to the platforms `DefaultInput.ini`, so they are hot fixable and easily changed. Because the platform settings provide the base class of `UEnhancedInputPlatformData`, you can make custom platform settings by creating your own Blueprint or C++ subclass, which then provides access to the settings from anywhere.
 

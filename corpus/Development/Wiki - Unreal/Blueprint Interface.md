@@ -18,13 +18,13 @@ Not the Blueprint Editor UI — a Blueprint Interface is a specific asset type. 
 
 Content Browser → **Add (+) → Blueprints → Blueprint Interface**. Name it descriptively (e.g., `Reading`, `Interactable`, `Damageable`).
 
-![[createinterface.png]]
+![[createinterface.webp]]
 
 ### The Interface Editor
 
 Double-click to open. The editor looks like a Blueprint Editor but is heavily restricted — no variables, no components, no implementation graphs. The graph is marked **READ-ONLY** and **INTERFACE**. You can only define function signatures here.
 
-![[interfaceeditor.png]]
+![[interfaceeditor.webp]]
 
 A default function `NewFunction_0` is created automatically. Rename it in the My Blueprint panel (e.g., `ReadingInteraction`).
 
@@ -35,7 +35,7 @@ Functions are name + inputs + outputs only. In the **Details** panel:
 - **Inputs:** Click **+** under Inputs to add parameters. Set name and type. Expand to set default values.
 - **Outputs:** Click **+** under Outputs. Adding an output changes the function from a message (fire-and-forget) to a function with a return value.
 
-![[details_signature.png]]
+![[details_signature.webp]]
 
 ### Implementing the Interface
 

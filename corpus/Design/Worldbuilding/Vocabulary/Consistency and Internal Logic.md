@@ -24,7 +24,7 @@ The Road Runner cartoon doesn't violates its own physics, however absurd the phy
 - 14:25 — iconic fall
 https://www.youtube.com/watch?v=_mHcWWOa3aI
 
-![[wile-e-coyote-1.jpg]]
+![[wile-e-coyote-1.webp]]
 
 The outcome of each trap is to teach us one of the world's rules. 
 His traps leads to surprises (rather than successes). The surprises (a new rule we're learning) work because the prior rules are established to work as a system. 

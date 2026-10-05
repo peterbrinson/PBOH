@@ -40,7 +40,7 @@ By setting both of their collision settings to block each other, you get a colli
 
 | Sphere Collision Setup | Wall Collision Setup |
 | --- | --- |
-| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/10c10808-3c0e-4637-bfee-e931a8b5e308/col_collidenoevent_sphere.png) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3cd0f624-d01c-4ab3-bf8d-9ed784c11252/col_collidenoevent_box.png) |
+| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/10c10808-3c0e-4637-bfee-e931a8b5e308/col_collidenoevent_sphere.webp) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3cd0f624-d01c-4ab3-bf8d-9ed784c11252/col_collidenoevent_box.webp) |
 | In this case, the sphere is a **PhysicsBody** and it is set to `block` **WorldDynamic** (which is what the wall is). | The wall is a **WorldDynamic** and is set to `block` **PhysicsBody** Actors (which is what the sphere is). |
 
 In this case, the sphere and the wall will simply collide; no further notifications of the collision will take place.
@@ -49,11 +49,11 @@ In this case, the sphere and the wall will simply collide; no further notificati
 
 Just collision is useful and in general, the bare minimum for physics interactions, but if you want something to **report** it has collided so a Blueprint or section of code can be triggered:
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3a708e18-e166-4d3d-9f2c-3a14b5c2f8d1/col_collideevent.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3a708e18-e166-4d3d-9f2c-3a14b5c2f8d1/col_collideevent.webp)
 
 | Sphere Collision Setup | Wall Collision Setup |
 | --- | --- |
-| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ef4be1fc-2e5f-4e72-9d42-3da3f380de22/col_collideevent_sphere.png) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/1dbb79af-e28f-429c-8319-3caeb50a4014/col_collidenoevent_box.png) |
+| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ef4be1fc-2e5f-4e72-9d42-3da3f380de22/col_collideevent_sphere.webp) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/1dbb79af-e28f-429c-8319-3caeb50a4014/col_collidenoevent_box.webp) |
 | As in the example above, the sphere is a **PhysicsBody** and it is set to `block` **WorldDynamic** (which is what the wall is). However, the sphere has also enabled **Simulation Generates Hit Events** so it will trigger an event for itself whenever it collides with something. | The wall is a **WorldDynamic** and is set to `block` **PhysicsBody** Actors (which is what the sphere is). Since the wall is not set to **Simulation Generates Hit Events**, it will not generate an event for itself. |
 
 With the sphere set to **Simulation Generates Hit Events**, the sphere will tell itself that it has had a collision. It will fire off events such as **ReceiveHit** or **OnComponentHit** in the sphere's Blueprint. Now if the box had an event for collision, it would not fire because it will never notify itself it has happened.
@@ -64,18 +64,18 @@ Further, an object that is reporting rigid collisions will report them all and s
 
 For all intents and purposes, **Overlap** and **Ignore** work exactly the same **assuming Generate Overlap Events** is disabled. In this case, the sphere is set to overlap or ignore the box:
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3c26a177-6f71-46d1-ac2f-b21e01cb66f2/col_ignore.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3c26a177-6f71-46d1-ac2f-b21e01cb66f2/col_ignore.webp)
 
 | Sphere Collision Setup | Wall Collision Setup |
 | --- | --- |
-| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/0dba5fbe-071f-496a-a81b-5b8f67213710/col_overlapnoevent_sphere.png) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/990c2537-8de0-4407-a840-7306f132a6ac/col_collidenoevent_box.png) |
+| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/0dba5fbe-071f-496a-a81b-5b8f67213710/col_overlapnoevent_sphere.webp) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/990c2537-8de0-4407-a840-7306f132a6ac/col_collidenoevent_box.webp) |
 | Here the sphere is set to `overlap` **WorldDynamic** Actors (like our wall), but it does not have **Generate Overlap Events** enabled. As far as the sphere is concerned, it has not collided or overlapped anything, effectively it has ignored the wall. | The wall is a **WorldDynamic** and is set to `block` **PhysicsBody** Actors (which is what the sphere is). As stated above, both Actors need to be set to block each other's respective object types. If they do not, they will not collide. |
 
 Or:
 
 | Sphere Collision Setup | Wall Collision Setup |
 | --- | --- |
-| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/8e28c57a-cc35-4810-9b1d-a72415c8a3c5/col_ignore_sphere.png) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/11cc85b4-6fa6-42da-a392-01f0c173c6ac/col_collidenoevent_box.png) |
+| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/8e28c57a-cc35-4810-9b1d-a72415c8a3c5/col_ignore_sphere.webp) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/11cc85b4-6fa6-42da-a392-01f0c173c6ac/col_collidenoevent_box.webp) |
 | Here the sphere is set to `ignore` **WorldDynamic** Actors (like our wall), and it will pass through the wall. | The wall is a **WorldDynamic** and is set to `block` **PhysicsBody** Actors (which is what the sphere is). As stated above, both Actors need to be set to block each other's respective object types. If they do not, they will not collide. |
 
 ### Overlap and Generate Overlap Events
@@ -86,10 +86,10 @@ For an overlap to occur, both Actors need to enable **Generate Overlap Events**.
 
 If the Box doesn't want overlaps then when it moves we will not do an overlap query. But now we could be overlapping with the Sphere, and so the Sphere would need to tick and check for overlaps each frame in case someone moved into them.
 
-![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ad3d2476-2cb5-48d9-a548-2380df6f7e78/col_overlapevent.png)
+![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/ad3d2476-2cb5-48d9-a548-2380df6f7e78/col_overlapevent.webp)
 
 | Sphere Collision Setup | Wall Collision Setup |
 | --- | --- |
-| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3a5b75a5-d73a-4b71-b8eb-3ca63c92f8b8/col_overlapevent_sphere.png) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/c5260c5a-6e9e-4dfa-b532-d997f3c7ed11/col_collideoverlapevent_box.png) |
+| ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3a5b75a5-d73a-4b71-b8eb-3ca63c92f8b8/col_overlapevent_sphere.webp) | ![](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/c5260c5a-6e9e-4dfa-b532-d997f3c7ed11/col_collideoverlapevent_box.webp) |
 | Here the sphere is set to `overlap` **WorldDynamic** Actors (like our wall), and it will generate an event for itself when it does overlap something. | The wall is a **WorldDynamic** and is set to `block` **PhysicsBody** Actors (which is what the sphere is). As stated above, both Actors need to be set to block each other's respective object types. If they do not, they will not collide. But, an **Overlap** does occur here, and events for the sphere and box are fired. |
 

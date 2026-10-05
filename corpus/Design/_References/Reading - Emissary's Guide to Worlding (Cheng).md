@@ -76,7 +76,7 @@ Two axes define the masks:
 The masks who Seek Home are rewarded with certainty and security. The masks who Seek Surprise are rewarded with adventure and novelty.
 The masks who steer by gut are rewarded with immediate results. The masks who steer by story are rewarded with a sense of big picture context. If the Story cannot expand to incorporate the unexpected, the artist turns to the Gut for survival. And if the Gut proves wrong too many times, the artist looks to Stories to put it all into perspective. It's judging by short term vs. judging by long term.
 
-![[cheng-four-masks.png]]
+![[cheng-four-masks.webp]]
 
 ### The Director
 

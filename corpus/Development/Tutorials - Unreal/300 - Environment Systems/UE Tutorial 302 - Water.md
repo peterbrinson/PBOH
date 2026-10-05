@@ -52,7 +52,7 @@ How does `Affects Landscape` change things?
 
 Also in Details find `Water Waves Asset`.  Click the icon with a folder and magnifying glass; this highlights the asset -  `GerstnerWaves_Lake` - itself in the Content Browser.
 
-![[unrealTutorial_08b_103.png]]
+![[unrealTutorial_08b_103.webp]]
 
 Now `Duplicate` `GerstnerWaves_Lake` and put your name in it, such as `GerstnerWaves_Lake_Peter`.
 
@@ -66,14 +66,14 @@ In the new window, play with the settings, and see the updates in your scene.
 *Warning*: if your landscape uses an `AutoMaterial` (because you followed [[UE Tutorial 301 - Landscapes, Gaea and Automaterial]]), it might be worth returning to that file to disable its water settings. (`MW_UseWater`).
 These two water features do not conflict, but having them both can make it difficult to judge which is affecting the shore, for instance.  
 
-![[unrealTutorial_08b_193.png]]
+![[unrealTutorial_08b_193.webp]]
 ## 4. Place an Ocean
 
 Back to `Place Actors`.  Drag in `Water Body Ocean`.
 In a way, this ocean asset behaves in the opposite manner to the lake.  Your landscape becomes an island.
 
 
-![[unrealTutorial_08b_195.png]]
+![[unrealTutorial_08b_195.webp]]
 
 ## 4. Place an River
 
@@ -83,15 +83,15 @@ The prior steps teach you the basics about this body of water as well.
 With it selected, in Details, choose the SplineComp.
 Spline and its points - this feature is most powerful for rivers.   Control them in Details or in the world.
 
-![[unrealTutorial_08b_197.png]]
+![[unrealTutorial_08b_197.webp]]
 
 
 Now you can click on the spline : 
 - Right-click on the spline to add points.
 - With one point selected, try values for - `Depth`, `River Width`, and `Velocity`. 
 
-![[unrealTutorial_08b_198.png]]
-![[unrealTutorial_08b_199.png]]
+![[unrealTutorial_08b_198.webp]]
+![[unrealTutorial_08b_199.webp]]
 
 ## What you can now build
 

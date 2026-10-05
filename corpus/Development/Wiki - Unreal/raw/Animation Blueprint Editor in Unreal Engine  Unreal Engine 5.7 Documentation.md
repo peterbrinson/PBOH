@@ -12,7 +12,7 @@ This document provides an overview of the Animation Blueprint Editor interface.
 
 Upon opening an Animation Blueprint, the following interface will be displayed:
 
-![animation blueprint editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/5128e43e-c448-48a4-b981-6cd36ab00fca/editoroverview.png)
+![animation blueprint editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/5128e43e-c448-48a4-b981-6cd36ab00fca/editoroverview.webp)
 1. [**Toolbar**](https://dev.epicgames.com/documentation/unreal-engine/animation-blueprint-editor-in-unreal-engine#toolbar), which contains buttons for Animation Blueprint management and editor type switching.
 2. **Viewport**, where you can preview the behavior of your Animation Blueprint logic on your character. For more information, refer to the [Viewport](https://dev.epicgames.com/documentation/unreal-engine/animation-editors-in-unreal-engine#viewport) section of the [Animation Editors](https://dev.epicgames.com/documentation/unreal-engine/animation-editors-in-unreal-engine) page.
 3. **My Blueprint**, [similarly found](https://dev.epicgames.com/documentation/unreal-engine/my-blueprint-panel-in-the-blueprints-visual-scripting-editor-for-unreal-engine) in the Blueprint Editor, contains a list of your graphs, functions, variables and other related properties within the Animation Blueprint. Also contained here is the **Pose Watch Manager** panel, refer to the [Animation Shortcuts and Tips](https://dev.epicgames.com/documentation/unreal-engine/animation-shortcuts-and-tips-unreal-engine#posewatch) page for more information.
@@ -45,11 +45,11 @@ The Animation Blueprint Editor Toolbar provides the following buttons and menus:
 The Graph panel is where you create the logic that controls your character during gameplay. There are three main types of graphs, each with different interfaces:
 
 - The **Event Graph**, where you construct Blueprint-based logic to define node properties and variables which inform your other graph areas.
-	![animation blueprint event graph](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/dbaa19d0-5091-4e90-b981-c5c8e71a7e03/graphevent.png)
+	![animation blueprint event graph](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/dbaa19d0-5091-4e90-b981-c5c8e71a7e03/graphevent.webp)
 - The **Anim Graph**, where you construct pose-based logic which evaluates the final pose of the Skeletal Mesh for the current frame.
-	![animation blueprint anim graph](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/e875afc6-e44b-44c1-9d07-170d2bb87644/graphanim.png)
+	![animation blueprint anim graph](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/e875afc6-e44b-44c1-9d07-170d2bb87644/graphanim.webp)
 - **State Machines**, where you construct state-based logic, typically used for locomotion.
-	![animation blueprint state machine](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/6e6b95fa-fe02-46d7-bdfa-bbb871548265/graphstate.png)
+	![animation blueprint state machine](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/6e6b95fa-fe02-46d7-bdfa-bbb871548265/graphstate.webp)
 
 Visit the [Graphing in Animation Blueprints](https://dev.epicgames.com/documentation/unreal-engine/graphing-in-animation-blueprints-in-unreal-engine) and [State Machines](https://dev.epicgames.com/documentation/unreal-engine/state-machines-in-unreal-engine) pages for more information about the different graph types and graphing within Animation Blueprints.
 
@@ -61,9 +61,9 @@ Visit the [Graphing in Animation Blueprints](https://dev.epicgames.com/documenta
 
 The Anim Preview Editor is where you can make changes to your variables (including Class Defaults), which will update the Skeletal Mesh in the viewport.
 
-![anim preview editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3b74dd6d-c752-4c9e-af68-7d958a9150ce/animpreview1.png)
+![anim preview editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/3b74dd6d-c752-4c9e-af68-7d958a9150ce/animpreview1.webp)
 
 Clicking **Edit Preview** changes the behavior of this panel so that you are only making temporary edits to your variables. This can be useful if you only want to preview different variable states, without making destructive edits. When you make changes, a prompt will appear where you can choose to apply these changes to the default.
 
-![edit preview](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/1d4a1f98-8ccf-4a8b-b0a9-9ee66ca28cb9/animpreview2.png)
+![edit preview](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/1d4a1f98-8ccf-4a8b-b0a9-9ee66ca28cb9/animpreview2.webp)
 

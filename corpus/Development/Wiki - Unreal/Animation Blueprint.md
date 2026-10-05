@@ -6,7 +6,7 @@ publish: true
 
 A specialized Blueprint that controls how a Skeletal Mesh animates. Instead of playing a single animation directly (like [[Play Animation]]), an Animation Blueprint evaluates multiple animations, blends between them, and picks the right pose every frame based on gameplay variables — is the character moving? How fast? Jumping? The template characters (BP_ThirdPersonCharacter, BP_FirstPersonCharacter) come with one pre-built.
 
-![[editoroverview.png]]
+![[editoroverview.webp]]
 
 ## Use When
 
@@ -32,15 +32,15 @@ An Animation Blueprint contains three kinds of graphs, each with a different pur
 
 **Event Graph** — standard Blueprint logic, same as any other Blueprint. Runs every frame. Use it to read gameplay state (speed, direction, is falling) and store values in variables that the Anim Graph reads.
 
-![[graphevent.png]]
+![[graphevent.webp]]
 
 **Anim Graph** — pose-based logic unique to Animation Blueprints. Evaluates animation nodes (play sequence, blend, state machine) and outputs a final pose to the **Output Pose** node each frame. This is where animations are selected and blended.
 
-![[graphanim.png]]
+![[graphanim.webp]]
 
 **State Machine** — a graph within the Anim Graph that organizes animations into states (Idle, Start, Cycle, Stop, Pivot) with transition rules between them. Each state plays an animation or blend. Transitions fire based on variables set in the Event Graph. This is the standard approach for locomotion.
 
-![[graphstate.png]]
+![[graphstate.webp]]
 
 ### The Flow
 

@@ -35,17 +35,17 @@ OBS won't automatically detect what you want to record — you need to manually 
 
 Choose **Display Capture** and select your screen.
 
-![[unrealTutorial_11_101.png]]
-![[unrealTutorial_11_104.png]]
-![[unrealTutorial_11_107.png]]
+![[unrealTutorial_11_101.webp]]
+![[unrealTutorial_11_104.webp]]
+![[unrealTutorial_11_107.webp]]
 
 Right-click the Display Capture source and choose **Transform → Fit to Screen**.
 
-![[unrealTutorial_11_110.png]]
+![[unrealTutorial_11_110.webp]]
 
 To record your voice, add an **Audio Input Capture** source — same logic.
 
-![[unrealTutorial_11_113.png]]
+![[unrealTutorial_11_113.webp]]
 
 ### A3. Video Settings
 
@@ -57,8 +57,8 @@ Set **Common FPS Values** to `30`.
 
 <span class="hint">Films and videos don't need more than 30fps. High frame rates (60/120) matter when playing fast-action games, not when recording for an audience.</span>
 
-![[unrealTutorial_11_116.png]]
-![[unrealTutorial_11_119.png]]
+![[unrealTutorial_11_116.webp]]
+![[unrealTutorial_11_119.webp]]
 
 ### A4. Output Settings
 
@@ -79,7 +79,7 @@ Go to **Settings → Output**.
 
 <span class="hint">Hybrid MP4 has the best compatibility with video editors, and if OBS crashes it will likely save your recording anyway. Most people can just use H.264.</span>
 
-![[unrealTutorial_11_122.png]]
+![[unrealTutorial_11_122.webp]]
 
 ### A5. Encoder Settings
 
@@ -94,7 +94,7 @@ Keep all other settings at their defaults.
 
 <span class="hint">Lower QP = higher quality, larger file. 0 or 1 is lossless but very large. 23 is a solid balance. You can increase B-Frames or change the preset based on your GPU/CPU, but these defaults are sufficient for high-quality output.</span>
 
-![[unrealTutorial_11_125.png]]
+![[unrealTutorial_11_125.webp]]
 
 ---
 
@@ -110,7 +110,7 @@ DisableAllScreenMessages
 
 This clears warnings, Print Strings, and errors from the screen for a clean recording.
 
-![[unrealTutorial_11_128.png]]
+![[unrealTutorial_11_128.webp]]
 
 To restore them:
 
@@ -118,15 +118,15 @@ To restore them:
 EnableAllScreenMessages
 ```
 
-![[unrealTutorial_11_131.png]]
+![[unrealTutorial_11_131.webp]]
 
 ### B2. Start Recording
 
-![[unrealTutorial_11_134.png]]
+![[unrealTutorial_11_134.webp]]
 
 When finished, click **Stop Recording**. OBS will show you where the file was saved.
 
-![[unrealTutorial_11_137.png]]
+![[unrealTutorial_11_137.webp]]
 
 ### B3. Beginning and End of the Video
 
@@ -147,7 +147,7 @@ When exporting from Adobe Premiere, Final Cut Pro, or DaVinci Resolve, use:
 
 ### C2. Audio Export Values
 
-![[unrealTutorial_11_143.png]]
+![[unrealTutorial_11_143.webp]]
 
 ## What you can now build
 

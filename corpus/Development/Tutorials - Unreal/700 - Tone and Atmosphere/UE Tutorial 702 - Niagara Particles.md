@@ -32,19 +32,19 @@ cssclasses:
 > [!info]- A. Create a Niagara System
 > Right-click in the Content Browser to create a Niagara System.
 >
-> ![[unrealTutorial_09_101.png]]
+> ![[unrealTutorial_09_101.webp]]
 >
 > <span class="hint">The list of templates that appears can look overwhelming — don't panic. These are just pre-set samples designed to save time; they aren't separate categories.</span>
 >
-> ![[unrealTutorial_09_104.png]]
+> ![[unrealTutorial_09_104.webp]]
 >
 > Select SimpleSpriteBurst and click Create.
 >
-> ![[unrealTutorial_09_107.png]]
+> ![[unrealTutorial_09_107.webp]]
 >
 > Rename it with NS_ at the beginning (e.g., NS_MagicSmoke).
 >
-> ![[unrealTutorial_09_110.png]]
+> ![[unrealTutorial_09_110.webp]]
 >
 > Double-click to open it.
 
@@ -57,7 +57,7 @@ cssclasses:
 >
 > A single Niagara System can contain many Emitters.
 >
-> ![[unrealTutorial_09_113.png]]
+> ![[unrealTutorial_09_113.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, I'm working with a "Niagara System" and an "Emitter." What is the relationship between these two? Why would a single System ever need multiple Emitters?
@@ -83,7 +83,7 @@ cssclasses:
 > Render
 > Defines how particles appear on screen. The Sprite Renderer is powerful enough for almost all beginner effects. A Sprite is a 2D plane that always faces the camera — ideal for fire, smoke, and sparkles.
 >
-> ![[unrealTutorial_09_116.png]]
+> ![[unrealTutorial_09_116.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, I see both "Emitter Update" and "Particle Update" sections. What is the difference between these two? If I want to change how fast a particle moves as it gets older, which one should I use?
@@ -95,8 +95,8 @@ cssclasses:
 >
 > This improves performance and allows you to create thousands of particles without slowing down your computer.
 >
-> ![[unrealTutorial_09_122.png]]
-> ![[unrealTutorial_09_125.png]]
+> ![[unrealTutorial_09_122.webp]]
+> ![[unrealTutorial_09_125.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, I just switched my Niagara simulation to "GPUCompute Sim." Why is the GPU better at handling particles than the CPU? Are there any times when I should keep it on the CPU?
@@ -109,57 +109,57 @@ cssclasses:
 > [!info]- A. Set Emitter Update
 > In Emitter Update, find the Emitter State module. This controls whether the emitter is active, looping, or resettable. Change Loop Behavior to Infinite.
 >
-> ![[unrealTutorial_09_128.png]]
-> ![[unrealTutorial_09_131.png]]
+> ![[unrealTutorial_09_128.webp]]
+> ![[unrealTutorial_09_131.webp]]
 >
 > Click the + (add) button and add a Spawn Rate module.
 >
-> ![[unrealTutorial_09_134.png]]
-> ![[unrealTutorial_09_137.png]]
+> ![[unrealTutorial_09_134.webp]]
+> ![[unrealTutorial_09_137.webp]]
 >
 > Increase the Spawn Rate and the Spawn Count in Spawn Burst Instantaneous. The effect will become much brighter as particles stack on top of each other at the center.
 >
-> ![[unrealTutorial_09_140.png]]
-> ![[unrealTutorial_09_143.png]]
+> ![[unrealTutorial_09_140.webp]]
+> ![[unrealTutorial_09_143.webp]]
 
 > [!info]- B. Set Particle Spawn
 > In Initialize Particle, change Uniform Sprite Size to a smaller value — the particles will visibly shrink.
 >
-> ![[unrealTutorial_09_152.png]]
-> ![[unrealTutorial_09_155.png]]
+> ![[unrealTutorial_09_152.webp]]
+> ![[unrealTutorial_09_155.webp]]
 >
 > Click the + button in Particle Spawn and add a Shape Location module. Your particles will now spread out into a sphere shape.
 >
-> ![[unrealTutorial_09_161.png]]
-> ![[unrealTutorial_09_164.png]]
+> ![[unrealTutorial_09_161.webp]]
+> ![[unrealTutorial_09_164.webp]]
 >
 > Experiment with Shape Primitive and Sphere Radius to see different distributions.
 >
-> ![[unrealTutorial_09_170.png]]
-> ![[unrealTutorial_09_173.png]]
+> ![[unrealTutorial_09_170.webp]]
+> ![[unrealTutorial_09_173.webp]]
 >
 > <span class="hint">For this example, set Shape Primitive to Sphere and Sphere Radius to 15.0.</span>
 
 > [!info]- C. Set Particle Update
 > Click the + button in Particle Update and add a Curl Noise Force module. Increase the Noise Strength — the particles will begin to swirl in a turbulent pattern.
 >
-> ![[unrealTutorial_09_182.png]]
-> ![[unrealTutorial_09_185.png]]
+> ![[unrealTutorial_09_182.webp]]
+> ![[unrealTutorial_09_185.webp]]
 > ![[unrealTutorial_09_191.gif]]
 >
 > Add a Point Attraction Force module and increase its strength — particles will pull toward a central point.
 >
-> ![[unrealTutorial_09_194.png]]
-> ![[unrealTutorial_09_197.png]]
+> ![[unrealTutorial_09_194.webp]]
+> ![[unrealTutorial_09_197.webp]]
 >
 > Add a Color module to control the particle color over its lifetime.
 >
-> ![[unrealTutorial_09_200.png]]
-> ![[unrealTutorial_09_203.png]]
+> ![[unrealTutorial_09_200.webp]]
+> ![[unrealTutorial_09_203.webp]]
 >
 > Continue adding modules to build more complex effects. When you're happy with the result, drag the Niagara System from the Content Browser into your level.
 >
-> ![[unrealTutorial_09_209.png]]
+> ![[unrealTutorial_09_209.webp]]
 > ![[unrealTutorial_09_212.gif]]
 >
 > <span class="hint">The preset templates in the "Create Niagara System" dialog are just time-savers — they all start from the same building blocks. Any effect can be built from scratch using these modules.</span>

@@ -24,7 +24,7 @@ Transfers control of a [[Pawn]] to a [[Controller]]. The [[PlayerController]] th
 
 Target is a [[Controller]] reference. Drag off [[Get Player Controller]]'s Return Value and search for "Possess" — it appears under the Pawn category:
 
-![[pawns7b.png]]
+![[pawns7b.webp]]
 
 Note that **Un Possess** also appears here. UnPossess takes no In Pawn — it simply releases whatever the controller currently owns.
 
@@ -41,11 +41,11 @@ Possess only runs where `HasAuthority()` returns true — on the server in multi
 **Character swapping in a [[Level Blueprint]] ([[UE Tutorial 201 - Pawn Possession (WIP)|Tutorial 6]] pattern):**
 Place additional characters in the level. In the Level Blueprint, select all the characters in the World Outliner and right-click in the graph → **Create References to selected Actors** to batch-create reference nodes:
 
-![[pawns4b.png]]
+![[pawns4b.webp]]
 
 Add input events (keyboard keys or [[Enhanced Input|Input Actions]]) for each character. Wire each input event's Pressed pin to its own Possess node. All Possess nodes share a single [[Get Player Controller]] for the Target pin. Connect each character reference to the corresponding Possess node's In Pawn pin:
 
-![[pawns9.png]]
+![[pawns9.webp]]
 
 The player can now press a key to jump into any placed character. The controller automatically releases the previous one.
 

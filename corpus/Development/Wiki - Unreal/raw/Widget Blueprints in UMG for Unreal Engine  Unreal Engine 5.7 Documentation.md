@@ -12,19 +12,19 @@ tags:
 At first, you should create a **Widget Blueprint**, as shown below. With the help of this, you will be able to start working with **Unreal Motion Graphics (UMG)**.
 
 1. Create **Widget Blueprint**. Click the **Add** in the **Content Browser**, then select **User Interface > Widget Blueprint**.
-	![Create Widget Blueprint](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/b2b1bad6-8f75-4735-8c5b-05da7fe2618f/ue5_1-01-create-widget-blueprint.png "Create Widget Blueprint")
+	![Create Widget Blueprint](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/b2b1bad6-8f75-4735-8c5b-05da7fe2618f/ue5_1-01-create-widget-blueprint.webp "Create Widget Blueprint")
 	You can also **Right-click** in the **Content Browser** instead of clicking the **Add** button.
 2. You can rename or use the default name for the Widget Blueprint you created in the Content Browser.
-	![Name created Widget Blueprint](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/abf2b32e-c8e8-4069-9200-e16ee7e445d7/ue5_1-02-rename-widget-blueprint.png "Name created Widget Blueprint")
+	![Name created Widget Blueprint](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/abf2b32e-c8e8-4069-9200-e16ee7e445d7/ue5_1-02-rename-widget-blueprint.webp "Name created Widget Blueprint")
 3. **Double-click** the created **Widget Blueprint** to open it in the **Widget Blueprint Editor**.
-	![Open created Widget Blueprint in the Widget Blueprint Editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/cf96f168-e59f-41e5-8113-07cfcaf794d5/ue5_1-03-widget-editor.png)
+	![Open created Widget Blueprint in the Widget Blueprint Editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/cf96f168-e59f-41e5-8113-07cfcaf794d5/ue5_1-03-widget-editor.webp)
 	*Click image for full view.*
 
 ## Widget Blueprint Editor
 
 The **Designer** tab is tab by default in the opened **Widget Blueprint Editor**. With the help of available editor tools, you can customize the appearance of the UI. Also, you can get the visual preview of the in-game screen, due to layout you adjust.
 
-![ser Interface of the Widget Blueprint Editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f7427192-b5af-405c-a6cd-2a9cf574a4a5/ue5_1-04-widget-editor-scheme.png)
+![ser Interface of the Widget Blueprint Editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f7427192-b5af-405c-a6cd-2a9cf574a4a5/ue5_1-04-widget-editor-scheme.webp)
 
 *Click for full view.*
 
@@ -43,7 +43,7 @@ The **Visual Designer** window by default is 1:1 scale. You can change the scale
 
 The **Graph** tab of the **Widget Blueprint Editor** looks as following.
 
-![Graph tab demonstration of the Widget Blueprint Editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/770ded0a-74e3-44e7-a434-2827f3a6d378/ue5_1-05-widget-editor-graph.png)
+![Graph tab demonstration of the Widget Blueprint Editor](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/770ded0a-74e3-44e7-a434-2827f3a6d378/ue5_1-05-widget-editor-graph.webp)
 
 *Click for full view.*
 

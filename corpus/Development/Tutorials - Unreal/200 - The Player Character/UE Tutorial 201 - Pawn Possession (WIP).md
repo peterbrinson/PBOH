@@ -29,7 +29,7 @@ cssclasses:
 >
 > This approach gives flexibility across platforms — you can add gamepad and mobile support with minimal extra work.
 >
-> ![[unrealTutorial_06_101.png]]
+> ![[unrealTutorial_06_101.webp]]
 
 ## 3. Level Setup
 ---
@@ -45,11 +45,11 @@ cssclasses:
 > [!info]- Level Blueprint Setup
 > Inside the `Level Blueprint`, set up the following logic to handle possession:
 >
-> ![[unrealTutorial_06_104.png]]
+> ![[unrealTutorial_06_104.webp]]
 >
 > Set up a variable to cache the original character so you can return to it. Do this in `BeginPlay`:
 >
-> ![[unrealTutorial_06_107.png]]
+> ![[unrealTutorial_06_107.webp]]
 
 ## 5. Summary
 ---

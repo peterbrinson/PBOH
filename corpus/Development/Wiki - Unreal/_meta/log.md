@@ -67,7 +67,7 @@ Operations: `ingest` (new source processed), `update` (existing page revised), `
 
 - **Sources:** [Animation Montage in UE | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/animation-montage-in-unreal-engine?application_version=5.7), [Play Montage | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Animation/Montage/PlayMontage?application_version=5.7), [Montage Play | UE 5.7](https://dev.epicgames.com/documentation/unreal-engine/BlueprintAPI/Animation/Montage/MontagePlay?application_version=5.7) — all clipped 2026-04-12
 - **Created:** [[Animation Montage]] — Animation category. Wraps Animation Sequences with Blueprint control. Play Montage pin table, Montage Sections, Slots, Child Montages, Play Animation vs Animation Montage comparison table. MetaHuman Mixamo pattern from Tutorial 5 Chapter C.
-- **Images:** 6 embedded (montagedemo.gif, createfromscratch.png, createfromsequ.png, montagesections.png, montage2.png, createchild.png).
+- **Images:** 6 embedded (montagedemo.gif, createfromscratch.webp, createfromsequ.webp, montagesections.webp, montage2.webp, createchild.webp).
 - **Moved to Animation category:** Play Animation (was in Blueprint Nodes).
 - **Updated cross-references:** Play Animation (added Animation Montage), Character (added Animation Montage).
 - **Running total:** 52 wiki pages.

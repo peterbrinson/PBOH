@@ -6,11 +6,11 @@ This document will cover the creation and usage of **Physical Materials** as wel
 ## Creation
 
 1. From the **Content Drawer**, click **Add > Physics > Physical Material** or right-click in the **Content Drawer > Physics > Physical Material**.
-	![ Click Add, Physics, Physical Material or right-click in the Content Drawer, Physics, Physical Material from the Content Drawer](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/749304fe-7ef1-4660-8ac8-bb6118fba9af/new-physical-material.png)
+	![ Click Add, Physics, Physical Material or right-click in the Content Drawer, Physics, Physical Material from the Content Drawer](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/749304fe-7ef1-4660-8ac8-bb6118fba9af/new-physical-material.webp)
 2. Double click the **NewPhysicalMaterial** to edit its properties.
-	![Double click the NewPhysicalMaterial](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/4a9b0d48-dbaf-48cd-9e82-de1a0f0a8b5f/physical-material-properties.png)
+	![Double click the NewPhysicalMaterial](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/4a9b0d48-dbaf-48cd-9e82-de1a0f0a8b5f/physical-material-properties.webp)
 3. Adjust properties.
-	![Adjust properties](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/387e0f43-6d1b-4a1b-8af6-9b8e692dbd59/adjust-properties.png)
+	![Adjust properties](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/387e0f43-6d1b-4a1b-8af6-9b8e692dbd59/adjust-properties.webp)
 4. Click **Save**
 
 See the [Physical Material Reference](https://dev.epicgames.com/documentation/unreal-engine/physical-materials-reference-for-unreal-engine?application_version=5.5) for information on the properties of the Physical Material.

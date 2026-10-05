@@ -25,7 +25,7 @@ Topics
 [[Game - Crimson Desert|Crimson Desert]]
 The map (lower-left) shows the goal, quiet and small.  
 The constraint demands awe; we see and feel the cliff as a boundary.  
-![[Crimson Desert_20260428145114.jpg]]
+![[Crimson Desert_20260428145114.webp]]
 
 ----
 [[Reading - Piranesi (Clarke)|Piranesi]]
@@ -39,7 +39,7 @@ We begin the novel with time, tides, and a touchstone.
 *The Ninth Vestibule is remarkable for the three great Staircases it contains. Its Walls are lined with marble Statues, hundreds upon hundreds of them, Tier upon Tier, rising into the distant heights".*
 
 This image is not from the novel but from Giovanni Battista Piranesi (1720 – 1778) - the source.  His work is the essential inspiration for Clarke's book.  This is one of Piranesi's prison etchings.
-![[Piranesi-original.jpg]]
+![[Piranesi-original.webp]]
 
 
 -----
@@ -48,7 +48,7 @@ This image is not from the novel but from Giovanni Battista Piranesi (1720 – 
 - Entering a room.  
 [https://www.youtube.com/watch?v=5vbtln2q6qA](https://www.youtube.com/watch?v=5vbtln2q6qA)
 
-![[bluePrince.png]]
+![[bluePrince.webp]]
 
 -----
 [[Game - KID A MNESIA Exhibition|KID A MNESIA]] by Radiohead.  The arrival of two situations:

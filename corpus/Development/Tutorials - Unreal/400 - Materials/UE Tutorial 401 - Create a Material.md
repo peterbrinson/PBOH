@@ -7,15 +7,15 @@ type: Tutorial
 Choose New Project.  
 If you working in an existing project, find New Project under File...
 
-![[unrealTutorial_01_103.png]] 
+![[unrealTutorial_01_103.webp]] 
 
 Choose the third person template.
 
-![[unrealTutorial_01_104.png]]
+![[unrealTutorial_01_104.webp]]
 
 And add the Platforming "Variant".
 
-![[unrealTutorial_01_107.png]]
+![[unrealTutorial_01_107.webp]]
 
 Name your project and click Create.
 
@@ -28,16 +28,16 @@ Take a moment to get oriented.  Make use of [[UE Editor Navigation]].
 
 Open the Place Actors panel.
 
-![[unrealTutorial_00_104.png]]
+![[unrealTutorial_00_104.webp]]
 
 
 Drag a Cube into your scene.  
 
-![[unrealTutorial_00_105.png]]
+![[unrealTutorial_00_105.webp]]
 
 In the Outliner, rename your Cube to `Block1`.
 
-![[unrealTutorial_00_105b.png]]
+![[unrealTutorial_00_105b.webp]]
 
 
 -----
@@ -48,7 +48,7 @@ Right-click in the content browser, choose New Folder.  Name it `Materials`.  Th
 
 After entering the `Materials` folder, right-click in the content browser.  Choose Material.
 
-![[unrealTutorial_00_103.png]]
+![[unrealTutorial_00_103.webp]]
 
 
 Name it `M_Block1`. 
@@ -62,11 +62,11 @@ You see a tall "node".
 Right-click on the words `Base Color` and choose Promote to Parameter.  
 
 A new node - `Base Color` - appears.  Double click that new node's the square in order to choose a color. 
-![[unrealTutorial_00_106.png]]
+![[unrealTutorial_00_106.webp]]
 
 Click Apply, return to the level, drag `M_Block1` from the Content Browser onto `Block1`, the cube you placed in the level in Step 2.
 
-![[unrealTutorial_00_109.png]]
+![[unrealTutorial_00_109.webp]]
 
 -----
 
@@ -76,7 +76,7 @@ In the `Material Graph` of the `Material` `M_Block1`, select the `Base Color` no
 
 On the left, find the `Parameters` panel.
 
-![[unrealTutorial_00_115.png]]
+![[unrealTutorial_00_115.webp]]
 
 Click `Save Child` and name the new actor `M_Block1_Inst_Pink`.
 

@@ -33,11 +33,11 @@ cssclasses:
 > [!info]- A. Create a Post-Processing Volume
 > Drag a `Post Process Volume` into your level.
 >
-> ![[unrealTutorial_07_101.png]]
+> ![[unrealTutorial_07_101.webp]]
 >
 > <span class="hint">When you add a Post Process Volume, it won't show its effect immediately — you'll see a box collision in the viewport instead.</span>
 >
-> ![[unrealTutorial_07_104.png]]
+> ![[unrealTutorial_07_104.webp]]
 
 > [!info]- B. Make It Global
 > In the Post Process Volume's Details panel, find `Infinite Extent (Unbound)`.
@@ -45,11 +45,11 @@ cssclasses:
 > - **Enabled:** post-processing effects apply to the entire scene, regardless of the volume's bounds.
 > - **Disabled:** effects only apply when the camera is inside the volume's area.
 >
-> ![[unrealTutorial_07_107.png]]
+> ![[unrealTutorial_07_107.webp]]
 >
 > Try changing some parameters to see the difference.
 >
-> ![[unrealTutorial_07_110.png]]
+> ![[unrealTutorial_07_110.webp]]
 > ![[unrealTutorial_07_113.gif]]
 >
 > > [!question] Ask your LLM why
@@ -67,25 +67,25 @@ cssclasses:
 > [!info]- A. Parameter Details
 > Post-processing has many parameter categories. Explore them freely, or refer to the [official Unreal documentation on Post Process Effects](https://dev.epicgames.com/documentation/en-us/unreal-engine/post-process-effects-in-unreal-engine).
 >
-> ![[unrealTutorial_07_119.png]]
+> ![[unrealTutorial_07_119.webp]]
 
 > [!info]- B. Regular Color Adjustments
 > Post-processing is commonly used for color grading — adjusting tone, saturation, contrast, and exposure.
 >
-> ![[unrealTutorial_07_122.png]]
-> ![[unrealTutorial_07_125.png]]
+> ![[unrealTutorial_07_122.webp]]
+> ![[unrealTutorial_07_125.webp]]
 >
 > *Without post-processing vs. with post-processing.*
 
 > [!info]- C. Use It as a Special Effect
 > Post-processing can also create dramatic special effects.
 >
-> ![[unrealTutorial_07_128.png]]
-> ![[unrealTutorial_07_131.png]]
+> ![[unrealTutorial_07_128.webp]]
+> ![[unrealTutorial_07_131.webp]]
 >
 > You can stack multiple `Post Process Volumes` in the same level.
 >
-> ![[unrealTutorial_07_134.png]]
+> ![[unrealTutorial_07_134.webp]]
 
 ---
 
@@ -95,20 +95,20 @@ cssclasses:
 > [!info]- A. Get the Post-Processing Volume in Your Blueprint
 > Expose your `Post Process Volume` as a variable so you can reference it in blueprint logic.
 >
-> ![[unrealTutorial_07_137.png]]
+> ![[unrealTutorial_07_137.webp]]
 >
 
 
 > [!info]- B. Enable or Disable
 > You can enable or disable the volume at any point during gameplay.
 >
-> ![[unrealTutorial_07_140.png]]
+> ![[unrealTutorial_07_140.webp]]
 > ![[unrealTutorial_07_143.gif]]
 
 > [!info]- C. Use Timeline to Animate Parameters
 > Use a `Timeline` node with `Lerp` to smoothly animate specific post-processing parameters over time.
 >
-> ![[unrealTutorial_07_146.png]]
+> ![[unrealTutorial_07_146.webp]]
 > ![[unrealTutorial_07_149.gif]]
 >
 > 
@@ -121,9 +121,9 @@ cssclasses:
 > [!info]- A. Set Materials for Your Post-Processing Volume
 > Post-processing's capabilities extend far beyond built-in parameters. If you know how to write materials, `Post Process Materials` can create many advanced effects.
 >
-> ![[unrealTutorial_07_152.png]]
-> ![[unrealTutorial_07_155.png]]
-> ![[unrealTutorial_07_158.png]]
+> ![[unrealTutorial_07_152.webp]]
+> ![[unrealTutorial_07_155.webp]]
+> ![[unrealTutorial_07_158.webp]]
 >
 > This topic is not covered in depth here. For further reading, see the [official documentation on Post Process Materials](https://dev.epicgames.com/documentation/en-us/unreal-engine/post-process-materials-in-unreal-engine).
 

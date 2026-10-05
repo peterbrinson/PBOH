@@ -31,7 +31,7 @@ Every trace has two independent choices: **what shape** and **what to filter by*
 | **Box Trace** | A box swept along the line | Wide area checks, vision cones |
 | **Capsule Trace** | A capsule swept along the line | Character-shaped clearance checks |
 
-![[traces-overview-shape-traces.png]]
+![[traces-overview-shape-traces.webp]]
 
 **Filter:**
 
@@ -78,7 +78,7 @@ In [[UE Tutorial 821 - Base Interactive System (WIP)|Tutorial 821]], a slightly 
 
 When a trace hits something, the **Out Hit** pin contains a **Hit Result** struct. Use **Break Hit Result** to access its fields:
 
-![[blueprint-hit-struct.png]]
+![[blueprint-hit-struct.webp]]
 
 Key fields for most use cases:
 
@@ -105,7 +105,7 @@ A Sphere Trace By Channel fires every 0.1 seconds (via [[Set Timer by Event|Set 
 **Camera-forward line trace (Single Line Trace guide pattern):**
 Get the First Person Camera's world location (Start) and forward vector. Multiply the forward vector by the desired trace length (e.g., 1500) and add it to Start (End). Wire the Line Trace By Channel's Out Hit through Break Hit Result → Hit Actor → To String → [[Print String]] to verify hits.
 
-![[guide-how-to-2b-10.png]]
+![[guide-how-to-2b-10.webp]]
 
 **Interface-based interaction ([[UE Tutorial 801 - Inspect an Object|Tutorial 801]] pattern):**
 On E key press, fire a Line Trace By Channel from the camera with a short range (`DistanceToRead = 200`). If Return Value is true, call a [[Blueprint Interface]] function (`Examine`) directly on the Hit Actor. No cast, no tag check — if the actor implements the interface, the function runs; if not, the call is silently ignored. Simpler and cleaner than the Tutorial 821 sphere trace approach when you don't need continuous hover detection.
@@ -113,7 +113,7 @@ On E key press, fire a Line Trace By Channel from the camera with a short range 
 **Multi trace with iteration:**
 Use a Multi Line Trace By Channel to find all objects along a path. Wire **Out Hits** (array) into a [[For Each Loop]]. Inside the loop, **Break Hit Result** on each Array Element to process individual hits — print names, apply damage, spawn effects.
 
-![[guide-how-to-2b-19.png]]
+![[guide-how-to-2b-19.webp]]
 
 ## Related
 

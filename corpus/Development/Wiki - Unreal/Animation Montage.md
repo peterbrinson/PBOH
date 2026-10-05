@@ -25,11 +25,11 @@ Two methods:
 
 **From scratch:** Content Browser → right-click → **Animation > Animation Montage** → select the Skeleton.
 
-![[createfromscratch.png]]
+![[createfromscratch.webp]]
 
 **From an existing sequence:** Right-click an Animation Sequence in the Content Browser → **Create > Create AnimMontage**.
 
-![[createfromsequ.png]]
+![[createfromsequ.webp]]
 
 ### Playing a Montage in Blueprints
 
@@ -52,7 +52,7 @@ Two Blueprint nodes exist. Use **Play Montage** (the latent version):
 
 You can divide a Montage into named sections and control playback order at runtime. Sections appear as purple headers in the timeline.
 
-![[montagesections.png]]
+![[montagesections.webp]]
 
 Use **Montage Jump to Section** in Blueprints to skip to a specific section during playback. This enables combo systems (Section 1 → Section 2 → Section 3 based on player input timing).
 
@@ -60,13 +60,13 @@ Use **Montage Jump to Section** in Blueprints to skip to a specific section duri
 
 Montages play in a **Slot** — a channel on the Animation Blueprint. By default, a montage overrides whatever animation is playing in that Slot. Using different Slots, you can play separate animations on different body parts simultaneously (e.g., upper body attack + lower body run).
 
-![[montage2.png]]
+![[montage2.webp]]
 
 ### Child Montages
 
 Create variants of a Montage by right-clicking → **Create Child Montage**. The child inherits the parent's structure (sections, timing, notifies) but lets you swap individual animation sequences. Useful for characters that share the same attack timing but use different animations.
 
-![[createchild.png]]
+![[createchild.webp]]
 
 ## Common Patterns
 

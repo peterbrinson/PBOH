@@ -18,22 +18,22 @@ All Switch types share the same structure: one exec input, one data input (match
 
 ### Switch on Int
 
-![[newswitchonint.png]]
+![[newswitchonint.webp]]
 
 The most common variant. Outputs are numbered starting from **Start Index** (configurable in the Details panel).
 
-![[switchonint_startindex.png]]
+![[switchonint_startindex.webp]]
 
 Click **Add Pin** on the node to add cases. Each new pin increments the value by 1. Removing a pin shifts higher-valued pins down to fill the gap.
 
-![[switchonint_addpin.png]]
+![[switchonint_addpin.webp]]
 
 ### Switch on String / Switch on Name
 
 Cases are user-defined text values, set in the Details panel under **Pin Names**.
 
-![[switchonstring_namepin.png]]
-![[switchonstring_withpin.png]]
+![[switchonstring_namepin.webp]]
+![[switchonstring_withpin.webp]]
 
 String and Name switches behave identically in practice. Use String for general text, Name for FName values (tag comparisons, asset references).
 

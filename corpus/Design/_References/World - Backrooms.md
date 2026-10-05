@@ -46,7 +46,7 @@ What the community did next demonstrates impressive worldbuilding. Within months
 - **The M.E.G.** (Major Explorer Group) — a faction of survivors that maps, rescues, and researches. Its real job is to give the wiki an in-world narrator.
 - **Canons** — when contributors contradicted each other, the community created parallel **canons**. Contradiction became a feature, somehting like comic-book multiverses.
 
-![[backrooms_sketches.jpg]]
+![[backrooms_sketches.webp]]
 *Fan-drawn level maps (DeviantArt: Amfstation17, 2022) — the numbered-level taxonomy sketched out by the community, from Level 0: The Lobby onward.*
 
 Two wikis carried this — a **Fandom** wiki (2019, fast and maximalist) and a later **Wikidot** wiki (2020, more curated and literary).

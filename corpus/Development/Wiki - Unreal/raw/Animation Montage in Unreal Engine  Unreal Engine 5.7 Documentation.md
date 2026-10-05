@@ -21,11 +21,11 @@ See the [Slots and Slots Groups](https://dev.epicgames.com/documentation/unreal-
 
 To create a montage, right-click within the content browser then navigate to **Animation > Animation Montage**. Next, select which **Skeleton** you want to animate using a montage.
 
-![create an animation montage in the content browser](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/facf1aa5-fabc-49ab-9696-f4a6790e1755/createfromscratch.png)
+![create an animation montage in the content browser](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/facf1aa5-fabc-49ab-9696-f4a6790e1755/createfromscratch.webp)
 
 You can also create a Montage from an existing [Animation Sequence](https://dev.epicgames.com/documentation/unreal-engine/animation-sequences-in-unreal-engine) by **Right-Clicking** the Sequence in the **Content Browser** and selecting **Create > Create AnimMontage**.
 
-![create animation montage from an existing animation sequence](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/80672f9a-4dac-4e3d-a9f5-38728feb6a7a/createfromsequ.png)
+![create animation montage from an existing animation sequence](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/80672f9a-4dac-4e3d-a9f5-38728feb6a7a/createfromsequ.webp)
 
 After creating an Animation Montage and opening the asset, the [Animation Sequence Editor](https://dev.epicgames.com/documentation/unreal-engine/animation-sequence-editor-in-unreal-engine) opens and populates the **Timeline** with an Animation Montage workspace.
 
@@ -33,13 +33,13 @@ After creating an Animation Montage and opening the asset, the [Animation Sequen
 
 The Timeline, like other editor timelines in Unreal Engine, is organized into **tracks**. These tracks contain information that dictates the behavior of the animation playback and are organized into playback frames.
 
-![animation montage timeline overview](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/32598359-1bdd-4b11-bc81-205d686baacb/timelineoverview.png)
+![animation montage timeline overview](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/32598359-1bdd-4b11-bc81-205d686baacb/timelineoverview.webp)
 
 ### Sections
 
 Within the Montage track you can access any Montage Sections present in your Animation Montage.
 
-![example aniamtion montage section header](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/eca0c226-04df-4647-bba1-900a0224afc4/sectionflags.png)
+![example aniamtion montage section header](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/eca0c226-04df-4647-bba1-900a0224afc4/sectionflags.webp)
 
 Indicated by their assigned name and a purple header, you can add, delete and move these sections to match the corresponding sequences or sections of sequences for gameplay purposes.
 
@@ -55,7 +55,7 @@ To remove a Section, **Right-Click** the Section header and select **Delete Mont
 
 Under the Montage Track header, you can add and manage Animation Sequence tracks, organize tracks by Slot Groups or Slots, and see Timing indicators for [Notifies](https://dev.epicgames.com/documentation/unreal-engine/animation-notifies-in-unreal-engine).
 
-![montage track highlighted in the editor timeline](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/30dcfc98-1662-4aa5-b876-10b94f79d108/sequencetrack.png)
+![montage track highlighted in the editor timeline](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/30dcfc98-1662-4aa5-b876-10b94f79d108/sequencetrack.webp)
 
 You can switch the Sequence Track you are previewing in the Editor by opening the drop-down menu on the desired track. Then, toggle **Preview Slot** under the **Other Options** heading.
 
@@ -69,7 +69,7 @@ To play Sequences on different parts of your Character, animations can be divide
 
 To change or add Slots to the Montage, click the Slot dropdown menu on the Slot track to view the following commands:
 
-![change slot in montage](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d031aea3-11c0-4d1c-98ac-40bccc1a3088/montage2.png)
+![change slot in montage](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/d031aea3-11c0-4d1c-98ac-40bccc1a3088/montage2.webp)
 
 | Name | Description |
 | --- | --- |
@@ -88,7 +88,7 @@ For more information on Slots and Slot Groups, see the [Slots](https://dev.epicg
 
 The Timing track displays indicators from the Montage and Notifies sections to help with the timing of elements.
 
-![timing track tags are connected to notify and section headers](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/5d10adcc-cbeb-42cb-910d-741fddbf5fa2/timingtrack.png)
+![timing track tags are connected to notify and section headers](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/5d10adcc-cbeb-42cb-910d-741fddbf5fa2/timingtrack.webp)
 
 Each node in the track is given a number denoting the trigger order of that object within the montage, and is color coded by reference type, purple for sections, red for Notifies.
 
@@ -98,7 +98,7 @@ Clicking the dropdown arrow on the Timing track presents you with options for sh
 
 Within the details panel, you can edit and manage properties of the assets contained in your Animation Montage such as Sequences, Notifies, and Montage Sections.
 
-![highlighted details panel](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f91d5d99-e874-4a11-a74a-b918e312976c/detailspanel.png)
+![highlighted details panel](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/f91d5d99-e874-4a11-a74a-b918e312976c/detailspanel.webp)
 
 For more information about using the details panel with specific Montage elements see [Editing and Using Animation Montages](https://dev.epicgames.com/documentation/unreal-engine/animation-montage-editor-in-unreal-engine)
 
@@ -106,13 +106,13 @@ For more information about using the details panel with specific Montage element
 
 In the montage sections panel you can establish the default playback order of your Montage Sections.
 
-![montage sections panel highlighed](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/60bd61be-ad0f-4ab1-8134-3fb6116d84fe/montagesections.png)
+![montage sections panel highlighed](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/60bd61be-ad0f-4ab1-8134-3fb6116d84fe/montagesections.webp)
 
 To establish a playback order, first select the **Clear** option, which unlinks any currently selected section behavior, leaving any present sections unlinked.
 
 Then, click the white box to the right of the section you want to edit to select the next Section to be played when triggered. To preview a Sections playback order: begin the animation playback, then click the preview button next to the Section Sequence you wish to preview.
 
-![section behavior options are populated with names of other sections](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/713cee44-f397-433d-90fa-3a95effd5d45/sectionbehaviors.png)
+![section behavior options are populated with names of other sections](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/713cee44-f397-433d-90fa-3a95effd5d45/sectionbehaviors.webp)
 
 **Preview All** plays preview of all sections in the order they appear within the Timeline.
 
@@ -122,21 +122,21 @@ You can use Child Montages to create variants of Montages that inherit all the P
 
 To create a Child Animation Montage, right-click on a Montage in the Content Browser and select **Create Child Montage**.
 
-![create a child montage in the content browser](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/2cf2438a-a927-4d1f-a4e0-c61f07283fa1/createchild.png)
+![create a child montage in the content browser](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/2cf2438a-a927-4d1f-a4e0-c61f07283fa1/createchild.webp)
 
 The new Child Montage is created with the same name as the original asset, with "\_Child" added to the end.
 
-![child montage example](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/89db8cf9-8d98-4aff-bc92-b75f77435b83/childmontaeg.png)
+![child montage example](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/89db8cf9-8d98-4aff-bc92-b75f77435b83/childmontaeg.webp)
 
 When opening a Child Montage, all elements within the montage are set to read only.
 
 You can **right-click** the Child Montage Segment in the Slot Track and override it with a new animation.
 
-![replace seqeunces within a child montage](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/b92c7235-25c1-4480-ba4a-d9deadbe9977/replacesequences.png)
+![replace seqeunces within a child montage](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/b92c7235-25c1-4480-ba4a-d9deadbe9977/replacesequences.webp)
 
 In the Slot Track, you can substitute any animation for any other, even if they are of different lengths. Unreal Engine automatically adjusts the play rate, start time, and end time of the replacement animation so that it uses the same portion and runs at the same time as the original. Animations that have not been changed from the parent are shown in green, and animations that have been overridden are shown in yellow.
 
-![replaced seqeunces will apear yellow in the timeline](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/da416d89-8bbb-4054-81bd-b44245adaf86/replacedsequence.png)
+![replaced seqeunces will apear yellow in the timeline](https://d1iv7db44yhgxn.cloudfront.net/documentation/images/da416d89-8bbb-4054-81bd-b44245adaf86/replacedsequence.webp)
 
 Child montages cannot be used as parents for other child montages.
 

@@ -7,7 +7,7 @@ aliases:
 **Summarized in:** [[Situated Player Roles]]
 **Previous:** [[Situated Player Role 2 - The Traveler, World as Presence|Situated Player Role 2: The Traveler]] | **Next:** [[Situated Player Role 4 - The Dreamer, World as Enigma|Situated Player Role 4: The Dreamer]]
 
-![[spr_entrant_01.jpg]]
+![[spr_entrant_01.webp]]
 
 The Entrant has arrived at a boundary. Unlike the Investigator, who researches the past, or the Traveler, who moves through space as an interpretive act, the Entrant confronts a blocked passage. Progress is possible — but only by satisfying conditions. 
 
@@ -33,7 +33,7 @@ In *Demon’s Souls*, each Archstone path culminates in a powerful demon. The pl
 
 ##### Bureaucratic Threshold
 
-![[spr_entrant_04.png]]
+![[spr_entrant_04.webp]]
 
 The Entrant does not always confront a physical challenge. *[[Game - Papers Please|Papers, Please]]* (2013) approaches the threshold from the other side. The player does not seek passage but administers it: inspecting documents, applying rules, and deciding who may pass.
 
@@ -50,13 +50,13 @@ The puzzle-platformer *[[Game - Inside|Inside]]* (2016) consistently manifests L
 
 -----
 
-![[spr_entrant_06.jpg]]
+![[spr_entrant_06.webp]]
 
 **Opportunity** (“Imagine the solution.”) — By testing individual mechanics, the player discovers how the components could be configured or sequenced. Solutions exist first as speculations; opportunities arrive as epiphanies.
 
 ----------
 
-![[spr_entrant_07.jpg]]
+![[spr_entrant_07.webp]]
 
 **Performance** (“Test the idea.”) — The player acts upon the world, manipulating its components and testing whether the imagined solution works.
 

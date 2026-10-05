@@ -15,7 +15,7 @@ cssclasses:
 > The door closes when the player steps off the plate.
 >
 > The essential lesson is to learn how the door is "listening" for the pressure plate to call it.
-> ![[unrealTutorial_01_101.png]]
+> ![[unrealTutorial_01_101.webp]]
 
 > [!info]- B. Video Version of Tutorial
 > This tutorial page and this video provide the same lesson in slightly different ways, encouraging you to repeat steps (a little differently) until you understand the principles.
@@ -44,17 +44,17 @@ cssclasses:
 > [!info]- A. Choose a Template
 > Choose New Project
 >
-> ![[unrealTutorial_01_103.png]]
+> ![[unrealTutorial_01_103.webp]]
 >
 > Choose the third person template.
 >
-> ![[unrealTutorial_01_104.png]]
+> ![[unrealTutorial_01_104.webp]]
 
 > [!info]- B. Add Platforming Variant
 > <span style="color:#cb5d21">**Don't miss this step:**</span>
 > Add the Platforming "Variant".  This is not critical to the project, but this and the next 2 tutorials use it.  You will be instructed to choose particular blueprints by name.  Without this step, that process will be foiled.
 >
-> ![[unrealTutorial_01_107.png]]
+> ![[unrealTutorial_01_107.webp]]
 
 > [!info]- C. Name and Verify
 > Name your project and click Create.
@@ -69,7 +69,7 @@ cssclasses:
 >
 > <span class="hint">To enlarge any image on this page: Right-click to choose "Open image in new tab".</span>
 >
-> ![[unrealTutorial_01_110.png]]
+> ![[unrealTutorial_01_110.webp]]
 >
 > Notice:
 > If you do not find `BP_PlatformingCharacter`, that is likely because you did not select the Platforming Variant in Step 1B.
@@ -84,11 +84,11 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > [!info]- A. Make the Blueprint File
 > Right-click in the content browser (or content drawer if you prefer) to make a new folder in Content, `PlateAndDoor`:
 >
-> ![[unrealTutorial_01_113.png]]
+> ![[unrealTutorial_01_113.webp]]
 >
 > In the folder `PlateAndDoor`, right-click in the content browser and choose Blueprint Class. Next, you will choose `Actor`.
 >
-> ![[unrealTutorial_01_116.png]]
+> ![[unrealTutorial_01_116.webp]]
 >
 > Name the blueprint `BP_PressurePlate`.  Including `BP_` at the start of blueprints is strongly encouraged.  In other situations, for example, you'll include `M_` at the start of materials, and so on.
 >
@@ -103,30 +103,30 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 >
 > In the [[Components]] window, click Add and search for `Cube`. Select it under Basic Shapes.
 >
-> ![[unrealTutorial_01_119.png]]
+> ![[unrealTutorial_01_119.webp]]
 >
 > Name the resulting component `BottomPlatform`. Use the Transform Gizmo to scale the Z to make it short. Alternatively, you can type in a value in Details > Transform > Scale > Z, as you see on the right.
 >
-> ![[unrealTutorial_01_122.png]]
+> ![[unrealTutorial_01_122.webp]]
 >
 > > [!tip] Tip
 > > If the transform gizmo is too sensitive, you can adjust.
 >
-> ![[unrealTutorial_01_125.png]]
+> ![[unrealTutorial_01_125.webp]]
 >
 > Next, create another `Cube` component, name it `PressurePlate` and configure it as such. Adjust the parent/child hierarchy by dragging in the Components window.
 >
-> ![[unrealTutorial_01_128.png]]
+> ![[unrealTutorial_01_128.webp]]
 >
 > To make the two components visibly distinct, with `PressurePlate` selected, find `Materials` in the Details window. Search for "grey" to find a working material already in this project.
 >
-> ![[unrealTutorial_01_131.png]]
+> ![[unrealTutorial_01_131.webp]]
 >
 > Next, a third component is needed. Its role is to detect when the player steps on the plate. That area (the yellow wireframe) needs to be a little larger than the pressure plate.
 >
 > To do this, click Add in the component window, choose: `Box Collision` (see [[Collision Components|wiki]]). Rename it `BoxCollider`; adjust it to the same child/parent hierarchy as the two pressure plates in Components. Configure it so it is larger than `PressurePlate`.
 >
-> ![[unrealTutorial_01_134.png]]
+> ![[unrealTutorial_01_134.webp]]
 >
 > One last adjustment: set `PressurePlate` to be at location 0,0,0. (Being inside the blueprint, such locations are relative.) When you set that location, `BottomPlatform` will need to be moved downward, and perhaps `BoxCollider`. This is because Step 2E will animate the pressure plate between, in effect, "Position 0% to Position 100%".  So it is wise to make the default location equal to zero.
 >
@@ -144,22 +144,22 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 >
 > The previous step - Step 2B, constructing the pressure plate - was taking place in the Viewport. Move to the [[Event Graph]] by navigating the tabs you'll find up high.
 >
-> ![[unrealTutorial_01_137.png]]
+> ![[unrealTutorial_01_137.webp]]
 >
 > Delete the 3 nodes already in there.
 >
-> ![[unrealTutorial_01_140.png]]
+> ![[unrealTutorial_01_140.webp]]
 >
 > In Components, right-click `BoxCollider` > Add Event > [[OnComponentBeginOverlap]].  This makes a new node in the Event Graph.
 >
-> ![[unrealTutorial_01_143.png]]
+> ![[unrealTutorial_01_143.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, I'm working on a blueprint.  The tutorial says to add `OnComponentBeginOverlap` by right clicking a collider component, then choosing `Add Event`.  I thought the way to add nodes to the event graph was by right-clicking there and searching.  Why do it this way this time?
 >
 > On the resulting `OnComponentBeginOverlap` node, find its execution pin — the white arrow shape on the top right. Drag out and search for [[Print String]].
 >
-> ![[unrealTutorial_01_146.png]]
+> ![[unrealTutorial_01_146.webp]]
 >
 > > [!tip] Tip
 > > Remember the terms "node" and "execution pin" (or just "pin"). These are essential moving forward.
@@ -174,12 +174,12 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 >
 > Press play and test. On the top-left of your game window, `Begin Overlap` should appear.
 >
-> ![[unrealTutorial_01_149.png]]
+> ![[unrealTutorial_01_149.webp]]
 
 > [!info]- D. Behavior Is Only For Our Player
 > Back to the Event Graph.  Drag off the `OnComponentBeginOverlap` execution pin and search/add `Cast to BP_PlatformingCharacter` (see [[Cast To|wiki]]). This new node is between the other two.
 >
-> ![[unrealTutorial_01_152.png]]
+> ![[unrealTutorial_01_152.webp]]
 >
 > > [!tip] Tip
 > > If you could not find `BP_PlatformingCharacter`, it is because you skipped Step 1D, above.
@@ -198,13 +198,13 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > [!info]- E1. Animate the Pressure Plate Downward
 > Drag off the `Print String` pin and add `Add Timeline` (see [[Timeline|wiki]]). Name that new node `PressurePlateTimeline`.
 >
-> ![[unrealTutorial_01_155.png]]
+> ![[unrealTutorial_01_155.webp]]
 >
 > Double click the new node to get a new interface.
 >
 > `Add Float Track`.  Name that new `Float` track `PressurePlateHeight`. The plan is to animate the pressure plate's Z position.
 >
-> ![[unrealTutorial_01_158.png]]
+> ![[unrealTutorial_01_158.webp]]
 >
 > Make `Length` 0.75, which establishes that it will take 0.75 seconds to animate.
 >
@@ -212,12 +212,12 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 >
 > Click the button with arrows pointing up and down to adjust the graph's view so you see everything.
 >
-> ![[unrealTutorial_01_161.png]]
+> ![[unrealTutorial_01_161.webp]]
 >
 > Back to the Event Graph.  Drag from the `PressurePlateTimeline`'s pin to add `Print String` to the right of it.
 > See how one of the parameters is being passed in with the green wire that gets cast to a pink one?
 >
-> ![[unrealTutorial_01_164.png]]
+> ![[unrealTutorial_01_164.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, the `PressurePlateTimeline` node's parameter, `Pressure Plate Height` passes to the node `Print String`'s `In String` parameter.  It created a small node between those two wires when I did so.  Why does it change the data type?
@@ -228,7 +228,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 >
 > Add: `Set Relative Location` (see [[Transformation|wiki]]).  There is more than one to choose from.  Choose the one that includes `(Pressure Plate)`.
 >
-> ![[unrealTutorial_01_167.png]]
+> ![[unrealTutorial_01_167.webp]]
 >
 > See the node with only `Pressure Plate`?  When you added `Set Relative Location` (see [[Transformation|wiki]]), choosing the one with `Pressure Plate` added a reference variable node.
 > (Typically, such reference variables need to be set up manually.)
@@ -240,7 +240,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 >
 > Time to insert a [[Lerp]] and configure the values and wires as such.
 >
-> ![[unrealTutorial_01_170.png]]
+> ![[unrealTutorial_01_170.webp]]
 >
 > Be ready to tweak the B value in the `Lerp` node.
 >
@@ -250,12 +250,12 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > [!info]- E2. Animate the Pressure Plate Upward
 > And to make the pressure plate return to its initial location, add two nodes - [[OnComponentEndOverlap]] and `Cast to BP_PlatformingCharacter`.  This closely models what you did in Step E1.
 >
-> ![[unrealTutorial_01_173.png]]
+> ![[unrealTutorial_01_173.webp]]
 >
 > Here is the completed Event Graph for `BP_PressurePlate`.
 >
 > <span class="hint">To enlarge any image: Right-click to choose "Open image in new tab".</span>
-> ![[unrealTutorial_01_176.png]]
+> ![[unrealTutorial_01_176.webp]]
 >
 > <span class="save">Save All</span>
 
@@ -271,7 +271,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 >
 > The wall component will not move, and the door component will move.  Therefore, make sure the door component is at location 0,0,0 before dragging the blueprint asset (from Content Browser) into the scene.
 >
-> ![[unrealTutorial_01_179.png]]
+> ![[unrealTutorial_01_179.webp]]
 
 > [!info]- B. Dispatcher for the Pressure Plate
 > *Back to editing the pressure plate blueprint.* In the event graph, find EVENT DISPATCHERS on the left, and click its little plus button. Name the dispatcher `OnBeginPressurePlate`.
@@ -293,7 +293,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 >
 > What we are doing here: when the game starts, set the door to be "listening" for the pressure plate to `Call On Begin Pressure Plate`.
 >
-> ![[unrealTutorial_01_182.png]]
+> ![[unrealTutorial_01_182.webp]]
 >
 > <span class="save">Save All</span>
 >
@@ -302,7 +302,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 >
 > Keep the variable `MyPressurePlate` selected.   Under Details, click on `Instance Editable` (see [[Blueprint Instances|wiki]]) and `Expose on Spawn`. This opens up the scope of this variable beyond its blueprint, so that it can be a reference to our other blueprint - pressure plate.
 >
-> ![[unrealTutorial_01_185.png]]
+> ![[unrealTutorial_01_185.webp]]
 > Notice the open eye icon next to the variable, where you created it on the left.  When you clicked `Instance Editable`, you make it a public variable accessible in the level.  We will take advantage of that setting soon, the fact that the variable is "exposed".
 >
 > Now you can drag the variable `MyPressurePlate` into the event graph, choose "Get", and drag its wire to the parameter `Target` - found on `Bind Event to On Begin Pressure Plate`.
@@ -316,7 +316,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 >
 > Notice it is not the execution pin that draws the red wire.
 >
-> ![[unrealTutorial_01_186.png]]
+> ![[unrealTutorial_01_186.webp]]
 >
 > Because you exposed the variable `MyPressurePlate` above, we can give the variable a value in the level.
 >
@@ -338,7 +338,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 > - When you are setting the location, the specific node is: `Set Relative Location (Door)`.
 > - The pressure plate needs the node `Call On End Pressure Plate` inserted similarly to how you did for `Call On Begin Pressure Plate` in 4C. Look at the complete graph a bit below for details.
 >
-> ![[unrealTutorial_01_188.png]]
+> ![[unrealTutorial_01_188.webp]]
 >
 > > [!tip] Tip
 > > If you double-click a wire, it will add a dot - a reroute node - which is a way to shape your wires for orderliness.
@@ -348,10 +348,10 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 > <span class="hint">To enlarge any image on this page: Right-click to choose "Open image in new tab".</span>
 >
 > **BP_Door**
-> ![[unrealTutorial_01_191.png]]
+> ![[unrealTutorial_01_191.webp]]
 >
 > **BP_PressurePlate**
-> ![[unrealTutorial_01_176.png]]
+> ![[unrealTutorial_01_176.webp]]
 
 ## What you can now build
 

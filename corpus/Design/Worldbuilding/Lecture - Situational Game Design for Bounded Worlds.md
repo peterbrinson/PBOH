@@ -129,7 +129,7 @@ But rules aren't the only type of constraint.
 > "We can be constrained by level layout, or by enemy behavior, or by real-world physics, or by social convention, or by our sense of performing a role, or by our own strategies." (p.13)
 
 
-![[week4-lastofus.jpg]]
+![[week4-lastofus.webp]]
 
 ### → The Entrant: A Response to Situational Game Design
 

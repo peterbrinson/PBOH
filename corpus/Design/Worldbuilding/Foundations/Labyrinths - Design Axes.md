@@ -8,7 +8,7 @@ Are they immersed like in most 3D mazes, or looking down, seeing a larger sectio
 
 Despite these qualities being set up on linear axes, none of the 4 principles are mutually exclusive.  
 
-![[labyrinthMatrix.png]]
+![[labyrinthMatrix.webp]]
 
 ## Related
 - [[Worldbuilding - Definition and Scope]]

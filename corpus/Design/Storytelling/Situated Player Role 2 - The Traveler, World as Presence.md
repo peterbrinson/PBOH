@@ -7,7 +7,7 @@ aliases:
 **Summarized in:** [[Situated Player Roles]]
 **Previous:** [[Situated Player Role 1 - The Investigator, World as Evidence|Situated Player Role 1: The Investigator]] | **Next:** [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3: The Entrant]]
 
-![[spr_traveler_01.png]]
+![[spr_traveler_01.webp]]
 
 The Traveler explores a world in the present tense. Like the Investigator, the Traveler is oriented toward discovery. But where the Investigator treats what is present as evidence of events beyond reach, the Traveler discovers meaning through movement, attention, and what is encountered along the way. 
 
@@ -15,20 +15,20 @@ A familiar philosophical riddle captures this logic: if a tree falls in the wood
 
 ## The Labyrinth
 
-![[spr_traveler_02.jpg]]
+![[spr_traveler_02.webp]]
 
 The Traveler's world is a labyrinth — whether explicit or implicit. Examples range from a literal maze of walls and corridors to a setting that produces the experience of a maze without explicitly presenting one.
 
 ## Story Without the Cutscene
 
 
-![[spr_traveler_04.jpg]]
+![[spr_traveler_04.webp]]
 
 A useful early touchstone is *Half-Life* (1998), which famously dissolved the cutscene. Narrative events occur during play, around the player. These moments mark an early and influential shift toward a Traveler-oriented understanding of game narrative.
 
 ## Subjectivity and Uncertainty
 
-![[spr_traveler_03.jpg]]
+![[spr_traveler_03.webp]]
 
 When a game centers on the Traveler role, it stands as the most experimental of the Situated Player Roles. Its values run against the dominant tendencies of mainstream game design — the drive toward efficiency and clear outcomes — by asking the player to tolerate absence as part of the experience.
 
@@ -36,7 +36,7 @@ When we describe a video game as “difficult,” we usually mean it demands dex
 
 ## Disobedience
 
-![[spr_traveler_05.jpg]]
+![[spr_traveler_05.webp]]
 
 *[[Game - The Path|The Path]]* (by Tale of Tales) embodies this rebellious spirit. The game gives a clear instruction — “And Stay on the Path” — but the instruction is a deceit. The meaningful experience requires disobedience. Off the path the player might:
 
@@ -48,7 +48,7 @@ These encounters are not framed as steps toward progress. The player moves throu
 
 ## Cinematic Point of View
 
-![[spr_traveler_06.png]]
+![[spr_traveler_06.webp]]
 
 This emphasis on point of view connects the Traveler strongly to 20th-century cinema, deeply concerned with subjectivity and presence. “One take” films invite the viewer in as a silent and invisible character: Hitchcock's *Rope* (1948), *Russian Ark* (2002), and *The Way Things Go* (1987) all position the viewer within a continuous present. These are an exception, and yet provide a powerful reference for 3D games, where the “one take” is the norm.
 
@@ -58,13 +58,13 @@ The continuous take emphasizes the viewer as a proximate witness, responsible fo
 
 In *Visionary Film*, film scholar P. Adams Sitney says the avant-garde cinema protagonist “wanders through a potent environment toward a climactic scene of self-realization. The stages of his progress are often marked by what he sees along his path rather than what he does.”
 
-![[spr_traveler_07.jpg]]
+![[spr_traveler_07.webp]]
 
 In [[Film - Twin Peaks|Twin Peaks]], Agent Cooper does not choose his path through the Red Room. He is there to experience its confusing, shifting logic.
 
 ## Control in Service of Discovery
 
-![[spr_traveler_08.jpg]]
+![[spr_traveler_08.webp]]
 
 A particularly pure interactive example appears at the opening of Giant Sparrow's *[[Game - The Unfinished Swan|Unfinished Swan]]*. The world begins as blank white nothing. The player can only walk and throw black paint, gradually revealing the contours of a three-dimensional environment. These simple actions literally bring the world into perceptual existence. The player acts upon the world by walking and throwing paint, but that control serves discovery by making the environment perceptible.
 
@@ -76,7 +76,7 @@ A particularly pure interactive example appears at the opening of Giant Sparrow'
 
 ## The Traveler Among the Other Roles
 
-![[spr_traveler_10.jpg]]
+![[spr_traveler_10.webp]]
 
 When a game is structured largely around the Traveler role, it takes on this experimental character. More commonly, however, the Traveler appears within large-scale commercial games — particularly open world games, which routinely integrate three or four of the Situated Player Roles. The Traveler typically occupies the spaces between roles defined by higher degrees of control (see [[Situated Player Role 3 - The Entrant, World as Threshold|Situated Player Role 3: The Entrant]] and [[Situated Player Role 4 - The Dreamer, World as Enigma|Situated Player Role 4: The Dreamer]]). Traversing regions, moving between towns, or crossing large-scale spaces provides rhythm and interpretive breathing room.
 
@@ -89,7 +89,7 @@ For our understanding of The Traveler, we use the term *labyrinth* in a specific
 
 ## Structure: Three Types of Mazes
 
-![[spr_traveler_11.jpg]]
+![[spr_traveler_11.webp]]
 
 In Umberto Eco's *Et in Labyrintho Ego*, labyrinths are spatial structures described by how their paths connect. For the Situated Player Roles, we can apply all three of his types to the distinction above.
 

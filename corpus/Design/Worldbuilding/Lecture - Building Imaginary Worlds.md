@@ -13,7 +13,7 @@ This page covers the core vocabulary from Mark Wolf's *Building Imaginary Worlds
 ---
 
 
-![[week2-spirited-away.jpg]]
+![[week2-spirited-away.webp]]
 *([[Film - Spirited Away|Spirited Away]], 2001 — a world with new logic)*
 
 Chihiro's point-of-view provides a straightforward vehicle for us learn about the world; she is doing so with us. Often, she is as surprised as us.  But sometimes differently - when and how? 
@@ -91,7 +91,7 @@ In **[[Film - Lord of the Rings|Middle-earth]]**: the old ruins, the faded maps,
 Wolf (p.60): **Catalysts of Speculation** — what the writer leaves untold, in order to imply.
 This is designed ambiguity — a gap that invites the audience to lean in and imagine, or theorize. 
 
-![[week2-monolith.jpg]]
+![[week2-monolith.webp]]
 
 **[[Film - 2001 A Space Odyssey|2001: A Space Odyssey]]** (1968) — the monolith.
 
@@ -143,7 +143,7 @@ Physics, biology, and ecology changed.
 
 In **[[Film - Lord of the Rings|Middle-earth]]**: Dragons, Ents, Balrogs. 
 
-![[week2-treebeard.jpg]]
+![[week2-treebeard.webp]]
 *(Treebeard —  implies a second biology)*
 
 ### Ontological Invention
@@ -151,11 +151,11 @@ The fundamental nature of reality changed.
 
 **[[Film - Annihilation|Annihilation]]** (2018): the rules of identity and biology don't hold inside Area X.  https://www.youtube.com/watch?v=RSl6bwZabjA&list=PLZbXA4lyCtqqVgxOY_5EIRF552C3l3KN0&index=6 
 
-![[week2-annihilation.jpg]]
+![[week2-annihilation.webp]]
 
 [[Game - Everything (David OReilly)|Everything]] (2017): all matter is conscious and you can play the role of anything.
 
-![[week2-everything.jpg]]
+![[week2-everything.webp]]
 
 [[Reading - The Planiverse (Dewdney)|*The Planiverse*]] (1984): a 2D world — all physics, biology, and architecture follow from having only two spatial dimensions.
 
@@ -163,7 +163,7 @@ The fundamental nature of reality changed.
 
 In **[[Film - Lord of the Rings|Middle-earth]]**: *Magic* might be the most common ontological invention in all of fiction.
 
-![[week2-lotr-magic.jpg]]
+![[week2-lotr-magic.webp]]
 
 ---
 
@@ -192,7 +192,7 @@ In **[[Film - Lord of the Rings|Middle-earth]]**: *Magic* might be the most comm
 
 ### Space (Maps)
 
-![[week2-tolkien-map.jpg]]
+![[week2-tolkien-map.webp]]
 *(Tolkien's original hand-drawn Middle-earth map — he drew it first)*
 
 "Maps relate a series of locations to each other, visually unifying them into a world."
@@ -203,7 +203,7 @@ The [[Film - Lord of the Rings|Middle-earth]] map is arguably the most famous fa
 
 ### Timeline
 
-![[week2-wow.jpg|500]]
+![[week2-wow.webp|500]]
 
 *World of Warcraft Chronicle Volume 1* (2016) documents the creation of the universe by the Titans, the ordering of Azeroth, the corruption of the Old Gods, the War of the Ancients, and the Great Sundering — all of it unfolding billions of in-world years before a player ever logs in. 
 
@@ -222,7 +222,7 @@ The [[Film - Lord of the Rings|Middle-earth]] map is arguably the most famous fa
 ### Nature
 *→ [[Nature and Invented Physics]]*
 
-![[week2-arrakis-water.png]]
+![[week2-arrakis-water.webp]]
 
 "Nature deals with the materiality of a world, its physical, chemical, geological, and biological structures and the ecosystems connecting them."
 
@@ -233,7 +233,7 @@ The [[Film - Lord of the Rings|Middle-earth]] map is arguably the most famous fa
 ### Culture
 *→ [[Cultural Invention]]*
 
-![[week2-dune-spit.png]]
+![[week2-dune-spit.webp]]
 
 Stilgar, leader of the Fremen, spits on the table in front of Duke Leto.  On Arrakis, where water is the most precious substance in the world, offering the moisture of your own body is the highest sign of respect. 
 
@@ -279,7 +279,7 @@ Traditional storytelling values **narrative economy** — every detail earns its
 But...
 "Worldbuilding doesn't necessitate narrative economy".  (p.29)
 
-![[week2-tolkien-appendices.jpg]]
+![[week2-tolkien-appendices.webp]]
 *(Tolkien's appendices — hundreds of pages of history LOTR never references)*
 
 **[[Film - Lord of the Rings|Middle-earth]]** existed as a mythology for decades before The Hobbit. Tolkien's appendices, the Silmarillion, the Unfinished Tales — most readers don't read them. 

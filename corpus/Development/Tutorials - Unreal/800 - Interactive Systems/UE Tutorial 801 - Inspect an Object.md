@@ -35,8 +35,8 @@ cssclasses:
 >
 > Double-click to open it. In the My Blueprint panel, add a function and rename it `Examine`.
 >
-> ![[unrealTutorial_12_101.png]]
-> ![[unrealTutorial_12_104.png]]
+> ![[unrealTutorial_12_101.webp]]
+> ![[unrealTutorial_12_104.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, I just made something called a Blueprint Interface with a function on it. What is an interface, exactly, and what is it doing for me here?
@@ -45,28 +45,28 @@ cssclasses:
 > Open `BP_FirstPersonCharacter`.  You'll find existing blueprint script in the Event Graph.  Above those nodes, add an `E Key` node by searching `key` and scrolling until you find `E`.
 > Drag to connect it to a `Line Trace By Channel` node.
 >
-> ![[unrealTutorial_12_107.png]]
-> ![[unrealTutorial_12_110.png]]
+> ![[unrealTutorial_12_107.webp]]
+> ![[unrealTutorial_12_110.webp]]
 
 > [!info]- C. Get Camera Location and Rotation
 > Drag `FirstPersonCamera` into the graph. Get its `World Locations`.  Then `World Location` wires to `Forward Vector`.
-> ![[unrealTutorial_12_113.png]]
+> ![[unrealTutorial_12_113.webp]]
 
 > [!info]- D. Add a Distance Parameter
 > Drag from `Get Forward Vector` and search `Multiply` under Operators. 
 >
 > On the second input pin of the `Multiply` node, right-click and choose `To Float (single-precision)`, then right-click again to `Promote to Variable`. Name the variable - on the left under VARIABLES - `DistanceToRead`.
 >
-> ![[unrealTutorial_12_116.png]]
+> ![[unrealTutorial_12_116.webp]]
 >
-> ![[unrealTutorial_12_119.png]]
+> ![[unrealTutorial_12_119.webp]]
 >
 > `DistanceToRead` will determine how far away the player can interact with a readable object. Set the default value to `200.0`.
 >
-> ![[unrealTutorial_12_122.png]]
+> ![[unrealTutorial_12_122.webp]]
 >
-> ![[unrealTutorial_12_128.png]] 
-> ![[unrealTutorial_12_129.png]]
+> ![[unrealTutorial_12_128.webp]] 
+> ![[unrealTutorial_12_129.webp]]
 
 > [!info]- E. Finish the Line Trace
 > Drag from `Multiply` and choose `Add` (also under Operator) to connect it to one of `Add`'s pins.
@@ -76,7 +76,7 @@ cssclasses:
 >
 > Connect `Get World Location` again - to `Start` of `Line Trace By Channel`.
 >
-> ![[unrealTutorial_12_131.png]]
+> ![[unrealTutorial_12_131.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, I'm using a line trace from the camera to detect what the player is looking at. Why use a line trace instead of putting an overlap volume on each inspectable object?
@@ -85,18 +85,18 @@ cssclasses:
 > On the right side of `Line Trace By Channel`, wire `Return Value` to a `Branch` node. 
 > Drag from `Out Hit` and search for `Break Hit Result` node.
 >
-> ![[unrealTutorial_12_134.png]]
+> ![[unrealTutorial_12_134.webp]]
 >
 > Expand `Break Hit Result`.
-> ![[unrealTutorial_12_137.png]]
+> ![[unrealTutorial_12_137.webp]]
 > Drag from `Hit Actor` of `Break Hit Result`, and add the `Examine` node function created in Step 1A.  
-> ![[unrealTutorial_12_140.png]]
+> ![[unrealTutorial_12_140.webp]]
 >
 > Notice that `Examine` is wired to `Branch`'s `True` pin.
-> ![[unrealTutorial_12_143.png]]
+> ![[unrealTutorial_12_143.webp]]
 
 > [!info]- G. Final Blueprint Structure
-> ![[unrealTutorial_12_146.png]]
+> ![[unrealTutorial_12_146.webp]]
 >
 > <span class="action">Compile</span>
 
@@ -106,36 +106,36 @@ cssclasses:
 > [!info]- A. Create Note Blueprint
 > In the Content Browser, create a `Blueprint Class`, choose `Actor`, and rename it `BP_Note_1`.
 >
-> ![[unrealTutorial_12_149.png]]
-> ![[unrealTutorial_12_152.png]]
+> ![[unrealTutorial_12_149.webp]]
+> ![[unrealTutorial_12_152.webp]]
 
 > [!info]- B. Add the Note Mesh
 > Open the Blueprint. Add a `Cube` component.  Name it `Note`. 
 >
-> ![[unrealTutorial_12_155.png]]
-> ![[unrealTutorial_12_158.png]]
+> ![[unrealTutorial_12_155.webp]]
+> ![[unrealTutorial_12_158.webp]]
 >
 > In the Viewport, adjust the scale — make it thin on the Z axis so it looks like a flat piece of paper.
 
 > [!info]- C. Add Note Material
 > Right-click this image to download.  Drag to your Content Browser to make a Texture. 
-> ![[unrealTutorial_12_160.png|200]]
+> ![[unrealTutorial_12_160.webp|200]]
 > Right-click it and choose `Create Material`. 
-> ![[unrealTutorial_12_161.png]]
-> ![[unrealTutorial_12_164.png]]
-> ![[unrealTutorial_12_167.png]]
+> ![[unrealTutorial_12_161.webp]]
+> ![[unrealTutorial_12_164.webp]]
+> ![[unrealTutorial_12_167.webp]]
 >
 > Set the `Cube` mesh's material to this new material.
-> ![[unrealTutorial_12_170.png]]
+> ![[unrealTutorial_12_170.webp]]
 >
 > You can now place the note blueprint - `BP_Note_1` - in your scene.  Leave it where you want the player to find it.  
-> ![[unrealTutorial_12_173.png]]
+> ![[unrealTutorial_12_173.webp]]
 
 > [!info]- D. Add Evidence Interface to the Note
 > In `BP_Note_1`, go to Class Settings. Under Implemented Interfaces, add the `BPI_Evidence` interface.
 >
-> ![[unrealTutorial_12_176.png]]
-> ![[unrealTutorial_12_179.png]]
+> ![[unrealTutorial_12_176.webp]]
+> ![[unrealTutorial_12_179.webp]]
 >
 > <span class="action">Compile and Save</span>
 
@@ -145,31 +145,31 @@ cssclasses:
 > [!info]- A. Create a Widget Blueprint
 > In the Content Browser, create a `Widget Blueprint` → `User Widget`. 
 >
-> ![[unrealTutorial_12_182.png]]
-> ![[unrealTutorial_12_185.png]]
+> ![[unrealTutorial_12_182.webp]]
+> ![[unrealTutorial_12_185.webp]]
 > Name it `Note_Widget`.
 >
 > Double-click to open it. Drag a `Canvas Panel` into the UI area.
 >
-> ![[unrealTutorial_12_188.png]]
+> ![[unrealTutorial_12_188.webp]]
 
 > [!info]- B. Set the Note Image
 > Drag an `Image` widget inside the Canvas Panel. 
 > Assuming you used the texture provided above, size it to 728x895.  Position it. 
 >
-> ![[unrealTutorial_12_191.png]]
-> ![[unrealTutorial_12_194.png]]
+> ![[unrealTutorial_12_191.webp]]
+> ![[unrealTutorial_12_194.webp]]
 >
 > At the top of the Details panel, set the `Anchors` to center.
 >
 > Assign your texture under Brush → Image.  (The file provided above is named `unrealTutorial_12_160` although you might have renamed it previously).
 >
-> ![[unrealTutorial_12_197.png]]
-> ![[unrealTutorial_12_200.png]]
+> ![[unrealTutorial_12_197.webp]]
+> ![[unrealTutorial_12_200.webp]]
 >
 > Optionally, add a `Background Blur` widget size to fill the screen. Set `Blur Strength` to `10` or so.
 >
-> ![[unrealTutorial_12_203.png]]
+> ![[unrealTutorial_12_203.webp]]
 >
 > <span class="save">Save All</span>
 
@@ -180,8 +180,8 @@ cssclasses:
 > Go back to `BP_Note_1`. 
 > In the Event Graph, right-click and search for `Examine` in order to add an `Event Examine` node. 
 >
-> ![[unrealTutorial_12_206.png]]
-> ![[unrealTutorial_12_209.png]]
+> ![[unrealTutorial_12_206.webp]]
+> ![[unrealTutorial_12_209.webp]]
 >
 > Wire it to a `Flip Flop` node.
 >
@@ -189,7 +189,7 @@ cssclasses:
 >
 > From there, add an `Add to Viewport`.
 > Check all your wires.
-> ![[unrealTutorial_12_212.png]]
+> ![[unrealTutorial_12_212.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, I just used a node called Flip Flop to alternate between two paths each time an Event fires. What is Flip Flop, and how does it work?
@@ -199,13 +199,13 @@ cssclasses:
 > Drag from `Get Player Controller` in order to add `Set Ignore Look Input` and `Set Ignore Move Input`. 
 > Check `true` the boolean parameters found in `New Look Input` and `New Move Input`.
 > Connect all wires:
-> ![[unrealTutorial_12_215.png]]
+> ![[unrealTutorial_12_215.webp]]
 >
 > From the `B` output of Flip Flop, drag out and search for `Remove from Parent`.  You might need to uncheck `Context Sensitive`.
 >
 > Add `Set Ignore Look Input` and `Set Ignore Move Input` again but their boolean parameters should be `false`.
 > Notice multiple blue wires coming from two `Return Value` outs.
-> ![[unrealTutorial_12_218.png]]
+> ![[unrealTutorial_12_218.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, I just built a Blueprint script: pressing E does a line trace from the camera, calls a function through a Blueprint Interface on the hit actor, and that actor uses a Flip Flop to show/hide a widget and lock/unlock player input. Can you walk me through how this all connects, step by step?
@@ -214,7 +214,7 @@ cssclasses:
 >
 > Test:  approach the note, look at it, and press E.  
 >
-> ![[unrealTutorial_12_221.png]]
+> ![[unrealTutorial_12_221.webp]]
 
 ## What you can now build
 

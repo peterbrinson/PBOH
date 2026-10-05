@@ -39,19 +39,19 @@ When a catalyst opens a gap, the player can respond in two ways:
 
 **Jaws** — a gap with intent. We barely see the shark; the surface of the water is the boundary, and everything beneath it is withheld. *(Practice closure — beneath the water.)*
 
-![[jaws.jpg]]
+![[jaws.webp]]
 
 **Alien** — no origin myth, no backstory, no lore. The derelict ship and its cargo are never explained. *(Tolerate the gap.)*
-![[alien.jpg]]
+![[alien.webp]]
 
 **[[Game - Inside|Inside]]** — no named institutions, no stated institutional goals. The world withholds the **why** of everything you flee. *(Tolerate the gap.)*
-![[inside.jpg]]
+![[inside.webp]]
 
 **[[Game - Elden Ring|Elden Ring]]** — lore exists, but only as fragments. NPCs contradict each other, and the game never confirms a canonical truth. *(Tolerate the gap.)*
-![[eldenRing.png]]
+![[eldenRing.webp]]
 
 **[[Game - Journey|Journey]]** — no explicit objectives and little communication, yet the mountain on the horizon pulls you forward. *(Practice closure.)*
-![[journey.png]]
+![[journey.webp]]
 
 Two more, told entirely through evidence:
 

@@ -51,15 +51,15 @@ Every component has an **Object Type** (what it is) and a grid of **Collision Re
 
 **Hit event setup** — a PhysicsBody with Simulation Generates Hit Events enabled, set to Block WorldDynamic objects:
 
-![[col_collideevent_sphere.png]]
+![[col_collideevent_sphere.webp]]
 
 **Overlap event setup** — a PhysicsBody with Generate Overlap Events enabled, set to Overlap WorldDynamic objects:
 
-![[col_overlapevent_sphere.png]]
+![[col_overlapevent_sphere.webp]]
 
 **The other side** — a WorldDynamic wall with Generate Overlap Events enabled, set to Block PhysicsBody objects. Even though the wall Blocks, an overlap event still fires because the sphere is set to Overlap:
 
-![[col_collideoverlapevent_box.png]]
+![[col_collideoverlapevent_box.webp]]
 
 ## Events
 

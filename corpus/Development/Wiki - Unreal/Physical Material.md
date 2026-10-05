@@ -17,11 +17,11 @@ A small asset that describes what a surface is *made of* — its physical respon
 
 **Creation.** Content Drawer → **Add → Physics → Physical Material** (or right-click → Physics → Physical Material). Double-click to edit its properties, adjust, Save. Convention: prefix the name `PM_` (same spirit as `BP_`, `M_`).
 
-![[new-physical-material.png]]
+![[new-physical-material.webp]]
 
-![[physical-material-properties.png]]
+![[physical-material-properties.webp]]
 
-![[adjust-properties.png]]
+![[adjust-properties.webp]]
 
 **Surface Type.** UE5 supports up to 62 Surface Types, free-text labels you define for your project (Concrete, Metal, Flesh…). They are stored in `Config/DefaultEngine.ini` under your project root and edited via Project Settings → Physics. A trace against a surface returns its Surface Type, which gameplay then switches on.
 

@@ -6,7 +6,7 @@ publish: true
 
 A specialized Blueprint that acts as a level-wide event graph. Every level gets one by default — you cannot create additional Level Blueprints, and you cannot create them from scratch. It scripts behavior that belongs to a specific map rather than to a reusable class.
 
-![[level_blueprint_editor.png]]
+![[level_blueprint_editor.webp]]
 
 ## Use When
 
@@ -21,7 +21,7 @@ A specialized Blueprint that acts as a level-wide event graph. Every level gets 
 
 **Blueprints** button in the Level Editor toolbar → **Open Level Blueprint**.
 
-![[toolbar_level_editor.png]]
+![[toolbar_level_editor.webp]]
 
 The editor looks like a standard Blueprint Editor — same My Blueprint panel (Graphs, Functions, Macros, Variables, Event Dispatchers), same Details panel — but no Components tab or Viewport. A "LEVEL BLUEPRINT" watermark marks the graph. The Blueprints dropdown also shows the current **GameMode** and whether a **World Override** is set.
 
@@ -34,20 +34,20 @@ The Level Blueprint's key advantage: it can hold direct references to actors pla
 2. Open the Level Blueprint
 3. Right-click in the graph → **Create a Reference to [ActorName]** (or **Create References to N selected Actors** if multiple are selected)
 
-![[add_reference_to.png]]
+![[add_reference_to.webp]]
 
 **Drag-and-drop method:**
 Drag an actor from the **World Outliner** directly into the Level Blueprint graph.
 
-![[add_reference_drag_drop.png]]
+![[add_reference_drag_drop.webp]]
 
 Either way produces a reference node showing the actor's name and "from Persistent Level":
 
-![[actor_reference.png]]
+![[actor_reference.webp]]
 
 When the output type already matches a Target pin, you can skip the reference node entirely — wire the output directly. For example, **Get Player Pawn** returns a Pawn reference that connects straight to **Set Actor Rotation**'s Target pin:
 
-![[target_pin_noref.png]]
+![[target_pin_noref.webp]]
 
 ### Adding Events for Actors
 
@@ -55,11 +55,11 @@ You can bind events to specific placed actors — not the class, but that partic
 
 **From the viewport:** Right-click the actor in the level → **Level Blueprint** submenu → choose the event.
 
-![[add_event_details_tab.png]]
+![[add_event_details_tab.webp]]
 
 **From the graph:** With the actor selected, right-click in the Level Blueprint graph → **Add Event for [ActorName]**. Available event categories include Character, Collision, Game (Damage, Destroyed, End Play), and Input.
 
-![[add_event_for_actor.png]]
+![[add_event_for_actor.webp]]
 
 ### Default Level Blueprint Class
 

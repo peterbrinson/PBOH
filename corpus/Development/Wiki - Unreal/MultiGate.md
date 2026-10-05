@@ -14,7 +14,7 @@ Takes a single execution pulse and routes it to one of several outputs. Each cal
 
 ## How It Works
 
-![[multigate_example.png]]
+![[multigate_example.webp]]
 
 ### Input Pins
 
@@ -41,7 +41,7 @@ Takes a single execution pulse and routes it to one of several outputs. Each cal
 
 ## Common Patterns
 
-![[multigate_network.png]]
+![[multigate_network.webp]]
 
 **Cycling dialogue:** An NPC's interact event pulses a MultiGate (Loop on, Is Random off). Out 0 plays "Hello," Out 1 plays "Nice weather," Out 2 plays "Watch out for wolves." Each interaction advances to the next line and wraps around.
 

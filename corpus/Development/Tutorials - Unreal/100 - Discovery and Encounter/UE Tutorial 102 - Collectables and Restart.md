@@ -56,14 +56,14 @@ cssclasses:
 ---
 > [!info]- A. Update the Gamemode
 > In the `GameMode` (named `BP_InClassPlatforming_GameMode`, created in Step 1), select its root in order to update 4 values: `Game State`, `Player Controller`, `Player State`, and `Default Pawn`.
-> ![[unrealTutorial_02_101.png]]
+> ![[unrealTutorial_02_101.webp]]
 >
 > > [!hint] Hold On
 > > When opening a blueprint for the first time, not seeing the [[Event Graph]] or Viewport? Look for this:
-> > ![[unrealTutorial_02_109.png]]
+> > ![[unrealTutorial_02_109.webp]]
 >
 > Here are the 4 values you are setting:
-> ![[unrealTutorial_02_104.png]]
+> ![[unrealTutorial_02_104.webp]]
 >
 > > [!tip] Tip
 > > When editing a blueprint, above the details panel, the Parent class is listed. Pay attention to parent classes in general, moving forward. 
@@ -79,7 +79,7 @@ cssclasses:
 > (By the way, the below image shows the moment *before* the change is made).
 >
 > <span class="hint">To enlarge any image: Right-click to choose "Open image in new tab".</span>
-> ![[unrealTutorial_02_107.png]]
+> ![[unrealTutorial_02_107.webp]]
 
 > [!info]- C. The Gamemode's Event Graph
 > Refer to the below image in order to create blueprint script in `BP_InClassPlatforming_GameMode`.  
@@ -93,7 +93,7 @@ cssclasses:
 > - Create a [[Custom Event|custom event]] - `OnTimerExpired`.
 > - Drag off `OnTimerExpired` and create `Open Level`.  `Open Level` will restart the game - make sure you choose the option that includes "by Object Reference".  And set the level parameter to your current level name.  (By the way, a multiplayer game will do this differently).
 >
-> ![[unrealTutorial_02_110.png]]
+> ![[unrealTutorial_02_110.webp]]
 >
 > <span class="save">Save All</span>
 
@@ -110,7 +110,7 @@ cssclasses:
 > - Creating the variable `NumberOfCollectables` is similar to how you did so in Step 2C.  But this one is an `Int`.
 > - The short node with the green and purple (and no words or symbols) is casting the `Int` to `String`.  It gets created when you connect the `Increment Int` to `Print String`. 
 >
-> ![[unrealTutorial_02_113.png]]
+> ![[unrealTutorial_02_113.webp]]
 >
 > <span class="save">Save All</span>
 
@@ -126,7 +126,7 @@ cssclasses:
 >
 > In the Details panel, ensure the sphere collider's [[Collision Components|Collision Presets]] is `OverlapAllDynamic`, and the sphere mesh's Collision Presets is `NoCollision`.
 >
-> ![[unrealTutorial_02_116.png]]
+> ![[unrealTutorial_02_116.webp]]
 
 > [!info]- B. Collectable's Event Graph
 > Using what you have learned, use these instructions and screenshot to complete the [[Event Graph]]. 
@@ -141,7 +141,7 @@ cssclasses:
 > - Node 6 removes this collectible from the scene.
 >
 > <span class="hint">To enlarge any image: Right-click to choose "Open image in new tab".</span>
-> ![[unrealTutorial_02_121.png]]
+> ![[unrealTutorial_02_121.webp]]
 >
 > > [!question] Ask your LLM why
 > > In the Unreal tutorial I'm following, the collectable's Event Graph casts twice — first to `BP_PlatformingCharacter`, then to `BP_InClassPlatforming_PlayerState`. Why does it need to cast twice instead of going directly to the `PlayerState`?

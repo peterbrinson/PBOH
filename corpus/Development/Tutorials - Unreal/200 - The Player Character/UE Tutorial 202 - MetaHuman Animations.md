@@ -34,28 +34,28 @@ cssclasses:
 > <span class="hint">This might take some time to download. Close Unreal while it installs.</span>
 > Don't worry about the version numbers here. 
 >
-> ![[unrealTutorial_05_101.png]]
-> ![[unrealTutorial_05_104.png]]
+> ![[unrealTutorial_05_101.webp]]
+> ![[unrealTutorial_05_104.webp]]
 
 > [!info]- B. Install Plugins
 > In your project, go to Edit → Plugins, search for `MetaHuman`, and check all results. Then restart the project.
 >
-> ![[unrealTutorial_05_107.png]]
+> ![[unrealTutorial_05_107.webp]]
 
 > [!info]- C. Create a MetaHuman Character
 > Right-click in your Content Browser, create a `MetaHuman Character`, and name it `MH_MetaHuman1`.  
 >
-> ![[unrealTutorial_05_110.png]]
+> ![[unrealTutorial_05_110.webp]]
 >
 > If this pop-up appears, click `Enable Missing`.
 >
-> ![[unrealTutorial_05_113.png]]
+> ![[unrealTutorial_05_113.webp]]
 
 > [!info]- D. Edit Your MetaHuman Character
 > Customize your MetaHuman Character or choose a preset. This tutorial uses the `Jelena` preset as an example.
 > This is the source asset that you will make a Metahuman blueprint from.  Not yet.  In Step 1G. 
 >
-> ![[unrealTutorial_05_116.png]]
+> ![[unrealTutorial_05_116.webp]]
 >
 > After customizing, move on.
 
@@ -63,15 +63,15 @@ cssclasses:
 > - For a **Player Character**, click `Create Full Rig`.
 > - For an **NPC Character**, click `Create Joints Only Rig`.
 >
-> ![[unrealTutorial_05_119.png]]
+> ![[unrealTutorial_05_119.webp]]
 >
 > <span class="hint">This might take some time.</span>
 
 > [!info]- F. Download Texture
-> ![[unrealTutorial_05_122.png]]
+> ![[unrealTutorial_05_122.webp]]
 
 > [!info]- G. Assemble MetaHuman (Blueprint)
-> ![[unrealTutorial_05_125.png]]
+> ![[unrealTutorial_05_125.webp]]
 >
 > - **Assembly:** `UE Optimized`
 > - **Quality:** `Low`
@@ -80,7 +80,7 @@ cssclasses:
 >
 > The Assembly process will use your MetaHuman Character definition to generate your final **MetaHuman Assembly**—the functional blueprint `BP_Jelena`.
 >
-> ![[unrealTutorial_05_128.png]]
+> ![[unrealTutorial_05_128.webp]]
 >
 > Hit **Assemble**.  You provided the name `Jelena` and the resulting blueprint will be automatically named `BP_Jelena`.
 >
@@ -89,7 +89,7 @@ cssclasses:
 > [!info]- H. Find Your MetaHuman Assembly
 > Go to your Content Browser. There should be a new folder called `MetaHumans` containing your MetaHuman Assembly, `BP_Jelena`.
 >
-> ![[unrealTutorial_05_134.png]]
+> ![[unrealTutorial_05_134.webp]]
 >
 > <span class="save">Save All</span>
 
@@ -101,89 +101,89 @@ cssclasses:
 > [!info]- A. Set Player Blueprint
 > Go to the `MetaHumans` folder, duplicate your Blueprint, and keep a backup copy.
 >
-> ![[unrealTutorial_05_137.png]]
+> ![[unrealTutorial_05_137.webp]]
 >
 > Open the Blueprint and click Class Settings.
 >
-> ![[unrealTutorial_05_140.png]]
+> ![[unrealTutorial_05_140.webp]]
 >
 > In Details, change the Parent Class to `BP_ThirdPersonCharacter`.
 >
-> ![[unrealTutorial_05_143.png]]
+> ![[unrealTutorial_05_143.webp]]
 >
 > In Viewport, you should now see all the player components inside your MetaHuman Blueprint.
 >
-> ![[unrealTutorial_05_146.png]]
+> ![[unrealTutorial_05_146.webp]]
 
 > [!info]- B. Adjust Transform and Components
 > In Components, move `Body` to be a child of `Mesh`.
 >
-> ![[unrealTutorial_05_149.png]]
+> ![[unrealTutorial_05_149.webp]]
 >
 > Select the `Body` component and zero-out its Transform.
 >
-> ![[unrealTutorial_05_152.png]]
+> ![[unrealTutorial_05_152.webp]]
 >
 > Delete the `Root` component.
 >
-> ![[unrealTutorial_05_155.png]]
+> ![[unrealTutorial_05_155.webp]]
 >
 > Select `Mesh` and uncheck `Visible` under Details.
 >
-> ![[unrealTutorial_05_158.png]]
+> ![[unrealTutorial_05_158.webp]]
 >
 > Your [[Components]] panel should now look like this:
 >
-> ![[unrealTutorial_05_161.png]]
+> ![[unrealTutorial_05_161.webp]]
 
 > [!info]- C. Small Bug Fix
 > <span class="action">Compile</span> — you will get an error. Deleting `Root` causes this.
 >
-> ![[unrealTutorial_05_164.png]]
+> ![[unrealTutorial_05_164.webp]]
 >
 > **Solution:** In Compiler Results, click the **Target** link to locate the error. Drag the `Body` component out and connect it to the `Target` input of `Get Children Components`.
 >
-> ![[unrealTutorial_05_167.png]]
+> ![[unrealTutorial_05_167.webp]]
 >
 > <span class="action">Compile</span> — the error is now fixed.
 
 > [!info]- D. Retarget Animation
 > Click the `Mesh` component.
 >
-> ![[unrealTutorial_05_170.png]]
+> ![[unrealTutorial_05_170.webp]]
 >
 > In Details, find the `Anim Class`: `ABP_Unarmed_C`. Click the folder icon to locate the file in the Content Browser.
 >
-> ![[unrealTutorial_05_173.png]]
+> ![[unrealTutorial_05_173.webp]]
 >
 > Right-click `ABP_Unarmed_C` and choose `Retarget Animations`.
 >
-> ![[unrealTutorial_05_176.png]]
+> ![[unrealTutorial_05_176.webp]]
 >
 > <span class="hint">This is where the name you gave your MetaHuman earlier matters.</span>
 >
-> ![[unrealTutorial_05_179.png]]
-> ![[unrealTutorial_05_182.png]]
+> ![[unrealTutorial_05_179.webp]]
+> ![[unrealTutorial_05_182.webp]]
 >
 > Choose the correct body mesh and `ABP_Unarmed`, then click `Export Animations`. Save to a good folder like `/MetaHumans/Animations/`.
 >
 > In the Suffix field, enter your character name with an underscore: `_Jelena`.
 >
-> ![[unrealTutorial_05_185.png]]
-> ![[unrealTutorial_05_188.png]]
+> ![[unrealTutorial_05_185.webp]]
+> ![[unrealTutorial_05_188.webp]]
 
 > [!info]- E. Set Animation
 > Back in the `BP_Jelena` Blueprint, select the `Body` component. In Details, set the `Animation Class` to `ABP_Unarmed_Jelena`.
 >
 > <span class="hint">The suffix you set in the previous step is what makes this name findable.</span>
 >
-> ![[unrealTutorial_05_191.png]]
+> ![[unrealTutorial_05_191.webp]]
 >
 > <span class="action">Compile</span>
 >
 > Go to your `GameMode` file and change Default Pawn Class to your new MetaHuman Blueprint.
 >
-> ![[unrealTutorial_05_194.png]]
+> ![[unrealTutorial_05_194.webp]]
 >
 > <span class="save">Save All</span>
 >
@@ -196,44 +196,44 @@ cssclasses:
 >
 > Find the MetaHuman's `Skeletal Mesh` by selecting the `Body` component and locating it in Details.
 >
-> ![[unrealTutorial_05_200.png]]
-> ![[unrealTutorial_05_203.png]]
+> ![[unrealTutorial_05_200.webp]]
+> ![[unrealTutorial_05_203.webp]]
 >
 > Open it, then open `Metahuman_base_skel`.
 >
-> ![[unrealTutorial_05_206.png]]
+> ![[unrealTutorial_05_206.webp]]
 >
 > Right-click on the `root` and add a virtual bone. Name it `ik_foot`.
 >
-> ![[unrealTutorial_05_209.png]]
+> ![[unrealTutorial_05_209.webp]]
 >
 > Right-click on `VB ik_foot`, add a virtual bone, and search for "foot". Create:
 > - `ik_foot_l` (child of `ik_foot`)
 > - `ik_foot_r` (child of `ik_foot`)
 >
-> ![[unrealTutorial_05_212.png]]
+> ![[unrealTutorial_05_212.webp]]
 >
 > Your virtual bone hierarchy should look like this:
 >
-> ![[unrealTutorial_05_215.png]]
+> ![[unrealTutorial_05_215.webp]]
 
 > [!info]- G. Fix Foot IK — Fix ABP with Control Rig
 > Open your retargeted `ABP_Unarmed_Jelena` (in the folder where you exported the retargeted animations).
 >
-> ![[unrealTutorial_05_218.png]]
+> ![[unrealTutorial_05_218.webp]]
 >
 > Open Event Graph (double-click AnimGraph in the left panel).
 >
-> ![[unrealTutorial_05_221.png]]
+> ![[unrealTutorial_05_221.webp]]
 >
 > Click the `Control Rig` node. In Details, the `Control Rig Class` should already be `CR_Mannequin_FootIK`. Click **Browse** to find it in the Content Browser. Duplicate it and name the copy `CR_Jelena_FootIK`.
 >
-> ![[unrealTutorial_05_224.png]]
-> ![[unrealTutorial_05_227.png]]
+> ![[unrealTutorial_05_224.webp]]
+> ![[unrealTutorial_05_227.webp]]
 >
 > Open the new file. In the Rig Hierarchy window, right-click on any bone, choose **Refresh**, and select the Jelena Body Mesh.
 >
-> ![[unrealTutorial_05_230.png]]
+> ![[unrealTutorial_05_230.webp]]
 >
 > <span class="hint">This will automatically close your Control Rig file — that's normal.</span>
 >
@@ -241,13 +241,13 @@ cssclasses:
 >
 > Re-open the [[Control Rig]] file. Find all the Foot Name references in the nodes and replace them with your virtual bones: `VB ik_foot_foot_l` and `VB ik_foot_foot_r`.
 >
-> ![[unrealTutorial_05_233.png]]
-> ![[unrealTutorial_05_236.png]]
-> ![[unrealTutorial_05_239.png]]
+> ![[unrealTutorial_05_233.webp]]
+> ![[unrealTutorial_05_236.webp]]
+> ![[unrealTutorial_05_239.webp]]
 >
 > Go back to the ABP, click the `Control Rig` node, and replace the `Control Rig Class` with your new `CR_Jelena_FootIK`.
 >
-> ![[unrealTutorial_05_242.png]]
+> ![[unrealTutorial_05_242.webp]]
 >
 > Hit Play — your MetaHuman is now working!
 >
@@ -261,12 +261,12 @@ cssclasses:
 > [!info]- A. Download an Animation
 > Go to **Mixamo** and log in.
 >
-> ![[unrealTutorial_05_248.png]]
+> ![[unrealTutorial_05_248.webp]]
 >
 > Search for an animation and download it.
 >
-> ![[unrealTutorial_05_251.png]]
-> ![[unrealTutorial_05_254.png]]
+> ![[unrealTutorial_05_251.webp]]
+> ![[unrealTutorial_05_254.webp]]
 >
 > **Download settings:**
 > - **Format:** `FBX Binary` (.fbx) — Unreal's recommended format
@@ -277,37 +277,37 @@ cssclasses:
 > [!info]- B. Import Animation and Retarget
 > Drag the `.fbx` file into the engine.
 >
-> ![[unrealTutorial_05_257.png]]
+> ![[unrealTutorial_05_257.webp]]
 >
 > Click **Import**.
 >
-> ![[unrealTutorial_05_260.png]]
+> ![[unrealTutorial_05_260.webp]]
 >
 > Right-click the animation sequence and choose `Retarget Animations`.
 >
-> ![[unrealTutorial_05_263.png]]
+> ![[unrealTutorial_05_263.webp]]
 >
 > Set the `Target Skeletal Mesh` to your MetaHuman's `Body`.
 >
-> ![[unrealTutorial_05_266.png]]
+> ![[unrealTutorial_05_266.webp]]
 >
 > Click **Export**.
 >
-> ![[unrealTutorial_05_269.png]]
+> ![[unrealTutorial_05_269.webp]]
 >
 > <span class="hint">Don't forget to set the Suffix to `_Jelena`.</span>
 >
-> ![[unrealTutorial_05_272.png]]
+> ![[unrealTutorial_05_272.webp]]
 
 > [!info]- C. Play the Animation
 > Right-click the imported animation and choose `Create Animation Montage`.
 >
-> ![[unrealTutorial_05_275.png]]
+> ![[unrealTutorial_05_275.webp]]
 >
 > Back in the Jelena Blueprint's Event Graph, add nodes to trigger the animation montage. Make sure you select the anim instance of the MetaHuman's `Body` component.
 >
-> ![[unrealTutorial_05_278.png]]
-> ![[unrealTutorial_05_281.png]]
+> ![[unrealTutorial_05_278.webp]]
+> ![[unrealTutorial_05_281.webp]]
 >
 > Hit Play!
 >

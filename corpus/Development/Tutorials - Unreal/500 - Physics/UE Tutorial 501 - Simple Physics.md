@@ -41,20 +41,20 @@ Learn the fundamentals of Unreal's physics engine.
 >
 > From the Place Actors window, drag in a `Cube` (from the Shapes category) into the level. Use the Transform Gizmo to lift it well above the ground — two or three player-heights up.
 >
-> ![[unrealTutorial500_11.png]]
+> ![[unrealTutorial500_11.webp]]
 >
 > Press Play. The cube hangs in the air. By default, every Static Mesh in Unreal is exactly that — static, like a wall.
 
 > [!info]- B. Hand It to the Physics Engine
 > Select the cube. In the Details panel, find the **Physics** section and check `Simulate Physics`.
 >
-> ![[unrealTutorial500_15.png]]
+> ![[unrealTutorial500_15.webp]]
 >
 > Press Play. The cube drops, lands, and settles. Walk into it — it slides and topples when you push it.
 >
 > Place four or five more cubes, check `Simulate Physics` on each, and stack them into a tower. Play, and knock it over.
 >
-> ![[unrealTutorial500_19.png]]
+> ![[unrealTutorial500_19.webp]]
 
 > [!info]- C. One Rule Before Going Further
 > Physics simulation has one hard requirement: the object must have simple collision. The engine's Basic Shapes (Cube, Sphere, Cylinder) all come with it by default, which is why this is working. Meshes you bring in from elsewhere — Fab assets, your own models — sometimes don't. In this case, the object falls through the floor.
@@ -72,7 +72,7 @@ Learn the fundamentals of Unreal's physics engine.
 > - **Block** — the two objects can't pass through each other. This is what physics needs: a falling crate lands on the floor.
 > - **Overlap** — the objects pass through each other, but the engine can fire an event at the moment they cross. This is Tutorial 101's pressure plate — [[OnComponentBeginOverlap]].
 > - **Ignore** — they pass through silently. Nothing fires.
-> ![[unrealTutorial500_23.png]]
+> ![[unrealTutorial500_23.webp]]
 >
 > You met overlap events in Tutorial 101. Blocking has its own event: [[OnComponentHit]] fires when a physics object *strikes* something — useful later for playing a sound on impact.
 
@@ -80,7 +80,7 @@ Learn the fundamentals of Unreal's physics engine.
 > Find any Fab prop, or to follow along. **Double-click the asset in the Content Browser** to open the Static Mesh Editor.
 >
 > To see what collision it already has: from the editor's toolbar, enable Collision display (the Collision dropdown → `Simple Collision`). Green wireframe shapes are its simple collision.
-> ![[unrealTutorial500_27.png]]
+> ![[unrealTutorial500_27.webp]]
 >
 > To add some, open the **Collision dropdown** menu in the Static Mesh Editor's menu bar:
 >
@@ -101,7 +101,7 @@ Learn the fundamentals of Unreal's physics engine.
 > [!info]- A. Mass
 > Select a simulated cube. In Details → Physics, find `Mass (kg)`. Unreal computed this automatically from the object's volume — scale the cube bigger and the mass climbs on its own.
 >
-> ![[unrealTutorial500_30.png]]
+> ![[unrealTutorial500_30.webp]]
 >
 > To take control, check the small override box next to `Mass (kg)` and type a value.
 >
@@ -132,7 +132,7 @@ Learn the fundamentals of Unreal's physics engine.
 > - `Restitution` — bounciness, `0` to `1`. At `0`, the object lands dead. At `0.9`, it's rubber. Set `PM_Bouncy` to `0.9`.
 > - `Friction` — how much surfaces grip when sliding. `0` is ice. Leave it at default for now.
 >
-> ![[unrealTutorial500_33.png]]
+> ![[unrealTutorial500_33.webp]]
 
 > [!info]- B. Apply It
 > Select one of your `Cube` in the level. In Details, find the **Collision** section → `Phys Material Override` → choose `PM_Bouncy`. (Make sure the `Mass` is not high nor there is much damping).
@@ -141,7 +141,7 @@ Learn the fundamentals of Unreal's physics engine.
 >
 > Make a `PM_Ice` (Friction `0`) and apply it to a ramp or floor section to feel what friction does to sliding.
 >
-> ![[unrealTutorial500_36.png]]
+> ![[unrealTutorial500_36.webp]]
 
 
 ## 5. Gravity: Three Dials
@@ -168,7 +168,7 @@ Learn the fundamentals of Unreal's physics engine.
 > [!info]- C. Per Character — Gravity Scale
 > Your player character doesn't use `Simulate Physics` — characters are driven by the `Character Movement` component, which has its own dial: `Gravity Scale`. It's a *multiplier* on world gravity: at `1.0`, the character falls and jumps normally; at `6.0`, it will compensate for the low `Global Gravity Z` you set in 5B, for example.
 >
-> ![[unrealTutorial500_40.png]]
+> ![[unrealTutorial500_40.webp]]
 >
 > This is how you split the difference. Want objects to fall dream-slow while the player still jumps normally? Lower `Global Gravity Z` for the world, then *raise* the character's `Gravity Scale` to compensate.
 
@@ -183,7 +183,7 @@ Learn the fundamentals of Unreal's physics engine.
 > 1. Make a Blueprint name `BP_CrateforImpulse`.
 > 2. On `BeginPlay` call **`Add Impulse`** on its Static Mesh component.
 > 3. The `Impulse` input is a Vector — direction times strength. Try `X=0, Y=0, Z=50000` for a launch straight up. If the crate doesn't move, the impulse might be too small for its mass: a 500 kg crate needs a much bigger shove than a 5 kg one.
-> ![[unrealTutorial500_44.png]]
+> ![[unrealTutorial500_44.webp]]
 
 
 ## What you can now build

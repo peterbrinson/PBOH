@@ -17,7 +17,7 @@ The UE5 input system. Enhanced Input replaces UE4's Action/Axis mappings with a 
 
 Enhanced Input is enabled by default in UE5. Create input assets from the Content Browser: **Add (+) → Input**.
 
-![[image_0.png]]
+![[image_0.webp]]
 
 Three asset types live here: **Input Action**, **Input Mapping Context**, and **Player Mappable Input Config**. The first two are the ones you'll use constantly.
 
@@ -27,7 +27,7 @@ An Input Action represents something the player can do — "Jump," "Move," "Swap
 
 Open an Input Action to set its **Value Type**:
 
-![[image_1.png]]
+![[image_1.webp]]
 
 | Value Type | Data Type | Use For |
 |---|---|---|
@@ -54,11 +54,11 @@ Most of the time, bind to **Triggered**.
 
 Right-click in the Event Graph and search for the Input Action's name. Two categories appear: **Enhanced Action Events** (fire execution pins per trigger state) and **Enhanced Action Values** (return the current value without exec pins).
 
-![[image_3.png]]
+![[image_3.webp]]
 
 Select the Event version. The node exposes exec pins for each trigger state, plus **Action Value** (the current value based on the Action's type) and **Input Action** (a reference to the asset):
 
-![[image_4.png]]
+![[image_4.webp]]
 
 Wire the **Triggered** pin to your logic. For a simple test, connect it to [[Print String]].
 
@@ -71,7 +71,7 @@ The structure is a hierarchy:
 - **Under each Action:** one or more physical key/button bindings
 - **Under each binding:** optional Input Triggers and Input Modifiers
 
-![[image_6.png]]
+![[image_6.webp]]
 
 Each binding can have its own Triggers (hold, tap, chorded) and Modifiers (negate, swizzle, dead zone) that process the raw input before it reaches the Action.
 
@@ -83,7 +83,7 @@ A Mapping Context does nothing until it's added to the player's **Enhanced Input
 2. From the cast result, get the **Enhanced Input Local Player Subsystem**
 3. Call **Add Mapping Context**, passing the context asset and a **Priority** (higher priority wins if two contexts bind the same key)
 
-![[image_7.png]]
+![[image_7.webp]]
 
 To swap contexts (e.g., entering a vehicle), call **Remove Mapping Context** on the old one and **Add Mapping Context** on the new one.
 
@@ -91,7 +91,7 @@ To swap contexts (e.g., entering a vehicle), call **Remove Mapping Context** on 
 
 Modifiers are pre-processors that alter raw input values before they reach Input Triggers. They're set per-binding inside the Input Mapping Context.
 
-![[image_8.png]]
+![[image_8.webp]]
 
 Common built-in modifiers:
 
@@ -115,7 +115,7 @@ To map four keys to a single 2D movement Action, use Negate and Swizzle to conve
 | S / Down | Negative Y | Negate + Swizzle (YXZ) |
 | D / Right | Positive X | *(none)* |
 
-![[image_13.jpg]]
+![[image_13.webp]]
 
 ### Input Triggers
 

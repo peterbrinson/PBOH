@@ -21,7 +21,7 @@ These nodes are complex enough to warrant their own pages:
 
 ## Flip Flop
 
-![[flipflop_example.png]]
+![[flipflop_example.webp]]
 
 Alternates between two execution outputs on each call. First call fires **A**, second fires **B**, third fires **A**, and so on. The **Is A** boolean output tells you which side just fired.
 
@@ -41,7 +41,7 @@ Alternates between two execution outputs on each call. First call fires **A**, s
 
 ### Pattern: Read/Close Toggle
 
-![[flipflop_network.png]]
+![[flipflop_network.webp]]
 
 [[UE Tutorial 801 - Inspect an Object|Tutorial 801]]'s readable item system: the player presses E to read a note. A fires — the widget appears, input is disabled. Press E again — B fires, the widget is removed, input is restored. One node replaces a boolean variable + Branch + Set combination.
 
@@ -49,7 +49,7 @@ Alternates between two execution outputs on each call. First call fires **A**, s
 
 ## Do Once
 
-![[doonce_example.png]]
+![[doonce_example.webp]]
 
 Fires its output exactly once. All subsequent calls are ignored until the **Reset** input is pulsed, which re-arms the node for one more firing.
 
@@ -68,7 +68,7 @@ Fires its output exactly once. All subsequent calls are ignored until the **Rese
 
 ### Pattern: Resettable One-Shot
 
-![[doonce_network.png]]
+![[doonce_network.webp]]
 
 A door opens the first time the player touches a trigger. Further touches do nothing. But a separate "reset" trigger (a lever, a key pickup, a timer) wires into Reset, and the door can be opened once more.
 
@@ -80,7 +80,7 @@ A door opens the first time the player touches a trigger. Further touches do not
 
 ## Do N
 
-![[do_n.png]]
+![[do_n.webp]]
 
 Fires its output **N** times, then stops. Like DoOnce but with a configurable limit. Has a **Reset** input to restart the counter.
 
@@ -100,7 +100,7 @@ Fires its output **N** times, then stops. Like DoOnce but with a configurable li
 
 ### Pattern: Refuel to Reset
 
-![[refuel_key_do_n.png]]
+![[refuel_key_do_n.webp]]
 
 A vehicle can start 20 times. After that, Enter pulses are ignored. A refueling event wires into Reset — the vehicle can start 20 more times.
 
@@ -108,7 +108,7 @@ A vehicle can start 20 times. After that, Enter pulses are ignored. A refueling 
 
 ## For Loop
 
-![[forloop_example.png]]
+![[forloop_example.webp]]
 
 A counter-based loop that fires **Loop Body** once for each integer from **First Index** to **Last Index** (inclusive). The current counter value is available on the **Index** output. After all iterations complete, **Completed** fires.
 
@@ -135,11 +135,11 @@ A counter-based loop that fires **Loop Body** once for each integer from **First
 
 ### ForLoopWithBreak Variant
 
-![[forloopwithbreak_example.png]]
+![[forloopwithbreak_example.webp]]
 
 Same as ForLoop but adds a **Break** exec input. When fired (typically from a [[Branch]] inside the loop body), the loop stops immediately and Completed fires.
 
-![[forloopwithbreak_network.png]]
+![[forloopwithbreak_network.webp]]
 
 Use when you're searching for something and want to stop as soon as you find it, or when a condition inside the loop should abort early.
 
@@ -149,7 +149,7 @@ Use when you're searching for something and want to stop as soon as you find it,
 
 ## While Loop
 
-![[bp_whileloop-1.png]]
+![[bp_whileloop-1.webp]]
 
 Evaluates a **Condition** before each iteration. If true, executes the **Loop Body** and re-checks. If false, exits to **Completed**. This is the Blueprint equivalent of a `while` loop in code.
 
@@ -170,7 +170,7 @@ Evaluates a **Condition** before each iteration. If true, executes the **Loop Bo
 
 ### Pattern: Counter-Based While Loop
 
-![[bp_whileloop_exampleusage.png]]
+![[bp_whileloop_exampleusage.webp]]
 
 A counter starts at 0. The condition checks `Counter < Count Limit`. Each iteration increments the counter and prints its value. When the counter reaches the limit, the loop exits and prints "WhileLoop Completed."
 
@@ -188,7 +188,7 @@ If you can't answer all three, use a ForLoop with a known limit instead.
 
 ## All Flow Control Nodes at a Glance
 
-![[flowcontrolexpanded.png]]
+![[flowcontrolexpanded.webp]]
 
 ## Source
 

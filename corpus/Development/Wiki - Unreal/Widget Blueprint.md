@@ -8,15 +8,15 @@ A specialized Blueprint for building UI elements using **Unreal Motion Graphics 
 
 Create one via **Content Browser > Add > User Interface > Widget Blueprint** (or right-click in the Content Browser).
 
-![[ue5_1-01-create-widget-blueprint.png]]
+![[ue5_1-01-create-widget-blueprint.webp]]
 
 Rename or keep the default name in the Content Browser.
 
-![[ue5_1-02-rename-widget-blueprint.png]]
+![[ue5_1-02-rename-widget-blueprint.webp]]
 
 **Double-click** the Widget Blueprint to open it in the **Widget Blueprint Editor**.
 
-![[ue5_1-03-widget-editor.png]]
+![[ue5_1-03-widget-editor.webp]]
 
 ## Use When
 
@@ -32,7 +32,7 @@ The Widget Blueprint Editor has two tabs:
 
 The visual layout workspace. Eight panels (numbered in the image below):
 
-![[ue5_1-04-widget-editor-scheme.png]]
+![[ue5_1-04-widget-editor-scheme.webp]]
 
 | Panel | Purpose |
 |---|---|
@@ -49,7 +49,7 @@ The visual layout workspace. Eight panels (numbered in the image below):
 
 Standard Blueprint graph — same as any other Blueprint's Event Graph. This is where you wire up logic: updating text values, responding to button clicks, binding data to UI elements. Functions identically to the graph editor in other Blueprints.
 
-![[ue5_1-05-widget-editor-graph.png]]
+![[ue5_1-05-widget-editor-graph.webp]]
 
 ### Getting a Widget on Screen
 

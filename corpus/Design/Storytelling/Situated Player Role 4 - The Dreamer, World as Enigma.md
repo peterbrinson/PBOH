@@ -24,7 +24,7 @@ Within the larger context of Wonderland, the story primes us to expect its dream
 
 The Entrant discovers what the world permits. The Dreamer discovers what the world’s rules express.
 
-![[spr_dreamer_02.png]]
+![[spr_dreamer_02.webp]]
 
 *Lewis Carroll, Alice's Adventures in Wonderland. Illustrated by Gwynedd M. Hudson, 1922 edition.*
 
@@ -32,7 +32,7 @@ The Entrant discovers what the world permits. The Dreamer discovers what the wor
 
 *Surrealism* was an art movement of the early 20th century. It used dreamlike imagery, unexpected juxtapositions, and illogic to give form to unconscious thoughts, desires, and fears. This transformation of inner experience into visible objects and spaces offers a useful guide to how the Dreamer role can work.
 
-![[Spr_dreamer_20.jpg]]
+![[Spr_dreamer_20.webp]]
 
 _The Burning Giraffe_ (1937) by Salvador Dalí.
 
@@ -44,7 +44,7 @@ The Dreamer engages logic — but it is *dream logic*, cleanly manifested in an 
 
 In a Dreamer game, the first state of [[Situated Player Role 3 - The Entrant, World as Threshold#The Entrant's Loop: L.O.P.|L.O.P.]] — legibility — becomes central to the experience. The rules and relationships of the world are not immediately intuitive. The player discovers them by acting within them, learning to reason as the world responds.
 
-![[spr_dreamer_08.jpg]]
+![[spr_dreamer_08.webp]]
 
 ## Maquette
 
@@ -58,7 +58,7 @@ The player’s search for passage unfolds across two alternating challenges: con
 
 *[[Game - Papo and Yo|Papo & Yo]]* (2012) is the definitive Dreamer project. At a mechanical level, it plays like a standard Entrant game: a boy working through platforming puzzles.
 
-![[spr_dreamer_30.jpeg]]
+![[spr_dreamer_30.webp]]
 
 But, crucially, the game is a metaphor for living with an alcoholic parent.
 

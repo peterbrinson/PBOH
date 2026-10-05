@@ -14,7 +14,7 @@ Controls whether execution pulses pass through or are blocked. The Gate has an *
 
 ## How It Works
 
-![[gate_example.png]]
+![[gate_example.webp]]
 
 ### Input Pins
 
@@ -40,7 +40,7 @@ Controls whether execution pulses pass through or are blocked. The Gate has an *
 
 ## Common Patterns
 
-![[gate_network.png]]
+![[gate_network.webp]]
 
 **Toggled interaction zone:** A looping [[Timeline]] (auto-play, no tracks, just ticking) continuously pulses Enter. Two trigger volumes in the level — one wired to Open, the other to Close. While the player is in the "active" zone, messages print to screen. Walk into the "off" zone, messages stop. Walk back, they resume.
 
