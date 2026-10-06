@@ -62,7 +62,8 @@ cssclasses:
 > Once your project is open, click play to ensure you have your third person project working.
 
 > [!info]- D. Change the Player Character
-> > [!hint] Hold On
+> > [!hint] Hold On! 
+> > <br>
 > > If you are new to Unreal, become familiar with basic viewport navigation [[UE Editor Navigation]]
 >
 > Follow this dropdown to change the [[Pawn|pawn]] from `BP_ThirdPersonPlayer` to `BP_PlatformingCharacter`. The pawn is the player character that will be spawned on play.
