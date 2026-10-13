@@ -60,6 +60,7 @@ cssclasses:
 > ![[unrealTutorial_09_113.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I'm working with a "Niagara System" and an "Emitter." What is the relationship between these two? Why would a single System ever need multiple Emitters?
 
 > [!info]- C. Understand the Emitter Panel
@@ -86,6 +87,7 @@ cssclasses:
 > ![[unrealTutorial_09_116.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I see both "Emitter Update" and "Particle Update" sections. What is the difference between these two? If I want to change how fast a particle moves as it gets older, which one should I use?
 
 > [!info]- D. Set GPU Sim
@@ -99,6 +101,7 @@ cssclasses:
 > ![[unrealTutorial_09_125.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I just switched my Niagara simulation to "GPUCompute Sim." Why is the GPU better at handling particles than the CPU? Are there any times when I should keep it on the CPU?
 
 ---

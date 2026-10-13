@@ -40,10 +40,12 @@ cssclasses:
 > Finally, create a [[PlayerState]]: `BP_InClassPlatforming_PlayerState`.
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I just created three framework blueprints — one called `GameModeBase`, one called `GameStateBase`, and one called `PlayerState` — and I don't know what any of them do. Before I go further, can you explain what each one is responsible for in a game?
 
 > [!info]- B. Clarifying GameMode and GameModeBase
 > > [!hint] Hold On
+> >
 > > Unreal's UI and common usage refer to this system generically as "GameMode" — the dropdown in World Settings, blueprint naming conventions, etc.
 > >
 > > GameMode is also a class, specifically a subclass of GameModeBase.
@@ -59,6 +61,7 @@ cssclasses:
 > ![[unrealTutorial_02_101.webp]]
 >
 > > [!hint] Hold On
+> >
 > > When opening a blueprint for the first time, not seeing the [[Event Graph]] or Viewport? Look for this:
 > > ![[unrealTutorial_02_109.webp]]
 >
@@ -66,9 +69,11 @@ cssclasses:
 > ![[unrealTutorial_02_104.webp]]
 >
 > > [!tip] Tip
+> >
 > > When editing a blueprint, above the details panel, the Parent class is listed. Pay attention to parent classes in general, moving forward. 
 >
 > > [!question] Ask your LLM why
+> >
 > > Following up from my previous question, in the Unreal tutorial I'm following, the `GameMode` blueprint has settings for `Player State Class`, `Default Pawn Class`, and `Player Controller Class`.  Why does it have this control? 
 
 > [!info]- B. Enable the Gamemode
@@ -144,6 +149,7 @@ cssclasses:
 > ![[unrealTutorial_02_121.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, the collectable's Event Graph casts twice — first to `BP_PlatformingCharacter`, then to `BP_InClassPlatforming_PlayerState`. Why does it need to cast twice instead of going directly to the `PlayerState`?
 >
 > <span class="save">Save All</span>

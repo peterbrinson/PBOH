@@ -69,11 +69,13 @@ cssclasses:
 > Add a `Box Collision` (see [[Collision Components|wiki]]) component.
 >
 > > [!hint] Hold On
+> >
 > > If you don't know how to do this, refer back to [[UE Tutorial 101 - A Floor Plate Opens A Door#A. Make the Blueprint File|Tutorial 101]] on the basics of creating new blueprints and adding components.
 >
 > ![[unrealTutorial_04_104.webp]]
 >
 > > [!hint] Hold On
+> >
 > > Assuming you are *not* new to Unreal, you ought to be practicing a file/folder organizational logic that makes sense to you. Be consistent so you can find your files quickly.
 > > Make a new folder named `HauntedHouse`? Or add new files to the existing `First Person` folder? 
 >
@@ -83,6 +85,7 @@ cssclasses:
 > In the Event Graph, add `OnComponentBeginOverlap` from the `Box Collision` component. 
 >
 > > [!hint] Hold On
+> >
 > > This project uses the First Person template, so the character class is `BP_FirstPersonCharacter` — not the *platforming* character from earlier tutorials. You must understand what character class you chose in order to choose the correct `Cast To` node.
 >
 > ![[unrealTutorial_04_110.webp]]
@@ -104,6 +107,7 @@ cssclasses:
 > ![[unrealTutorial_04_122.webp]]
 >
 > > [!question] Ask your LLM why:
+> >
 > > In the Unreal tutorial I'm following, I just changed a variable from a single item to an "Array". Why would I use an Array instead of just creating five separate light variables?
 
 > [!info]- D. Create Timeline & Lerp
@@ -115,6 +119,7 @@ cssclasses:
 > With the `Timeline` node selected, press F2 to rename it `LightOnTM`.
 >
 > > [!hint] Hold On
+> >
 > > See [[Timeline]] and [[Lerp]] in the wiki for details on these nodes.
 >
 > ![[unrealTutorial_04_125.webp]]
@@ -160,6 +165,7 @@ cssclasses:
 > From our VARIABLES panel to the left of the Event Graph, drag the variable `Target Intensity` in and choose Get.
 >
 > > [!tip] Tip
+> >
 > > If you double-click a wire, you can add a reroute node (a dot) to clean up the graph.
 >
 > Connect the float output of the `Timeline` to the `Alpha` pin of the `Lerp`.
@@ -173,6 +179,7 @@ cssclasses:
 > ![[unrealTutorial_04_146.webp]]
 >
 > > [!tip] Tip
+> >
 > > Make the lights' color distinct or place a large cube above the area to block the `Directional Light` so the effect is easier to see.
 >
 > Set the `Intensity` parameter of each to zero so that they start out dark before the blueprint is triggered.  
@@ -195,6 +202,7 @@ cssclasses:
 > What a level designer wants: when working, to set the lights to their desired "target" (`Target Intensity`).  But then on game start (`BeginPlay`), the lights go dark - they are set to zero by the blueprint script. 
 >
 > > [!hint] Hold on
+> >
 > > Imagine you duplicated this script and called those duplicate nodes on `BeginPlay` - you'd have a great deal of redundant code. 
 > >
 > > In every language, this is where functions are useful and wonderful.
@@ -218,6 +226,7 @@ cssclasses:
 > #### E2 — Parameterize the function
 >
 > > [!question] Why are we doing this?
+> >
 > > What good is taking this script out of the Event Graph and placing it in a function?
 > > Answer: We can now call `SetAllLights` whenever we want. The player entering a trigger, exiting it, or starting the game—all can use this same code. 
 >
@@ -245,6 +254,7 @@ cssclasses:
 > Play the project. The lights should be dark at start, then brighten when you enter the trigger.
 >
 > > [!info] For the future
+> >
 > > Consider incorporating a boolean variable (e.g., `bHasTriggered`) to ensure certain events only fire once.
 
 > [!info]- F. Stagger the Lights
@@ -257,6 +267,7 @@ cssclasses:
 > Open `SetAllLights`. Try to drag off the For Each Loop and add a `Delay` node. **It won't appear**, even with context-sensitive turned off.
 >
 > > [!hint] Hold On — why?
+> >
 > > `Delay` is a **latent** node — its execution spans multiple frames. **Functions in Blueprints do not allow latent nodes.**  
 > >
 > > Even if we worked around that by leaving everything in the Event Graph and just dropping a `Delay` inside a For Each Loop there, it still would have issues. A `For Each Loop` is **synchronous** — it expects to run all iterations in the same frame. 
@@ -351,10 +362,12 @@ cssclasses:
 > <span class="action">Compile</span>. <span class="save">Save All</span>. Press play and walk into the trigger. The lights should pop on one at a time, one second apart.
 >
 > > [!info] For the future
+> >
 > > Notice the division of labor we ended up with: **`SetOneLight`** is a Function — discrete, fast, reusable, no time involved. 
 > > **`LightOnSequence`** is a Custom Event in the Event Graph — it orchestrates *when* things happen using `Delay` and recursion. 
 >
 > > [!tip] Tip
+> >
 > > Do you miss the behavior where each light to faded in (not snap on)?  To be coupled with the staggered behavior? You'd need to call your Timeline-driven fade per light instead of `SetOneLight`. That requires either one Timeline per light (impractical) or driving the fade with `SetTimerByEvent` or a `Tick`-based interpolation. 
 > > We will not do this here. 
 
@@ -437,6 +450,7 @@ cssclasses:
 >
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I'm using "Split Struct Pin" on a Rotation value. Why is it often better to split a pin into X, Y, and Z instead of just plugging in a single Rotation wire?
 >
 > Wire `Lerp`'s return value to `Set Relative Rotation`'s `New Rotation Z (Yaw)`.

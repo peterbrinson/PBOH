@@ -63,6 +63,7 @@ cssclasses:
 
 > [!info]- D. Change the Player Character
 > > [!hint] Hold On! 
+> >
 > > <br>
 > > If you are new to Unreal, become familiar with basic viewport navigation [[UE Editor Navigation]]
 >
@@ -76,6 +77,7 @@ cssclasses:
 > If you do not find `BP_PlatformingCharacter`, that is likely because you did not select the Platforming Variant in Step 1B.
 >
 > > [!question] Ask your LLM why
+> >
 > > In Unreal, why might the tutorial I'm following change the pawn blueprint from a third person character to the platforming character?
 
 ## 2. The Pressure Plate Blueprint 
@@ -94,9 +96,11 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > Name the blueprint `BP_PressurePlate`.  Including `BP_` at the start of blueprints is strongly encouraged.  In other situations, for example, you'll include `M_` at the start of materials, and so on.
 >
 > > [!tip] Tip
+> >
 > > When you want to rename a file in the Content Browser, after selecting it, click F2.
 >
 > > [!question] Ask your LLM what
+> >
 > > In Unreal, what is an actor and what is a blueprint?
 
 > [!info]- B. Add and Edit the Geometry
@@ -111,6 +115,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > ![[unrealTutorial_01_122.webp]]
 >
 > > [!tip] Tip
+> >
 > > If the transform gizmo is too sensitive, you can adjust.
 >
 > ![[unrealTutorial_01_125.webp]]
@@ -136,6 +141,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > Save the level file in the same folder as our working blueprint, `PlateAndDoor`.
 >
 > > [!tip] Tip
+> >
 > > The terms 'scene', 'level', and 'map' are interchangeable in Unreal.
 >
 > Finally, <span class="save">Save All</span> is under File...
@@ -156,6 +162,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > ![[unrealTutorial_01_143.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I'm working on a blueprint.  The tutorial says to add `OnComponentBeginOverlap` by right clicking a collider component, then choosing `Add Event`.  I thought the way to add nodes to the event graph was by right-clicking there and searching.  Why do it this way this time?
 >
 > On the resulting `OnComponentBeginOverlap` node, find its execution pin — the white arrow shape on the top right. Drag out and search for [[Print String]].
@@ -163,6 +170,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > ![[unrealTutorial_01_146.webp]]
 >
 > > [!tip] Tip
+> >
 > > Remember the terms "node" and "execution pin" (or just "pin"). These are essential moving forward.
 >
 > In the `Print String` node, type in the field (In String) `Begin Overlap`.
@@ -183,6 +191,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > ![[unrealTutorial_01_152.webp]]
 >
 > > [!tip] Tip
+> >
 > > If you could not find `BP_PlatformingCharacter`, it is because you skipped Step 1D, above.
 >
 > Also, connect the parameter `Other Actor to Object` of the middle node, as in the above image. See the blue wire?
@@ -190,6 +199,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > Play the game again and ensure `Begin Overlap` still appears.
 >
 > > [!question] What is "cast"?
+> >
 > > The pressure plate should only be sensitive to the player character. In order to determine if the actor that just touched (the overlap) is indeed `BP_PlatformingCharacter`, the cast works like a question. This cast only lets the blueprint script proceed - from one node to the next - if the `Object` (parameter) matches.
 >
 > Because this project is currently so simple, this additional functionality is not needed. But it is good practice moving forward.
@@ -221,6 +231,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > ![[unrealTutorial_01_164.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, the `PressurePlateTimeline` node's parameter, `Pressure Plate Height` passes to the node `Print String`'s `In String` parameter.  It created a small node between those two wires when I did so.  Why does it change the data type?
 >
 > <span class="action">Compile</span>
@@ -246,6 +257,7 @@ Jump to (01:48): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=1m45s](https://vime
 > Be ready to tweak the B value in the `Lerp` node.
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, it says to insert a `Lerp` node between a `Timeline` node and a `Set Relative Location` node's `New Location Z` input value.  Why?
 
 > [!info]- E2. Animate the Pressure Plate Upward
@@ -280,6 +292,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 > Drag it into the Event Graph, choose "call" after letting go. And insert before `PressurePlateTimeline`.
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, it says to add a dispatcher, and choose `call` upon adding it to the event graph.  Why?
 
 > [!info]- C. Bind Event in the Door
@@ -290,6 +303,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 > This makes the connection to the work in Step 3B, the event dispatcher.
 >
 > > [!question] Ask your LLM
+> >
 > > In the Unreal tutorial I'm following, it says to add the node `Bind Event to On Begin Pressure Plate`.  I needed to check untrue `Context Sensative` in that interface.  Why?
 >
 > What we are doing here: when the game starts, set the door to be "listening" for the pressure plate to `Call On Begin Pressure Plate`.
@@ -329,6 +343,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 > <span class="save">Save All</span>
 >
 > > [!question] Ask your LLM why
+> >
 > > In an Unreal tutorial I'm following, why might it ask me to make a blueprint variable Instance Editable?
 
 > [!info]- D. Animate the Door with the Timeline Node
@@ -342,6 +357,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 > ![[unrealTutorial_01_188.webp]]
 >
 > > [!tip] Tip
+> >
 > > If you double-click a wire, it will add a dot - a reroute node - which is a way to shape your wires for orderliness.
 >
 > *Below are the two completed event graphs.*

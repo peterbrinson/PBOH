@@ -25,6 +25,7 @@ cssclasses:
 > - Disable and restore player look and movement input while the note is open
 >
 > > [!hint] Hold On
+> >
 > > This tutorial builds its own interaction system from scratch. It is an alternative to the one in [[UE Tutorial 821 - Base Interactive System (WIP)|Tutorial 821]], not a continuation. Both bind the **E** key, so do not combine them in the same project.
 
 ## 1. Create Inspection Logic
@@ -39,6 +40,7 @@ cssclasses:
 > ![[unrealTutorial_12_104.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I just made something called a Blueprint Interface with a function on it. What is an interface, exactly, and what is it doing for me here?
 
 > [!info]- B. Add a Line Trace
@@ -79,6 +81,7 @@ cssclasses:
 > ![[unrealTutorial_12_131.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I'm using a line trace from the camera to detect what the player is looking at. Why use a line trace instead of putting an overlap volume on each inspectable object?
 
 > [!info]- F. Add Interaction to the Line Trace
@@ -192,6 +195,7 @@ cssclasses:
 > ![[unrealTutorial_12_212.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I just used a node called Flip Flop to alternate between two paths each time an Event fires. What is Flip Flop, and how does it work?
 
 > [!info]- B. Disable Player Control While Reading
@@ -208,6 +212,7 @@ cssclasses:
 > ![[unrealTutorial_12_218.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I just built a Blueprint script: pressing E does a line trace from the camera, calls a function through a Blueprint Interface on the hit actor, and that actor uses a Flip Flop to show/hide a widget and lock/unlock player input. Can you walk me through how this all connects, step by step?
 > >
 > > *Tip: right-click the above screenshot, save on your computer, and paste into the chat so your LLM can see your actual Blueprint.*

@@ -56,9 +56,11 @@ cssclasses:
 > ![[unrealTutorial_03_109.webp]]
 >
 > > [!hint] Hold On
+> >
 > > Why `Is Variable`? Making the `TextBlock` a variable provides a named reference to it in the [[Event Graph]]. Without this, `TextBlock` is inaccessible to blueprint script.
 >
 > > [!question] Ask your LLM why
+> >
 > > In Unreal's Widget Blueprint, why do I need to check `Is Variable` on a `TextBlock` before I can use it in the Event Graph? What happens if I don't?
 
 > [!info]- B. Widget Event Graph
@@ -104,6 +106,7 @@ cssclasses:
 > After the `SET` node, add `Add to Player Screen`.
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, after creating a widget with `Create Widget`, the tutorial says to `Promote to Variable` before adding it to the player screen. Why do I need to store the widget in a variable?
 >
 > Double-check all pin connects - this is the same screenshot you saw a bit above.
@@ -163,6 +166,7 @@ cssclasses:
 > ![[unrealTutorial_03_131.webp]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, the collectable blueprint passes `Self` as a parameter to a custom event on the `PlayerState`. Why does the collectable need to pass a reference to itself?
 >
 > <span class="action">Compile</span>

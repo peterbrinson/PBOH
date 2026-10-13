@@ -91,6 +91,7 @@ Learn the fundamentals of Unreal's physics engine.
 > Save the asset. Back in the level, the mesh can now `Simulate Physics`.
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I can choose "simple collision" — a box or hull wrapped around the mesh — instead of using a detailed mesh. Why is simulating with a better-shaped mesh a problem?
 
 
@@ -163,6 +164,7 @@ Learn the fundamentals of Unreal's physics engine.
 > This affects **every physics body in the level** — and, importantly, it also affects the player. Try jumping.
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, gravity is set to -980 by default. Why is it negative, and why 980?
 
 > [!info]- C. Per Character — Gravity Scale

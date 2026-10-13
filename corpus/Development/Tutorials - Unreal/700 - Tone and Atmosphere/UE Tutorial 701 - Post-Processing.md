@@ -53,6 +53,7 @@ cssclasses:
 > ![[unrealTutorial_07_113.gif]]
 >
 > > [!question] Ask your LLM why
+> >
 > > In the Unreal tutorial I'm following, I'm using a "Post Process Volume" and setting it to "Infinite Extent (Unbound)." If the effect is global, why do I need a "Volume" actor at all? Why isn't this just a global project setting?
 >
 > <span class="hint">Leaving `Infinite Extent (Unbound)` disabled is also useful — you can set post-processing to apply only in a specific area, producing localized atmospheric effects.</span>
