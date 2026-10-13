@@ -302,7 +302,7 @@ Jump to (17:07): [https://vimeo.com/1119249385?fl=pl&fe=cm#t=17m7s](https://vime
 > Drag off of `Event BeginPlay` and search for `Bind Event to On Begin Pressure Plate`.  *Need to uncheck Context Sensitive right there?*
 > This makes the connection to the work in Step 3B, the event dispatcher.
 >
-> > [!question] Ask your LLM
+> > [!question] Ask your LLM why
 > >
 > > In the Unreal tutorial I'm following, it says to add the node `Bind Event to On Begin Pressure Plate`.  I needed to check untrue `Context Sensative` in that interface.  Why?
 >

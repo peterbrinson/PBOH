@@ -106,7 +106,7 @@ cssclasses:
 > Enable `Instance Editable` and `Expose on Spawn` so lights can be added to the array by assigning them in the level.
 > ![[unrealTutorial_04_122.webp]]
 >
-> > [!question] Ask your LLM why:
+> > [!question] Ask your LLM why
 > >
 > > In the Unreal tutorial I'm following, I just changed a variable from a single item to an "Array". Why would I use an Array instead of just creating five separate light variables?
 
