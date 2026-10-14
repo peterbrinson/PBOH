@@ -89,3 +89,46 @@ pre {
     color: #d9a8b3 !important;
   }
 }
+
+// --- Scene-reference thumbnails (e.g. Entrant page) ---
+// Click a thumbnail to pop the full image over the page; click again to close.
+// <details>/<summary> so it needs no script and survives Quartz's SPA routing.
+.scene-refs {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+}
+.scene-refs-label {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+.scene-pop summary {
+  list-style: none;
+  cursor: zoom-in;
+}
+.scene-pop summary::-webkit-details-marker {
+  display: none;
+}
+.scene-pop .scene-thumb {
+  width: 120px;
+  margin: 0;
+  border-radius: 4px;
+}
+.scene-pop .scene-full {
+  display: none;
+}
+.scene-pop[open] .scene-full {
+  display: block;
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  max-width: none;
+  margin: 0;
+  object-fit: contain;
+  background: rgba(0, 0, 0, 0.88);
+  z-index: 1000;
+  cursor: zoom-out;
+}
