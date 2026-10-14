@@ -13,11 +13,13 @@ cssclasses:
 ---
 
 > [!info]- A. Outcome
+>
 > In this tutorial, you will build a haunted house in first-person. Each chapter constructs a different type of trigger blueprint—actors that fire logic when a player enters a space. By repeating the "overlap-and-cast" pattern across lights, doors, animations, and sound, you will master the fundamentals of level interactivity.
 >
 > Sample outcome: [Video](https://vimeo.com/1186730731/90c148438a?share=copy&fl=sv&fe=ci)
 
 > [!info]- B. Chapters
+>
 > - [[#1. Create a First Person Project]]
 > - [[#2. Light Trigger Blueprint]]
 > - [[#3. Door Trigger Blueprint (Rotate)]]
@@ -25,6 +27,7 @@ cssclasses:
 > - [[#5. Sound Trigger Blueprint]]
 
 > [!info]- C. Learning Objectives
+>
 > Review from earlier tutorials:
 >
 > - `OnComponentBeginOverlap`
@@ -53,6 +56,7 @@ cssclasses:
 ---
 
 > [!info]- Project Haunted House
+>
 > Create a new project using the **First Person** template. Choose Blueprint (not C++). Setting Variant to `None` is fine. Name it `HauntedHouse`. 
 
 ---
@@ -62,6 +66,7 @@ cssclasses:
 *When the player enters a room, lights turn on gradually.*
 
 > [!info]- A. Create a Light Trigger Box
+>
 > Before we begin, let us focus on the essential parameter of this chapter - `Intensity` - a light's brightness.
 > ![[unrealTutorial_04_103.webp]]
 >
@@ -82,6 +87,7 @@ cssclasses:
 > ![[unrealTutorial_04_107.webp]]
 
 > [!info]- B. Create an Overlap Event
+>
 > In the Event Graph, add `OnComponentBeginOverlap` from the `Box Collision` component. 
 >
 > > [!hint] Hold On
@@ -94,6 +100,7 @@ cssclasses:
 > ![[unrealTutorial_04_113.webp]]
 
 > [!info]- C. Create a Light Variable
+>
 > Create a variable of type `Light`. Name it `LightsThe`.
 >
 > Why is there a grid icon by the type `Light`? Read on.
@@ -378,18 +385,21 @@ cssclasses:
 *When the player enters a doorway, the door swings open.*
 
 > [!info]- A. Create a Door Trigger Box
+>
 > Create an `Actor` blueprint. Name it `BP_DoorTrigger`. Add a `Box Collision` component.
 >
 > ![[unrealTutorial_04_178b.webp]]
 > ![[unrealTutorial_04_178a.webp]]
 
 > [!info]- B. Create an Overlap Event
+>
 > In the Event Graph, add `OnComponentBeginOverlap`. `Cast to BP_FirstPersonCharacter`.
 >
 > ![[unrealTutorial_04_179.webp]]
 > ![[unrealTutorial_04_182.webp]]
 
 > [!info]- C. Create a Door Mesh
+>
 > Add a `Static Mesh` component and rename it `Pivot`. Add a `Cube` component and scale it like a door panel. Rename it `Panel` and move it so one edge is centered with `Pivot`.
 >
 > **Hierarchy:** `Pivot` should be the parent of `Panel`.
@@ -480,6 +490,7 @@ cssclasses:
 *When the player enters a space, a Mixamo character plays an attack animation.*
 
 > [!info]- A. Import NPC Character Assets
+>
 > Go to **Mixamo**. Find a character and an **Idle** animation. **Download with skin** (.fbx).
 >
 > ![[unrealTutorial_04_227.webp]]
@@ -494,6 +505,7 @@ cssclasses:
 > ![[unrealTutorial_04_239.webp]]
 
 > [!info]- B. Create an NPC Blueprint
+>
 > Create a Blueprint Class. Choose `Character` as the parent class. Name it `BP_Zombie`.
 >
 > ![[unrealTutorial_04_245.webp]]
@@ -511,6 +523,7 @@ cssclasses:
 > ![[unrealTutorial_04_257.webp]]
 
 > [!info]- C. Create a Play Animation Event
+>
 > In the `BP_Zombie` Event Graph, add a `Custom Event` named `Attack`.
 > Drag the `Mesh` component in. Drag off it and search for `Play Animation`.
 >
@@ -529,6 +542,7 @@ cssclasses:
 > ![[unrealTutorial_04_278.webp]]
 
 > [!info]- D. Create an Animation Trigger Box
+>
 > Create a new `Actor` blueprint named `BP_ZombieTrigger`. Add `Box Collision` and `OnComponentBeginOverlap`. `Cast to BP_FirstPersonCharacter`.
 >
 > ![[unrealTutorial_04_281.webp]]
@@ -547,6 +561,7 @@ cssclasses:
 > ![[unrealTutorial_04_299.webp]]
 
 > [!info]- E. Setup in the Level
+>
 > Place the trigger box in the level. In its Details panel, assign the `Zombie` variable to your `BP_Zombie` actor instance.
 >
 > ![[unrealTutorial_04_302.webp]]
@@ -561,12 +576,14 @@ cssclasses:
 *When the player enters a trigger, ambient sound fades in.*
 
 > [!info]- A. Create a Sound Trigger Box
+>
 > Standard pattern: `Box Collision`, `OnComponentBeginOverlap`, `Cast to BP_FirstPersonCharacter`.
 >
 > ![[unrealTutorial_04_308.webp]]
 > ![[unrealTutorial_04_311.webp]]
 
 > [!info]- B. Create a Sound Variable
+>
 > Create a variable named `Ambient Sound` of type `Ambient Sound`. Make it `Instance Editable`.
 >
 > ![[unrealTutorial_04_314.webp]]
@@ -578,6 +595,7 @@ cssclasses:
 > ![[unrealTutorial_04_323.webp]]
 
 > [!info]- C. Insert an Ambient Sound in the Level
+>
 > Add an `Ambient Sound` actor to the level.
 >
 > ![[unrealTutorial_04_326.webp]]
@@ -591,6 +609,7 @@ cssclasses:
 > ![[unrealTutorial_04_335.webp]]
 
 > [!info]- D. Setup the Trigger Box
+>
 > In the level, select your `BP_SoundTrigger` and assign the `Ambient Sound` actor to the variable.
 >
 > ![[unrealTutorial_04_338.webp]]
