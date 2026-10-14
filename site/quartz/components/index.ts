@@ -13,6 +13,7 @@ import TableOfContents from "./TableOfContents"
 import Explorer from "./Explorer"
 import TagList from "./TagList"
 import AnchorFix from "./AnchorFix"
+import ScenePopEsc from "./ScenePopEsc"
 import Graph from "./Graph"
 import Backlinks from "./Backlinks"
 import Search from "./Search"
@@ -40,6 +41,7 @@ export {
   Explorer,
   TagList,
   AnchorFix,
+  ScenePopEsc,
   Graph,
   Backlinks,
   Search,
