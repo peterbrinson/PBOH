@@ -60,7 +60,7 @@ The puzzle-platformer *[[Game - Inside|Inside]]* (2016) consistently manifests L
 
 **Performance** (“Test the idea.”) — The player acts upon the world, manipulating its components and testing whether the imagined solution works.
 
-<div class="scene-refs"><span class="scene-refs-label">References to load particular scenes</span><details class="scene-pop"><summary><img class="scene-thumb" src="spr_entrant_inside_scene_helmet.webp" alt="Inside — the helmet scene"><img class="scene-full" src="spr_entrant_inside_scene_helmet.webp" alt="Inside — the helmet scene"></summary></details><details class="scene-pop"><summary><img class="scene-thumb" src="spr_entrant_inside_scene_safe.webp" alt="Inside — the safe scene"><img class="scene-full" src="spr_entrant_inside_scene_safe.webp" alt="Inside — the safe scene"></summary></details></div>
+<div class="scene-refs"><span class="scene-refs-label">References to load particular scenes in class</span><details class="scene-pop"><summary><img class="scene-thumb" src="spr_entrant_inside_scene_helmet.webp" alt="Inside — the helmet scene"><img class="scene-full" src="spr_entrant_inside_scene_helmet.webp" alt="Inside — the helmet scene"></summary></details><details class="scene-pop"><summary><img class="scene-thumb" src="spr_entrant_inside_scene_safe.webp" alt="Inside — the safe scene"><img class="scene-full" src="spr_entrant_inside_scene_safe.webp" alt="Inside — the safe scene"></summary></details></div>
 
 L.O.P. structures the Entrant’s movement from discovery toward control. Legibility and Opportunity build understanding; Performance uses that understanding to act upon the world. The threshold asks the player to notice, learn, and do what passage requires.
 

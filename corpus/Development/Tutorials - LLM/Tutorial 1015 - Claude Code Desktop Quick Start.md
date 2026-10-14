@@ -10,7 +10,6 @@ publish: true
 
 **You need:** a Claude account with Claude Code access, an internet connection, and about 15 minutes. You do not need a terminal or GitHub account.
 
-If the **Code** area is unavailable after sign-in, your account or organization does not currently provide Claude Code access. Use [[Tutorial 1005 - Antigravity Quick Start|Antigravity Quick Start]] instead.
 
 ---
 
