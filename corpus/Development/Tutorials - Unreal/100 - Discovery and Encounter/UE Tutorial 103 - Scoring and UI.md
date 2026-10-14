@@ -96,7 +96,7 @@ cssclasses:
 > Add `Get Player Controller` (Player Index 0) and connect its `Return Value` to the `Owning Player` pin of `Create WBP Score Widget`.
 > ![[unrealTutorial_03_113.webp]]
 >
-> To create the `SET` node below, drag off the `Return Value` of `Create WBP Score Widget` and search for `Promote to Variable`.
+> To create the `SET` node below, right-click the `Return Value` of `Create WBP Score Widget` and find for `Promote to Variable`.
 > ![[unrealTutorial_03_114.webp]]
 >
 > ...which also gives you - on the left - under VARIABLES, a new variable.
