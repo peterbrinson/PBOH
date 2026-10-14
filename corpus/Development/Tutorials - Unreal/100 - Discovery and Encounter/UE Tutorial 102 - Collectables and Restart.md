@@ -95,7 +95,7 @@ cssclasses:
 > - Drag from `BeginPlay`'s pin and create `[[Set Timer by Event|SetTimerByEvent]]`.  This will count down in seconds.  
 > - To create the variable, `ModeTimer`, look to the left side, under My Blueprint.  Click the plus button by [[Variables|VARIABLES]].  Name it ModeTimer of type Float.  <span class="action">Compile</span>.  Next, set Details > Default Value > Mode Timer to 5.0.
 > - Drag `ModeTimer` into the Event Graph and choose Get.
-> - Create a [[Custom Event|custom event]] - `OnTimerExpired`.
+> - Create a [[Custom Event|custom event]] - `OnTimerExpired`.  To make one, right-click in empty space in the Event Graph and choose `Add Custom Event`, then name it.
 > - Drag off `OnTimerExpired` and create `Open Level`.  `Open Level` will restart the game - make sure you choose the option that includes "by Object Reference".  And set the level parameter to your current level name.  (By the way, a multiplayer game will do this differently).
 >
 > ![[unrealTutorial_02_110.webp]]
@@ -110,7 +110,7 @@ cssclasses:
 > Using what you have learned, use these instructions and screenshot to create the below blueprint script in `BP_InClassPlatforming_PlayerState`'s [[Event Graph]].  
 >
 > The instructions:
-> - `OnCollectedCollectable` is a [[Custom Event|custom event]].
+> - `OnCollectedCollectable` is a [[Custom Event|custom event]] - right-click in empty space and choose `Add Custom Event`.
 > - The node with the `++` is `Increment Int`.
 > - Creating the variable `NumberOfCollectables` is similar to how you did so in Step 2C.  But this one is an `Int`.
 > - The short node with the green and purple (and no words or symbols) is casting the `Int` to `String`.  It gets created when you connect the `Increment Int` to `Print String`. 
