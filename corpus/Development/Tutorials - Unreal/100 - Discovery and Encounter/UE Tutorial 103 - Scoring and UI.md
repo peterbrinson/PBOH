@@ -137,6 +137,8 @@ cssclasses:
 > The parameter `Collectable` can pass a reference to the collectable.  This is setting up the ability for this blueprint to call the collectable's functions (potentially) as well as destroy the collectable in the level.
 
 > [!info]- B. Count by Incrementing an Integer
+> You are still in the blueprint `BP_InClassPlatforming_PlayerState`.
+>
 > Using what you have learned, complete the blueprint script using these instructions and screenshot.  The screenshot is below the instructions.
 >
 > Instructions:
