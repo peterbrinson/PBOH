@@ -28,6 +28,14 @@ This is a hybrid, and it works best left that way — no single role needs to wi
 
 **What kind of experience:** A drive where the soundtrack is built out of what hits you. Each memory arrives as image-plus-instrument and leaves the same way; when they stack, the player isn't collecting anything — they're mixing. The size rule gives the drive an equalizing rhythm: shrink a little, grow a little, stay roughly yourself. Then the late clusters break that truce — ten shrinks at once, ten grows, a body that can drift far from normal — and your own note says it best: whether that stretch becomes a challenge is genuinely open. More on that below.
 
+### Core loop
+
+- Hold behind the truck
+- Catch a memory on the glass
+- Hear its loop join the mix as the image fades
+- Shrink or grow a little
+- Stay in the fall line for the next memory, or steer hard to glimpse the creature before the truck closes the view and you settle back behind it
+
 ### A Tradeoff To Consider
 
 A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. Yours is already built into the lane: the memories fall where the truck is, and the creature is visible only when you steer out from behind it. To see the cause is to leave the fall line — every hard steer is paid in missed images and a thinner mix. The player constantly chooses between receiving someone's past and glimpsing what's shaking it loose. And the late clusters raise the price: be out of the lane during ten shrinks and the alternation that kept you normal-sized stops working — you come back larger than you meant to be. The choice compounds.

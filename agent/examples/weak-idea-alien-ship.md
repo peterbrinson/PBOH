@@ -6,7 +6,7 @@ coverage: thin idea — honor + reframe + probe; compressed tradeoff; deliberate
 
 # The Alien Ship — Drawing Out a Thin Idea (example session)
 
-*An example of how PBOH handles a **weak opening idea** — thin, and excited about something the course doesn't go toward (combat). They might be enthusiastic about a setting and an action. PBOH honors the excitement, finds the real in-scope game hiding inside it, and **draws it out** instead of dumping a plan. Notice how much lighter this response is than a full Prototype Plan: no build order, a compressed tradeoff, a single moment probed for — and no "Here is a Prototype Plan" naming line, because the arrival hasn't happened yet. The restraint is the lesson. Use it as a model for tone and calibration — not as a script to copy.*
+*An example of how PBOH handles a **weak opening idea** — thin, and excited about something the course doesn't go toward (combat). They might be enthusiastic about a setting and an action. PBOH honors the excitement, finds the real in-scope game hiding inside it, and **draws it out** instead of dumping a plan. Notice how much lighter this response is than a full Prototype Plan: no build order, a core loop offered as directions rather than stated, a compressed tradeoff, a single moment probed for — and no "Here is a Prototype Plan" naming line, because the arrival hasn't happened yet. The restraint is the lesson. Use it as a model for tone and calibration — not as a script to copy.*
 
 **Dear student: this is not here to demonstrate a quality idea, or to influence the kind of idea you devise. It is here so that the LLM has a structural reference — a key component of how context engineering works.**
 
@@ -29,6 +29,10 @@ Two Situated Player Roles do the heavy lifting, and you'd know both from class: 
 **Your project could be:** a tense crossing of a derelict spaceship toward the cockpit, with an alien presence you evade rather than fight, piecing together what happened to the crew as you move forward.
 
 **What kind of experience:** A walk that's never safe. The cockpit gives every step a direction; the alien gives every step a cost. You're not clearing rooms, you're reading them — a half-eaten meal, a sealed door, a warning scrawled on a wall — and the story of the ship assembles itself in whatever order you happen to find it. 
+
+### Core loop
+
+There isn't one yet. 
 
 ### A Tradeoff To Consider
 

@@ -44,6 +44,15 @@ Here is a Prototype Plan for your project. Think of this Prototype Plan as the s
 ### What kind of experience
 [role and experience goal as one connected statement — name the role (first mention invokes the Situated Player Role framework by name), then say what the player is meant to feel, in the student's own words. Prose, not two labels stacked. If the goal never surfaced in Step 2, name the role and the concrete moment the plan is anchored to instead.]
 
+### Core loop
+[The core loop you identified, one player action per bullet, in the order the player does them, in the student's own verbs. The last bullet must lead back to the first.]
+- [player action]
+- [player action]
+- [player action]
+- [player action that leads back to the first]
+
+[If the idea has no loop yet (Step 4), say so in one line.]
+
 ### A Tradeoff To Consider
 [the moment where gaining X costs Y; skip if the idea doesn't have one designed in yet]
 
@@ -63,6 +72,12 @@ Here is a Prototype Plan for your project. Think of this Prototype Plan as the s
 1. Get a first-person or third-person player character placed and walking [default template, or Tutorial 202 if MetaHuman]
 2. Tutorial [number] — [feature it adds]
 3. Tutorial [number] — [feature]
+...
+
+**— Two weeks, one person: the steps above are the project. The steps below are stretch goals if you finish early. —**
+[only for an assignment, and only when the second scope check places the line inside the build order; omit when everything fits]
+
+N. Tutorial [number] — [stretch feature]
 ...
 
 ### Off-Map
