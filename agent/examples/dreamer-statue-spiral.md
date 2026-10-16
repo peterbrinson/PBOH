@@ -26,6 +26,14 @@ This is squarely the Situated Player Role, **The Dreamer** — World as Enigma. 
 
 **What kind of experience:** A climb where comprehension and pressure rise together. Your miss rule is elegant economy — a wrong roll doesn't just fail, it feeds the mountain: the statue flies up and comes back down at you later. And success rolling right, downhill, gives the player a readable grammar with no UI at all: down-and-away means solved, up-and-back means wrong. The player learns to read outcomes by direction alone.
 
+### Core loop
+
+- Walk the ditch to the next pile
+- Study the statues (and, as you climb, the large ones above)
+- Pick one up and roll it
+- Read where everything went: right and downhill means it worked, up and back means it feeds the pile
+- Roll again, or walk through the opening to the next pile
+
 ### A Tradeoff To Consider
 
 A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. Yours is already designed in, and it falls straight out of the geometry:

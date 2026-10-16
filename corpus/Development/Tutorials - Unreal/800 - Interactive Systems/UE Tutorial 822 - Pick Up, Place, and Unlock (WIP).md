@@ -5,7 +5,7 @@ cssclasses: unreal-tutorial
 ---
 
 
-<span style="color:#d9a8b3; font-size:1.4rem">*By George Zou*</span>
+<span style="color:#d9a8b3; font-size:1.4rem">*By George Zou and Peter Brinson*</span>
 
 > *Disclaimer: this is a draft. Screenshots and GIFs are marked as placeholders and have not been recorded yet. You are welcome to ask Peter or George any questions.*
 
@@ -66,7 +66,9 @@ To keep the letter readable against any background, open **Details → Font → 
 
 <span class="save">Save All</span>
 
-### A3. Create the Outline Material
+### A3. Optionally, Create the Outline Material
+
+NOTE: This part is totally optional, and beginners might find it slightly advanced. Having an outline to show something is interactable will add juice to the puzzle, but this is not a must. 
 
 The outline is a post-process effect. Any mesh that has **Render Custom Depth** turned on gets drawn into a hidden buffer. A post-process material finds the edges of that buffer and paints a line around them.
 
@@ -98,7 +100,7 @@ Now build the edge detection. For each pixel, the material asks two questions. I
 
 <span class="save">Save All</span>
 
-### A4. Turn on the Outline
+### A3.5. Turn on the Outline
 
 Drag a **Post Process Volume** into the level. In Details:
 - Check **Infinite Extent (Unbound)** so it affects the whole level.
