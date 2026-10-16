@@ -7,7 +7,7 @@ cssclasses: unreal-tutorial
 
 <span style="color:#d9a8b3; font-size:1.4rem">*By George Zou and Peter Brinson*</span>
 
-> *Disclaimer: this is a draft. Screenshots and GIFs are marked as placeholders and have not been recorded yet. You are welcome to ask Peter or George any questions.*
+> *Disclaimer: this is a draft. You are welcome to ask Peter or George any questions.*
 
 ## 0. Introduction
 
@@ -16,7 +16,7 @@ Now that we have learned how to build a basic interactable, let's see if we can 
 Here's the idea of the puzzle we'll build in this tutorial: 
 A door is locked. Two colored boxes sit in the room, and two colored pads sit on the floor. Player needs to put the corresponding colored box onto the colored pad to unlock the door. If the player removes a box from a pad, the door closes again. 
 
-[🎬 GIF: Outcome. The player looks at the red box (outline and "E" appear), picks it up, carries it to the red pad, snaps it on. Repeats with blue. The door slides open.]
+![[unrealTutorial_13_101.gif]]
 
 **Learning Objectives:**
 - Highlight whatever the player is looking at with an outline (Custom Depth and a post-process material)
@@ -34,7 +34,7 @@ A door is locked. Two colored boxes sit in the room, and two colored pads sit on
 
 Open `BP_Interactable_Base`. In **Components**, make sure `InteractRadius` and the tip widget are both children of `Mesh_Interactable`. If either is attached to `DefaultSceneRoot`, drag it onto the mesh.
 
-[📷 SCREENSHOT: Components panel of BP_Interactable_Base: DefaultSceneRoot > Mesh_Interactable > InteractRadius, Widget.]
+![[unrealTutorial_13_104.png]]
 
 <span class="hint">The box you build later simulates physics. A physics object moves away from the actor's root, and only the components parented under it come along. If the radius stays behind, the box stops being interactable once you carry it somewhere.</span>
 
@@ -52,7 +52,7 @@ In the **On Interactable Overlap** event, replace the existing logic with:
 - **False:** set `OverlapCount` to **Max** of (`OverlapCount - 1`, `0`)
 - Both paths continue into one **Draw Trace** call. Plug `OverlapCount > 0` into `bIsDrawTrace`.
 
-[📷 SCREENSHOT: On Interactable Overlap with the counter: Branch, two Sets, Max, Greater (>), Draw Trace.]
+![[unrealTutorial_13_107.png]]
 
 <span class="hint">The **Max** with `0` is a safety net. If an End Overlap ever fires without a matching Begin Overlap, the count can't go negative.</span>
 
@@ -62,7 +62,7 @@ Open `WB_InteractionTip`. Inside the Canvas Panel, add a **Text** widget. Set it
 
 To keep the letter readable against any background, open **Details → Font → Outline Settings** and set **Outline Size** to `2`.
 
-[📷 SCREENSHOT: WB_InteractionTip Designer view with the "E" text selected and its Details showing.]
+![[unrealTutorial_13_110.png]]
 
 <span class="save">Save All</span>
 
@@ -74,11 +74,11 @@ The outline is a post-process effect. Any mesh that has **Render Custom Depth** 
 
 First, check **Project Settings → Rendering → Postprocessing → Custom Depth-Stencil Pass**. It should be `Enabled`.
 
-[📷 SCREENSHOT: Project Settings with Custom Depth-Stencil Pass highlighted.]
+![[unrealTutorial_13_113.png]]
 
 Right-click in the Content Browser, create a **Material**, and name it `M_PP_Outline`. Open it. In **Details**, set **Material Domain** to `Post Process`.
 
-[📷 SCREENSHOT: M_PP_Outline Details panel, Material Domain set to Post Process.]
+![[unrealTutorial_13_116.png]]
 
 Now build the edge detection. For each pixel, the material asks two questions. Is this pixel outside the object? Is a neighboring pixel inside it? If both answers are yes, the pixel is on the outline.
 
@@ -94,7 +94,7 @@ Now build the edge detection. For each pixel, the material asks two questions. I
 8. Add one more **SceneTexture** node set to `PostProcessInput0`. This is the normal rendered image.
 9. **Lerp** with `A` = `PostProcessInput0` **Color**, `B` = a **Vector Parameter** named `OutlineColor` (white, or any color you like), and **Alpha** = the result of step 7. Wire the Lerp into **Emissive Color**.
 
-[📷 SCREENSHOT: Full M_PP_Outline graph, left to right: neighbors, depth samples, Min chain, If nodes, Lerp.]
+![[unrealTutorial_13_119.png]]
 
 <span class="hint">Pixels with nothing drawn into Custom Depth report a huge depth value, which is why `5000` (50 meters) works as the "inside or outside" threshold. If Unreal complains about mixing float3 and float4, add a **Component Mask** (R, G, B) after each color before the Lerp.</span>
 
@@ -106,15 +106,15 @@ Drag a **Post Process Volume** into the level. In Details:
 - Check **Infinite Extent (Unbound)** so it affects the whole level.
 - Under **Rendering Features → Post Process Materials**, click **+**, choose **Asset Reference**, and pick `M_PP_Outline`.
 
-[📷 SCREENSHOT: Post Process Volume Details with M_PP_Outline in the Post Process Materials array.]
+![[unrealTutorial_13_122.png]]
 
 Back in `BP_Interactable_Base`, find the `On Hovered` and `On UnHovered` events from 821 B1. After the widget show/hide logic, drag in `Mesh_Interactable` and add **Set Render Custom Depth**. Check the box in `On Hovered` and leave it unchecked in `On UnHovered`.
 
-[📷 SCREENSHOT: On Hovered / On UnHovered with Set Render Custom Depth added.]
+![[unrealTutorial_13_125.png]]
 
 Test it. Look at your 821 cube: the outline and the "E" should appear together and disappear together.
 
-[🎬 GIF: Looking at the 821 cube and away from it. Outline and "E" toggle together.]
+![[unrealTutorial_13_128.gif]]
 
 <span class="hint">Because this lives in the base class, every child Blueprint you make from now on gets the outline and the "E" for free. That's the point of the next two chapters.</span>
 
@@ -128,7 +128,7 @@ A box and a pad match when they share a **key**. Color is just how the key looks
 
 Right-click in the Content Browser → **Blueprint → Enumeration**. Name it `E_PuzzleKey`. Open it and add three entries: `Red`, `Blue`, `Green`.
 
-[📷 SCREENSHOT: E_PuzzleKey with three entries.]
+![[unrealTutorial_13_131.png]]
 
 <span class="hint">Because the logic compares keys instead of colors, you can later swap colors for shapes, symbols, or sounds without touching any of the matching logic.</span>
 
@@ -136,13 +136,13 @@ Right-click in the Content Browser → **Blueprint → Enumeration**. Name it `E
 
 Create a **Material** named `M_PuzzleColor`. Add a **Vector Parameter** named `Color` and wire it into **Base Color**.
 
-[📷 SCREENSHOT: M_PuzzleColor graph: one Vector Parameter into Base Color.]
+![[unrealTutorial_13_134.png]]
 
 ### B2. Create the Box as a Child Blueprint
 
 Right-click `BP_Interactable_Base` in the Content Browser and choose **Create Child Blueprint Class**. Name it `BP_PuzzleBox`.
 
-[📷 SCREENSHOT: Right-click menu on BP_Interactable_Base with Create Child Blueprint Class highlighted.]
+![[unrealTutorial_13_137.png]]
 
 Open it. The components from 821 are already there. Inherited components can't be renamed or reparented, but their Details can be changed.
 
@@ -152,7 +152,7 @@ Select `Mesh_Interactable`:
 
 Select `InteractRadius` and double its **Sphere Radius**, since it shrank with the mesh.
 
-[📷 SCREENSHOT: BP_PuzzleBox Viewport and Details with Simulate Physics checked.]
+![[unrealTutorial_13_140.png]]
 
 ### B3. Add Variables
 
@@ -170,7 +170,7 @@ Open the **Construction Script** tab. It runs in the editor every time you chang
 - Add a **Select** node. Wire `Key` into its **Index**. The options fill in automatically, one per enum entry. Set Red, Blue, and Green colors.
 - Wire the Select output into **Value**.
 
-[📷 SCREENSHOT: Construction Script: Create Dynamic Material Instance, Select on Key, Set Vector Parameter Value.]
+![[unrealTutorial_13_143.png]]
 
 Drag two boxes into the level. Set one's `Key` to `Red` and the other's to `Blue`. They should change color in the editor right away.
 
@@ -199,7 +199,7 @@ Make one custom event per state in `BP_PuzzleBox`.
 - **Set Collision Response to Channel**: `Pawn` → `Block`
 - **Attach Component To Component**: Target `Mesh_Interactable`, Parent `SnapPoint`. Set Location and Rotation rules to `Snap to Target` and the Scale rule to `Keep World`.
 
-[📷 SCREENSHOT: The three state events side by side.]
+![[unrealTutorial_13_146.png]]
 
 <span class="hint">Why ignore `Visibility` while held? The 821 trace runs on the Visibility channel, and a carried box floats right in front of the camera. If the trace can see it, it hits the box you're holding every time, and you can never look past it at a pad.</span>
 
@@ -213,7 +213,7 @@ Make one custom event per state in `BP_PuzzleBox`.
 
 Open `BP_FirstPersonCharacter`. In **Components**, add a **Physics Handle**.
 
-[📷 SCREENSHOT: BP_FirstPersonCharacter Components with PhysicsHandle added.]
+![[unrealTutorial_13_149.png]]
 
 A Physics Handle holds a physics object toward a target point you set every frame. The box stays a real physics object while you carry it: it bumps into walls instead of passing through them, and it lags a little behind your view.
 
@@ -226,7 +226,7 @@ Open **InteractionComponent**. Add three variables:
 
 From **Event BeginPlay**: **Get Owner** → **Get Component by Class** (`PhysicsHandleComponent`) → **Set** `PhysicsHandle`. Do the same with `CameraComponent` → **Set** `Camera`.
 
-[📷 SCREENSHOT: Event BeginPlay caching PhysicsHandle and Camera.]
+![[unrealTutorial_13_152.png]]
 
 <span class="hint">Like 821's overlap logic, this keeps the carrying code inside InteractionComponent instead of the character. Remove the component and the whole system goes with it.</span>
 
@@ -241,7 +241,7 @@ In InteractionComponent, create a **Function** named `Hold Box` with an input `B
   - **Rotation:** `Mesh_Interactable` → **Get World Rotation**
 - **Set** `HeldBox` to `Box`
 
-[📷 SCREENSHOT: Hold Box function.]
+![[unrealTutorial_13_155.png]]
 
 ### C3. Release Box
 
@@ -251,7 +251,7 @@ Create a second **Function** named `Release Box`. In its Details, add an **Outpu
 - Set the output `Box` to `HeldBox`
 - **Set** `HeldBox` to nothing (leave the pin empty)
 
-[📷 SCREENSHOT: Release Box function with Return Node.]
+![[unrealTutorial_13_158.png]]
 
 <span class="hint">Release Box hands back the box it was holding, so whoever called it decides what happens next. Dropping it on the floor and snapping it onto a pad both start the same way.</span>
 
@@ -265,7 +265,7 @@ From **Event Tick**:
   - **Location:** `Camera` **Get World Location** + (`Camera` **Get Forward Vector** × `HoldDistance`)
   - **Rotation:** `Camera` **Get World Rotation**
 
-[📷 SCREENSHOT: Event Tick with the target location math.]
+![[unrealTutorial_13_161.png]]
 
 <span class="hint">If the box wobbles or trails too far behind, select the PhysicsHandle in `BP_FirstPersonCharacter` and raise **Linear Stiffness** and **Interpolation Speed**.</span>
 
@@ -277,7 +277,7 @@ Open `BP_PuzzleBox`. In the Event Graph, right-click and search for **Event Inte
   - **Is Not Valid** (hands are empty): call **Hold Box** on the InteractionComponent with `Box` = **Self**
   - **Is Valid** (already carrying something): do nothing
 
-[📷 SCREENSHOT: BP_PuzzleBox Event Interact.]
+![[unrealTutorial_13_164.png]]
 
 <span class="hint">If you added a Print String to the base `Interact` event in 821 C2, it no longer fires for boxes. Right-click Event Interact → **Add Call to Parent Function** if you want to keep it.</span>
 
@@ -286,7 +286,7 @@ Open `BP_PuzzleBox`. In the Event Graph, right-click and search for **Event Inte
 Back in **InteractionComponent**, find the E key logic from 821 C2. Its Branch on `bCanInteract` has nothing on the **False** pin. Add:
 - **Is Valid** `HeldBox` → **Is Valid** → **Release Box** → call **To Loose** on the returned `Box`
 
-[📷 SCREENSHOT: E key graph with the drop path on the False pin.]
+![[unrealTutorial_13_167.png]]
 
 Pressing E while looking at nothing now drops the box.
 
@@ -294,7 +294,7 @@ Pressing E while looking at nothing now drops the box.
 
 Test it: look at a box, press E, walk around, look at empty floor, press E.
 
-[🎬 GIF: Picking up the red box, carrying it into a wall (it bumps instead of clipping), dropping it on empty floor.]
+![[unrealTutorial_13_170.gif]]
 
 ---
 
@@ -310,7 +310,7 @@ Squashing the mesh squashes its children too. Fix both inherited children:
 - `InteractRadius`: set **Scale** to `1, 1, 20`. A sphere uses its smallest scale axis, so without this the radius shrinks to almost nothing.
 - The tip widget: raise its **Location Z** until the "E" floats about a meter above the pad. Its location is now multiplied by `0.05`, so the number will look large (around `2000`).
 
-[📷 SCREENSHOT: BP_PlacementPad Viewport: flat pad, InteractRadius sphere, widget floating above.]
+![[unrealTutorial_13_173.png]]
 
 <span class="hint">When the pad is hovered, the outline from Chapter A traces the edge of this flat square.</span>
 
@@ -318,7 +318,7 @@ Squashing the mesh squashes its children too. Fix both inherited children:
 
 Add a **Scene** component named `SnapPoint` and drag it onto `DefaultSceneRoot`, not onto the mesh. This keeps the squashed scale off the box. Set its **Location Z** to about `28`, so a snapped box rests on top of the pad instead of sinking into it.
 
-[📷 SCREENSHOT: SnapPoint under DefaultSceneRoot, with a 50 cm reference cube sitting on the pad.]
+![[unrealTutorial_13_176.png]]
 
 ### D2. Variables and Color
 
@@ -331,7 +331,7 @@ Copy the Construction Script from B4 so the pad shows its key's color.
 
 Add an **Event Dispatcher** named `OnPadChanged`. The door listens to it in Chapter E.
 
-[📷 SCREENSHOT: My Blueprint panel with the variables and the OnPadChanged dispatcher.]
+![[unrealTutorial_13_179.png]]
 
 ### D3. Let the Box Point to Its Pad
 
@@ -341,7 +341,7 @@ At the very start of the box's **Event Interact** (C5), insert **Is Valid** `Sna
 - **Is Valid** (the box is sitting on a pad): call `SnappedTo` → **Interact**, passing `Character` through. The pad handles it.
 - **Is Not Valid**: continue into the pickup logic from C5.
 
-[📷 SCREENSHOT: BP_PuzzleBox Event Interact with the SnappedTo check in front.]
+![[unrealTutorial_13_182.png]]
 
 ### D4. Place and Take on Interact
 
@@ -367,8 +367,8 @@ In `BP_PlacementPad`, add **Event Interact** (override, as in C5).
   - **Call OnPadChanged**
 - **Is Valid** (hands full and pad full): do nothing
 
-[📷 SCREENSHOT: BP_PlacementPad Event Interact, place branch.]
-[📷 SCREENSHOT: BP_PlacementPad Event Interact, take-back branch.]
+![[unrealTutorial_13_185.png]]
+![[unrealTutorial_13_188.png]]
 
 <span class="hint">A wrong box still snaps on. The pad accepts it and quietly records `bSolved = false`. The player has to work out the right arrangement; the pad doesn't tell them.</span>
 
@@ -378,7 +378,7 @@ In `BP_PlacementPad`, add **Event Interact** (override, as in C5).
 
 Drag a red pad and a blue pad into the level and test it: carry a box over, look at the pad (outline and "E" appear even while holding), press E. Press E again to take it back.
 
-[🎬 GIF: Carrying the red box, hovering the red pad (outline + "E"), snapping it on, then pressing E on the snapped box to take it back.]
+![[unrealTutorial_13_191.gif]]
 
 ---
 
@@ -393,7 +393,7 @@ Add variables:
 - `OpenOffset`: **Vector**, Instance Editable, default `0, 0, 300`
 - `bAllSolved`: **Boolean**
 
-[📷 SCREENSHOT: BP_PuzzleDoor Components and Variables.]
+![[unrealTutorial_13_194.png]]
 
 ### E1. Listen to the Pads
 
@@ -401,7 +401,7 @@ The door owns the list of pads, and the pads know nothing about the door. Each p
 
 From **Event BeginPlay**: **For Each Loop** over `Pads` → from **Array Element**, add **Bind Event to On Pad Changed**. Drag from its red **Event** pin and choose **Add Custom Event**. Name it `Check Pads`.
 
-[📷 SCREENSHOT: BeginPlay binding loop with the Check Pads custom event.]
+![[unrealTutorial_13_197.png]]
 
 ### E2. Judge the Configuration
 
@@ -410,19 +410,19 @@ From **Check Pads**:
 - **For Each Loop** over `Pads`. In **Loop Body**: **Set** `bAllSolved` → `bAllSolved` **AND** Array Element's `bSolved`
 - **Completed** → **Branch** on `bAllSolved`
 
-[📷 SCREENSHOT: Check Pads loop and Branch.]
+![[unrealTutorial_13_200.png]]
 
 ### E3. Slide the Door
 
 Right-click → **Add Timeline**. Name it `DoorTimeline`. Double-click it, add a **Float Track** named `Alpha`, and add two keys: `(0, 0)` and `(1, 1)`. Set the length to `1`.
 
-[📷 SCREENSHOT: Timeline editor with the Alpha track.]
+![[unrealTutorial_13_203.png]]
 
 Wire the Branch's **True** pin to the Timeline's **Play** and **False** to **Reverse**.
 
 From **Update**: `DoorMesh` → **Set Relative Location**, with **New Location** = **Lerp (Vector)** of `A = 0, 0, 0`, `B = OpenOffset`, **Alpha** = the `Alpha` track.
 
-[📷 SCREENSHOT: Timeline wired to Set Relative Location through Lerp.]
+![[unrealTutorial_13_206.png]]
 
 <span class="hint">**Play** and **Reverse** both start from wherever the timeline currently is. Pull a box off mid-opening and the door turns around smoothly instead of snapping shut.</span>
 
@@ -432,41 +432,41 @@ From **Update**: `DoorMesh` → **Set Relative Location**, with **New Location**
 
 Drag `BP_PuzzleDoor` into a doorway. In its Details, click **+** on `Pads` twice. Use the eyedropper to pick your red pad and your blue pad from the level.
 
-[📷 SCREENSHOT: Door Details with both pads assigned in the Pads array.]
+![[unrealTutorial_13_209.png]]
 
 <span class="hint">If the door opens the moment you press Play, its `Pads` array is empty. A loop over nothing never sets `bAllSolved` to false.</span>
 
 Test the whole puzzle. Try a wrong arrangement first, then the right one, then pull a box off.
 
-[🎬 GIF: Red box onto the blue pad (door stays shut). Swap to the correct arrangement (door slides open). Take one box back (door slides closed).]
+![[unrealTutorial_13_212.gif]]
 
 ### E5. Final Blueprint Structure
 
 **BP_Interactable_Base: On Hovered / On UnHovered:**
 
-[📷 SCREENSHOT]
+![[unrealTutorial_13_215.png]]
 
 **InteractionComponent: On Interactable Overlap, BeginPlay, Tick, E key:**
 
-[📷 SCREENSHOT]
-[📷 SCREENSHOT]
+![[unrealTutorial_13_218.png]]
+![[unrealTutorial_13_221.png]]
 
 **InteractionComponent: Hold Box, Release Box:**
 
-[📷 SCREENSHOT]
+![[unrealTutorial_13_224.png]]
 
 **BP_PuzzleBox: Construction Script, state events, Event Interact:**
 
-[📷 SCREENSHOT]
-[📷 SCREENSHOT]
+![[unrealTutorial_13_227.png]]
+![[unrealTutorial_13_230.png]]
 
 **BP_PlacementPad: Event Interact:**
 
-[📷 SCREENSHOT]
+![[unrealTutorial_13_233.png]]
 
 **BP_PuzzleDoor: BeginPlay, Check Pads, Timeline:**
 
-[📷 SCREENSHOT]
+![[unrealTutorial_13_236.png]]
 
 ---
 

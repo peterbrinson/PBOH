@@ -28,11 +28,8 @@ This tutorial starts from a new project. [[UE Tutorial 822 - Pick Up, Place, and
 
 Open Unreal Engine. In the **Project Browser**, choose **Games**, then the **First Person** template.
 
-[📷 SCREENSHOT: Project Browser with Games and the First Person template selected.]
-
 Under **Project Defaults**, choose **Blueprint**, not C++. You don't need a Variant or Starter Content for this tutorial.
-
-[📷 SCREENSHOT: Project Defaults panel set to Blueprint, no Variant, Starter Content unchecked.]
+![[Pasted image 20261016000624.png]]
 
 ### 0.2 Name and Verify
 
@@ -45,8 +42,6 @@ Once the project opens, press **Play**. You should be walking around the templat
 ### 0.3 Find the Player Character
 
 In the Content Browser, open **FirstPerson → Blueprints**. `BP_FirstPersonCharacter` is the player. In A2 you'll add the interaction logic to it as a component.
-
-[📷 SCREENSHOT: Content Browser showing FirstPerson > Blueprints > BP_FirstPersonCharacter.]
 
 <span class="hint">The template already uses the left mouse button, Space, WASD, and the mouse. E is free, which is why this tutorial binds interaction to it.</span>
 
