@@ -26,6 +26,13 @@ This sits cleanly in the Situated Player Role, **The Traveler** — World as Pre
 
 **What kind of experience:** This is the Traveler in its purest form — movement is the narrative. You're not solving the hallway, you're passing through it and witnessing it change around you: rain to snow, muffled to intelligible, protection to exposure. The voice arrives in the present tense, the way the Traveler's story is constituted by presence. The labyrinth here is unicursal — a single winding path with one small fork at the end — exactly right for an experience about being carried forward toward a reckoning you can't sidestep.
 
+### Core loop
+
+- Walk down the hall
+- Reach a coat check and hand over a coat
+- Turn the corner into new weather and a clearer voice
+- Walk the next hall, toward the next coat check
+
 ### A Tradeoff To Consider
 
 A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. Yours doesn't have one designed in yet — a few directions you could go:

@@ -36,9 +36,16 @@ Two shaping beats fall out of that Boundary:
 
 ### What kind of experience
 
-Your idea fits the Situated Player Role, The Entrant — World as Threshold: the player asking "how does this world work?" and answering it by testing the system and satisfying its conditions. Your loop is the Entrant's exactly: see the two doors (legibility), guess which changes scale in which direction (opportunity), pass through and find out (performance). The wrong-size dead-end and restart is the loop tightening.
+Your idea fits the Situated Player Role, The Entrant — World as Threshold: the player asking "how does this world work?" and answering it by testing the system and satisfying its conditions.
 
 One thing to name now: your text-telling-a-story layer, plus the fact that scale itself is so loaded an image (to be small, to be made large), is reaching toward the Dreamer — the same mechanics, but where they also mean something. You said you don't yet know what the story is or how it branches. That's fine, and it's the tell: build the Entrant version cleanly now, and the moment the meaning of the scale-shifts and the text arrives, this becomes a Dreamer project without changing a single mechanic.
+
+### Core loop
+
+- Look at the two doors and guess which one changes your scale, and which way
+- Step through and become bigger or smaller
+- Read the room's text
+- Find the next pair of doors, or find you're the wrong size to go on and start over at the office
 
 ### A Tradeoff To Consider
 

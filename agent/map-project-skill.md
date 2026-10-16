@@ -240,6 +240,8 @@ Then state the loop back in one sentence and test it against the goal: **does do
 
 **Then name the player verbs.** The loop's Action term breaks into the small set of concrete things the player can actually do: *walk, look, pick up, read, press E, rotate, place, push, listen.* Keep the list short. These verbs are what the feature list is made of, and a project with more than a handful of them at assignment scale is usually over-scoped.
 
+**Remember this core loop. You will include this in the final outcome.** 
+
 **Then decompose into features.** Each verb, plus the world's response to it, becomes a concrete feature. Phrase them feature-first, the way the capability map does:
 
 - "A door that opens when the player picks up the key"
