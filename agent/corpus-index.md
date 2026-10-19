@@ -132,6 +132,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **Game - Red Dead Redemption 2** `corpus/Design/_References/Game - Red Dead Redemption 2.md` — Developer: Rockstar Games | Year: 2018 | Platform: PC, console
 - **Game - Return of the Obra Dinn** `corpus/Design/_References/Game - Return of the Obra Dinn.md` — Developer: Lucas Pope | Year: 2018 | Platform: PC, console
 - **Game - Return to Zork** `corpus/Design/_References/Game - Return to Zork.md` — Developer: Infocom / Activision | Year: 1993 | Platform: PC (CD-ROM)
+- **Game - Risk of Rain 2** `corpus/Design/_References/Game - Risk of Rain 2.md` — Developer: Hopoo Games | Year: 2020 | Platform: PC, console
 - **Game - Roller Coaster Tycoon** `corpus/Design/_References/Game - Roller Coaster Tycoon.md` — Developer: Chris Sawyer | Year: 1999 (the version cited in lecture: 2003 platinum) | Platform: PC
 - **Game - Shadow of the Colossus** `corpus/Design/_References/Game - Shadow of the Colossus.md` — Developer: Team Ico | Year: 2005 (remake 2018) | Platform: PS2, PS3, PS4
 - **Game - Sherlock Holmes 2021** `corpus/Design/_References/Game - Sherlock Holmes 2021.md` — Developer: Frogwares | Year: 2021 | Platform: PC, console
@@ -251,7 +252,8 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **UE Tutorial 702 - Niagara Particles** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/UE Tutorial 702 - Niagara Particles.md` — - A particle effect — smoke, fire, dust, magic sparkles — placed anywhere in the level
 - **index** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/index.md` — - UE Tutorial 801 - Inspect an Object
 - **UE Tutorial 801 - Inspect an Object** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 801 - Inspect an Object.md` — - A readable note in the world — E key opens it full-screen, E closes it; player cannot move or look while reading
-- **UE Tutorial 821 - Base Interactive System** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 821 - Base Interactive System (WIP).md` — Learning Objectives:
+- **UE Tutorial 821 - Base Interactive System (WIP)** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 821 - Base Interactive System (WIP).md` — Learning Objectives:
+- **UE Tutorial 822 - Pick Up, Place, and Unlock (WIP)** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 822 - Pick Up, Place, and Unlock (WIP).md` — Now that we have learned how to build a basic interactable, let's see if we can build a more complex puzzle using it. Hopefully, it can be…
 - **index** `corpus/Development/Tutorials - Unreal/900 - Release/index.md` — Delivering the playable game and capturing to video.
 - **UE Tutorial 901 - Recording with OBS** `corpus/Development/Tutorials - Unreal/900 - Release/UE Tutorial 901 - Recording with OBS.md` — Learning Objectives:
 - **Tutorials - Unreal** `corpus/Development/Tutorials - Unreal/index.md` — The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.
@@ -358,6 +360,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 | 702 | Niagara Particles | `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/UE Tutorial 702 - Niagara Particles.md` |
 | 801 | Inspect an Object | `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 801 - Inspect an Object.md` |
 | 821 | Base Interactive System (WIP) | `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 821 - Base Interactive System (WIP).md` |
+| 822 | Pick Up, Place, and Unlock (WIP) | `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 822 - Pick Up, Place, and Unlock (WIP).md` |
 | 901 | Recording with OBS | `corpus/Development/Tutorials - Unreal/900 - Release/UE Tutorial 901 - Recording with OBS.md` |
 | 1001 | Gemini Terminal Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1001 - Gemini Terminal Quick Start.md` |
 | 1005 | Antigravity Quick Start | `corpus/Development/Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start.md` |
