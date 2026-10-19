@@ -32,6 +32,14 @@ This sits cleanly in the Situated Player Role, **The Investigator** — World as
 
 **What kind of experience:** Investigator. The player asks "What happened here? Who left in such a hurry?" and answers it by looking closely — the broken equipment, the coded paper, the kiosks, the message on the globe.  The kiosks earnestly sell a hopeful, shared mission — we're in this together, saving the world — and the player has no reason to doubt them. Then the whale tank's painted globe — "it pays for her cage" — shatters that sincerity in a single read. That gap between what the aquarium promises and what it's actually doing is the engine of the piece, and the globe is the shock that opens it.
 
+### Core loop
+
+- Walk into the next part of the building
+- Look closely at what was left there
+- Inspect it, or let a kiosk speak
+- Fit it against what you already suspect
+- Follow the next clue (the footprints, the signage, the voices in the distance) into the next part of the building
+
 ### A Tradeoff To Consider
 
 A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. Yours doesn't have one designed in yet, but it's sitting right there in your fiction. A few directions it could take:

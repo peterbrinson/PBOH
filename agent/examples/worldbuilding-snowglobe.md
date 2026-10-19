@@ -31,6 +31,14 @@ Two shaping notes fall out of that Boundary:
 - **How the player meets the world.** Your entry is inverted — the player thinks they've already met an ordinary forest, and then the world re-introduces itself as an object. The first real "meeting" is the reveal, not the opening. Worth protecting: the early minutes should feel genuinely like a small quiet forest, so the betrayal lands.
 - **How the world teaches its rule.** You've got this right intuitively — the player learns "hiding stirs the giant" by noticing the pattern, not by being told. Hide, shake. Hide, shake. The world teaches through play. That's the strong version.
 
+### Core loop
+
+- Wander the forest
+- Go to a statue for whatever it offers
+- Hide beneath it
+- Ride out the shake if it comes
+- Wander on once the snow settles
+
 ### A Tradeoff To Consider
 
 A tradeoff — where the player gains one thing only by giving up another — is practical to build into an early iteration. Yours is already designed in: the player wants to get under a statue (for whatever the incentive becomes), but getting under a statue is exactly what tends to summon the shake. To gain the thing, you expose yourself to the disruption. Every approach becomes a weighed decision — is it worth it this time? — and that's what keeps the world from settling into a safe routine. Hold this even before you've named the incentive; the tension lives in the structure, not the specifics.
