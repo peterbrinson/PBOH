@@ -8,14 +8,15 @@ publish: true
 
 ## Learning persistent-workspace fundamentals instead? Start here
 
-The first workshop comes in two versions — same project, same moves, different tool. **Pick one.**
+The first workshop comes in three versions — same project, same moves, different tool. **Pick one.**
 
 - [[Tutorial 2020 - Your First Persistent Workspace (with Codex)|Your First Persistent Workspace (with Codex)]] — needs Codex access granted by USC IT
-- [[Tutorial 2022 - Your First Persistent Workspace (with Antigravity)|Your First Persistent Workspace (with Antigravity)]] — free personal Google account, nothing to request
+- [[Tutorial 2021 - Your First Persistent Workspace (with Antigravity)|Your First Persistent Workspace (with Antigravity)]] — free personal Google account, nothing to request
+- [[Tutorial 2022 - Your First Persistent Workspace (with Claude)|Your First Persistent Workspace (with Claude)]] — needs a paid Claude plan (Pro or higher)
 
 Then:
 
-- [[Tutorial 2021 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] — the same moves on your own material
+- [[Tutorial 2030 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] — the same moves on your own material
 
 ## Start PBOH — pick one
 

@@ -11,7 +11,7 @@ async function* processFile(ctx: BuildCtx, file: VFile) {
   for (const aliasTarget of file.data.aliases ?? []) {
     const aliasTargetSlug = (
       isRelativeURL(aliasTarget)
-        ? path.normalize(path.join(ogSlug, "..", aliasTarget))
+        ? path.posix.normalize(path.posix.join(ogSlug, "..", aliasTarget)) // posix: Windows backslashes broke resolveRelative (2026-10-19)
         : aliasTarget
     ) as FullSlug
 

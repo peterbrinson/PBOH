@@ -11,7 +11,8 @@ We are interested in both the moment before and after entry.   Ponder your playe
 
 What that player attention achieves is intrinsic: beauty, awe, curiosity, dread, excitement — play without winning.
 
-In particular, constraints are expressive, in this case, boundaries.
+A game might start quiet and slow; the core game, the essence, the point of the game comes later.  
+Or it might jump right in; we immediately meet the world as it will be throughout.  For example 
 
 Topics
 - [[Bounded Worlds|Bounded Worlds]]

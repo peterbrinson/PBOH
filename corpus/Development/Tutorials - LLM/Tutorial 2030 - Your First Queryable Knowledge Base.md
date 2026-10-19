@@ -2,7 +2,7 @@
 type: Tutorial
 cssclasses: unreal-tutorial
 publish: true
-aliases: ["Tutorial 2021 - Your First Queryable Knowledge Bundle"]
+aliases: ["Tutorial 2021 - Your First Queryable Knowledge Bundle", "./Tutorial 2021 - Your First Queryable Knowledge Base"]
 ---
 
 ## 0. Introduction

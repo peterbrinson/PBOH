@@ -122,6 +122,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **Game - Pitfall** `corpus/Design/_References/Game - Pitfall.md` — Developer: Activision (David Crane) | Year: 1982 | Platform: Atari 2600
 - **Game - Plug & Play** `corpus/Design/_References/Game - Plug & Play.md` — Developer: Michael Frei & Mario von Rickenbach (Etter Studio / Playables) | Year: 2015 | Platform: PC, mobile
 - **Game - Pony Island** `corpus/Design/_References/Game - Pony Island.md` — Developer: Daniel Mullins Games | Year: 2016 | Platform: PC
+- **Game - POOLS** `corpus/Design/_References/Game - POOLS.md` — Developer: Tensori | Year: 2024 | Platform: PC (Windows, macOS, Linux), VR optional
 - **Game - Portal 2** `corpus/Design/_References/Game - Portal 2.md` — Developer: Valve | Year: 2011 | Platform: PC, console
 - **Game - Portal** `corpus/Design/_References/Game - Portal.md` — Developer: Valve | Year: 2007 | Platform: PC, console
 - **Game - Proteus** `corpus/Design/_References/Game - Proteus.md` — Developer: Ed Key & David Kanaga | Year: 2013 | Platform: PC, PlayStation
@@ -214,21 +215,22 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 ### Development
 
 - **Development** `corpus/Development/index.md` — The hands-on side — building in Unreal Engine and setting up the AI tooling that runs PBOH.
-- **Tutorials - LLM** `corpus/Development/Tutorials - LLM/index.md` — The first workshop comes in two versions — same project, same moves, different tool. Pick one.
+- **Tutorials - LLM** `corpus/Development/Tutorials - LLM/index.md` — The first workshop comes in three versions — same project, same moves, different tool. Pick one.
 - **Tutorial 1001 - Gemini Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1001 - Gemini Terminal Quick Start.md` — By the end of this tutorial, Gemini CLI is installed, pointed at PBOH, and used for your first GET conversation and Prototype Plan.
 - **Tutorial 1005 - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start.md` — By the end of this tutorial, PBOH is open in Antigravity and you have held your first conversation about a project idea. PBOH will save…
-- **Tutorial 1005 (Japanese) - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 (Japanese) - Antigravity Quick Start.md` — Tutorials - LLM/Tutorial 1005 - Antigravity Quick Start|English version →
+- **Tutorial 1005 (Japanese) - Antigravity Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1005 (Japanese) - Antigravity Quick Start.md` — Tutorial 1005 - Antigravity Quick Start|English version →
 - **Tutorial 1011 - Claude Code Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1011 - Claude Code Terminal Quick Start.md` — By the end of this tutorial, Claude Code is installed in your terminal, pointed at PBOH, and used for your first saved Prototype Plan.
 - **Tutorial 1015 - Claude Code Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1015 - Claude Code Desktop Quick Start.md` — By the end of this tutorial, PBOH is open in Claude Code’s desktop interface and you have completed and saved your first Prototype Plan.
 - **Tutorial 1021 - Codex Terminal Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1021 - Codex Terminal Quick Start.md` — By the end of this tutorial, Codex CLI is installed, pointed at PBOH, and used for your first saved Prototype Plan.
 - **Tutorial 1025 - Codex Desktop Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1025 - Codex Desktop Quick Start.md` — By the end of this tutorial, Peter's project, PB Office Hours is open through Codex in the ChatGPT desktop app and you have completed and…
 - **Tutorial 1035 - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start.md` — By the end of this tutorial, Deep Code is connected to DeepSeek, pointed at PBOH, and used for your first saved Prototype Plan.
-- **Tutorial 1035 (Chinese) - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 (Chinese) - DeepSeek Quick Start.md` — Tutorials - LLM/Tutorial 1035 - DeepSeek Quick Start|English version →
+- **Tutorial 1035 (Chinese) - DeepSeek Quick Start** `corpus/Development/Tutorials - LLM/Tutorial 1035 (Chinese) - DeepSeek Quick Start.md` — Tutorial 1035 - DeepSeek Quick Start|English version →
 - **Tutorial 1090 - Fork and Update PBOH** `corpus/Development/Tutorials - LLM/Tutorial 1090 - Fork and Update PBOH.md` — By the end of this optional tutorial, you have a GitHub fork of PBOH that can receive course updates and carry contributions back to the…
 - **Tutorial 1101 - Keep Using PBOH** `corpus/Development/Tutorials - LLM/Tutorial 1101 - Keep Using PBOH.md` — You will know the three main ways to work with PBOH, where it saves your files, and how to resume later.
 - **Tutorial 2020 - Your First Persistent Workspace (with Codex)** `corpus/Development/Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex).md` — By the end of this tutorial you will have Codex access approved, Obsidian installed, and you will have used the two of them together to…
-- **Tutorial 2021 - Your First Queryable Knowledge Base** `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Base.md` — By the end of this tutorial a slice of your own material — a course you teach, a research area, a project's documents — is a working…
-- **Tutorial 2022 - Your First Persistent Workspace (with Antigravity)** `corpus/Development/Tutorials - LLM/Tutorial 2022 - Your First Persistent Workspace (with Antigravity).md` — By the end of this tutorial you will have Antigravity installed, Obsidian installed, and you will have used the two of them together to…
+- **Tutorial 2021 - Your First Persistent Workspace (with Antigravity)** `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Persistent Workspace (with Antigravity).md` — By the end of this tutorial you will have Antigravity installed, Obsidian installed, and you will have used the two of them together to…
+- **Tutorial 2022 - Your First Persistent Workspace (with Claude)** `corpus/Development/Tutorials - LLM/Tutorial 2022 - Your First Persistent Workspace (with Claude).md` — By the end of this tutorial you will have Claude installed, Obsidian installed, and you will have used the two of them together to…
+- **Tutorial 2030 - Your First Queryable Knowledge Base** `corpus/Development/Tutorials - LLM/Tutorial 2030 - Your First Queryable Knowledge Base.md` — By the end of this tutorial a slice of your own material — a course you teach, a research area, a project's documents — is a working…
 - **100 - Discovery and Encounter** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/index.md` — The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.
 - **UE Tutorial 101 - A Floor Plate Opens A Door** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 101 - A Floor Plate Opens A Door.md` — Jump to (01:48): https://vimeo.com/1119249385?fl=pl&fe=cmt=1m45s
 - **UE Tutorial 102 - Collectables and Restart** `corpus/Development/Tutorials - Unreal/100 - Discovery and Encounter/UE Tutorial 102 - Collectables and Restart.md` — Continuing From: UE Tutorial 101 - A Floor Plate Opens A Door|Tutorial 101: A Floor Plate Opens A Door
@@ -249,7 +251,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **UE Tutorial 702 - Niagara Particles** `corpus/Development/Tutorials - Unreal/700 - Tone and Atmosphere/UE Tutorial 702 - Niagara Particles.md` — - A particle effect — smoke, fire, dust, magic sparkles — placed anywhere in the level
 - **index** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/index.md` — - UE Tutorial 801 - Inspect an Object
 - **UE Tutorial 801 - Inspect an Object** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 801 - Inspect an Object.md` — - A readable note in the world — E key opens it full-screen, E closes it; player cannot move or look while reading
-- **UE Tutorial 821 - Base Interactive System (WIP)** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 821 - Base Interactive System (WIP).md` — Learning Objectives:
+- **UE Tutorial 821 - Base Interactive System** `corpus/Development/Tutorials - Unreal/800 - Interactive Systems/UE Tutorial 821 - Base Interactive System (WIP).md` — Learning Objectives:
 - **index** `corpus/Development/Tutorials - Unreal/900 - Release/index.md` — Delivering the playable game and capturing to video.
 - **UE Tutorial 901 - Recording with OBS** `corpus/Development/Tutorials - Unreal/900 - Release/UE Tutorial 901 - Recording with OBS.md` — Learning Objectives:
 - **Tutorials - Unreal** `corpus/Development/Tutorials - Unreal/index.md` — The player explores a responsive world. The essential encounters — triggers, doors, scoring, and UI.
@@ -257,7 +259,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **Unreal Engine** `corpus/Development/Tutorials - Unreal/Unreal Engine.md` — Unreal Engine is a real-time 3D creation platform developed by Epic Games. It is one of the two dominant game engines in the industry,…
 - **a_ai-learn-plan** `corpus/Development/Wiki - Unreal/_meta/a_ai-learn-plan.md` — Goal: learn contemporary AI approaches well enough to teach them. Each step builds toward understanding the full stack, not just using…
 - **a_ai-learn-vision** `corpus/Development/Wiki - Unreal/_meta/a_ai-learn-vision.md` — Where this is all heading and why it matters for the course.
-- **log** `corpus/Development/Wiki - Unreal/_meta/log.md` — Append-only chronological record. Each entry uses a parseable prefix: [DATE] operation | Subject
+- **log** *(unpublished)* `corpus/Development/Wiki - Unreal/_meta/log.md` — Append-only chronological record. Each entry uses a parseable prefix: [DATE] operation | Subject
 - **Actor Has Tag** `corpus/Development/Wiki - Unreal/Actor Has Tag.md` — Checks whether an Actor's Tags array contains a specific name. Returns a boolean — use it with Branch to route logic based on whether the…
 - **Add to Player Screen** `corpus/Development/Wiki - Unreal/Add to Player Screen.md` — A Blueprint node that makes an instantiated widget visible by adding it to the player's viewport. This is the second step after Create…
 - **Animation Blueprint** `corpus/Development/Wiki - Unreal/Animation Blueprint.md` — A specialized Blueprint that controls how a Skeletal Mesh animates. Instead of playing a single animation directly (like Play Animation),…
@@ -330,7 +332,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 
 ### index.md
 
-- **Peter B's Office Hours** `corpus/index.md` — PBOH is a queryable knowledge base — a folder of course material coupled with the instructions that turn an AI into your guide. Open it…
+- **PBOH** `corpus/index.md` — Peter Brinson's Office Hours is a queryable knowledge base — a folder of course material coupled with the instructions that turn an AI…
 
 ### Unity Wiki
 
@@ -367,6 +369,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 | 1090 | Fork and Update PBOH | `corpus/Development/Tutorials - LLM/Tutorial 1090 - Fork and Update PBOH.md` |
 | 1101 | Keep Using PBOH | `corpus/Development/Tutorials - LLM/Tutorial 1101 - Keep Using PBOH.md` |
 | 2020 | Your First Persistent Workspace (with Codex) | `corpus/Development/Tutorials - LLM/Tutorial 2020 - Your First Persistent Workspace (with Codex).md` |
-| 2021 | Your First Queryable Knowledge Base | `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Queryable Knowledge Base.md` |
-| 2022 | Your First Persistent Workspace (with Antigravity) | `corpus/Development/Tutorials - LLM/Tutorial 2022 - Your First Persistent Workspace (with Antigravity).md` |
+| 2021 | Your First Persistent Workspace (with Antigravity) | `corpus/Development/Tutorials - LLM/Tutorial 2021 - Your First Persistent Workspace (with Antigravity).md` |
+| 2022 | Your First Persistent Workspace (with Claude) | `corpus/Development/Tutorials - LLM/Tutorial 2022 - Your First Persistent Workspace (with Claude).md` |
+| 2030 | Your First Queryable Knowledge Base | `corpus/Development/Tutorials - LLM/Tutorial 2030 - Your First Queryable Knowledge Base.md` |
 

@@ -2,6 +2,7 @@
 type: Tutorial
 cssclasses: unreal-tutorial
 publish: true
+aliases: ["./Tutorial 2022 - Your First Persistent Workspace (with Antigravity)"]
 ---
 
 ## 0. Introduction
@@ -201,7 +202,7 @@ That second question is the one this whole workshop was built to make answerable
 
 ---
 
-**Next for your learning:** do this to your own material — [[Tutorial 2021 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] covers the parts this workshop left out, starting with getting real files into markdown.
+**Next for your learning:** do this to your own material — [[Tutorial 2030 - Your First Queryable Knowledge Base|Your First Queryable Knowledge Base]] covers the parts this workshop left out, starting with getting real files into markdown.
 
 
 
