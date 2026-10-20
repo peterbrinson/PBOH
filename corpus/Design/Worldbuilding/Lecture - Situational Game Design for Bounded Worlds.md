@@ -32,7 +32,7 @@ Some situations invite interaction. Others invite anticipation, interpretation, 
 
 ## Games Are More Than Interaction
 
-Yes, games are interactive. But to often game design theory treats interactivity as the whole show — how to structure mechanics, create agency, provide feedback, deliver accomplishment. 
+Yes, games are interactive. But too often game design theory treats interactivity as the whole show — how to structure mechanics, create agency, provide feedback, deliver accomplishment. 
 
 Many games feel playful even when we aren't interacting with them.
 
