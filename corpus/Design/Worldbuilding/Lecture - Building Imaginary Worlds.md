@@ -18,7 +18,16 @@ This page covers the core vocabulary from Mark Wolf's *Building Imaginary Worlds
 
 Chihiro's point-of-view provides a straightforward vehicle for us learn about the world; she is doing so with us. Often, she is as surprised as us.  But sometimes differently - when and how? 
 
----
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Worlds Next to Worlds
 
@@ -48,7 +57,17 @@ According to Wolf, worldbuilding is the process of constructing a fictional worl
 | [[#Invention (Four Types)\|Invention]]     | deliberate departure from the primary (real) world        |
 | Plausibility                               | the world earns belief — a product of the other four      |
 
----
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## Consistency and Internal Logic
 *→ [[Consistency and Internal Logic]]*
 
@@ -58,7 +77,17 @@ Wolf (p.43): a world does not have to be realistic, but it can be consistent.
 
 [[Game - Baba Is You|Baba Is You]] (2019): the rules of the world are literally written on screen as movable word tiles. Rewrite them, and the world's rules change.
 
------
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## Completeness
 *→ [[Completeness]]*
 
@@ -82,8 +111,16 @@ Ancillary details help believability.
 
 In **[[Film - Lord of the Rings|Middle-earth]]**: the old ruins, the faded maps, the languages with their own grammatical history — these are signals that something happened, long before the story began. 
 
-
----
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Catalysts of Speculation
 *→ [[Catalysts of Speculation]]*
@@ -101,7 +138,16 @@ This is designed ambiguity — a gap that invites the audience to lean in and im
 
 The end of [[Reading - The Ones Who Walk Away from Omelas (Le Guin)|"The Ones Who Walk Away from Omelas"]] lets us ponder.
 
------
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Invention (Four Types)
 *→ [[Wolf's Taxonomy of Invention]]*
@@ -157,7 +203,7 @@ The fundamental nature of reality changed.
 
 ![[week2-everything.webp]]
 
-[[Reading - The Planiverse (Dewdney)|*The Planiverse*]] (1984): a 2D world — all physics, biology, and architecture follow from having only two spatial dimensions.
+*[[Reading - The Planiverse (Dewdney)|The Planiverse]]* (1984): a 2D world — all physics, biology, and architecture follow from having only two spatial dimensions.
 
 ![[week2-planiverse.webp]]
 
@@ -165,7 +211,16 @@ In **[[Film - Lord of the Rings|Middle-earth]]**: *Magic* might be the most comm
 
 ![[week2-lotr-magic.webp]]
 
----
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Wolf's Eight Elements of Worlds
 *→ [[World Structure - Wolf's Eight Elements]]*
@@ -268,7 +323,17 @@ Tolkien was a professional philologist — a scholar of languages and their hist
 
 **[[Game - Disco Elysium|Disco Elysium]]** (2019): explicit political philosophy; the world is a debate about ideologies and what they cost.
 
----
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 ## The World Is Not A Story, But It Can Facilitate One
 *→ [[Completeness]]*
 
@@ -286,10 +351,36 @@ But...
 
 **[[Game - Red Dead Redemption 2|Red Dead Redemption 2]]** (2018) runs 60+ hours. Most of it has nothing to do with Arthur's story. NPCs live on schedules. Towns have their own histories. The open world implies a life that goes on whether or not the camera is pointing at it.
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
----
------
+## Meeting the World
+*→ [[Meeting the World]]*
 
+Now that we have the big picture, let's talk about the experience — how it begins.
+
+The first moments set the terms. A game might start quiet and slow, with the essential part yet to come, like [[Game - Outer Wilds|Outer Wilds]]. Or it might jump right in, and we meet the world as it will be throughout, like [[Game - Risk of Rain 2|Risk of Rain 2]].
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Quick Reference
 ### Inventions (Wolf p.35)
 
 | Type | What it covers |
@@ -311,6 +402,17 @@ But...
 | 6 | **Language** | Languages, dialects, naming conventions |
 | 7 | **Mythology** | Belief systems, cosmology, religion, founding stories |
 | 8 | **Philosophy** | Underlying values; what the world thinks is true |
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Page References
 
