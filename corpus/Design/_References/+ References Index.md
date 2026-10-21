@@ -43,7 +43,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → Death Stranding, A Short Hike, NaissanceE, Journey, Shadow of the Colossus
 
 **A bounded / closed world with an enforced edge or one-way direction**
-→ Snowpiercer, The Platform, Hades, Severance, Dr Langeskov, Coraline, The Truman Show, Little Nightmares, Stray, NaissanceE, Backrooms, POOLS, The Exit 8
+→ Snowpiercer, The Platform, The Zone of Interest, Hades, Severance, Dr Langeskov, Coraline, The Truman Show, Little Nightmares, Stray, NaissanceE, Backrooms, POOLS, The Exit 8
 
 **Crossing into another world and (maybe) returning changed**
 → Spirited Away, The Matrix, Twin Peaks, Coraline, World of Tomorrow, Annihilation
@@ -211,6 +211,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 | [[Film - The Platform]]                                    | Entrant, Dreamer                 | A vertical closed-system allegory — a food platform descending through a prison of levels                                                                    |
 | [[Film - The Truman Show]]                                 | Traveler                         | A life inside a constructed set built to keep one man from leaving — the world's edge is a wall with a door                                                  |
 | [[Film - The Van (2019)]]                                  | Dreamer                          | A 15-minute film of value-driven dilemmas — narrative arc at its most compact                                                                                |
+| [[Film - The Zone of Interest]]                            | Investigator, Dreamer            | A closed domestic world beside Auschwitz — the camp is never shown, only heard over the garden wall; the boundary is the horror                    |
 | [[Film - Twin Peaks]]                                      | Investigator,  Traveler, Dreamer | A murder mystery that opens onto a dream-logic realm with a crossable boundary                                                                               |
 | [[Film - World of Tomorrow]]                               | Dreamer, Traveler                | A tour through minimal worlds, each a single memory or idea; constant boundary-crossing, melancholy                                                          |
 | [[Comic - Calvin and Hobbes]]                              | Dreamer                          | Spaceman Spiff — a child's imagination as a fully realized other world; graphic design alone carrying the emotion                                            |

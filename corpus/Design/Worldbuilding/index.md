@@ -59,6 +59,7 @@ The player can encounter the edge of the world. The boundary is found during pla
 > - [[Game - Gone Home|Gone Home]] (2013) — the storm-lit house is the world; the family's wider life is implied through rooms, objects, and absences
 > - [[Game - BioShock|BioShock]] (2007) — Rapture is sealed by the ocean; the surface exists as memory, ideology, and almost-impossible escape
 > - [[Film - Snowpiercer|Snowpiercer]] (Bong Joon-ho, 2013) — the train holds the last of humanity; outside is death, therefore the cars cannot be left
+> - [[Film - The Zone of Interest|The Zone of Interest]] (Jonathan Glazer, 2023) — the commandant's family garden shares a wall with Auschwitz; the camp is never shown, only heard and smelled over the wall, an outside kept out of view by choice
 > - [Flatland](https://en.wikipedia.org/wiki/Flatland) (Edwin Abbott, 1884) — two-dimensional beings who cannot reach the third dimension they are shown
 > - [[Film - The Platform|The Platform]] (Galder Gaztelu-Urrutia, 2019) — a vertical prison-pit; the structure holds each prisoner to their level
 > - [[Film - La Maison en Petits Cubes|La Maison en Petits Cubes]] (Kunio Katō, 2008) — a whole life stacked as rooms, read by diving down through them; it would be Finite but for the moment other structures appear in the distance — an outside that plainly exists, and that he never ventures to

@@ -50,6 +50,7 @@ PBOH's single source of truth for **where each corpus page lives** and **which t
 - **Film - The Platform** `corpus/Design/_References/Film - The Platform.md` — Director: Galder Gaztelu-Urrutia | Year: 2019 | Runtime: 94 min
 - **Film - The Truman Show** `corpus/Design/_References/Film - The Truman Show.md` — Director: Peter Weir · Year: 1998
 - **Film - The Van (2019)** `corpus/Design/_References/Film - The Van (2019).md` — Director: Erenik Beqiri | Year: 2019 | Runtime: 15 min | Country: Albania / France
+- **Film - The Zone of Interest** `corpus/Design/_References/Film - The Zone of Interest.md` — Director: Jonathan Glazer · Year: 2023 · loosely based on Martin Amis's novel
 - **Film - Twin Peaks** `corpus/Design/_References/Film - Twin Peaks.md` — Creators: David Lynch and Mark Frost | Year: 1990–1991 (series), 2017 (The Return) | Network: ABC / Showtime
 - **Film - World of Tomorrow** `corpus/Design/_References/Film - World of Tomorrow.md` — Director: Don Hertzfeldt · Year: 2015 · Runtime: 17 min
 - **Game - 12 Minutes** `corpus/Design/_References/Game - 12 Minutes.md` — Developer: Luis Antonio | Year: 2021 | Platform: PC, console
