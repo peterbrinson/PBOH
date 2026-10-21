@@ -46,7 +46,7 @@ Role affinity is an *affinity*, not a lock — many of these span roles. Use it 
 → Snowpiercer, The Platform, The Zone of Interest, Hades, Severance, Dr Langeskov, Coraline, The Truman Show, Little Nightmares, Stray, NaissanceE, Backrooms, POOLS, The Exit 8
 
 **Crossing into another world and (maybe) returning changed**
-→ Spirited Away, The Matrix, Twin Peaks, Coraline, World of Tomorrow, Annihilation
+→ Spirited Away, The Matrix, Twin Peaks, Coraline, World of Tomorrow, Annihilation, What Remains of Edith Finch
 
 **Dream logic / the inside of a mind / layered unreal space**
 → Inception, Paprika, Psychonauts, Pan's Labyrinth, KID A MNESIA Exhibition, 2001 A Space Odyssey, Everything, Eternal Sunshine of the Spotless Mind, Inside Out, Beau Is Afraid, Bardo, The Father, Naked Lunch, The Cabinet of Dr Caligari, Alan Wake 2, Gris, Back to Bed, Superliminal, Antichamber, Alan Wake, Calvin and Hobbes, World of Tomorrow

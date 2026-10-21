@@ -73,11 +73,13 @@ The player can approach and pass from one state or space into another.
 
 > [!example]- Examples
 > - [[Reading - Alice's Adventures in Wonderland (Carroll)|Alice in Wonderland]] (Lewis Carroll, 1865) — down the rabbit-hole into a world with its own logic
+> - [The Chronicles of Narnia](https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia) (C.S. Lewis, 1950–1956) — through the wardrobe into Narnia and back again. Related: Harry Potter
 > - [[Film - The Matrix|The Matrix]] (Wachowski Sisters, 1999) — crossing between the simulation and the real
 > - [[Film - Inception|Inception]] (Christopher Nolan, 2010) — descent through nested dream layers, each a world within a world
 > - [[Film - Paprika|Paprika]] (Satoshi Kon, 2006) — the boundary between dream and waking dissolves 
-> - [[Game - Portal|Portal]] (2007) — the portal itself is the crossing: step through one space, emerge from another
+> - [[Game - Portal|Portal]] (2007) — deep in the game you discover the machinery behind the walls, the facility's backstage where the player ultimately confronts GLaDOS
 > - [[Game - Psychonauts|Psychonauts]] (2005) — you cross from the physical camp into the interior worlds of other minds
+> - [[Game - What Remains of Edith Finch|What Remains of Edith Finch]] (Giant Sparrow, 2017) — an object in each room of the family house opens into a relative's story, played their way; you cross into each and return to the house
 > - [[Film - World of Tomorrow|World of Tomorrow]] (Don Hertzfeldt, 2015) — a child pulled across time into a distant, stranger future
 > - [[Film - Spirited Away|Spirited Away]] (Miyazaki, 2001) — Chihiro passes through the tunnel into the spirit world, before crossing back
 > - [[Reading - Piranesi (Clarke)|Piranesi]] (Susanna Clarke, 2020) — the labyrinthine house connects to our world through hidden ways
@@ -85,7 +87,7 @@ The player can approach and pass from one state or space into another.
 > - [[Film - Twin Peaks|Twin Peaks]] (1990–1991, 2017) — the town opens onto the Red Room, another order of reality
 > - [[Film - Severance|Severance]] (2022–) — the threshold splits work-self from home-self; crossing it changes who you are
 > - [[Game - Hades|Hades]] (2020) — each escape attempt crosses out of the Underworld toward the surface
-> - [The Chronicles of Narnia](https://en.wikipedia.org/wiki/The_Chronicles_of_Narnia) (C.S. Lewis, 1950–1956) — through the wardrobe into Narnia and back again
+
 
 A Boundary describes the player's experience of the edge, not a property of the world itself. Judge it from inside the player's perspective — a locked door only reads as Closed if the player feels it as sealed — not from an outside description of "the thing" (the room, the ship, the pocket dimension). And a Boundary can change over the course of play: a game might hold Closed for its first hour, then open into a Threshold once a door finally gives way. Naming a Boundary describes the experience *right now*, not a fixed label for the whole game.
 
