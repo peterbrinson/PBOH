@@ -18,7 +18,7 @@ A door is locked. Two colored boxes sit in the room, and two colored pads sit on
 
 ![[unrealTutorial_13_101.gif]]
 
-**Learning Objectives:**
+**Learning Objectives (a LOT!):**
 - Highlight whatever the player is looking at with an outline (Custom Depth and a post-process material)
 - Create child Blueprints that inherit hover, UI, and interaction from `BP_Interactable_Base`
 - Carry a physics object in front of the camera with a **Physics Handle**, the way Portal does
@@ -36,7 +36,7 @@ Open `BP_Interactable_Base`. In **Components**, make sure `InteractRadius` and t
 
 ![[unrealTutorial_13_104.png]]
 
-<span class="hint">The box you build later simulates physics. A physics object moves away from the actor's root, and only the components parented under it come along. If the radius stays behind, the box stops being interactable once you carry it somewhere.</span>
+<span class="hint">The box you build later simulates physics. A physics object moves away from the actor's root, and only the components parented under it come along (Why is this? Try searching). Thus, if the radius stays behind, the box stops being interactable once you carry it somewhere.</span>
 
 ### A1. Count Overlaps Instead of Toggling
 
@@ -116,7 +116,7 @@ Test it. Look at your 821 cube: the outline and the "E" should appear together a
 
 ![[unrealTutorial_13_128.gif]]
 
-<span class="hint">Because this lives in the base class, every child Blueprint you make from now on gets the outline and the "E" for free. That's the point of the next two chapters.</span>
+<span class="hint">Because this lives in the base class, every child Blueprint you make from now on gets the outline and the "E" overlay. That's the point of the next two chapters.</span>
 
 ---
 
@@ -142,8 +142,6 @@ Create a **Material** named `M_PuzzleColor`. Add a **Vector Parameter** named `C
 
 Right-click `BP_Interactable_Base` in the Content Browser and choose **Create Child Blueprint Class**. Name it `BP_PuzzleBox`.
 
-![[unrealTutorial_13_137.png]]
-
 Open it. The components from 821 are already there. Inherited components can't be renamed or reparented, but their Details can be changed.
 
 Select `Mesh_Interactable`:
@@ -163,7 +161,7 @@ The box also needs to remember which pad it sits on, but the pad doesn't exist y
 
 ### B4. Color the Box in the Construction Script
 
-Open the **Construction Script** tab. It runs in the editor every time you change the box, so the color updates as soon as you change `Key`.
+Open the [[Construction Script]] tab. It runs in the editor every time you change the box, so the color updates as soon as you change `Key`.
 
 - Drag in `Mesh_Interactable` and add **Create Dynamic Material Instance**. Set **Source Material** to `M_PuzzleColor`.
 - From its Return Value, add **Set Vector Parameter Value**. Set **Parameter Name** to `Color`.
@@ -215,7 +213,7 @@ Open `BP_FirstPersonCharacter`. In **Components**, add a **Physics Handle**.
 
 ![[unrealTutorial_13_149.png]]
 
-A Physics Handle holds a physics object toward a target point you set every frame. The box stays a real physics object while you carry it: it bumps into walls instead of passing through them, and it lags a little behind your view.
+A Physics Handle holds a physics object toward a target point you set every frame. The box stays a real physics object while you carry it: it bumps into walls instead of passing through them, and it lags a little behind your view. (George: I personally could not find a good article/video online that explains what a physics handle component is doing behind the scene. If you are interested in its working logic on an infrastructure level, asking an LLM is a good choice.) 
 
 ### C1. Cache the Handle and Camera
 
@@ -292,7 +290,7 @@ Pressing E while looking at nothing now drops the box.
 
 <span class="save">Save All</span>
 
-Test it: look at a box, press E, walk around, look at empty floor, press E.
+Test it: look at a box, press E, walk around, look at empty floor, press E. You can even throw it into the sky. 
 
 ![[unrealTutorial_13_170.gif]]
 
@@ -467,6 +465,8 @@ Test the whole puzzle. Try a wrong arrangement first, then the right one, then p
 **BP_PuzzleDoor: BeginPlay, Check Pads, Timeline:**
 
 ![[unrealTutorial_13_236.png]]
+
+**Congratulations on finishing this tutorial! It's a long journey, and I clap for you for walking through it with me.** 
 
 ---
 

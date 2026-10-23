@@ -5,9 +5,7 @@ cssclasses: unreal-tutorial
 ---
 
 
-<span style="color:#d9a8b3; font-size:1.4rem">*By Yibei He & Peter Brinson*</span>
-
-> *Disclaimer: since being converted from a different platform, this document has not yet been proofread. And many of the images need updating. You are welcome to ask Peter any questions.*
+<span style="color:#d9a8b3; font-size:1.4rem">*By Yibei He, Peter Brinson, and George Zou*</span>
 
 ## 0. Introduction
 
@@ -28,12 +26,12 @@ This tutorial starts from a new project. [[UE Tutorial 822 - Pick Up, Place, and
 
 Open Unreal Engine. In the **Project Browser**, choose **Games**, then the **First Person** template.
 
-Under **Project Defaults**, choose **Blueprint**, not C++. You don't need a Variant or Starter Content for this tutorial.
+Under **Project Defaults**, choose **Blueprint**, not C++. 
 ![[Pasted image 20261016000624.png]]
 
 ### 0.2 Name and Verify
 
-Name the project something you'll recognize later, such as `InteractiveSystems`. Click **Create**.
+Name the project then Click **Create**.
 
 <span class="hint">Use this project for Tutorial 822 as well. Everything 822 builds sits on top of what you make here.</span>
 
@@ -42,8 +40,6 @@ Once the project opens, press **Play**. You should be walking around the templat
 ### 0.3 Find the Player Character
 
 In the Content Browser, open **FirstPerson → Blueprints**. `BP_FirstPersonCharacter` is the player. In A2 you'll add the interaction logic to it as a component.
-
-<span class="hint">The template already uses the left mouse button, Space, WASD, and the mouse. E is free, which is why this tutorial binds interaction to it.</span>
 
 ---
 
@@ -57,8 +53,6 @@ Right-click in the Content Browser, create a Blueprint, choose **Actor**, and re
 ![[unrealTutorial_10_104.webp]]
 
 Double-click to open it. In **Components**, add a **Static Mesh** component and rename it `Mesh_Interactable`.
-
-<span class="hint">In Unreal, searching is almost always faster than scrolling — use the search field in Components, Details, and most other panels.</span>
 
 ![[unrealTutorial_10_107.webp]]
 ![[unrealTutorial_10_110.webp]]
@@ -76,7 +70,6 @@ Click on **BP_Interactable_Base** in the [[Components]] panel and add the tag `I
 ![[unrealTutorial_10_119.webp]]
 ![[unrealTutorial_10_122.webp]]
 
-<span class="hint">When you drag the actor into the level, position it so the player starts outside the interaction radius.</span>
 
 ### A1. Setup Interact Overlap
 
@@ -92,14 +85,12 @@ Drag from each event node and search for **[[Cast To|Cast to]] BP_FirstPersonCha
 
 ### A2. Create Interaction Component
 
-Create a new Blueprint and choose **Actor Component**.
-
-<span class="hint">Actor Component is not in the "Common" list at the top — enable "All Classes" to find it.</span>
+Create a new Blueprint and choose **Actor Component**. Name it "Interaction Component".
 
 ![[unrealTutorial_10_131.webp]]
 ![[unrealTutorial_10_134.webp]]
 
-Add it to `BP_FirstPersonCharacter` (in **FirstPerson → Blueprints**, from step 0.3). Keeping interaction logic in a dedicated component makes it easy to disable — just remove the component from the character.
+Add it to `BP_FirstPersonCharacter` (in **FirstPerson → Blueprints**, from step 0.3). Keeping interaction logic in a dedicated component makes it easy to disable (by basically removing the component).
 
 ![[unrealTutorial_10_137.webp]]
 ![[unrealTutorial_10_140.webp]]
@@ -122,16 +113,14 @@ For **On Component End Overlap**, do the same but uncheck **Is Overlapped**.
 
 ![[unrealTutorial_10_152.webp]]
 
-Back in the Interactable Blueprint, add **[[Branch]]** and **[[Print String]]** nodes to test.
+Back in the Interactable Blueprint, add **[[Branch]]** and **[[Print String]]** nodes to test as follows.
 
 ![[unrealTutorial_10_155.webp]]
 
-Toggle between `BP_Interactable_Base` and `InteractionComponent`'s [[Event Graph|EventGraph]] to see how `OnInteractableOverlap` is called as a custom function.
+Test it: position the actor and player so the player starts outside the radius, then walk into and outside of the radius and see the print statements. 
 
 ![[unrealTutorial_10_158.webp]]
 ![[unrealTutorial_10_161.webp]]
-
-Test it — position the actor and player so the player starts outside the radius.
 
 ### A4. Setup the Line Trace Logic
 
@@ -166,11 +155,11 @@ Use **Sphere Trace By Channel** rather than Line Trace. The sphere width means t
 
 ![[unrealTutorial_10_182.webp]]
 
-Build the math for the trace start location. Take time with this — hover over nodes for documentation pop-ups. Note the **Divide** nodes and type-conversion nodes. Did you need to uncheck **Context Sensitive** to find `Convert Screen Location To World Space`?
+Build the math for the trace start location as follows. Take time with this: hover over nodes for documentation pop-ups. Note the **Divide** nodes and type-conversion nodes. Did you need to uncheck **Context Sensitive** to find `Convert Screen Location To World Space`?
 
 ![[unrealTutorial_10_185.webp]]
 
-When you first create the **Add** and **Multiply** nodes, they accept Vector3 values. Right-click around those fields to **Promote to Variable** — this creates a `New Var` node. Rename it `Trace Distance`, change the type to **Float**, and set its Default Value to `250.0`.
+When you first create the **Add** and **Multiply** nodes, they accept Vector3 values. Right-click around those fields to **Promote to Variable**; this creates a `New Var` node. Rename it `Trace Distance`, change the type to **Float**, and set its Default Value to `250.0`.
 
 ![[unrealTutorial_10_188.webp]]
 ![[unrealTutorial_10_191.webp]]
@@ -197,7 +186,7 @@ For the false branch, clear all look-related state. Add a **Print String** to te
 
 Back in **On Interactable Overlap**, add two **Draw Trace** calls as shown. Test the system now.
 
-<span class="hint">This `EventGraph` has a lot of detail — don't be discouraged if something doesn't connect first try. Check every pin and parameter methodically.</span>
+<span class="hint">This `EventGraph` has a lot of detail; don't be discouraged if something doesn't connect first try. Check every pin and parameter methodically.</span>
 
 ![[unrealTutorial_10_209.webp]]
 
@@ -205,9 +194,9 @@ You should see output in the print log:
 
 ![[unrealTutorial_10_212.gif]]
 
-Currently the trace fires every 0.1s continuously. Optimize it: only **Set Interactable Item** when the actor has actually changed — not on every tick.
+Currently the trace fires every 0.1s continuously. Let's optimize it: only **Set Interactable Item** when the actor has actually changed, not on every tick.
 
-Add the two new **Branch** nodes shown at the far right. Insert them between the existing Branches and Sets. Note the **Equal (==)** and **Not (Boolean)** nodes integrated here.
+Add the two new **Branch** nodes shown at the far right. Insert them between the existing Branches and Sets. Note the Equal and NOT node integrated here: what are they checking? 
 
 ![[unrealTutorial_10_215.webp]]
 
@@ -228,6 +217,7 @@ The behavior is the same as the GIF above, but `Print "Looking"` and `Print "Not
 **InteractionComponent — Detect Sight:**
 
 ![[unrealTutorial_10_224.webp]]
+
 ![[unrealTutorial_10_227.webp]]
 
 ---
@@ -240,11 +230,9 @@ In **BP_Interactable_Base**, create two [[Custom Events|custom events]]: `On Hov
 
 ![[unrealTutorial_10_230.webp]]
 
-Back in **InteractionComponent**, insert the nodes highlighted in red below. Note: **Is Valid** is found under "struct" — look for the `?` icon on the node.
+Back in **InteractionComponent**, insert the nodes highlighted in red below. Note: **Is Valid** is found under "struct" – look for the `?` icon on the node.
 
-![[unrealTutorial_10_233.webp]]
-
-Insert the red-rectangle nodes again in the second location. This prevents errors — we set the item to `UnHovered` first, then to `Hovered`, ensuring clean state transitions.
+Insert the red-rectangle nodes again in the second location. This prevents errors – we set the item to `UnHovered` first, then to `Hovered`, ensuring clean state transitions.
 
 ![[unrealTutorial_10_236.webp]]
 
