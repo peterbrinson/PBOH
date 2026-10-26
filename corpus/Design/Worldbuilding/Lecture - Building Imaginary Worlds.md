@@ -9,6 +9,8 @@ publish: true
 
 This page covers the core vocabulary from Mark Wolf's *Building Imaginary Worlds* — a strong reference for worldbuilding terms. 
 
+**→ The book:** [*Building Imaginary Worlds: The Theory and History of Subcreation* — Mark J.P. Wolf (Amazon)](https://www.amazon.com/dp/041563119X)
+
 
 ---
 
