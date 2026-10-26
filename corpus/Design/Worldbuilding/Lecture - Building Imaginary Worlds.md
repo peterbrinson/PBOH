@@ -11,6 +11,8 @@ This page covers the core vocabulary from Mark Wolf's *Building Imaginary Worlds
 
 **→ The book:** [*Building Imaginary Worlds: The Theory and History of Subcreation* — Mark J.P. Wolf (Amazon)](https://www.amazon.com/dp/041563119X)
 
+**→ At the USC Library:** [*Building Imaginary Worlds* — USC Libraries (free to read with your USC login)](https://uosc.primo.exlibrisgroup.com/discovery/fulldisplay?docid=cdi_safari_books_v2_9781136220807&context=PC&vid=01USC_INST:01USC&lang=en&search_scope=MyInst_and_CI&adaptor=Primo%20Central&tab=Everything&mode=Basic)
+
 
 ---
 
