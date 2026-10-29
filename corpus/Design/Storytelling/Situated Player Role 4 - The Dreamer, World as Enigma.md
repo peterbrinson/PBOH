@@ -76,6 +76,17 @@ Satoshi Kon’s animated film, _[[Film - Paprika|Paprika]]_, offers a clear imag
 
 This is a character’s subconscious made manifest. A Dreamer game can work similarly, turning a character’s inner life into spaces, objects, and rules the player acts upon.
 
+## Visiting Another Mind
+
+In *[[Game - Psychonauts|Psychonauts]]* (2005), Raz, a young psychic at a summer camp, can enter other characters’ minds. Each mind is its own level — a world whose spaces, rules, and enemies manifest that person’s personality and troubles.
+
+![[spr_dreamer_psychonauts_portal.webp]]
+*Coach Oleander and his Psycho-Portal  
+
+Some objects recur in every mind: **emotional baggage** — suitcases and handbags that sob until Raz matches them with their tags — and **censors**, the mind’s defenses that attack anything that doesn’t belong there.
+
+The Dreamer here is a visitor. In *Papo & Yo*, the world expresses the protagonist’s own inner life. In *Psychonauts*, every level expresses someone else’s.  
+
 ## The Dreamer Among the Other Roles
 
 The four roles place discovery and control in different relationships:

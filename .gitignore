@@ -29,3 +29,6 @@ site/quartz-local.*.log
 
 .DS_Store
 */.DS_Store
+
+# Windows folder metadata
+desktop.ini
