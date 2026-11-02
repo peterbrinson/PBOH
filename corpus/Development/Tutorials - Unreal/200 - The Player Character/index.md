@@ -10,5 +10,5 @@ publish: true
 
 ---
 
-- [[UE Tutorial 201 - Pawn Possession (WIP)]]
+- [[UE Tutorial 201 - Pawn Possession]]
 - [[UE Tutorial 202 - MetaHuman Animations]]

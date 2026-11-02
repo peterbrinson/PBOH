@@ -18,7 +18,7 @@ publish: true
 
 ## [[200 - The Player Character]]
 *Building the character — pawn possession and animation.*
-- [[UE Tutorial 201 - Pawn Possession (WIP)]]
+- [[UE Tutorial 201 - Pawn Possession]]
 - [[UE Tutorial 202 - MetaHuman Animations]]
 
 ## [[300 - Environment Systems]]
