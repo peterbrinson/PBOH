@@ -8,7 +8,7 @@ Loaded by `agent/map-project-skill.md` at the first scope check (after Step 2) a
 
 ## The budget
 
-A course project (Investigator, Traveler, Dreamer, hybrid, Bounded Worlds) is built by **one person in two weeks**.
+A course project (Investigator, Traveler, Dreamer, hybrid, Bounded Worlds) is normally built by **one person in two weeks**. **NOTE THAT** sometimes it is more than one person: sometimes 2, sometimes 5. Please make sure you are clear about how many people are working on this project before you do the rest of the calculation. In the case of more than one person, just use the calculation rules below times the number of person. 
 
 In working hours, that is roughly **[20–25 hours - to confirm]**: two weeks at about 10 to 12 hours a week, alongside other classes.
 

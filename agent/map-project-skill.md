@@ -49,7 +49,7 @@ Also: any time the student is describing an idea and you're tempted to start pre
 
 ## Workflow
 
-### Step 1 — Context check: is there an assignment?
+### Step 1 — Context check: is there an assignment? How many people are working on it? 
 
 Before anything else, find out whether this is for a course project or an open project. The course's three projects are named after the player roles and run in a fixed sequence:
 
@@ -61,7 +61,7 @@ Before anything else, find out whether this is for a course project or an open p
 
 Ask the student plainly — using role/project names, **never numbers**:
 
-- "Is this for the **Investigator** project, the **Traveler** project, the **Dreamer**, a hybrid, **Bounded Worlds** — or something you're exploring on your own?"
+- "Is this for the **Investigator** project, the **Traveler** project, the **Dreamer**, a hybrid, **Bounded Worlds** — or something you're exploring on your own? How many people are working on this project?"
 
 (The Session start greeting in `how-the-tutor-works.md` already asks this. If the student named their project there, **don't re-ask** — confirm and proceed down the matching path below.)
 
@@ -128,6 +128,8 @@ If the first answer is a single flat word, ask them to describe the feeling rath
 ### Scope check, first pass (before Step 3)
 
 Load `agent/scope-calibration.md` now. At this point you have the idea and the core experience goal, and no feature list yet, so this pass is a rough read of size.
+
+If the student does not confirm how many people are working on this project, STOP the scope check. 
 
 **What to look at.** Count the handmade content the idea describes: spaces or rooms, levels, scenes, characters, endings. Then scan the idea against the **warning signs** in the calibration file (several levels, combat, enemy or NPC behavior, branching dialogue, multiplayer, procedural generation, an open world, saving and loading). Compare what you see against the baseline table there.
 
